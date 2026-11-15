@@ -1,0 +1,24 @@
+{
+  "_note": "Machine-readable copy of story/bible.md section 5. tools/art reads this file first. Keep it in sync with the bible.",
+  "style": "Korean webtoon style, full colour, clean digital linework with soft cel shading, cinematic framing, expressive faces. Palette: warm paper cream, ink black, ash grey, ochre/brass lamp light, cold teal reserved for the Silent, and vermilion reserved only for word power. No purple, no violet, no blue neon",
+  "characters": {
+    "dan": "24-year-old East-Slavic man, 178 cm, lean and slightly hunched, tired but kind face, short messy black hair with a cowlick, dark brown eyes with faint dark circles, round black-frame glasses with a bit of tape on the hinge, light stubble. Rumpled pale-grey button-up shirt with sleeves rolled to the elbows, loosened dark-olive chinos, white sneakers, a mustard-yellow office lanyard around his neck, a yellow carpenter pencil behind his right ear",
+    "mira": "23-year-old woman, 168 cm, athletic and wiry, sharp narrow face, olive-tan skin, amber-gold eyes, small scar through her left eyebrow, dark-brown choppy shoulder-length hair tied in a short ponytail with loose strands. Olive-khaki canvas climbing jacket with patched elbows, long cream scarf, black fingerless gloves, ink-black cargo trousers, rust-brown boots, a worn canvas backpack with a coil of rope, a frayed vermilion cord bracelet on her left wrist. Default expression: dry, unimpressed, half-lidded",
+    "silent": "tall (2.3 m) gaunt humanoid with a smooth, featureless, matte paper-white head and face (no eyes, no nose), a single thin vertical teal seam where a mouth would be. Long arms and long thin fingers like unbound pages. Tattered, faded grey-teal remnants of human clothing, ink-teal drips from the fingertips, body edges dissolving into cold teal shadow",
+    "keeper": "man of indeterminate age, seen only from the nose down: pale thin face, calm small smile, ink-stained fingertips. Long ink-black robe with a high deep hood that hides the eyes, sleeves embroidered with fine ochre thread script, a brass quill pen tucked in the sleeve",
+    "system": "a floating rectangular panel of aged cream paper with soft torn edges, a thin double border in vermilion, small notched corners, blank inside (text added later), a faint round ink-stamp seal in the bottom-right corner, slightly tilted 2-3 degrees, casting a soft shadow on the scene; no avatar, no face, never blue, never neon"
+  },
+  "locations": {
+    "office-night": "open-plan engineering office at 2 AM, empty. Cold fluorescent grey-green light from the ceiling, warm sodium-orange glow of city lights through the big window, a single glowing monitor with blueprint drawings, rolled drawings, a cold coffee mug, cluttered desk; lonely, slightly sickly light",
+    "tower-exterior": "a colossal bone-white limestone tower rising through cream clouds beyond the frame, spiral balconies, thousands of tiny vermilion glowing letters drifting upward like lanterns, empty stone plaza at dusk, sky dusty apricot at the horizon to grey-teal above",
+    "corridor": "narrow stone corridor, soot-dark brown walls with torn paper pages glued on them, occasional vermilion lantern-words dripping a little light, cold teal darkness at the far end",
+    "room": "tiny round safe room, ochre walls scratched all over with names, an old mattress and rusty tin cans, a bare lamp hanging from the ceiling whose flame has a vermilion core; warm ochre light, cosy and fragile",
+    "hall": "a vast colonnade hall of pale stone pillars, dim ash-grey light from high slits, Silent figures standing along the walls with blank faces turned toward the sound, a worn fresco of two girls holding hands near the exit arch",
+    "s1e04:hall": "huge round library, shelves from floor to a domed ceiling, thousands of glass jars each holding a glowing vermilion word like fireflies, warm amber light, paper-strewn floor, a high-backed dark wooden chair in the centre; behind the chair a sealed door covered with vermilion wax seals",
+    "gate": "colossal house-high stone arch with no handle or lock, one long line of faint engraved vermilion glyphs above it, cold teal shadows pooling at the base",
+    "dungeon": "cold bare stone hall with a high black wooden door at the far end, iron bands on the door, teal shadow, ash-grey light",
+    "flash": "pure white overexposed frame with a faint vermilion crack of light",
+    "black": "almost entirely black frame, deep ink darkness with only a faint rim light",
+    "sky": "open sky above the Tower, cream clouds, dusty apricot light fading to grey-teal"
+  }
+}

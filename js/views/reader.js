@@ -8,6 +8,20 @@ import { icon, errorBox } from '../ui.js';
 
 const BUBBLE = new Set(['speech', 'thought', 'shout']);
 
+// ---- optional real art: art/<episodeId>/<NN>.jpg (+ .mp4), listed in art/manifest.json when present ----
+let manifestP = null;
+function loadManifest() {
+  if (!manifestP) {
+    const f = fetch('art/manifest.json')
+      .then((r) => (r.ok ? r.json() : null))
+      .catch(() => null);
+    const t = new Promise((res) => setTimeout(() => res(null), 2000));
+    manifestP = Promise.race([f, t]).then((m) => (m && typeof m === 'object' ? m : null));
+  }
+  return manifestP;
+}
+const nn = (i) => String(i + 1).padStart(2, '0');
+
 function tokensHTML(text, newSet) {
   return tokenize(text)
     .map((t) => {
@@ -52,7 +66,7 @@ function lineHTML(line, ep, newSet, sideOf) {
   return `<div class="bub-wrap side-${side}"><div class="bub bub-${t}">${inner}</div></div>`;
 }
 
-function panelHTML(p, i, ep, newSet) {
+function panelHTML(p, i, ep, newSet, media) {
   const sides = {};
   let nextSide = 0;
   const posOf = (id) => {
@@ -75,14 +89,23 @@ function panelHTML(p, i, ep, newSet) {
   }
   const rest = lines.slice(k).map((l) => lineHTML(l, ep, newSet, sideOf)).join('');
   const mood = ['calm', 'tense', 'action'].includes(p.mood) ? p.mood : 'calm';
-  return `<section class="panel mood-${mood} rv" data-i="${i}">
-<div class="art">${renderPanelArt(p, db.chars)}${caps.length ? `<div class="caps">${caps.join('')}</div>` : ''}</div>
+  const known = media.entry && (media.entry.images || []).includes(i + 1);
+  const alt = esc(p.art || '');
+  const img = known
+    ? `<img class="art-img" src="${esc(media.base + nn(i) + '.jpg' + media.q)}" alt="${alt}" decoding="async" loading="${i < 2 ? 'eager' : 'lazy'}" data-alt="${alt}">`
+    : '';
+  return `<section class="panel mood-${mood} rv${known ? ' has-img' : ''}" data-i="${i}">
+<div class="art">${renderPanelArt(p, db.chars)}${img}${caps.length ? `<div class="caps">${caps.join('')}</div>` : ''}</div>
 ${rest ? `<div class="lines">${rest}</div>` : ''}
 </section>`;
 }
 
 // Resolves when the user taps the final button.
-export function readEpisode(root, ep, ctx, opts = {}) {
+export async function readEpisode(root, ep, ctx, opts = {}) {
+  const manifest = await loadManifest();
+  if (ctx && ctx.alive === false) return;
+  const entry = manifest && manifest[ep.id];
+  const media = { entry, base: `art/${ep.id}/`, q: entry && entry.v ? `?v=${encodeURIComponent(entry.v)}` : '' };
   return new Promise((resolve) => {
     const newSet = new Set(ep.newWords);
     const label = opts.finishLabel || 'Дальше';
@@ -92,7 +115,7 @@ export function readEpisode(root, ep, ctx, opts = {}) {
 <header class="rtop"><a class="icon-btn" href="${esc(exitHref)}" aria-label="Выйти">${icon('close')}</a>
 <div class="rtitle"><b>${esc(code)}</b> ${esc(ep.title)}</div><div class="rprog"><i></i></div></header>
 <div class="ep-title"><span class="stamp tilt">${esc(code)} · ${esc(ep.level || '')}</span><h1>${esc(ep.title)}</h1><p>${esc(ep.titleRu)}</p></div>
-<div class="panels">${ep.panels.map((p, i) => panelHTML(p, i, ep, newSet)).join('')}</div>
+<div class="panels">${ep.panels.map((p, i) => panelHTML(p, i, ep, newSet, media)).join('')}</div>
 <div class="tbc rv"><div class="tbc-stamp">TO BE<br>CONTINUED</div></div>
 <div class="reader-end"><button class="btn primary big" id="fin"><span>${esc(label)}</span></button></div>
 </div>`;
@@ -129,6 +152,78 @@ export function readEpisode(root, ep, ctx, opts = {}) {
       );
       rvs.forEach((el) => io.observe(el));
     } else rvs.forEach((el) => el.classList.add('in'));
+
+    // ---- real art: swap SVG placeholder for the image; optional looping video for key panels ----
+    const vids = new Set();
+    let vio = null;
+    const still = reduceMotion();
+    if ('IntersectionObserver' in window && !still) {
+      vio = new IntersectionObserver(
+        (entries) => {
+          for (const e of entries) {
+            const v = e.target;
+            if (e.isIntersecting) {
+              if (!v.getAttribute('src')) v.src = v.dataset.src;
+              const pr = v.play();
+              if (pr && pr.catch) pr.catch(() => {});
+            } else v.pause();
+          }
+        },
+        { threshold: 0.35 }
+      );
+    }
+    const markReady = (img) => {
+      const art = img.closest('.art');
+      const panel = img.closest('.panel');
+      if (!art || art.classList.contains('img-ready')) return;
+      art.classList.add('img-ready');
+      panel.classList.add('has-img');
+      const i = Number(panel.dataset.i);
+      if (!img.alt && img.dataset.alt) img.alt = img.dataset.alt;
+      if (!still && vio && media.entry && (media.entry.videos || []).includes(i + 1)) {
+        const v = document.createElement('video');
+        v.className = 'art-video';
+        v.muted = true;
+        v.loop = true;
+        v.playsInline = true;
+        v.setAttribute('muted', '');
+        v.setAttribute('playsinline', '');
+        v.preload = 'none';
+        v.poster = img.currentSrc || img.src;
+        v.dataset.src = media.base + nn(i) + '.mp4' + media.q;
+        v.setAttribute('aria-hidden', 'true');
+        v.addEventListener('error', () => { vio.unobserve(v); v.remove(); vids.delete(v); }, { once: true });
+        img.after(v);
+        vids.add(v);
+        vio.observe(v);
+      }
+    };
+    root.querySelectorAll('.panel').forEach((panel) => {
+      let img = panel.querySelector('img.art-img');
+      if (!img && !media.entry) {
+        // no manifest: probe images only, one request per panel
+        img = new Image();
+        img.className = 'art-img';
+        img.decoding = 'async';
+        img.dataset.alt = '';
+        img.src = `${media.base}${nn(Number(panel.dataset.i))}.jpg`;
+        img.onload = () => {
+          panel.querySelector('.art').appendChild(img);
+          markReady(img);
+        };
+        img.onerror = () => {};
+        return;
+      }
+      if (!img) return;
+      if (img.complete && img.naturalWidth) markReady(img);
+      else {
+        img.addEventListener('load', () => markReady(img), { once: true });
+        img.addEventListener('error', () => {
+          img.remove();
+          panel.classList.remove('has-img');
+        }, { once: true });
+      }
+    });
 
     // ---- popover ----
     let pop = null;
@@ -210,6 +305,8 @@ export function readEpisode(root, ep, ctx, opts = {}) {
       window.removeEventListener('scroll', onScroll);
       document.removeEventListener('pointerdown', onDown, true);
       if (io) io.disconnect();
+      if (vio) vio.disconnect();
+      vids.forEach((v) => v.pause());
       closePop();
     };
     if (ctx && ctx.onCleanup) ctx.onCleanup(cleanup);

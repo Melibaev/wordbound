@@ -81,6 +81,8 @@ def main():
             where = "%s panel %d" % (eid, pi)
             if p.get("bg") not in BGS: err("%s: bad bg %r" % (where, p.get("bg")))
             if p.get("mood") not in MOODS: err("%s: bad mood %r" % (where, p.get("mood")))
+            if "art" in p and not (isinstance(p["art"], str) and p["art"].strip()):
+                err("%s: 'art' must be a non-empty string" % where)
             sfx = p.get("sfx")
             if sfx is not None and not (isinstance(sfx, str) and re.fullmatch(r"[A-Z!?. ]+", sfx)):
                 err("%s: bad sfx %r" % (where, sfx))
@@ -169,6 +171,26 @@ def report(stats, nwords=0, nlemmas=0, plc=None):
     for e in errors: print("ERROR " + e)
     print("%d error(s), %d warning(s)" % (len(errors), len(warns)))
     return 1 if errors else 0
+
+# ---- optional art manifest check (additive): every file listed in art/manifest.json must exist
+def check_art_manifest():
+    root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "art")
+    path = os.path.join(root, "manifest.json")
+    if not os.path.isfile(path):
+        return
+    m = load(path)
+    if not isinstance(m, dict):
+        return
+    for eid, ent in m.items():
+        for key, ext in (("images", "jpg"), ("videos", "mp4")):
+            for n in (ent or {}).get(key, []):
+                if not os.path.isfile(os.path.join(root, eid, "%02d.%s" % (n, ext))):
+                    err("art/manifest.json: art/%s/%02d.%s listed but missing" % (eid, n, ext))
+
+_report_without_art = report
+def report(*a, **k):
+    check_art_manifest()
+    return _report_without_art(*a, **k)
 
 if __name__ == "__main__":
     sys.exit(main())

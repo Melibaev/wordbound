@@ -394,6 +394,21 @@ a.btn { text-decoration: none; }
 .panel.mood-action:nth-child(odd) { transform: rotate(-0.9deg); }
 .panel.mood-action:nth-child(even) { transform: rotate(0.9deg); }
 
+/* real colour art (art/<ep>/NN.jpg): clean full-bleed 4:5 frame; SVG stays as placeholder/fallback */
+.art-img, .art-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; z-index: 1; background: #1c1b19; }
+.art-img { opacity: 0; transition: opacity 0.3s ease-out; }
+.art.img-ready .art-img { opacity: 1; }
+.panel.has-img .art { aspect-ratio: 4 / 5; }
+.panel.has-img { border-width: 2px; box-shadow: 5px 5px 0 var(--shadow); }
+.panel.has-img.mood-tense { border-width: 3px; }
+.panel.has-img.mood-action { border-width: 3px; box-shadow: 6px 6px 0 var(--accent); }
+.panel.has-img.mood-action .art { clip-path: none; border-bottom: 3px solid var(--line); }
+.panel.has-img.mood-action, .panel.has-img.mood-action:nth-child(odd), .panel.has-img.mood-action:nth-child(even),
+.panel.has-img.mood-action.rv.in:nth-child(odd), .panel.has-img.mood-action.rv.in:nth-child(even) { transform: none; }
+.panel.has-img .caps { z-index: 2; }
+.panel.has-img .caps .cap { box-shadow: 2px 2px 0 rgba(17, 17, 17, 0.85); }
+.panel.has-img:not(:has(.lines)) .art { border-bottom: 0; }
+
 /* reveal */
 .rv { opacity: 0; transform: translateY(22px); transition: opacity 0.35s ease-out, transform 0.35s ease-out; }
 .rv.in { opacity: 1; }

@@ -17,7 +17,7 @@
  ],
  "panels": [
   {
-   "bg": "black",
+   "bg": "corridor",
    "mood": "action",
    "sfx": null,
    "cast": [
@@ -30,33 +30,28 @@
      "pos": "right"
     }
    ],
+   "art": "Dutch-angle chase shot: Dan and Mira burst through a side exit of the Hall into a narrow dark stairwell-corridor, the amber light of the Hall dying behind them, teal shapes flooding the doorway. They skid up to a heavy plank door with iron hinges.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Шаги Безмолвных — отовсюду. Мира дёргает Дэна за рукав. Дверь — вот она. Но слова «открыть» у него больше нет."
-    },
-    {
-     "type": "speech",
-     "who": "mira",
-     "en": "Dan! Think!",
-     "ru": "Дэн! Думай!"
+     "ru": "Шаги Безмолвных — отовсюду. Мира дёргает Дэна за рукав. Вот боковая дверь — а слова «открыть» у Дэна больше нет."
     },
     {
      "type": "shout",
      "who": "dan",
-     "en": "I can't open it!",
-     "ru": "Я не могу её открыть!"
+     "en": "I can't open it! No OPEN!",
+     "ru": "Не могу открыть! У меня нет OPEN!"
     },
     {
      "type": "shout",
      "who": "mira",
-     "en": "How does a door move? Push it!",
-     "ru": "Как двигается дверь? Толкай её!"
+     "en": "How does a door move? Think!",
+     "ru": "Как двигается дверь? Думай!"
     }
    ]
   },
   {
-   "bg": "hall",
+   "bg": "corridor",
    "mood": "action",
    "sfx": "BANG",
    "cast": [
@@ -73,28 +68,19 @@
      "pos": "center"
     }
    ],
+   "art": "Close-up insert: Dan's two palms flat on the old wood, vermilion lettering blooming under them like heat; the door groans and shifts a finger-width, dust shaking down; Dan's face is a mask of dawning realisation behind taped glasses.",
    "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "A door moves when I push it!",
+     "ru": "Дверь двигается, когда я её толкаю!"
+    },
     {
      "type": "system",
      "who": "system",
      "en": "New word: PUSH.",
-     "ru": "Новое слово: ТОЛКАТЬ."
-    },
-    {
-     "type": "system",
-     "who": "system",
-     "en": "A door moves when you push it.",
-     "ru": "Дверь двигается, когда ты её толкаешь."
-    },
-    {
-     "type": "shout",
-     "who": "dan",
-     "en": "I push! I push!",
-     "ru": "Я толкаю! Я толкаю!"
-    },
-    {
-     "type": "narration-ru",
-     "ru": "Дверь поддаётся. Не потому что открылась, а потому что её толкнули. Башня засчитывает."
+     "ru": "Новое слово: PUSH."
     }
    ]
   },
@@ -112,16 +98,13 @@
      "pos": "right"
     }
    ],
+   "art": "Wide shot from inside the dark corridor: Dan and Mira tumble through and Mira shoves the door shut behind them; the footsteps beyond fade; slivers of vermilion light on the floor. Dan still holds both palms out as if he cannot believe it.",
    "lines": [
-    {
-     "type": "narration-ru",
-     "ru": "Они вваливаются в тёмный коридор. Дверь захлопывается. Шаги за ней стихают."
-    },
     {
      "type": "speech",
      "who": "dan",
-     "en": "I don't need open. I push!",
-     "ru": "Мне не нужно «открывать». Я толкаю!"
+     "en": "I don't need OPEN. I push!",
+     "ru": "Мне не нужен OPEN. Я толкаю!"
     },
     {
      "type": "speech",
@@ -145,30 +128,25 @@
      "pos": "right"
     }
    ],
+   "art": "Quiet two-shot, warm ochre from a lantern-word in the wall: both sit slumped against the wall; Mira holds out a crust of dry bread from her backpack without looking at Dan; Dan stares at it and then at her, touched and amused.",
    "lines": [
     {
      "type": "speech",
-     "who": "dan",
-     "en": "Who is he? The man in the Hall?",
-     "ru": "Кто он? Тот человек в Зале?"
+     "who": "mira",
+     "en": "Eat something. You are pale.",
+     "ru": "Поешь. Ты бледный."
     },
     {
      "type": "speech",
      "who": "dan",
-     "en": "Where does he live?",
-     "ru": "Где он живёт?"
+     "en": "My mom says that!",
+     "ru": "Моя мама так говорит!"
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "He lives in the Hall. He is the Keeper.",
-     "ru": "В Зале. Он Хранитель."
-    },
-    {
-     "type": "speech",
-     "who": "mira",
-     "en": "He reads. He takes a word. He gives a name.",
-     "ru": "Он читает. Он берёт слово. Он даёт имя."
+     "en": "Your mom is smart.",
+     "ru": "Твоя мама умная."
     }
    ]
   },
@@ -186,24 +164,73 @@
      "pos": "right"
     }
    ],
+   "art": "Close two-shot, low warm light: Dan, chewing, turns toward Mira with raised eyebrows like a schoolboy; Mira, looking at the ceiling, braces for the question.",
    "lines": [
     {
      "type": "speech",
      "who": "dan",
-     "en": "Why does he want open?",
-     "ru": "Зачем ему «открывать»?"
+     "en": "Can I ask a question?",
+     "ru": "Можно задать вопрос?"
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "I don't know. Ask the Keeper. He wants a door.",
-     "ru": "Не знаю. Спроси Хранителя. Ему нужна дверь."
+     "en": "You can ask. I can say no.",
+     "ru": "Спрашивай. Я могу не ответить."
     },
     {
-     "type": "thought",
+     "type": "speech",
      "who": "dan",
-     "en": "A door? What door?",
-     "ru": "Дверь? Какая дверь?"
+     "en": "Who is the Keeper?",
+     "ru": "Кто такой Хранитель?"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "He is a trader. He is not a friend.",
+     "ru": "Он торговец. Он не друг."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Medium close-up on Dan, thoughtful, chewing, the bridge of his nose pinched; Mira half-listening, wiping her glove. The corridor behind them recedes into dark.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Where does the Keeper live?",
+     "ru": "Где живёт Хранитель?"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "He lives in the Hall. He wants that door open.",
+     "ru": "Он живёт в Зале. Ему нужно, чтобы та дверь открылась."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I see my office. It is real.",
+     "ru": "Я видел свой офис. Он настоящий."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Then a door goes home. We find it.",
+     "ru": "Значит, есть дверь домой. Мы найдём её."
     }
    ]
   },
@@ -225,57 +252,13 @@
      "pos": "center"
     }
    ],
+   "art": "Over-the-shoulder shot: Dan looks up at the System window floating overhead in the dark corridor, like a patient teacher; Mira in the corner of the frame rolls her eyes. The window's border is steady vermilion.",
    "lines": [
     {
      "type": "speech",
      "who": "dan",
-     "en": "And who builds the Tower?",
-     "ru": "А кто построил Башню?"
-    },
-    {
-     "type": "speech",
-     "who": "mira",
-     "en": "No one knows.",
-     "ru": "Никто не знает."
-    },
-    {
-     "type": "system",
-     "who": "system",
-     "en": "I know.",
-     "ru": "Я знаю."
-    },
-    {
-     "type": "system",
-     "who": "system",
-     "en": "I do. Ask me when you have 100 words.",
-     "ru": "Знаю. Спроси меня, когда у тебя будет сто слов."
-    }
-   ]
-  },
-  {
-   "bg": "corridor",
-   "mood": "calm",
-   "sfx": null,
-   "cast": [
-    {
-     "id": "dan",
-     "pos": "left"
-    },
-    {
-     "id": "mira",
-     "pos": "right"
-    },
-    {
-     "id": "system",
-     "pos": "center"
-    }
-   ],
-   "lines": [
-    {
-     "type": "speech",
-     "who": "dan",
-     "en": "Why does she choose me?",
-     "ru": "Почему она выбрала меня?"
+     "en": "Why do you choose me?",
+     "ru": "Почему ты выбрала меня?"
     },
     {
      "type": "system",
@@ -311,27 +294,36 @@
      "pos": "right"
     }
    ],
+   "art": "Close two-shot, Mira looks at her wrist with the frayed vermilion cord, then away; her mouth a flat line; Dan's face softens with curiosity. A rare pale hint of a smile on her lips fading.",
    "lines": [
     {
      "type": "speech",
      "who": "mira",
-     "en": "She is rude. She is always rude.",
+     "en": "It is rude. It is always rude.",
      "ru": "Она грубая. Она всегда грубая."
-    },
-    {
-     "type": "narration-ru",
-     "ru": "Впервые за всю ночь Мира почти улыбается. Почти."
     },
     {
      "type": "speech",
      "who": "dan",
-     "en": "How do you read so many words?",
-     "ru": "Как ты читаешь столько слов?"
+     "en": "How long do you live here?",
+     "ru": "Как долго ты здесь живёшь?"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Three years. I read, I climb, I wait.",
+     "ru": "Три года. Я читаю, лезу вверх, жду."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Wait for what?",
+     "ru": "Чего ждёшь?"
     }
    ]
   },
   {
-   "bg": "corridor",
+   "bg": "sky",
    "mood": "calm",
    "sfx": null,
    "cast": [
@@ -344,24 +336,19 @@
      "pos": "right"
     }
    ],
+   "art": "Wordless breathing beat: a narrow arrow-slit window in the stairwell; through it the bone-white wall of the Tower curves away, balconies and thousands of vermilion lantern-words rising into a dusky apricot-and-teal sky. Dan and Mira, small silhouettes in the window frame, share the view.",
    "lines": [
     {
      "type": "speech",
-     "who": "mira",
-     "en": "I live here. I read. I climb. I wait.",
-     "ru": "Я живу здесь. Я читаю. Я лезу вверх. Я жду."
-    },
-    {
-     "type": "speech",
      "who": "dan",
-     "en": "Where does this go?",
-     "ru": "Куда это ведёт?"
+     "en": "It is beautiful. I hate it.",
+     "ru": "Красиво. Я это ненавижу."
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "Up. To the last door of the floor.",
-     "ru": "Наверх. К последней двери этажа."
+     "en": "Everyone does.",
+     "ru": "Все ненавидят."
     }
    ]
   },
@@ -379,59 +366,23 @@
      "pos": "right"
     }
    ],
+   "art": "Wide establishing shot: a cold bare stone hall in ash-grey light, a single high black door with iron bands at the far end, a guard Silent standing motionless in front of it; Dan and Mira at the entrance, tiny. Teal shadows pool along the floor.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Последний зал этажа. Холодный камень, эхо шагов. В глубине — высокая чёрная дверь."
+     "ru": "Последний зал этажа. Холодный камень, эхо шагов. В глубине — высокая чёрная дверь. Перед ней стоит Безмолвный и не шевелится."
     },
     {
      "type": "speech",
      "who": "dan",
-     "en": "There is the door!",
-     "ru": "Вот дверь!"
+     "en": "There is the door! Can you read it?",
+     "ru": "Вот дверь! Ты можешь прочесть?"
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "Wait.",
-     "ru": "Подожди."
-    }
-   ]
-  },
-  {
-   "bg": "dungeon",
-   "mood": "tense",
-   "sfx": null,
-   "cast": [
-    {
-     "id": "dan",
-     "pos": "left"
-    },
-    {
-     "id": "mira",
-     "pos": "right"
-    },
-    {
-     "id": "silent",
-     "pos": "center"
-    }
-   ],
-   "lines": [
-    {
-     "type": "narration-ru",
-     "ru": "Перед дверью стоит Безмолвный. Он не двигается. Он будто ждёт."
-    },
-    {
-     "type": "speech",
-     "who": "dan",
-     "en": "How does it see us?",
-     "ru": "Как он нас видит?"
-    },
-    {
-     "type": "speech",
-     "who": "mira",
-     "en": "It does not see. It hears.",
-     "ru": "Он не видит. Он слышит."
+     "en": "I read it. This is the last door.",
+     "ru": "Читаю. Это последняя дверь."
     }
    ]
   },
@@ -453,16 +404,25 @@
      "pos": "center"
     }
    ],
+   "art": "Medium shot over Mira's shoulder: she crouches, one finger to her lips, eyes on the guard Silent whose smooth head is turned a few degrees toward them; Dan beside her, listening, hands up.",
    "lines": [
     {
      "type": "speech",
      "who": "mira",
-     "en": "Wait. Don't talk. Don't run. Push the door slow.",
-     "ru": "Жди. Не говори. Не беги. Толкай дверь медленно."
+     "en": "Wait. It does not see. It hears.",
+     "ru": "Подожди. Он не видит. Он слышит."
     },
     {
-     "type": "narration-ru",
-     "ru": "Дэн кладёт ладони на холодное дерево. Дверь скрипит так тихо, как только может."
+     "type": "speech",
+     "who": "dan",
+     "en": "How does it hear us?",
+     "ru": "Как он нас слышит?"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Do not talk. Do not run. Push slowly.",
+     "ru": "Не говори. Не беги. Толкай медленно."
     }
    ]
   },
@@ -484,6 +444,7 @@
      "pos": "center"
     }
    ],
+   "art": "Tension shot: Dan's palms on the giant door, his arms trembling with effort, door opening a finger-width with a slow groan; in the background the guard Silent's head turns toward the sound; Mira behind him, hand over her mouth.",
    "lines": [
     {
      "type": "speech",
@@ -505,18 +466,15 @@
    "sfx": null,
    "cast": [
     {
-     "id": "dan",
-     "pos": "left"
-    },
-    {
      "id": "mira",
-     "pos": "right"
+     "pos": "center"
     },
     {
      "id": "silent",
-     "pos": "center"
+     "pos": "right"
     }
    ],
+   "art": "Extreme close-up of Mira's face frozen as if slapped: amber eyes wide, pupils tiny, a muscle tight in her jaw; behind her the Silent's blank face is in soft focus, the teal mouth-seam open. A child's voice shouldn't come from there.",
    "lines": [
     {
      "type": "narration-ru",
@@ -527,12 +485,18 @@
      "who": "mira",
      "en": "No.",
      "ru": "Нет."
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "Mira. It is me. Why do you run?",
+     "ru": "Мира. Это я. Почему ты бежишь?"
     }
    ]
   },
   {
    "bg": "dungeon",
-   "mood": "action",
+   "mood": "tense",
    "sfx": null,
    "cast": [
     {
@@ -548,18 +512,19 @@
      "pos": "center"
     }
    ],
+   "art": "Over-the-shoulder shot from Dan's side: the guard Silent turns fully toward them, its raised thin hand shows a tiny frayed fragment of vermilion cord around the wrist, identical to Mira's; Dan looks from one wrist to the other.",
    "lines": [
     {
      "type": "speech",
-     "who": "silent",
-     "en": "Mira. It is me. Why do you run?",
-     "ru": "Мира. Это я. Почему ты бежишь?"
+     "who": "dan",
+     "en": "Mira? Who is she?",
+     "ru": "Мира? Кто она?"
     },
     {
-     "type": "speech",
+     "type": "thought",
      "who": "dan",
-     "en": "Mira? Who is it?",
-     "ru": "Мира? Кто это?"
+     "en": "The red cord. It is like hers.",
+     "ru": "Красная нить. Такая же, как у неё."
     }
    ]
   },
@@ -573,84 +538,85 @@
      "pos": "center"
     }
    ],
+   "art": "Final wordless-feel close-up: Mira drops her backpack, her gloved hand opening, the frayed vermilion cord on her wrist glowing faintly; the rest of the frame is black, the child-sized outline of the Silent barely visible in the dark behind her.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Мира роняет рюкзак. Она открывает рот — и закрывает. Слово, которое она хочет сказать, потеряно давно."
+     "ru": "Мира роняет рюкзак. Она открывает рот — и закрывает. Слово, которое она ищет, она отдала давно."
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "She is my...",
-     "ru": "Она моя..."
+     "en": "She is my... I can't. I don't have the word.",
+     "ru": "Она моя... Не могу. У меня нет этого слова."
     },
     {
-     "type": "speech",
-     "who": "mira",
-     "en": "I can't. I don't have the word.",
-     "ru": "Не могу. У меня нет этого слова."
+     "type": "system",
+     "who": "system",
+     "en": "She does not have that word.",
+     "ru": "У неё нет этого слова."
     }
    ]
   }
  ],
  "grammarNote": {
   "title": "He / she + глагол с -s и вопросы с does",
-  "body": "С he, she и it к глаголу в настоящем времени добавляем -s: «He lives», «She knows», «He wants». В вопросах и отрицаниях появляется does, а глагол остаётся без -s: «Why does he want it?», «It does not see». Для I и you — по-прежнему do.",
+  "body": "С he, she и it к глаголу в настоящем времени добавляем -s: «He lives», «She reads». В вопросах и отрицаниях появляется does, а глагол остаётся без -s: «Where does he live?», «It does not see». Для I и you — по-прежнему do. Слово, названное как слово, пишем ЗАГЛАВНЫМИ: «I don't need OPEN».",
   "examples": [
    {
     "en": "He lives in the Hall.",
     "ru": "Он живёт в Зале."
    },
    {
-    "en": "Why does he want open?",
-    "ru": "Зачем ему «открывать»?"
+    "en": "Where does he live?",
+    "ru": "Где он живёт?"
    },
    {
-    "en": "It does not see. It hears.",
-    "ru": "Он не видит. Он слышит."
+    "en": "It does not see.",
+    "ru": "Он не видит."
    }
   ]
  },
  "quiz": [
   {
-   "q": "Какое новое слово получил Дэн, чтобы выйти через дверь?",
+   "q": "Какое слово Дэн получил, чтобы пройти через дверь без OPEN?",
    "options": [
     "Push",
-    "Open",
+    "Run",
     "Key",
-    "Door"
+    "Wait"
    ],
    "answer": 0
   },
   {
-   "q": "Что Мира сказала про Хранителя?",
+   "q": "Что Мира дала Дэну в коридоре?",
    "options": [
-    "Он живёт в Зале",
-    "Он живёт в офисе",
-    "Он живёт у ворот",
-    "Он друг Дэна"
-   ],
-   "answer": 0
-  },
-  {
-   "q": "Что ответила Система на вопрос, почему она выбрала Дэна?",
-   "options": [
-    "Потому что он сильный",
-    "Потому что у него 0 слов",
-    "Потому что он умный",
-    "Потому что он ночью работал"
+    "Ключ",
+    "Хлеб",
+    "Карту",
+    "Лампу"
    ],
    "answer": 1
   },
   {
-   "q": "Что Мира не смогла сказать в конце?",
+   "q": "Что ответила Система на вопрос «Почему ты выбрало меня?»",
    "options": [
-    "Своё имя",
-    "Слово «дверь»",
-    "Слово, которое потеряла",
-    "Слово «Хранитель»"
+    "Потому что ты сильный",
+    "Потому что у тебя 0 слов",
+    "Потому что ты умный",
+    "Потому что ты ночью работал"
    ],
-   "answer": 2
+   "answer": 1
+  },
+  {
+   "q": "Чей голос услышала Мира из Безмолвного у последней двери?",
+   "options": [
+    "Голос ребёнка",
+    "Голос Хранителя",
+    "Голос Дэна",
+    "Голос мамы Дэна"
+   ],
+   "answer": 0
   }
  ]
 }

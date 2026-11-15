@@ -28,30 +28,35 @@
     {
      "id": "mira",
      "pos": "right"
+    },
+    {
+     "id": "system",
+     "pos": "center"
     }
    ],
+   "art": "Tight medium shot: Dan's hand freezes an inch from the iron handle; Mira's gloved fist clamps his wrist. The knocking has stopped. The System window hangs in the corner of the frame, its border brightening. Warm ochre lamp light, deep shadows.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Дэн отдёргивает руку от ручки. Голос за дверью замолкает."
-    },
-    {
-     "type": "system",
-     "who": "system",
-     "en": "You wait. Good. New word: CAN.",
-     "ru": "Ты ждёшь. Хорошо. Новое слово: МОЧЬ."
+     "ru": "Дэн отдёргивает руку. Это его первое решение в Башне — и он принял его сам. За дверью всё стихает."
     },
     {
      "type": "speech",
      "who": "dan",
-     "en": "What can I do?",
-     "ru": "Что я могу делать?"
+     "en": "That is not me. I stop.",
+     "ru": "Это не я. Я не открою."
     },
     {
      "type": "system",
      "who": "system",
-     "en": "You can run. You can open. That is all.",
-     "ru": "Ты можешь бежать. Ты можешь открывать. Это всё."
+     "en": "New word: STOP.",
+     "ru": "Новое слово: STOP."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Not bad, Zero.",
+     "ru": "Неплохо, Зеро."
     }
    ]
   },
@@ -69,22 +74,29 @@
      "pos": "right"
     }
    ],
+   "art": "Close-up of the ceiling lamp: the flame has shrunk to a tiny ember with a faint vermilion heart; Mira kneels below it checking her backpack, Dan watches the light with worry. The room is noticeably darker, teal shadows creeping up the walls.",
    "lines": [
     {
-     "type": "speech",
-     "who": "mira",
-     "en": "Come here. Listen. Look.",
-     "ru": "Иди сюда. Слушай. Смотри."
-    },
-    {
      "type": "narration-ru",
-     "ru": "Мира разворачивает на полу потрёпанную карту. Этаж огромный. А в конце — Ворота."
+     "ru": "Лампа догорает. Слово, которое в ней жило, выгорает. Скоро в комнате не останется света."
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "This is the gate.",
-     "ru": "Это ворота."
+     "en": "The light is small. Soon it is gone.",
+     "ru": "Свет слабеет. Скоро его не будет."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Then we go?",
+     "ru": "Тогда мы идём?"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "We go. Come here. Look.",
+     "ru": "Идём. Иди сюда. Смотри."
     }
    ]
   },
@@ -102,30 +114,29 @@
      "pos": "right"
     }
    ],
+   "art": "Top-down insert on the floor: a worn hand-drawn map of the floor spread between Dan's and Mira's knees, a long winding path, a hall, and a big arch marked with a vermilion cross (lettering added later); Mira's finger traces the route.",
    "lines": [
     {
-     "type": "speech",
-     "who": "dan",
-     "en": "Can we go?",
-     "ru": "Мы можем идти?"
+     "type": "narration-ru",
+     "ru": "Мира расстилает на полу потрёпанную карту. Этаж огромен. В конце пути — Ворота, а за ними Зал Слов, где, возможно, лежит имя Дэна."
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "We can go. But the way is long.",
-     "ru": "Можем. Но путь долгий."
+     "en": "This is the gate. The gate hears names.",
+     "ru": "Это ворота. Ворота слышат имена."
     },
     {
-     "type": "thought",
+     "type": "speech",
      "who": "dan",
-     "en": "She can run. She can fight. I can open a door.",
-     "ru": "Она умеет бегать и драться. Я умею открывать дверь."
+     "en": "I have no name. Can I go?",
+     "ru": "У меня нет имени. Могу я пройти?"
     },
     {
-     "type": "system",
-     "who": "system",
-     "en": "Yes. A door. Impressive.",
-     "ru": "Да. Дверь. Впечатляет."
+     "type": "speech",
+     "who": "mira",
+     "en": "I have a plan. It is a bad plan.",
+     "ru": "У меня есть план. Он плохой."
     }
    ]
   },
@@ -143,22 +154,23 @@
      "pos": "right"
     }
    ],
+   "art": "Epic wide establishing shot of a vast colonnade hall of pale stone pillars in ash-grey light; dozens of tall Silent stand motionless along both walls, heads tilted toward the sound of the heroes' steps. Dan and Mira tiny at the entrance, hand in hand.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Большой зал. Колонны, тусклый свет. И повсюду — тишина, от которой закладывает уши."
+     "ru": "Зал Слушающих. Десятки Безмолвных стоят вдоль стен. Они слепы. Но они слышат, как падает пылинка."
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "Come. Take my hand. Go slow.",
-     "ru": "Идём. Возьми меня за руку. Медленно."
+     "en": "Take my hand. Listen and go slowly.",
+     "ru": "Возьми меня за руку. Слушай и иди медленно."
     },
     {
      "type": "speech",
      "who": "dan",
-     "en": "I can go slow. I am good at slow.",
-     "ru": "Медленно я могу. Я мастер медленно."
+     "en": "I can go slowly. I am very good at it.",
+     "ru": "Медленно я могу. У меня отлично получается."
     }
    ]
   },
@@ -180,16 +192,19 @@
      "pos": "center"
     }
    ],
+   "art": "Low-angle over-the-shoulder shot: a row of Silent heads in the foreground, blank faces tilted, Dan and Mira creeping past in the background along the wall; Dan staring up at them with a nervous half-smile.",
    "lines": [
     {
-     "type": "narration-ru",
-     "ru": "Вдоль стен стоят безликие. Десятки. Они не двигаются. Они слушают."
+     "type": "speech",
+     "who": "dan",
+     "en": "I can count ten. No, more. More!",
+     "ru": "Я вижу десять. Нет, больше. Ещё!"
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "Look down. Go.",
-     "ru": "Смотри вниз. Идём."
+     "en": "Do not look at them. Look down.",
+     "ru": "Не смотри на них. Смотри вниз."
     }
    ]
   },
@@ -207,30 +222,65 @@
      "pos": "right"
     }
    ],
+   "art": "Close-up on Dan crouching, a palm-sized stone in his hand, his eyes tracing the hall's far corner; Mira beside him raises one eyebrow. A tiny engineer's grin on his face.",
    "lines": [
     {
      "type": "speech",
      "who": "dan",
-     "en": "I can see ten! Ten more!",
-     "ru": "Я вижу десять! Ещё десять!"
+     "en": "Mira. I have a plan too.",
+     "ru": "Мира. У меня тоже есть план."
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "More are here.",
-     "ru": "Здесь есть и другие."
+     "en": "What plan?",
+     "ru": "Какой?"
     },
     {
      "type": "speech",
      "who": "dan",
-     "en": "Listen. I can hear them.",
-     "ru": "Слушай. Я слышу их."
+     "en": "A stone. A far wall. Listen.",
+     "ru": "Камень. Дальняя стена. Слушай."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Они слепы. Значит, их можно обмануть звуком. Дэн замахивается и бросает камень в дальний угол."
     }
    ]
   },
   {
    "bg": "hall",
-   "mood": "tense",
+   "mood": "action",
+   "sfx": "CLACK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide motion shot: the stone arcs through the air; across the hall every Silent head swings together toward the far corner like a field of turned flowers; Dan and Mira slip along the opposite wall, almost smiling.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Not bad. Not bad at all.",
+     "ru": "Неплохо. Совсем неплохо."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I know walls. Now I know halls.",
+     "ru": "Я знаю стены. Теперь знаю залы."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "action",
    "sfx": "CRACK",
    "cast": [
     {
@@ -242,16 +292,13 @@
      "pos": "right"
     }
    ],
+   "art": "Dramatic close-up of Dan's sneaker as it cracks a loose tile; ripple rings of vermilion sound radiate across the floor; behind him, every Silent head snaps back toward him in a perfect line. Dan's eyes widen.",
    "lines": [
-    {
-     "type": "narration-ru",
-     "ru": "Дэн задевает ногой камень. Эхо катится по залу. Безликие поворачивают головы — все разом."
-    },
     {
      "type": "speech",
      "who": "dan",
-     "en": "Sorry.",
-     "ru": "Прости."
+     "en": "No, no. Sorry, sorry.",
+     "ru": "Нет, нет. Простите."
     }
    ]
   },
@@ -273,16 +320,13 @@
      "pos": "center"
     }
    ],
+   "art": "Hero shot, low angle: Mira, arm outstretched, glowing vermilion lettering exploding from her mouth in a shockwave ring (lettering added later) that freezes the Silent mid-step; her face drains of colour, a thin vermilion thread trails from her lips.",
    "lines": [
     {
      "type": "shout",
      "who": "mira",
      "en": "Stop! Stop, all of you!",
-     "ru": "Стоять! Стоять, все!"
-    },
-    {
-     "type": "narration-ru",
-     "ru": "Мира кричит — и воздух вздрагивает. Безликие замирают. Это слово — её сила."
+     "ru": "Стоять! Все стоять!"
     },
     {
      "type": "speech",
@@ -293,8 +337,8 @@
     {
      "type": "speech",
      "who": "mira",
-     "en": "Not for long. Take my hand.",
-     "ru": "Ненадолго. Возьми мою руку."
+     "en": "Not for long. Take my hand!",
+     "ru": "Ненадолго. Бери руку!"
     }
    ]
   },
@@ -312,22 +356,23 @@
      "pos": "right"
     }
    ],
+   "art": "Dynamic diagonal shot: Mira stumbling, knees buckling, pale, vermilion thread dripping from her lips; Dan hauls her arm over his shoulder and drags her toward the far exit arch; frozen Silent around them twitch, thawing.",
    "lines": [
     {
-     "type": "narration-ru",
-     "ru": "Слово держит тварей лишь несколько секунд. С каждым мгновением Мира бледнеет."
-    },
-    {
-     "type": "shout",
+     "type": "speech",
      "who": "mira",
-     "en": "Take my hand. Go, go, go!",
-     "ru": "Бери руку. Идём, идём, идём!"
+     "en": "I can't. No more breath.",
+     "ru": "Не могу. Дыхания больше нет."
     },
     {
-     "type": "shout",
+     "type": "speech",
      "who": "dan",
-     "en": "I can go! I can go!",
-     "ru": "Я могу идти! Я могу идти!"
+     "en": "Now you take my hand, Mira.",
+     "ru": "Теперь ты возьми мою руку, Мира."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Впервые за всю ночь Дэн тянет Миру, а не она его."
     }
    ]
   },
@@ -345,10 +390,11 @@
      "pos": "right"
     }
    ],
+   "art": "Medium shot at the exit arch: a worn fresco on the wall shows two girls holding hands, one wearing a red cord on her wrist; Mira stops dead in front of it, her eyes wide, her own wrist cord in frame; Dan looks from the fresco to her.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "У выхода из зала — старая фреска. Две девочки держатся за руки. Мира на секунду замирает."
+     "ru": "У выхода из зала — старая фреска. Две девочки держатся за руки. У одной на запястье красная нить. У Миры на запястье такая же."
     },
     {
      "type": "speech",
@@ -378,16 +424,23 @@
      "pos": "right"
     }
    ],
+   "art": "Monumental low-angle wide shot: a house-high stone gate without handle or lock fills the frame, a single long line of faint vermilion lettering carved above the arch (lettering added later); cold teal shadow pools at the base; Dan and Mira tiny at its feet.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Ворота. Каменные, с дом высотой. Ни ручки, ни замка. Только одно слово над аркой."
+     "ru": "Ворота. Каменные, высотой с дом. Ни ручки, ни замка. Только строка над аркой."
     },
     {
      "type": "shout",
      "who": "dan",
-     "en": "A gate! Open!",
-     "ru": "Ворота! Откройтесь!"
+     "en": "Gate, open!",
+     "ru": "Ворота, откройтесь!"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "The gate hears names. Not doors.",
+     "ru": "Ворота слышат имена. Не двери."
     }
    ]
   },
@@ -409,63 +462,25 @@
      "pos": "center"
     }
    ],
+   "art": "Medium three-shot at the foot of the gate: the System window glows a harder vermilion; Dan clutches his head trying to remember, Mira grips his shoulder, urging.",
    "lines": [
     {
-     "type": "narration-ru",
-     "ru": "Ворота не двигаются."
-    },
-    {
      "type": "system",
      "who": "system",
-     "en": "This gate is for a man with a name.",
-     "ru": "Эти ворота — для человека с именем."
-    },
-    {
-     "type": "system",
-     "who": "system",
-     "en": "Say your name.",
-     "ru": "Назови своё имя."
+     "en": "The gate wants a name. Say yours.",
+     "ru": "Воротам нужно имя. Назови своё."
     },
     {
      "type": "speech",
      "who": "dan",
-     "en": "I... I can not.",
-     "ru": "Я... Я не могу."
-    }
-   ]
-  },
-  {
-   "bg": "gate",
-   "mood": "tense",
-   "sfx": null,
-   "cast": [
-    {
-     "id": "dan",
-     "pos": "left"
-    },
-    {
-     "id": "mira",
-     "pos": "right"
-    }
-   ],
-   "lines": [
-    {
-     "type": "speech",
-     "who": "mira",
-     "en": "Zero. Think. Say it.",
-     "ru": "Зеро. Думай. Скажи."
-    },
-    {
-     "type": "speech",
-     "who": "dan",
-     "en": "I can not! It is gone!",
-     "ru": "Не могу! Оно исчезло!"
+     "en": "I can't. It is gone!",
+     "ru": "Не могу. Его нет!"
     },
     {
      "type": "shout",
      "who": "mira",
-     "en": "Say it! One more time!",
-     "ru": "Скажи! Ещё раз!"
+     "en": "Think! Say it, Zero!",
+     "ru": "Думай! Скажи, Зеро!"
     }
    ]
   },
@@ -487,6 +502,7 @@
      "pos": "center"
     }
    ],
+   "art": "Over-the-shoulder shot from behind Dan and Mira: far down the hall, a single tall Silent walks toward them in a straight calm line, its pale face catching the light; Mira's back stiffens, Dan turns, horrified.",
    "lines": [
     {
      "type": "narration-ru",
@@ -495,8 +511,14 @@
     {
      "type": "speech",
      "who": "mira",
-     "en": "Listen. It is here.",
-     "ru": "Слушай. Он здесь."
+     "en": "Listen. It comes here.",
+     "ru": "Слушай. Он идёт сюда."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "That is the Silent! It has my name!",
+     "ru": "Это тот Безмолвный! У него моё имя!"
     }
    ]
   },
@@ -518,12 +540,13 @@
      "pos": "center"
     }
    ],
+   "art": "Wide shot: the Silent stands in front of the gate and speaks; the vermilion line above the arch flares bright; Dan and Mira press themselves against the arch's side wall, caught between gate and Silent.",
    "lines": [
     {
      "type": "speech",
      "who": "silent",
      "en": "I am Dan.",
-     "ru": "Я Дэн."
+     "ru": "Я — Дэн."
     },
     {
      "type": "narration-ru",
@@ -545,34 +568,19 @@
      "pos": "right"
     }
    ],
+   "art": "Action shot: the gate splits down the middle, light flooding out; the Silent steps through, calm; Dan and Mira dash into the closing gap right behind it, Dan's glasses flying off his nose, Mira's scarf whipping.",
    "lines": [
-    {
-     "type": "narration-ru",
-     "ru": "Ворота открываются. Не для Дэна. Для Безмолвного."
-    },
     {
      "type": "shout",
      "who": "dan",
-     "en": "No! That is my name!",
-     "ru": "Нет! Это моё имя!"
+     "en": "That is my name!",
+     "ru": "Это моё имя!"
     },
     {
      "type": "shout",
      "who": "mira",
-     "en": "Go! Come! Now!",
-     "ru": "Бежим! Быстрее! Сейчас!"
-    }
-   ]
-  },
-  {
-   "bg": "flash",
-   "mood": "action",
-   "sfx": "SLAM",
-   "cast": [],
-   "lines": [
-    {
-     "type": "narration-ru",
-     "ru": "Они прыгают в щель, пока ворота не сомкнулись. Грохот. Темнота. Тишина."
+     "en": "Come on! Go, go, go!",
+     "ru": "Давай! Бежим, бежим!"
     }
    ]
   },
@@ -586,10 +594,11 @@
      "pos": "center"
     }
    ],
+   "art": "Almost entirely black frame: only a low amber candle lights the lower half of a hooded man's face, a pale thin calm smile, ink-stained fingertips folded; on the edges of the dark, two silhouettes, Dan and Mira, standing small.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "И тогда из темноты — тихий, довольный голос. Кто-то ждал их здесь."
+     "ru": "Грохот. Темнота. И тихий довольный голос. Кто-то ждал их здесь."
     },
     {
      "type": "speech",
@@ -599,16 +608,22 @@
     },
     {
      "type": "speech",
+     "who": "keeper",
+     "en": "And welcome back, Mira.",
+     "ru": "И с возвращением, Мира."
+    },
+    {
+     "type": "speech",
      "who": "dan",
-     "en": "Who are you?",
-     "ru": "Кто ты?"
+     "en": "Back?",
+     "ru": "Снова?"
     }
    ]
   }
  ],
  "grammarNote": {
   "title": "Приказ и глагол can",
-  "body": "Приказ в английском — это просто глагол без подлежащего: «Look!», «Take my hand!», «Go!». Чтобы запретить, ничего сложного пока не нужно — просто не говори. Глагол can значит «мочь, уметь» и не меняется: «I can run», «She can stop them». Отрицание — can not (или can't).",
+  "body": "Приказ в английском — это просто глагол без подлежащего: «Look!», «Take my hand!», «Go!». Чтобы запретить, добавляем do not: «Do not look». Глагол can значит «мочь, уметь» и никогда не меняется: «I can go», «She can stop them». Отрицание — can't (можно также can not, но в речи почти всегда can't). Вопрос получается перестановкой: «Can we go?».",
   "examples": [
    {
     "en": "Look down.",
@@ -619,49 +634,49 @@
     "ru": "Возьми мою руку."
    },
    {
-    "en": "I can go slow.",
+    "en": "I can go slowly.",
     "ru": "Я могу идти медленно."
    }
   ]
  },
  "quiz": [
   {
-   "q": "Что, по словам Системы, Дэн теперь может делать?",
+   "q": "Что решил сделать Дэн, когда голос за дверью просил открыть?",
    "options": [
-    "Бежать и открывать",
-    "Читать и писать",
-    "Летать и прыгать",
-    "Драться и кричать"
-   ],
-   "answer": 0
-  },
-  {
-   "q": "Как Мира остановила безликих в зале?",
-   "options": [
-    "Кинула камень",
-    "Выключила свет",
-    "Крикнула «Stop!»",
-    "Спряталась"
-   ],
-   "answer": 2
-  },
-  {
-   "q": "Почему ворота не открылись для Дэна?",
-   "options": [
-    "Они сломаны",
-    "У него нет имени",
-    "У него нет ключа",
-    "Они ждут утра"
+    "Открыть дверь",
+    "Не открывать",
+    "Убежать",
+    "Позвать Миру"
    ],
    "answer": 1
   },
   {
-   "q": "Что сказал голос в темноте в самом конце?",
+   "q": "Как Дэн отвлёк Безмолвных в зале?",
    "options": [
-    "Run!",
-    "Look down.",
-    "Welcome, Zero.",
-    "I am Dan."
+    "Крикнул",
+    "Включил свет",
+    "Бросил камень",
+    "Запел"
+   ],
+   "answer": 2
+  },
+  {
+   "q": "Какое слово крикнула Мира, чтобы остановить Безмолвных?",
+   "options": [
+    "Go",
+    "Look",
+    "Come",
+    "Stop"
+   ],
+   "answer": 3
+  },
+  {
+   "q": "Кто открыл Ворота?",
+   "options": [
+    "Дэн",
+    "Мира",
+    "Безмолвный с именем Дэна",
+    "Хранитель"
    ],
    "answer": 2
   }

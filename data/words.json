@@ -39,7 +39,8 @@
   "pos": "pron",
   "lvl": "A1",
   "forms": [
-   "her"
+   "her",
+   "hers"
   ],
   "ex": "She is my friend.",
   "exRu": "Она моя подруга."
@@ -51,7 +52,8 @@
   "pos": "pron",
   "lvl": "A1",
   "forms": [
-   "its"
+   "its",
+   "itself"
   ],
   "ex": "It is a key.",
   "exRu": "Это ключ."
@@ -4670,5 +4672,255 @@
   ],
   "ex": "Take a breath.",
   "exRu": "Сделай вдох."
+ },
+ {
+  "id": "hatch",
+  "w": "hatch",
+  "ru": "люк",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "hatches"
+  ],
+  "ex": "Open the hatch!",
+  "exRu": "Откройся, люк!"
+ },
+ {
+  "id": "count",
+  "w": "count",
+  "ru": "счёт; считать",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "counts"
+  ],
+  "ex": "Count: one.",
+  "exRu": "Счёт: один."
+ },
+ {
+  "id": "dead",
+  "w": "dead",
+  "ru": "мёртвый",
+  "pos": "adj",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "Loud is dead here.",
+  "exRu": "Здесь шумный — мёртвый."
+ },
+ {
+  "id": "problem",
+  "w": "problem",
+  "ru": "проблема",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "problems"
+  ],
+  "ex": "Not my problem.",
+  "exRu": "Не моя проблема."
+ },
+ {
+  "id": "lamp",
+  "w": "lamp",
+  "ru": "лампа",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "lamps"
+  ],
+  "ex": "The lamp burns.",
+  "exRu": "Лампа горит."
+ },
+ {
+  "id": "burn",
+  "w": "burn",
+  "ru": "гореть; жечь",
+  "pos": "v",
+  "lvl": "A2",
+  "forms": [
+   "burns",
+   "burned"
+  ],
+  "ex": "The lamp burns.",
+  "exRu": "Лампа горит."
+ },
+ {
+  "id": "useful",
+  "w": "useful",
+  "ru": "полезный",
+  "pos": "adj",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "Zero is useful.",
+  "exRu": "Зеро полезен."
+ },
+ {
+  "id": "soon",
+  "w": "soon",
+  "ru": "скоро",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Soon it is gone.",
+  "exRu": "Скоро его не будет."
+ },
+ {
+  "id": "plan",
+  "w": "plan",
+  "ru": "план",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "plans"
+  ],
+  "ex": "I have a plan.",
+  "exRu": "У меня есть план."
+ },
+ {
+  "id": "stone",
+  "w": "stone",
+  "ru": "камень",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "stones"
+  ],
+  "ex": "A stone. A far wall.",
+  "exRu": "Камень. Дальняя стена."
+ },
+ {
+  "id": "far",
+  "w": "far",
+  "ru": "далёкий; далеко",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [
+   "farther"
+  ],
+  "ex": "A far wall.",
+  "exRu": "Дальняя стена."
+ },
+ {
+  "id": "touch",
+  "w": "touch",
+  "ru": "трогать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "touches",
+   "touched"
+  ],
+  "ex": "Do not touch the jars.",
+  "exRu": "Не трогай банки."
+ },
+ {
+  "id": "fool",
+  "w": "fool",
+  "ru": "дурак",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "fools"
+  ],
+  "ex": "You are a fool, Zero.",
+  "exRu": "Ты дурак, Зеро."
+ },
+ {
+  "id": "yet",
+  "w": "yet",
+  "ru": "ещё; пока",
+  "pos": "adv",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "Not yet.",
+  "exRu": "Пока нет."
+ },
+ {
+  "id": "jar",
+  "w": "jar",
+  "ru": "банка",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "jars"
+  ],
+  "ex": "A jar of words.",
+  "exRu": "Банка со словами."
+ },
+ {
+  "id": "pale",
+  "w": "pale",
+  "ru": "бледный",
+  "pos": "adj",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "You are pale.",
+  "exRu": "Ты бледный."
+ },
+ {
+  "id": "smart",
+  "w": "smart",
+  "ru": "умный",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Your mom is smart.",
+  "exRu": "Твоя мама умная."
+ },
+ {
+  "id": "cord",
+  "w": "cord",
+  "ru": "шнурок; нить",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "cords"
+  ],
+  "ex": "The red cord is old.",
+  "exRu": "Красный шнурок старый."
+ },
+ {
+  "id": "trader",
+  "w": "trader",
+  "ru": "торговец",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "traders"
+  ],
+  "ex": "He is a trader.",
+  "exRu": "Он торговец."
+ },
+ {
+  "id": "beautiful",
+  "w": "beautiful",
+  "ru": "красивый",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "It is beautiful.",
+  "exRu": "Красиво."
+ },
+ {
+  "id": "hate",
+  "w": "hate",
+  "ru": "ненавидеть",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "hates"
+  ],
+  "ex": "I hate it.",
+  "exRu": "Я это ненавижу."
+ },
+ {
+  "id": "everyone",
+  "w": "everyone",
+  "ru": "все; каждый",
+  "pos": "pron",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Everyone does.",
+  "exRu": "Все так делают."
  }
 ]

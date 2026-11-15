@@ -26,22 +26,17 @@
      "pos": "left"
     }
    ],
+   "art": "High-angle shot over Dan's shoulder at a cluttered drafting desk at 2 AM. His phone lights his tired face from below; the screen shows a long stack of missed calls (vermilion text added in lettering pass). Cold green-grey fluorescent light, sodium-orange city glow in the window behind.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Два часа ночи. Офис пуст. Только Дэн, чертежи и остывший кофе."
+     "ru": "02:07 ночи. Сегодня у мамы день рождения. Дэн обещал позвонить вечером. Он сидит над чужим чертежом, а телефон показывает девять пропущенных."
     },
     {
-     "type": "speech",
+     "type": "thought",
      "who": "dan",
-     "en": "I am Dan.",
-     "ru": "Я Дэн."
-    },
-    {
-     "type": "speech",
-     "who": "dan",
-     "en": "I am tired.",
-     "ru": "Я устал."
+     "en": "Nine calls. All Mom.",
+     "ru": "Девять звонков. И все от мамы."
     }
    ]
   },
@@ -55,22 +50,22 @@
      "pos": "left"
     }
    ],
+   "art": "Extreme close-up of the phone screen held in Dan's hand, a short text message from Mom (lettering added later), a coffee ring on the desk beneath. Behind, out of focus, a rolled drawing of a bridge pinned over the monitor.",
    "lines": [
     {
+     "type": "narration",
+     "en": "Mom: Dan, eat something.",
+     "ru": "Мама: Дэн, поешь что-нибудь."
+    },
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "I am sorry, Mom.",
+     "ru": "Прости, мам."
+    },
+    {
      "type": "narration-ru",
-     "ru": "Дэн — инженер. Он рисует чужие здания. Свою жизнь он не рисует вообще."
-    },
-    {
-     "type": "thought",
-     "who": "dan",
-     "en": "Work, work, work.",
-     "ru": "Работа, работа, работа."
-    },
-    {
-     "type": "thought",
-     "who": "dan",
-     "en": "This is my life.",
-     "ru": "Это моя жизнь."
+     "ru": "Она даже не сердится — и от этого хуже. Дэн чертит чужие здания. Его собственный мост лежит в ящике с шестнадцати лет."
     }
    ]
   },
@@ -84,16 +79,17 @@
      "pos": "left"
     }
    ],
+   "art": "Low-angle wide shot: behind Dan's desk the plain grey wall now holds a tall black wooden door that was never there, a faint vermilion glow leaking around its edges. Dan, small in the foreground, turns with a coffee mug in his hand.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "И вдруг стена за спиной тихо скрипит."
+     "ru": "Три года Дэн знает эту стену. Он сам чертил этот этаж. Двери здесь быть не может."
     },
     {
      "type": "speech",
      "who": "dan",
-     "en": "What is that?",
-     "ru": "Что это?"
+     "en": "I know this wall. There is no door.",
+     "ru": "Я знаю эту стену. Здесь нет двери."
     }
    ]
   },
@@ -101,28 +97,18 @@
    "bg": "office-night",
    "mood": "tense",
    "sfx": null,
-   "cast": [
-    {
-     "id": "dan",
-     "pos": "left"
-    }
-   ],
+   "cast": [],
+   "art": "Insert shot: an old brass door handle in close-up, glowing vermilion letters crawl across the black wood like cracks of light (lettering added later). Tiny dust motes float in the glow.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "В стене — дверь. Старая, чёрная. Три года Дэн работает здесь. Двери тут никогда не было."
+     "ru": "На ручке горит красное слово. Дэн читает его — «OPEN». Оно слабо пульсирует, будто дышит."
     },
     {
      "type": "speech",
      "who": "dan",
-     "en": "This is a door.",
-     "ru": "Это дверь."
-    },
-    {
-     "type": "thought",
-     "who": "dan",
-     "en": "But the door is not here.",
-     "ru": "Но двери здесь нет."
+     "en": "A word on a door? What is that?",
+     "ru": "Слово на двери? Что это?"
     }
    ]
   },
@@ -136,22 +122,23 @@
      "pos": "left"
     }
    ],
+   "art": "Close-up on Dan's wide eyes behind taped glasses, phone ringing in his raised hand, the black door in soft focus behind him with ripples spreading through its wood from three knocks.",
    "lines": [
     {
-     "type": "speech",
-     "who": "dan",
-     "en": "Hello? Hello?",
-     "ru": "Эй? Эй?"
-    },
-    {
      "type": "narration-ru",
-     "ru": "Тишина. Потом — стук. Изнутри."
+     "ru": "Стук. Изнутри. Три раза, ровно. Телефон в руке звонит в такт."
     },
     {
      "type": "speech",
      "who": "dan",
-     "en": "Who is that?",
-     "ru": "Кто это?"
+     "en": "Who is there?",
+     "ru": "Кто там?"
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Mom, wait. One minute.",
+     "ru": "Мам, подожди. Одну минуту."
     }
    ]
   },
@@ -165,22 +152,23 @@
      "pos": "left"
     }
    ],
+   "art": "Medium shot: the black door swings inward by itself, white light spilling over Dan's face and glasses; he leans back, one foot already stepping forward. His long shadow stretches behind him across the office.",
    "lines": [
-    {
-     "type": "narration-ru",
-     "ru": "Дверь медленно открывается сама. За ней — свет."
-    },
     {
      "type": "speech",
      "who": "dan",
-     "en": "Open? The door is open!",
-     "ru": "Открыта? Дверь открыта!"
+     "en": "It opens by itself!",
+     "ru": "Она открывается сама!"
     },
     {
      "type": "thought",
      "who": "dan",
      "en": "I am tired. This is a dream.",
      "ru": "Я устал. Это сон."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Он знает, что туда нельзя. Он идёт. За дверью — свет, а здесь у него только остывший кофе."
     }
    ]
   },
@@ -189,10 +177,17 @@
    "mood": "action",
    "sfx": "FLASH",
    "cast": [],
+   "art": "Full-bleed white-out. Dan's small silhouette tumbling through light, arms flung wide; his phone slips from his fingers and spins away, its screen a tiny glowing rectangle shrinking into the white.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Дэн делает шаг. Свет ослепляет, и пол уходит из-под ног."
+     "ru": "Свет. Пол уходит из-под ног. Телефон выскальзывает из руки и летит вниз, в белизну."
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "Mom, wait for me!",
+     "ru": "Мам, подожди меня!"
     }
    ]
   },
@@ -206,10 +201,11 @@
      "pos": "left"
     }
    ],
+   "art": "Extreme low-angle establishing shot: Dan, tiny, sprawled on a stone plaza at dusk; the colossal bone-white Tower rises endlessly through cream clouds above him. Thousands of small vermilion letters drift upward like lanterns against an apricot-to-grey-teal sky.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Он стоит на каменной площади. Над ним — башня. Она уходит выше облаков."
+     "ru": "Дэн лежит на холодных плитах. Над ним — Башня, она уходит выше облаков. Вверх плывут красные огоньки. Это не огни. Это слова."
     },
     {
      "type": "speech",
@@ -233,12 +229,13 @@
      "pos": "right"
     }
    ],
+   "art": "Medium shot: a floating cream-paper System window with a vermilion double border hovers beside Dan's face; his glasses reflect vermilion light. The window is slightly tilted and casts a soft shadow.",
    "lines": [
     {
      "type": "system",
      "who": "system",
-     "en": "Welcome. This is the Tower.",
-     "ru": "Добро пожаловать. Это Башня."
+     "en": "Welcome to the Tower.",
+     "ru": "Добро пожаловать в Башню."
     },
     {
      "type": "system",
@@ -247,10 +244,8 @@
      "ru": "У тебя 0 слов."
     },
     {
-     "type": "system",
-     "who": "system",
-     "en": "New word: OPEN.",
-     "ru": "Новое слово: ОТКРЫВАТЬ."
+     "type": "narration-ru",
+     "ru": "Башня переводит Дэну — но только короткими фразами. Чем больше слов он освоит, тем длиннее будут фразы. Но слово здесь — не просто звук. Освоенное слово даёт силу."
     }
    ]
   },
@@ -268,12 +263,13 @@
      "pos": "right"
     }
    ],
+   "art": "Over-the-shoulder shot from behind the System window: Dan jabs an indignant finger at it, the window floats there blank and unbothered. Plaza stones and the Tower's base blur behind.",
    "lines": [
     {
      "type": "speech",
      "who": "dan",
      "en": "Zero words? I am Dan!",
-     "ru": "Ноль слов? Я Дэн!"
+     "ru": "Ноль слов? Я — Дэн!"
     },
     {
      "type": "system",
@@ -284,14 +280,56 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I am not weak!",
-     "ru": "Я не слабый!"
+     "en": "I am not weak! I am tired.",
+     "ru": "Я не слабый! Я устал."
     },
     {
      "type": "system",
      "who": "system",
-     "en": "You are very weak.",
-     "ru": "Ты очень слабый."
+     "en": "Tired is weak.",
+     "ru": "Усталый — значит слабый."
+    }
+   ]
+  },
+  {
+   "bg": "tower-exterior",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "system",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide shot: Dan turns to the spot where he landed; the plaza wall behind him is blank stone, no door. He spreads his hands, baffled. The System window floats at the edge of frame, a small tilted rectangle.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Where is my door?",
+     "ru": "Где моя дверь?"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "It is gone.",
+     "ru": "Её нет."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Is there a way home?",
+     "ru": "Есть путь домой?"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Find the last door. Some doors go home.",
+     "ru": "Найди последнюю дверь. Некоторые двери ведут домой."
     }
    ]
   },
@@ -305,22 +343,49 @@
      "pos": "left"
     }
    ],
+   "art": "Wide shot of a narrow soot-brown stone corridor lined with torn paper pages, cold teal darkness at its far end. Dan stands small in the foreground clutching his lanyard; beside him a rusted iron hatch in the wall. Faint claw-scratches echo (visual: tiny dust shaking from the ceiling).",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Дэн оборачивается. Двери за спиной больше нет. Зато в темноте кто-то скребётся."
+     "ru": "Площадь кончается коридором. В темноте скребутся чьи-то когти. Рядом в стене — ржавый люк. Дэн замечает заклёпки и петли: люк точно открывается."
     },
     {
      "type": "shout",
      "who": "dan",
-     "en": "Open the door! Open!",
-     "ru": "Открой дверь! Откройся!"
+     "en": "Open the hatch!",
+     "ru": "Откройся, люк!"
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "action",
+   "sfx": "CLANG",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    }
+   ],
+   "art": "Close-up of Dan's mouth and raised hand: glowing vermilion lettering pours out of his lips and slams into the rusted hatch, which bursts open in a shower of rust flakes. Dan's face is lit vermilion, shocked and delighted.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "It works!",
+     "ru": "Работает!"
     },
     {
      "type": "system",
      "who": "system",
-     "en": "No door is here.",
-     "ru": "Здесь нет двери."
+     "en": "New word: OPEN.",
+     "ru": "Новое слово: OPEN."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Count: one.",
+     "ru": "Счёт: один."
     }
    ]
   },
@@ -338,16 +403,19 @@
      "pos": "right"
     }
    ],
+   "art": "Medium two-shot: Mira steps out of the dark behind Dan, a rope coil on her shoulder, vermilion cord on her wrist, one eyebrow raised, deadpan. Dan jumps. The open hatch yawns black beside them.",
    "lines": [
-    {
-     "type": "narration-ru",
-     "ru": "Из тени выходит девушка с рюкзаком и холодным взглядом. Она явно привыкла выживать."
-    },
     {
      "type": "speech",
      "who": "mira",
      "en": "You are loud.",
      "ru": "Ты шумный."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Loud is dead here.",
+     "ru": "Здесь шумный — мёртвый."
     },
     {
      "type": "speech",
@@ -377,34 +445,35 @@
      "pos": "right"
     }
    ],
+   "art": "Over-the-shoulder from Mira's side: Dan pleading with open hands, Mira stares past him, uninterested; behind him a pool of teal shadow quietly spreads across the floor.",
    "lines": [
     {
      "type": "speech",
      "who": "dan",
-     "en": "Help me!",
-     "ru": "Помоги мне!"
+     "en": "Help me, please! Help me!",
+     "ru": "Помоги мне, пожалуйста! Помоги!"
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "No.",
-     "ru": "Нет."
+     "en": "Not my problem.",
+     "ru": "Не моя проблема."
     },
     {
      "type": "speech",
      "who": "dan",
-     "en": "No?",
-     "ru": "Нет?"
+     "en": "I am lost! Help me!",
+     "ru": "Я заблудился! Помоги!"
     },
     {
      "type": "narration-ru",
-     "ru": "Мира смотрит не на Дэна. Она смотрит ему за спину."
+     "ru": "Мира смотрит не на Дэна. Она смотрит ему за спину. Тень на полу растёт."
     }
    ]
   },
   {
    "bg": "corridor",
-   "mood": "tense",
+   "mood": "action",
    "sfx": "HISSS",
    "cast": [
     {
@@ -420,11 +489,8 @@
      "pos": "right"
     }
    ],
+   "art": "Dramatic low-angle: a tall Silent rises from the teal shadow behind Dan, its blank bone-white face with a single vertical teal seam for a mouth; Mira already half-turned to bolt, Dan frozen mid-turn, glasses catching the light.",
    "lines": [
-    {
-     "type": "narration-ru",
-     "ru": "Тень на полу растёт. Из неё поднимается фигура без лица."
-    },
     {
      "type": "speech",
      "who": "mira",
@@ -434,47 +500,14 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "Who is it? What is a Silent?",
+     "en": "Who is that? What is a Silent?",
      "ru": "Кто это? Что такое Безмолвный?"
-    }
-   ]
-  },
-  {
-   "bg": "corridor",
-   "mood": "action",
-   "sfx": null,
-   "cast": [
-    {
-     "id": "dan",
-     "pos": "left"
-    },
-    {
-     "id": "mira",
-     "pos": "center"
-    },
-    {
-     "id": "silent",
-     "pos": "right"
-    }
-   ],
-   "lines": [
-    {
-     "type": "shout",
-     "who": "mira",
-     "en": "Run!",
-     "ru": "Беги!"
-    },
-    {
-     "type": "shout",
-     "who": "dan",
-     "en": "Help! Help!",
-     "ru": "Помогите! Помогите!"
     },
     {
      "type": "shout",
      "who": "mira",
-     "en": "Run, Dan! Run!",
-     "ru": "Беги, Дэн! Беги!"
+     "en": "Run, Dan! Run now!",
+     "ru": "Беги, Дэн! Беги сейчас!"
     }
    ]
   },
@@ -492,11 +525,8 @@
      "pos": "center"
     }
    ],
+   "art": "Dynamic wide diagonal shot: Dan and Mira sprint down the corridor between lantern-words; Dan stumbles behind, gasping, glasses askew; Mira drags him by the sleeve. Far behind them the Silent just walks, never closer, never farther.",
    "lines": [
-    {
-     "type": "narration-ru",
-     "ru": "Мира тянет Дэна за руку. Но он не спортсмен. Он инженер."
-    },
     {
      "type": "speech",
      "who": "dan",
@@ -506,8 +536,8 @@
     {
      "type": "speech",
      "who": "mira",
-     "en": "You are slow!",
-     "ru": "Да, ты медленный!"
+     "en": "You are slow. Run, run, run!",
+     "ru": "Да, ты медленный. Беги, беги, беги!"
     },
     {
      "type": "system",
@@ -527,22 +557,23 @@
      "pos": "center"
     }
    ],
+   "art": "Wordless close-up: the Silent's smooth face inches from the viewer, a reflection of Dan's frightened face in the dark; the teal mouth-seam begins to open.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Безмолвный наклоняется к лицу Дэна. Вместо рта — пустота."
+     "ru": "Дэн падает. Дыхания нет. Безмолвные берут слова у тех, кто выдохся. Существо наклоняется — вместо рта у него щель."
     },
     {
      "type": "speech",
      "who": "silent",
      "en": "I am Dan.",
-     "ru": "Я Дэн."
+     "ru": "Я — Дэн."
     },
     {
      "type": "system",
      "who": "system",
      "en": "Word lost: DAN.",
-     "ru": "Слово потеряно: ДЭН."
+     "ru": "Слово потеряно: DAN."
     },
     {
      "type": "narration-ru",
@@ -553,7 +584,7 @@
  ],
  "grammarNote": {
   "title": "Глагол to be: am / is / are",
-  "body": "В английском нельзя пропустить глагол: «Я Дэн» — это «I am Dan». Для «я» используем am, для «ты» (и «мы», «они») — are, а для «он / она / оно / это» — is. Вопрос получается перестановкой: «Who are you?».",
+  "body": "В английском нельзя пропустить глагол: «Я Дэн» — это «I am Dan». Для «я» ставим am, для «ты» (а ещё «мы», «они») — are, а для «он / она / оно / это» — is. Вопрос получается перестановкой: «Who are you?». Отрицание — просто not после глагола: «I am not weak». Слово, которое нужно назвать как слово, пишем ЗАГЛАВНЫМИ: OPEN.",
   "examples": [
    {
     "en": "I am Dan.",
@@ -571,44 +602,44 @@
  },
  "quiz": [
   {
-   "q": "Что появилось в стене офиса, где Дэн работал допоздна?",
+   "q": "Почему Дэн не позвонил маме вовремя?",
    "options": [
-    "Окно",
-    "Дверь",
-    "Лифт",
-    "Картина"
+    "Забыл телефон дома",
+    "Сидел в офисе и работал",
+    "Мама не брала трубку",
+    "Телефон сломался"
    ],
    "answer": 1
   },
   {
-   "q": "Что сказала Дэну Система в Башне?",
+   "q": "Что Система сказала Дэну про его слова?",
    "options": [
     "У тебя 100 слов",
-    "Ты в безопасности",
+    "У тебя 9 слов",
     "У тебя 0 слов",
-    "Ты спишь"
+    "У тебя 1 слово"
    ],
    "answer": 2
   },
   {
-   "q": "Как зовут девушку, которая встретила Дэна?",
+   "q": "Какое слово сработало на ржавом люке?",
    "options": [
-    "Мира",
-    "Дэна",
-    "Лина",
-    "Зеро"
-   ],
-   "answer": 0
-  },
-  {
-   "q": "Что сказал Безмолвный голосом Дэна?",
-   "options": [
-    "Open the door.",
-    "I am Dan.",
-    "I am Mira.",
-    "Run!"
+    "RUN",
+    "OPEN",
+    "HELP",
+    "DOOR"
    ],
    "answer": 1
+  },
+  {
+   "q": "Что Безмолвный забрал у Дэна в конце?",
+   "options": [
+    "Телефон",
+    "Ключ",
+    "Рюкзак",
+    "Имя"
+   ],
+   "answer": 3
   }
  ]
 }

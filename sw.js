@@ -1,5 +1,8 @@
 // WORDBOUND service worker: network-first with cache fallback; background prefetch of episodes.
-const CACHE = 'wordbound-v1';
+const CACHE = 'wordbound-v2';
+const MEDIA = 'wordbound-media-v1';
+const MEDIA_MAX = 150;
+const MEDIA_RE = /\/art\/[^?#]+\.(?:jpe?g|png|webp|mp4)$/i;
 const SHELL = [
   './',
   'index.html',
@@ -41,7 +44,7 @@ self.addEventListener('activate', (e) => {
   e.waitUntil(
     caches
       .keys()
-      .then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
+      .then((keys) => Promise.all(keys.filter((k) => k !== CACHE && k !== MEDIA).map((k) => caches.delete(k))))
       .then(() => self.clients.claim())
   );
 });
@@ -103,10 +106,29 @@ async function networkFirst(event) {
   }
 }
 
+// Real art: cache-first in its own cache, capped (oldest evicted). Never precached.
+async function mediaFirst(req) {
+  const cache = await caches.open(MEDIA);
+  const hit = await cache.match(req);
+  if (hit) return hit;
+  const res = await fetch(req);
+  if (res && res.status === 200) {
+    await cache.put(req, res.clone());
+    const keys = await cache.keys();
+    for (let i = 0; i < keys.length - MEDIA_MAX; i++) await cache.delete(keys[i]);
+  }
+  return res;
+}
+
 self.addEventListener('fetch', (event) => {
   const req = event.request;
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
+  if (MEDIA_RE.test(url.pathname)) {
+    if (req.headers.has('range')) return; // partial responses (video) go straight to the network
+    event.respondWith(mediaFirst(req));
+    return;
+  }
   event.respondWith(networkFirst(event));
 });

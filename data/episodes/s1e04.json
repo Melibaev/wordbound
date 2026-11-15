@@ -8,12 +8,12 @@
   "want",
   "need",
   "have",
-  "like",
   "think",
   "give",
-  "name",
   "say",
-  "dont"
+  "dont",
+  "trade",
+  "price"
  ],
  "panels": [
   {
@@ -30,28 +30,29 @@
      "pos": "right"
     }
    ],
+   "art": "Sweeping establishing shot: a vast round library, shelves climbing to a domed ceiling, thousands of glass jars each holding a glowing vermilion word like a caged firefly; warm amber light, paper scattered on the floor. Dan and Mira tiny at the entrance, Dan's mouth open in awe.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Круглый зал. Полки до потолка. На каждой — светящиеся слова, словно светлячки в банках."
+     "ru": "Круглый зал. Полки уходят под купол. В каждой банке — светящееся слово, как светлячок."
     },
     {
      "type": "speech",
      "who": "dan",
-     "en": "Where are we?",
-     "ru": "Где мы?"
+     "en": "So many words!",
+     "ru": "Сколько слов!"
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "I don't know.",
-     "ru": "Я не знаю."
+     "en": "Do not touch the jars.",
+     "ru": "Не трогай банки."
     }
    ]
   },
   {
    "bg": "hall",
-   "mood": "calm",
+   "mood": "tense",
    "sfx": null,
    "cast": [
     {
@@ -63,61 +64,19 @@
      "pos": "right"
     }
    ],
+   "art": "Medium close two-shot: Dan looks sideways at Mira with a suspicious frown; Mira stares straight ahead, jaw set, her hand tight on the strap of her backpack.",
    "lines": [
-    {
-     "type": "speech",
-     "who": "mira",
-     "en": "I know many things. Not this.",
-     "ru": "Я знаю много. Но не это."
-    },
     {
      "type": "speech",
      "who": "dan",
-     "en": "I like this place. I like books!",
-     "ru": "Мне нравится это место. Я люблю книги!"
+     "en": "He says welcome back. You know this place.",
+     "ru": "Он сказал «с возвращением». Ты знаешь это место."
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "No. These are words.",
-     "ru": "Нет. Это слова."
-    }
-   ]
-  },
-  {
-   "bg": "hall",
-   "mood": "calm",
-   "sfx": null,
-   "cast": [
-    {
-     "id": "dan",
-     "pos": "left"
-    },
-    {
-     "id": "mira",
-     "pos": "right"
-    },
-    {
-     "id": "keeper",
-     "pos": "center"
-    }
-   ],
-   "lines": [
-    {
-     "type": "narration-ru",
-     "ru": "В центре, в глубоком кресле, сидит человек в капюшоне. Лица не видно. Он будто ждал их давно."
-    },
-    {
-     "type": "speech",
-     "who": "keeper",
-     "en": "Welcome, Zero. I know you.",
-     "ru": "Добро пожаловать, Зеро. Я знаю тебя."
-    },
-    {
-     "type": "speech",
-     "who": "mira",
-     "en": "Zero, don't talk to him.",
-     "ru": "Зеро, не говори с ним."
+     "en": "I know it. I don't like it.",
+     "ru": "Знаю. Мне оно не нравится."
     }
    ]
   },
@@ -139,24 +98,59 @@
      "pos": "center"
     }
    ],
+   "art": "Frontal composition: at the centre of the hall the Keeper sits in a very tall dark wooden chair, hood hiding his eyes, a faint calm smile, a brass quill in his sleeve; behind the chair a heavy door covered in vermilion wax seals. Dan and Mira stand small in front of him.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "В центре, в высоком кресле, сидит Хранитель. Лица не видно — только улыбку. За его спиной тяжёлая дверь, вся в красных печатях."
+    },
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "I know you, Zero. I have your name.",
+     "ru": "Я знаю тебя, Зеро. Твоё имя у меня."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Don't talk to him, Zero.",
+     "ru": "Не говори с ним, Зеро."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "keeper",
+     "pos": "right"
+    }
+   ],
+   "art": "Close-up on the Keeper's pale hand lifting a glass jar; inside it a tiny vermilion word pulses like a heartbeat (lettering added later). Dan, out of focus in the foreground, reaches for it.",
    "lines": [
     {
      "type": "speech",
      "who": "keeper",
-     "en": "You want your name. I have it.",
-     "ru": "Тебе нужно твоё имя. Оно у меня."
+     "en": "A Silent brings me names. I sell them back.",
+     "ru": "Безмолвные приносят мне имена. Я продаю их обратно."
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Give it to me!",
-     "ru": "Отдай его мне!"
+     "ru": "Отдай!"
     },
     {
      "type": "speech",
      "who": "keeper",
-     "en": "I don't give. I trade.",
-     "ru": "Я не отдаю. Я меняю."
+     "en": "I don't give. I trade names for words.",
+     "ru": "Я не отдаю. Я меняю имена на слова."
     }
    ]
   },
@@ -178,24 +172,25 @@
      "pos": "center"
     }
    ],
+   "art": "Medium shot: the Keeper leans forward, hood tilting, his pale smile widening; Dan clutches his own chest where a faint vermilion glow pulses through his shirt; Mira steps half in front of him.",
    "lines": [
     {
      "type": "speech",
      "who": "keeper",
-     "en": "One word for one name.",
-     "ru": "Одно слово за одно имя."
+     "en": "A trade is a trade. One word, one name. That is the price.",
+     "ru": "Обмен есть обмен. Слово за имя. Такова цена."
     },
     {
      "type": "speech",
      "who": "dan",
-     "en": "What word?",
-     "ru": "Какое слово?"
+     "en": "What word do you want?",
+     "ru": "Какое слово тебе нужно?"
     },
     {
      "type": "speech",
      "who": "keeper",
-     "en": "You have two words. Run and open. I want open.",
-     "ru": "У тебя два слова. Бежать и открывать. Мне нужно «открывать»."
+     "en": "You have one word. OPEN. I want it.",
+     "ru": "У тебя одно слово. OPEN. Оно мне нужно."
     }
    ]
   },
@@ -217,24 +212,25 @@
      "pos": "center"
     }
    ],
+   "art": "Medium shot: the System window, its border solid vermilion and the text inverted (cream on vermilion), floats between Dan and Mira; Dan is hunched with a haunted look; Mira clutches his sleeve.",
    "lines": [
     {
      "type": "system",
      "who": "system",
-     "en": "Warning. You need the word OPEN.",
-     "ru": "Предупреждение. Тебе нужно слово ОТКРЫВАТЬ."
+     "en": "Warning. OPEN is your only word.",
+     "ru": "Предупреждение. OPEN — твоё единственное слово."
     },
     {
      "type": "speech",
      "who": "dan",
-     "en": "I need it. I need my name.",
-     "ru": "Мне нужно оно. Мне нужно моё имя."
+     "en": "I need it. I need my name too.",
+     "ru": "Оно мне нужно. Имя мне тоже нужно."
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "Think, Zero! Don't do it!",
-     "ru": "Думай, Зеро! Не делай этого!"
+     "en": "Think, Zero! A name is just a word.",
+     "ru": "Думай, Зеро! Имя — всего лишь слово."
     }
    ]
   },
@@ -252,24 +248,29 @@
      "pos": "right"
     }
    ],
+   "art": "Over-the-shoulder shot: Dan stands in front of a tall shelf, one jar glowing at eye level; Mira behind him turns suddenly pale at the sound of his voice, her hand covering her ear as if a high note stings.",
    "lines": [
     {
      "type": "speech",
+     "who": "dan",
+     "en": "SISTER? What is SISTER?",
+     "ru": "SISTER? Что такое SISTER?"
+    },
+    {
+     "type": "speech",
      "who": "mira",
-     "en": "A name is just a word.",
-     "ru": "Имя — всего лишь слово."
+     "en": "I hear nothing. Put it down.",
+     "ru": "Я ничего не слышу. Поставь на место."
     },
     {
-     "type": "speech",
-     "who": "dan",
-     "en": "I don't think so.",
-     "ru": "Я так не думаю."
+     "type": "narration-ru",
+     "ru": "Дэн произносит слово с банки вслух. Мира слышит только шорох. Лицо у неё каменеет."
     },
     {
-     "type": "speech",
-     "who": "dan",
-     "en": "No. A name is me.",
-     "ru": "Нет. Имя — это я."
+     "type": "system",
+     "who": "system",
+     "en": "She does not hear that word.",
+     "ru": "Она не слышит это слово."
     }
    ]
   },
@@ -291,6 +292,7 @@
      "pos": "center"
     }
    ],
+   "art": "Triangle composition: the Keeper leans back in his chair, relishing the moment; Mira, furious, steps toward him with a raised finger; Dan stands between, confused.",
    "lines": [
     {
      "type": "speech",
@@ -302,19 +304,19 @@
      "type": "speech",
      "who": "mira",
      "en": "Don't say a word, Keeper!",
-     "ru": "Не смей говорить, Хранитель!"
+     "ru": "Ни слова, Хранитель!"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "What price?",
-     "ru": "Какая цена?"
+     "ru": "Какую цену?"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Nothing. I don't want to talk.",
-     "ru": "Ничего. Я не хочу об этом говорить."
+     "ru": "Ничего. Я не хочу говорить."
     }
    ]
   },
@@ -328,16 +330,17 @@
      "pos": "left"
     }
    ],
+   "art": "Quiet close-up on Dan alone, the jars blurring behind him into warm bokeh; an inset memory bubble in soft paper-cream tones: a hand writing a boy's name on a school notebook. His glasses reflect tiny vermilion words.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Дэн смотрит на светящиеся слова. Он думает об офисе, о маме и о том, как она выбирала ему имя."
+     "ru": "Дэн смотрит на светящиеся слова. Он вспоминает маму: как она выбирала ему имя, как выводила его на тетрадях. Девять звонков. Девять раз она произнесла это имя."
     },
     {
      "type": "thought",
      "who": "dan",
-     "en": "I like my name. It is me.",
-     "ru": "Мне нравится моё имя. Это я."
+     "en": "I don't think so. A name is me.",
+     "ru": "Не думаю. Имя — это я."
     }
    ]
   },
@@ -359,12 +362,13 @@
      "pos": "center"
     }
    ],
+   "art": "Dynamic shot: Dan stretches his open hand toward the Keeper, jaw set; Mira lunges to stop him, caught mid-motion, scarf flying; the Keeper's smile does not move.",
    "lines": [
     {
      "type": "speech",
      "who": "dan",
-     "en": "OK. Take open. Give me my name.",
-     "ru": "Ладно. Забирай «открывать». Верни моё имя."
+     "en": "OK. Take OPEN. Give me my name.",
+     "ru": "Ладно. Забирай OPEN. Верни моё имя."
     },
     {
      "type": "shout",
@@ -384,16 +388,17 @@
      "pos": "center"
     }
    ],
+   "art": "Full-bleed vermilion-white burst: a thread of glowing vermilion lettering is torn out of Dan's chest in a long spiral, streaming across the hall into the Keeper's open jar; Dan arches back, mouth open, glasses slipping.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Слово вырывается из груди Дэна, как дыхание на морозе. Светящейся нитью оно летит к Хранителю."
+     "ru": "Слово вырывается из груди Дэна, как дыхание на морозе. Светящейся нитью оно летит к Хранителю. Внутри пусто — будто выдернули ключ."
     },
     {
      "type": "system",
      "who": "system",
      "en": "Word lost: OPEN.",
-     "ru": "Слово потеряно: ОТКРЫВАТЬ."
+     "ru": "Слово потеряно: OPEN."
     }
    ]
   },
@@ -415,6 +420,7 @@
      "pos": "center"
     }
    ],
+   "art": "Intimate close-up: the Keeper's pale hand offers a small glowing ember-ball of vermilion light; Dan's face lit warmly from below, eyes wet; Mira in the background, arms crossed, looking away.",
    "lines": [
     {
      "type": "speech",
@@ -423,16 +429,10 @@
      "ru": "Теперь скажи. Назови своё имя."
     },
     {
-     "type": "speech",
-     "who": "dan",
-     "en": "I... I am...",
-     "ru": "Я... Я..."
-    },
-    {
      "type": "shout",
      "who": "dan",
-     "en": "I am Dan!",
-     "ru": "Я Дэн!"
+     "en": "I am Dan! I have my name!",
+     "ru": "Я Дэн! У меня есть имя!"
     },
     {
      "type": "narration-ru",
@@ -454,64 +454,60 @@
      "pos": "right"
     }
    ],
+   "art": "Warm two-shot: Dan grins stupidly, glowing faintly vermilion at the chest; Mira, unimpressed, tilts her head at him with a tiny reluctant tug at the corner of her mouth.",
    "lines": [
     {
-     "type": "shout",
+     "type": "speech",
+     "who": "mira",
+     "en": "You have your name. You have no OPEN.",
+     "ru": "У тебя есть имя. У тебя нет OPEN."
+    },
+    {
+     "type": "speech",
      "who": "dan",
-     "en": "I have my name! I am Dan! I am Dan!",
-     "ru": "У меня есть имя! Я Дэн! Я Дэн!"
+     "en": "I know. I am a happy fool.",
+     "ru": "Знаю. Я счастливый дурак."
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "You have your name. You have no door.",
-     "ru": "У тебя есть имя. У тебя нет двери."
+     "en": "You are a fool, Zero.",
+     "ru": "Ты дурак, Зеро."
     }
    ]
   },
   {
    "bg": "hall",
-   "mood": "tense",
-   "sfx": null,
+   "mood": "action",
+   "sfx": "CRACK",
    "cast": [
     {
      "id": "dan",
      "pos": "left"
     },
     {
-     "id": "mira",
+     "id": "keeper",
      "pos": "right"
     }
    ],
+   "art": "Cinematic reveal: the Keeper stands and points at the sealed door behind his chair; vermilion lettering of OPEN streams out of his sleeve and the wax seals crack one by one; a slit of cold green-grey fluorescent light cuts into the amber hall, and through it Dan sees his own office, his desk, his coffee mug, and a phone ringing on it (lettering added later).",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Позади Дэна — выход. Дверь в стене. Мира кивает на неё."
-    },
-    {
-     "type": "speech",
-     "who": "mira",
-     "en": "Try it, Dan. Open the door.",
-     "ru": "Попробуй, Дэн. Открой дверь."
+     "ru": "Хранитель встаёт. Он произносит OPEN — слово Дэна, теперь его слово. Печати на двери трескаются. В щели — офис Дэна. Его стол. Его кружка. Звонящий телефон."
     },
     {
      "type": "shout",
      "who": "dan",
-     "en": "Open! Open the door!",
-     "ru": "Открывайся! Открой дверь!"
-    },
-    {
-     "type": "system",
-     "who": "system",
-     "en": "You don't have that word.",
-     "ru": "У тебя нет этого слова."
+     "en": "That is my office! That is my phone!",
+     "ru": "Это мой офис! Это мой телефон!"
     }
    ]
   },
   {
    "bg": "hall",
-   "mood": "tense",
-   "sfx": null,
+   "mood": "action",
+   "sfx": "SLAM",
    "cast": [
     {
      "id": "dan",
@@ -526,16 +522,25 @@
      "pos": "center"
     }
    ],
+   "art": "Action shot: Dan lunges for the narrow slit of light; the door slams shut, the wax seals knit back together; Mira catches Dan around the waist; the Keeper stands untouched, hands folded.",
    "lines": [
     {
-     "type": "narration-ru",
-     "ru": "Хранитель улыбается из-под капюшона. Дверь так и стоит закрытой."
+     "type": "shout",
+     "who": "dan",
+     "en": "Open it! Open the door!",
+     "ru": "Открой! Открой дверь!"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "You don't have that word.",
+     "ru": "У тебя нет этого слова."
     },
     {
      "type": "speech",
      "who": "keeper",
-     "en": "Good luck, Dan.",
-     "ru": "Удачи, Дэн."
+     "en": "Not yet. I need one more word.",
+     "ru": "Пока нет. Мне нужно ещё одно слово."
     }
    ]
   },
@@ -557,16 +562,17 @@
      "pos": "center"
     }
    ],
+   "art": "Wide shot of the Hall: the lamps on the shelves go dark one after another from the entrance inward; teal silhouettes of Silent pour into the hall between the shelves; the Keeper sits back down, calm and smiling in the last pool of amber light.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Полки гаснут одна за другой. В темноте слышен звук — тысячи тихих шагов."
+     "ru": "Полки гаснут одна за другой. В темноте — тысячи тихих шагов. Дэн выкрикнул своё имя на весь зал, а Безмолвные слышат имена издалека."
     },
     {
      "type": "speech",
      "who": "keeper",
-     "en": "Run. They hear your name.",
-     "ru": "Беги. Они слышат твоё имя."
+     "en": "Run, Dan. They hear your name.",
+     "ru": "Беги, Дэн. Они слышат твоё имя."
     }
    ]
   },
@@ -582,31 +588,42 @@
     {
      "id": "mira",
      "pos": "right"
-    }
-   ],
-   "lines": [
-    {
-     "type": "shout",
-     "who": "mira",
-     "en": "You have no door! Think!",
-     "ru": "У тебя нет двери! Думай!"
     },
     {
-     "type": "shout",
+     "id": "system",
+     "pos": "center"
+    }
+   ],
+   "art": "Wordless chase shot: Dan and Mira bolt toward a small side door at the edge of the dark, teal silhouettes flooding in behind them from every gap; Mira drags Dan by the sleeve; the System window floats beside them, small and tilted.",
+   "lines": [
+    {
+     "type": "speech",
      "who": "dan",
-     "en": "I have a name and I have legs. Run!",
-     "ru": "У меня есть имя и ноги. Бежим!"
+     "en": "I have a name. I have legs!",
+     "ru": "У меня есть имя. И есть ноги!"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "You have no OPEN! Think!",
+     "ru": "У тебя нет OPEN! Думай!"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Count: zero. Again.",
+     "ru": "Счёт: ноль. Снова."
     }
    ]
   }
  ],
  "grammarNote": {
   "title": "Настоящее время: I / you + do / don't",
-  "body": "Для обычных действий (знаю, хочу, нужно, нравится) глагол просто стоит после I или you: «I know», «You want». Чтобы сказать «не», ставим перед глаголом don't: «I don't know». Don't — это сокращение от do not.",
+  "body": "Для обычных действий (знаю, хочу, нужно) глагол просто стоит после I или you: «I know», «You want». Чтобы сказать «не», ставим перед глаголом don't: «I don't know». Don't — сокращение от do not. А слово, о котором мы говорим как о слове, пишем ЗАГЛАВНЫМИ: «I want OPEN».",
   "examples": [
    {
-    "en": "I know many things.",
-    "ru": "Я знаю многое."
+    "en": "I know this place.",
+    "ru": "Я знаю это место."
    },
    {
     "en": "I don't know.",
@@ -620,44 +637,44 @@
  },
  "quiz": [
   {
-   "q": "Что Хранитель хотел получить взамен имени?",
+   "q": "Что Хранитель хотел получить за имя Дэна?",
    "options": [
-    "Слово «бежать»",
-    "Слово «открывать»",
     "Ключ",
-    "Карту"
+    "Слово OPEN",
+    "Телефон",
+    "Слово RUN"
    ],
    "answer": 1
   },
   {
-   "q": "Что ответил Дэн, когда Мира сказала, что имя — просто слово?",
+   "q": "Что Дэн ответил, когда Мира сказала, что имя — просто слово?",
    "options": [
+    "Ты права",
+    "Мне всё равно",
     "Имя — это я",
-    "Имя ничего не значит",
-    "Я не знаю",
-    "Мне всё равно"
-   ],
-   "answer": 0
-  },
-  {
-   "q": "Что произошло, когда Дэн вернул имя и захотел открыть дверь?",
-   "options": [
-    "Дверь открылась",
-    "Появился ключ",
-    "Дверь не открылась",
-    "Дверь исчезла"
+    "Я не знаю"
    ],
    "answer": 2
   },
   {
-   "q": "Чего Мира не захотела обсуждать?",
+   "q": "Что Дэн увидел, когда Хранитель открыл запечатанную дверь?",
    "options": [
-    "Свою цену",
-    "Свой дом",
-    "Дорогу к воротам",
-    "Работу Дэна"
+    "Свой офис",
+    "Лестницу",
+    "Свою маму",
+    "Ворота"
    ],
    "answer": 0
+  },
+  {
+   "q": "Почему Безмолвные пришли в зал?",
+   "options": [
+    "Хранитель их позвал",
+    "Погас свет",
+    "Дэн выкрикнул своё имя",
+    "Мира крикнула"
+   ],
+   "answer": 2
   }
  ]
 }

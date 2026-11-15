@@ -12,7 +12,7 @@
   "safe",
   "big",
   "small",
-  "man",
+  "name",
   "gone"
  ],
  "panels": [
@@ -27,31 +27,26 @@
     },
     {
      "id": "mira",
-     "pos": "center"
+     "pos": "right"
     }
    ],
+   "art": "Wide diagonal chase shot down the soot-brown corridor: Dan and Mira run toward the camera, Dan wheezing; far behind them the Silent walks in a perfectly calm straight line, never faster, never slower. Vermilion lantern-words flicker on the walls as they pass.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Они бегут по коридору. Безмолвный идёт следом — медленно, но ни на шаг не отстаёт."
+     "ru": "Погоня продолжается. Безмолвный не бежит — он идёт. И не отстаёт ни на шаг."
     },
     {
-     "type": "shout",
+     "type": "speech",
      "who": "dan",
-     "en": "I run! I run!",
-     "ru": "Я бегу! Я бегу!"
+     "en": "It walks! Why do we run?",
+     "ru": "Он идёт шагом! Почему мы бежим?"
     },
     {
-     "type": "system",
-     "who": "system",
-     "en": "New word: RUN.",
-     "ru": "Новое слово: БЕЖАТЬ."
-    },
-    {
-     "type": "system",
-     "who": "system",
-     "en": "You run now. Still slow.",
-     "ru": "Теперь ты бежишь. Всё ещё медленно."
+     "type": "speech",
+     "who": "mira",
+     "en": "It is big. It is never tired.",
+     "ru": "Он большой. Он никогда не устаёт."
     }
    ]
   },
@@ -69,16 +64,23 @@
      "pos": "right"
     }
    ],
+   "art": "Frontal wide shot of a blank dead end: a high wall of grey stone fills the frame; Dan and Mira skid to a halt in the foreground, backs to camera, dwarfed by the wall. Teal darkness creeps in from the corridor behind them.",
    "lines": [
     {
      "type": "speech",
      "who": "dan",
-     "en": "That is a big wall!",
-     "ru": "Это большая стена!"
+     "en": "A wall! A big wall!",
+     "ru": "Стена! Большая стена!"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "We are small. The wall is big.",
+     "ru": "Мы маленькие. Стена большая."
     },
     {
      "type": "narration-ru",
-     "ru": "Тупик. Позади — тихие шаги. Ни одного звука, только ощущение, что воздух сжимается."
+     "ru": "Тупик. Позади — ни звука, только тяжёлая, густая тишина. Безмолвные не топают. Они просто приближаются."
     }
    ]
   },
@@ -94,28 +96,31 @@
     {
      "id": "mira",
      "pos": "right"
-    },
-    {
-     "id": "silent",
-     "pos": "center"
     }
    ],
+   "art": "Close-up on Dan's eyes behind the taped glasses, scanning; cut-in insert of the wall: a hair-thin seam, two rusted hinges and a keyhole hidden under grime, drawn like an engineer's blueprint in sharp detail. Mira watches him, sceptical.",
    "lines": [
-    {
-     "type": "narration-ru",
-     "ru": "Безмолвный уже в конце коридора. Он не торопится. Ему некуда спешить."
-    },
     {
      "type": "speech",
      "who": "dan",
-     "en": "The big thing is here!",
-     "ru": "Эта громадина уже здесь!"
+     "en": "That is not a wall. That is a door.",
+     "ru": "Это не стена. Это дверь."
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "It is close.",
-     "ru": "Он близко."
+     "en": "How do you know?",
+     "ru": "Откуда ты знаешь?"
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I know walls. I know doors.",
+     "ru": "Я знаю стены. Я знаю двери."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Три года он рисовал стены и двери на чужих чертежах. Наконец-то это пригодилось."
     }
    ]
   },
@@ -133,28 +138,23 @@
      "pos": "right"
     }
    ],
+   "art": "Insert shot: a small rusty key lying in the dust at the foot of the wall, a single glint of ochre light on its teeth; Dan's hand reaching in from the edge of the frame. Behind, Mira's boots, tense, half-turned toward the dark.",
    "lines": [
     {
-     "type": "speech",
+     "type": "shout",
      "who": "dan",
-     "en": "A key!",
-     "ru": "Ключ!"
-    },
-    {
-     "type": "narration-ru",
-     "ru": "На полу — маленький ржавый ключ. Дэн хватает его в последнюю секунду."
-    },
-    {
-     "type": "speech",
-     "who": "dan",
-     "en": "A small key! That is a key!",
-     "ru": "Маленький ключ! Это ключ!"
+     "en": "A key! A small key!",
+     "ru": "Ключ! Маленький ключ!"
     },
     {
      "type": "system",
      "who": "system",
-     "en": "Correct. That is a key. Wow.",
-     "ru": "Верно. Это ключ. Ничего себе."
+     "en": "That is a key. Wow.",
+     "ru": "Это ключ. Ничего себе."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Кто-то уронил его здесь — и не вернулся за ним."
     }
    ]
   },
@@ -172,22 +172,13 @@
      "pos": "right"
     }
    ],
+   "art": "Medium shot: Dan's trembling hands jam the key into the hidden lock; a small low door swings open in the wall revealing warm ochre light; Mira already shoving him in from behind, one glance over her shoulder at the approaching teal shadow.",
    "lines": [
-    {
-     "type": "speech",
-     "who": "mira",
-     "en": "A small door is in the wall!",
-     "ru": "В стене маленькая дверь!"
-    },
     {
      "type": "shout",
      "who": "dan",
-     "en": "Open! Open the door!",
-     "ru": "Открывайся! Открой дверь!"
-    },
-    {
-     "type": "narration-ru",
-     "ru": "Ключ щёлкает. Дверца поддаётся — и они падают внутрь."
+     "en": "Open, open, open!",
+     "ru": "Открывайся, открывайся!"
     }
    ]
   },
@@ -205,10 +196,11 @@
      "pos": "right"
     }
    ],
+   "art": "Interior wide shot of a tiny round room in warm ochre light: Mira slams the small door and leans on it breathing hard, Dan collapses against the wall; in the middle of the ceiling hangs a bare lamp whose flame has a vermilion heart.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Мира захлопывает дверцу и тяжело дышит. В комнате тихо и тепло. Под потолком горит лампочка."
+     "ru": "Дверца захлопывается. Тихо. Тепло. Под потолком горит лампа с красным сердечком пламени."
     },
     {
      "type": "speech",
@@ -219,14 +211,14 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "Safe? Why?",
-     "ru": "Безопасна? Почему?"
+     "en": "Why is a small room safe?",
+     "ru": "Почему маленькая комната безопасна?"
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "The Silent is not in the light.",
-     "ru": "Безмолвных нет на свету."
+     "en": "The light is a word.",
+     "ru": "Этот свет — слово."
     }
    ]
   },
@@ -244,19 +236,38 @@
      "pos": "right"
     }
    ],
+   "art": "Close-up of the lamp: a vermilion core inside an ochre flame, tiny letters curling in the fire; Mira's gloved hand points up at it while Dan, below, gazes at it with open mouth.",
    "lines": [
     {
      "type": "speech",
-     "who": "dan",
-     "en": "Small room. Small light.",
-     "ru": "Маленькая комната. Маленький свет."
+     "who": "mira",
+     "en": "Someone gives a word. The lamp burns.",
+     "ru": "Кто-то отдаёт слово. Лампа горит."
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "It is a small light. But it is a light.",
-     "ru": "Свет маленький. Но это свет."
+     "en": "Silents stay out of the light.",
+     "ru": "Безмолвные не заходят в свет."
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
     },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Two-shot, intimate and warm: Dan slumps on an old mattress, Mira sits on a tin can across from him, unwrapping a cream scarf; steam of breath in the cool air. Dan gives a tired smile; Mira does not smile back.",
+   "lines": [
     {
      "type": "speech",
      "who": "dan",
@@ -285,22 +296,17 @@
      "pos": "right"
     }
    ],
+   "art": "Close-up on Dan's face, mouth open, eyes searching; the lamp's glow trembles on his glasses; Mira blurred in the background, watching. A single thin vermilion thread of breath drifts from his lips and fades.",
    "lines": [
-    {
-     "type": "speech",
-     "who": "dan",
-     "en": "I am...",
-     "ru": "Я..."
-    },
-    {
-     "type": "narration-ru",
-     "ru": "Он открывает рот. Слово не приходит. Там, где было имя, — пустое место."
-    },
     {
      "type": "speech",
      "who": "dan",
      "en": "I am... I am...",
      "ru": "Я... Я..."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Он открывает рот. Слово не приходит. Там, где было имя, — пустое место."
     },
     {
      "type": "thought",
@@ -324,24 +330,31 @@
      "pos": "right"
     }
    ],
+   "art": "Over-the-shoulder from behind Dan: Mira's hard amber eyes fixed on him, her hand resting on the small door; the lamp throws her shadow huge on the wall.",
    "lines": [
     {
      "type": "system",
      "who": "system",
      "en": "Word lost: DAN.",
-     "ru": "Слово потеряно: ДЭН."
-    },
-    {
-     "type": "shout",
-     "who": "dan",
-     "en": "No!",
-     "ru": "Нет!"
+     "ru": "Слово потеряно: DAN."
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "The Silent has your name.",
      "ru": "Безмолвный забрал твоё имя."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "My name is gone! Give it back!",
+     "ru": "Моё имя пропало! Верни его!"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "It never gives. No name, no gate.",
+     "ru": "Он не отдаёт. Нет имени — нет прохода в ворота."
     }
    ]
   },
@@ -359,12 +372,19 @@
      "pos": "right"
     }
    ],
+   "art": "Medium two-shot with a flicker of dry humour: Mira points at Dan like an examiner, Dan folds his arms indignantly, the System window floats between them, tilted, deadpan.",
    "lines": [
     {
      "type": "speech",
      "who": "mira",
-     "en": "You are a man with no name.",
-     "ru": "Ты человек без имени."
+     "en": "Zero words. No name. You are Zero.",
+     "ru": "Ноль слов. Нет имени. Ты — Зеро."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Zero is a good name.",
+     "ru": "Зеро — хорошее имя."
     },
     {
      "type": "speech",
@@ -382,41 +402,6 @@
   },
   {
    "bg": "room",
-   "mood": "calm",
-   "sfx": null,
-   "cast": [
-    {
-     "id": "dan",
-     "pos": "left"
-    },
-    {
-     "id": "mira",
-     "pos": "right"
-    }
-   ],
-   "lines": [
-    {
-     "type": "speech",
-     "who": "mira",
-     "en": "You are Zero now.",
-     "ru": "Теперь ты Зеро."
-    },
-    {
-     "type": "system",
-     "who": "system",
-     "en": "Zero words. Zero name. Good.",
-     "ru": "Ноль слов. Ноль имени. Отлично."
-    },
-    {
-     "type": "speech",
-     "who": "dan",
-     "en": "I am a man! I am not Zero!",
-     "ru": "Я человек! Я не Зеро!"
-    }
-   ]
-  },
-  {
-   "bg": "room",
    "mood": "tense",
    "sfx": null,
    "cast": [
@@ -429,11 +414,8 @@
      "pos": "right"
     }
    ],
+   "art": "Wall detail: the ochre wall scratched all over with hundreds of names in different hands, some fresh, some faded to ghosts; Mira's thumb rests below one of them (lettering added later), Dan's finger traces another above it.",
    "lines": [
-    {
-     "type": "narration-ru",
-     "ru": "На стене — десятки царапин. Выцарапанные имена. Кто-то писал их здесь, пока ждал."
-    },
     {
      "type": "speech",
      "who": "dan",
@@ -443,8 +425,18 @@
     {
      "type": "speech",
      "who": "mira",
-     "en": "Men are here. Then they are gone.",
-     "ru": "Люди приходят. Потом их нет."
+     "en": "Names. People wait in this room.",
+     "ru": "Имена. Люди ждут в этой комнате."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "They wait. Then they are gone.",
+     "ru": "Они ждут. Потом их нет."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Мира проводит пальцем под одной из надписей и быстро убирает руку. Дэн замечает. Но молчит."
     }
    ]
   },
@@ -460,24 +452,37 @@
     {
      "id": "mira",
      "pos": "right"
+    },
+    {
+     "id": "system",
+     "pos": "center"
     }
    ],
+   "art": "Medium three-shot: Dan sits forward, Mira looks away to the lamp, the System window hangs in the middle, its border a little brighter than before.",
    "lines": [
-    {
-     "type": "system",
-     "who": "system",
-     "en": "Gone. All gone.",
-     "ru": "Исчезли. Все до одного."
-    },
     {
      "type": "speech",
      "who": "dan",
-     "en": "This room is a big wall of names.",
-     "ru": "Эта комната — большая стена имён."
+     "en": "Why do you help me?",
+     "ru": "Зачем ты мне помогаешь?"
     },
     {
-     "type": "narration-ru",
-     "ru": "Мира отворачивается. Её пальцы дрожат — совсем чуть-чуть."
+     "type": "speech",
+     "who": "mira",
+     "en": "One day. Then I am gone. Zero is useful.",
+     "ru": "Один день. Потом меня нет. Зеро полезен."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Mira. Not now.",
+     "ru": "Мира. Не сейчас."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Quiet, you.",
+     "ru": "Помолчи."
     }
    ]
   },
@@ -495,16 +500,17 @@
      "pos": "right"
     }
    ],
+   "art": "Low wide shot along the floor: the small door in the foreground, a thin line of teal shadow under it, and a slow patient knock; Dan and Mira frozen on the mattress, their faces lit from above by the lamp.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Вдруг снаружи, за маленькой дверцей, кто-то стучит. Ровно. Терпеливо."
+     "ru": "Снаружи стучат. Ровно. Терпеливо. Так стучат те, кому некуда спешить."
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "Be quiet. We are safe here.",
-     "ru": "Тише. Здесь мы в безопасности."
+     "en": "Be quiet. This room is safe.",
+     "ru": "Тише. Эта комната безопасна."
     }
    ]
   },
@@ -520,13 +526,14 @@
     {
      "id": "mira",
      "pos": "right"
+    },
+    {
+     "id": "silent",
+     "pos": "center"
     }
    ],
+   "art": "Split composition: left, the door with the teal gap beneath; right, Dan's hand hovering an inch from the iron handle, his face torn between longing and fear; Mira's hand grips his wrist.",
    "lines": [
-    {
-     "type": "narration-ru",
-     "ru": "Голос за дверью знакомый. Слишком знакомый. Это голос самого Дэна."
-    },
     {
      "type": "speech",
      "who": "silent",
@@ -536,31 +543,18 @@
     {
      "type": "speech",
      "who": "mira",
-     "en": "No! That is not you!",
-     "ru": "Нет! Это не ты!"
-    }
-   ]
-  },
-  {
-   "bg": "room",
-   "mood": "tense",
-   "sfx": null,
-   "cast": [
-    {
-     "id": "dan",
-     "pos": "left"
-    }
-   ],
-   "lines": [
+     "en": "No! That is not you! Stay in the light!",
+     "ru": "Нет! Это не ты! Оставайся на свету!"
+    },
     {
      "type": "thought",
      "who": "dan",
-     "en": "But that is my voice. That is my name.",
-     "ru": "Но это мой голос. Это моё имя."
+     "en": "That is my voice. That is my name.",
+     "ru": "Это мой голос. Это моё имя."
     },
     {
      "type": "narration-ru",
-     "ru": "Дэн смотрит на ручку. Он так хочет вернуть имя. Хоть так. Рука сама тянется вперёд."
+     "ru": "Дэн смотрит на ручку. Он так хочет вернуть себе имя — хоть так. Рука сама тянется вперёд."
     }
    ]
   },
@@ -568,42 +562,48 @@
    "bg": "black",
    "mood": "tense",
    "sfx": null,
-   "cast": [],
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "Wordless dramatic close-up: Mira's face draining of colour, amber eyes huge, her right hand clutching the frayed vermilion cord on her left wrist; at the edge of frame, the dark outline of the door.",
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "И вдруг голос за дверью меняется. Теперь это не голос Дэна. Это голос девочки."
+     "ru": "И вдруг голос за дверью меняется. Теперь это голос ребёнка. Мира знает, чей он."
     },
     {
      "type": "speech",
      "who": "silent",
-     "en": "Mira? Open the door.",
-     "ru": "Мира? Открой дверь."
+     "en": "Mira? Open the door. It is cold.",
+     "ru": "Мира? Открой дверь. Мне холодно."
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "That is not... no.",
      "ru": "Это не... нет."
-    },
-    {
-     "type": "narration-ru",
-     "ru": "Лицо Миры белеет. Она явно знает, чей это голос."
     }
    ]
   }
  ],
  "grammarNote": {
   "title": "This / that и a / the",
-  "body": "This — это то, что рядом («это»), that — то, что подальше («то, вон то»). Артикль a ставим, когда предмет новый («какая-то дверь»): «a key». Когда уже ясно, о каком предмете речь — ставим the: «the key».",
+  "body": "This — то, что рядом («это»), that — то, что подальше («то, вон то»). Артикль a ставим, когда предмет новый («какой-то ключ»): «a key». Когда уже ясно, о каком предмете речь — ставим the: «the key». Если слово названо как слово, пишем его ЗАГЛАВНЫМИ: OPEN.",
   "examples": [
    {
     "en": "This is a key.",
     "ru": "Это ключ."
    },
    {
-    "en": "That is a big wall!",
-    "ru": "Это большая стена!"
+    "en": "That is a big wall.",
+    "ru": "То — большая стена."
    },
    {
     "en": "The light is small.",
@@ -613,44 +613,44 @@
  },
  "quiz": [
   {
-   "q": "Что Дэн нашёл на полу в коридоре?",
+   "q": "Что Дэн заметил в стене тупика?",
    "options": [
-    "Монету",
-    "Карту",
-    "Нож",
-    "Ключ"
-   ],
-   "answer": 3
-  },
-  {
-   "q": "Почему комната безопасна?",
-   "options": [
-    "В ней есть свет",
-    "В ней есть охранник",
-    "У неё нет двери",
-    "В ней тихо"
-   ],
-   "answer": 0
-  },
-  {
-   "q": "Что Дэн не смог сказать, когда Мира спросила его?",
-   "options": [
-    "Свой возраст",
-    "Своё имя",
-    "Название города",
-    "Своё желание"
+    "Окно",
+    "Скрытую дверцу",
+    "Лифт",
+    "Лестницу"
    ],
    "answer": 1
   },
   {
-   "q": "Чьим голосом сначала говорил Безмолвный за дверью?",
+   "q": "Почему в комнате безопасно?",
    "options": [
-    "Голосом Миры",
-    "Голосом Системы",
-    "Голосом Дэна",
-    "Голосом ребёнка"
+    "Там нет двери",
+    "Там живёт Мира",
+    "Там горит лампа из слова",
+    "Там нет окон"
    ],
    "answer": 2
+  },
+  {
+   "q": "Что случилось с Дэном, когда Мира спросила его имя?",
+   "options": [
+    "Он назвал чужое имя",
+    "Он не смог его вспомнить",
+    "Он засмеялся",
+    "Он промолчал специально"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Чей голос послышался из-за двери в конце?",
+   "options": [
+    "Голос ребёнка",
+    "Голос Хранителя",
+    "Голос Системы",
+    "Голос мамы"
+   ],
+   "answer": 0
   }
  ]
 }
