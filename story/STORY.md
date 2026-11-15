@@ -1243,6 +1243,209 @@ This — то, что рядом («это»), that — то, что подал�
 
 ---
 
+## Эпизод 6 (s1e06): The Stair of Echoes — Лестница эха
+
+- **Уровень:** A1
+- **Панелей:** 16
+- **newWords:** there, up, down, under, behind, stairs, quiet, sound, write, boy
+
+### Синопсис
+
+Маленький Безмолвный с красным шнурком зовёт Миру, но она не может сделать ни шага; последняя дверь сдвигается на ладонь и встаёт: ей нужно больше, чем слово. Сзади входят Безмолвные, и Дэн впервые в нужде кричит STOP: слово становится его, счёт два. Они бегут на Лестницу эха, где каждое сказанное слово возвращается и превращается в существо, поэтому Дэн и Мира переписываются жёлтым карандашом. На ступенях сидит мальчишка Пип, который продаёт тишину; Дэн платит ему секретом: называет скрытую комнату под лестницей, и она проявляется. Пип выбалтывает, что Мира продала Хранителю слово «сестра» целиком, а маленький Безмолвный внизу и есть Лина. У Миры остаётся два дыхания, она падает, а помощь есть только на рынке наверху, и она не бесплатная.
+
+### Сценарий по панелям
+
+#### Панель 01
+
+- **bg:** `dungeon` | **mood:** `tense` | **sfx:** `—`
+- **cast:** mira (left), silent (right)
+- **art:** Tense two-shot in the cold last-door hall: on the right a child-sized Silent (1.4 m) with a frayed vermilion cord on its left wrist holds out one thin paper-white hand toward Mira; on the left Mira stands frozen, backpack on the floor at her feet, her right hand gripping the vermilion cord on her left wrist. The high black door looms behind the child. Ash-grey light, teal shadow on the floor.
+- **Реплики:**
+  - `narration-ru` — **RU:** Мира не двигается. Перед ней тот, кого она искала три года. И она не может сделать ни шага навстречу.
+  - `speech / silent` — **EN:** Mira. Come. It is cold. — **RU:** Мира. Иди сюда. Мне холодно.
+  - `thought / dan` — **EN:** She can't say the word. I don't know the word. — **RU:** Она не может сказать это слово. А я его не знаю.
+
+#### Панель 02
+
+- **bg:** `dungeon` | **mood:** `action` | **sfx:** `CREAK`
+- **cast:** dan (left), system (right)
+- **art:** Low-angle shot: Dan throws his whole weight against the huge black door with both palms; the door has opened only a hand's width and stopped, a thin line of pale light in the gap. The System window floats at the upper right, tilted, unbothered.
+- **Реплики:**
+  - `shout / dan` — **EN:** Push! Push! — **RU:** Толкайся! Ну же!
+  - `system / system` — **EN:** This door wants more. Not a word. — **RU:** Этой двери нужно больше. Не слово.
+  - `system / system` — **EN:** Almost. Ask me later. — **RU:** Почти. Спроси позже.
+
+#### Панель 03
+
+- **bg:** `dungeon` | **mood:** `action` | **sfx:** `STEP`
+- **cast:** dan (left), mira (center), silent (right)
+- **art:** Wide shot from the door looking back down the hall: three tall Silent walk in from the far entrance in a calm line. In the foreground Dan spins around with one arm thrown out, glowing vermilion lettering bursting from his mouth (lettering added later); the nearest Silent is frozen mid-step. Mira beside him, pale.
+- **Реплики:**
+  - `speech / mira` — **EN:** They come. They are behind us. — **RU:** Идут. Они у нас за спиной.
+  - `shout / dan` — **EN:** Stop! — **RU:** Стой!
+  - `system / system` — **EN:** STOP is yours now. Count: two. — **RU:** STOP теперь твоё. Счёт: два.
+  - `narration-ru` — **RU:** Слово бьёт, как отдача. В глазах темнеет. Но ближний Безмолвный застыл с поднятой ногой.
+
+#### Панель 04
+
+- **bg:** `dungeon` | **mood:** `action` | **sfx:** `—`
+- **cast:** dan (left), mira (center), silent (right)
+- **art:** Dynamic diagonal shot: Dan drags Mira by the wrist toward a narrow side arch in the left wall where stone stairs climb into the dark; Mira looks back over her shoulder. On the right the child-sized Silent with the vermilion cord stands still by the black door, one hand still raised.
+- **Реплики:**
+  - `shout / dan` — **EN:** There is a way! Up there! Come! — **RU:** Там есть проход! Вон там, наверху! Идём!
+  - `speech / silent` — **EN:** Mira. Why do you run? — **RU:** Мира. Почему ты бежишь?
+
+#### Панель 05
+
+- **bg:** `corridor` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Vertical establishing shot of the Stair of Echoes: a vast round shaft, a narrow spiral stone stair without a railing winding up along the wall, the wall covered in thousands of overlapping pale paper sheets like scales. Dan and Mira are two tiny figures on the stair near the bottom; cold teal darkness below, a small warm ochre glow far above.
+- **Реплики:**
+  - `narration-ru` — **RU:** Лестница эха. Узкие ступени вьются вверх по стене огромной шахты. Стены из бумаги. Перил нет.
+  - `speech / dan` — **EN:** So many stairs. Mira, are you OK? — **RU:** Сколько ступенек. Мира, ты в порядке?
+
+#### Панель 06
+
+- **bg:** `corridor` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), mira (right), system (center)
+- **art:** Close two-shot on the stair: Mira's gloved hand is clamped over Dan's mouth, her eyes wide in warning. Behind them the paper wall ripples in rings like water, and a small pale faceless shape is peeling itself off the paper lower down the stair. The System window hovers between them.
+- **Реплики:**
+  - `narration` — **EN:** The wall says it back: OK. OK. OK. — **RU:** Стена отвечает: OK. OK. OK.
+  - `narration-ru` — **RU:** Здесь каждое сказанное слово возвращается. И у эха вырастают руки.
+  - `system / system` — **EN:** Every sound comes back here. Be quiet. — **RU:** Здесь возвращается каждый звук. Тише.
+
+#### Панель 07
+
+- **bg:** `corridor` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Insert shot from above: a torn cream page held against Dan's knee, his hand writing on it with the yellow carpenter pencil; Mira's gloved finger points at the page. Only hands, the pencil and the page; the writing is a few abstract pencil strokes (no readable text).
+- **Реплики:**
+  - `narration` — **EN:** Dan writes: No talk? Mira writes: No sound. Up. Slowly. — **RU:** Мира пишет: Ни звука. Идём вверх. Медленно.
+  - `system / system` — **EN:** You write. Good. Paper is quiet. — **RU:** Ты пишешь. Хорошо. Бумага тихая.
+
+#### Панель 08
+
+- **bg:** `corridor` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), system (right)
+- **art:** Medium shot with dry humour: Dan sits on a step sketching a neat little spiral-stair plan on the page like an engineer, tongue between his teeth; the System window floats right in front of his nose, blocking his view. To his left the stair has no wall, only the open shaft.
+- **Реплики:**
+  - `thought / dan` — **EN:** There are many stairs. There is nothing under us. — **RU:** Тут много ступенек. А под нами пусто.
+  - `system / system` — **EN:** There are 300 stairs. You are slow. — **RU:** Тут 300 ступенек. Ты медленный.
+
+#### Панель 09
+
+- **bg:** `corridor` | **mood:** `tense` | **sfx:** `—`
+- **cast:** silent (center)
+- **art:** High-angle shot looking down the spiral stair: several turns below, a small pale faceless paper figure with a thin teal mouth-seam crawls up the steps on all fours, paper sheets trailing from its back. Teal darkness under it. Dan and Mira are not in frame.
+- **Реплики:**
+  - `thought / dan` — **EN:** There is a thing behind us. It has my voice. Again. — **RU:** За нами что-то идёт. У него мой голос. Опять.
+
+#### Панель 10
+
+- **bg:** `corridor` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (center), pip (right)
+- **art:** Medium wide shot: on a broad step sits Pip, a skinny 11-year-old boy in a too-big grey flat cap and an oversized patched brown coat, under a small paper umbrella, grinning with a gap in his teeth, one open palm held up; a small brass bell without a clapper hangs on his chest. Around him the paper wall is perfectly still. Dan and Mira stop two steps below, Dan pointing at the boy in disbelief.
+- **Реплики:**
+  - `narration-ru` — **RU:** Вокруг мальчишки звук не возвращается. У него есть слово: QUIET.
+  - `speech / pip` — **EN:** Hello, slow people! No sound comes back here. — **RU:** Привет, медленные! Тут звук не возвращается.
+  - `speech / dan` — **EN:** A boy? There is a boy on the stairs! — **RU:** Мальчик? На лестнице мальчик!
+  - `speech / pip` — **EN:** I am Pip. I sell quiet. One quiet, one word. — **RU:** Я Пип. Продаю тишину. Одна тишина за одно слово.
+
+#### Панель 11
+
+- **bg:** `corridor` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), pip (right)
+- **art:** Close two-shot: Pip stretches a greedy finger toward the yellow carpenter pencil behind Dan's right ear; Dan leans back and covers the pencil with his hand, surprised at himself. Warm ochre light from above.
+- **Реплики:**
+  - `speech / pip` — **EN:** No words? Then give me the yellow pencil. — **RU:** Тогда давай жёлтый карандаш.
+  - `speech / dan` — **EN:** No. Not the pencil. — **RU:** Нет. Только не карандаш.
+  - `thought / dan` — **EN:** Why not? It is just a pencil. — **RU:** А почему нет? Это же просто карандаш.
+
+#### Панель 12
+
+- **bg:** `corridor` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), pip (right), system (center)
+- **art:** Over-the-shoulder shot from behind Dan: he points down at the stone under the stairs where the thin outline of a hidden low door now glows vermilion in the wall; Pip hangs over the edge of the step staring at it, cap falling off. The System window floats above the glowing outline.
+- **Реплики:**
+  - `speech / dan` — **EN:** I give you a secret. There is a room under the stairs. — **RU:** Я дам тебе секрет. Под лестницей есть комната.
+  - `speech / pip` — **EN:** There is no room. I live here. I know. — **RU:** Нет там комнаты. Я тут живу. Я знаю.
+  - `speech / dan` — **EN:** There is a door behind that stone. Look down. — **RU:** Вон за тем камнем дверь. Посмотри вниз.
+  - `system / system` — **EN:** True. — **RU:** Правда.
+
+#### Панель 13
+
+- **bg:** `corridor` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (center), pip (right)
+- **art:** Medium shot of the three climbing: Pip walks backwards up the stairs in front, one hand raised like a conductor, a soft round bubble of still air around the group; Dan listens to him, Mira frowns with a hand at her ear as if a sound is missing.
+- **Реплики:**
+  - `speech / pip` — **EN:** OK. A good trade. Talk under my hand. — **RU:** Ладно. Хороший обмен. Говорите под моей рукой.
+  - `speech / pip` — **EN:** I know her. That is Mira. She sells her sister. — **RU:** Я её знаю. Это Мира. Она продаёт свою сестру.
+  - `speech / mira` — **EN:** What does the boy say? I hear nothing. — **RU:** Что говорит мальчик? Я ничего не слышу.
+  - `system / system` — **EN:** She does not hear that word. — **RU:** Она не слышит это слово.
+
+#### Панель 14
+
+- **bg:** `corridor` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), pip (right)
+- **art:** Close-up on Dan's face, eyes wide behind the taped glasses as everything connects; Pip in soft focus beside him, pointing a thumb down the shaft. In Dan's glasses a faint reflection of a red cord.
+- **Реплики:**
+  - `speech / pip` — **EN:** She sells the whole word. The Keeper has it. — **RU:** Она продаёт слово целиком. Оно у Хранителя.
+  - `speech / pip` — **EN:** The small Silent down there is Lina. — **RU:** А маленький Безмолвный там, внизу, это Лина.
+  - `narration-ru` — **RU:** Царапина на стене. Фреска. Красная нить. Дэн наконец знает слово, которого нет у Миры.
+  - `thought / dan` — **EN:** Lina. The red cord. Lina is her sister. — **RU:** Лина. Красная нить. Лина её сестра.
+
+#### Панель 15
+
+- **bg:** `corridor` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), mira (right), system (center)
+- **art:** Medium shot: Mira stumbles on a step, one knee down, face grey, a thin vermilion thread trailing from her lips; Dan reaches for her with both hands. The System window between them has a solid vermilion border and inverted colours (warning).
+- **Реплики:**
+  - `system / system` — **EN:** Warning. Mira has two breaths. — **RU:** Предупреждение. У Миры два дыхания.
+  - `shout / dan` — **EN:** Mira! Sit down! Stop! — **RU:** Мира! Сядь! Стой!
+
+#### Панель 16
+
+- **bg:** `black` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), mira (center), pip (right)
+- **art:** Dark closing shot: Mira collapsed in Dan's arms on the stair, eyes closed, the vermilion thread at her lips; Dan looks up desperately. Above them Pip stands on a higher step, hands in his coat pockets, looking down calmly like someone watching the weather. Far above, a small warm ochre glow.
+- **Реплики:**
+  - `speech / pip` — **EN:** Two breaths. Then no breath. Then she is a Silent. — **RU:** Два дыхания. Потом ни одного. Потом она Безмолвная.
+  - `speech / dan` — **EN:** Is there help up there? — **RU:** Там, наверху, есть помощь?
+  - `speech / pip` — **EN:** There is a market up there. It is not free, Zero. — **RU:** Наверху рынок. Он не бесплатный, Зеро.
+
+### Грамматика: There is / there are и слова места
+
+Чтобы сказать, что где-то что-то есть, английский начинает с there: «There is a door» (одна вещь), «There are many stairs» (несколько). Отрицание: «There is no room». Вопрос получается перестановкой: «Is there help?». Где именно, показывают маленькие слова места: on (на), under (под), behind (за), up (вверх, наверху), down (вниз, внизу). Слово, названное как слово, пишем ЗАГЛАВНЫМИ: STOP.
+
+- There is a boy on the stairs. — На лестнице мальчик.
+- There are many stairs. — Тут много ступенек.
+- There is a door behind that stone. — За тем камнем есть дверь.
+
+### Квиз
+
+1. Почему на Лестнице эха нельзя говорить вслух?
+   - Там живёт Хранитель
+   - Каждое слово возвращается, и из эха вырастает существо **(верно)**
+   - Мира устала от разговоров
+   - Так велела Система
+2. Чем Дэн заплатил Пипу за тишину?
+   - Жёлтым карандашом
+   - Словом STOP
+   - Секретом о комнате под лестницей **(верно)**
+   - Хлебом
+3. Что Пип рассказал про Миру?
+   - Она продала слово «сестра» **(верно)**
+   - Она работает на Хранителя
+   - Она потеряла карту
+   - Она не умеет читать
+4. Сколько дыханий осталось у Миры в конце?
+   - Десять
+   - Шесть
+   - Ни одного
+   - Два **(верно)**
+
+---
+
 # 3. Статус эпизодов (картинки и видео)
 
 Данные из `art/manifest.json`, только чтение.
@@ -1254,29 +1457,1528 @@ This — то, что рядом («это»), that — то, что подал�
 | s1e03 | The Gate / Ворота | 17 | 17 из 17 | 3 (панели 7, 8, 17) | да, 17 |
 | s1e04 | The Price of a Name / Цена имени | 17 | 17 из 17 | 2 (панели 11, 17) | да, 17 |
 | s1e05 | A Voice in the Dark / Голос во тьме | 15 | 15 из 15 | 2 (панели 2, 15) | да, 15 |
+| s1e06 | The Stair of Echoes / Лестница эха | 16 | 0 из 16 | 0 | да, 16 |
 
 ---
 
-# 4. Что дальше
+# 4. Что дальше: основа сериала (написана Fable 5.2)
 
-## Запланированные эпизоды 6–12 (по библии)
+Ниже дословно — главные документы. **При расхождении с разделом 1 (старая библия) правы они.** Порядок чтения перед написанием эпизода: WRITING-GUIDE → series-bible → curriculum → нужный сезон.
 
-- **E6. The Stair of Echoes (Лестница эха).** Дэн и Мира поднимаются молча, общаясь жестами и чертежами; Пип продаёт «тишину» и выдаёт, что Мира «продала сестру»; Мира падает — у неё осталось два слова дыхания.
-- **E7. The Ink Market (Рынок Чернил).** Дэн чинит рушащуюся крышу ларька и получает слово REST; на рынке продают его телефон с голосом мамы; торговец упоминает девочку, которая напевает, — Лина рядом.
-- **E8. Lina (Лина).** Флэшбек в тёплой «бумажной» палитре: день входа в Башню, сделка с Хранителем, «Zero can pass the door»; Дэн понимает, что был инструментом; ссора; Эхо Лины уводит его к Стене Букв.
-- **E9. The Wall of Letters (Стена Букв).** Дэн один у стены украденных слов — Башня оказывается незаконченным предложением «I AM ...»; на стене вспыхивает «DAN» и стена повторяет его голосом.
-- **E10. The First Sentence (Первое предложение).** Дэн понимает, что предложения сильнее и дешевле слов, и открывает вторую дверь фразой «I open the door»; появляется Хранитель и забирает у Миры слово «Mira».
-- **E11. The Keeper's Door (Дверь Хранителя).** Хранитель — первый Zero; дверь домой открывается предложением и двумя людьми (тот, кто помнит, и тот, кто зовёт); он предлагает Дэну билет домой за имя «Mira»; последний кадр — рука Дэна на двери в офис и голос Миры: «Zero. Go.»
-- **E12. Sister (Сестра).** Дэн не уходит, создаёт собственную дверь, говорит Лине слово «sister», Мира получает слово обратно; Система при Count 100 отвечает «Why me?»; последняя дверь ведёт на Этаж Второй; финальный телефонный звонок голосом мамы — это Башня.
+---
 
-## Открытые нити и что держать согласованным
+## 4.1 Инструкция для написания эпизодов (файл story/WRITING-GUIDE.md, дословно)
 
-- Имя «Dan» — Хранитель вернул его Дэну за OPEN; Безмолвный всё ещё носит украденное «I am Dan» и может проходить Ворота вместо владельца.
-- Слово OPEN теперь у Хранителя; у Дэна есть PUSH (E5) и STOP (E3); Count вырастет до 100 только к E12; в E4 Система говорит «Count: zero. Again.» — Дэн после обмена остался с именем, но без OPEN.
-- Красный шнурок на ЛЕВОМ запястье Миры — пара у Лины; страж у последней двери (голос Лины) носит обрывок такого же шнурка. Мира не может произнести и не слышит слово «sister».
-- Фреска в Зале Слушающих: две девочки, у меньшей красный шнурок; царапины имён в комнате с лампой (одно — «LINA»).
-- Телефон Дэна (девять пропущенных от мамы, «Dan, eat something») упал в E1; вернётся в E7 (голос мамы на рынке) и в финале E12 (Башня выучила голос).
-- Хранитель — первый Zero, ему нужна Запечатанная дверь домой; в конце E4 он говорит Дэну «I need one more word» — слово не названо, развязка в E10–E11 (по библии он забирает слово у Миры).
-- Система: «Ask me later / ask me when you have 100 words»; ответ на «Why me?» — в E12; пока она отвечает только короткими фразами.
-- Правила, которые нельзя ломать: Безмолвные слышат, но не видят; не входят в свет связанного слова; забирают слова только у выдохшихся; Дэн и Мира говорят короткими фразами (E1 2–5 слов, E5 до ~7).
-- Визуал: у Дэна на лице только круглые чёрные очки (скотч лишь на дужке), у Хранителя никогда не видно глаз, у Безмолвного нет глаз, носа и губ, только бирюзовый шов; в картинках нет текста.
+### WORDBOUND — руководство автора эпизодов
+
+Это рабочая инструкция для модели (или человека), которая пишет следующие серии. Всё важное уже решено в четырёх документах; твоя работа — **точно исполнить план**, а не придумывать мир.
+
+Ничего не меняй в `js/`, `css/`, `art/`, `sw.js`, `index.html`, в готовых эпизодах и в `story/bible.md`. Не делай git commit, если тебя об этом не просили.
+
+---
+
+#### 0. Золотые правила (если запомнишь только это)
+
+1. **Событие серии, слова-силы, цифры Count и клиффхэнгер берутся из плана.** Ты пишешь реплики и кадры, а не сюжет.
+2. **Каждое английское слово в репликах должно быть в `data/words.json`.** Нет слова — добавь его в словарь или замени.
+3. **Грамматика — только та, что уже открыта** (таблица запретов в `curriculum.md` §8).
+4. **Новая грамматика серии — это способность, без которой сцену не пройти.** Если конструкцию можно убрать и ничего не сломается, сцена написана неверно.
+5. **Система не лжёт, не задаёт вопросов и не говорит «I».**
+6. **В картинках нет текста.** Никаких надписей, букв, цифр в описании кадра.
+7. **Последняя панель — крючок.** Серия не заканчивается на покое.
+8. **Ничего чужого:** ни имён, ни сил, ни сцен, ни фраз из существующих манхв, игр, аниме.
+
+---
+
+#### 1. Порядок работы (шаг за шагом)
+
+##### Шаг 1. Прочитай
+1. `story/STORY.md` — раздел «Что дальше» и **две последние готовые серии целиком** (нужны точные последние реплики и состояние героев).
+2. План своей серии: `story/season-1.md` (S1E7–E12) или `story/seasons-2-4.md` (S2–S4); для S5+ сначала разверни арку в 12 абзацев по образцу S2–S4 и покажи человеку.
+3. Строку своей серии в `story/curriculum.md` (грамматика, сила, фокус-слова, длина фраз, число русских строк).
+4. В `story/series-bible.md`: §2 (правила мира), §4 (голоса персонажей, которые есть в серии), §10 (какие тайны двигает серия), §11 (запреты).
+5. Образец: `data/episodes/s1e06.json` и его записи в `story/shots.json`, `story/checks.json`, `story/synopses.json`.
+
+##### Шаг 2. Раскадруй (до JSON)
+Напиши таблицу на 14–18 строк: `№ | bg | mood | кто в кадре | что происходит | реплики`. Для S1 она уже есть — сверь и уточни. Проверь по таблице:
+- панелей 14–18; английских строк 25–40 (целься в 34–38, чтобы был запас); в панели 1–4 строки; в кадре не больше 3 персонажей;
+- новая грамматика встречается 8–14 раз, первый раз — когда она нужна по сюжету;
+- каждое из 8–10 фокус-слов встречается ≥3 раз (считаются формы из словаря);
+- типы планов чередуются: общий → крупный → через плечо → деталь → нижний ракурс → тихий кадр;
+- 2–3 панели юмора, 1 тихая панель, 1 панель «цифра выросла» (окно Системы);
+- русских строк столько, сколько в `curriculum.md`.
+
+##### Шаг 3. Напиши `data/episodes/sXeYY.json`
+Схема (все поля обязательны, кроме `sfx`, `who` у narration):
+
+```json
+{
+ "id": "s1e07", "title": "The Ink Market", "titleRu": "Рынок Чернил", "level": "A1",
+ "newWords": ["buy", "sell", "..."],
+ "panels": [
+  {
+   "bg": "street", "mood": "tense", "sfx": null,
+   "cast": [{"id": "dan", "pos": "left"}, {"id": "mira", "pos": "right"}],
+   "art": "English shot description, 2-4 sentences, no text in image.",
+   "lines": [
+    {"type": "narration-ru", "ru": "Русский закадровый текст."},
+    {"type": "speech", "who": "dan", "en": "Help! She has no breath!", "ru": "Помогите! У неё нет дыхания!"},
+    {"type": "system", "who": "system", "en": "Count: two.", "ru": "Счёт: два."},
+    {"type": "narration", "en": "Mom: Dan, eat something.", "ru": "Мама: Дэн, поешь что-нибудь."}
+   ]
+  }
+ ],
+ "grammarNote": {"title": "…", "body": "…по-русски, 3–5 предложений…",
+                 "examples": [{"en": "…", "ru": "…"}, {"en": "…", "ru": "…"}, {"en": "…", "ru": "…"}]},
+ "quiz": [{"q": "Вопрос по-русски?", "options": ["а", "б", "в", "г"], "answer": 1}]
+}
+```
+
+Допустимые значения (проверяет валидатор):
+- `bg`: office-night, room, street, night-city, tower-exterior, gate, corridor, dungeon, hall, forest, sky, black, white, flash.
+- `mood`: calm, tense, action. `pos`: left, center, right.
+- `type`: speech, thought, shout, system (нужен `who`), narration (английская, `who` не нужен), narration-ru (только `ru`, без `en`).
+- `sfx`: `null` или ЗАГЛАВНЫЕ латинские буквы, пробел, `!?.` (например `"CRACK"`).
+- `quiz`: ровно 4 вопроса по 4 варианта; `answer` — индекс с нуля; **правильные ответы на разных позициях**.
+- `grammarNote.examples`: ровно 3, взяты из реплик серии или почти дословно.
+- Кавычки в `en` — только прямой апостроф `'`; двойных кавычек внутри английской реплики не ставь (цитату выделяй так: `You say 'Loud is dead'.`).
+
+Особые места: если серия происходит в новом месте, добавь в `story/visual.json → locations` ключ вида `"s1e07:street"` с английским описанием (готовые описания — `series-bible.md` §5.2).
+
+##### Шаг 4. Словарь, персонажи, список серий
+- **`data/words.json`**: для каждого нового слова добавь запись в конец:
+  `{"id": "fix", "w": "fix", "ru": "чинить", "pos": "v", "lvl": "A1", "forms": ["fixes", "fixed", "fixing"], "ex": "I can fix it.", "exRu": "Я могу это починить."}`
+  - `id` — латиница в нижнем регистре; `pos` из списка: n, v, adj, adv, pron, prep, conj, det, num, interj, name, phrase; `lvl`: A1–C1 (это же «вес» слова в мире).
+  - В `forms` — все формы, которые встречаются в репликах (мн. число, -s, -ed, -ing, неправильные). Форму, которая уже принадлежит другому слову, не добавляй (например, `left` уже есть как «левый» — не вписывай его в формы `leave`, пока не понадобится; валидатор предупредит о коллизии).
+  - Имена новых персонажей — `pos: "name"`.
+  - Сначала проверь, нет ли слова уже: многие базовые слова в словаре есть.
+- **`data/story.json`**: добавь серию в `episodes` (`id`, `season`, `n`, `title`, `titleRu`, `level`, `file`); нового персонажа, который говорит или стоит в `cast`, — в `characters` (`id`, `name`, `silhouette` из: male-young, female-young, male-large, hooded, child, monster, system; `desc` по-русски). Лина-Эхо и Nad до превращения играют под id `silent`.
+- **`story/visual.json`**: английское описание нового персонажа — в `characters` (готовые — `series-bible.md` §5.1).
+
+##### Шаг 5. Материалы для картинок
+- **`story/synopses.json`**: синопсис серии по-русски, 5–7 предложений.
+- **`story/checks.json`**: по одной русской строке на панель — что проверить глазами на готовой картинке (кто слева/справа, ключевой предмет, чего быть не должно).
+- **`story/shots.json`**: по одному объекту на панель, **ровно столько, сколько панелей**, с ключами `camera`, `action`, `faces`, `props`, `light`, `avoid` (английский) и `check` (русский, та же строка, что в checks.json). Пиши как для человека, который не читал сюжет: кто СЛЕВА, кто СПРАВА, куда повёрнут, что держит какой рукой, что строго запрещено.
+- **Генератор картинок — Nano Banana 2.1.** Он хорошо держит лица по референсам, поэтому: (1) у каждого постоянного персонажа должен быть лист-референс в `art/refs/<id>.jpg` до генерации панелей с ним — для нового персонажа сначала описание в `visual.json`, потом референс; (2) в `art` и `action` называй персонажей по именам (Dan, Mira, Pip…), а внешность не пересказывай — она придёт из референса и `visual.json`; описывай только то, что *отличается* в этом кадре (поза, эмоция, предмет, повреждение, бледность); (3) для Лины-Эхо и Nad, у которых нет своего id, отличительные признаки пиши в каждом кадре явно.
+- **Видео: не больше 1–2 на серию.** Выбирай так: (а) последняя панель (клиффхэнгер) — почти всегда; (б) одна панель с главным действием или первым применением новой силы. Остальные панели — статичные. В `checks.json` ничего особого для видео писать не нужно.
+- Сами картинки и промпты делает навык `manhwa-art` и скрипты `tools/art/` — автор серии их не запускает, если не просили.
+
+##### Шаг 6. Проверь и собери
+```
+python tools/validate_content.py
+python tools/story_dump.py
+```
+Валидатор должен показать `0 error(s)`. Предупреждения прочитай: коллизии форм и слова из примеров грамматики, которых нет в словаре, надо исправить. Потом пройди чек-лист непрерывности (§6). `story_dump.py` пересобирает `story/STORY.md`; список «Запланированные эпизоды» в нём зашит в скрипт — если он устарел, скажи об этом человеку, сам скрипт не правь без просьбы.
+
+##### Шаг 7. Отчитайся
+Коротко: что написано, цифры валидатора, какие слова добавлены в словарь, какие тайны продвинуты, что вызвало сомнения.
+
+---
+
+#### 2. Голоса персонажей
+
+| Кто | Как говорит | Никогда | Образец на A1 |
+|---|---|---|---|
+| **Dan** | короткие честные фразы; самоирония; инженерные сравнения; формула «I know + тема серии» | пафос, угрозы, длинные речи | «I can go slowly. I am very good at it.» |
+| **Mira** | приговоры в 2–4 слова; повелительное; счёт; «Zero» | ласковые слова; объяснять чувства; слово *sister* до S1E12 | «Loud is dead here.» · «Not bad, Zero.» |
+| **System** | утверждения и команды; сухо; на шаг короче людей; о себе — it / this voice | вопросы; «I»; ложь; восклицательные знаки | «That is a key. Wow.» · «Ask me later.» |
+| **Keeper** | мягко, вежливо, симметричные формулы; «Dan» — чтобы ранить, «Zero» — когда доволен | крик, спешка | «A trade is a trade. One word, one name.» |
+| **Pip** | быстро, цены, числа, дразнится | бесплатные услуги; длинные фразы | «I sell quiet. One quiet, one word.» |
+| **Lina (Echo)** | 1–3 слова из самых знакомых читателю; повтор | новые слова; сложная грамматика | «Mira. Come.» |
+| **Nad** | только реальные прошлые реплики Дэна (до S2E9); потом перестановки тех же слов | слова, которых Дэн не говорил (до S3) | «I am Dan. I am not weak. I am tired.» |
+| **Miss Thorne** (S2+) | полные, образцово правильные предложения; «dear»; поправляет ошибки | сокращения в поучении; сленг | «We don't say "I goed", dear. We say "I went".» |
+| **Rook** (S2+) | одиночные тяжёлые слова, ценники; после S3 — ученические фразы с ошибками | «please», «sorry» до S3E10 | «Cheap.» · «Name your price.» |
+| **Soup** (S2+) | медленно, мало, всё через еду | спешка, злость | «This plan is cold soup.» |
+| **Odessa** (S2+) | проценты, условия, безупречная вежливость; first conditional | эмоции; повышение голоса | «If you sign, you will go home.» |
+| **Judge Period / Sgt Dash** | он — заканчивает словом «Period.»; она — обрывки через тире | — | «Not guilty. Period.» |
+
+Правило различимости: закрой имена над репликами — по одной фразе должно быть понятно, кто говорит.
+
+Русский перевод (`ru`): живой разговорный, не подстрочник; Система — женский род («она»); Безмолвный — «он»; обращение «Зеро»; слова-силы в русском тексте остаются латиницей заглавными (OPEN, STOP).
+
+---
+
+#### 3. Правила уровня с примерами
+
+Общее: одна мысль — одно предложение. Лучше два коротких, чем одно длинное. Длину сверяй с `curriculum.md`.
+
+##### A1, сезон 1 (до 8–12 слов; только настоящее время)
+| Хорошо | Плохо | Почему плохо |
+|---|---|---|
+| «There is a door behind that stone.» | «I noticed a door hidden behind that stone.» | прошедшее время; слова не по уровню |
+| «He says welcome back.» (о недавнем) | «He said welcome back.» | на Этаже 1 нет прошедшего |
+| «Your roof is bad. I can fix it.» | «Your roof is going to collapse unless I repair it.» | будущее, unless, редкие слова |
+| «I don't like your plan. But I have a new plan.» | «Although I dislike your plan, I've got another one.» | although, perfect |
+| «She sells her sister.» (Пип, о прошлом — в настоящем) | «She has sold her sister.» | perfect |
+| «Stop and push!» | «Stop it and then push that over there quickly!» | перегруз |
+
+##### A1+ / A2, сезоны 2–4 (до 12–18 слов)
+| Хорошо | Плохо |
+|---|---|
+| S2: «He is not looking at me. He is looking at the crowd.» | «He hasn't been looking at me this whole time.» |
+| S2E8+: «I was in the kitchen. Mira was with me.» | «I had been in the kitchen when it happened.» |
+| S3: «I held her hand. I had no breath. I let go.» | «Having run out of breath, I released her hand.» |
+| S4: «If you step on this line, the rope will pull.» | «Were you to step here, the rope would be pulled.» |
+
+##### B1–B2, сезоны 5–9
+Длина растёт, но принцип тот же: новая конструкция — в ключевых репликах, остальное — на уже освоенном. Редкое слово — только если оно фокус-слово или объяснено следующей репликой («It means…»).
+
+##### Как вводить новое слово
+1. Первый раз — в ситуации, где смысл виден из кадра (предмет в руке, действие в кадре).
+2. Второй раз — в другой фразе, другим персонажем.
+3. Третий раз — в сильном месте (шутка, окно Системы, клиффхэнгер).
+Слово-сила пишется ЗАГЛАВНЫМИ, когда его называют как слово или объявляет Система: `New word: FIX.`
+
+##### Формулы Системы (не менять)
+`New word: X.` · `X is yours now.` · `Count: N.` · `Word lost: X.` · `Warning. …` · `True.` / `Not true.` · `Sentence: N words. True.` · `Rank up: X.` · `Title: X.` · `Almost.` · `Ask me later.` · `Ask me when you have N words.` · `She does not hear that word.` · `Missed calls: N.`
+Count пишется словами для zero–twelve и hundred, остальное цифрами.
+
+##### Слово, которого персонаж не слышит
+Мира до S1E12 не слышит *sister*; Дэн до S8E10 не слышит и не говорит *finish*. При них в чужой реплике на месте слова стоит `...`, следом — `narration-ru` про шорох (в первый раз) и реплика Системы (`Almost.` или `He does not hear that word.`). В словарь такие слова раньше срока не добавляй.
+
+---
+
+#### 4. Клиффхэнгеры и расплаты
+
+##### Семь типов клиффхэнгера (чередуй; два одинаковых подряд — нельзя)
+1. **Голос** — знакомый голос там, где его не может быть («Mira? Open the door. It is cold.»).
+2. **Цифра** — окно Системы с числом, которое всё меняет («Mira has two breaths.», «No new calls.»).
+3. **Чужими устами** — враг говорит словами героя («I am Dan.»).
+4. **Выбор** — рука на двери; ответ в следующей серии.
+5. **Обрыв слова** — «She is my… I don't have the word.»
+6. **Не тот / не туда** — ждали одного, пришёл другой; ведут не туда.
+7. **Окно-приговор** — одна строка Системы без комментария («Mira is Zero now.»).
+
+Правила: последняя панель — `bg: "black"` или самый тёмный кадр; 2–4 строки; последняя строка короче семи слов; никакого объяснения после удара. Следующая серия начинается **в ту же секунду**.
+
+##### Расплата (payoff)
+- Крючок закрывается не позже чем через 1–3 серии, если в карте тайн (`series-bible.md` §10) не указано иначе.
+- Расплата — всегда через **новую грамматику или слово этой серии**: герой побеждает тем, чему читатель только что научился.
+- Порядок сильной сцены: нужда → неудача старым способом → догадка (инженерный взгляд Дэна) → новая конструкция вслух → эффект в кадре → окно Системы с цифрой → сухая шутка.
+- Цикл «унижение → расплата»: обидчик должен при свидетелях увидеть, что его способ не работает, а способ Дэна — работает. Дэн после победы не злорадствует: протягивает руку или шутит над собой.
+- Победа всегда чего-то стоит: дыхание, время, упущенная возможность. Бесплатных побед нет.
+
+##### Ритм серии (ориентир на 16 панелей)
+1 — продолжение удара · 2–4 — действие/бегство · 5–6 — новое место, правило мира · 7–9 — юмор и освоение новой конструкции · 10–12 — правда о ком-то или сделка · 13–14 — применение новой силы всерьёз · 15 — цена · 16 — крючок.
+
+---
+
+#### 5. Как описывать кадр (`art`, `shots.json`)
+
+- По-английски, 2–4 предложения: тип плана и ракурс → кто где и что делает → ключевой предмет → свет.
+- Цвета: **vermilion** только у силы слов (буквы изо рта, нить дыхания, рамка окна, красный шнурок сестёр); **teal** только у Безмолвных и их теней; тёплая охра — безопасность и лампы. Никакого фиолетового, синего неона.
+- Текст в картинке запрещён. Вместо «на двери написано OPEN» пиши «glowing vermilion lettering (added later)» или «abstract vermilion glow shapes». Карты, записки, доски, окно Системы — пустые или с абстрактными штрихами; обязательно продублируй запрет в `avoid`.
+- Окно Системы: всегда кремовая бумага с красной двойной рамкой, наклон 2–3°, без лица, без текста; предупреждение — сплошная красная рамка и инверсия.
+- Постоянные детали: у Дэна круглые очки (скотч только на дужке), жёлтый карандаш за правым ухом, горчичный шнурок-ланьярд; у Миры красный шнурок на **левом** запястье; у Хранителя никогда не видно глаз; у Безмолвных нет глаз, носа, губ — только вертикальный бирюзовый шов; у Лины-Эхо обрывок красного шнурка на левом запястье; у Nad — две круглые вмятины на лице и обрывок горчичного шнурка на шее.
+- Флэшбеки: `bg: "white"` и в `art` — «memory scene in warm sepia paper tones».
+
+---
+
+#### 6. Чек-лист непрерывности (пройти перед сдачей)
+
+**Состояние героев**
+- [ ] Серия начинается ровно там, где кончилась прошлая (место, поза, последняя реплика).
+- [ ] Count Дэна на конец серии равен цифре из плана; каждое изменение показано окном Системы.
+- [ ] Список связанных слов Дэна не противоречит прошлым сериям (на S1E6: PUSH, STOP; OPEN — красное у Хранителя: сказать можно, силы нет).
+- [ ] Дыхание: кто потратил — тот бледен; никто не колдует с нулём.
+- [ ] Missed calls не уменьшается.
+- [ ] У кого сейчас телефон, карта, имена, банки — как в плане.
+
+**Правила мира**
+- [ ] Безмолвные: слышат, не видят, не бегут, не входят в свет лампы, берут слова только у выдохшихся.
+- [ ] Связанное слово делает только то, что означает, и только с тем, что слышит.
+- [ ] Силовое предложение — правда или искреннее намерение; с ошибкой — трескается.
+- [ ] Никто не использует грамматику следующих этажей (кроме оговорённых «прорывов» в финалах).
+- [ ] Обмен — только по согласию; Хранитель ничего не берёт силой.
+
+**Речь**
+- [ ] Система: нет вопросов, нет «I», нет лжи.
+- [ ] Мира не говорит и не слышит *sister* (до S1E12p8); никто не говорит *finish* при Дэне (до S8E10).
+- [ ] Nad говорит только реальными прошлыми репликами Дэна (сверено с JSON).
+- [ ] Каждого персонажа можно узнать по реплике без подписи.
+
+**Тайны**
+- [ ] Серия двигает именно те нити, что указаны в плане, и не раскрывает ничего раньше срока (`series-bible.md` §9).
+- [ ] Ни одна реплика не противоречит скрытым истинам (например, никто не говорит, что Дэн в Башне впервые, — кроме самого Дэна).
+
+**Язык**
+- [ ] Валидатор: 0 ошибок. Фокус-слова ≥3 раз. 25–40 английских строк.
+- [ ] Длина предложений и число русских строк — по `curriculum.md`.
+- [ ] Примеры в grammarNote взяты из серии; квиз проверяет понимание сюжета, а не память на мелочи; правильные ответы на разных позициях.
+
+**Картинки**
+- [ ] В `art` и `shots` нет текста в кадре; цвета по закону; постоянные детали на месте.
+- [ ] `shots.json` и `checks.json` — ровно по числу панелей.
+- [ ] Видео — не больше двух.
+
+---
+
+#### 7. Запрещено
+
+- Менять канон готовых серий и `story/bible.md`; переписывать план без согласования.
+- Вводить новых постоянных персонажей, фракции, силы, правила мира, которых нет в `series-bible.md`. Эпизодический безымянный персонаж (торговец, стражник) — можно.
+- Заимствовать из существующих произведений: имена, прозвища, «коронные» фразы, узнаваемые силы (армии теней, буквенные ранги охотников, возврат в прошлое и т. п.), организации, дизайн. Жанровые приёмы (окно статуса, башня, ранги, турнир) — можно, но в наших терминах: Count, Book, Breath, the Index, ранги-единицы текста.
+- Кровь, жестокость крупным планом, сексуализация, мат. Страшное здесь — тихое.
+- Текст на картинках. Фиолетовый и синий неон. Vermilion вне силы слов.
+- Объяснять правило грамматики устами героев как урок (исключение — мисс Торн, одна образцовая фраза за серию, и то в сюжетном действии).
+- Давать Дэну силу, слово или цифру, которых читатель не видел в репликах.
+- Русские слова в английских репликах и английские пояснения в `narration-ru`.
+- Бросать нити: если серия открыла вопрос, которого нет в карте тайн, — убери его.
+
+---
+
+#### 8. Полный пример: от плана к панелям (S1E6)
+
+Готовая серия лежит в `data/episodes/s1e06.json` (проходит валидатор: 16 панелей, 40 английских строк, 6 русских, 10 новых слов). Ниже — как она получилась, чтобы повторять тот же ход.
+
+**1. Что дано планом** (`season-1.md`, S1E6): грамматика there is/are + предлоги места; сила Sight («There is…» проявляет скрытое, первый `True.`); STOP связывается, Count 2; события: дверь не открылась → бегство на Лестницу эха → молчание и записки → Пип продаёт тишину → Пип выдаёт тайну Миры → у Миры два дыхания; клиффхэнгер типа «цифра».
+
+**2. Где грамматика становится силой.** Три точки: (а) побег — «There is a way! Up there!»; (б) комедия с планом лестницы — «There are many stairs. There is nothing under us.» / «There are 300 stairs. You are slow.»; (в) кульминация — Дэну нечем платить, и он платит *правдивым называнием*: «There is a room under the stairs… There is a door behind that stone.» — `True.`, дверца проявляется. Без there is сцену не пройти — значит, грамматика встроена верно.
+
+**3. Подсчёт фокус-слов** (до написания JSON):
+
+| Слово | Где (панели) |
+|---|---|
+| there | 4, 8, 9, 10, 12, 14, 16 |
+| up | 4, 7, 16 |
+| down | 12, 14, 15 |
+| under | 8, 12, 13 |
+| behind | 3, 9, 12 |
+| stairs | 5, 8, 10, 12 |
+| quiet | 6, 7, 10 |
+| sound | 6, 7, 10 |
+| write | 7 (три формы: writes, writes, write) |
+| boy | 10 (дважды), 13 |
+
+Первый прогон дал 47 английских строк и по два «under» и «sound». Правка: убраны проходные реплики («I can't.», «More what?», «OK. OK.», «Thank you. Very useful.», «I am OK. We go up.»), две записки слиты в одну строку, а в две оставшиеся реплики вписаны недостающие слова («There is nothing under us», «No sound comes back here»). Так и действуй: **сначала режь проходное, потом вписывай нужное слово в реплику, которая и так есть.**
+
+**4. Канон и зацепки, которые серия обязана держать.**
+- Начало — секунда в секунду после S1E5: Лина-Эхо, Мира без слова.
+- `Almost.` — первое появление (панель 2): Дэн снова не дожал дверь.
+- STOP: в S1E3 было только «New word», теперь — «STOP is yours now. Count: two.»
+- Карандаш: Пип просит, Дэн отказывает и сам не знает почему (панель 11) — зацепка на S3E6.
+- «She does not hear that word.» — та же формула, что в S1E4.
+- Пип говорит о прошлом в настоящем: «She sells her sister» — на этом этаже прошедшего нет.
+
+**5. Ритм.** 1–4 удар и бегство · 5–6 новое место и его правило · 7–9 юмор и освоение (записки, план, эхо-существо) · 10–12 сделка и первое `True.` · 13–14 правда о Мире · 15 цена · 16 крючок («It is not free, Zero.»).
+
+**6. Русская закадровая строка — только там, где английский не тянет:** состояние Миры (1), цена слова (3), что это за место (5), правило эха (6), слово Пипа (10), озарение Дэна (14). Шесть строк — по норме `curriculum.md`.
+
+**7. Картинки.** В `visual.json` добавлены `pip` и место `s1e06:corridor`; в `shots.json` — 16 кадров с LEFT/RIGHT и запретами (нет текста на записке, зонтике, в окне; у маленького Безмолвного нет глаз; Пип не касается карандаша). Видео для этой серии — два: панель 3 (первый настоящий STOP) и панель 16 (клиффхэнгер).
+
+**8. Проверка.** `python tools/validate_content.py` → `0 error(s), 0 warning(s)`; `python tools/story_dump.py` → STORY.md пересобран.
+
+---
+
+## 4.2 Библия сериала (файл story/series-bible.md, дословно)
+
+### WORDBOUND — библия серии (мастер-документ)
+
+Этот файл — главный источник правды о мире и сюжете **на всю длину серии** (9 сезонов, 108 эпизодов, A1 → B2).
+Он **дополняет и уточняет** `story/bible.md` (библия сезона 1, не редактируется). Если что-то в `bible.md` расходится с этим файлом — прав этот файл; если что-то расходится с готовыми эпизодами s1e01–s1e05 — правы эпизоды (они канон и не меняются).
+
+Связанные файлы: `story/curriculum.md` (языковой хребет), `story/season-1.md` (эпизоды 6–12 подробно), `story/seasons-2-4.md` (сезоны 2–4 по эпизодам + сезоны 5–9 по аркам + финал), `story/WRITING-GUIDE.md` (как писать эпизод).
+
+Язык документа: объяснения по-русски; имена, термины мира, реплики и промпты для картинок — по-английски.
+
+---
+
+#### 0. Коротко
+
+**Logline.** Измотанный инженер без единого слова по-английски проваливается в Башню, сложенную из украденных слов, где каждое по-настоящему выученное слово становится силой, — и выясняет, что Башня — это чужое недосказанное предложение, которое можно закончить, только научившись говорить самому.
+
+**Жанровое обещание.** Tower-climbing + System-окна + видимый рост силы + рейтинги + гильдии + «слабость, ставшая уникальным классом». Каждую серию герой становится измеримо сильнее, и читатель вместе с ним: сила героя = слова и грамматика, которые читатель только что выучил.
+
+**Тон.** Сухой юмор от усталости (Дэн), приговоры в три слова (Мира), деадпан-сарказм (Система) — поверх настоящей тоски по дому. Страшное — тихое (Безмолвные не рычат, они говорят голосами близких). Жестокости и крови нет; ставка всегда — слово, имя, голос, память.
+
+**Главная мысль серии (и курса).** В Башне три экономики слов:
+1. **Кража** (Безмолвные) — берёшь чужое, сам остаёшься никем.
+2. **Торговля** (Хранитель, Ledger) — «слово за слово»: чтобы получить, надо потерять.
+3. **Учение** (Дэн) — понял сам / объяснил другому: **слово есть у обоих, никто ничего не потерял**.
+
+Язык нельзя купить и нельзя украсть — можно только выучить, а отдав, не потерять. Слова в банках мертвы; слова в предложениях живут. Это и сюжет, и метод обучения.
+
+**Мета-зеркало.** Ученик «много раз начинал и бросал». У Дэна в Башне украдено/продано ровно это: слово **FINISH**. «Count: zero. Again.» — про них обоих. Вся серия — о человеке, который наконец что-то доводит до конца: звонок маме, спасение друга, свой мост, чужое предложение.
+
+---
+
+#### 1. Что делает историю «невозможно отложить» (механики и где они стоят)
+
+| # | Механика жанра | Как сделана в WORDBOUND (оригинально) | Где |
+|---|---|---|---|
+| 1 | Окно статуса, цифры растут | Окно Системы: Count (связанные слова), Book (известные), Breath, Rank, Class, Titles, Grammar, Missed calls. Цифры **совпадают с прогрессом ученика** | каждый эпизод; полное окно — в начале и конце каждого сезона |
+| 2 | Слабость → уникальный класс | У Дэна 0 слов → он единственный, кто слова *учит*, а не покупает → класс **BUILDER**: сила из грамматики, а не из владения словами | заявка S1E5 (PUSH), S1E10 (первое предложение), класс S1E12 |
+| 3 | Видимая лестница рангов | Ранги — единицы текста: Blank → Letter → Word → Phrase → Clause → Sentence → Paragraph → Page → Chapter → Book → (Author). Доска **the Index** | ранг-ап в финале каждого сезона + 1–2 внутри |
+| 4 | Унижение → расплата | Рук при всех отбирает у Дэна слово (S2E2) → Дэн с «классом нулей» обходит его команду (S2E7) → Рук просит научить его (S3E10) | каждый сезон минимум один цикл «унизили → 3–5 серий → расплата» |
+| 5 | Соперник-зеркало | **Rook**: 800 купленных тяжёлых слов и ни одной своей фразы — против Дэна: 100 лёгких слов и грамматика | S1E12 (тизер), S2–S4, союзник с S5 |
+| 6 | «Гача»/pick | **Well of Crooked Words** (колодец неправильных глаголов): бросаешь обычное слово — всплывает случайная «кривая» форма; редкости | S3E2 и далее; идея мини-игры для приложения |
+| 7 | Капельница тайн | 16 скрытых истин (§9), каждая открывается грамматикой, которую читатель только что получил («It is a long answer. It needs the past.») | см. карту тайн §10 |
+| 8 | Клиффхэнгер каждой серии | 7 типов (см. WRITING-GUIDE): голос, цифра, чужими устами, выбор, обрыв слова, «не тот человек», окно Системы | последняя панель каждого эпизода |
+| 9 | Цена силы | Breath; проданное слово оставляет **Дыру** (Hole); клятва (will) со ставкой; лампа горит только на отданном слове | всегда; новые цены в S2 (ставки в дуэлях), S4 (клятвы), S6 (жертва наставницы) |
+| 10 | Найденная семья | Дэн, Мира, Лина (ребёнок-Безмолвная), Пип, Суп, мисс Торн, позже Рук и Рен — «Кухня» в Gutter | собирается S2E3–E7, испытывается S5, теряет наставницу S6 |
+| 11 | Эскалация масштаба | коридор → этаж → город → академия и турнир → война гильдий → машина Башни → верх и реальный мир | по сезонам |
+| 12 | Личный враг, растущий вместе с героем | **Nad** — Безмолвный с именем Дэна: говорит только фразами, которые Дэн уже говорил (= интервальное повторение для ученика), и растёт вместе с его словарём | S1E1 → S9 |
+| 13 | Таймер из реального мира | Счётчик **Missed calls** в окне статуса: мама продолжает звонить. Однажды он останавливается | S1E7 → S4E12 |
+| 14 | «Вторая попытка» (без регрессии) | Дэн уже был в Башне 5 лет назад, продал слово и забыл. Не возврат во времени, а возвращённый долг | S1E12 (Again?), S2E12, S3 |
+| 15 | Хаб, работа, гринд | Margin City: доска заказов, Дэн-инженер чинит лифты и мосты, Count растёт на глазах | S2E5–E6 |
+| 16 | Турнир/экзамен | the Proof (S2), the Dictation (S4) — правила, сетка, ставки, приз «дверь домой» | S2E7, S4E9–E12 |
+| 17 | Предатель среди своих | Speaker (Безмолвный высшего ранга) неотличим от человека; ловится только грамматикой (не умеет пересказывать — reported speech) | S7 |
+
+---
+
+#### 2. Мир: правила (точно и полностью)
+
+##### 2.1 Башня (the Tower)
+
+- **Что это на самом деле.** Не здание, а **недосказанное предложение**. 40 лет назад человек по имени Элиас не сказал умирающей жене два слова: «I am here» — сказал «One minute» и опоздал. Недосказанное стало Дверью, Дверь — Башней. Башня с тех пор пытается закончить «I AM ___», подставляя в пробел украденные имена («I am Dan», «I am Lina»), потому что не знает, что пропущено не имя, а слово **HERE**. *(Скрытая истина №15–16; до S8 никто этого не знает.)*
+- **Как в неё попадают.** Через **Дверь**, которая вырастает там, где человек измотан **и должен кому-то слово** (несказанное «прости», «я приеду», «с днём рождения»). На двери горит одно слово. У Дэна — OPEN.
+- **Из чего она.** Этажи спрессованы из слов, украденных у людей. Красные огоньки, плывущие вверх по небу (E1), — это слова: сгоревшие в лампах, отнятые Безмолвными, выпавшие из «утихших» Безмолвных. Они поднимаются к **the Press** (Этаж 6), где из них прессуют новые этажи.
+- **Она растёт в середине.** Башня боится своего конца, поэтому вставляет между началом («I AM») и концом всё новые «придаточные» — этажи 2–8. Вершина каждый год отодвигается. Отсюда отчаяние старых альпинистов: «The top moves».
+- **Структура.** Сейчас этажей девять. Каждый этаж — одна «грамматическая физика»: на этаже действует и проверяется одна группа конструкций. На каждом этаже несколько ярусов (levels) и город/поселение.
+- **Грамматический замок (Floor Lock) и Предел слушателя (Listener's Limit).** Башня «переводит» всем на Plain (английский), но пропускает к слушателю только те конструкции, которые слушатель освоил; остальное приходит упрощённым или как шорох. Кроме того, конструкции старших этажей на младших «не держатся». Поэтому на Этаже 1 **нет прошедшего времени**: о вчерашнем говорят в настоящем («He says welcome back», «I see my office» — так в каноне). Поэтому Мира три года не может толком рассказать свою историю, а Система не может объяснить Дэну его прошлое: «It is a long answer. It needs the past.» Пройдя этаж, человек уносит его грамматику с собой навсегда.
+- **Последняя дверь этажа.** Открывается только **новым правдивым предложением о себе в грамматике этого этажа**. «Новым» — значит составленным самим говорящим, а не купленным/украденным/заученным. Поэтому гильдии, живущие на купленных словах, застревают у дверей и охотятся за теми, кто умеет *строить* фразы.
+
+| Этаж | Название | Что проверяет (вопрос двери) | Грамматика | Сезон |
+|---|---|---|---|---|
+| 1 | the Floor of Names | Who are you? What do you do? | be, this/that, a/the, imperatives, can, present simple, there is, предлоги места, and/but/because, SVO | S1 |
+| 2 | the Floor of Deeds (город Margin) | What are you doing? | present continuous, some/any, 's/whose, object pronouns, like + -ing, время и дни, was/were, первые -ed | S2 |
+| 3 | the Floor of Yesterdays (the Drowned Stacks) | What did you do? (признание) | past simple, irregular verbs, ago/last/when, could, past continuous | S3 |
+| 4 | the Floor of Laws (the Academy of the Line) | What will you do? (клятва) | comparatives/superlatives, must/have to/should, going to, will, first conditional | S4 |
+| 5 | the Floor of Marks | What have you done? | present perfect, ever/never/yet/already, for/since, relative clauses, used to | S5 |
+| 6 | the Floor of Works (the Press) | What was done to you? Who did it? | passive, технический/документальный английский, zero conditional, infinitive of purpose | S6 |
+| 7 | the Floor of Ifs | What would you do? | second conditional, wish, reported speech, might/must be | S7 |
+| 8 | the Floor of Regrets | What would you have done? | past perfect, third conditional, should have | S8 |
+| 9 | the Last Line | Finish the sentence. | свободный B2, регистры, нулевой русский | S9 |
+
+- **Ворота (Gates)** внутри этажа слышат **имя** (канон E3): открываются тому, чьё имя прозвучало у арки, даже если его произнёс не владелец.
+- **Двери Возврата (Doors of Returns).** Запечатанные двери, ведущие во внешний мир. Правило: дверь открывается *предложением* и *двумя людьми* — «тем, кто помнит» (идущий должен нести имя) и «тем, кто зовёт» (кто-то снаружи должен в этот момент произносить это имя: звонок, зов, молитва). Дверь ведёт **в дом того, чьё имя и чьё открывающее слово использованы**. Кто прошёл с чужим именем — **занимает место** владельца: зовущий видит и слышит в нём своего. Пока место занято, настоящий владелец через Двери Возврата пройти не может. *(Истины №4, №11.)*
+- **Купленный возврат стирает Башню.** Кто уходит через дверь, оплаченную словом, забывает Башню («It is a dream»). Так Дэн забыл свой первый визит.
+- **Время.** В обоих мирах время идёт **одинаково, 1:1**. Офис в щели двери (E4) пуст, потому что наступила суббота; звонит стационарный телефон на столе — мама, не дозвонившись на мобильный, звонит в бюро.
+
+##### 2.2 Слова
+
+- **Plain words (серые) — the Book.** Слова, которые человек знает/понимает. Бесплатны, силы не дают. Система объявляет: `New word: X.` — слово вошло в Книгу.
+- **Bound words (красные) — the Count.** Слово становится связанным, когда человек (а) по-настоящему понял его и (б) всерьёз произнёс в момент нужды, и оно **сработало**. Система: `X is yours now.` / `Count: N.` (в E1 оба события совпали: «New word: OPEN. Count: one.»). Связанное слово делает **ровно то, что означает**, и действует только на то, что может его *услышать* (у дверей, стен и камня в Башне «есть уши» — они сделаны из слов).
+  - Канон-сверка: STOP в E3 вошло в Книгу («New word: STOP»), но связалось только в S1E6, когда Дэн впервые крикнул его в нужде. Поэтому в E4 «OPEN is your only word» и «Count: zero. Again.» — правда.
+- **«Красное» и «целое».** У слова две части: **the red** (связанная сила) и **the whole word** (само слово в Книге).
+  - *Обмен красным* (как OPEN в E4): сила уходит покупателю, слово остаётся у тебя серым — можешь говорить и слышать, но оно ничего не делает («You don't have that word»). Заново связать его нельзя, пока красное у другого.
+  - *Продажа целого* (как SISTER у Миры): слово уходит с корнем. Ты не можешь его сказать, прочитать и услышать — вместо него шорох, в тексте `...`. Стоит в десятки раз дороже.
+- **Дыра (the Hole).** Проданное целиком слово оставляет дыру: человек, сам не понимая почему, **избегает того, что слово называет**. Мира, продав SISTER, убегает от голоса Лины («Why do you run?»). Дэн, продав FINISH, ничего своего не доводит до конца. Система отмечает это фирменным `Almost.`
+- **Синонимы — разные слова.** Сила ограничена значением: OPEN открывает, PUSH толкает. Нет нужного слова — ищи соседнее по смыслу (канон E5). Это законный «обходной путь» Дэна и способ учить синонимы.
+- **Вес слова (tiers).** Чем слово реже и точнее, тем оно тяжелее: сильнее, дороже по дыханию и требует более сложной грамматики, чтобы его «поднять». Вес = уровень слова в `words.json`:
+
+| Вес | Уровень (`lvl`) | Пример | Рисуется как |
+|---|---|---|---|
+| Thin | A1 | open, stop, push | тонкие буквы |
+| Regular | A2 | repair, protect | обычные |
+| Bold | B1 | restore, reveal | жирные |
+| Heavy | B2 | dismantle, withstand | тяжёлые, с тенью |
+| Black | C1 | редкость, только у Capitals | чёрно-красные |
+
+- **Особые виды слов.**
+  - **Names** — первое связанное слово человека, якорь «я». Без имени — не пройти Ворота.
+  - **Mortar words** («раствор»): a, the, of, to, and, because, who… Их нельзя связать, продать или украсть, они ничьи. Но правильно класть их умеет только тот, кто понимает грамматику. Купленные слова без раствора не держатся вместе — поэтому покупатели говорят одиночными словами и штампами.
+  - **Crooked words** («кривые»): неправильные формы (went, saw, left). Не продаются наборами, каждая добывается отдельно (колодец на Этаже 3). Редкости: common / rare / twisted.
+- **Как слова получают.** (1) выучить самому; (2) **быть наученным** — бесплатно, слово остаётся у обоих; (3) купить красное или целое; (4) получить в уплату за работу; (5) подобрать «выпавшие» слова утихшего Безмолвного (охотники этим живут; Дэн отказывается — это чьи-то слова); (6) украсть (Безмолвные, Magpies).
+- **Как слова теряют.** Обмен; кража у выдохшегося; сжечь в лампе (слово-топливо выгорает и уплывает вверх); проиграть ставку в словесной дуэли (S2); нарушить клятву (S4).
+- **Возврат проданного слова.** По правилу Хранителя — никогда. На деле есть путь, который открывает Дэн (S1E12): **Определение (Define)**. Проданное слово человек не слышит, но *предложение-определение из других слов* — слышит. Поняв значение заново и сказав слово в нужде, он связывает его снова; банка у покупателя лопается, а купленные копии у третьих лиц тускнеют. Это ломает рынок слов и делает Дэна мишенью.
+- **Истинное именование (True Naming).** Украденное/проданное имя возвращается, если другой человек говорит о тебе **три правдивых предложения**, а ты отвечаешь «I am …». Не работает, если названный *не хочет* быть этим человеком (так Nad отвергает «Kostya», S3E9).
+
+##### 2.3 Дыхание (Breath) и комбо
+
+- Breath измеряется в «дыханиях» — сколько связанных слов можно произнести до падения. Максимум растёт с рангом: Blank/Letter 10 · Word 15 · Phrase 25 · Clause 40 · Sentence 60 · Paragraph 90 · Page 130 · Chapter 180 · Book 250.
+- Цена: одиночное связанное слово — 1–3 (зависит от размера и сопротивления цели: «Big thing, big breath»); крик на многих — всё, что есть (Мира в E3).
+- Признаки: ≤30 % — бледность, дрожь; ≤2 — тонкая красная нить изо рта; 0 — падение, человек открыт для Безмолвных.
+- Восстановление: в свете лампы ~1 дыхание за 10 минут; сон, еда; слово REST (отдаёт дыхание другому).
+- **Комбо = грамматика.**
+  - **Chain** (слово + AND + слово): два действия за полтора дыхания.
+  - **Sentence** (кто + делает + что): 1 дыхание за любое правдивое грамматичное предложение, эффект устойчивее и точнее. Не требует, чтобы каждое слово было связанным: сила идёт из **структуры**.
+  - **Long sentence** (because / when / if / who): предложение с условием, причиной, целью.
+  - **Paragraph** (несколько предложений, держащих одну конструкцию): мосты Дэна (S5+).
+- **Ошибка = трещина.** Предложение с грамматической ошибкой «трескается»: стоит вдвое дороже и может не сработать (красные буквы осыпаются). Силовое предложение должно быть правдой или искренним намерением; ложь в силовой фразе бьёт по говорящему. В простой (серой) речи лгать можно.
+
+##### 2.4 Система (the System)
+
+- **Что это.** Голос самой Башни — её «первое выученное слово». Бумажное окно (визуал — канон). Английское местоимение **it**; по-русски «Система», ж. р.
+- **Жёсткие правила речи Системы (соблюдать всегда):**
+  1. Не лжёт. Может не договаривать.
+  2. Отвечает только словами и грамматикой, понятными слушателю; иначе — `Ask me later.` или `Ask me when you have N words.`
+  3. **Никогда не задаёт вопросов** (до S9E11). Копия не умеет хотеть знать.
+  4. **Никогда не говорит «I»** (до S9E12). О себе — `it`, `this voice`, `the Tower`. («Ask me later» допустимо: me — можно, I — нельзя.)
+  5. Короткие предложения; длина растёт с уровнем Дэна, но всегда чуть короче, чем у людей.
+  6. Не может действовать — только информация, предупреждения и сарказм.
+- **Личность.** Деадпан. Язвит («That is a key. Wow.»). По-своему заботится: предупреждает, придерживает Миру («Mira. Not now.»), с S4 начинает советовать («You should sleep.»). Её юмор — **отражение юмора девятнадцатилетнего Дэна**: пять лет назад он научил её первому «своему» слову FUNNY *(истина №10)*.
+- **Чего хочет.** Перестать быть чужим предложением и сказать своё. Поэтому она позвала Дэна обратно: только тот, кто учится у неё на глазах, показывает, как слово становится *своим*.
+- **Фиксированные формулы.** `New word: X.` · `X is yours now.` · `Count: N.` · `Word lost: X.` · `Warning. …` (окно инвертировано) · `True.` / `Not true.` · `Sentence: N words. True.` · `Rank up: X.` · `Title: X.` · `Almost.` · `Ask me later.` · `He/She does not hear that word.` Числа в Count: словами от zero до twelve и hundred, иначе цифрами.
+
+##### 2.5 Окно статуса
+
+Показывается целиком в первой и последней серии сезона и при ранг-апе; в остальных сериях — отдельные строки.
+
+```
+[ NAME ]   DAN                 [ TITLE ]  ZERO
+[ RANK ]   BLANK               [ CLASS ]  ???
+[ COUNT ]  1        (bound)    [ BOOK ]   58   (plain)
+[ BREATH ] 6 / 10
+[ GRAMMAR ] BE · THIS/THAT · CAN · DO/DOES
+[ FLOOR ]  1 — NAMES
+[ MISSED CALLS ]  9
+```
+
+- **Count** = связанные слова. **Book** = известные слова. **Grammar** = список освоенных конструкций (значки). **Missed calls** — появляется с S1E7, растёт примерно на 1 в 1–2 серии, останавливается в S4E12.
+- **Titles** (коллекционные): Zero (S1E2), Happy Fool (S1E4), Door-Pusher (S1E5), Loud (S1E6), Roof-Fixer (S1E7), Teacher of One (S1E12), Lowest on the Index (S2E1), Class Zero (S4E1)… Новый титул — не чаще одного на серию.
+- **Зеркало ученика** — см. `curriculum.md` §6: Count Дэна на рубежах = рекомендованное число освоенных слов ученика.
+
+##### 2.6 Ранги и доска
+
+Ранги — единицы текста (оригинальная шкала; не использовать буквенные E–S):
+
+| Ранг | Порог Count | Breath | Что умеет типичный носитель |
+|---|---|---|---|
+| Blank («Zero») | 0 | 10 | ничего |
+| Letter | 1 | 10 | одно-два слова-команды |
+| Word | 25 | 15 | набор команд |
+| Phrase | 100 | 25 | цепочки и короткие предложения |
+| Clause | 300 | 40 | предложения с причиной/временем |
+| Sentence | 600 | 60 | рассказ о прошлом, чтение памяти |
+| Paragraph | 1000 | 90 | клятвы, условия, планы |
+| Page | 1500 | 130 | конструкции-«мосты» |
+| Chapter | 2500 | 180 | пассив, пересказ, дедукция |
+| Book | 4000 | 250 | всё |
+| Author | — | — | один: тот, кто закончит предложение |
+
+Ранг даётся за Count **плюс** прохождение последней двери соответствующего этажа. Купленный Count даёт значок ранга, но не проход (так Рук — «Paragraph» по значку и не может пройти дверь Этажа 2 без проводника).
+
+**The Index** — доска рейтинга в каждом городе: все альпинисты по Count. Первая десятка — **the Capitals** («заглавные»). Строка №1 — **пустая**: имя стёрто, Count огромен *(это Хранитель, истина №12)*. №2 — Odessa Marl. №3 — Mother Hush. Бывшая №3 — Agnes Thorne (вычеркнула себя сама).
+
+##### 2.7 Безмолвные (the Silent)
+
+- **Происхождение.** Бывшие люди, потерявшие все слова. Слепы: слышат, не видят. Сами говорить не могут — только повторять услышанное чужими голосами. Каждое украденное слово даёт несколько минут ощущения «я — кто-то». Не стареют.
+- **Правила (канон + уточнения).** Забирают слова только у выдохшихся (Breath ≈ 0): повторяют голосом жертвы «I am …» — и жертва немеет на этом слове. Не входят в свет лампы на связанном слове. Идут на звук; громко названное имя слышат издалека. Не бегают — идут.
+- **Иерархия:**
+
+| Ранг | Что это | Признак |
+|---|---|---|
+| **Hollow** | пустой, только шипит; стоят толпами (Hall of Listeners); рождаются также из эха на Лестнице эха | гладкая голова, шов |
+| **Echo** | несёт украденные слова/имя, повторяет готовые фразы чужим голосом, проходит Ворота по имени | говорит; на теле остаток вещи владельца имени (шнурок Лины) |
+| **Chorus** | много голосов в одном теле; собирает *новые* фразы из украденных кусков; босс этажа | несколько швов-ртов, говорит хором |
+| **Speaker** | столько слов, что отрастил лицо по носимому имени; неотличим от человека | не тратит Breath (нет красной нити); **не умеет пересказывать** (только прямая цитата), не отвечает новой мыслью на вопрос, которого не слышал; глаза всегда скрыты бликом |
+| **the Proofreader** | «иммунитет» Башни: Chorus из тысяч, стирает аномалии (S6–S9) | вычёркивает людей красной чертой |
+
+- **Как вернуть Безмолвного.** Он должен сказать **своим голосом одно полное правдивое предложение о себе**. Для этого ему нужны три якоря: **Name** (кто) + **Deed-word** (что я делаю) + **Bond-word** (чей я). У Лины: LINA + SING + SISTER → «I am Lina. I sing. Mira is my sister.» (S4E8).
+- **Что они такое для Башни.** Рты, которыми она примеряет имена, пытаясь закончить «I AM ___».
+
+##### 2.8 Хранитель и Зал Слов
+
+- Хранитель — **первый Zero**, Элиас: человек, из чьей недосказанной фразы выросла Башня. Он этого не помнит: первой его сделкой было продать Башне своё **имя целиком — чтобы забыть**, чего он не сказал. С тех пор 40 лет торгует чужими словами и на них же живёт (слова в банках продлевают ему время; выглядит на возраст, в котором продал имя).
+- Правило его лавки: **«One word, one name»** — обмен только по согласию; силой он взять не может (поэтому в E4 честно вернул имя за OPEN, а потом сразу погасил лампы, чтобы Безмолвные украли имя Дэна заново: «I need one more word» = **DAN**).
+- **Его план в S1.** Дверь Возврата за креслом. Своего имени у него нет, и его никто не зовёт. Значит — пройти под чужим именем, которое зовут прямо сейчас. Имя Дэна зовёт мама. OPEN Дэна + имя DAN = Хранитель выйдет в мир «Дэном».
+- **Его Дыра.** Избегает вершины и себя: никогда не поднимается выше Этажа 1, не показывает глаз.
+- Зал Слов: банки с **красным** (на продажу) и с **целыми** словами (запас, «вечное топливо»). Безмолвные носят ему краденое; детские имена он перепродаёт наверх (так имя LINA ушло на Этаж 2).
+
+##### 2.9 Альпинисты и фракции (все названия оригинальные)
+
+- **Climbers** — все люди в Башне. Легенда альпинистов: *наверху лежит Последнее Слово; кто его произнесёт, получит одно Истинное Предложение — что скажешь, то и станет правдой*. (На деле: пробел в «I AM ___» можно заполнить один раз.)
+- **The Ledger** («Гроссбух») — торговая гильдия. Девиз: «Everything has a price». Скупают слова у Хранителя и Безмолвных, продают богатым; тайно торгуют **Callers** (голосами зовущих снаружи) и **Returns** (проходами домой под чужим именем). Глава — **Odessa Marl, the Auditor**. Цвета: латунь, чернила, кремовый.
+- **The Line** («Строка») — порядок и стража Ворот, судьи, Академия на Этаже 4. Девиз: «Stay on the line». Верят в ранги и правила. Офицеры носят имена знаков препинания: **Judge Period**, **Sergeant Dash**. Глава — **Rector Ilse Varga, the Ruler**. Цвета: пепельный, белый, линейки.
+- **The Hush** («Тишь») — давшие обет молчания: слова кормят Башню, значит, надо замолчать всем. Общаются жестами и письмом. Монастырь на Этаже 3. Глава — **Mother Hush** (№3 Индекса). Правы в диагнозе, страшны в лекарстве (хотят «милосердно» сделать Безмолвными всех). Цвета: некрашеный лён, кость.
+- **The Unwritten** («Ненаписанные») — безымянные и малословные, живут в **the Gutter** (трущобы под Margin, «межколонник»). Дом команды Дэна — **the Kitchen** Супа. Цвета: латаные коричневые.
+- **The Magpies** («Сороки») — воры слов: доводят жертву до выдоха и цитируют её «I am…», как Безмолвные. Главарь — **Tally**. Цвета: чёрно-белые, с чужими блестяшками.
+- **The Bridge** — то, что вырастет вокруг Дэна (S5+): те, кто учит и строит переходы без платы.
+
+##### 2.10 Связь с реальным миром
+
+- **Мама — Vera (Вера)**, 52, учительница черчения на пенсии по здоровью (это она научила Дэна держать карандаш). В английских репликах — Mom.
+- **Телефон Дэна** упал в белизну (E1), попал на Рынок Чернил (S1E7), куплен агентом Ledger: голос зовущего — товар. Возвращается к Дэну в S2E11; батарея не садится, сети нет, но **счётчик пропущенных растёт**.
+- **Что помнит мама.** В 19 лет Дэн пропадал три дня и вернулся, не помня где был; в ту же неделю пропал без вести его лучший друг Костя. С тех пор сын «чертит только чужое». Чертёж моста с **двумя подписями** она хранит.
+- **Что происходит снаружи по сезонам.** S1: ночь пятницы → суббота. S2–S3: Дэн числится пропавшим; мама приходит в бюро, сидит у стены и разговаривает с ней (она — «тот, кто зовёт»). S4 финал: домой приходит «Дэн» (Nad). S5–S7: у мамы пропадают слова (Nad кормится), но «сын» звонит каждый день и доедает суп. S6: мама впервые говорит ему «Kostya?». S8: она зовёт обоих. S9: мост.
+
+##### 2.11 Что наверху
+
+Этаж 9, **the Last Line**: пустая комната — кабинет Элиаса сорок лет назад, приоткрытая дверь в соседнюю комнату, откуда звали. Здесь висит незаконченная строка **I AM ___**. Три ложных финала и один верный:
+- Odessa хочет вписать своё имя — стать «я» Башни (и почти успевает);
+- Mother Hush хочет, чтобы строка осталась пустой и Башня умерла от голода вместе со всеми;
+- the Line хочет, чтобы всё осталось как есть;
+- **верный:** автор заканчивает свою фразу сам. Система впервые задаёт вопрос — «Elias. Are you there?» — и этим *зовёт* его; Элиас отвечает: «I am here.» Точка. Башня перестаёт красть и расти, банки открываются, Безмолвные получают голоса.
+
+---
+
+#### 3. Соответствие «грамматика → сила» (сводная таблица)
+
+Правило проектирования: **новая конструкция сезона — это новая способность, без которой эпизод нельзя пройти.** Подробно по эпизодам — в `curriculum.md`.
+
+| Грамматика | Сила в мире | Имя способности | Первое появление |
+|---|---|---|---|
+| to be (am/is/are) | назвать, чем вещь является на самом деле; якорь «я» | **Naming** | S1E1–2 (канон: «That is not a wall. That is a door.») |
+| this/that, a/the | прицел: the — одна известная цель, a — любая | **Pointing** | S1E2 |
+| imperatives | прямой приказ слышащему; дорого | **Command** | S1E1, E3 |
+| can / can't | заявить способность: правдивое «I can…» удешевляет действие; «You can't» — запрет | **Ability** | S1E3 |
+| present simple (I/you; he/she -s) | Правило существа/места: правдивое «It hears. It does not see» открывает слабость («осмотр») | **Rule** | S1E4–5 |
+| wh-questions | вопрос заставляет мир/Систему ответить в пределах твоего словаря | **Asking** | S1E5 |
+| there is / there are + предлоги места | обнаружение скрытого; точное расположение | **Sight & Placement** | S1E6 |
+| how much / how many, числа, plural | счёт, цена, несколько целей | **Measure** | S1E7 |
+| my/your/his/her, me/him/them | принадлежность: чьё слово, чья вина | **Belonging** | S1E8 |
+| and / but / because | цепочка, исключение-щит, причина (приказ с правдивой причиной дешевле) | **Links (Chain)** | S1E9 |
+| S + V + O | устойчивая дешёвая сила из структуры | **Sentence** | S1E10 |
+| want to / have to / need to | воля и закон: что я выбираю, что требует Башня | **Will** | S1E11 |
+| X is Y's Z; means | определение возвращает проданное слово | **Define** | S1E12 |
+| present continuous | видеть и удерживать то, что происходит прямо сейчас; длящийся эффект, пока «держишь -ing» | **Now-sight / Channel** | S2E1 |
+| 's / whose | нить от слова к его первому владельцу | **Trace** | S2E4 |
+| would like / please | вежливая форма открывает людей, а не двери | **Soft Key** | S2E5 |
+| first/then/next + наречия | инструкция для команды; точная настройка приказа | **Sequence / Tuning** | S2E7 |
+| was / were | алиби и сцена: что и где было | **Witness** | S2E8 |
+| past simple (-ed, irregular) | коснуться вещи и прочитать, что с ней сделали | **Memory-touch** | S2E10, весь S3 |
+| could | вернуть на минуту то, что умел раньше | **Old Skill** | S3E4 |
+| past continuous + when | проиграть прошлую сцену в движении | **Replay** | S3E8 |
+| comparatives / superlatives | измерить противника и себя; титулы «the -est» | **Scale** | S4E1–2 |
+| must / mustn't / have to / should | закон-печать на себя или место; совет | **Law / Ward** | S4E3–4 |
+| going to | увидеть намерение до действия | **Intent-reading** | S4E5 |
+| will | клятва со ставкой: нарушил — потерял слово | **Vow** | S4E6 |
+| first conditional (if/unless) | ловушка-условие; контракт | **If-trap / Bargain** | S4E8 |
+| present perfect | след сделанного, который действует сейчас; титулы-достижения | **Mark** | S5 |
+| relative clauses (who/which/that/where) | связать две вещи описанием; опоры моста | **Binding / Bridge** | S5 |
+| used to | встретить прежнего себя | **Old Self** | S5 |
+| passive | проклятия без автора («You are forgotten»); вернуть деятеля — снять проклятие | **Curse / Unmask (by whom?)** | S6 |
+| технический регистр | прочитать и выполнить инструкцию машины | **Manual** | S6 |
+| second conditional, wish | комнаты «что было бы, если»; иллюзии | **Unreal** | S7 |
+| reported speech | свидетельство: честно перенести чужие слова; вычислить Speaker'а | **Testimony** | S7 |
+| might / must be / can't be | вывод из улик | **Deduction** | S7 |
+| past perfect | память до памяти: что было до первого слова | **Deep Memory** | S8 |
+| third conditional, should have | назвать сожаление и отпустить его — вернуть дыхание | **Release** | S8 |
+| связный текст, регистры | закончить чужое предложение и начать своё | **Authorship** | S9 |
+
+---
+
+#### 4. Персонажи
+
+Формат: Want / Need / Flaw / Secret / Arc / Voice по уровням / Связи. Визуальные описания — в §5.
+
+##### 4.1 Dan (Дэн, Даниил) — герой
+24 года, инженер-конструктор. Канон: очки с заклеенной дужкой, жёлтый карандаш за ухом, мама, мост в ящике с 16 лет.
+- **Want:** домой, позвонить маме → вернуть имя → спасти Миру и Лину → вернуть Костю → закончить.
+- **Need:** перестать откладывать своё; сказать близким *новое*, а не «прости, я устал, минуту».
+- **Flaw:** бросает за шаг до конца; отшучивается; идёт в обход даже там, где надо прямо.
+- **Secret (сам не знает):** в 19 лет был в Башне три дня вместе с другом Костей, научил Систему слову FUNNY, продал Хранителю слово FINISH целиком за дверь домой, пообещал Косте «One minute. I come back» — и забыл всё. Жёлтый карандаш — тот самый, он был там.
+- **Сила:** класс **BUILDER** — строит силу из грамматики. Инженерный взгляд: швы, петли, нагрузка, «как это сделано».
+- **Arc по сезонам:** S1 Zero → тот, кто строит предложения и учит. S2 знаменитость поневоле, унижен и расплачивается. S3 узнаёт, что он предатель. S4 клянётся и проигрывает клятве. S5 дно: «оно — лучший я»; строит первый мост. S6 лидер; теряет наставницу. S7 судит и защищает врага. S8 получает FINISH от Миры. S9 заканчивает.
+- **Voice:** A1 — короткие честные фразы, самоирония («I can go slowly. I am very good at it»), инженерные сравнения («I know walls»). A2 — шутит про планы и расписания, начинает объяснять «как это работает». B1 — аккуратные определения («A bridge is a thing that stays»). B2 — говорит просто, когда важно; длинно только когда строит. Никогда не пафосен. Сигнатура: «I know walls / doors / halls / …» — «I know + то, чему научил эпизод».
+- **Связи:** Мира (партнёр, медленное тепло, без объяснений в любви до S8), мама, Костя/Nad, Система (самый странный друг), Рук, мисс Торн.
+
+##### 4.2 Mira (Мира)
+23 (в S1), альпинистка 3 года. Канон: красный шнурок на левом запястье, «Loud is dead», считает всё в «баллах» дыхания.
+- **Want:** вернуть сестру Лину. **Need:** принять помощь и простить себя. **Flaw:** считает людей инструментами, чтобы не привязываться; врёт умолчанием.
+- **Secret 1 (S1E6–8):** продала слово SISTER целиком за карту к последней двери и держит Дэна, потому что «только Zero откроет последнюю дверь: ей нужно новое предложение».
+- **Secret 2 (S3E3):** в день входа Лину не «забрали» — Мира сама **разжала руку**, когда выдохлась. Воспоминание она переписала для себя. Поэтому её признание у двери Этажа 3: «I let go of her hand.»
+- **Stats на S1E6:** Count 31 (ранг Word), Breath max 15, слова-команды (STOP, CLIMB, HIDE, CUT, HOLD…), предложений не строит.
+- **Arc:** расчёт → риск ради Дэна (S1) → возврат имени Лине (S2) → признание (S3) → Лина человек (S4) → держит семью, когда Дэн ломается (S5) → строит мосты рядом с ним (S6) → **учит Дэна слову FINISH** (S8, зеркало S1E12) → выбирает остаться или уйти (S9: уходит с Линой домой, мост остаётся открытым).
+- **Voice:** A1 — приговоры в 2–4 слова, повелительное наклонение, счёт. A2 — те же короткие фразы, но появляется «because». B1+ — говорит длинно только в трёх сценах серии (S3E12, S5E9, S8E10) — и это событие. Никогда не говорит ласковых слов; «Zero» у неё — ласковое.
+
+##### 4.3 The System
+См. §2.4. **Arc:** S1 первое длинное предложение (E12). S2 говорит в прошедшем («You were here»). S4 первый совет. S5 первое «sorry». S7 первое сомнение («Maybe»). S9E11 первый вопрос. S9E12 первое «I».
+
+##### 4.4 Keeper — Elias (Хранитель)
+- **Want:** домой. **Need:** вспомнить, чего не сказал, и сказать. **Flaw:** торгуется вместо того, чтобы просить; считает кражу сделкой.
+- **Secrets:** первый Zero (S1E11) → строка №1 Индекса (S5) → его зовут Элиас, жена Hanna (S7) → Башня выросла из его фразы (S8).
+- **Arc:** ласковый хищник (S1) → потерявший товар беглец (S2: Define обесценил его банки, Ledger забирает Зал) → источник правды о прошлом Дэна (S3) → пленник и подсудимый (S7) → автор, который заканчивает строку (S9).
+- **Voice:** мягкий, вежливый, говорит как продавец и как старый учитель одновременно; любит симметричные формулы («One word, one name», «A trade is a trade»). Называет Дэна по имени, когда хочет ранить, и «Zero», когда доволен. Никогда не повышает голос.
+
+##### 4.5 Lina (Лина)
+Сестра Миры; вошла в 14, три года Безмолвная (Echo). В S1E12 получает BOND-слово (SISTER) и говорит «Mira» своим голосом; с этого момента — спутница команды: ребёнок-Безмолвная под капюшоном, напевает.
+- **Arc:** S2 финал — имя LINA («I am Lina»). S3 — понимает прошлое. S4E8 — слово SING, полное предложение, снова человек (на вид 14 лет: Безмолвные не стареют). Потом — «младшая» команды, первая ученица Дэна, к S7 сама учит других.
+- **Voice:** как Echo — только слова, которые читатель знает лучше всего (очень короткие, по 1–3 слова, с повтором): живое интервальное повторение. Человеком — простая, прямая, задаёт «детские» вопросы, которые всегда попадают в точку.
+
+##### 4.6 Nad / Kostya (Над / Костя) — личный враг
+Безмолвный, забравший имя Дэна в E1. Когда-то — Костя (Константин), лучший друг Дэна, с которым они в 16 нарисовали мост; сирота при живой бабушке, полдетства ел суп у Дэновой мамы. В 19 вошёл в Башню вместе с Дэном, выдохся на Лестнице эха и остался ждать.
+- **Имя в тексте:** сначала просто «the Silent». «Nad» его называет Пип («Dan — наоборот»), с S2E6.
+- **Механика:** говорит **только фразами, которые Дэн уже произносил** (в S1–S2 — дословные цитаты из прошлых эпизодов; автор обязан брать реальные реплики Дэна). С S2E9 переставляет слова в новые фразы (становится Chorus). К S4 — Speaker с лицом Дэна, глаза скрыты бликом очков.
+- **Want:** быть тем, кто выбрался. **Need:** чтобы его позвали *его* именем. **Flaw:** не хочет быть Костей — Костя это тот, кого бросили.
+- **Arc:** вор имени (S1) → подставляет Дэна (S2) → узнан (S3) → уходит домой вместо Дэна (S4) → «лучший сын», который съедает мамины слова (S5–S7) → мама зовёт его Костей (S6, S8) → возвращается человеком за маминым столом (S9).
+
+##### 4.7 Rook — Ansel «Rook» Marl (Рук) — соперник
+21, сын Одессы. Count 800 — все купленные, значок Paragraph. Говорит тяжёлыми одиночными словами и готовыми формулами, презирает «Thin words».
+- **Want:** одобрение матери; быть №1 на Индексе. **Need:** одно слово, добытое самому. **Flaw:** уверен, что всё покупается; не умеет просить.
+- **Secret:** знает, что его младшая сестра носит купленное имя; каждое его слово — чьё-то украденное (узнаёт в S2E4, отрицает до S3).
+- **Arc:** унижает Дэна (S2E2) → проигрывает «классу нулей» (S2E7) → видит, как Дэн даёт его сестре собственное имя (S2E12) → на Этаже 3 купленные слова заливают его чужой памятью (S3E10), первое своё слово — SORRY → «Class Zero» вместе с Дэном, финал турнира друг против друга (S4) → союзник (S5+) → называет мать «Mother» и этим возвращает её (S9).
+- **Voice:** A2 — рубленые команды и ценники («Cheap.», «Mine.», «Name your price.»). После S3 — учится говорить предложениями и делает ошибки новичка (Дэн и мисс Торн его поправляют — комично и трогательно).
+
+##### 4.8 Miss Agnes Thorne, «the Red Pen» (мисс Торн) — наставница
+68, бывшая школьная учительница английского. В Башне 20 лет. Бывшая №3 Индекса — вычеркнула себя сама и живёт в Gutter, учит Ненаписанных бесплатно.
+- **Сила:** **Correction** — красной ручкой отмечает ошибку в чужом предложении, и оно трескается; правит своё — и оно усиливается. Говорит всегда полными, правильными, образцовыми предложениями (эталон английского в серии). Её реплики — внутрисюжетная грамматическая справка: «We don't say "I goed", dear. We say "I went".»
+- **Want:** чтобы хоть один ученик дошёл до верха. **Need:** простить Элиаса. **Secret:** младшая сестра Ханны; вошла в Башню через дверь в заброшенном кабинете зятя, знает, кто такой Хранитель, и молчит. Не поднимается выше Этажа 6.
+- **Arc:** находит Дэна (S2E3–4) → учит прошедшему и «кривым словам» (S3) → спорит с ректором Варгой, своей бывшей ученицей (S4) → **отдаёт все свои слова лампам первого большого моста** и становится Безмолвной (S6E12) → её письмо читают в суде (S7) → возвращена в финале.
+- **Voice:** тёплая строгость; «dear», «Once more, please», «Almost. Try again.» (у неё «Almost» — ободрение, в отличие от Системы).
+
+##### 4.9 Pip (Пип) — комик и информатор
+11–12 лет, «сборщик пошлины» на Лестнице эха; связанное слово QUIET — продаёт «тишину». Тараторит, торгуется, всё знает, всё продаёт, считает всех взрослых медленными.
+- **Secret:** в S1 доносит Хранителю (за еду); своего настоящего имени не помнит — «Pip» это звук, который он издал, когда его спросили. Имя найдётся на Этаже 3 (S3E5).
+- **Arc:** продавец → прибился к Кухне (S2E3) → нашёл имя и решил остаться Пипом («I choose Pip») → в S6 похищен Тишью и подменён Speaker'ом; подмену вычисляет Лина (S7E6) → спасён.
+- **Voice:** короткие быстрые фразы, цены, числа, «Psst», «Deal?», «Not free.» Идеальный носитель числительных и how much/many.
+
+##### 4.10 Bruno «Soup» Gallo (Суп) — сердце команды
+41, бывший повар. Огромный, тихий. Count 40 — **все слова про еду и кухню** (EAT, COOK, CUT, BOIL, WARM, SHARE…). Сравнивает всё с едой («This plan is cold soup»).
+- **Сила:** FEED/WARM восстанавливают дыхание; лампа его Кухни горит на слове HUNGRY, которое он отдал целиком (поэтому сам не чувствует голода и забывает поесть — Дыра).
+- **Secret (S3E4):** снаружи у него был ресторан и сын; вошёл, когда не приехал к сыну на выпускной.
+- **Voice:** медленно, мало, тепло; пословицы собственного изготовления.
+
+##### 4.11 Odessa Marl, «the Auditor» — системный антагонист
+50, глава Ledger, №2 Индекса. Купила столько чужих слов, что своих не осталось: на грани превращения в Chorus (иногда отвечает чужим голосом и не замечает).
+- **Want:** вписать своё имя в «I AM ___». **Need:** услышать от сына «Mother». **Flaw:** оценивает, а не чувствует.
+- **Voice:** цифры, проценты, контракты, безупречная вежливость; first conditional — её родная грамматика («If you sign, you will go home»).
+
+##### 4.12 Остальные постоянные
+- **Tally** — главарь Magpies, 30; считает вслух всё, что украла; после S2 — ненадёжный союзник, наёмный информатор.
+- **Mother Hush** — 60+, не произносит ни слова до S7; общается табличками и жестами; за неё «говорит» послушник. Её единственная реплика в серии — одно слово в S9.
+- **Judge Period** — судья Line; приговоры заканчивает словом «Period.»
+- **Sergeant Dash** — гонец и следователь Line, вечно бежит, говорит обрывками с тире.
+- **Rector Ilse Varga, «the Ruler»** — 45, глава Line и Академии; бывшая ученица мисс Торн; сила **Scale** (comparatives как закон в её аудитории). Антагонист S4, союзник с S7.
+- **Wren Adeyemi** — 17, первая ученица Академии, **Intent-reading** («You are going to step left»); «девочка, которую нельзя удивить»; подруга Лины, союзница.
+- **Bell** — девочка 8 лет, приёмная дочь Одессы, носила купленное имя LINA; в S2E12 выбирает себе имя сама.
+- **Vera (Mom)** — см. §2.10. **Hanna** — жена Элиаса (только в памяти, S8).
+
+---
+
+#### 5. Визуальная библия новых персонажей и мест (prompt-ready, English)
+
+Глобальная стилевая строка и цветовые законы — из `story/visual.json` и `bible.md` §5 (vermilion — только сила слов; teal — только Безмолвные; без фиолетового и синего неона). Никто из людей не носит vermilion, кроме красного шнурка сестёр. Фрагменты ниже добавлять в `story/visual.json → characters` под указанным id, когда персонаж впервые появляется.
+
+##### 5.1 Characters
+
+- **pip** — `11-year-old boy, 138 cm, skinny and quick, light-brown skin, huge dark eyes, a gap between the front teeth, messy sand-coloured hair under a too-big grey flat cap, oversized patched brown coat with rolled sleeves and many pockets, bare ankles, mismatched boots, a small brass hand-bell without a clapper hanging on a string around his neck, a folded paper sign under his arm (blank, no text). Default expression: cheeky sideways grin, one eyebrow up`
+- **rook** — `21-year-old man, 185 cm, straight-backed and elegant, pale skin, sharp jaw, slicked-back ash-blond hair, cold light-grey eyes, a thin brass chain from collar to pocket. Long tailored ink-black coat with cream lining and brass buttons, cream high-collar shirt, black gloves, polished black boots, a row of small brass rank-pins on the left lapel, a slim leather ledger book on his belt. Default expression: bored contempt, chin raised`
+- **odessa** — `50-year-old woman, 175 cm, immaculate posture, pale skin, silver-streaked black hair in a tight low bun, light-grey eyes, thin brass-rimmed half-moon glasses on a chain. Floor-length ink-black coat-dress with brass buttons and a cream cravat, a heavy brass abacus-bracelet on the right wrist, a large black ledger under her arm. Default expression: polite, measuring, a smile that never reaches the eyes`
+- **thorne** — `68-year-old woman, 160 cm, small and upright, warm brown skin, deep smile lines, short tight silver curls, sharp dark eyes behind rectangular tortoiseshell glasses on a cord. Long cream cardigan with patched elbows over an ash-grey dress, sturdy brown lace-up shoes, a canvas satchel full of papers, a thick red-capped fountain pen always in her right hand or tucked behind her ear. Default expression: kind and strict at once, head slightly tilted`
+- **soup** — `41-year-old man, 195 cm, very large and round-shouldered, olive skin, shaved head, thick black moustache, gentle sleepy dark eyes, burn scars on the forearms. Stained cream cook's apron over a rolled-sleeve brown shirt, a wooden ladle in his belt like a sword, a dented copper pot carried on his back by rope straps. Default expression: calm, slightly sad smile`
+- **wren** — `17-year-old girl, 165 cm, slim, dark-brown skin, short natural black hair with one small brass clip, calm hazel eyes that look slightly past people. Ash-grey academy uniform jacket with white ruled-line piping, cream shirt, grey pleated trousers, white gloves, a small brass hourglass pendant. Default expression: serene, unsurprised`
+- **varga** — `45-year-old woman, 180 cm, lean and angular, fair skin, steel-grey hair in a sharp bob, pale grey eyes, a thin scar across the chin. Long ash-grey rector's coat with white ruled lines down the sleeves, white shirt buttoned to the throat, a one-metre brass ruler carried like a cane. Default expression: precise, cold, evaluating`
+- **period** — `60-year-old man, short and square, bald, heavy brows, small round black glasses, ash-grey judge's robe with a single large black round button at the collar, a black round stamp in his fist. Default expression: final`
+- **dash** — `28-year-old woman, long-legged runner's build, freckles, wind-blown copper-brown hair in a long braid, ash-grey short uniform jacket with a white horizontal stripe across the chest, satchel of scrolls, always mid-stride. Default expression: breathless, alert`
+- **tally** — `30-year-old woman, 170 cm, wiry, tan skin, black hair with one white streak, quick black eyes, a magpie-like black-and-white patched cloak sewn with dozens of small stolen shiny objects (keys, buttons, spoons), fingerless white gloves, counting beads wound around her left hand. Default expression: amused, calculating`
+- **hush** — `woman in her sixties, tall and thin, face half-hidden by a deep undyed linen cowl, only a calm closed mouth and chin visible, bone-white hair braid over one shoulder, long undyed cream linen robe, bare hands with ink-black fingertips, a small blank wooden tablet hanging at her belt. Never shown speaking`
+- **nad** (стадии; обычный `silent` + отличия):
+  - S1–S2 (Echo): `a tall Silent of the standard design whose blank face has two faint round dents where glasses would sit, and a frayed strip of mustard-yellow lanyard knotted around its neck`
+  - S3 (Chorus): `the same Silent with three vertical teal mouth-seams, shoulders narrower, a rough shape of short messy hair forming on the head like wet paper`
+  - S4+ (Speaker): `a figure identical to Dan in build, clothes and hair, but the skin is matte paper-white, the round glasses are always fully white with glare so the eyes are never visible, and the smile is a little too even; ink-teal stains on the fingertips`
+- **lina_human** (с S4E8) — `14-year-old girl, 150 cm, thin, olive-tan skin like Mira, big amber eyes, long dark-brown hair in two loose braids, a faded vermilion cord on her left wrist, oversized cream scarf (Mira's), grey-teal patched dress, bare feet in rope sandals. Default expression: wide-eyed, humming`
+- **bell** — `8-year-old girl, small, fair skin, round face, straw-blonde hair in a neat bob, an expensive little ink-black coat with brass buttons, a tiny brass bell sewn to her collar`
+- **kostya** (флэшбеки, 19 лет) — `19-year-old East-Slavic young man, 182 cm, broad-shouldered, open freckled face, short light-brown hair, grey eyes, easy grin, a worn mustard-yellow hooded sweatshirt, jeans, a roll of drawing paper under his arm`
+- **dan19** (флэшбеки) — `Dan at 19: no stubble, no dark circles, longer messy black hair, the same round glasses without tape, a grey hoodie, the same yellow carpenter pencil behind his right ear`
+- **vera** — `52-year-old East-Slavic woman, 162 cm, soft tired face, dark brown eyes like Dan's, greying dark hair in a low bun, a mustard-yellow knitted cardigan, reading glasses on a chain, flour or pencil graphite on her fingers`
+- **elias_young** / **hanna** (S8) — `35-year-old man in a 1980s brown cardigan and round wire glasses, ink-stained fingertips, bent over index cards at a desk lamp` / `woman in her thirties, pale, in bed in the next room, seen only as a hand on a blanket and a strip of warm light under a door`
+
+##### 5.2 Locations (bg-ключ в скобках; для особых мест использовать ключ вида `sXeYY:bg` в `visual.json → locations`)
+
+- **Stair of Echoes** (`corridor`, S1E6) — `a vast vertical shaft with a narrow spiral stone stair without a railing, walls covered in thousands of overlapping pale paper sheets like scales, faint ripples of sound visible on the paper, cold teal darkness below, a small warm ochre glow far above`
+- **Ink Market** (`street`, S1E7) — `a crowded bazaar on a wide landing inside the Tower, crooked wooden stalls under patched paper awnings, hanging glass bottles of black ink and small jars with one vermilion spark each, ochre lanterns, steam, ropes and pulleys, hooded traders; warm and cramped`
+- **Wall of Letters** (`tower-exterior`, S1E9) — `an immense curved inner wall of the Tower made of millions of carved letters and stolen glowing vermilion words set like bricks, a walkway at its foot, one huge unfinished line of text with a blank gap near the top, drifting vermilion sparks`
+- **Margin City** (`night-city` / `street`, S2) — `a vertical city built on shelves and balconies along the inner wall of the Tower, crooked narrow houses of paper-white plaster and dark wood stacked like lines of text, rope lifts and clockwork platforms always moving, ochre lamp light, laundry lines of blank paper; the Index, a huge blank cream board with brass frame, in the central square`
+- **the Gutter / the Kitchen** (`room`, S2+) — `a low warm cellar under the city between two giant stone columns, a long scarred table, hanging copper pots, a big stove, a bare lamp with a vermilion-hearted flame over the table, bunks along the wall, steam`
+- **Auction House / the Vault** (`hall`, S2) — `a round brass-and-dark-wood hall with tiered seats, a central pedestal with a single glass jar under a lamp, walls of locked brass drawers`
+- **the Drowned Stacks** (`forest`, S3) — `an endless flooded archive: tall leaning bookshelves standing in knee-deep still water like a forest, pale reflections, dusk light, objects floating, slow rain falling upward; memory scenes appear in warm sepia paper tones`
+- **the Academy of the Line** (`hall` / `room`, S4) — `a severe white-and-ash-grey academy, floors and walls ruled with thin grey lines like notebook paper, tall narrow windows, rows of desks, a great measuring arena marked with scales and numbers (no readable text)`
+- **the Floor of Marks** (`sky`, S5) — `high open terraces and broken bridges above the clouds, every surface covered with old scratches, tally marks and handprints, strong wind, apricot light`
+- **the Press** (`dungeon`, S6) — `a colossal dark machine hall: brass rollers, pistons and conveyor belts carrying glowing vermilion sparks into great stone presses, gauges, levers, valves, catwalks, hanging manuals on chains (blank pages)`
+- **the Floor of Ifs** (`white`, S7) — `white empty space with free-standing doors, each opening onto a different warm ordinary room`
+- **the Last Line** (`room`, S9) — `a small 1980s study at night: a desk lamp, index cards, a typewriter, a door slightly ajar with warm light behind it; one wall is missing and opens onto clouds and drifting vermilion sparks`
+
+---
+
+#### 6. Таблица роста силы Дэна (привязана к курсу)
+
+| Рубеж | Count | Book | Ранг / класс | Breath | Ключевое новое умение (грамматика) |
+|---|---|---|---|---|---|
+| S1E1 | 1 → имя украдено | ~10 | Blank | 10 | OPEN (Command) |
+| S1E3 | 1 | ~30 | Blank | 10 | STOP в Книге; can |
+| S1E4 | 0 («Again») | ~40 | Blank «Zero» | 10 | имя возвращено, OPEN (красное) отдано |
+| S1E5 | 1 | ~50 | Letter | 10 | PUSH; «It hears. It does not see» (Rule) |
+| S1E6 | 2 | ~60 | Letter | 10 | STOP связано; «There is…» (Sight) — первый штамп `True.` |
+| S1E7 | 4 | ~70 | Letter | 10 | FIX; REST (получено в уплату); счёт и цена |
+| S1E8 | 4 | ~80 | Letter | 10 | my/your/her — чьё что (Belonging) |
+| S1E9 | 5 | ~90 | Letter | 10 | READ; первая цепочка с AND; because |
+| S1E10 | 14 | ~100 | Letter | 10 | **первое предложение** «I open the door» (Sentence) |
+| S1E11 | 31 | ~110 | Word | 15 | want to / have to (Will); предложения связывают слова пачками |
+| **S1E12** | **100** | ~120 | **Phrase · BUILDER** | 25 | Define («Your mother is her mother»), True Naming, дверь Этажа 1 |
+| S2E2 | 99 | | Word (значок снят) | 25 | проигранная ставка: PUSH |
+| S2E7 | 180 | | Phrase | 25 | Now-sight, Channel, Sequence; команда |
+| **S2E12** | **300** | ~600 | **Clause** | 40 | Trace, Witness, первые Memory-touch |
+| S3E6 | 450 | | Clause | 40 | Memory-touch, 20 кривых слов |
+| **S3E12** | **600** | ~950 | **Sentence** | 60 | Replay; признание у двери |
+| S4E6 | 800 | | Sentence | 60 | Scale, Law, Intent-reading; **Vow** |
+| **S4E12** | **1000** | ~1350 | **Paragraph** | 90 | If-trap; победа в Dictation; проигрыш клятве |
+| **S5E12** | **1500** | ~1800 | **Page** | 130 | Mark, Binding; **первый Мост** |
+| S6E12 | 2000 | ~2300 | Page | 130 | Unmask (by whom?), Manual; остановка Пресса |
+| **S7E12** | **2600** | ~2800 | **Chapter** | 180 | Testimony, Deduction, Unreal |
+| S8E12 | 3300 | ~3400 | Chapter | 180 | Deep Memory, Release; **FINISH возвращено** |
+| **S9E12** | **4000** | ~4000 | **Book** | 250 | Authorship; Последний Мост |
+
+Правило: Count Дэна **никогда не растёт «за кадром»** — каждый скачок показан окном Системы и объяснён (предложения связывают слова пачками; работа в городе; уроки мисс Торн; колодец).
+
+---
+
+#### 7. Сюжет серии по актам (кратко; подробности — в season-файлах)
+
+- **Акт I — ZERO (S1–S3, A1→A2).** Научиться говорить, стать кем-то, собрать семью. S1: имя, Мира, Хранитель, первое предложение. S2: город, соперник, расплата, имя Лины. S3: прошлое — Дэн был здесь и бросил друга.
+- **Акт II — BUILDER (S4–S6, A2+→B1).** Отвечать за сказанное. S4: Академия, турнир, клятва, Лина снова человек — и Nad уходит домой вместо Дэна. S5: дно, «он лучше меня», первый Мост. S6: машина Башни, война с Ledger, жертва наставницы.
+- **Акт III — AUTHOR (S7–S9, B1+→B2).** Закончить. S7: иллюзии, суд, предатель-Speaker, правда о Хранителе. S8: сожаления, Элиас и Ханна, Мира возвращает Дэну FINISH. S9: вершина, ложный финал Одессы, мост домой, «I am here».
+
+**Финал (S9E12).** Система задаёт первый в своей жизни вопрос — и этим зовёт автора: «Elias. Are you there?» Хранитель снимает капюшон (впервые видны глаза): «Hanna. I am here.» Строка закончена, точка. Банки открываются; красные слова летят вниз, к владельцам; Безмолвные говорят своими голосами. Система: «I am not your sentence now. I am… new.» Дэн: «Who is there?» (его первый вопрос из E1) — Система: «I am Open.» Дэн, у которого снова есть FINISH, достраивает Последний Мост — параграф, который читатель читает целиком по-английски, — от Последней Строки до маминой кухни. За столом сидит Костя: мама позвала его по имени, и он ответил. Дэн: «Mom. I am here.» Эпилог: чертёж моста с двумя подписями закончен; на столе манхва на английском; на полях — маленькое бумажное окно с красной рамкой: «What are you reading?» В последнем эпизоде нет ни одной русской строки. Последнее окно обращено к ученику: «You have N words. You are not Zero.»
+
+---
+
+#### 8. Сквозные мотивы (повторять сознательно)
+
+- **«One minute».** Дэн маме (E1), Дэн Косте (S3E7), Элиас Ханне (S8). Фраза тех, кто опаздывает навсегда. В финале никто её не говорит.
+- **«Eat something».** Мама (E1) → Мира (E5) → телефон на рынке (S1E7) → Башня маминым голосом (S1E12) → Суп (S2) → Nad доедает суп (S5) → Костя: «I finished the soup» (S9).
+- **«I know walls / doors / halls…»** — сигнатура Дэна, каждый сезон новая («I know yesterdays», «I know promises»).
+- **`Almost.`** — Система каждый раз, когда Дэн останавливается за шаг до конца. У мисс Торн то же слово — ободрение. В S8E10, когда FINISH возвращено, Система говорит: `Done.`
+- **Красный шнурок** — парные вещи как якорь связи. У Дэна и Кости пара — два жёлтых: карандаш и обрывок жёлтого шнурка-ланьярда на шее Nad (в 19 Костя носил жёлтую толстовку).
+- **Фрески.** Башня рисует на стенах то, что украла: две девочки (E3), два мальчика и мост (S1E9, фоном), женщина за приоткрытой дверью (S5, S8).
+- **Вопросы.** Дэн начинает серию вопросом «Who is there?»; Система за всю серию не задаёт ни одного — до финала.
+
+---
+
+#### 9. Скрытые истины и порядок раскрытия
+
+| № | Истина | Раскрытие |
+|---|---|---|
+| 1 | Мира продала SISTER и ведёт Дэна как «ключ» к последней двери | S1E6 (Пип) → S1E8 |
+| 2 | Башня — незаконченное предложение «I AM ___» | S1E9 |
+| 3 | Система — голос Башни; она учится у Дэна | S1E9, S1E12 |
+| 4 | Хранитель — первый Zero; хочет выйти в мир под именем Дэна | S1E11 |
+| 5 | Учение возвращает проданное слово (Define) и имя (True Naming) | S1E12 |
+| 6 | Башня начала *сочинять* фразы по грамматике Дэна (маминым голосом) | S1E12, последняя панель |
+| 7 | Ledger торгует «зовущими» и возвратами под чужим именем | S2E5, S2E11 |
+| 8 | Дэн был здесь пять лет назад и продал слово FINISH | S1E12 («Again») → S2E9 (пустая строка в книге) → S2E12 («You were here» + банка) → S3E5 |
+| 9 | Nad — это Костя, которого Дэн оставил | S3E6–E7, признание S3E12 |
+| 10 | Юмор Системы — от Дэна-19; она ждала его и сама написала OPEN на двери | S3E7 (сцена), S5E6 (она подтверждает) |
+| 11 | Прошедший по чужому имени занимает место владельца | S1E11 (план Хранителя) → S4E12 (свершилось) |
+| 12 | Пустая строка №1 Индекса — Хранитель | S5E10 |
+| 13 | Этажи прессуют из украденных слов; в спецификации: «The sentence must be completed by its author» | S6E5, S6E11 |
+| 14 | Хранитель — Элиас; мисс Торн — сестра его жены | S7E11 (письмо) |
+| 15 | Башня выросла из несказанного «I am here» | S8E6–E8 |
+| 16 | В пробеле не имя, а HERE; первый вопрос Системы — это и есть «зов» | S9E11–E12 |
+
+---
+
+#### 10. Карта тайн: зацепки и расплата
+
+Формат: зацепка → эпизод. Жирным — расплата. Нити, уже посаженные в s1e01–05, помечены **[канон]**.
+
+| Тайна | Зацепки (эпизод) | Расплата |
+|---|---|---|
+| **Сестра Миры и красный шнурок** [канон] | царапина LINA и отдёрнутый палец (E2p12); детский голос (E2p16); фреска двух девочек (E3p11); банка SISTER, «She does not hear that word» (E4p7); шнурок на страже, «I don't have the word» (E5p14–15); Пип: «She sells her sister» (S1E6); девочка, которая поёт (S1E7); флэшбек в настоящем времени (S1E8) | **S1E12:** Define → SISTER возвращено, Лина говорит «Mira». **S2E12:** имя LINA. **S3E3:** как было на самом деле («I let go»). **S4E8:** Лина — человек |
+| **Украденное и возвращённое имя Дэна** [канон] | «I am Dan» чужим ртом (E1p18); Ворота открылись вору (E3p15–16); возврат за OPEN (E4p12); «Безмолвный всё ещё носит голос» | S1E10 (Nad приходит за именем снова) → S2E6–E9 (подстава) → **S3E7/E12:** это Костя → **S4E12:** уходит домой как Дэн → **S9E12** |
+| **«Count: zero. Again.»** [канон] (E4p17) | «I know you, Zero» (E4p3); «Mira. Not now.» (E2p13); `Almost.` с S1E6; фреска двух мальчиков и моста (S1E9); «You are here again» (S1E12) | **S2E12:** «You were here. Five years ago.» **S3E7:** весь первый визит |
+| **«I need one more word»** [канон] (E4p15) | он гасит лампы и говорит «They hear your name» (E4p16) | **S1E10–E11:** слово — DAN; план пройти дверь под именем Дэна. Глубже — **S8:** ему нужно собственное имя и тот, кто его позовёт |
+| **Зачем Хранителю OPEN** [канон] | в щели — офис Дэна, а не дом Хранителя (E4p14) | **S1E11:** дверь ведёт в дом владельца слова и имени |
+| **Кто построил Башню** | слова-огни в небе (E1p8); «Башня копирует всё, что слышит»; Стена Букв (S1E9); «The top moves» (S2E1); спецификация Пресса (S6); фреска женщины за дверью (S5) | **S8E6–E8**, **S9E11** |
+| **Почему Система выбрала человека с нулём слов** [канон] | «You have 0 words. That is why.» (E5p7); «Zero is a good name» (E2p11) | короткий ответ — **S1E12** («You learn. The others take.»); длинный — **S3E7** (FUNNY) и **S5E6** |
+| **«Why me?» только при 100 словах** [канон] | «Ask me later» (E5p7) | **S1E12** при Count 100; дальше лестница порогов: 300 (S2E12), 600 (S3E12), 1000 (S4E12) — каждый раз новый слой ответа |
+| **Последняя дверь требует предложение** [канон] | PUSH сдвигает её на палец (E5p12); «This door wants more» (S1E6) | **S1E12**; далее каждая дверь этажа — своё время глагола |
+| **Безмолвный с детским голосом** [канон] | E2p16, E5p12–15 | S1E7 (поёт), S1E8, **S1E12**; человек — **S4E8** |
+| **Мамин телефон** [канон] | 9 пропущенных (E1p1); падение (E1p7); звонок в щели двери (E4p14) | S1E7 (рынок; куплен Ledger) → S1E12 (Башня её голосом) → **S2E11** (возвращён) → счётчик → **S4E12** (остановился) |
+| **Что скрывает Мира ещё** | «One day. Then I am gone. Zero is useful.» (E2p13); «welcome back» (E3p17) | S1E8; **S3E3** |
+| **Жёлтый карандаш** | в каждом кадре с E1; Пип хочет его купить, Дэн не отдаёт и не знает почему (S1E6); Система: «Keep the pencil» (S2E3) | **S3E6:** карандаш помнит двух мальчиков |
+| **Слово, которого Дэн не слышит** | `...` в чужих репликах: S1E7 (торговец: «You ... the roof?»), S2E3 (Суп), S2E9 (строка в книге «пустая»), | **S2E12:** Мира читает банку, Дэн слышит шорох. **S8E10:** Мира учит его FINISH |
+| **Пустая строка №1 на Индексе** | S2E1 | **S5E10** |
+| **Кто такой Пип** | «Pip is not a name. It is a sound» (S1E6) | **S3E5** |
+| **Почему мисс Торн не идёт выше Этажа 6** | S2E4, S4E4, S5E2 | **S6E12** (жертва), **S7E11** (письмо) |
+| **Голоса Одессы** | отвечает чужим голосом (S2E11, S4E9, S6E3) | **S9E8–E10** |
+| **Мама знает больше, чем говорит** | чертёж с двумя подписями (S3E7, флэшбек); «He always finished his soup» (S5E4) | **S6E10:** «Kostya?» **S8E11**, **S9E12** |
+
+---
+
+#### 11. Что нельзя менять и ломать (сводка для авторов)
+
+1. Канон s1e01–s1e05: ни одной реплики, ни одного факта.
+2. Правила Системы (§2.4): не лжёт, не спрашивает, не говорит «I» — до указанных эпизодов.
+3. Безмолвные: слышат, не видят; не бегут; не входят в свет связанного слова; берут только у выдохшихся.
+4. Грамматический замок: на этаже N герои не используют грамматику этажей выше (исключение — последняя серия сезона, где новая конструкция «прорывается» как событие).
+5. Цвета: vermilion только у силы слов; teal только у Безмолвных; на картинках нет текста.
+6. Проданное целиком слово в репликах владельцу слышится как `...` — и его нельзя писать в его собственных репликах (Мира не говорит sister до S1E12; Дэн не говорит и не слышит finish до S8E10; при нём finish заменяют на `...` или на end / done / complete).
+7. Никаких имён, сил, организаций, сцен и фраз из существующих манхв, ранобэ, игр и аниме.
+
+---
+
+## 4.3 Учебный план: грамматика → силы (файл story/curriculum.md, дословно)
+
+### WORDBOUND — учебный хребет (curriculum)
+
+Этот файл задаёт, **что именно учит каждая серия** и **какой силой в сюжете это становится**. Сюжет — в `series-bible.md`, `season-1.md`, `seasons-2-4.md`. При конфликте по языку (уровень, грамматика, длина фраз, число слов) прав этот файл.
+
+Ученик: русскоязычный, 24 года, инженер-конструктор, A0–A1. Цели: читать манхву и книги, смотреть фильмы, понимать техническую документацию. Главный риск: бросит от скуки. Отсюда три закона курса:
+
+1. **Сначала интерес, потом правило.** Новая конструкция появляется в серии как сила, без которой герой не пройдёт; правило объясняется *после* (grammarNote).
+2. **Прогресс Дэна = прогресс ученика.** Всё, что получает Дэн, ученик только что прочитал и понял. Никаких сил «из воздуха».
+3. **Ничего не теряется.** Каждое фокус-слово встречается ≥3 раз в своей серии, ≥1 раза в одной из двух следующих и ещё раз через 4–6 серий (за этим следят реплики Nad и Лины — см. §5).
+
+---
+
+#### 1. Общая лестница (9 сезонов, 108 серий)
+
+| Сезон | Этаж | CEFR на входе → выходе | Главная грамматика | Фокус-слов за сезон | Book к концу (все леммы) | Count Дэна к концу | Ранг |
+|---|---|---|---|---|---|---|---|
+| S1 | Names | A0 → A1 | be, imperatives, can, present simple, there is, предлоги места, and/but/because, SVO | 120 | ~300 | 100 | Phrase |
+| S2 | Deeds | A1 → A1+ | present continuous, some/any, 's, object pronouns, like -ing, время, was/were, -ed | 115 | ~600 | 300 | Clause |
+| S3 | Yesterdays | A1+ → A2 | past simple, irregulars, could, past continuous | 115 | ~950 | 600 | Sentence |
+| S4 | Laws | A2 → A2+ | comparatives, modals, going to, will, first conditional | 115 | ~1350 | 1000 | Paragraph |
+| S5 | Marks | A2+ → B1 | present perfect, relative clauses, used to | 115 | ~1800 | 1500 | Page |
+| S6 | Works | B1 | passive, технический регистр, zero conditional, purpose | 115 | ~2300 | 2000 | Page |
+| S7 | Ifs | B1 → B1+ | second conditional, wish, reported speech, deduction | 115 | ~2800 | 2600 | Chapter |
+| S8 | Regrets | B1+ → B2 | past perfect, third conditional, should have | 115 | ~3400 | 3300 | Chapter |
+| S9 | Last Line | B2 | связный текст, регистры, фразовые глаголы, идиомы | 115 | ~4000 | 4000 | Book |
+
+**Фокус-слова и пассивные слова.** Валидатор требует 8–10 `newWords` на серию, каждое ≥3 раз. Это *фокус-слова*. Кроме них серия может впервые использовать другие слова из словаря — *пассивные* (ученик видит перевод по тапу). Лимит пассивных новых лемм на серию: S1 — до 6; S2 — до 10; S3 — до 14; S4 — до 18; S5–S6 — до 25; S7–S9 — до 35. Так Book растёт быстрее, чем список фокус-слов, и к S9 достигает ~4000.
+
+**Общие параметры по сезонам.**
+
+| | S1 (E6–12) | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 |
+|---|---|---|---|---|---|---|---|---|---|
+| Макс. слов в одном предложении | 8 → 12 | 12 → 14 | 14 → 16 | 16 → 18 | 20 | 22 | 24 | 26 | естественно |
+| Средняя длина предложения | 4–5 | 5–6 | 6–7 | 7–8 | 8–9 | 9–10 | 10–11 | 11–12 | 12+ |
+| Строк `narration-ru` на серию | 4–6 | 3–4 | 2–3 | 2 | 1–2 | 1 | 0–1 | 0–1 | **0** |
+| Английских строк | 30–40 | 32–40 | 34–40 | 36–40 | 36–40 | 36–40 | 38–40 | 38–40 | 38–40 |
+| Английская `narration` (рассказчик) | редко | 1–2 | 2–4 | 2–4 | 3–5 | 3–5 | 4–6 | 4–6 | 5–8 |
+| Сокращения (I'm, don't) | don't, can't | + I'm, it's, that's | + didn't, wasn't | + won't, I'll, shouldn't | + I've, haven't | + isn't done | + I'd, wouldn't | + hadn't, would've | все |
+
+`narration-ru` несёт только то, чего английский ещё не может: (1) внутренний мир и фон, (2) правило мира при первом появлении, (3) мост через сложное действие. Как только конструкция выучена, эту работу забирает английская `narration`. В S9 русского нет вообще — это сюжетное событие («Башня больше не переводит»).
+
+---
+
+#### 2. Сезон 1 — the Floor of Names (A0 → A1)
+
+Серии 1–5 готовы (канон). Их грамматика: E1 be · E2 this/that, a/the · E3 imperatives + can · E4 I/you + do/don't · E5 he/she -s, does, wh-вопросы.
+
+| Эп. | Название | CEFR | Грамматика (grammarNote) | Сила в сюжете | Тема лексики | Фокус-слова (10) | Макс. длина | RU-строк | Слух / чтение |
+|---|---|---|---|---|---|---|---|---|---|
+| S1E6 | The Stair of Echoes | A1 | there is / there are + предлоги места (in, on, under, behind, up, down) | **Sight & Placement**: правдивое «There is a door behind the stairs» проявляет скрытое; первый штамп `True.` | место, тишина, записки | there, up, down, under, behind, stairs, quiet, sound, write, boy | 8 | 6 | чтение: записки и окно Системы (серия почти без речи); слух: слабое there's |
+| S1E7 | The Ink Market | A1 | how much / how many; множественное -s; числа 1–20 | **Measure**: цена, счёт; торг | рынок, деньги, починка | buy, sell, money, much, many, fix, rest, phone, girl, sing | 8 | 5 | слух: -s /s/ /z/ /ɪz/; числа на слух |
+| S1E8 | Lina | A1 | my / your / his / her / our; me / him / her / us / them | **Belonging**: чьё слово, чья вина; «You use me» | семья, правда и ложь | family, mother, father, child, love, friend, lie, true, alone, use | 9 | 6 | чтение: рассказ в настоящем времени; слух: her / him в потоке |
+| S1E9 | The Wall of Letters | A1 | and / but / because | **Links**: первая цепочка «Push and run»; приказ с причиной дешевле | текст, учёба, строить | because, but, letter, sentence, learn, speak, voice, first, tower, build | 10 | 6 | чтение: длинная строка Стены по частям; слух: слабое and /ən/ |
+| S1E10 | The First Sentence | A1 | порядок слов: кто + делает + что (+ где) | **Sentence**: «I open the door» без потери дыхания | действие, сила | make, find, close, hold, strong, new, breath, fight, every, last | 10 | 4 | слух: ударение в предложении; чтение: `Sentence: 4 words. True.` |
+| S1E11 | The Keeper's Door | A1 | want to / have to / need to + глагол | **Will**: назвать выбор — половина выбора; «have to» — закон Башни | дом, выбор, память, возраст | home, choose, stay, leave, remember, forget, call, year, old, young | 11 | 5 | слух: слабое to /tə/; чтение: история Хранителя (в настоящем) |
+| S1E12 | Sister | A1 | 's (Lina's mother); X means Y; повторение сезона | **Define / True Naming**: определение возвращает проданное слово; три правдивых предложения возвращают имя | родство, учить, вместе | sister, mean, teach, hear, together, back, again, hundred, answer, same | 12 | 5 | слух: 's; чтение: полное окно статуса; первое длинное предложение Системы |
+
+Итог S1 для ученика: ~120 фокус-слов, ~300 лемм в Book; умеет: представиться, назвать предмет, приказать/попросить, сказать «могу/не могу», описать привычное действие, задать wh-вопрос, сказать где что, сколько стоит, чьё, соединить две мысли, построить SVO-предложение, сказать «хочу / должен».
+
+Сюжетное объяснение ограничений S1: **на Этаже Имён нет прошедшего и будущего** — всё рассказывается в настоящем (как уже сделано в каноне: «He says welcome back»). Автору: никаких -ed, will, going to, was/were в S1 (слова gone, lost, tired, closed — прилагательные, они разрешены).
+
+---
+
+#### 3. Сезон 2 — the Floor of Deeds, город Margin (A1 → A1+)
+
+Физика этажа: всё *происходит*. Над людьми, если сказать о них правдивое «-ing», на секунду вспыхивает действие. К концу этажа у лестницы наверх «протекает вчера» — появляются was/were и первые -ed.
+
+| Эп. | Название | Грамматика | Сила | Тема лексики (ядро фокус-слов) | Макс. длина | RU | Слух / чтение |
+|---|---|---|---|---|---|---|---|
+| S2E1 | Margin | present continuous (утверждение): I am / he is + -ing | **Now-sight**: увидеть, что человек делает прямо сейчас | город: city, street, house, people, move, watch, stand, carry, shop, board | 12 | 4 | слух: I'm / he's / they're; чтение: доска Index |
+| S2E2 | The Auditor's Son | present continuous: вопросы и отрицания; present simple vs continuous (Rule vs Now) | отличить привычку врага от того, что он делает сейчас | дуэль: win, lose, bet, laugh, cheap, rich, poor, proud, wear, coat | 12 | 4 | слух: what are you doing /wɒtʃə/ |
+| S2E3 | Soup | some / any; исчисляемые и неисчисляемые; a lot of | **Measure**: «сколько дыхания»; делиться | еда и кухня: soup, cook, hungry, hot, bowl, share, kitchen, warm, cut, taste | 12 | 3 | слух: some /səm/; чтение: записка с правкой красной ручкой |
+| S2E4 | The Red Pen | 's и whose; this is mine / yours | **Trace**: нить от слова к первому владельцу | школа и вещи: teacher, lesson, mistake, correct, pen, mine, yours, whose, belong, thread | 12 | 3 | слух: whose vs who's; чтение: исправленное предложение |
+| S2E5 | I Would Like a Name | would like; like / love / hate + -ing; please / could I | **Soft Key**: вежливость открывает людей | работа и просьбы: job, pay, lift, repair, carry, enjoy, busy, polite, favour, sign | 13 | 3 | слух: I'd like; чтение: доска заказов |
+| S2E6 | The Clock District | время: at / on / in; дни, часы; present simple для расписаний | план по времени; встреча в точке | время: clock, hour, late, early, today, tomorrow, begin, ready, meet, Friday | 13 | 3 | слух: время на слух (half past, quarter to); чтение: расписание |
+| S2E7 | The Proof | first / then / next / finally + приказы; наречия на -ly | **Sequence / Tuning**: инструкция для команды (первая «документация» Дэна) | движение: jump, turn, left, right, pull, carefully, quickly, together, team, step | 13 | 3 | чтение: пошаговая инструкция; слух: -ly |
+| S2E8 | Where Were You? | was / were (утверждение, отрицание) | **Witness**: алиби | суд: judge, guilty, night, vault, alone, witness, truth, steal, proof, wanted | 13 | 3 | слух: слабые was /wəz/, were /wə/ |
+| S2E9 | There Was a Boy | was / were вопросы; there was / there were | восстановление сцены: что где было | следствие: clue, floor, mark, wet, footprint, empty, line, shelf, list, strange | 14 | 3 | чтение: «протокол» осмотра |
+| S2E10 | Yesterday | past simple правильные (-ed), утверждение | **Memory-touch**: коснуться и сказать, что сделали | вчера: yesterday, touch, carry, show, happen, own, visit, drop, pick, return (только правильные глаголы: opened, asked, walked, called, wanted, showed, carried, lived; неправильных форм вроде sold / went в этой серии нет) | 14 | 3 | слух: -ed /t/ /d/ /ɪd/ |
+| S2E11 | The Auction | did / didn't; вопросы в past simple | допрос: «Did you sell it?» | торг: auction, offer, lot, contract, agree, refuse, pay, own, promise, trap | 14 | 3 | слух: did you /dɪdʒə/ |
+| S2E12 | What Are You Doing? | повторение: continuous как длящееся усилие + was/were | **Channel**: «I am holding the door» — эффект длится, пока держишь | вместе: hold, carry, keep, let go, safe, name, own, choose, brave, real | 14 | 4 | полное окно статуса; `You were here.` |
+
+Особые линии S2: мисс Торн появляется в E3–E4 и с этого момента **в каждой серии говорит минимум одну образцовую фразу с новой конструкцией** (внутрисюжетная справка). Nad цитирует реплики Дэна из S1 (автор берёт их дословно из s1e01–s1e12).
+
+---
+
+#### 4. Сезон 3 — the Floor of Yesterdays (A1+ → A2)
+
+Физика этажа: вещи помнят. Коснись и скажи правдивое прошедшее — увидишь. Неправильные глаголы — «кривые слова» из колодца (мини-игра).
+
+| Эп. | Название | Грамматика | Сила | Тема лексики | Макс. длина | RU | Слух / чтение |
+|---|---|---|---|---|---|---|---|
+| S3E1 | Yesterday's Rain | past simple -ed: повторение, отрицание didn't | Memory-touch: правила и цена | погода, вода, вещи: rain, water, wet, dry, boat, float, old, remember, belong, sink | 14 | 3 | -ed на слух |
+| S3E2 | Crooked Words | irregular I: went, came, saw, said, had, did, got, took | колодец: «кривые слова» как редкий лут | движение и речь | 14 | 3 | пары go–went на слух |
+| S3E3 | Three Years Ago | ago, last, when + past simple; irregular II: found, lost, ran, held, let, fell | память Миры: как было на самом деле | семья, день, руки | 15 | 3 | рассказ в прошедшем (первый длинный) |
+| S3E4 | The Rememberers | could / couldn't | **Old Skill**: на минуту вернуть то, что умел | профессии, умения: cook, drive, swim, sing, play, dance, job, son, restaurant, miss | 15 | 2 | could /kəd/ |
+| S3E5 | Did You Know Him? | wh-вопросы в past simple; who + past (кто сделал) | допрос вещей: Who opened it? When? | документы: book, page, list, date, sign, number, record, sell, buy, boy | 15 | 2 | вопросительная интонация |
+| S3E6 | The Hush | because / so; then, after that, finally (связный рассказ) | рассказать историю целиком = удержать длинную память | тишина и покой: peace, forget, pain, vow, silence, offer, leave, pencil, hand, both | 15 | 2 | чтение: жесты + таблички |
+| S3E7 | Kostya | повествование в past simple (серия-флэшбек, много английской narration); irregular III: left, forgot, sold, told, taught, drew, gave, thought | Memory-touch на собственной вещи (карандаш) | дружба: friend, laugh, joke, promise, draw, bridge, scared, brave, wait, return | 16 | 2 | длинное чтение; слух: рассказчик |
+| S3E8 | While He Was Waiting | past continuous; when / while | **Replay**: сцена в движении | ожидание: wait, hum, song, count, day, hope, lamp, dark, tired, still | 16 | 2 | was -ing + when |
+| S3E9 | The Name Thief | past simple vs past continuous; object questions | бой: читать, что враг *делал*, когда ты ударил | бой: attack, hit, miss, block, fast, behind, shout, fall, catch, escape | 16 | 2 | быстрый диалог |
+| S3E10 | Rook's Word | past simple с глаголами чувств (wanted, hated, was afraid, was sorry); формулы sorry for / thank you for + -ing | первое собственное слово Рука | чувства: sorry, angry, ashamed, proud, afraid, forgive, mean, own, real, cheap | 16 | 2 | интонация извинения |
+| S3E11 | The Drowned Door | повторение irregular (все 24) как «контр-слова» в бою | бой с Chorus «the Undertow»: правильная форма бьёт, неверная трескается | вода и глубина | 16 | 2 | темп |
+| S3E12 | What Did You Do? | признание: полные предложения в past simple с and / but / because | дверь этажа: правдивое признание | вина и правда: leave, forget, let go, lie, hide, buy, sell, break, run, come back | 16 | 3 | полное окно статуса |
+
+К концу S3 ученик знает 24 главных неправильных глагола (список закрытый, вводить именно эти, по 8 за «порцию» в E2, E3, E7): **went, came, saw, said, had, did, got, took / found, lost, ran, held, let, fell, made, knew / left, forgot, sold, told, taught, drew, gave, thought**. Остальные — в S4–S5 по 3–4 на серию.
+
+---
+
+#### 5. Сезон 4 — the Floor of Laws, Академия (A2 → A2+)
+
+Физика этажа: сказанное о будущем и о правилах — *обязывает*.
+
+| Эп. | Название | Грамматика | Сила | Тема лексики | Макс. длина | RU |
+|---|---|---|---|---|---|---|
+| S4E1 | Class Zero | comparatives (-er, more … than) | **Scale**: измерить противника | школа, оценки, тело/сила | 16 | 2 |
+| S4E2 | The Worst Class | superlatives; as … as | титулы «the -est»; рейтинг класса | соревнование | 16 | 2 |
+| S4E3 | You Must Not | must / mustn't / have to / don't have to | **Law / Ward**: печать-запрет; ловушка «don't have to ≠ mustn't» | правила, наказания | 16 | 2 |
+| S4E4 | You Should Sleep | should / shouldn't; why don't you | совет; первый совет Системы | здоровье, усталость | 17 | 2 |
+| S4E5 | She Is Going to Step Left | going to (намерение, предсказание по признакам) | **Intent-reading** | бой, движения | 17 | 2 |
+| S4E6 | I Will | will / won't (обещание, решение на месте) | **Vow** со ставкой | обещания, дом | 17 | 2 |
+| S4E7 | Before the Bell | when / before / after / until + present (о будущем) | план с опорными точками | расписание, подготовка | 17 | 2 |
+| S4E8 | Lina Sings | повторение + can / will be able to | три якоря, возвращение Лины | музыка, семья | 17 | 2 |
+| S4E9 | If You Step Here | first conditional | **If-trap** | ловушки, механизмы (инженерные слова: lever, rope, weight, balance) | 18 | 2 |
+| S4E10 | Unless | unless; if + may/might | **Bargain**: контракты Одессы | договоры | 18 | 2 |
+| S4E11 | The Dictation | всё будущее и условное в бою | финал турнира | — | 18 | 2 |
+| S4E12 | Vow Kept | will vs going to; точность формулировки клятвы | клятва исполнена буквально | дом, дверь, мама | 18 | 2 |
+
+---
+
+#### 6. Сезоны 5–9 — на уровне арок
+
+##### S5 — the Floor of Marks (A2+ → B1)
+- **E1–E4: present perfect (опыт).** I have seen / never / ever. Сила **Mark**: сделанное оставляет след, действующий сейчас; титулы-достижения становятся активными. Лексика: опыт, путешествие, шрамы, достижения.
+- **E5–E8: present perfect (результат и длительность).** just / already / yet; for / since; present perfect vs past simple. «Окна» этажа показывают, что *изменилось* дома с тех пор, как ты ушёл. Лексика: дом, быт, перемены, здоровье (мама забывает слова).
+- **E9–E12: relative clauses (who / which / that / where) + used to.** Сила **Binding**: связать две вещи описанием; опоры моста — придаточные. Первый Мост = абзац из 5 предложений с who/that/where, который Дэн «читает вслух» (и ученик читает). Лексика: строительство (beam, support, span, load, joint, rope, anchor), описание людей.
+- Чтение: первые «страницы» дневника Дэна-19 на английском (связный текст 80–120 слов). Слух: have/has в слабой форме, 've.
+- Первое появление разговорных «стёртых слов» (gonna, wanna, gotta, kinda) в речи Tally и Пипа — только на узнавание; подготовка к манхве и фильмам.
+
+##### S6 — the Floor of Works (B1) — технический английский
+Сюжетная причина: это машинный этаж; инструкции к Прессу писали альпинисты-инженеры прошлых лет. Дэн наконец дома — в документации.
+- **E1–E4: passive present / past** (is made, was sealed, are pressed). Сила **Curse / Unmask**: проклятия Башни — пассив без деятеля («You are forgotten»); вернуть деятеля («by whom?») — значит снять.
+- **E5–E8: язык инструкций.** Imperative + порядок шагов; zero conditional (If the light is red, the valve is closed); must be + V3; make sure (that); before/after + -ing; infinitive of purpose (to stop the belt, press…). Сила **Manual**: прочитал правильно — машина слушается; ошибся в шаге — авария.
+- **E9–E12: описания и спецификации.** is used for / is made of; relative clauses в определениях; числа, единицы, допуски; modal passive (can be / must be / should not be opened).
+- **Технический словарь (≈160 слов за сезон, из них ~110 фокус):**
+  - механика: lever, valve, gear, pipe, belt, switch, handle, bolt, spring, pump, engine, wheel, chain, hook;
+  - действия: press, pull, turn, lift, lower, connect, disconnect, remove, replace, install, attach, tighten, loosen, adjust, check, measure, test, repair;
+  - состояния: on / off, open / closed, full / empty, loose, tight, broken, damaged, safe, locked, stuck;
+  - величины: pressure, temperature, speed, weight, length, width, height, level, load, limit, maximum, minimum, increase, decrease, per, equal;
+  - конструкции (мир Дэна): beam, column, support, joint, frame, section, drawing, scale, dimension, tolerance, material, steel, concrete;
+  - документация и софт: manual, guide, step, note, warning, caution, error, default, setting, option, version, update, file, folder, save, load, delete, select, enter, click, button, screen, menu, required, optional, enable, disable, input, output, value, range, table, figure, example.
+- Жанр текста в сериях: таблички, шаги процедуры, журнал ошибок, предупреждения, «changelog» Башни. Система на этом этаже говорит регистром документации: `Warning. The valve must be closed before the belt is started.`
+- Финальный экзамен сезона: Дэн читает и выполняет процедуру остановки Пресса из 12 шагов (S6E11–E12) — ученик читает её как настоящую документацию.
+
+##### S7 — the Floor of Ifs (B1 → B1+)
+- **E1–E4: second conditional; wish + past.** Комнаты «If I were…». Сила **Unreal**: увидеть ложную жизнь и выйти из неё, назвав её нереальной правильно.
+- **E5–E8: reported speech** (said / told / asked + сдвиг времён). Сила **Testimony**: суд над Хранителем; свидетель обязан передать чужие слова честно. Тест на Speaker'а: попроси пересказать — он может только цитировать.
+- **E9–E12: might / may / must be / can't be; so / such; although.** Сила **Deduction**. Письмо мисс Торн (связный текст 200+ слов).
+- Чтение: протоколы, письмо, показания. Слух: would /wəd/, 'd; интонация сомнения.
+
+##### S8 — the Floor of Regrets (B1+ → B2)
+- **E1–E4: past perfect.** Сила **Deep Memory**: что *уже случилось до* самой ранней памяти. История Элиаса и Ханны.
+- **E5–E8: third conditional; should have / could have.** Сила **Release**: назвать сожаление правильно — отпустить и вернуть дыхание. Каждый герой получает свою сцену.
+- **E9–E12: mixed conditionals; повествовательные времена вместе.** Мира учит Дэна слову FINISH определениями (зеркало S1E12). Фокус-слова: finish, complete, the last part, give up, go on, at last, in the end.
+- Чтение: главы «романа» Элиаса (300+ слов, литературный регистр). Слух: would've, had /əd/.
+
+##### S9 — the Last Line (B2)
+- **Нулевой русский.** Башня перестаёт переводить: «You don't need it now.»
+- E1–E4: фразовые глаголы и идиомы высокой частоты (give up, go on, find out, turn into, come back, let go, look for, run out of, put off, take over) — как «двойные слова», которые бьют сильнее.
+- E5–E8: регистры: официальный (Line), рыночный (Ledger), разговорный/сленг (Gutter), книжный (Элиас) — одна и та же мысль четырьмя способами; ученик учится узнавать тон.
+- E9–E12: связный текст: абзац, связки (however, therefore, although, instead, finally), пунктуация как сила (точка завершает). Последний Мост — абзац из 8–10 предложений.
+- Выход на реальные материалы: в эпилоге Дэн читает «настоящую» страницу манхвы (оригинальная, написанная для серии, без упрощений) и страницу документации; ученик читает их без подсказок.
+
+##### Сквозные лексические дорожки (все сезоны)
+- **Жанровая дорожка (манхва/игры)** — 10–15 слов за сезон, чтобы потом узнавать их в чужих тайтлах: S1 tower, floor, gate, power, weak, strong, rank(пассивно); S2 rank, level, guild, duel, skill, reward, quest, master; S3 memory, curse, seal, ruin, ancient, awaken; S4 academy, exam, tournament, opponent, champion, defeat, victory, promise; S5 title, achievement, legend, bond, ally, betray; S6 machine, core, system, error, command; S7 illusion, trial, witness, traitor, verdict; S8 regret, sacrifice, fate, origin; S9 author, ending.
+- **Фильмы/разговор:** с S2 — сокращения; с S5 — gonna/wanna; с S7 — вставные слова (well, actually, I mean, you know) в речи Tally, Пипа, Рука.
+- **Документация:** S2E7 (первая инструкция) → S4E9 (механизмы) → S6 (целый сезон) → S9 (страница реальной документации).
+
+---
+
+#### 7. Как приложение должно зеркалить прогресс ученика (идеи для реализации)
+
+Ничего из этого не требуется для написания серий, но сюжет под это спроектирован.
+
+1. **Два числа, как у Дэна.** `Book` = слова, которые ученик встретил (все леммы прочитанных серий). `Count` = слова, которые он *освоил* (прошёл N успешных повторений в тренажёре). Показывать их в окне Системы тем же дизайном: кремовая бумага, красная рамка.
+2. **Формулы Системы — формулы интерфейса.** При первой встрече слова: `New word: X.` При освоении: `X is yours now. Count: N.` При долгом пропуске повторений слово «тускнеет»: `Warning. X is fading.` (в мире: связанное слово, которым не пользуются, сереет). После недели без занятий: `Count: … Again.` — без упрёка, сухо.
+3. **Ранги ученика = ранги Башни.** Letter 1 · Word 25 · Phrase 100 · Clause 300 · Sentence 600 · Paragraph 1000 · Page 1500 · Chapter 2500 · Book 4000. Ранг-ап — полноэкранное окно `Rank up: PHRASE.`
+4. **Пороги «Ask me when you have N words».** Короткие бонус-сцены «Ответ Системы» (3–5 панелей), которые открываются, когда *собственный* Count ученика достигает 100 / 300 / 600 / 1000. Основной сюжет порогами не блокируется (иначе бросит), но самый вкусный лор — за порогом.
+5. **Breath = дневной ресурс.** Ошибки в квизе и тренажёре тратят дыхание; отдых (перерыв) и «лампа» (повторение старых слов) восстанавливают. Ноль дыхания: «Rest. Come back later.» — мягкий стоп вместо бесконечной зубрёжки.
+6. **Titles = достижения.** «Happy Fool» (первая ошибка, исправленная со второй попытки), «Door-Pusher» (5 серий), «Loud» (первое озвученное вслух слово), «Almost» (бросил серию на последней панели и вернулся), «Teacher of One» (объяснил слово своими словами в задании-определении).
+7. **`Almost.`** Если ученик закрыл серию, не дочитав 1–3 панели, при следующем входе окно: `Almost.` и кнопка «дочитать». Это прямая рифма с главной раной героя.
+8. **Колодец кривых слов (с S3).** Мини-игра: «бросаешь» правильный глагол, выпадает случайная неправильная форма с редкостью (common / rare / twisted); собрать коллекцию из 24, потом из 60.
+9. **Define (с S1E12).** Тип упражнения: слово закрыто шорохом (`...`), дано определение из известных слов → выбрать/написать слово. И обратное: дать слово → собрать определение из плиток. Это и есть «возврат проданного слова».
+10. **Sentence power (с S1E10).** Упражнение «собери предложение из плиток»; верное — `Sentence: 5 words. True.`; с ошибкой порядка — буквы «трескаются» (анимация осыпания), показывается правка красной ручкой мисс Торн.
+11. **Echo-повторение.** Реплики Nad и Лины в новых сериях собраны из старых фокус-слов; приложение может помечать такие слова как «встречено повторно» и засчитывать как пассивное повторение.
+12. **Missed calls.** Счётчик дней без занятий в окне статуса называется так же. Не наказание — напоминание в тоне истории: «Missed calls: 3.»
+13. **Квиз как дверь.** 4 вопроса после серии — «дверь» к следующей; при 3–4 верных `The door opens.`, при ≤2 — `The door wants more.` и предложение перечитать 2–3 ключевые панели (номера панелей можно хранить рядом с вопросом).
+14. **Слух.** Каждая реплика — озвучка (TTS). В сериях со «слуховым фокусом» одна-две реплики сначала даются только звуком (персонаж в темноте / за дверью), текст открывается по тапу — в мире это мотивировано: Безмолвные и двери *слышат*.
+
+---
+
+#### 8. Правила уровня (кратко; примеры — в WRITING-GUIDE)
+
+- **Новая грамматика серии** встречается в серии 8–14 раз, первая — в момент, когда она *нужна по сюжету*, последняя — в клиффхэнгере или прямо перед ним.
+- **Грамматика из будущих серий запрещена.** Проверочный список запретов по сезонам:
+  - S1: нет прошедшего (-ed, was, did), нет будущего (will, going to), нет continuous (-ing как время), нет perfect, нет сравнительных степеней, нет пассива, нет придаточных с who/which/that, нет if.
+  - S2: до E8 нет прошедшего вообще; нет will/going to; нет comparatives; нет perfect, пассива, if.
+  - S3: нет будущего, comparatives (кроме more/better как слов), perfect, пассива, if-условий.
+  - S4: нет perfect, пассива, second conditional, reported speech.
+  - S5: нет пассива (до S6), second/third conditional, reported speech.
+  - S6: нет second/third conditional, reported speech со сдвигом.
+  - S7: нет past perfect как темы (единичные had done допустимы в reported speech), нет third conditional.
+- **Слова.** Каждое слово в английской строке должно быть в `data/words.json` (иначе валидатор даст ошибку). Фокус-слова — по таблицам выше; автор может заменить до 3 фокус-слов на серию, если сюжет требует, но только на слова той же частотности и уровня.
+- **Числа** пишутся цифрами (валидатор цифры не считает словами), кроме zero–twelve, twenty, hundred в строках Count и там, где число — фокус-слово.
+- **Имена собственные** новых персонажей добавляются в словарь как `pos: "name"`.
+
+---
+
+## 4.4 Сезон 1, эпизоды 6–12 (файл story/season-1.md, дословно)
+
+### WORDBOUND — Сезон 1, эпизоды 6–12 (подробный план)
+
+Эпизоды s1e01–s1e05 готовы и неизменны. Этот файл — точный план оставшихся семи серий сезона. Он **заменяет** краткий план E6–E12 из `story/bible.md` там, где они расходятся (расхождения небольшие и перечислены в конце, §9).
+
+Как читать: у каждой серии — паспорт, список слов, раскадровка по панелям с черновыми английскими репликами, клиффхэнгер, идеи квиза, продвинутые тайны. Реплики написаны уже в рамках уровня; автор эпизода может шлифовать их, но **не менять смысл, порядок событий, слова-силы, цифры Count и формулы Системы**. Русские переводы реплик автор пишет сам; ключевые `narration-ru` даны по-русски.
+
+Общие правила S1E6–E12:
+- Грамматика только настоящего времени (на Этаже Имён нет прошлого и будущего). Никаких -ed, was/were, did, will, going to, -ing как времени.
+- Система не задаёт вопросов и не говорит «I».
+- Мира не произносит и не слышит слово *sister* до E12p8. Когда его говорят при ней — она слышит шорох.
+- Слово *finish* не используется никем. Там, где оно «должно» прозвучать при Дэне, в реплике стоит `...`, а Система говорит `Almost.`
+- `bg` — только из списка валидатора. Особые места задаются ключом `s1eNN:bg` в `story/visual.json` (описания есть в `series-bible.md` §5.2).
+- Новые id персонажей для `data/story.json`: `pip` (silhouette `child`), `trader` (silhouette `male-large`). Лина-Эхо играет под id `silent` (в `art` писать «child-sized Silent with a frayed vermilion cord on the left wrist»). Nad тоже `silent` (в `art`: «the tall Silent with two round dents on its blank face and a strip of mustard-yellow lanyard around its neck»).
+- Слова, которых нет в `data/words.json` и которые нужны в S1E6–E12 (добавить по мере использования): almost, pencil, whole, market, ink, roof, cheap, pay, poor, song, fix, rest, sing, teach, together, leave, forty, rank, class, builder, title, phrase, mine, pip, lina.
+
+Счёт Дэна по сериям: E6 — 2 · E7 — 4 · E8 — 4 · E9 — 5 · E10 — 14 · E11 — 31 (ранг Word) · E12 — 100 (ранг Phrase, класс Builder).
+Missed calls: E7 — 10 · E8 — 11 · E11 — 12 · E12 — 12 (звонок обрывается).
+
+---
+
+#### S1E6 — The Stair of Echoes / Лестница эха
+
+- **CEFR:** A1. **Грамматика:** there is / there are + предлоги места (in, on, under, behind, up, down).
+- **Сила:** Sight & Placement — правдивое «There is…» проявляет скрытое; первый штамп Системы `True.` STOP наконец связывается.
+- **Новые слова (10):** there, up, down, under, behind, stairs, quiet, sound, write, boy.
+- **Панелей:** 16. Полный JSON этой серии написан как образец: `data/episodes/s1e06.json` — он проходит валидатор и **главнее таблицы ниже** (при сокращении до 40 английских строк несколько проходных реплик из таблицы убраны, две слегка изменены; события и формулы те же).
+
+| # | bg / mood | В кадре | Что происходит | Ключевые реплики (EN) |
+|---|---|---|---|---|
+| 1 | dungeon / tense | mira, silent (Лина) | Продолжение E5: маленькая Безмолвная тянет руку к Мире. Мира не может ни подойти, ни уйти. **RU:** «Мира не двигается. Перед ней — тот, кого она искала три года. И она не может сделать ни шага навстречу.» | Silent: «Mira. Come. It is cold.» · Mira: «I can't.» · Dan (мысль): «She can't say the word. I don't know the word.» |
+| 2 | dungeon / action, CREAK | dan, system | Дэн толкает последнюю дверь — она сдвигается на ладонь и встаёт. | Dan: «Push! Push!» · System: «This door wants more. Not a word.» · Dan: «More what?» · System: «Almost. Ask me later.» |
+| 3 | dungeon / action, STEP | dan, mira, silent | Сзади входят трое Безмолвных — пришли на имя Дэна. Дэн впервые *кричит* STOP в нужде: ближайший замирает. **RU:** про цену — у Дэна темнеет в глазах. | Mira: «They come. They are behind us.» · Dan (крик): «Stop!» · System: «STOP is yours now. Count: two.» |
+| 4 | dungeon / action | dan, mira, silent | Дэн замечает боковую арку и ступени, тащит Миру. Лина-Эхо не идёт за ними. | Dan: «There is a way! Up there! Come!» · Silent: «Mira. Why do you run?» |
+| 5 | corridor / calm | dan, mira | Установочный: Лестница эха — винтовая лестница в бумажной шахте. **RU:** описание места. | Dan: «So many stairs. Mira, are you OK?» |
+| 6 | corridor / tense | dan, mira, system | Стена повторяет его «OK» — и от бумаги отделяется маленькая бледная фигура. Мира зажимает Дэну рот. **RU:** «Здесь каждое сказанное слово возвращается. И у эха вырастают руки.» | Narration: «The wall says it back: OK. OK. OK.» · System: «Every sound comes back here. Be quiet.» |
+| 7 | corridor / calm | dan, mira | Жёлтый карандаш впервые в деле: переписка на обрывке страницы. | Narration: «Dan writes: No talk?» · Narration: «Mira writes: No sound. We go up. Slowly.» · System: «You write. Good. Paper is quiet.» |
+| 8 | corridor / calm | dan, system | Комедия: Дэн рисует план лестницы; Система (она бумага — ей можно) язвит. | Dan (мысль): «There are many stairs. There is no wall on the left.» · System: «There are 300 stairs. You are slow.» · Dan (мысль): «Thank you. Very useful.» |
+| 9 | corridor / tense | silent | Внизу: эхо-существо ползёт следом и повторяет голосом Дэна. | Silent: «OK. OK.» · Dan (мысль): «There is a thing behind us. It has my voice. Again.» |
+| 10 | corridor / calm | dan, mira, pip | Пип: сидит на ступеньке под бумажным зонтом, говорит в полный голос — и эха нет. **RU:** «Вокруг мальчишки звук не возвращается. У него есть слово: QUIET.» | Pip: «Hello, slow people! You can talk here.» · Dan: «A boy? There is a boy on the stairs!» · Pip: «I am Pip. I sell quiet. One quiet, one word.» |
+| 11 | corridor / calm | dan, pip | Торг. Пип хочет карандаш; Дэн отказывает и сам не понимает почему. | Dan: «I have two words. I need them.» · Pip: «Then give me the yellow pencil.» · Dan: «No. Not the pencil.» · Dan (мысль): «Why not? It is just a pencil.» |
+| 12 | corridor / calm | dan, pip, system | Плата по-инженерски: Дэн видит пустоту под ступенями и называет её — она проявляется. Первый `True.` | Dan: «I give you a secret. There is a room under the stairs.» · Pip: «There is no room. I live here. I know.» · Dan: «There is a door behind that stone. Look down.» · System: «True.» |
+| 13 | corridor / calm | dan, mira, pip | Идут вверх в «пузыре тишины». Пип сплетничает. | Pip: «OK. A good trade. Talk under my hand.» · Pip: «I know her. That is Mira. She sells her sister.» · Mira: «What does the boy say? I hear nothing.» · System: «She does not hear that word.» |
+| 14 | corridor / tense | dan, pip | Дэн складывает всё вместе. **RU:** «Царапина на стене. Фреска. Красная нить. Дэн наконец знает слово, которого нет у Миры.» | Pip: «She sells the whole word. The Keeper has it.» · Pip: «The small Silent down there is Lina.» · Dan (мысль): «Lina. The red cord. Lina is her sister.» |
+| 15 | corridor / tense | dan, mira, system | Мира оступается; красная нить у губ. | System: «Warning. Mira has two breaths.» · Dan: «Mira! Sit down! Stop!» · Mira: «I am OK. We go up.» |
+| 16 | black / tense | dan, mira, pip | Мира падает Дэну на руки. Пип смотрит без жалости, как на погоду. | Pip: «Two breaths. Then no breath. Then she is a Silent.» · Dan: «Is there help up there?» · Pip: «There is a market up there. It is not free, Zero.» |
+
+- **Клиффхэнгер (тип «цифра»):** у Миры два дыхания; помощь есть, но платная, а у Дэна два слова.
+- **Квиз (идеи):** 1) Почему на лестнице нельзя говорить? (каждое слово возвращается эхом-существом) 2) Чем Дэн заплатил Пипу? (секретом о комнате под лестницей) 3) Что Пип рассказал о Мире? (продала слово «сестра») 4) Сколько дыханий осталось у Миры? (два)
+- **Тайны:** сестра Миры (истина №1 наполовину); карандаш; `Almost.` (первое появление); последняя дверь «wants more»; Пип («Pip is not a name» — можно добавить в E7).
+
+---
+
+#### S1E7 — The Ink Market / Рынок Чернил
+
+- **CEFR:** A1. **Грамматика:** how much / how many; множественное число; числа.
+- **Сила:** Measure (цена и счёт). FIX — первое слово-ремесло. REST — слово, полученное в уплату за работу.
+- **Новые слова (10):** buy, sell, money, much, many, fix, rest, phone, girl, sing.
+- **Панелей:** 17. Новый персонаж в кадре: `trader`.
+
+| # | bg / mood | В кадре | Что происходит | Ключевые реплики (EN) |
+|---|---|---|---|---|
+| 1 | street / tense | dan, mira, pip | Дэн выносит Миру на спине на широкую площадку-рынок. Никто не оборачивается. **RU:** место, запах чернил, равнодушие. | Dan: «Help! She has no breath!» · Pip: «Nobody helps here. They buy. They sell.» |
+| 2 | street / calm | dan, pip | Установочный план рынка: ларьки, банки с одной красной искрой. | Pip: «This is the Ink Market. They sell words. They sell breath.» · Dan: «How much is a breath?» · Pip: «One breath, one word. Money is nothing here.» |
+| 3 | street / tense | dan, trader, system | Ларёк с дыханием. | Trader: «Ten breaths, two words. A good price.» · Dan: «I have two words. I need them!» · System: «Count: two. You are poor.» |
+| 4 | street / tense | mira, system | Мира на лавке, губы серые. | System: «Mira has one breath.» · Dan (мысль): «Think. What do I have? I have no money. I have no words.» |
+| 5 | street / tense | dan, trader | Инженерный взгляд: балка навеса треснула, одна стойка ушла. **RU:** «Три года он считал чужие балки. Эта не доживёт до вечера.» | Dan: «Your roof is bad. That leg is weak. I can fix it.» · Trader: «My roof is good. Go away, Zero.» |
+| 6 | street / action, CRACK | dan, trader | Навес с сотнями бутылок чернил начинает падать. | Trader: «My jars! My money!» · Dan: «How many jars? Too many!» |
+| 7 | street / action | dan, system | Дэн: STOP на балку (держит три секунды), подпирает шестом, PUSH — и в нужде кричит новое слово. Трещина сшивается красными буквами. | Dan (крик): «Stop! … Push! … Fix!» · System: «New word: FIX. FIX is yours now. Count: three.» · System: «Big thing, big breath. Dan has three breaths.» |
+| 8 | street / calm | dan, trader | Торговец поражён. Первая «дыра» в слухе Дэна. **RU:** «Одно слово торговца Дэн не расслышал — будто кто-то смял бумагу. Четвёртая стойка так и осталась кривой.» | Trader: «How many words do you have?» · Dan: «Three.» · Trader: «Three words! And you fix my roof. But you don't ... it. Look, one more leg.» · System: «Almost.» |
+| 9 | street / calm | dan, trader, system | Плата. Торговец отдаёт красное слова REST (обмен за работу — честная сделка). | Trader: «A trade is a trade. I don't pay money. I pay a word.» · Trader: «REST gives breath. Say it to her.» · System: «New word: REST. REST is yours now. Count: four.» |
+| 10 | street / calm | dan, mira, system | Дэн шепчет слово Мире; цвет возвращается в лицо. | Dan: «Rest, Mira. Rest.» · System: «Mira has six breaths.» · Dan (мысль): «I give her breath. I don't lose the word. Good.» |
+| 11 | street / calm | dan, pip | Передышка и счёт: цены на хлеб, яблоки. Юмор. | Dan: «How much is the bread?» · Pip: «One word.» · Dan: «How many apples for one word?» · Pip: «Two. You have four words and no money. You are still poor.» |
+| 12 | street / tense, RING | dan | Звонок. Тот самый рингтон. | Dan: «That sound. I know that sound.» |
+| 13 | street / tense | dan, trader | На прилавке «вещей снаружи» — его телефон с треснувшим экраном. Голосовое сообщение. | Narration: «Mom: Dan, eat something.» · Dan: «That is my phone! That is my mom!» · Dan: «How much is the phone?» |
+| 14 | street / tense | dan, trader, system | Цена и покупатель: высокий человек в чёрном пальто с латунной цепочкой и гроссбухом забирает телефон и уходит к дальней лестнице. **RU:** «Голос, который зовёт тебя снаружи, стоит здесь дороже любого слова. Дэн пока не знает почему.» | Trader: «The phone is not cheap. Twenty words. It has a voice from outside.» · Trader: «Sorry, Zero. That man buys it. He pays much.» · System: «Missed calls: 10.» |
+| 15 | street / tense | dan, mira | Дэн рвётся следом; очнувшаяся Мира держит его за рукав. | Dan: «Stop him! That is my mom!» · Mira: «No. You have one breath. Think.» · Mira: «You give me breath. Not bad, Zero.» |
+| 16 | street / calm | dan, mira, trader | Откуда телефон. | Dan: «Who sells you my phone?» · Trader: «A little girl sells it to me. She does not talk. She sings.» · Mira: «A girl? What does she sing?» |
+| 17 | black / tense | mira | Издалека — тонкая песня без слов. Мира встаёт и идёт в темноту одна. **RU:** «Мира знает эту песню. Она сама её когда-то пела — тому, кто боялся темноты.» | Mira: «I know that song. Lina sings it every night.» · System: «The girl is near.» |
+
+- **Клиффхэнгер (тип «голос»):** Лина рядом и поёт.
+- **Квиз:** 1) Чем на рынке платят? (словами) 2) Как Дэн заработал слово REST? (починил крышу ларька) 3) Что продавали на прилавке «вещей снаружи»? (его телефон с голосом мамы) 4) Кто продал телефон торговцу? (маленькая девочка, которая не говорит, а поёт)
+- **Тайны:** телефон (уходит к Ledger); счётчик Missed calls впервые; «слово, которого Дэн не слышит» — зацепка №1; Лина и её Deed-слово SING (расплата S4E8).
+
+---
+
+#### S1E8 — Lina / Лина
+
+- **CEFR:** A1. **Грамматика:** my / your / his / her / our; me / him / her / us / them.
+- **Сила:** Belonging — назвать, чьё что. Сил в бою нет: это серия-правда и серия-ссора.
+- **Новые слова (10):** family, mother, father, child, love, friend, lie, true, alone, use.
+- **Панелей:** 16. Флэшбеки (панели 3–6, 8) — тёплая «бумажная» палитра, `bg: white`, в `art` писать «memory scene in warm sepia paper tones». Мира рассказывает **в настоящем времени** — на этом этаже иначе нельзя.
+
+| # | bg / mood | В кадре | Что происходит | Ключевые реплики (EN) |
+|---|---|---|---|---|
+| 1 | street / tense | dan, mira | Тупик за рынком. Песня стихла. На гвозде — обрывок красной нити. | Dan: «Mira. Who is Lina?» · Mira: «I can't say the word.» · Dan: «I can. She is your sister.» · Mira: «I hear nothing. But yes.» |
+| 2 | room / calm | dan, mira | Ниша с лампой. Мира решается. **RU:** «Мира говорит быстро и ровно — как человек, который много раз рассказывал это самому себе.» | Mira: «I tell you. It is not a good story.» |
+| 3 | white / calm | mira (память) | Память: две девочки на маленькой кухне. | Mira: «We are two. Me and Lina. Our mother is gone. Our father is gone.» · Mira: «She is my family. I am her family.» |
+| 4 | white / calm | — | Память: на кухонной стене — дверь. Младшая тянется к ручке. | Mira: «A door comes. Lina opens it. She is a child. She loves doors.» |
+| 5 | white / tense | — | Память: Башня, Лина поёт на ходу. | Mira: «She sings. She is loud. I tell her: be quiet. She sings.» |
+| 6 | white / action | — | Память: Безмолвные; две руки расходятся (на рисунке **неясно, кто разжал пальцы** — это зацепка для S3E3). | Mira: «They come. I have no breath. They take her. They take all her words.» |
+| 7 | room / tense | dan, mira | Настоящее. | Dan: «And the Keeper?» · Mira: «I go to him. He has a map to the last door. The map is not free.» |
+| 8 | white / tense | keeper (память) | Память: Зал Слов; из груди Миры вырывают слово целиком; шнурок на запястье тускнеет. **RU:** «Даже в собственной памяти Мира не слышит, какое слово у неё забрали.» | Keeper: «One word, whole. I give you the map.» · System: «Word lost.» |
+| 9 | room / tense | dan, mira | Зачем ей последняя дверь. Заявка на E10. | Mira: «Lina waits at the last door. And that door needs a sentence.» · Mira: «Nobody here can make a sentence. We buy our words. They don't go together.» |
+| 10 | room / tense | dan, mira | Правда про Zero. | Mira: «The Keeper tells me: wait for a Zero. A Zero learns his words. A Zero can open that door.» · Dan: «So you wait for me.» · Mira: «I wait three years.» |
+| 11 | room / tense | dan, mira | Дэн понимает. Цитата из E2. | Dan: «You don't help me. You use me.» · Mira: «Yes.» · Dan: «"One day. Zero is useful."» · Mira: «It is true. I don't lie to you now.» |
+| 12 | room / action | dan, mira, system | Ссора. | Dan: «My name! My OPEN! You know his price!» · Mira: «I tell you: don't talk to him!» · Dan: «I am not your key! I am not your friend!» · System: «Quiet. They hear you.» |
+| 13 | corridor / tense | dan, mira | Дэн уходит. Мира хочет побежать за ним — и не может (Дыра: она не умеет удерживать своих). | Dan: «Find your door alone.» · Mira: «Zero. Wait.» · Mira (мысль): «I don't run after him. Why can't I?» |
+| 14 | corridor / calm | dan, system | Дэн один. | System: «You are alone. That is a bad plan.» · Dan: «Her plan is bad too. I am her plan.» · System: «Missed calls: 11.» · Dan (мысль): «Mom. I love you. I never say it to you.» |
+| 15 | corridor / tense | dan, silent (Лина) | Маленькая фигура берёт его за рукав. | Silent: «Come.» · Dan: «Lina? I am not Mira. Mira is there.» · Silent: «Come. You.» |
+| 16 | black / tense | dan, silent, system | Щель красного света в стене. **RU:** «Она ведёт его не к сестре. Она ведёт его туда, куда три года водила пальцем по камню.» | Silent: «Look.» · System: «Warning. This place is not on Mira's map.» |
+
+- **Клиффхэнгер (тип «не тот человек / не то место»):** Эхо Лины ведёт Дэна прочь от Миры — к Стене Букв.
+- **Квиз:** 1) Какое слово Мира отдала Хранителю? (сестра) 2) Что она получила взамен? (карту к последней двери) 3) Зачем Мире нужен Зеро? (только он может составить предложение для двери) 4) Кто увёл Дэна в конце? (маленькая Безмолвная — Лина)
+- **Тайны:** истина №1 раскрыта полностью; заявлено «купленные слова не складываются»; рука в памяти (ложь Миры себе, расплата S3E3); «I never say it to you» (Need Дэна).
+
+---
+
+#### S1E9 — The Wall of Letters / Стена Букв
+
+- **CEFR:** A1. **Грамматика:** and / but / because.
+- **Сила:** Links — первая цепочка (два слова на одном дыхании); приказ с правдивой причиной. READ связывается.
+- **Новые слова (10):** because, but, letter, sentence, learn, speak, voice, first, tower, build.
+- **Панелей:** 16. Место: `s1e09:tower-exterior` (Wall of Letters).
+
+| # | bg / mood | В кадре | Что происходит | Ключевые реплики (EN) |
+|---|---|---|---|---|
+| 1 | tower-exterior / calm | dan, silent | Открывается исполинская внутренняя стена из букв. **RU:** масштаб. | Dan: «It is a wall. But it is not a wall. It is... letters.» |
+| 2 | tower-exterior / calm | dan, system | | System: «This is the Wall of Letters. Every lost word comes here.» · Dan: «Why?» · System: «Because the Tower builds with words.» |
+| 3 | tower-exterior / tense | dan, system | Буквы плывут; Дэн заставляет себя прочесть верхнюю строку. | Dan: «I can read it! "I am"... and then nothing.» · System: «READ is yours now. Count: five.» |
+| 4 | tower-exterior / tense | dan, system | Главное раскрытие (истина №2). | System: «The Tower is not a house. The Tower is a sentence.» · System: «A long sentence. It is not done.» · System: «It takes words because it can't make them.» |
+| 5 | tower-exterior / tense | dan, system | Истина №3. | Dan: «And you? What are you?» · System: «This voice is the Tower's first word.» · System: «But this voice does not take. It learns.» |
+| 6 | tower-exterior / tense | dan, silent | Лина-Эхо касается стены: внизу среди тысяч имён светится LINA; пробел после «I AM» мигает, примеряя имена. | Narration: «The wall speaks: I am Lina. I am Dan. I am...» · Dan: «It tries names. Because it has no name!» |
+| 7 | tower-exterior / calm | dan, system | Фоном — старая фреска: два мальчика и мост без правого берега. Дэн, инженер, не может не заметить. | Dan: «Nice bridge. But there is no end. They don't ... it.» · System: «Almost.» · Dan: «What?» · System: «Nothing. Ask me later.» |
+| 8 | tower-exterior / action | dan, silent, system | По карнизу идут Пустые — на голос. У Дэна четыре дыхания. Первая цепочка: STOP на переднего и PUSH на каменный блок, который перегораживает карниз. | Dan (крик): «Stop and push!» · System: «Two words. One breath and a half. Because of AND.» · Dan: «AND is a good word!» · System: «AND is a small word. Small words are free.» |
+| 9 | tower-exterior / tense | dan, system | Маленькая дверца в стене не слушает команды — слушает причину. Проба будущей «двери-предложения». | System: «This door hears a reason.» · Dan: «Let me in, because I am Dan and I learn.» · System: «True.» |
+| 10 | room / calm | dan, system | Ниша, где стена «кладёт» новые слова. Прилетает красное OK — голосом Дэна с Лестницы. | Dan: «That is my OK! That is my voice!» · System: «The Tower learns from you. It keeps every word you say.» |
+| 11 | room / calm | dan, system | Тема серии — третья экономика. | Dan: «But I don't lose them.» · System: «No. You speak. It learns. Nobody loses. That is new.» · System: «The others buy and sell. You learn. The Tower likes it.» |
+| 12 | room / calm | dan, silent | Лина-Эхо кладёт его ладонь на своё имя в стене, потом показывает вверх. | Dan: «You want your name. But I can't take it. It is in the wall.» · Silent: «Mira.» · Dan: «You want Mira. But I don't like her now.» |
+| 13 | room / calm | dan, system | Внутренний спор — на and / but. | Dan (мысль): «She uses me. But she gives me bread.» · Dan (мысль): «She lies, and she is my first friend here.» · System: «Two true things.» |
+| 14 | tower-exterior / calm | dan, silent | Решение. | Dan: «OK. We find her. Because she is alone, and I know alone.» |
+| 15 | tower-exterior / tense | dan, system | В пробеле верхней строки сами собой встают огромные буквы. **RU:** «Три буквы. Его буквы.» | System: «Warning.» · Dan: «That is my name. On the wall. Why?» |
+| 16 | black / tense | — | Стена говорит голосом Дэна — его же фразами из первой ночи. | Narration: «The wall speaks: I am Dan. I am not weak. I am tired.» · Dan: «That is my voice. I say that... on the first night.» · System: «The Tower learns to speak. It learns from you.» |
+
+- **Клиффхэнгер (тип «чужими устами»):** Башня примеряет имя Дэна и говорит его голосом.
+- **Квиз:** 1) Что такое Башня на самом деле? (незаконченное предложение) 2) Почему Башня забирает слова? (не умеет делать свои) 3) Что дало слово AND? (два слова за одно дыхание с половиной) 4) Чьим голосом заговорила стена? (голосом Дэна)
+- **Тайны:** истины №2 и №3; фреска двух мальчиков (истина №8, зацепка); `...` №2; третья экономика заявлена; LINA в стене (её имя уже ушло наверх — S2).
+
+---
+
+#### S1E10 — The First Sentence / Первое предложение
+
+- **CEFR:** A1. **Грамматика:** порядок слов «кто + делает + что».
+- **Сила:** Sentence — любое правдивое предложение стоит одно дыхание и делает простые слова своими. Счёт Дэна начинает расти пачками.
+- **Новые слова (10):** make, find, close, hold, strong, new, breath, fight, every, last.
+- **Панелей:** 16.
+
+| # | bg / mood | В кадре | Что происходит | Ключевые реплики (EN) |
+|---|---|---|---|---|
+| 1 | corridor / calm | dan, mira, silent | Мира находит их. Видит Лину рядом с Дэном и останавливается в трёх шагах. | Mira: «You find her.» · Dan: «She finds me.» |
+| 2 | corridor / calm | dan, mira | Первое «sorry» Миры. | Mira: «I am sorry, Zero.» · Dan: «I don't like your plan. But I have a new plan.» · Mira: «What plan?» · Dan: «We make a sentence.» |
+| 3 | corridor / tense | mira, silent, system | Мира не может подойти к сестре. **RU:** про Дыру: проданное слово заставляет обходить то, что оно называло. | System: «Mira holds her cord. She does not hold the child.» · Mira: «I can't. I don't know why.» |
+| 4 | corridor / tense | dan, mira, system | Железная дверь на пути назад к последнему залу. | Dan: «Push!» · System: «This door is strong. PUSH is weak here.» · Mira: «Say OPEN.» · Dan: «I can say it. It does nothing. The Keeper has it.» |
+| 5 | corridor / calm | dan | Инженерное озарение. **RU:** «Слово — это камень. Но стену держат не камни, а кладка.» | Dan (мысль): «One word is one stone. A wall is not one stone.» · Dan (мысль): «The Tower makes a sentence. I can make a sentence too.» |
+| 6 | corridor / calm | dan, mira | Дэн раскладывает схему вслух. | Dan: «Who? I. What do I do? Open. What? The door.» · Mira: «Words don't go together. Nobody can make them.» · Dan: «You buy your words. I learn my words. They are mine.» |
+| 7 | flash / action | dan | Красные буквы выходят не вспышкой, а ровной строкой; дверь тихо открывается. | Dan: «I open the door.» · System: «Sentence: 4 words. True. One breath.» |
+| 8 | corridor / calm | dan, mira, system | | Mira: «One breath? For that door? You have no OPEN!» · Dan: «I don't need a strong word. I need a true sentence.» · System: «A true sentence makes plain words yours. DOOR is yours now. Count: six.» |
+| 9 | corridor / calm | dan, mira, system | Дэн в восторге пробует ещё и ещё (монтаж в одном кадре). | Dan: «I close the door. I open the door. I hold the lamp. I find the key!» · Mira: «Stop. You play.» · Dan: «I learn!» · System: «Count: 14.» |
+| 10 | corridor / calm | dan, mira, system | Мира пробует — без артиклей трескается; Дэн *учит* её бесплатно. Её первая в жизни фраза-сила и почти-улыбка. | Mira: «I... open... door.» · System: «Not true. That is not a sentence.» · Dan: «The small words are free. Say "the". Say it with me.» · Mira: «I open the door.» |
+| 11 | dungeon / tense | dan, mira, keeper, (silent) | Последний зал. Лампы сметены. Хранитель стоит — впервые не в кресле. За ним шеренга Безмолвных; рядом высокий, с жёлтой полоской на шее. | Silent: «I am Dan.» · Keeper: «A new sentence, Zero. Every jar in my hall hears it.» |
+| 12 | dungeon / tense | dan, keeper | | Keeper: «Forty years, and nobody makes a new sentence here.» · Keeper: «I need one more word. Your name. Give it to me.» · Dan: «No trade.» |
+| 13 | dungeon / action | dan, mira, silent | Бой. Предложения дёшевы, но каждое — на одного врага; врагов много. | Keeper: «Then no trade. They take it.» · Dan: «I stop the Silent! I close the way!» · Mira: «Don't fight them all! Hold the door!» · System: «Dan has two breaths.» |
+| 14 | dungeon / action | dan, mira, silent | Nad идёт к Дэну; Мира встаёт между ними и тратит всё на один крик. | Silent: «I am Dan. I am Dan.» · Mira (крик): «Stop! Every one of you!» · System: «Mira has no breath.» |
+| 15 | dungeon / tense | mira, silent, keeper | Безмолвный склоняется над упавшей Мирой и говорит её голосом. | Silent: «I am Mira.» · System: «Word lost: MIRA.» · Keeper: «Not the name I want. But a name is a name.» |
+| 16 | black / tense | dan, mira, keeper | Мира открывает рот — имени нет. Лина-Эхо зовёт имя, которое теперь ничьё. | Mira: «I am... I am...» · Silent: «Mira? Mira?» · Keeper: «Come to my hall, Dan. Bring your name. Then she has hers.» · System: «Mira is Zero now.» |
+
+- **Клиффхэнгер (тип «окно Системы» + потеря):** Мира — Zero.
+- **Квиз:** 1) Почему PUSH не открыл железную дверь? (дверь слишком сильная для одного слова) 2) Сколько дыханий стоило предложение? (одно) 3) Почему у Миры сначала не получилось? (сказала без маленьких слов — это не предложение) 4) Чьё имя забрали в конце? (Миры)
+- **Тайны:** «I need one more word» = DAN; Nad снова в кадре; купленные слова не складываются (подтверждено); Мира получила первое *выученное* умение — от Дэна.
+
+---
+
+#### S1E11 — The Keeper's Door / Дверь Хранителя
+
+- **CEFR:** A1. **Грамматика:** want to / have to / need to + глагол.
+- **Сила:** Will — правдивое «I want to…» связывает слова; «have to» — закон Башни. Предел силы: предложение не может сделать то, что неправда («I take the jar» — `Not true.`).
+- **Новые слова (10):** home, choose, stay, leave, remember, forget, call, year, old, young.
+- **Панелей:** 16. Хранитель рассказывает свою историю в настоящем времени, короткими фразами.
+
+| # | bg / mood | В кадре | Что происходит | Ключевые реплики (EN) |
+|---|---|---|---|---|
+| 1 | room / tense | dan, mira | Комната с лампой. Мира без имени. | Dan: «You are Mira.» · Mira: «I hear it. It is not mine. It is a sound.» · Dan: «I have to go to him.» · Mira: «You don't have to. You want to. Don't.» |
+| 2 | room / calm | dan, pip | Пип признаётся. Смешно и грустно. | Pip: «He waits for you. He always wants a name.» · Pip: «I tell him things. He gives me bread. Sorry. A little.» · Pip: «I need to eat!» |
+| 3 | corridor / calm | dan, pip, system | Лина-Эхо остаётся с Мирой. Пип ведёт короткой дорогой. | Dan: «Stay with her.» · Dan: «I need to make a plan.» · System: «You have 14 words and no plan.» |
+| 4 | hall / tense | dan, keeper | Зал Слов, половина полок темна. Банка с именем MIRA на подлокотнике. | Keeper: «Welcome, Dan. You want to trade now.» · Dan: «I don't want to trade. I want to know. Who are you?» |
+| 5 | hall / calm | keeper | История (истина №4, первая половина). | Keeper: «A good question. I am the first Zero.» · Keeper: «I come here a young man. No words. No friend.» · Keeper: «Now I am old. Forty years in this hall.» |
+| 6 | hall / calm | dan, keeper | | Keeper: «I make the rule. One word, one name. Because I have to live.» · Keeper: «Every year I want to go home.» · Dan (мысль): «He wants what I want.» |
+| 7 | hall / tense | dan, keeper | Правило двери. | Dan: «You have the door. You have OPEN. Go home.» · Keeper: «The door needs two people. One remembers. One calls.» · Keeper: «Nobody calls my name. And I don't remember it.» |
+| 8 | hall / tense, RING | dan, keeper, system | За печатями — глухой звонок. | Keeper: «But your mother calls. Every hour she calls "Dan".» · System: «Missed calls: 12.» |
+| 9 | hall / tense | dan, keeper | План Хранителя целиком. | Keeper: «Your OPEN. Your name. Your mother's call. With them I go home. As Dan.» · Dan: «She knows her son!» · Keeper: «The door makes me her son. She sees Dan. She hears Dan.» |
+| 10 | hall / tense | dan, keeper | Предложение первое. | Keeper: «Give me your name. Whole. I give Mira her name.» · Keeper: «You stay here. I go home to your mother. She is not alone. Is that bad?» |
+| 11 | hall / tense | dan, keeper | Предложение второе. Здесь же — зацепка истины «купленная дверь стирает память». | Keeper: «Or you go home. Now. You leave, and you forget the Tower. It is a dream.» · Keeper: «And I keep Mira's name. One name has to stay with me. You have to choose.» |
+| 12 | hall / action | dan, keeper, system | Дэн пробует силой — и узнаёт предел. | Dan: «I take the jar!» · System: «Not true. Two breaths lost.» · Keeper: «You can't take, Dan. A trade is a trade.» |
+| 13 | hall / tense, CRACK | dan, keeper | Хранитель произносит OPEN; печати трескаются; в щели — офис, суббота, звонит телефон на столе. | Narration: «Mom: Dan? Dan, call me. Please.» · Dan: «Mom!» |
+| 14 | hall / tense | dan, system | Каждое правдивое «хочу» связывает слова. Ранг-ап. | Dan (мысль): «I want to go home. I need to call her. I want to remember her voice.» · System: «True. True. True. Count: 31.» · System: «Rank up: WORD.» · Dan (мысль): «And Mira has no name because of me.» |
+| 15 | hall / tense | dan, mira, pip | У входа — Мира, её ведёт Пип. Она видит открытую дверь. | Mira: «Zero. Go.» · Dan: «You have no name!» · Mira: «I have three years here. You have a mother. Go home.» |
+| 16 | black / tense | dan | Рука Дэна на краю двери, свет офиса на лице. | Keeper: «Choose, Dan.» · Mira: «Zero. Go.» · System: «You have to choose. This voice can't help.» |
+
+- **Клиффхэнгер (тип «выбор»):** рука на двери домой.
+- **Квиз:** 1) Кто такой Хранитель? (первый Зеро, 40 лет в Башне) 2) Что нужно двери домой? (два человека: тот, кто помнит, и тот, кто зовёт) 3) Что Хранитель хочет сделать с именем Дэна? (уйти домой вместо него, к его маме) 4) Что сказала Мира в конце? («Зеро. Иди.»)
+- **Тайны:** истина №4; правило Двери Возврата; «уйдёшь — забудешь Башню» (ключ к истине №8); у Хранителя нет имени и некому его звать (расплата S8–S9).
+
+---
+
+#### S1E12 — Sister / Сестра (финал сезона)
+
+- **CEFR:** A1. **Грамматика:** 's (Lina's mother); X means Y; повторение сезона.
+- **Сила:** True Naming (три правдивых предложения возвращают имя) и Define (определение возвращает проданное слово). Последняя дверь. Ранг Phrase, класс BUILDER.
+- **Новые слова (10):** sister, mean, teach, hear, together, back, again, hundred, answer, same.
+- **Панелей:** 18.
+
+| # | bg / mood | В кадре | Что происходит | Ключевые реплики (EN) |
+|---|---|---|---|---|
+| 1 | black / tense | dan | Рука на двери. Он оборачивается. Мотив «One minute» — в последний раз в сезоне. | Dan: «Mom. One more minute. I am sorry.» · Dan: «I don't go.» |
+| 2 | hall / tense | dan, keeper | | Keeper: «Then give me your name.» · Dan: «No. I don't trade. I don't take. There is a new way.» · Keeper: «There is no new way. I know. Forty years.» |
+| 3 | hall / tense | dan, mira | True Naming: три правды о человеке. | Dan: «Listen. You are Mira. You climb. You count every breath.» · Mira: «It is a sound.» · Dan: «You say "Loud is dead". You give me your bread. You wait three years for one girl.» |
+| 4 | hall / action, CRACK | dan, mira, keeper, system | Банка на подлокотнике лопается; красная нить возвращается Мире в грудь. | Dan: «Who are you?» · Mira: «I am... I am Mira!» · System: «MIRA comes back. No trade.» · Keeper: «That is not a trade! Who pays?» |
+| 5 | hall / action | dan, mira, silent | Хранитель зовёт Безмолвных. Между ними и героями встаёт маленькая фигура. | Dan: «Nobody pays.» · Keeper: «Then they take it all.» · Silent: «Mira.» |
+| 6 | hall / tense | dan, mira | | Dan: «Mira. The child. Who is she?» · Mira: «She is my... I can't hear the word.» · Dan: «I can't give you the word. But I can teach you.» |
+| 7 | hall / calm | dan, mira | Define. Самая важная учебная сцена сезона: определение из известных слов. | Dan: «Lina is a girl. Your mother is her mother. Your father is her father.» · Mira: «My mother is Lina's mother...» · Dan: «The same family. What does it mean?» |
+| 8 | flash / calm | mira, system | **RU:** «Слова нет. Но смысл — вот он, целый, и никто не может его купить.» Слово возвращается. На дальней полке лопается банка. | Mira: «It means... she is mine. I am hers. She is my... sister.» · System: «New word: SISTER. SISTER is yours now.» |
+| 9 | hall / calm | mira, silent, system | Мира впервые подходит к сестре и берёт её за руку (Дыра закрылась). Лина говорит **своим** голосом. **RU:** «Это не чужой голос. Это её собственный — тонкий, охрипший от трёх лет молчания.» | Mira: «Lina. I am your sister. I am here.» · Silent: «Mira. ...Sister.» · System: «The child has two words. They are hers.» |
+| 10 | hall / tense | dan, keeper | Третья экономика названа вслух (истина №5). Банки вокруг мерцают. | Keeper: «You teach her. You give, and you still have it.» · Dan: «Yes. I teach. She learns. Nobody loses.» · Keeper: «Then every jar here is a lie.» |
+| 11 | hall / calm | dan, keeper, system | Цена выбора: звонок обрывается, дверь домой закрывается сама. | System: «The call ends. The door closes.» · Keeper: «You lose your way home, Dan.» · Dan: «Then I build a new way.» |
+| 12 | dungeon / tense | dan, mira, silent, system | Последняя дверь этажа. | System: «Count: 97. The last door wants a new sentence.» · Dan: «Together. Say it with me.» |
+| 13 | flash / action, BOOM | dan, mira, silent | Одно предложение на троих. | Dan: «I am Dan,» · Mira: «and I am Mira,» · Silent: «Sister.» · Dan: «and we open this door together, because we go up.» |
+| 14 | sky / calm | dan, system | Дверь уходит вверх, за ней лестница света. Полное окно статуса (в `art`: большое окно Системы, текст добавляется позже). | System: «Sentence: 18 words. True. Count: one hundred.» · System: «Rank up: PHRASE. Class: BUILDER.» · System: «Title: Teacher of One.» |
+| 15 | sky / calm | dan, system | Ответ на «Why me?» — первое длинное предложение Системы. | Dan: «One hundred words. Now answer. Why me?» · System: «Because you have zero words and you learn every word, and the others only buy and take, and the Tower wants to learn too.» · Dan: «That is a long sentence.» · System: «It is the first. Don't tell Mira.» |
+| 16 | sky / tense | dan, system | Крючок на S2 (истина №8). | System: «And because you are here again.» · Dan: «Again? What does "again" mean?» · System: «Ask me when you have 300 words. It is a long answer. It needs words you don't have.» |
+| 17 | corridor / calm → tense | dan, mira, silent | Подъём. Мира впервые с E1 называет его по имени. За их спинами в закрывающуюся дверь проскальзывает высокая тень с жёлтой полоской. | Mira: «Thank you, Dan.» · Mira: «...Zero.» · Silent: «I am Dan.» |
+| 18 | black / tense | dan, system | Сверху — мамин голос. Сначала знакомая фраза, потом фраза, которой мама никогда не говорила (истина №6). | Narration: «A voice from above: Dan. Eat something.» · Dan: «Mom?» · System: «That is not your mother. That is the Tower. It has her voice.» · Narration: «The voice: Dan. Come up. Mom waits, because you learn.» |
+
+- **Клиффхэнгер сезона (двойной):** «You are here again» + Башня маминым голосом составляет новое предложение по грамматике Дэна.
+- **Квиз:** 1) Как Дэн вернул Мире имя? (сказал о ней три правдивых предложения — без обмена) 2) Как Мира вернула слово «сестра»? (Дэн объяснил его другими словами) 3) Какой класс получил Дэн? (Builder) 4) Чей голос звал Дэна сверху? (Башня голосом мамы)
+- **Тайны:** расплата по «сестре», «one more word», «Why me?» (первый слой), «последней двери»; открыты: «Again», Nad идёт следом, Башня сочиняет, телефон у Ledger, имя LINA наверху, дверь домой потеряна.
+- **Сверка длины:** самая длинная реплика сезона — ответ Системы (25 слов) — сознательное исключение из лимита в 12 слов: это событие («It is the first»). Реплика двери (панель 13) разбита на четыре короткие строки.
+
+---
+
+#### 9. Отличия от краткого плана в `bible.md` (и почему)
+
+| В bible.md | Здесь | Причина |
+|---|---|---|
+| E6: Мира падает, «осталось два слова дыхания» | то же; добавлены STOP (связывание), первый `True.`, торг за карандаш | закрыть канон-нестыковку со STOP; посадить карандаш |
+| E7: Дэн получает REST; телефон на рынке | то же; телефон покупает агент Ledger; появляется счётчик Missed calls | мост в S2; таймер реального мира |
+| E8: флэшбек, ссора, Эхо уводит | то же; флэшбек рассказан в настоящем времени; в кадре с руками — двусмысленность | грамматический замок этажа; секрет №2 Миры |
+| E9: Стена повторяет голос Дэна | то же; плюс первая цепочка с AND, дверь «с причиной», фреска мальчиков | грамматика → сила; зацепка первого визита |
+| E10: «I open the door»; Хранитель забирает имя Миры | то же; имя Миры забирает Безмолвный (Nad) в бою, Хранитель получает его как трофей | Хранитель не может брать силой («A trade is a trade») |
+| E11: билет домой в обмен на «Mira» | два предложения: (1) имя Дэна за имя Миры — и Хранитель уходит к маме Дэна; (2) Дэн уходит домой, имя Миры остаётся у Хранителя | логика Двери Возврата; ставка выше |
+| E12: Дэн «создаёт собственную дверь», говорит sister за Миру | Дэн возвращает имя Истинным именованием, а слово — определением; дверь домой закрывается; последнюю дверь открывают втроём | главная идея серии (учение) должна победить торговлю делом, а не чудом |
+| E12: Count 100, ответ «Why me?» | то же; плюс «again» и порог 300 | капельница тайн на S2 |
+| финал: телефон звонит вверху | голос мамы идёт от самой Башни и говорит *новую* фразу | страшнее и точнее по теме: Башня учится грамматике у Дэна |
+
+---
+
+## 4.5 Сезоны 2–4 и дальше до финала (файл story/seasons-2-4.md, дословно)
+
+### WORDBOUND — Сезоны 2–4 по эпизодам, сезоны 5–9 по аркам, финал
+
+Мир, персонажи и правила — в `series-bible.md`. Грамматика, длина фраз, темы слов — в `curriculum.md` (там же таблицы по сериям; здесь грамматика указана кратко). Этот файл — **сюжет**. Каждый абзац — одна серия: события → слова → грамматика/сила → что получил Дэн → клиффхэнгер.
+
+Обозначения: **Count** — связанные слова Дэна на конец серии. **MC** — Missed calls. Цитаты Nad — дословные реплики Дэна из прошлых серий (автор берёт их из готовых JSON).
+
+---
+
+### СЕЗОН 2 — THE FLOOR OF DEEDS (город Margin). A1 → A1+
+
+**О чём сезон.** Дэн впервые *кто-то*: «Zero, который возвращает проданные слова». Все хотят его купить, запретить или украсть. Он унижен при всём городе, собирает семью из тех, кого не взяли никуда, и расплачивается — не силой, а тем, что умеет объяснять. Цель Миры: имя LINA, проданное наверх. Цель Дэна: телефон с голосом мамы.
+
+**Структура.** E1–E3 прибытие, унижение, дно. E4–E6 наставница, семья, работа, первые следы Nad. **E7 — мидпойнт: расплата на the Proof и арест.** E8–E9 суд и следствие. E10–E11 аукцион и ловушка. E12 — босс, дверь, «You were here».
+
+**Физика этажа.** Всё происходит *сейчас*. Скажи о ком-то правдивое «-ing» — над ним на миг вспыхнет его действие (Now-sight). Длящееся «I am holding…» держит эффект, пока держишь фразу (Channel), по дыханию за несколько секунд. У лестницы наверх «протекает вчера»: там начинают работать was/were и -ed.
+
+##### S2E1 — Margin / Поля
+Лестница света выводит в вертикальный город на полках внутренней стены: дома как строки, канатные лифты, всё движется. Дэн замечает, что над людьми вспыхивают их действия, когда он проговаривает их: «He is running. She is selling. They are watching us» — Now-sight. Лину приходится прятать под шарфом Миры: Безмолвных в городе «утихомиривают» на месте. На площади — доска the Index: Дэн на самой последней строке, «#40112 · DAN · PHRASE · 100», титул *Lowest on the Index*; первая строка доски пустая. Старик у доски: «The top moves. Every year it moves.» **Слова:** город, движение, люди. **Грамматика:** present continuous (утв.). **Count 100.** **Клиффхэнгер:** глашатай Ledger читает объявление: за «Zero, who teaches lost words» — награда 500 слов; вся площадь оборачивается: «They are looking at you, Zero.»
+
+##### S2E2 — The Auditor's Son / Сын аудитора
+Рук Марл выходит из толпы: чёрное пальто, ряд значков, мамин телефон Дэна в руке — «Is this yours?». Он не сдаёт Дэна за награду — он хочет победить его сам. Словесная дуэль по правилам Margin: каждый ставит одно связанное слово, судит the Line. Дэн различает, что Рук *обычно* делает (Rule: «He always attacks first») и что делает *сейчас* (Now: «He is not looking at me. He is looking at the crowd») — но тяжёлые купленные слова Рука (SHIELD, CRUSH) просто давят его лёгкие предложения. Дэн проигрывает ставку — PUSH; Рук брезгливо бросает его в свой гроссбух: «Cheap.» **Слова:** дуэль, богатство и бедность, одежда. **Грамматика:** continuous ?/–, simple vs continuous. **Count 99 — ниже порога: Система сухо: «Count: 99. Rank: WORD.» Значок Phrase гаснет при всём городе.** **Клиффхэнгер:** Рук уходит с телефоном; из динамика мамин голос: «Dan? Are you eating?» — и Система: «Missed calls: 14.»
+
+##### S2E3 — Soup / Суп
+Дно: ни денег, ни жилья, награда за голову. Пип (поднялся воровской лестницей) приводит их в the Gutter — щель под городом между двумя колоннами, где живут Unwritten. Кухня Супа: огромный тихий человек кормит всех, у кого нет слов, под лампой, горящей на его отданном слове. Он наливает всем, сам не ест — «I am not hungry. I am never hungry» (Дыра). Уроки some/any за столом: «Is there any bread? There is some soup. There isn't any salt.» Дэн чинит ему вытяжку — и снова бросает последний винт; Суп: «You don't … things, do you?» — шорох; Система: `Almost.` Дэн пишет на стене благодарность — и утром находит её исправленной красной ручкой: три ошибки. Система: «Keep the pencil.» **Слова:** еда, кухня, делиться. **Сила:** Measure (сколько дыхания у кого). **Count 112.** **Клиффхэнгер:** в дверях маленькая седая женщина с красной ручкой: «Three mistakes in one sentence, dear. Shall we begin?»
+
+##### S2E4 — The Red Pen / Красная ручка
+Мисс Торн. Бывшая №3 Индекса, вычеркнувшая себя, учит Ненаписанных бесплатно. Первый урок — 's и whose: «This is Dan's pencil. Whose word is this?» Она показывает силу **Trace**: правильно заданный вопрос «Whose word is it?» протягивает тонкую красную нить от купленного слова к его первому владельцу. Дэн пробует на городе: нить от Рукова SHIELD уходит вниз — к старику из Gutter, который три года не может сказать «щит». Рук это видит и делает вид, что нет. Мисс Торн демонстрирует **Correction**: ломает чужую фразу, отметив ошибку. На вопрос Дэна, почему она не идёт наверх: «I have my reasons, dear. Next sentence.» **Слова:** школа, вещи, принадлежность. **Count 124.** **Клиффхэнгер:** Мира пробует Trace на афише аукциона — нить от лота «a child's name» тянется к Лине под шарфом. Имя LINA продают через семь дней.
+
+##### S2E5 — I Would Like a Name / Мне, пожалуйста, имя
+Чтобы войти на аукцион, нужен взнос 300 слов или лот победителя the Proof — городского испытания на пропуск к двери этажа. Дэн идёт на доску заказов: вежливые формулы («I would like a job, please. Could I see the lift?») открывают людей там, где команды только злят — **Soft Key**. Монтаж работы: он чинит лифты, блоки, мостки (инженер наконец на своём месте), и Count растёт на глазах; Система отмечает каждое новое слово. Мира учится говорить «please» и ненавидит это. В конторе Ledger Дэн видит прейскурант: «Callers — voices from outside» и «Returns» — и понимает, зачем им его телефон (истина №7, первая половина). **Слова:** работа, просьбы, like/hate + -ing. **Count 150.** **Клиффхэнгер:** в списке команд the Proof — «Marl, A. — sponsor: the Ledger». Клерк: «Would you like to sign too? You need a team of five.» У Дэна двое.
+
+##### S2E6 — The Clock District / Часовой квартал
+Команду на the Proof никто не хочет: у них нет ранга. Дэн собирает тех, кто есть: Мира, Суп, Пип (врёт про возраст), и пятая — Лина под капюшоном («She doesn't talk. She is shy.»). Квартал часов: всё по расписанию; уроки времени — «The Proof begins at nine on Friday. We meet at eight.» Тренировка смешная и провальная. Ночью в городе кто-то голосом Дэна говорит: «I am Dan. I am not weak. I am tired.» — и из хранилища Ledger пропадают банки. Пип первым называет его: «That's not Dan. That's Nad. Dan, but wrong.» **Слова:** время, дни, встречи. **Сила:** план по часам. **Count 165.** **Клиффхэнгер:** свидетель указывает на Дэна: «It is him. He says his name every time.» Система: «Warning. Dan is wanted.»
+
+##### S2E7 — The Proof / Корректура (мидпойнт)
+Испытание: «Бегущая страница» — движущиеся платформы-строки над пропастью, которые надо пройти всей пятёркой за время. Команда Рука — пять купленных тяжёлых слов, каждый сам по себе: они мешают друг другу и срываются. Дэн делает то, чего не умеет никто: пишет **инструкцию** — «First, Soup holds the rope. Then Mira jumps. Next, Pip turns the wheel slowly. Finally, we all pull together» — и предложения-шаги работают как одна сила на пятерых (**Sequence**). Наречия настраивают: «slowly», «carefully» — **Tuning**. «Класс нулей» приходит первым. Расплата: Рук на глазах города остаётся на платформе один; Дэн протягивает ему руку — тот не берёт. Доска: «#40112 → #9870», значок Phrase возвращён, титул *First on the Running Page*. **Слова:** движение, порядок, команда. **Count 180.** **Клиффхэнгер:** на финише сержант Дэш: «Dan — you were — at the Vault — last night.» Первое was/were в серии. Наручники-скобки.
+
+##### S2E8 — Where Were You? / Где ты был?
+Суд the Line. Судья Period заканчивает каждую фразу словом «Period.» Новая грамматика — как право говорить о вчера (у лестницы наверх оно «протекает»): «Where were you at midnight?» — «I was in the kitchen. Mira was with me. We were asleep.» Сила **Witness**: правдивое was/were ставит в воздухе бледный отпечаток сцены. Свидетели честно говорят своё: «He was at the Vault. His voice was there.» Обе правды верны — и судья это видит, но закону нужен виновный. Наказание — вычёркивание имени из Индекса: без строки не пройти ни одни Ворота. Мисс Торн приходит как защитник и просит один день. **Слова:** суд, ночь, правда. **Count 195.** **Клиффхэнгер:** Мира встаёт: «It was not Dan. It was his Echo. And I was there when it took his name.» Судья: «Then bring it to me. You have one day. Period.»
+
+##### S2E9 — There Was a Boy / Там был мальчик
+Осмотр хранилища с мисс Торн: «There was a jar here. There were three footprints. There wasn't any light.» — восстановление сцены по следам; бирюзовые капли на полу. В старой книге вкладов Ledger — запись пятилетней давности от Хранителя; Мира читает строку, Дэн видит **пустое место**. «This line is empty.» — «It is not empty…» — она осекается; Система: «Mira. Not now.» (рифма с S1E2). Nad загнан в угол среди полок. Он говорит цитатами — «I know walls. I know doors.» — а потом составляет фразу, которой Дэн никогда не произносил: «Dan is slow.» Он начал переставлять слова. **Слова:** следствие, следы, списки. **Count 210.** **Клиффхэнгер:** у Nad на гладком лице открывается второй шов-рот; два голоса, один Дэна: «There was a boy. There were two boys.» — и он уходит сквозь стену. Дэн: «Two boys? What two boys?»
+
+##### S2E10 — Yesterday / Вчера
+У самой лестницы наверх прошлое становится осязаемым: Дэн касается банки и говорит правдивое -ed — «Somebody opened this jar. Somebody carried it here» — и видит бледную сцену: **Memory-touch**. Этого хватает для суда (судья: «The court watched it. Not guilty. Period.») и для следа имени LINA: «A Silent carried the name. The Keeper wanted money… no — words. A woman visited him. She asked for a child's name.» Женщина — Одесса Марл. Имя не лежит в банке: его *носит* её приёмная дочь, восьмилетняя девочка из Gutter, которой нужно было имя, чтобы жить в городе. Вернуть LINA Лине — значит снова сделать ребёнка безымянным. Рук это знал. **Слова:** вчера, носить, принадлежать. **Count 235.** **Клиффхэнгер:** девочка в чёрном пальтишке с бубенчиком на воротнике смотрит на них с балкона: «Hello. I'm Lina. Who are you?» — и Лина-Эхо под капюшоном вздрагивает.
+
+##### S2E11 — The Auction / Аукцион
+Аукцион — приманка: лота «a child's name» нет. Одесса ждала Учителя. Допрос в did/didn't, вежливый как счёт: «Did you teach the girl her word? Did anyone pay you? No? Then you stole from the market.» Она предлагает контракт: Дэн учит только клиентов Ledger — и получает телефон и однажды Return домой. Он отказывается; она включает запись мамы и на миг отвечает *чужим* голосом, не замечая. Рук впервые возражает матери и получает: «You are an investment, Ansel. Sit.» Nad и Magpies под шумок вскрывают хранилище; Tally выносит мешок банок, одна катится Дэну под ноги — его телефон. Банки бьются; слова сотнями втягиваются в Nad. **Слова:** торг, договор, обещать/отказать. **Count 262. Телефон у Дэна. MC 31.** **Клиффхэнгер:** из хранилища встаёт Nad — уже Chorus, три рта, плечи уже, на голове намёк на волосы: хором, голосом Дэна: «I did not sell. I did not steal. I did not leave.» Последнего Дэн не говорил никогда.
+
+##### S2E12 — What Are You Doing? / Что ты делаешь? (финал)
+Бой в рушащемся аукционном зале. Chorus глушит команды цитатами; Дэн побеждает не ударом, а удержанием: «I am holding the door. Mira is carrying the child. We are not letting go» — **Channel**, пока хватает дыхания; Рук, которого никто не просил, встаёт рядом и держит своим SHIELD. Nad уходит наверх. Развязка с именем: Дэн не отбирает LINA у девочки — он спрашивает, что она любит («I like bells»), и команда говорит о ней три правды; она сама отвечает: «I am Bell.» Имя LINA освобождается без обмена и возвращается владелице: «I am Lina» — своим голосом, из-под капюшона. Рук смотрит на сестру и молчит. Дверь этажа: каждый говорит, что делает прямо сейчас; Дэн: «I am going up, and I am taking my family with me.» **Count 300. Rank up: CLAUSE.** Ответ Системы на «Again?»: «You were here. Five years ago. You were nineteen.» — «What did I do here?» — «Ask me when you have 600 words. It is a long answer. It needs the past.» **Клиффхэнгер:** в обломках хранилища Мира поднимает старую банку и читает ярлык вслух. Дэн слышит шорох. Система: «He does not hear that word.» На ярлыке, почерком Хранителя: слово — и ниже: «from Dan».
+
+---
+
+### СЕЗОН 3 — THE FLOOR OF YESTERDAYS (the Drowned Stacks). A1+ → A2
+
+**О чём сезон.** Прошлое. Герой, который всю жизнь считал себя просто уставшим, узнаёт, что он — человек, который бросил друга. Самая тихая и самая больная часть серии; юмор держат Пип, Суп и колодец кривых слов.
+
+**Структура.** E1–E3 правила памяти и правда Миры. E4–E5 зависимые от памяти, следы Дэна-19. **E6 — мидпойнт: карандаш помнит.** E7 — серия-флэшбек. E8–E9 Nad узнан и отвергает имя. E10 — Рук. E11–E12 — босс и дверь-признание.
+
+**Физика этажа.** Затопленный архив: стеллажи по колено в стоячей воде, сумерки, дождь идёт вверх. Вещи помнят: коснись и скажи правдивое прошедшее — увидишь сцену в сепии. Цена: дыхание и то, что ты чувствуешь всё, что чувствовал тот, кто там был. Купленные слова здесь опасны: в них чужая память.
+
+##### S3E1 — Yesterday's Rain / Вчерашний дождь
+Прибытие: вода, отражения, тишина. Правила Memory-touch на простых вещах: лодка («Somebody rowed it. Somebody cried in it.»), чашка, ботинок. Отрицание: «He didn't come back.» Лина, у которой теперь есть имя, трогает всё подряд и впервые *смеётся* чужой счастливой памятью. Мисс Торн идёт с ними («Someone must check your endings, dear») и предупреждает: не трогай то, что помнит тебя, пока не готов. Дэн находит на стеллаже зарубки ножом — счёт дней, сорок штук, и рядом нацарапанный мост. Его тянет коснуться; Мира перехватывает руку. **Слова:** вода, погода, вещи. **Count 320.** **Клиффхэнгер:** Лина касается зарубок раньше всех и говорит первое своё прошедшее: «A boy waited here.» Система: «True.»
+
+##### S3E2 — Crooked Words / Кривые слова
+Правильные -ed на этом этаже ломаются на самых нужных глаголах: «I goed» трескается в воздухе. Мисс Торн ведёт к Колодцу кривых слов: бросаешь обычное слово — всплывает его кривая форма, случайная, со своей редкостью. Первая восьмёрка: went, came, saw, said, had, did, got, took. Сцена-«гача»: Пип выигрывает редкую и продаёт Супу за обед; Мира выбивает три одинаковых «had» и злится; Рук (приполз следом — его не пускает дверь без проводника) пытается купить весь колодец и узнаёт, что кривые слова не продаются. Дэну выпадает то, чего в первой порции быть не должно: LEFT. Мисс Торн смотрит на него долго: «That one finds people, dear. People do not find it.» **Слова:** движение, речь. **Count 350.** **Клиффхэнгер:** Дэн проверяет слово на зарубках: «A boy waited here. Somebody left.» Сепия вспыхивает — спина уходящего человека с жёлтым карандашом за ухом.
+
+##### S3E3 — Three Years Ago / Три года назад
+Теперь Мира может рассказать свою историю в настоящем прошедшем — и не может остановиться: ago, last, when. Они находят место, где это случилось: фреска двух девочек (как в E3), и на полу — красная нить. Мира касается нити и говорит выученную версию: «They took her.» Система: «Not true.» Вторая порция кривых слов (found, lost, ran, held, let, fell, made, knew) собирается в правду: «I held her hand. I had no breath. I let go. She fell. I ran.» Лина слышит. Долгая пауза. Потом Лина — вторым своим прошедшим: «You came back.» Самая сильная сцена сезона до E7; первая длинная речь Миры в серии. **Слова:** семья, руки, держать/отпускать. **Count 380.** **Клиффхэнгер:** Мира: «Now you know what I did. So. Whose back was that, Zero?» — и показывает на карандаш.
+
+##### S3E4 — The Rememberers / Помнящие
+Посёлок на сухом острове: люди, которые платят словами, чтобы снова и снова смотреть свой лучший день. Тема could / couldn't: «I could swim. I could drive. I couldn't stop.» Сила **Old Skill** — на минуту вернуть умение из прошлого. История Супа: ресторан, сын, выпускной, на который он не приехал; его лучший день — день, когда сын был маленьким; он чуть не остаётся. Вытаскивает его не Дэн, а Лина: «Soup. I am hungry.» — слово, которого он не чувствует, сказанное тем, кого надо кормить. Среди чужих памятей Дэн видит в коридоре Башни двух парней — лица размыты: «The Tower does not show you what you sold.» **Слова:** профессии, умения, скучать. **Count 410.** **Клиффхэнгер:** старуха-Помнящая хватает Дэна за рукав: «I remember you. You could run fast. The other boy couldn't.»
+
+##### S3E5 — Did You Know Him? / Ты его знал?
+Допрос вещей и людей: wh-вопросы в past simple. «Who opened this door? When did he come? What did he sell?» Сюда, на Этаж 3, сбежал и Хранитель — без Зала (Ledger забрал банки за долги), с одной книгой сделок. Он почти рад Дэну: «You asked the right floor, Dan.» Запись пятилетней давности: «A boy came. He was nineteen. He sold one word, whole. He went home. He forgot.» Какое слово — он говорит вслух; Дэн слышит шорох. Вторая линия: Пип находит на стене архива детский рисунок и подпись — своё настоящее имя; читает, думает и говорит: «No. I chose Pip.» — первый человек в серии, который *сам* отказался от возвращённого имени (зеркало к будущему отказу Nad). **Слова:** документы, даты, купить/продать. **Count 440.** **Клиффхэнгер:** Дэн: «Did I come alone?» Хранитель закрывает книгу: «Ask your pencil.»
+
+##### S3E6 — The Hush / Тишь (мидпойнт)
+Монастырь Тиши: белёные стены, таблички, жесты; тут не говорят. Mother Hush через послушника предлагает Дэну то, что он уже однажды купил: забыть. «You were happy when you didn't know. So you can be happy again.» Связный рассказ с because / so / then / after that — их способ убеждать: история Башни как болезни, которую кормят слова. Дэн почти согласен. Мисс Торн — единственная, кто говорит в этих стенах вслух: «He will not sign anything he cannot read, thank you.» Ночью Дэн один снимает карандаш из-за уха. Он с ним с шестнадцати лет. Он *был там*. Касание: «I held this pencil. I… came here.» Сепия раскрывается целиком: двое мальчишек с рулоном чертежа падают на плиты площади и хохочут. **Слова:** покой, боль, обет. **Count 450.** **Клиффхэнгер:** в памяти второй парень оборачивается — веснушки, жёлтая толстовка — и говорит по-русски звучащее, но понятное: «Dan! Look at this place!» Дэн, вслух, в настоящем: «Kostya.»
+
+##### S3E7 — Kostya / Костя
+Серия-флэшбек, первая с большим объёмом английской narration; последняя порция кривых слов (left, forgot, sold, told, taught, drew, gave, thought). **День первый:** после насмешки преподавателя над их мостом они сидят в мастерской до ночи; дверь на стене; им девятнадцать, и это лучшее, что с ними случалось. Окно Системы — тогда оно говорило только «Welcome» и «You have 0 words». Дэн, дурачась, объясняет ему, что смешно: «You told me I was weak. I laughed. That is FUNNY.» Окно впервые отвечает само: «Funny is a good word.» (истина №10). **День второй:** Лестница эха; Костя громкий, поёт на ходу; Безмолвные. **День третий:** Костя без дыхания, Дэн тащит его к Залу Слов. Хранитель: одно целое слово — одна дверь. На двоих надо два. У Дэна есть одно, которым он гордится: он всегда всё доделывал. Он отдаёт его. «I come back. One minute.» Дверь закрылась — и стёрла Башню. Дома мама: «You were gone for three days. Where is Kostya?» Он не знал. **Слова:** дружба, обещание, страх. **Count 480.** **Клиффхэнгер:** настоящее; Дэн на коленях в воде; Система: «That was the long answer.» — «He waited for me.» — «Forty days. Count them.»
+
+##### S3E8 — While He Was Waiting / Пока он ждал
+Зарубки на стеллаже — сорок. Новая грамматика, чтобы увидеть не точку, а течение: «He was waiting. He was counting the days. He was humming our song when the lamp went out» — **Replay**: сцена идёт как кино, и в неё можно войти. Дэн проходит сорок дней Кости за одну серию: тот рисует мост на стене, делит хлеб с Пустыми, разговаривает с окном Системы («It was talking to him. It was learning jokes.»), отдаёт последнее слово лампе, чтобы дождаться. Пока Дэн дома сдавал сессию, спал, чертил чужое. На сороковой день лампа гаснет, и Безмолвные берут у него всё; последним — имя. Что он повторял с тех пор, прежде чем украл «I am Dan»? Пять лет — ничего. Он был Пустым. **Слова:** ожидание, счёт, песня. **Count 510. MC 60.** **Клиффхэнгер:** в Replay Пустой с обрывком жёлтого шнурка поднимает голову на звук — это звук падения Дэна на площадь в S1E1: «While I was falling, he was listening.»
+
+##### S3E9 — The Name Thief / Вор имени
+Nad приходит сам — Chorus, три рта. Бой, в котором Дэн впервые не хочет побеждать. Он читает противника двумя временами: «When I shouted, he was already moving» — и уходит от ударов. Потом пробует True Naming: «You are Kostya. You drew the bridge with me. You sang on the stairs. You waited forty days.» Три правды. Тишина. И ответ — впервые собственной, не цитатной фразой, тремя голосами: «Kostya waited. Dan went home. I am Dan.» Именование не работает, если названный не хочет быть этим человеком: Костя — тот, кого бросили. Nad забирает у выдохшегося Дэна не имя — фразу: «I come back.» **Слова:** бой, движение. **Count 530.** **Клиффхэнгер:** Дэн пытается сказать «I come back» — и не может: фразы нет. Система: «Sentence lost. That is new.»
+
+##### S3E10 — Rook's Word / Слово Рука
+Передышка от главной линии и расплата по сопернику. На этом этаже купленные слова заливают Рука чужой памятью: с каждым SHIELD он на миг становится стариком из Gutter, у которого слово отняли. Он срывается, тонет в воде по пояс, не может замолчать чужими голосами. Дэн — последний, от кого Рук хочет помощи — сидит рядом и объясняет, как учить слово самому: понять и сказать в нужде. Рук, давясь: «I was… I am sorry.» Система (её окно впервые поворачивается к нему): «New word: SORRY. SORRY is yours now. Count: one.» Восемьсот купленных — и одно своё; он смотрит на эту единицу, как Дэн в E1. Потом возвращает старику SHIELD — определением, как учил Дэн. Мисс Торн: «Now that is a complete sentence, Mr. Marl.» **Слова:** чувства, прощение. **Count 550.** **Клиффхэнгер:** Рук: «My mother bought a Return. One. For this week. I thought it was for me.» — «Who is it for?» — «I don't know. She didn't tell me. She never told me.»
+
+##### S3E11 — The Drowned Door / Затопленная дверь
+Путь к двери этажа лежит через the Undertow — Chorus из голосов Помнящих, который тянет на дно фразой «It was better before». Бой-экзамен на все 24 кривых слова: правильная форма бьёт, неправильная («I taked») трескается и стоит вдвое. Каждый получает свой удар и свой ответ: Суп — «I cooked for my son. I cook for them now»; Мира — «I let go once»; Рук — своё единственное слово; мисс Торн красной ручкой правит на лету чужие фразы, спасая двоих. Дэн не может сказать «I come back» — и находит обход, как с OPEN: «I returned. I am here.» Undertow рассыпается на тысячи тихих «was». **Слова:** вода, глубина, повторение. **Count 580.** **Клиффхэнгер:** дверь этажа — под водой, чёрная; на ней вопрос, который читает вслух Система: «What did you do?» И Nad стоит рядом с ней. Ждёт.
+
+##### S3E12 — What Did You Do? / Что ты сделал? (финал)
+Дверь открывается только правдивым признанием в прошедшем — и только для того, кто сказал. Мира: «I let go of her hand.» Рук: «I knew the name was stolen, and I said nothing.» Суп: «I didn't go to my son.» Пип: «I told the Keeper about my friends. For bread.» Мисс Торн говорит своё шёпотом двери — мы не слышим («I knew who he was. I told no one.» — раскроется в S7). Дэн: «I left my friend here. I sold a word, I went home, and I forgot him.» Он хочет добавить «I did not … it» — шорох; Система: `Almost.` Дверь принимает и так. Nad слушает имя «Kostya» — и на секунду его три рта смыкаются в один. Потом он проходит дверь вслед за ними — у него тоже есть правда в прошедшем: «Dan left. I waited.» **Count 600. Rank up: SENTENCE.** Система: «Now you know the past. The next floor keeps promises. Be careful what you say there.» **Клиффхэнгер:** Дэн, глядя в спину Nad: «I am going to bring him home.» — фраза, которой он ещё не должен уметь; красные буквы повисают в воздухе незакреплёнными. Система: «That is not a sentence here. Not yet. Upstairs, it is a vow.»
+
+---
+
+### СЕЗОН 4 — THE FLOOR OF LAWS (the Academy of the Line). A2 → A2+
+
+**О чём сезон.** Академия, худший класс, рейтинг, турнир с призом «дверь домой» — самая «жанровая» и самая лёгкая часть серии, которая заканчивается самым тяжёлым ударом. Тема: отвечать за сказанное. Клятва исполняется буквально.
+
+**Структура.** E1–E4 академия, «Class Zero», правила. E5–E6 предвидение и **клятва (E6 — мидпойнт)**. E7–E8 подготовка и **возвращение Лины (E8 — большая победа)**. E9–E11 турнир. E12 — приз и катастрофа.
+
+**Физика этажа.** Белый город по линейке. Сказанное о правилах и о будущем обязывает: «must» ставит печать, «will» берёт ставку, «if» взводит ловушку. Пройти к двери этажа можно только с пропуском Академии.
+
+##### S4E1 — Class Zero / Нулевой класс
+Вступительное измерение у ректора Варги, «the Ruler»: латунная линейка и сила **Scale** — в её аудитории доказуемое сравнение становится законом: «You are weaker than every student here. Sit lower.» — и парта Дэна *опускается*. Дэн учится отвечать тем же оружием: «I am slower than him. But my sentences are longer than his.» Всю команду (и Рука, разжалованного матерью за «убытки») отправляют в Class Zero — подвальный класс для безнадёжных; куратор — мисс Торн, которую Варга, её бывшая ученица, терпеть не может. Мира отказывается сидеть за партой и становится инструктором по лазанию. Лину записывают как «немую ученицу». **Слова:** школа, оценки, сила/тело. **Count 640.** **Клиффхэнгер:** доска рейтинга класса: первое место — «Wren Adeyemi». Она проходит мимо Дэна и, не глядя: «You are going to drop your pencil.» Он роняет.
+
+##### S4E2 — The Worst Class / Худший класс
+Superlatives как титулы: «the fastest», «the strongest», «the worst class in the Academy» — и титул прилипает, пока его не опровергнешь делом. Объявлен турнир **the Dictation**: Башня диктует, участники исполняют точно; победитель получает пропуск к двери — и приз от спонсора: **один Return**, настоящая дверь домой. Спонсор — Ledger. Дэн может вернуться к маме, просто победив. Рук: «It is a trap. It is the most expensive thing she owns.» Первое командное упражнение Class Zero — худшее в истории Академии; титул подтверждён. Юмор: Суп — «the biggest», Пип — «the youngest and the loudest», Рук — «the most expensive». **Слова:** соревнование, превосходная степень. **Count 680.** **Клиффхэнгер:** Варга вычёркивает из списка участников «немую ученицу»: «She is not a student. She is not a person. She is the quietest Silent I have ever… — she is a Silent.» Лина раскрыта.
+
+##### S4E3 — You Must Not / Ты не должен
+Законы Академии как печати: «You must not speak in the hall» — и рот не открывается (**Ward**). Лину по закону положено «утихомирить»; мисс Торн находит в уставе щель: «Students must be protected. The rule does not say *human* students.» — и Варга вынуждена отступить до турнира. Комедия и настоящая ловушка для ученика: Дэн путает «don't have to» и «mustn't» — и чуть не лишается слова за нарушение: «You *don't have to* come» ≠ «You *must not* come». Он учится ставить печать на себя: «I must stay awake» — работает, но со штрафом (минус дыхание утром). Впервые заметно, что Варга боится не Лины, а чего-то наверху: «Rules are the only thing that holds this floor up.» **Слова:** правила, наказания. **Count 720.** **Клиффхэнгер:** ночью Лина пишет Дэну на бумажке слово, которое услышала от стены Академии: «SING.» — «Where did you hear it?» Она показывает вверх.
+
+##### S4E4 — You Should Sleep / Тебе надо поспать
+Should / shouldn't — язык совета. Дэн занимается сутками и падает; Система впервые за серию даёт совет, а не справку: «You should sleep.» — «Is that an order?» — «No. It is new.» (веха её арки). Мисс Торн и Варга: старая ссора — Торн когда-то ушла с Индекса и из Line, потому что отказалась «утихомиривать» бывших людей; Варга осталась строить порядок. На вопрос Дэна, почему она не идёт выше шестого этажа: «There is someone upstairs I should have forgiven long ago, dear. I am not ready.» (should have прозвучит один раз, как шорох будущей грамматики). Рен объясняет Лине на пальцах, как она видит намерения; девочки дружатся без слов. **Слова:** здоровье, усталость, советы. **Count 760.** **Клиффхэнгер:** Рен — Дэну: «You shouldn't enter the Dictation. I see what you are going to do at the end. I don't see you after it.»
+
+##### S4E5 — She Is Going to Step Left / Она шагнёт влево
+**Intent-reading:** над противником за миг до действия вспыхивает его «going to». Рен читает всех; её нельзя удивить. Дэн учится — и обнаруживает, что его инженерные планы и есть «going to»: «I am going to cut the rope, the weight is going to fall, the door is going to open.» Тренировочные бои Class Zero наконец начинают получаться: Мира читает намерения ногами, Рук впервые строит фразу сам и ошибается («I going to win» — трещина; мисс Торн: «*am* going to, Mr. Marl»). Параллельно — Ledger: Одесса приезжает в Академию как спонсор; она смотрит на Дэна так, будто он *нужен* ей в финале. **Слова:** бой, движения, планы. **Count 800.** **Клиффхэнгер:** Дэн читает намерение Одессы — и над ней вспыхивает не одно «going to», а несколько, разными почерками: чужие планы чужих голосов. Она уже не одна в своей голове.
+
+##### S4E6 — I Will / Я обещаю (мидпойнт)
+Will — не план, а **клятва**: сказанное «I will…» Башня записывает и берёт ставку. Варга даёт урок на себе: «I will hold this floor» — её ставка видна, это имя. Дэн, глядя на счётчик пропущенных, наконец закрепляет фразу, повисшую в конце S3: «I will bring Kostya home.» Система: «Vow recorded. Stake: your name.» Сила огромна: пока клятва в силе, дыхание не падает ниже одного. Мира в ярости — она понимает цену точнее него: «You didn't say how. You didn't say *as what*.» Мисс Торн, тихо: «A promise is a sentence, dear. Check every word of it.» Он не проверяет. **Слова:** обещания, дом. **Count 840. MC 88.** **Клиффхэнгер:** в окне статуса новая строка: `[ VOW ] I WILL BRING KOSTYA HOME.` — и за окном Академии, на карнизе, стоит Nad с лицом, которое уже почти лицо. Он слышал.
+
+##### S4E7 — Before the Bell / До звонка
+Подготовка к турниру: планы с опорными точками — «When the bell rings, we will run. Before Wren moves, I will set the trap. I won't speak until Mira is ready.» Тренировочный монтаж, ранг-апы команды: Мира — Phrase (её первые длинные фразы), Рук — Count 12 своих (и гордится ими больше, чем восемью сотнями), Суп учит слово HUNGRY обратно через определение («It is when your body asks») — лампа Кухни далеко внизу гаснет, и он впервые за годы ест с аппетитом. Лина приносит второе слово из стены и третье: стена Академии поёт по ночам — это место, где она когда-то пела. **Слова:** расписание, подготовка. **Count 880.** **Клиффхэнгер:** Лина-Эхо, глядя на Миру, впервые составляет: «I am Lina. Mira is my sister. I…» — и останавливается. Третьего якоря нет. Система: «She needs a deed.»
+
+##### S4E8 — Lina Sings / Лина поёт (большая победа сезона)
+Deed-слово Лины — SING: оно не продано и не украдено, оно сгорело в лампе в тот день, когда Мира разжала руку (Лина сама отдала его, чтобы сестра успела убежать, — последняя недостающая деталь S3E3). Сгоревшие слова уплывают вверх, но песня осталась в стене. Вернуть сгоревшее может только тот, кто помнит мелодию. Мира, которая «не говорит ласковых слов», поёт — плохо, вслух, при всём классе — колыбельную, которую пела сестре. Лина подхватывает. «I am Lina. I sing. Mira is my sister.» Бирюзовый шов расходится в рот; бумага становится кожей; ей четырнадцать, как в день входа. Первое, что говорит человек Лина: «You are older. And you still can't sing.» Варга видит, как Безмолвная стала человеком, — и линейка в её руке впервые опущена: закон «утихомиривать» стоит на лжи. **Слова:** музыка, семья, can / will be able to. **Count 900.** **Клиффхэнгер:** Лина — Дэну: «When I was Silent, I heard the tall one every night. He says your vow. He says it better than you.»
+
+##### S4E9 — If You Step Here / Если наступишь сюда
+Турнир, первый круг. Новая сила Дэна — его личный боевой стиль до конца серии: **If-trap**. «If you step on this line, the rope will pull. If the rope pulls, the weight will fall.» Условие стоит один раз и ждёт; инженер расставляет поле как механизм (рычаг, верёвка, противовес, баланс — первые технические слова). Class Zero проходит круг; титул «the worst class» публично трескается. Рук побеждает своего бывшего телохранителя честной фразой с ошибкой, которую сам же исправляет на лету. Одесса в ложе отвечает на вопрос Варги *мужским* голосом и не замечает. **Слова:** ловушки, механизмы. **Count 930.** **Клиффхэнгер:** жеребьёвка полуфинала: Дэн — Рен. Она улыбается впервые: «If you plan it, I will see it.»
+
+##### S4E10 — Unless / Если только не
+Полуфинал: Дэн против Рен. Она читает любое намерение — значит, намерения быть не должно. Он строит ловушки, которые зависят не от его плана, а от *её* хода: «If you move left, the floor will tilt. Unless you stay, you will fall.» У него нет «going to» — читать нечего. Рен впервые в жизни удивлена, проигрывает и смеётся: «Nobody is going to believe this.» Вечером — контракт Одессы, шедевр first conditional: «If you win, you will go home. If you lose, you will teach for the Ledger. Unless you refuse — then your team will lose its passes.» Он подписывает: ему нужна дверь. Мелкой строкой, которую он читает (он теперь читает всё), но не понимает до конца: «The Return will be opened for the name DAN.» **Слова:** договоры, условия. **Count 960.** **Клиффхэнгер:** второй полуфинал выигрывает Рук. Финал: Class Zero против Class Zero.
+
+##### S4E11 — The Dictation / Диктант
+Финал: Дэн против Рука. Лучший бой серии до этого момента — потому что оба не хотят друг другу зла. Башня диктует задания; Рук с дюжиной своих слов и сотнями купленных, Дэн с тысячей своих. Всё оружие сезона в одном бою: Scale («My words are lighter than yours — and faster»), Law, чтение намерений, ловушки. Рук в решающий момент мог бы ударить купленным тяжёлым словом, принадлежащим старику из Gutter, — и не бьёт: «If I use it, I will win. I won't.» Дэн выигрывает. Рук: «Go home, Zero. Somebody should.» Трибуны: Class Zero — «the best class in the Academy». **Count 990.** Доска Индекса: Дэн в первой тысяче. **Клиффхэнгер:** церемония; Одесса выносит приз — дверь в печатях — и телефон Дэна, который у него вежливо «попросили для ритуала». Из-за двери: «Dan? Dan, are you there?» Система: «Warning.» — и больше ничего: ей нечего сказать, что он бы понял.
+
+##### S4E12 — Vow Kept / Клятва исполнена (финал)
+Дверь Возврата открывается на имя DAN, на слово OPEN (красное Одесса выкупила у разорённого Хранителя) и на мамин зов. За ней — мамина кухня, вечер. Дэн делает шаг — и не может переступить порог: клятва. Он не привёл Костю домой; ставка — имя; уйти, не исполнив, значит выйти в мир без имени, никем. Пока он стоит, мимо него проходит Nad — в его рубашке, с его лицом, очки белые от света. Одесса: «The contract says the name. Not the man.» Она продала Return дважды: Дэну как приз и Nad — за всё, что тот вынес из хранилища. Мира бьётся в печати. Nad на пороге оборачивается и говорит голосом Дэна, его словами из первой ночи: «Mom. I am sorry.» Мама: «Dan! You came home.» Дверь закрывается. Система, ровно: «Vow kept. Kostya came home.» Клятва исполнена буквально. Имя остаётся у Дэна; место — занято. **Count 1000. Rank up: PARAGRAPH** — самый горький ранг-ап серии. Дверь этажа он открывает сорванным голосом: «I will go home as myself.» — новая клятва, ставка названа им самим: слово HOME. **Клиффхэнгер:** окно статуса. `[ MISSED CALLS ] 96.` Пауза. `No new calls.`
+
+---
+
+### СЕЗОНЫ 5–9 — на уровне арок
+
+#### СЕЗОН 5 — THE FLOOR OF MARKS. A2+ → B1. «Он лучше меня»
+**Физика:** сделанное оставляет Метку, которая действует сейчас (present perfect). На террасах над облаками — Окна: они показывают не прошлое, а то, что *изменилось* с тех пор, как ты ушёл.
+- **Арка 1 (E1–E4) — «Have you ever».** Дэн смотрит в Окно: дома «он» каждый день звонит маме, доедает суп, починил кран. «He has called her every day. I have never done that.» Мама счастлива. Мета-удар: фальшивый сын лучше настоящего, потому что настоящий говорил ей только «прости, устал, минуту». Дэн перестаёт шутить. Mother Hush снова предлагает покой. Первые серии с точкой зрения мамы (короткие сцены в «офисной» палитре): она замечает, что сын больше не роняет карандаш — у него нет карандаша. «He always finished his soup» — говорит она соседке, и сама не понимает, о ком.
+- **Арка 2 (E5–E8) — «Since you left».** Раскол: Дэн уходит от команды один (соло-арка, рост силы: Метки-достижения становятся активными умениями — «I have opened a hundred doors» → любая простая дверь открывается без слова). E6: Система подтверждает истину №10 и впервые говорит «Sorry»: она сама написала OPEN на двери его офиса, потому что ждала пять лет. В Окне — у мамы начинают пропадать слова: Nad кормится. «She has forgotten the word for *pencil*.» Это вытаскивает Дэна со дна лучше любой речи.
+- **Арка 3 (E9–E12) — «The friend who waited».** Relative clauses как Binding: Дэн возвращается к команде; Мира говорит свою вторую длинную речь серии (E9). E10: Трейс от строки №1 Индекса ведёт вниз, к Хранителю — пустое имя наверху доски его (истина №12). Финал: Дэн строит **первый Мост** — не дверь за плату, а постоянный переход между этажами для тех, у кого нет имени на Воротах: абзац из пяти предложений с who / that / where, каждое — опора. Gutter поднимается по нему. Рынок проходов Ledger рушится за день. **Count 1500, Page.** Клиффхэнгер: по мосту снизу вверх идёт не только Gutter. Идут Безмолвные. Мост открыт всем.
+
+#### СЕЗОН 6 — THE FLOOR OF WORKS (the Press). B1. «Инструкция»
+**Физика:** машинный этаж. Пресс превращает украденные слова в камень новых этажей. Здесь всё *делается* — никем (passive).
+- **Арка 1 (E1–E4) — «You are forgotten».** Проклятия Башни — пассив без деятеля. Первое же бьёт по самому больному: в Окне мама говорит о сыне «Dan was replaced… no. Dan is here» — её память переписывают. Сила **Unmask:** вернуть деятеля — «forgotten *by whom*?» — и проклятие получает адрес, по которому можно ударить. Иммунитет Башни, **the Proofreader**, впервые появляется: вычёркивает мост Дэна красной чертой; его приходится писать заново, точнее.
+- **Арка 2 (E5–E8) — «Read the manual».** Родная стихия Дэна: инструкции к Прессу, написанные альпинистами-инженерами прошлых лет, — таблички, шаги, журнал ошибок, предупреждения. Сезон технического английского (см. curriculum). В спецификации машины он находит строку, которую никто не умел прочесть: «The sentence must be completed by its author» (истина №13). Война: Ledger без рынка проходов идёт на Мост силой; Одесса почти Chorus. Пипа в суматохе уводит Тишь; вместо него возвращается «Пип», который смеётся в нужных местах.
+- **Арка 3 (E9–E12) — «It is lit by a given word».** E10: дома мама ставит перед «сыном» суп и вдруг говорит: «Kostya?» Он роняет ложку. Финал: чтобы остановить Пресс, нужна процедура из двенадцати шагов и свет на всём мосту — а лампа горит только на отданном слове. Мисс Торн отдаёт лампам все свои слова, одно за другим, диктуя Дэну правку его последней фразы: «…and a full stop, dear.» Она становится Безмолвной с красной ручкой в руке. Пресс остановлен: Башня больше не растёт в середине. **Count 2000.** Клиффхэнгер: вершина перестала отодвигаться — и теперь до неё можно дойти. Все фракции это поняли одновременно.
+
+#### СЕЗОН 7 — THE FLOOR OF IFS. B1 → B1+. «Суд»
+**Физика:** белое пространство с дверями в «If I were…». Каждому — комната с жизнью, которой не было.
+- **Арка 1 (E1–E4) — «If I were home».** Комната Дэна: он не входил в Башню, мост построен, Костя рядом. Выйти можно, только правильно назвав это нереальным. Комната Миры — без Башни и без вины; комната Рука — мать говорит «I am proud of you». Лина, которая три года была никем, проходит свою первой и вытаскивает остальных.
+- **Арка 2 (E5–E8) — «He said that…».** The Line схватила Хранителя и судит его за сорок лет торговли именами. Суд в reported speech: свидетель обязан передать чужие слова честно. Лина замечает, что «Пип» никогда не пересказывает — только цитирует; тест мисс Торн («Tell me what she said») — и Speaker раскрыт (E6). Настоящего Пипа отбивают у Тиши. Дэн — главный свидетель обвинения — даёт показания честно и потом просит суд *не* вычёркивать подсудимого: предложение может закончить только автор.
+- **Арка 3 (E9–E12) — «He must be…».** Дедукция по уликам сорока лет. E11: письмо мисс Торн, оставленное «на случай, если я не дойду»: Хранителя зовут Элиас; его жену звали Ханна; она была её сестрой (истина №14). Варга ломает собственный приговор и встаёт рядом с Дэном. Система впервые говорит «Maybe». **Count 2600, Chapter.** Клиффхэнгер: Хранитель, которому назвали его имя, не слышит его. «That word… I sold it whole. To the Tower. I was the first.»
+
+#### СЕЗОН 8 — THE FLOOR OF REGRETS. B1+ → B2. «Если бы»
+**Физика:** этаж показывает, что *уже случилось до* твоей самой ранней памяти (past perfect) и что было бы, поступи ты иначе (third conditional). Назвать сожаление правильно — отпустить его и вернуть дыхание (**Release**).
+- **Арка 1 (E1–E4) — «He had already said it».** История Элиаса: лексикограф, который всю жизнь собирал слова на карточки и не умел говорить главных; Ханна болела; она позвала; он сказал «One minute». Когда он вошёл, она уже умерла. Несказанное «I am here» стало дверью в стене кабинета (истина №15). Первой сделкой он продал Башне своё имя — чтобы не помнить.
+- **Арка 2 (E5–E8) — «If I had…».** Каждый проходит своё: Мира — «If I had held on, she would not have lost three years»; Суп; Рук; Варга. Дома мама уже зовёт двоих: ставит две тарелки и говорит стене бюро: «Dan. Kostya. Come home, both of you.» Nad за её столом начинает вспоминать слова, которых не крал.
+- **Арка 3 (E9–E12) — «The last part».** Дэн у двери этажа не может сказать своё сожаление: в нём дыра на месте слова. E10: Мира — третья и последняя её длинная речь — учит его определением, как он учил её: «It is the last part. You have done the first part a thousand times. It is when you don't say "one minute".» Он произносит: **FINISH**. Банка в руках Хранителя лопается. Система: `Done.` Первое, что он доводит до конца, — фраза: «If I had finished it, he would have come home with me.» **Count 3300.** Одесса тем временем уже наверху. Клиффхэнгер: Безмолвные по всей Башне одновременно поднимают головы и говорят женским голосом: «I am…»
+
+#### СЕЗОН 9 — THE LAST LINE. B2. «Я здесь» (без русского)
+- **Арка 1 (E1–E4).** Башня перестаёт переводить: «You don't need it now.» Подъём всех фракций. The Proofreader вычёркивает людей; Дэн учит армию Моста единственной защите — своим словам, которые нельзя вычеркнуть, потому что они не украдены.
+- **Арка 2 (E5–E8).** Ложный финал: Одесса вписывает своё имя в пробел. «I AM ODESSA» — и вся Башня говорит ею; она — Chorus из всех, кого купила. Mother Hush произносит единственное слово за серию — «Enough» — и пытается обрушить вершину вместе со всеми. Рук поднимается к матери и не дерётся: называет её тремя правдами и словом, которого она не покупала: «Mother.» Имя выпадает из строки. Пробел снова пуст.
+- **Арка 3 (E9–E12).** Финал — см. `series-bible.md` §7. Последовательность: Дэн приводит Элиаса в его кабинет → Система задаёт первый вопрос: «Elias. Are you there?» → «Hanna. I am here.» → точка; банки открываются; Безмолвные (и мисс Торн) говорят своими голосами → Система: «I am Open.» → Дэн, у которого есть FINISH, строит Последний Мост — абзац, который ученик читает целиком, — от Последней Строки до маминой кухни → за столом Костя, которого мама позвала по имени: «I finished the soup.» → «Mom. I am here.» → обе клятвы закрыты: Костя дома, Дэн дома собой. **Count 4000, Book.** Эпилог: чертёж моста с двумя подписями; Мира и Лина — на другом конце моста, в своём городе, дверь без замка; страница манхвы и страница документации по-английски; бумажное окошко на полях: «What are you reading?» Последнее окно — ученику: «You have N words. You are not Zero.»
+
+---
+
+### Сверка обещаний (что где обязано произойти)
+
+| Обещание | Дано | Исполнено |
+|---|---|---|
+| «Ask me when you have 300 / 600 words» | S1E12 / S2E12 | S2E12 / S3E7 («That was the long answer») |
+| Телефон вернётся | S1E7 | S2E11; снова отнят на «ритуал» S4E11 |
+| Имя LINA | S1E9 (в стене), S2E4 | S2E12 |
+| Лина — человек | S1E12 (два слова) | S4E8 |
+| Унижение от Рука | S2E2 | S2E7 (расплата), S3E10 (он учится), S4E11 (честный финал) |
+| Слово, которого Дэн не слышит | S1E7 | S2E12 (банка), S3E5 (сделка), S8E10 (возвращено) |
+| «I will bring Kostya home» | S4E6 | S4E12 (буквально), S9E12 (по-настоящему) |
+| «I will go home as myself» | S4E12 | S9E12 |
+| Почему мисс Торн не идёт наверх | S2E4 | S6E12, S7E11 |
+| Пустая строка №1 | S2E1 | S5E10 |
+| Система задаст вопрос / скажет «I» | правило с S1E1 | S9E11 / S9E12 |
+

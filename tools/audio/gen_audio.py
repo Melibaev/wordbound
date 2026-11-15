@@ -21,6 +21,7 @@ MODELS = os.path.join(ROOT, ".models")
 # character id -> (kokoro voice, speed)
 VOICES = {
     "dan": ("am_michael", 1.0),
+    "pip": ("am_puck", 1.08),         # boy ~11, fast talker
     "mira": ("af_sarah", 1.0),
     "keeper": ("bm_george", 1.0),
     "system": ("am_onyx", 0.95),

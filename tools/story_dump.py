@@ -138,6 +138,21 @@ def status_table(story, art):
     return "\n".join(L)
 
 
+FOUNDATION = [
+    ("WRITING-GUIDE.md", "Инструкция для написания эпизодов"),
+    ("series-bible.md", "Библия сериала"),
+    ("curriculum.md", "Учебный план: грамматика → силы"),
+    ("season-1.md", "Сезон 1, эпизоды 6–12"),
+    ("seasons-2-4.md", "Сезоны 2–4 и дальше до финала"),
+]
+
+
+def demote(md):
+    """Shift markdown headings down two levels so included files nest under section 4."""
+    import re
+    return re.sub(r"^(#{1,4}) ", lambda m: "#" * min(6, len(m.group(1)) + 2) + " ", md, flags=re.M)
+
+
 def main():
     story = load(os.path.join(DATA, "story.json"), {"episodes": []})
     syn = load(os.path.join(STORY_DIR, "synopses.json"), {})
@@ -181,13 +196,13 @@ def main():
     out += ["# 3. Статус эпизодов (картинки и видео)", "",
             "Данные из `art/manifest.json`, только чтение.", "",
             status_table(story, art), "", "---", "",
-            "# 4. Что дальше", "",
-            "## Запланированные эпизоды 6–12 (по библии)", ""]
-    for code, title, line in PLANNED:
-        out.append("- **%s. %s.** %s" % (code, title, line))
-    out += ["", "## Открытые нити и что держать согласованным", ""]
-    for t in OPEN_THREADS:
-        out.append("- %s" % t)
+            "# 4. Что дальше: основа сериала (написана Fable 5.2)", "",
+            "Ниже дословно — главные документы. **При расхождении с разделом 1 (старая библия) правы они.** "
+            "Порядок чтения перед написанием эпизода: WRITING-GUIDE → series-bible → curriculum → нужный сезон.", ""]
+    for i, (fn, title) in enumerate(FOUNDATION, 1):
+        txt = read_text(os.path.join(STORY_DIR, fn))
+        if txt:
+            out += ["---", "", "## 4.%d %s (файл story/%s, дословно)" % (i, title, fn), "", demote(txt), ""]
     out.append("")
     text = "\n".join(out)
     p = os.path.join(STORY_DIR, "STORY.md")

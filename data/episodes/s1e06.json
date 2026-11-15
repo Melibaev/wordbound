@@ -1,0 +1,658 @@
+{
+ "id": "s1e06",
+ "title": "The Stair of Echoes",
+ "titleRu": "Лестница эха",
+ "level": "A1",
+ "newWords": [
+  "there",
+  "up",
+  "down",
+  "under",
+  "behind",
+  "stairs",
+  "quiet",
+  "sound",
+  "write",
+  "boy"
+ ],
+ "panels": [
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "left"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "Tense two-shot in the cold last-door hall: on the right a child-sized Silent (1.4 m) with a frayed vermilion cord on its left wrist holds out one thin paper-white hand toward Mira; on the left Mira stands frozen, backpack on the floor at her feet, her right hand gripping the vermilion cord on her left wrist. The high black door looms behind the child. Ash-grey light, teal shadow on the floor.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Мира не двигается. Перед ней тот, кого она искала три года. И она не может сделать ни шага навстречу."
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "Mira. Come. It is cold.",
+     "ru": "Мира. Иди сюда. Мне холодно."
+    },
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "She can't say the word. I don't know the word.",
+     "ru": "Она не может сказать это слово. А я его не знаю."
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "action",
+   "sfx": "CREAK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "system",
+     "pos": "right"
+    }
+   ],
+   "art": "Low-angle shot: Dan throws his whole weight against the huge black door with both palms; the door has opened only a hand's width and stopped, a thin line of pale light in the gap. The System window floats at the upper right, tilted, unbothered.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "Push! Push!",
+     "ru": "Толкайся! Ну же!"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "This door wants more. Not a word.",
+     "ru": "Этой двери нужно больше. Не слово."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Almost. Ask me later.",
+     "ru": "Почти. Спроси позже."
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "action",
+   "sfx": "STEP",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide shot from the door looking back down the hall: three tall Silent walk in from the far entrance in a calm line. In the foreground Dan spins around with one arm thrown out, glowing vermilion lettering bursting from his mouth (lettering added later); the nearest Silent is frozen mid-step. Mira beside him, pale.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "They come. They are behind us.",
+     "ru": "Идут. Они у нас за спиной."
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "Stop!",
+     "ru": "Стой!"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "STOP is yours now. Count: two.",
+     "ru": "STOP теперь твоё. Счёт: два."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Слово бьёт, как отдача. В глазах темнеет. Но ближний Безмолвный застыл с поднятой ногой."
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "Dynamic diagonal shot: Dan drags Mira by the wrist toward a narrow side arch in the left wall where stone stairs climb into the dark; Mira looks back over her shoulder. On the right the child-sized Silent with the vermilion cord stands still by the black door, one hand still raised.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "There is a way! Up there! Come!",
+     "ru": "Там есть проход! Вон там, наверху! Идём!"
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "Mira. Why do you run?",
+     "ru": "Мира. Почему ты бежишь?"
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Vertical establishing shot of the Stair of Echoes: a vast round shaft, a narrow spiral stone stair without a railing winding up along the wall, the wall covered in thousands of overlapping pale paper sheets like scales. Dan and Mira are two tiny figures on the stair near the bottom; cold teal darkness below, a small warm ochre glow far above.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Лестница эха. Узкие ступени вьются вверх по стене огромной шахты. Стены из бумаги. Перил нет."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "So many stairs. Mira, are you OK?",
+     "ru": "Сколько ступенек. Мира, ты в порядке?"
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    }
+   ],
+   "art": "Close two-shot on the stair: Mira's gloved hand is clamped over Dan's mouth, her eyes wide in warning. Behind them the paper wall ripples in rings like water, and a small pale faceless shape is peeling itself off the paper lower down the stair. The System window hovers between them.",
+   "lines": [
+    {
+     "type": "narration",
+     "en": "The wall says it back: OK. OK. OK.",
+     "ru": "Стена отвечает: OK. OK. OK."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Здесь каждое сказанное слово возвращается. И у эха вырастают руки."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Every sound comes back here. Be quiet.",
+     "ru": "Здесь возвращается каждый звук. Тише."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Insert shot from above: a torn cream page held against Dan's knee, his hand writing on it with the yellow carpenter pencil; Mira's gloved finger points at the page. Only hands, the pencil and the page; the writing is a few abstract pencil strokes (no readable text).",
+   "lines": [
+    {
+     "type": "narration",
+     "en": "Dan writes: No talk? Mira writes: No sound. Up. Slowly.",
+     "ru": "Мира пишет: Ни звука. Идём вверх. Медленно."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "You write. Good. Paper is quiet.",
+     "ru": "Ты пишешь. Хорошо. Бумага тихая."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "system",
+     "pos": "right"
+    }
+   ],
+   "art": "Medium shot with dry humour: Dan sits on a step sketching a neat little spiral-stair plan on the page like an engineer, tongue between his teeth; the System window floats right in front of his nose, blocking his view. To his left the stair has no wall, only the open shaft.",
+   "lines": [
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "There are many stairs. There is nothing under us.",
+     "ru": "Тут много ступенек. А под нами пусто."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "There are 300 stairs. You are slow.",
+     "ru": "Тут 300 ступенек. Ты медленный."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "silent",
+     "pos": "center"
+    }
+   ],
+   "art": "High-angle shot looking down the spiral stair: several turns below, a small pale faceless paper figure with a thin teal mouth-seam crawls up the steps on all fours, paper sheets trailing from its back. Teal darkness under it. Dan and Mira are not in frame.",
+   "lines": [
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "There is a thing behind us. It has my voice. Again.",
+     "ru": "За нами что-то идёт. У него мой голос. Опять."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "pip",
+     "pos": "right"
+    }
+   ],
+   "art": "Medium wide shot: on a broad step sits Pip, a skinny 11-year-old boy in a too-big grey flat cap and an oversized patched brown coat, under a small paper umbrella, grinning with a gap in his teeth, one open palm held up; a small brass bell without a clapper hangs on his chest. Around him the paper wall is perfectly still. Dan and Mira stop two steps below, Dan pointing at the boy in disbelief.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Вокруг мальчишки звук не возвращается. У него есть слово: QUIET."
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "Hello, slow people! No sound comes back here.",
+     "ru": "Привет, медленные! Тут звук не возвращается."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "A boy? There is a boy on the stairs!",
+     "ru": "Мальчик? На лестнице мальчик!"
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "I am Pip. I sell quiet. One quiet, one word.",
+     "ru": "Я Пип. Продаю тишину. Одна тишина за одно слово."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "pip",
+     "pos": "right"
+    }
+   ],
+   "art": "Close two-shot: Pip stretches a greedy finger toward the yellow carpenter pencil behind Dan's right ear; Dan leans back and covers the pencil with his hand, surprised at himself. Warm ochre light from above.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "No words? Then give me the yellow pencil.",
+     "ru": "Тогда давай жёлтый карандаш."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "No. Not the pencil.",
+     "ru": "Нет. Только не карандаш."
+    },
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "Why not? It is just a pencil.",
+     "ru": "А почему нет? Это же просто карандаш."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "pip",
+     "pos": "right"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    }
+   ],
+   "art": "Over-the-shoulder shot from behind Dan: he points down at the stone under the stairs where the thin outline of a hidden low door now glows vermilion in the wall; Pip hangs over the edge of the step staring at it, cap falling off. The System window floats above the glowing outline.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I give you a secret. There is a room under the stairs.",
+     "ru": "Я дам тебе секрет. Под лестницей есть комната."
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "There is no room. I live here. I know.",
+     "ru": "Нет там комнаты. Я тут живу. Я знаю."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "There is a door behind that stone. Look down.",
+     "ru": "Вон за тем камнем дверь. Посмотри вниз."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "True.",
+     "ru": "Правда."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "pip",
+     "pos": "right"
+    }
+   ],
+   "art": "Medium shot of the three climbing: Pip walks backwards up the stairs in front, one hand raised like a conductor, a soft round bubble of still air around the group; Dan listens to him, Mira frowns with a hand at her ear as if a sound is missing.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "OK. A good trade. Talk under my hand.",
+     "ru": "Ладно. Хороший обмен. Говорите под моей рукой."
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "I know her. That is Mira. She sells her sister.",
+     "ru": "Я её знаю. Это Мира. Она продаёт свою сестру."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "What does the boy say? I hear nothing.",
+     "ru": "Что говорит мальчик? Я ничего не слышу."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "She does not hear that word.",
+     "ru": "Она не слышит это слово."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "pip",
+     "pos": "right"
+    }
+   ],
+   "art": "Close-up on Dan's face, eyes wide behind the taped glasses as everything connects; Pip in soft focus beside him, pointing a thumb down the shaft. In Dan's glasses a faint reflection of a red cord.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "She sells the whole word. The Keeper has it.",
+     "ru": "Она продаёт слово целиком. Оно у Хранителя."
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "The small Silent down there is Lina.",
+     "ru": "А маленький Безмолвный там, внизу, это Лина."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Царапина на стене. Фреска. Красная нить. Дэн наконец знает слово, которого нет у Миры."
+    },
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "Lina. The red cord. Lina is her sister.",
+     "ru": "Лина. Красная нить. Лина её сестра."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    }
+   ],
+   "art": "Medium shot: Mira stumbles on a step, one knee down, face grey, a thin vermilion thread trailing from her lips; Dan reaches for her with both hands. The System window between them has a solid vermilion border and inverted colours (warning).",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Warning. Mira has two breaths.",
+     "ru": "Предупреждение. У Миры два дыхания."
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "Mira! Sit down! Stop!",
+     "ru": "Мира! Сядь! Стой!"
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "pip",
+     "pos": "right"
+    }
+   ],
+   "art": "Dark closing shot: Mira collapsed in Dan's arms on the stair, eyes closed, the vermilion thread at her lips; Dan looks up desperately. Above them Pip stands on a higher step, hands in his coat pockets, looking down calmly like someone watching the weather. Far above, a small warm ochre glow.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "Two breaths. Then no breath. Then she is a Silent.",
+     "ru": "Два дыхания. Потом ни одного. Потом она Безмолвная."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Is there help up there?",
+     "ru": "Там, наверху, есть помощь?"
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "There is a market up there. It is not free, Zero.",
+     "ru": "Наверху рынок. Он не бесплатный, Зеро."
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "There is / there are и слова места",
+  "body": "Чтобы сказать, что где-то что-то есть, английский начинает с there: «There is a door» (одна вещь), «There are many stairs» (несколько). Отрицание: «There is no room». Вопрос получается перестановкой: «Is there help?». Где именно, показывают маленькие слова места: on (на), under (под), behind (за), up (вверх, наверху), down (вниз, внизу). Слово, названное как слово, пишем ЗАГЛАВНЫМИ: STOP.",
+  "examples": [
+   {
+    "en": "There is a boy on the stairs.",
+    "ru": "На лестнице мальчик."
+   },
+   {
+    "en": "There are many stairs.",
+    "ru": "Тут много ступенек."
+   },
+   {
+    "en": "There is a door behind that stone.",
+    "ru": "За тем камнем есть дверь."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Почему на Лестнице эха нельзя говорить вслух?",
+   "options": [
+    "Там живёт Хранитель",
+    "Каждое слово возвращается, и из эха вырастает существо",
+    "Мира устала от разговоров",
+    "Так велела Система"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Чем Дэн заплатил Пипу за тишину?",
+   "options": [
+    "Жёлтым карандашом",
+    "Словом STOP",
+    "Секретом о комнате под лестницей",
+    "Хлебом"
+   ],
+   "answer": 2
+  },
+  {
+   "q": "Что Пип рассказал про Миру?",
+   "options": [
+    "Она продала слово «сестра»",
+    "Она работает на Хранителя",
+    "Она потеряла карту",
+    "Она не умеет читать"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Сколько дыханий осталось у Миры в конце?",
+   "options": [
+    "Десять",
+    "Шесть",
+    "Ни одного",
+    "Два"
+   ],
+   "answer": 3
+  }
+ ]
+}

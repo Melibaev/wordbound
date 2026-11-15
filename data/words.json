@@ -4922,5 +4922,69 @@
   "forms": [],
   "ex": "Everyone does.",
   "exRu": "Все так делают."
+ },
+ {
+  "id": "almost",
+  "w": "almost",
+  "ru": "почти",
+  "pos": "adv",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "Almost. Ask me later.",
+  "exRu": "Почти. Спроси позже."
+ },
+ {
+  "id": "pencil",
+  "w": "pencil",
+  "ru": "карандаш",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "pencils"
+  ],
+  "ex": "Give me the yellow pencil.",
+  "exRu": "Дай мне жёлтый карандаш."
+ },
+ {
+  "id": "whole",
+  "w": "whole",
+  "ru": "целый; весь",
+  "pos": "adj",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "She sells the whole word.",
+  "exRu": "Она продаёт слово целиком."
+ },
+ {
+  "id": "market",
+  "w": "market",
+  "ru": "рынок",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "markets"
+  ],
+  "ex": "There is a market up there.",
+  "exRu": "Наверху есть рынок."
+ },
+ {
+  "id": "pip",
+  "w": "pip",
+  "ru": "Пип (имя)",
+  "pos": "name",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I am Pip.",
+  "exRu": "Я Пип."
+ },
+ {
+  "id": "lina",
+  "w": "lina",
+  "ru": "Лина (имя)",
+  "pos": "name",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Lina is her sister.",
+  "exRu": "Лина её сестра."
  }
 ]

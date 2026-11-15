@@ -445,5 +445,151 @@
    "avoid": "No readable text; the child-sized figure must be only an outline, not detailed; no Dan in frame.",
    "check": "Почти чёрный кадр: Мира в центре роняет рюкзак, рука открывается, шнурок на левом запястье слабо светится. Позади едва виден детский силуэт Безмолвного."
   }
+ ],
+ "s1e06": [
+  {
+   "camera": "Tense two-shot, eye level, side-on, camera in the middle of the last-door hall.",
+   "action": "Mira stands at the LEFT, body turned to the right, feet planted, not stepping forward; her canvas backpack lies on the floor by her boots. At the RIGHT stands the child-sized Silent (1.4 m), facing her, its right arm stretched out toward her, palm up. The high black door with iron bands rises behind the child.",
+   "faces": "Mira: frozen, lips parted, eyes fixed on the child, close to tears but hard. The child Silent: blank paper-white face, thin vertical teal mouth-seam slightly open.",
+   "props": "Frayed vermilion cord on Mira's left wrist, gripped by her right hand; a matching frayed fragment of vermilion cord on the child Silent's left wrist; backpack with rope coil on the floor.",
+   "light": "Cold ash-grey light from above, teal shadow pooling around the child's feet.",
+   "avoid": "No Dan in frame; the child Silent must have no eyes, no nose, no lips; the two must not touch; no text.",
+   "check": "Маленький Безмолвный с красным шнурком на левом запястье тянет руку к Мире. Мира стоит неподвижно, рюкзак на полу, рука сжимает свой шнурок."
+  },
+  {
+   "camera": "Low-angle shot from the floor beside the door, looking up along the door.",
+   "action": "Dan at the LEFT leans his whole body into the huge black wooden door, both palms flat on the wood, legs braced, sneakers slipping. The door has opened only a hand's width; a thin vertical line of pale light shows in the gap. The System window floats at the upper RIGHT.",
+   "faces": "Dan: teeth clenched, glasses slipping down his nose, desperate.",
+   "props": "Iron bands on the door; yellow pencil behind Dan's right ear; mustard lanyard swinging; the System window is blank cream paper with a vermilion double border, tilted 2-3 degrees.",
+   "light": "Ash-grey hall light, a thin pale glow from the door gap on Dan's hands.",
+   "avoid": "The door must not be open wider than a hand; nothing visible beyond the gap; nothing written in the System window.",
+   "check": "Дэн двумя ладонями толкает огромную чёрную дверь: щель шириной с ладонь. Окно Системы справа вверху, без текста."
+  },
+  {
+   "camera": "Wide shot from the door looking back down the length of the hall.",
+   "action": "In the foreground Dan (LEFT) has spun to face the hall, right arm thrown forward, mouth open in a shout, a burst of glowing vermilion light shapes streaming from his mouth. Mira (CENTRE) half-turned beside him. In the background three tall Silent walk in a line from the far entrance; the nearest one (RIGHT, closest) is frozen with one foot lifted off the floor.",
+   "faces": "Dan: shouting, frightened but determined. Mira: pale, alarmed.",
+   "props": "Vermilion glow shapes from Dan's mouth are abstract light, not readable letters; teal ink drips from the Silent's fingers.",
+   "light": "Ash-grey light, vermilion glow on Dan's face, teal shadows around the Silent.",
+   "avoid": "Exactly three tall Silent; they do not run; no readable lettering; no child Silent in this frame.",
+   "check": "Дэн развернулся и кричит, изо рта красное свечение. Ближний из трёх высоких Безмолвных застыл на полушаге."
+  },
+  {
+   "camera": "Dynamic diagonal shot, camera slightly high, tilted.",
+   "action": "Dan (LEFT) runs toward a narrow stone arch in the left wall, inside which stone steps climb into darkness; his right hand pulls Mira (CENTRE) by her left wrist. Mira runs but her head is turned back over her right shoulder. At the far RIGHT the child-sized Silent stands still beside the black door, one arm still half raised.",
+   "faces": "Dan: urgent. Mira: torn, looking back. Child Silent: blank.",
+   "props": "The arch and the first steps clearly visible; vermilion cords on both Mira's and the child's left wrists.",
+   "light": "Ash-grey light, darkness inside the arch with a faint warm ochre hint high up.",
+   "avoid": "The child Silent does not follow; tall Silent may be dim shapes far behind only.",
+   "check": "Дэн тянет Миру за запястье к боковой арке с лестницей. Маленький Безмолвный остался у чёрной двери."
+  },
+  {
+   "camera": "Vertical establishing shot, camera far away inside the shaft, looking slightly up.",
+   "action": "A vast round shaft. A narrow stone stair without any railing spirals up along the wall. The whole wall is covered with thousands of overlapping pale paper sheets like fish scales. Dan (left) and Mira (right) are two very small figures on the stair near the bottom of the frame, climbing.",
+   "faces": "Too small to read.",
+   "props": "Paper-scale wall; loose sheets drifting in the air.",
+   "light": "Cold teal darkness at the bottom, pale grey in the middle, a small warm ochre glow at the very top.",
+   "avoid": "No railing; no text on the paper sheets; no other figures.",
+   "check": "Огромная круглая шахта, узкая винтовая лестница без перил, стены из бумажных листов. Дэн и Мира крошечные внизу."
+  },
+  {
+   "camera": "Close two-shot, eye level, on the stair.",
+   "action": "Mira (RIGHT) presses her black-gloved left hand flat over Dan's mouth; Dan (LEFT) freezes with raised eyebrows. Behind them the paper wall shows concentric ripples like water. In the lower background, a few steps down, a small pale faceless shape is half peeled out of the paper wall. The System window floats between and above their heads.",
+   "faces": "Mira: fierce warning stare. Dan: startled, eyes sliding toward the wall.",
+   "props": "Vermilion cord on Mira's left wrist near Dan's face; rippling paper; blank System window.",
+   "light": "Pale grey light, a little teal around the peeling shape.",
+   "avoid": "The small shape has no eyes; no text on paper; nothing written in the System window.",
+   "check": "Рука Миры в перчатке зажимает Дэну рот. По бумажной стене идут круги, ниже от стены отделяется бледная фигурка."
+  },
+  {
+   "camera": "Top-down insert, camera directly above Dan's knee.",
+   "action": "A torn cream page lies on Dan's knee. Dan's right hand writes on it with a short yellow carpenter pencil. Mira's black-gloved index finger points at the page from the right edge.",
+   "faces": "No faces.",
+   "props": "Yellow carpenter pencil; torn page with a few abstract pencil strokes; edge of the stone step.",
+   "light": "Soft pale light from above.",
+   "avoid": "NO readable text, letters or numbers on the page; no faces.",
+   "check": "Крупно руки: Дэн пишет жёлтым карандашом на обрывке страницы. Читаемого текста нет."
+  },
+  {
+   "camera": "Medium shot, eye level, slightly from the right.",
+   "action": "Dan sits on a step at the LEFT, the page on his knee, drawing a small neat spiral plan with the yellow pencil, the tip of his tongue between his teeth. The System window floats at the RIGHT, very close to his face, right in front of his nose. To Dan's left there is no wall, only the open shaft.",
+   "faces": "Dan: concentrated, with an annoyed side-glance at the window.",
+   "props": "Page with a tiny spiral drawing (lines only); blank System window; open drop at the left edge.",
+   "light": "Pale grey light, warm ochre hint from above.",
+   "avoid": "No text on the page or in the window; Mira is not needed in frame.",
+   "check": "Дэн сидит на ступеньке и рисует план лестницы. Окно Системы висит прямо перед его носом."
+  },
+  {
+   "camera": "High-angle shot, camera looking straight down the spiral stair.",
+   "action": "Several turns below, in the CENTRE of the frame, a small pale faceless paper figure crawls up the steps on all fours; loose paper sheets trail from its back like a torn cape.",
+   "faces": "Blank paper head with one thin vertical teal mouth-seam.",
+   "props": "Spiral of steps receding downward; drifting sheets.",
+   "light": "Teal darkness below the figure, grey light on the upper steps.",
+   "avoid": "Dan and Mira are NOT in frame; the figure has no eyes or nose; it is small, not a tall Silent.",
+   "check": "Вид сверху: по лестнице на четвереньках ползёт маленькое бумажное существо с бирюзовым швом. Героев в кадре нет."
+  },
+  {
+   "camera": "Medium wide shot, eye level, looking up the stair.",
+   "action": "On a broad step at the RIGHT sits Pip under a small paper umbrella, legs dangling, one open palm held up toward the others. Two steps below, Dan (LEFT) points at him with a straight arm; Mira (CENTRE) stands behind Dan, wary, one hand on her backpack strap. The paper wall around Pip is perfectly flat and still, while lower down it still ripples.",
+   "faces": "Pip: cheeky gap-toothed grin, one eyebrow up. Dan: disbelief. Mira: suspicious, tired.",
+   "props": "Pip's too-big grey flat cap, oversized patched brown coat, small brass bell without a clapper on a string; paper umbrella.",
+   "light": "Warm ochre light on Pip from above, grey on the others.",
+   "avoid": "No text on the umbrella; Pip must not hold a sign with letters.",
+   "check": "Пип в большой серой кепке сидит на ступеньке под бумажным зонтиком и улыбается. Дэн и Мира двумя ступенями ниже."
+  },
+  {
+   "camera": "Close two-shot, eye level.",
+   "action": "Pip (RIGHT) leans in and stretches his index finger toward the yellow pencil behind Dan's right ear. Dan (LEFT) leans back and covers the pencil with his right hand.",
+   "faces": "Pip: greedy, delighted. Dan: surprised at his own reaction.",
+   "props": "Yellow carpenter pencil behind Dan's right ear under his hand; Pip's brass bell.",
+   "light": "Warm ochre light from above.",
+   "avoid": "Pip must not touch the pencil; Dan keeps his glasses on.",
+   "check": "Пип тянется пальцем к жёлтому карандашу за ухом Дэна. Дэн отклонился и прикрыл карандаш рукой."
+  },
+  {
+   "camera": "Over-the-shoulder shot from behind Dan's left shoulder, looking down.",
+   "action": "Dan (LEFT foreground, back to camera) points down with his right arm at the stone wall under the stairs, where the thin rectangular outline of a low hidden door glows vermilion. Pip (RIGHT) lies on his stomach on the step, hanging his head and arms over the edge to stare at it, his cap slipping off. The System window floats just above the glowing outline.",
+   "faces": "Pip: mouth open, amazed.",
+   "props": "Glowing vermilion door outline in the stone; falling flat cap; blank System window.",
+   "light": "Vermilion glow from the outline on Pip's face, grey elsewhere.",
+   "avoid": "The door is only an outline, not open; no text.",
+   "check": "Дэн показывает вниз: в стене под лестницей светится красный контур низкой дверцы. Пип свесился со ступеньки."
+  },
+  {
+   "camera": "Medium shot, eye level, looking up the stair.",
+   "action": "Pip (RIGHT, highest) walks backwards up the steps, right hand raised like a conductor. Dan (LEFT) climbs, face turned to Pip, listening. Mira (CENTRE) climbs between them, frowning, her left hand cupped at her ear.",
+   "faces": "Pip: gossiping, pleased with himself. Dan: curious. Mira: puzzled, irritated.",
+   "props": "A faint round shimmer of still air around the three; vermilion cord on Mira's left wrist at her ear.",
+   "light": "Warm ochre from above.",
+   "avoid": "No speech marks or letters in the air.",
+   "check": "Пип идёт спиной вперёд с поднятой рукой. Мира хмурится и держит руку у уха."
+  },
+  {
+   "camera": "Close-up on Dan's face, eye level.",
+   "action": "Dan's face fills the frame, slightly left of centre. Pip is in soft focus at the RIGHT edge, pointing his thumb downward.",
+   "faces": "Dan: eyes wide, lips parted, the moment of understanding.",
+   "props": "Round black glasses with tape on the hinge; in the lenses a faint reflection of a vermilion cord.",
+   "light": "Pale light on the face, darker behind.",
+   "avoid": "No tape across the lenses, only on the hinge; Mira not in frame.",
+   "check": "Крупно лицо Дэна с широко открытыми глазами за очками. Пип рядом не в фокусе, показывает большим пальцем вниз."
+  },
+  {
+   "camera": "Medium shot, eye level, side-on.",
+   "action": "Mira (RIGHT) has dropped to her left knee on a step, right hand on the wall, a thin vermilion thread drifting from her lips. Dan (LEFT) reaches toward her with both hands. The System window floats between them in warning style.",
+   "faces": "Mira: grey face, cracked lips, stubborn. Dan: alarmed.",
+   "props": "System window with solid vermilion border and vermilion fill (warning), blank; vermilion thread of breath.",
+   "light": "Pale grey light, vermilion tint from the window.",
+   "avoid": "Nothing written in the window; Mira is not unconscious yet.",
+   "check": "Мира упала на одно колено, лицо серое, от губ тянется красная нить. Окно Системы с красной рамкой и в инверсии."
+  },
+  {
+   "camera": "Dark closing shot, low angle from a few steps below.",
+   "action": "Dan (LEFT, kneeling) holds Mira (CENTRE) who lies limp across his arms, eyes closed, her head on his shoulder. Dan looks up. Pip (RIGHT) stands on a higher step, hands in his coat pockets, looking down at them.",
+   "faces": "Dan: desperate. Mira: unconscious, grey. Pip: calm, matter-of-fact.",
+   "props": "Thin vermilion thread at Mira's lips; her cord bracelet; Pip's bell.",
+   "light": "Almost black frame, a small warm ochre glow far above behind Pip, faint rim light on the faces.",
+   "avoid": "No Silent in frame; Pip is not smiling.",
+   "check": "Мира без сознания на руках у Дэна. Пип стоит выше, руки в карманах, смотрит спокойно."
+  }
  ]
 }
