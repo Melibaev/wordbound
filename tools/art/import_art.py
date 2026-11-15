@@ -4,6 +4,11 @@
     python tools/art/import_art.py <folder> <episodeId> [--start NN] [--dry-run] [--order auto|mtime|number|name]
     python tools/art/import_art.py - s1e01 --video 17 clip.mp4        # video only
     python tools/art/import_art.py <folder> --refs dan                # one image -> art/refs/dan.jpg
+    python tools/art/import_art.py collection.zip s1e01 --dry-run    # a Flow collection download (zip)
+
+<folder> may also be a .zip (e.g. a Flow collection download): it is unpacked to a temp folder and its files
+are taken in archive order (--order zip, the default for zips) unless you pass another --order.
+Subfolders are scanned too.
 
 Ordering of the files in <folder> (png/jpg/jpeg/webp):
   auto   (default) numeric order if EVERY file name has exactly one short number (1-3 digits, e.g. "panel 7.png"),
@@ -17,6 +22,8 @@ import os
 import re
 import shutil
 import sys
+import tempfile
+import zipfile
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import common as C  # noqa: E402
@@ -29,7 +36,32 @@ def short_number(name):
     return int(nums[0]) if len(nums) == 1 and len(nums[0]) <= 3 else None
 
 
+def list_images(folder):
+    out = []
+    for root, _, names in os.walk(folder):
+        out += [os.path.join(root, n) for n in names if n.lower().endswith(EXT)]
+    return out
+
+
+def unpack_zip(path):
+    """Extract images from a zip into a temp dir; returns (files in archive order, tempdir)."""
+    tmp = tempfile.mkdtemp(prefix="wordbound-zip-")
+    files = []
+    with zipfile.ZipFile(path) as z:
+        for i, info in enumerate(z.infolist()):
+            if info.is_dir() or not info.filename.lower().endswith(EXT):
+                continue
+            base = os.path.basename(info.filename)
+            dst = os.path.join(tmp, "%03d__%s" % (i, base))
+            with z.open(info) as src, open(dst, "wb") as out:
+                shutil.copyfileobj(src, out)
+            files.append(dst)
+    return files, tmp
+
+
 def order_files(files, mode):
+    if mode == "zip":
+        return list(files), mode
     if mode == "auto":
         mode = "number" if files and all(short_number(os.path.basename(f)) is not None for f in files) else "mtime"
     if mode == "number":
@@ -45,7 +77,7 @@ def main():
     ap.add_argument("episode", nargs="?", help="episode id, e.g. s1e01")
     ap.add_argument("--start", type=int, default=1, help="panel number for the first file (default 1)")
     ap.add_argument("--dry-run", action="store_true")
-    ap.add_argument("--order", choices=["auto", "mtime", "number", "name"], default="auto")
+    ap.add_argument("--order", choices=["auto", "mtime", "number", "name", "zip"], default="auto")
     ap.add_argument("--video", nargs=2, action="append", metavar=("NN", "FILE.mp4"), default=[],
                     help="copy a video to art/<ep>/NN.mp4 (repeatable)")
     ap.add_argument("--refs", metavar="CHAR_ID", help="import the single image in <folder> as art/refs/<id>.jpg")
@@ -72,10 +104,19 @@ def main():
     done = False
 
     if a.folder != "-":
-        if not os.path.isdir(a.folder):
-            C.die("folder not found: " + a.folder)
-        files = [os.path.join(a.folder, f) for f in os.listdir(a.folder) if f.lower().endswith(EXT)]
-        files, mode = order_files(files, a.order)
+        if a.folder.lower().endswith(".zip") and os.path.isfile(a.folder):
+            files, _tmp = unpack_zip(a.folder)
+            order = "zip" if a.order == "auto" else a.order
+            if order in ("number", "name"):
+                strip = {f: os.path.join(os.path.dirname(f), os.path.basename(f).split("__", 1)[1]) for f in files}
+                files = sorted(files, key=lambda f: (short_number(os.path.basename(strip[f])) or 0, os.path.basename(strip[f]).lower()))
+                mode = order
+            else:
+                files, mode = order_files(files, order)
+        elif os.path.isdir(a.folder):
+            files, mode = order_files(list_images(a.folder), a.order)
+        else:
+            C.die("folder or .zip not found: " + a.folder)
         print("%d image(s), order: %s, panels %d..%d of %d" % (len(files), mode, a.start, a.start + len(files) - 1, npanels))
         for k, src in enumerate(files):
             n = a.start + k
@@ -83,8 +124,9 @@ def main():
                 print("  SKIP %s: panel %d does not exist (episode has %d panels)" % (os.path.basename(src), n, npanels))
                 continue
             dst = "art/%s/%02d.jpg" % (eid, n)
+            shown = os.path.basename(src).split("__", 1)[-1]
             if a.dry_run:
-                print("  %s -> %s  [dry-run]" % (os.path.basename(src), dst))
+                print("  %s -> %s  [dry-run]" % (shown, dst))
                 continue
             p, size, q, wh = C.save_panel_jpeg(src, eid, n)
             warn = ""
@@ -92,7 +134,7 @@ def main():
                 warn += "  WARN: aspect %.2f, not 3:4 (it will be cropped by the reader)" % (wh[0] / wh[1])
             if size > 250 * 1024:
                 warn += "  WARN: still > 250 KB"
-            print("  %s -> %s  %dx%d, %d KB, q=%d%s" % (os.path.basename(src), dst, wh[0], wh[1], size // 1024, q, warn))
+            print("  %s -> %s  %dx%d, %d KB, q=%d%s" % (shown, dst, wh[0], wh[1], size // 1024, q, warn))
             done = True
 
     for nn, vf in a.video:
