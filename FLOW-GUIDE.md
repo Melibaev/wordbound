@@ -74,7 +74,12 @@
    | Mira | Kore (Despina) | `Loud is dead here. Walk slow. You want help? Not my problem. Not today.` | `Young woman, dry and deadpan, sarcastic. Short clipped sentences, low and controlled, never shouts. A hint of hidden sadness.` |
    | Keeper | Umbriel (Gacrux) | `Welcome, Zero. And welcome back, Mira. Every word has a price.` | `Calm, slow, velvety man. Polite, almost kind, but unsettling. A soft smile in the voice, long deliberate pauses.` |
    | Silent | Enceladus (Achernar) | `I am Dan... Mira? It is cold.` | `Hollow breathy whisper, flat and emotionless, like an echo in a stone hall. Slightly too slow, unnatural pauses.` |
-7. Справа сверху **Done**.
+7. «Информация о персонаже» (необязательно, но полезно для видео — Flow лучше понимает характер и мимику):
+   - **Dan:** `Dan Vey, 24, a tired design engineer who fell into the Tower, a place where words are power. He starts with zero words and loses his own name. Kind, quiet, stubborn; solves problems like an engineer. Glasses taped at the hinge, yellow pencil behind his ear.`
+   - **Mira:** `Mira, 23, a Tower climber with many words. Dry, sarcastic, speaks in short sentences, never smiles at her own jokes. Helps Dan reluctantly. Hides grief about her lost sister. Always wears a frayed red cord on her left wrist.`
+   - **Keeper:** `The Keeper of the Hall of Words. Calm, polite, patient, quietly dangerous. Trades words for words. His eyes are always hidden by a deep black hood; only his small smile is visible. Carries a brass quill.`
+   - **Silent:** `The Silent: tall faceless creatures that steal words and names from tired people. They never show emotion, move slowly and listen for sound. They speak only with stolen voices. Smooth white face, a thin teal seam for a mouth.`
+8. Справа сверху **Done**.
 
 ---
 
