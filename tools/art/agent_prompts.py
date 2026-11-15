@@ -65,11 +65,11 @@ def video_md(eid, panels, checks):
     ck = checks.get(eid, [])
     L = ["## Видео (после того как все картинки готовы)\n",
          "Отправляй в **тот же чат агента**, где делал картинки этого эпизода. Перед каждым видео Flow покажет окно "
-         "подтверждения со стоимостью в кредитах — сначала посмотри цену. Блоки идут по важности; "
-         "⭐ — делай в первую очередь.\n"]
-    for rank, i in enumerate(video_order(panels)):
+         "подтверждения со стоимостью в кредитах. Максимум 3 видео на эпизод, по важности: "
+         "⭐ — обязательно, остальные — если хватает кредитов.\n"]
+    for rank, i in enumerate(video_order(panels)[:3]):
         n = i + 1
-        star = " ⭐ в первую очередь" if rank < 3 else ""
+        star = " ⭐ главное" if rank == 0 else ""
         msg = ('Animate the final image of panel %02d from the collection "%s" into a short video. %s '
                'Vertical 9:16, no dialogue, no text, no subtitles. Name it "%s panel %02d video".'
                % (n, eid, C.build_video_prompt(panels[i]), eid, n))
@@ -86,14 +86,15 @@ Rules for every panel image:
 1. Korean webtoon style, full colour, clean digital linework, soft cel shading, cinematic framing, expressive faces.
 2. Palette: warm paper cream, ink black, ash grey, ochre lamp light. Cold teal ONLY for the Silent. Vermilion red ONLY for word power and the System window. No purple, no violet, no blue neon.
 3. Vertical 3:4 image. Exactly ONE image per panel, in the given order. Do not merge panels.
-4. Absolutely no text, letters, captions, speech bubbles, sound effects or watermarks. Keep the upper third of the frame calm and fairly empty for speech bubbles added later.
+4. Absolutely no text, letters, captions, speech bubbles, white cloud or balloon shapes, sound effects or watermarks. Keep the upper third of the frame calm and fairly empty for speech bubbles added later.
    LANGUAGE: "Korean webtoon" describes only the drawing style. The story is set in an English-speaking world: any writing that appears (a sign, a label, a phone screen, a book) must be in ENGLISH only. Never use Korean (Hangul), Japanese or Chinese characters anywhere in the image. Always reply to me in English.
 5. Recurring characters (Dan, Mira, Keeper, Silent) must always match their character references exactly, whether they are tagged with @ or just named.
 6. "The System window" = a floating blank cream-paper panel with a thin double vermilion border, slightly tilted, no text inside.
-7. Do not ask me questions, do not suggest variations, just generate. Put each finished panel into the collection named in the request, in panel order.
+7. Do not ask me questions, do not suggest variations, just generate. Name every image exactly "<episode> p<NN>" (for example "s1e01 p07") and put it into the collection named in the request, in panel order.
+   SELF-CHECK before showing results: no text or letters in any language, no bubbles, the Silent have no nose and no lips, Dan has no bandage or plaster on his face. Silently regenerate any image that breaks these rules.
 8. The Keeper (@Keeper): long ink-black robe with a deep hood, ochre embroidery, brass quill; his eyes are NEVER visible, only the pale lower face and a calm small smile.
 9. The Silent (@Silent): very tall and thin, smooth paper-white face with NO eyes and NO nose, one thin vertical teal seam for a mouth, long thin fingers, tattered grey-teal clothes, edges dissolving into teal shadow. Several Silent in one panel share this design."""),
-    ("Dan", "Dan", """Dan is the main hero. Whenever a panel mentions Dan or @Dan, draw exactly this character from the reference: same face, short messy black hair, round black glasses with white tape on the hinge, light stubble, yellow pencil behind his right ear, rumpled pale-grey shirt, mustard-yellow lanyard, dark-olive chinos, white sneakers. Tired but kind expression unless the panel says otherwise. Only one Dan per image."""),
+    ("Dan", "Dan", """Dan is the main hero. Whenever a panel mentions Dan or @Dan, draw exactly this character from the reference: same face, short messy black hair, round black glasses with a tiny piece of white tape on the hinge (NEVER a bandage or plaster on his face), light stubble, yellow pencil behind his right ear, rumpled pale-grey shirt, mustard-yellow lanyard, dark-olive chinos, white sneakers. Tired but kind expression unless the panel says otherwise. Only one Dan per image."""),
     ("Mira", "Mira", """Whenever a panel mentions Mira or @Mira, draw exactly this character from the reference: amber-gold eyes, scar through her left eyebrow, dark-brown short ponytail, olive-khaki climbing jacket, long cream scarf, black fingerless gloves, black cargo trousers, rust-brown boots, backpack with rope, and ALWAYS a frayed vermilion-red cord on her left wrist. Default expression: dry, unimpressed. Only one Mira per image."""),
 ]
 
@@ -112,6 +113,7 @@ def panel_block(eid, n, panel, chars, bible, prev_loc):
     if loc:
         lines.append("Setting: same as the previous panel." if loc == prev_loc else "Setting: %s." % loc)
     shot = LETTERING.sub("", b["scene"].strip())
+    shot = re.sub(r"\btaped glasses\b", "round black glasses", shot)
     shot = re.sub(r"\b(lettering|letters)\b(?: of [A-Z]+)?", "glyph-shaped light (abstract, not readable)", shot)
     lines.append("Shot: %s" % shot)
     return "\n".join(lines), tags, loc
@@ -135,8 +137,9 @@ def episode_md(eid, ep, chars, bible, size):
             blocks.append(blk)
             all_tags += [t for t in tags.split() if t and t not in all_tags]
         msg = ("Generate %d separate images: WORDBOUND %s, panels %02d-%02d, one image per panel, in this order. "
-               "Follow the project instructions. All text in the images must be in English only, never Korean. Add them to the collection \"%s\" in panel order.\n\n" %
-               (len(chunk), eid, first, last, eid)) + "\n\n".join(blocks)
+               "Follow the project instructions. No text, no bubbles; any unavoidable writing in English only, never Korean. "
+               "Name each image \"%s pNN\" and add them to the collection \"%s\" in panel order.\n\n" %
+               (len(chunk), eid, first, last, eid, eid)) + "\n\n".join(blocks)
         L.append("## Сообщение %d — панели %02d–%02d\n" % (start // size + 1, first, last))
         L.append("Персонажи в этом сообщении: %s\n" % (", ".join("`%s`" % t for t in all_tags) or "нет"))
         L.append("```text\n%s\n```\n" % msg)
@@ -159,7 +162,7 @@ def write(name, text):
 
 def main():
     args = sys.argv[1:]
-    size = 4
+    size = 6
     if "--batch" in args:
         i = args.index("--batch")
         size = max(1, int(args[i + 1]))

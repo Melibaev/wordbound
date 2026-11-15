@@ -36,6 +36,16 @@ def short_number(name):
     return int(nums[0]) if len(nums) == 1 and len(nums[0]) <= 3 else None
 
 
+PANEL_RE = re.compile(r"(?<![a-z0-9])p(\d{1,3})(?!\d)", re.I)
+
+
+def panel_from_name(path):
+    """'s1e01 p07.png' / 's1e01_p07 (1).png' -> 7 (zip temp prefix 'NNN__' is ignored)."""
+    name = os.path.splitext(os.path.basename(path).split("__", 1)[-1])[0].replace("_", " ")
+    m = PANEL_RE.findall(name)
+    return int(m[-1]) if len(m) == 1 else None
+
+
 def list_images(folder):
     out = []
     for root, _, names in os.walk(folder):
@@ -117,9 +127,17 @@ def main():
             files, mode = order_files(list_images(a.folder), a.order)
         else:
             C.die("folder or .zip not found: " + a.folder)
-        print("%d image(s), order: %s, panels %d..%d of %d" % (len(files), mode, a.start, a.start + len(files) - 1, npanels))
-        for k, src in enumerate(files):
-            n = a.start + k
+        named = [panel_from_name(f) for f in files]
+        if files and all(named) and len(set(named)) == len(named):
+            pairs = sorted(zip(named, files))
+            print("%d image(s), panel numbers taken from file names (pNN): %s" % (len(files), ", ".join("%02d" % n for n, _ in pairs)))
+        else:
+            pairs = [(a.start + k, f) for k, f in enumerate(files)]
+            print("%d image(s), order: %s, panels %d..%d of %d" % (len(files), mode, a.start, a.start + len(files) - 1, npanels))
+        missing = sorted(set(range(1, npanels + 1)) - {n for n, _ in pairs})
+        if missing:
+            print("  missing panels: " + ", ".join("%02d" % n for n in missing))
+        for n, src in pairs:
             if n > npanels:
                 print("  SKIP %s: panel %d does not exist (episode has %d panels)" % (os.path.basename(src), n, npanels))
                 continue
