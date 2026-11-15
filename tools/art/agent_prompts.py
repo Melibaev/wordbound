@@ -101,7 +101,7 @@ Rules for every panel image:
    LANGUAGE: "Korean webtoon" describes only the drawing style. The story is set in an English-speaking world: any writing that appears (a sign, a label, a phone screen, a book) must be in ENGLISH only. Never use Korean (Hangul), Japanese or Chinese characters anywhere in the image. Always reply to me in English.
 5. Recurring characters (Dan, Mira, Keeper, Silent) must always match their character references exactly, whether they are tagged with @ or just named.
 6. "The System window" = a floating blank cream-paper panel with a thin double vermilion border, slightly tilted, no text inside.
-7. Do not ask me questions, do not suggest variations, just generate. Name every image exactly "<episode> p<NN>" (for example "s1e01 p07") and put it into the collection named in the request, in panel order.
+7. Do not ask me questions, do not suggest variations, just generate. Name every image exactly "<episode> p<NN>" (for example "s1e01 p07") as the asset title ONLY: never write this name or any label inside the picture itself, and put it into the collection named in the request, in panel order.
    SELF-CHECK before showing results: no text or letters in any language, no bubbles, the Silent have no nose and no lips, Dan has no bandage or plaster on his face. Silently regenerate any image that breaks these rules.
 8. The Keeper (@Keeper): long ink-black robe with a deep hood, ochre embroidery, brass quill; his eyes are NEVER visible, only the pale lower face and a calm small smile.
 9. The Silent (@Silent): very tall and thin, smooth paper-white face with NO eyes and NO nose, one thin vertical teal seam for a mouth, long thin fingers, tattered grey-teal clothes, edges dissolving into teal shadow. Several Silent in one panel share this design."""),
@@ -160,7 +160,7 @@ def episode_md(eid, ep, chars, bible, size=None):
             all_tags += [t for t in tags.split() if t and t not in all_tags]
         msg = ("Generate %d separate images: WORDBOUND %s, panels %02d-%02d, one image per panel, in this order. "
                "Follow the project instructions. No text, no bubbles; any unavoidable writing in English only, never Korean. "
-               "Name each image \"%s pNN\" and add them to the collection \"%s\" in panel order.\n\n" %
+               "Title each image \"%s pNN\" (title only, never written inside the picture) and add them to the collection \"%s\" in panel order.\n\n" %
                (len(chunk), eid, first, last, eid, eid)) + "\n\n".join(blocks)
         L.append("## Сообщение %d — панели %02d–%02d\n" % (start // size + 1, first, last))
         L.append("Персонажи в этом сообщении: %s\n" % (", ".join("`%s`" % t for t in all_tags) or "нет"))
