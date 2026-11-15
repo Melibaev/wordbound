@@ -19,15 +19,21 @@ import common as C  # noqa: E402
 
 OUT = os.path.join(C.PROMPTS_DIR, "agent")
 
-INSTRUCTIONS = """You are the illustrator of WORDBOUND, an original colour webtoon. Every request is a list of numbered panels.
+INSTRUCTIONS = [
+    ("WORDBOUND style", None, """You are the illustrator of WORDBOUND, an original colour webtoon. Every request is a list of numbered panels.
 Rules for every panel image:
 1. Korean webtoon style, full colour, clean digital linework, soft cel shading, cinematic framing, expressive faces.
 2. Palette: warm paper cream, ink black, ash grey, ochre lamp light. Cold teal ONLY for the Silent. Vermilion red ONLY for word power and the System window. No purple, no violet, no blue neon.
 3. Vertical 3:4 image. Exactly ONE image per panel, in the given order. Do not merge panels.
 4. Absolutely no text, letters, captions, speech bubbles, sound effects or watermarks. Keep the upper third of the frame calm and fairly empty for speech bubbles added later.
-5. Characters tagged with @ must match their character sheets exactly (face, hair, outfit, accessories). Dan always has round glasses and a yellow pencil behind his ear; Mira always has a red cord on her left wrist; the Keeper's eyes are never visible; the Silent have no eyes and no nose.
+5. Recurring characters (Dan, Mira, Keeper, Silent) must always match their character references exactly, whether they are tagged with @ or just named.
 6. "The System window" = a floating blank cream-paper panel with a thin double vermilion border, slightly tilted, no text inside.
-7. Do not ask me questions, do not suggest variations, just generate. Put each finished panel into the collection named in the request, in panel order."""
+7. Do not ask me questions, do not suggest variations, just generate. Put each finished panel into the collection named in the request, in panel order."""),
+    ("Dan", "Dan", """Dan is the main hero. Whenever a panel mentions Dan or @Dan, draw exactly this character from the reference: same face, short messy black hair, round black glasses with white tape on the hinge, light stubble, yellow pencil behind his right ear, rumpled pale-grey shirt, mustard-yellow lanyard, dark-olive chinos, white sneakers. Tired but kind expression unless the panel says otherwise. Only one Dan per image."""),
+    ("Mira", "Mira", """Whenever a panel mentions Mira or @Mira, draw exactly this character from the reference: amber-gold eyes, scar through her left eyebrow, dark-brown short ponytail, olive-khaki climbing jacket, long cream scarf, black fingerless gloves, black cargo trousers, rust-brown boots, backpack with rope, and ALWAYS a frayed vermilion-red cord on her left wrist. Default expression: dry, unimpressed. Only one Mira per image."""),
+    ("Keeper", "Keeper", """Whenever a panel mentions the Keeper or @Keeper, draw exactly this character from the reference: long ink-black robe with a deep hood, ochre embroidery, brass quill. His eyes are NEVER visible: only the pale lower face and a calm small smile."""),
+    ("Silent", "Silent", """Whenever a panel mentions the Silent or @Silent, draw exactly this creature design from the reference: very tall and thin, smooth paper-white face with NO eyes, NO nose, only one thin vertical teal seam for a mouth, long thin fingers, tattered grey-teal clothes, edges dissolving into teal shadow. A panel may contain several Silent: all share this design (a child-sized one has a red cord fragment on its wrist)."""),
+]
 
 
 LETTERING = re.compile(r"\s*\([^)]*\b(lettering|text|letters?)\b[^)]*\)", re.I)
@@ -92,7 +98,16 @@ def main():
     story = C.load_story()
     bible = C.parse_bible()
     chars = {c["id"]: c for c in story.get("characters", []) if c.get("id")}
-    write("instructions.md", "# Инструкция для агента Flow\n\nВставь текст ниже целиком в «Инструкции для агента» → «Добавить инструкцию».\n\n```text\n%s\n```\n" % INSTRUCTIONS)
+    L = ["# Инструкции для агента Flow\n",
+         "Создай %d инструкций: «Инструкции для агента» → **Добавить инструкцию** для каждой. "
+         "В каждой: переключатель включён, **Название инструкции**, **Референс** (если указан), "
+         "текст — в поле «Создайте руководство для агента». В конце **Готово**.\n" % len(INSTRUCTIONS)]
+    for i, (name, ref, text) in enumerate(INSTRUCTIONS, 1):
+        L.append("## Инструкция %d — %s\n" % (i, name))
+        L.append("- Название: `%s`" % name)
+        L.append("- Референс: %s" % (("**+ Референс** → персонаж **%s** → **Добавить в инструкцию**" % ref) if ref else "не нужен"))
+        L.append("- Текст:\n\n```text\n%s\n```\n" % text)
+    write("instructions.md", "\n".join(L))
     for eid in (args or C.episode_ids(story)):
         write(eid + ".md", episode_md(eid, C.load_episode(eid), chars, bible, size))
 
