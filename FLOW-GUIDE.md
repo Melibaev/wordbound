@@ -66,7 +66,14 @@
    - Нет текста, надписей, подписей на картинке.
 5. **Имя персонажа — строго латиницей, ровно так:** `Dan`, `Mira`, `Keeper`, `Silent`.
    Это важно: в промптах панелей стоят метки `@Dan`, `@Mira` и т. д.
-6. Голос (**Select a voice**) можно пропустить — для картинок он не нужен. (Для видео с озвучкой пригодится позже.)
+6. Голос (**Select a voice** / «Выбрать голос»): нужен только для видео с речью. Настройки:
+
+   | Персонаж | Голос (запасной) | Пример диалога | Настроить производительность |
+   |---|---|---|---|
+   | Dan | Zubenelgenubi (Schedar) | `Nine calls. All Mom. I am sorry, Mom... Wait. What is that door?` | `Tired 24-year-old man at 2 AM. Quiet, slightly hoarse, warm and honest. Short sentences with small pauses. Breathless and urgent when scared.` |
+   | Mira | Kore (Despina) | `Loud is dead here. Walk slow. You want help? Not my problem. Not today.` | `Young woman, dry and deadpan, sarcastic. Short clipped sentences, low and controlled, never shouts. A hint of hidden sadness.` |
+   | Keeper | Umbriel (Gacrux) | `Welcome, Zero. And welcome back, Mira. Every word has a price.` | `Calm, slow, velvety man. Polite, almost kind, but unsettling. A soft smile in the voice, long deliberate pauses.` |
+   | Silent | Enceladus (Achernar) | `I am Dan... Mira? It is cold.` | `Hollow breathy whisper, flat and emotionless, like an echo in a stone hall. Slightly too slow, unnatural pauses.` |
 7. Справа сверху **Done**.
 
 ---
