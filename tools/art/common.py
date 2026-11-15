@@ -23,7 +23,7 @@ for _s in (sys.stdout, sys.stderr):
 # ---------------------------------------------------------------- prompt text
 STYLE_PREAMBLE = ("Korean webtoon, full colour, clean confident lineart, cel shading with soft gradients "
                   "in lighting, cinematic lighting, expressive faces")
-SUFFIX = ("vertical 4:5 portrait composition, no text, no letters, no speech bubbles, no captions, "
+SUFFIX = ("vertical 3:4 portrait composition, no text, no letters, no speech bubbles, no captions, "
           "no watermark, leave clean empty space in the upper third for speech bubbles")
 SHEET_SUFFIX = ("character reference sheet, turnaround of the same character: front view, side view and "
                 "three-quarter view, full body, neutral plain light-grey background, even flat lighting, "

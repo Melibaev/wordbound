@@ -52,7 +52,7 @@ def characters_md(story, bible):
 def episode_md(eid, ep, chars, bible):
     panels = ep.get("panels", [])
     L = ["# %s: %s (%s)\n" % (eid, ep.get("title", ""), ep.get("titleRu", "")),
-         "Панелей: %d. Формат кадров: вертикальный 4:5. Для каждой панели: прикрепи указанные референсы персонажей, "
+         "Панелей: %d. Формат кадров: вертикальный 3:4. Для каждой панели: прикрепи указанные референсы персонажей, "
          "вставь промпт, скачай результат. Потом: `python tools/art/import_art.py <папка> %s`.\n" % (len(panels), eid),
          "Файлы `.mp4` (видео) нужны только для нескольких ключевых панелей (блоки «Видео» ниже).\n"]
     for i, p in enumerate(panels):
@@ -61,7 +61,9 @@ def episode_md(eid, ep, chars, bible):
         refs = ", ".join("`art/refs/%s.jpg`" % r for r in b["refs"]) or "нет (персонажей в кадре нет)"
         L.append("## Панель %02d  (bg: %s, mood: %s)\n" % (n, p.get("bg"), p.get("mood")))
         L.append("- Файл: `art/%s/%02d.jpg`" % (eid, n))
-        L.append("- Прикрепить референсы: %s" % refs)
+        flow = " ".join("@" + chars.get(r, {}).get("name", r) for r in b["refs"])
+        L.append("- Во Flow в начало промпта: %s" % (("`" + flow + "`") if flow else "персонажей в кадре нет"))
+        L.append("- (для API: референсы %s)" % refs)
         if not p.get("art"):
             L.append("- Сцена собрана из bg/mood/cast (поле `art` у панели не задано).")
         L.append("\n```text\n%s\n```\n" % b["prompt"])

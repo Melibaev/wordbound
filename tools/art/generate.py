@@ -12,9 +12,9 @@ Request format (verified 2026-11-15):
   REST reference: https://ai.google.dev/api/generate-content  (-> aistudio.google.com/api-reference/generate-content)
     POST https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent
     header x-goog-api-key; body {"contents":[{"role":"user","parts":[{"inlineData":{"mimeType","data"(base64)}},{"text":...}]}],
-    "generationConfig":{"responseModalities":["IMAGE"],"imageConfig":{"aspectRatio":"4:5","imageSize":"1K"}}}
+    "generationConfig":{"responseModalities":["IMAGE"],"imageConfig":{"aspectRatio":"3:4","imageSize":"1K"}}}
     result: candidates[].content.parts[].inlineData.data (base64)
-  Image guide (aspect ratios incl. 4:5, model ids, <=14 reference images): https://ai.google.dev/gemini-api/docs/image-generation
+  Image guide (aspect ratios incl. 3:4, model ids, <=14 reference images): https://ai.google.dev/gemini-api/docs/image-generation
   Pricing: https://ai.google.dev/gemini-api/docs/pricing
 NOTE: Google now recommends the newer Interactions API for new projects; generateContent is documented as
 "legacy but supported". Video generation is intentionally NOT implemented (too expensive for the credit).
@@ -46,7 +46,7 @@ def build_body(prompt, ref_paths, ref_names):
                 "outfit and colours identical to their reference. " % ", ".join(ref_names)) + prompt
     parts.append({"text": text})
     return {"contents": [{"role": "user", "parts": parts}],
-            "generationConfig": {"responseModalities": ["IMAGE"], "imageConfig": {"aspectRatio": "4:5", "imageSize": "1K"}}}
+            "generationConfig": {"responseModalities": ["IMAGE"], "imageConfig": {"aspectRatio": "3:4", "imageSize": "1K"}}}
 
 
 def api_error_text(code, raw):

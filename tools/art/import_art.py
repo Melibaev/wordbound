@@ -88,8 +88,8 @@ def main():
                 continue
             p, size, q, wh = C.save_panel_jpeg(src, eid, n)
             warn = ""
-            if abs(wh[0] / wh[1] - 0.8) > 0.03:
-                warn += "  WARN: aspect %.2f, not 4:5 (it will be cropped by the reader)" % (wh[0] / wh[1])
+            if abs(wh[0] / wh[1] - 0.75) > 0.03:
+                warn += "  WARN: aspect %.2f, not 3:4 (it will be cropped by the reader)" % (wh[0] / wh[1])
             if size > 250 * 1024:
                 warn += "  WARN: still > 250 KB"
             print("  %s -> %s  %dx%d, %d KB, q=%d%s" % (os.path.basename(src), dst, wh[0], wh[1], size // 1024, q, warn))
