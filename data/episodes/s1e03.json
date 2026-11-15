@@ -1,0 +1,669 @@
+{
+ "id": "s1e03",
+ "title": "The Gate",
+ "titleRu": "Ворота",
+ "level": "A1",
+ "newWords": [
+  "can",
+  "go",
+  "come",
+  "look",
+  "stop",
+  "take",
+  "hand",
+  "gate",
+  "more",
+  "listen"
+ ],
+ "panels": [
+  {
+   "bg": "room",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Дэн отдёргивает руку от ручки. Голос за дверью замолкает."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "You wait. Good. New word: CAN.",
+     "ru": "Ты ждёшь. Хорошо. Новое слово: МОЧЬ."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "What can I do?",
+     "ru": "Что я могу делать?"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "You can run. You can open. That is all.",
+     "ru": "Ты можешь бежать. Ты можешь открывать. Это всё."
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Come here. Listen. Look.",
+     "ru": "Иди сюда. Слушай. Смотри."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Мира разворачивает на полу потрёпанную карту. Этаж огромный. А в конце — Ворота."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "This is the gate.",
+     "ru": "Это ворота."
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Can we go?",
+     "ru": "Мы можем идти?"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "We can go. But the way is long.",
+     "ru": "Можем. Но путь долгий."
+    },
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "She can run. She can fight. I can open a door.",
+     "ru": "Она умеет бегать и драться. Я умею открывать дверь."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Yes. A door. Impressive.",
+     "ru": "Да. Дверь. Впечатляет."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Большой зал. Колонны, тусклый свет. И повсюду — тишина, от которой закладывает уши."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Come. Take my hand. Go slow.",
+     "ru": "Идём. Возьми меня за руку. Медленно."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I can go slow. I am good at slow.",
+     "ru": "Медленно я могу. Я мастер медленно."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "silent",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Вдоль стен стоят безликие. Десятки. Они не двигаются. Они слушают."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Look down. Go.",
+     "ru": "Смотри вниз. Идём."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I can see ten! Ten more!",
+     "ru": "Я вижу десять! Ещё десять!"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "More are here.",
+     "ru": "Здесь есть и другие."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Listen. I can hear them.",
+     "ru": "Слушай. Я слышу их."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": "CRACK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Дэн задевает ногой камень. Эхо катится по залу. Безликие поворачивают головы — все разом."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Sorry.",
+     "ru": "Прости."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "action",
+   "sfx": "SHHH",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "silent",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "shout",
+     "who": "mira",
+     "en": "Stop! Stop, all of you!",
+     "ru": "Стоять! Стоять, все!"
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Мира кричит — и воздух вздрагивает. Безликие замирают. Это слово — её сила."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "She can stop them!",
+     "ru": "Она может их остановить!"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Not for long. Take my hand.",
+     "ru": "Ненадолго. Возьми мою руку."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Слово держит тварей лишь несколько секунд. С каждым мгновением Мира бледнеет."
+    },
+    {
+     "type": "shout",
+     "who": "mira",
+     "en": "Take my hand. Go, go, go!",
+     "ru": "Бери руку. Идём, идём, идём!"
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "I can go! I can go!",
+     "ru": "Я могу идти! Я могу идти!"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "У выхода из зала — старая фреска. Две девочки держатся за руки. Мира на секунду замирает."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Who is she?",
+     "ru": "Кто она?"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "No one. Go. Look at the gate.",
+     "ru": "Никто. Идём. Смотри на ворота."
+    }
+   ]
+  },
+  {
+   "bg": "gate",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Ворота. Каменные, с дом высотой. Ни ручки, ни замка. Только одно слово над аркой."
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "A gate! Open!",
+     "ru": "Ворота! Откройтесь!"
+    }
+   ]
+  },
+  {
+   "bg": "gate",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Ворота не двигаются."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "This gate is for a man with a name.",
+     "ru": "Эти ворота — для человека с именем."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Say your name.",
+     "ru": "Назови своё имя."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I... I can not.",
+     "ru": "Я... Я не могу."
+    }
+   ]
+  },
+  {
+   "bg": "gate",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Zero. Think. Say it.",
+     "ru": "Зеро. Думай. Скажи."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I can not! It is gone!",
+     "ru": "Не могу! Оно исчезло!"
+    },
+    {
+     "type": "shout",
+     "who": "mira",
+     "en": "Say it! One more time!",
+     "ru": "Скажи! Ещё раз!"
+    }
+   ]
+  },
+  {
+   "bg": "gate",
+   "mood": "tense",
+   "sfx": "STEP",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "silent",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Позади — шаги. Не толпа. Один. Он идёт спокойно, как тот, кто знает дорогу."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Listen. It is here.",
+     "ru": "Слушай. Он здесь."
+    }
+   ]
+  },
+  {
+   "bg": "gate",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "silent",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "I am Dan.",
+     "ru": "Я Дэн."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Ворота вздрагивают. Они слышат имя. Украденное имя, сказанное чужим ртом."
+    }
+   ]
+  },
+  {
+   "bg": "gate",
+   "mood": "action",
+   "sfx": "BOOM",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Ворота открываются. Не для Дэна. Для Безмолвного."
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "No! That is my name!",
+     "ru": "Нет! Это моё имя!"
+    },
+    {
+     "type": "shout",
+     "who": "mira",
+     "en": "Go! Come! Now!",
+     "ru": "Бежим! Быстрее! Сейчас!"
+    }
+   ]
+  },
+  {
+   "bg": "flash",
+   "mood": "action",
+   "sfx": "SLAM",
+   "cast": [],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Они прыгают в щель, пока ворота не сомкнулись. Грохот. Темнота. Тишина."
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "keeper",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "И тогда из темноты — тихий, довольный голос. Кто-то ждал их здесь."
+    },
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "Welcome, Zero.",
+     "ru": "Добро пожаловать, Зеро."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Who are you?",
+     "ru": "Кто ты?"
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "Приказ и глагол can",
+  "body": "Приказ в английском — это просто глагол без подлежащего: «Look!», «Take my hand!», «Go!». Чтобы запретить, ничего сложного пока не нужно — просто не говори. Глагол can значит «мочь, уметь» и не меняется: «I can run», «She can stop them». Отрицание — can not (или can't).",
+  "examples": [
+   {
+    "en": "Look down.",
+    "ru": "Смотри вниз."
+   },
+   {
+    "en": "Take my hand.",
+    "ru": "Возьми мою руку."
+   },
+   {
+    "en": "I can go slow.",
+    "ru": "Я могу идти медленно."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Что, по словам Системы, Дэн теперь может делать?",
+   "options": [
+    "Бежать и открывать",
+    "Читать и писать",
+    "Летать и прыгать",
+    "Драться и кричать"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Как Мира остановила безликих в зале?",
+   "options": [
+    "Кинула камень",
+    "Выключила свет",
+    "Крикнула «Stop!»",
+    "Спряталась"
+   ],
+   "answer": 2
+  },
+  {
+   "q": "Почему ворота не открылись для Дэна?",
+   "options": [
+    "Они сломаны",
+    "У него нет имени",
+    "У него нет ключа",
+    "Они ждут утра"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Что сказал голос в темноте в самом конце?",
+   "options": [
+    "Run!",
+    "Look down.",
+    "Welcome, Zero.",
+    "I am Dan."
+   ],
+   "answer": 2
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "title": "WORDBOUND",
+ "characters": [
+  {
+   "id": "dan",
+   "name": "Dan",
+   "silhouette": "male-young",
+   "desc": "Дэн, 24 года, уставший инженер-конструктор. Попал в Башню с нулём слов."
+  },
+  {
+   "id": "mira",
+   "name": "Mira",
+   "silhouette": "female-young",
+   "desc": "Мира — резкая и саркастичная альпинистка Башни. Знает много слов и не любит о себе рассказывать."
+  },
+  {
+   "id": "system",
+   "name": "System",
+   "silhouette": "system",
+   "desc": "Система — холодный бесстрастный голос Башни. Ехидная, говорит коротко."
+  },
+  {
+   "id": "silent",
+   "name": "Silent",
+   "silhouette": "monster",
+   "desc": "Безмолвный — существо без лица, которое крадёт слова у людей."
+  },
+  {
+   "id": "keeper",
+   "name": "Keeper",
+   "silhouette": "hooded",
+   "desc": "Хранитель Зала Слов — человек в капюшоне, меняющий имена на слова."
+  }
+ ],
+ "episodes": [
+  {
+   "id": "s1e01",
+   "season": 1,
+   "n": 1,
+   "title": "The Door",
+   "titleRu": "Дверь",
+   "level": "A1",
+   "file": "episodes/s1e01.json"
+  },
+  {
+   "id": "s1e02",
+   "season": 1,
+   "n": 2,
+   "title": "No Name",
+   "titleRu": "Без имени",
+   "level": "A1",
+   "file": "episodes/s1e02.json"
+  },
+  {
+   "id": "s1e03",
+   "season": 1,
+   "n": 3,
+   "title": "The Gate",
+   "titleRu": "Ворота",
+   "level": "A1",
+   "file": "episodes/s1e03.json"
+  },
+  {
+   "id": "s1e04",
+   "season": 1,
+   "n": 4,
+   "title": "The Price of a Name",
+   "titleRu": "Цена имени",
+   "level": "A1",
+   "file": "episodes/s1e04.json"
+  },
+  {
+   "id": "s1e05",
+   "season": 1,
+   "n": 5,
+   "title": "A Voice in the Dark",
+   "titleRu": "Голос во тьме",
+   "level": "A1",
+   "file": "episodes/s1e05.json"
+  }
+ ]
+}

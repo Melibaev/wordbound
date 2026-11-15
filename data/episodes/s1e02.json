@@ -1,0 +1,656 @@
+{
+ "id": "s1e02",
+ "title": "No Name",
+ "titleRu": "Без имени",
+ "level": "A1",
+ "newWords": [
+  "that",
+  "key",
+  "light",
+  "wall",
+  "room",
+  "safe",
+  "big",
+  "small",
+  "man",
+  "gone"
+ ],
+ "panels": [
+  {
+   "bg": "corridor",
+   "mood": "action",
+   "sfx": "STEP",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Они бегут по коридору. Безмолвный идёт следом — медленно, но ни на шаг не отстаёт."
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "I run! I run!",
+     "ru": "Я бегу! Я бегу!"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "New word: RUN.",
+     "ru": "Новое слово: БЕЖАТЬ."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "You run now. Still slow.",
+     "ru": "Теперь ты бежишь. Всё ещё медленно."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "tense",
+   "sfx": "THUD",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "That is a big wall!",
+     "ru": "Это большая стена!"
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Тупик. Позади — тихие шаги. Ни одного звука, только ощущение, что воздух сжимается."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "silent",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Безмолвный уже в конце коридора. Он не торопится. Ему некуда спешить."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "The big thing is here!",
+     "ru": "Эта громадина уже здесь!"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "It is close.",
+     "ru": "Он близко."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "tense",
+   "sfx": "CLINK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "A key!",
+     "ru": "Ключ!"
+    },
+    {
+     "type": "narration-ru",
+     "ru": "На полу — маленький ржавый ключ. Дэн хватает его в последнюю секунду."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "A small key! That is a key!",
+     "ru": "Маленький ключ! Это ключ!"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Correct. That is a key. Wow.",
+     "ru": "Верно. Это ключ. Ничего себе."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "action",
+   "sfx": "CLICK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "A small door is in the wall!",
+     "ru": "В стене маленькая дверь!"
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "Open! Open the door!",
+     "ru": "Открывайся! Открой дверь!"
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Ключ щёлкает. Дверца поддаётся — и они падают внутрь."
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": "SLAM",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Мира захлопывает дверцу и тяжело дышит. В комнате тихо и тепло. Под потолком горит лампочка."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "This room is safe.",
+     "ru": "Эта комната безопасна."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Safe? Why?",
+     "ru": "Безопасна? Почему?"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "The Silent is not in the light.",
+     "ru": "Безмолвных нет на свету."
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Small room. Small light.",
+     "ru": "Маленькая комната. Маленький свет."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "It is a small light. But it is a light.",
+     "ru": "Свет маленький. Но это свет."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Thank you, Mira.",
+     "ru": "Спасибо, Мира."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Not now. What is your name?",
+     "ru": "Не сейчас. Как тебя зовут?"
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am...",
+     "ru": "Я..."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Он открывает рот. Слово не приходит. Там, где было имя, — пустое место."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am... I am...",
+     "ru": "Я... Я..."
+    },
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "My name? What is my name?",
+     "ru": "Моё имя? Как меня зовут?"
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Word lost: DAN.",
+     "ru": "Слово потеряно: ДЭН."
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "No!",
+     "ru": "Нет!"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "The Silent has your name.",
+     "ru": "Безмолвный забрал твоё имя."
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "You are a man with no name.",
+     "ru": "Ты человек без имени."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "That is not funny.",
+     "ru": "Это не смешно."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "A little.",
+     "ru": "Немного смешно."
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "You are Zero now.",
+     "ru": "Теперь ты Зеро."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Zero words. Zero name. Good.",
+     "ru": "Ноль слов. Ноль имени. Отлично."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am a man! I am not Zero!",
+     "ru": "Я человек! Я не Зеро!"
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "На стене — десятки царапин. Выцарапанные имена. Кто-то писал их здесь, пока ждал."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "What is that on the wall?",
+     "ru": "Что это на стене?"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Men are here. Then they are gone.",
+     "ru": "Люди приходят. Потом их нет."
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Gone. All gone.",
+     "ru": "Исчезли. Все до одного."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "This room is a big wall of names.",
+     "ru": "Эта комната — большая стена имён."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Мира отворачивается. Её пальцы дрожат — совсем чуть-чуть."
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "tense",
+   "sfx": "KNOCK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Вдруг снаружи, за маленькой дверцей, кто-то стучит. Ровно. Терпеливо."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Be quiet. We are safe here.",
+     "ru": "Тише. Здесь мы в безопасности."
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Голос за дверью знакомый. Слишком знакомый. Это голос самого Дэна."
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "Open the door. I am Dan.",
+     "ru": "Открой дверь. Я Дэн."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "No! That is not you!",
+     "ru": "Нет! Это не ты!"
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    }
+   ],
+   "lines": [
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "But that is my voice. That is my name.",
+     "ru": "Но это мой голос. Это моё имя."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Дэн смотрит на ручку. Он так хочет вернуть имя. Хоть так. Рука сама тянется вперёд."
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "И вдруг голос за дверью меняется. Теперь это не голос Дэна. Это голос девочки."
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "Mira? Open the door.",
+     "ru": "Мира? Открой дверь."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "That is not... no.",
+     "ru": "Это не... нет."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Лицо Миры белеет. Она явно знает, чей это голос."
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "This / that и a / the",
+  "body": "This — это то, что рядом («это»), that — то, что подальше («то, вон то»). Артикль a ставим, когда предмет новый («какая-то дверь»): «a key». Когда уже ясно, о каком предмете речь — ставим the: «the key».",
+  "examples": [
+   {
+    "en": "This is a key.",
+    "ru": "Это ключ."
+   },
+   {
+    "en": "That is a big wall!",
+    "ru": "Это большая стена!"
+   },
+   {
+    "en": "The light is small.",
+    "ru": "Свет маленький."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Что Дэн нашёл на полу в коридоре?",
+   "options": [
+    "Монету",
+    "Карту",
+    "Нож",
+    "Ключ"
+   ],
+   "answer": 3
+  },
+  {
+   "q": "Почему комната безопасна?",
+   "options": [
+    "В ней есть свет",
+    "В ней есть охранник",
+    "У неё нет двери",
+    "В ней тихо"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Что Дэн не смог сказать, когда Мира спросила его?",
+   "options": [
+    "Свой возраст",
+    "Своё имя",
+    "Название города",
+    "Своё желание"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Чьим голосом сначала говорил Безмолвный за дверью?",
+   "options": [
+    "Голосом Миры",
+    "Голосом Системы",
+    "Голосом Дэна",
+    "Голосом ребёнка"
+   ],
+   "answer": 2
+  }
+ ]
+}

@@ -1,0 +1,4674 @@
+[
+ {
+  "id": "i",
+  "w": "i",
+  "ru": "я",
+  "pos": "pron",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I am Dan.",
+  "exRu": "Я Дэн."
+ },
+ {
+  "id": "you",
+  "w": "you",
+  "ru": "ты; вы",
+  "pos": "pron",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "You are weak.",
+  "exRu": "Ты слабый."
+ },
+ {
+  "id": "he",
+  "w": "he",
+  "ru": "он",
+  "pos": "pron",
+  "lvl": "A1",
+  "forms": [
+   "his",
+   "him"
+  ],
+  "ex": "He lives in the Hall.",
+  "exRu": "Он живёт в Зале."
+ },
+ {
+  "id": "she",
+  "w": "she",
+  "ru": "она",
+  "pos": "pron",
+  "lvl": "A1",
+  "forms": [
+   "her"
+  ],
+  "ex": "She is my friend.",
+  "exRu": "Она моя подруга."
+ },
+ {
+  "id": "it",
+  "w": "it",
+  "ru": "он; она; оно; это",
+  "pos": "pron",
+  "lvl": "A1",
+  "forms": [
+   "its"
+  ],
+  "ex": "It is a key.",
+  "exRu": "Это ключ."
+ },
+ {
+  "id": "we",
+  "w": "we",
+  "ru": "мы",
+  "pos": "pron",
+  "lvl": "A1",
+  "forms": [
+   "us"
+  ],
+  "ex": "We can go.",
+  "exRu": "Мы можем идти."
+ },
+ {
+  "id": "they",
+  "w": "they",
+  "ru": "они",
+  "pos": "pron",
+  "lvl": "A1",
+  "forms": [
+   "them",
+   "their"
+  ],
+  "ex": "They hear your name.",
+  "exRu": "Они слышат твоё имя."
+ },
+ {
+  "id": "me",
+  "w": "me",
+  "ru": "меня; мне; мой",
+  "pos": "pron",
+  "lvl": "A1",
+  "forms": [
+   "my"
+  ],
+  "ex": "Help me!",
+  "exRu": "Помоги мне!"
+ },
+ {
+  "id": "your",
+  "w": "your",
+  "ru": "твой; ваш",
+  "pos": "det",
+  "lvl": "A1",
+  "forms": [
+   "yours"
+  ],
+  "ex": "Say your name.",
+  "exRu": "Назови своё имя."
+ },
+ {
+  "id": "our",
+  "w": "our",
+  "ru": "наш",
+  "pos": "det",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "This is our room.",
+  "exRu": "Это наша комната."
+ },
+ {
+  "id": "be",
+  "w": "be",
+  "ru": "быть; являться",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "am",
+   "is",
+   "are",
+   "was",
+   "were",
+   "been",
+   "being",
+   "i'm",
+   "you're",
+   "he's",
+   "she's",
+   "it's",
+   "that's",
+   "what's",
+   "who's",
+   "we're",
+   "they're",
+   "here's",
+   "there's",
+   "isn't",
+   "aren't",
+   "wasn't"
+  ],
+  "ex": "I am Dan.",
+  "exRu": "Я Дэн."
+ },
+ {
+  "id": "a",
+  "w": "a",
+  "ru": "какой-то; один (артикль)",
+  "pos": "det",
+  "lvl": "A1",
+  "forms": [
+   "an"
+  ],
+  "ex": "This is a door.",
+  "exRu": "Это дверь."
+ },
+ {
+  "id": "the",
+  "w": "the",
+  "ru": "этот; тот (артикль)",
+  "pos": "det",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The door is open.",
+  "exRu": "Дверь открыта."
+ },
+ {
+  "id": "this",
+  "w": "this",
+  "ru": "это; этот",
+  "pos": "det",
+  "lvl": "A1",
+  "forms": [
+   "these"
+  ],
+  "ex": "This is a key.",
+  "exRu": "Это ключ."
+ },
+ {
+  "id": "that",
+  "w": "that",
+  "ru": "то; тот; что",
+  "pos": "det",
+  "lvl": "A1",
+  "forms": [
+   "those"
+  ],
+  "ex": "That is a big wall!",
+  "exRu": "Это большая стена!"
+ },
+ {
+  "id": "and",
+  "w": "and",
+  "ru": "и; а",
+  "pos": "conj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Run and open.",
+  "exRu": "Бежать и открывать."
+ },
+ {
+  "id": "but",
+  "w": "but",
+  "ru": "но",
+  "pos": "conj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "It is small, but it is a light.",
+  "exRu": "Он маленький, но это свет."
+ },
+ {
+  "id": "or",
+  "w": "or",
+  "ru": "или",
+  "pos": "conj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Tea or coffee?",
+  "exRu": "Чай или кофе?"
+ },
+ {
+  "id": "so",
+  "w": "so",
+  "ru": "так; поэтому",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "It is so cold.",
+  "exRu": "Так холодно."
+ },
+ {
+  "id": "because",
+  "w": "because",
+  "ru": "потому что",
+  "pos": "conj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I run because I am afraid.",
+  "exRu": "Я бегу, потому что боюсь."
+ },
+ {
+  "id": "if",
+  "w": "if",
+  "ru": "если",
+  "pos": "conj",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "If you run, I run.",
+  "exRu": "Если бежишь ты, бегу я."
+ },
+ {
+  "id": "when",
+  "w": "when",
+  "ru": "когда",
+  "pos": "conj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "A door moves when you push it.",
+  "exRu": "Дверь двигается, когда ты её толкаешь."
+ },
+ {
+  "id": "then",
+  "w": "then",
+  "ru": "потом; тогда",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Men are here. Then they are gone.",
+  "exRu": "Люди приходят. Потом их нет."
+ },
+ {
+  "id": "now",
+  "w": "now",
+  "ru": "сейчас",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "You are Zero now.",
+  "exRu": "Теперь ты Зеро."
+ },
+ {
+  "id": "not",
+  "w": "not",
+  "ru": "не",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I am not weak!",
+  "exRu": "Я не слабый!"
+ },
+ {
+  "id": "no",
+  "w": "no",
+  "ru": "нет; никакой",
+  "pos": "det",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "No door is here.",
+  "exRu": "Здесь нет двери."
+ },
+ {
+  "id": "yes",
+  "w": "yes",
+  "ru": "да",
+  "pos": "interj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Yes. A door.",
+  "exRu": "Да. Дверь."
+ },
+ {
+  "id": "ok",
+  "w": "ok",
+  "ru": "ладно; хорошо",
+  "pos": "interj",
+  "lvl": "A1",
+  "forms": [
+   "okay"
+  ],
+  "ex": "OK. Take it.",
+  "exRu": "Ладно. Бери."
+ },
+ {
+  "id": "wow",
+  "w": "wow",
+  "ru": "ух ты; вот это да",
+  "pos": "interj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Wow. A key.",
+  "exRu": "Ничего себе. Ключ."
+ },
+ {
+  "id": "hello",
+  "w": "hello",
+  "ru": "привет; здравствуйте",
+  "pos": "interj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Hello? Hello?",
+  "exRu": "Эй? Эй?"
+ },
+ {
+  "id": "sorry",
+  "w": "sorry",
+  "ru": "прости; извини",
+  "pos": "interj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Sorry.",
+  "exRu": "Прости."
+ },
+ {
+  "id": "thank",
+  "w": "thank",
+  "ru": "благодарить; спасибо",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "thanks"
+  ],
+  "ex": "Thank you, Mira.",
+  "exRu": "Спасибо, Мира."
+ },
+ {
+  "id": "welcome",
+  "w": "welcome",
+  "ru": "добро пожаловать; пожалуйста",
+  "pos": "interj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Welcome, Zero.",
+  "exRu": "Добро пожаловать, Зеро."
+ },
+ {
+  "id": "good",
+  "w": "good",
+  "ru": "хороший; хорошо",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Good. Now listen.",
+  "exRu": "Хорошо. Теперь слушай."
+ },
+ {
+  "id": "luck",
+  "w": "luck",
+  "ru": "удача",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Good luck, Dan.",
+  "exRu": "Удачи, Дэн."
+ },
+ {
+  "id": "dan",
+  "w": "dan",
+  "ru": "Дэн (имя)",
+  "pos": "name",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I am Dan.",
+  "exRu": "Я Дэн."
+ },
+ {
+  "id": "mira",
+  "w": "mira",
+  "ru": "Мира (имя)",
+  "pos": "name",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I am Mira.",
+  "exRu": "Я Мира."
+ },
+ {
+  "id": "zero",
+  "w": "zero",
+  "ru": "ноль; Зеро",
+  "pos": "num",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "You have zero words.",
+  "exRu": "У тебя ноль слов."
+ },
+ {
+  "id": "one",
+  "w": "one",
+  "ru": "один",
+  "pos": "num",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "One word for one name.",
+  "exRu": "Одно слово за одно имя."
+ },
+ {
+  "id": "two",
+  "w": "two",
+  "ru": "два",
+  "pos": "num",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "You have two words.",
+  "exRu": "У тебя два слова."
+ },
+ {
+  "id": "three",
+  "w": "three",
+  "ru": "три",
+  "pos": "num",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I have three keys.",
+  "exRu": "У меня три ключа."
+ },
+ {
+  "id": "four",
+  "w": "four",
+  "ru": "четыре",
+  "pos": "num",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Four doors are here.",
+  "exRu": "Здесь четыре двери."
+ },
+ {
+  "id": "five",
+  "w": "five",
+  "ru": "пять",
+  "pos": "num",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Five men are here.",
+  "exRu": "Здесь пять человек."
+ },
+ {
+  "id": "six",
+  "w": "six",
+  "ru": "шесть",
+  "pos": "num",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "It is six.",
+  "exRu": "Сейчас шесть."
+ },
+ {
+  "id": "seven",
+  "w": "seven",
+  "ru": "семь",
+  "pos": "num",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Seven days.",
+  "exRu": "Семь дней."
+ },
+ {
+  "id": "eight",
+  "w": "eight",
+  "ru": "восемь",
+  "pos": "num",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I have eight books.",
+  "exRu": "У меня восемь книг."
+ },
+ {
+  "id": "nine",
+  "w": "nine",
+  "ru": "девять",
+  "pos": "num",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Nine words.",
+  "exRu": "Девять слов."
+ },
+ {
+  "id": "ten",
+  "w": "ten",
+  "ru": "десять",
+  "pos": "num",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I can see ten!",
+  "exRu": "Я вижу десять!"
+ },
+ {
+  "id": "door",
+  "w": "door",
+  "ru": "дверь",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "doors"
+  ],
+  "ex": "This is a door.",
+  "exRu": "Это дверь."
+ },
+ {
+  "id": "open",
+  "w": "open",
+  "ru": "открывать; открытый",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "opens",
+   "opened",
+   "opening"
+  ],
+  "ex": "Open the door.",
+  "exRu": "Открой дверь."
+ },
+ {
+  "id": "close",
+  "w": "close",
+  "ru": "закрывать; близкий; близко",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "closes",
+   "closed",
+   "closing"
+  ],
+  "ex": "Close the door.",
+  "exRu": "Закрой дверь."
+ },
+ {
+  "id": "word",
+  "w": "word",
+  "ru": "слово",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "words"
+  ],
+  "ex": "You have 0 words.",
+  "exRu": "У тебя 0 слов."
+ },
+ {
+  "id": "name",
+  "w": "name",
+  "ru": "имя; название",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "names"
+  ],
+  "ex": "What is your name?",
+  "exRu": "Как тебя зовут?"
+ },
+ {
+  "id": "run",
+  "w": "run",
+  "ru": "бежать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "runs",
+   "ran",
+   "running"
+  ],
+  "ex": "Run, Dan!",
+  "exRu": "Беги, Дэн!"
+ },
+ {
+  "id": "help",
+  "w": "help",
+  "ru": "помогать; помощь",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "helps",
+   "helped",
+   "helping"
+  ],
+  "ex": "Help me!",
+  "exRu": "Помоги мне!"
+ },
+ {
+  "id": "who",
+  "w": "who",
+  "ru": "кто",
+  "pos": "pron",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Who are you?",
+  "exRu": "Кто ты?"
+ },
+ {
+  "id": "what",
+  "w": "what",
+  "ru": "что; какой",
+  "pos": "pron",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "What is that?",
+  "exRu": "Что это?"
+ },
+ {
+  "id": "where",
+  "w": "where",
+  "ru": "где; куда",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Where are we?",
+  "exRu": "Где мы?"
+ },
+ {
+  "id": "why",
+  "w": "why",
+  "ru": "почему; зачем",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Why does he want it?",
+  "exRu": "Зачем он этого хочет?"
+ },
+ {
+  "id": "how",
+  "w": "how",
+  "ru": "как",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "How does it know?",
+  "exRu": "Откуда он знает?"
+ },
+ {
+  "id": "tired",
+  "w": "tired",
+  "ru": "уставший",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I am tired.",
+  "exRu": "Я устал."
+ },
+ {
+  "id": "weak",
+  "w": "weak",
+  "ru": "слабый",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "You are very weak.",
+  "exRu": "Ты очень слабый."
+ },
+ {
+  "id": "slow",
+  "w": "slow",
+  "ru": "медленный; медленно",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [
+   "slower",
+   "slowly"
+  ],
+  "ex": "I am slow!",
+  "exRu": "Я медленный!"
+ },
+ {
+  "id": "key",
+  "w": "key",
+  "ru": "ключ",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "keys"
+  ],
+  "ex": "That is a key.",
+  "exRu": "Это ключ."
+ },
+ {
+  "id": "light",
+  "w": "light",
+  "ru": "свет; лёгкий",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "lights"
+  ],
+  "ex": "The light is small.",
+  "exRu": "Свет маленький."
+ },
+ {
+  "id": "wall",
+  "w": "wall",
+  "ru": "стена",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "walls"
+  ],
+  "ex": "That is a big wall!",
+  "exRu": "Это большая стена!"
+ },
+ {
+  "id": "room",
+  "w": "room",
+  "ru": "комната",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "rooms"
+  ],
+  "ex": "This room is safe.",
+  "exRu": "Эта комната безопасна."
+ },
+ {
+  "id": "safe",
+  "w": "safe",
+  "ru": "безопасный",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [
+   "safer"
+  ],
+  "ex": "This room is safe.",
+  "exRu": "Эта комната безопасна."
+ },
+ {
+  "id": "big",
+  "w": "big",
+  "ru": "большой",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [
+   "bigger",
+   "biggest"
+  ],
+  "ex": "It is a big wall.",
+  "exRu": "Это большая стена."
+ },
+ {
+  "id": "small",
+  "w": "small",
+  "ru": "маленький",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [
+   "smaller",
+   "smallest"
+  ],
+  "ex": "A small key!",
+  "exRu": "Маленький ключ!"
+ },
+ {
+  "id": "man",
+  "w": "man",
+  "ru": "мужчина; человек",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "men"
+  ],
+  "ex": "I am a man.",
+  "exRu": "Я мужчина."
+ },
+ {
+  "id": "gone",
+  "w": "gone",
+  "ru": "исчезнувший; ушедший",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The word is gone.",
+  "exRu": "Слово исчезло."
+ },
+ {
+  "id": "can",
+  "w": "can",
+  "ru": "мочь; уметь",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "can't",
+   "cannot"
+  ],
+  "ex": "I can run.",
+  "exRu": "Я умею бегать."
+ },
+ {
+  "id": "go",
+  "w": "go",
+  "ru": "идти; ехать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "goes",
+   "went",
+   "going"
+  ],
+  "ex": "Go! Go!",
+  "exRu": "Иди! Иди!"
+ },
+ {
+  "id": "come",
+  "w": "come",
+  "ru": "приходить; идти сюда",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "comes",
+   "came",
+   "coming"
+  ],
+  "ex": "Come here.",
+  "exRu": "Иди сюда."
+ },
+ {
+  "id": "look",
+  "w": "look",
+  "ru": "смотреть; выглядеть",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "looks",
+   "looked",
+   "looking"
+  ],
+  "ex": "Look down.",
+  "exRu": "Смотри вниз."
+ },
+ {
+  "id": "stop",
+  "w": "stop",
+  "ru": "останавливаться; стоп",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "stops",
+   "stopped",
+   "stopping"
+  ],
+  "ex": "Stop! All of you!",
+  "exRu": "Стоп! Все вы!"
+ },
+ {
+  "id": "take",
+  "w": "take",
+  "ru": "брать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "takes",
+   "took",
+   "taken",
+   "taking"
+  ],
+  "ex": "Take my hand.",
+  "exRu": "Возьми мою руку."
+ },
+ {
+  "id": "hand",
+  "w": "hand",
+  "ru": "рука; кисть",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "hands"
+  ],
+  "ex": "Take my hand.",
+  "exRu": "Возьми мою руку."
+ },
+ {
+  "id": "gate",
+  "w": "gate",
+  "ru": "ворота",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "gates"
+  ],
+  "ex": "This is the gate.",
+  "exRu": "Это ворота."
+ },
+ {
+  "id": "more",
+  "w": "more",
+  "ru": "больше; ещё",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "More are here.",
+  "exRu": "Здесь есть и другие."
+ },
+ {
+  "id": "listen",
+  "w": "listen",
+  "ru": "слушать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "listens",
+   "listened",
+   "listening"
+  ],
+  "ex": "Listen. I can hear them.",
+  "exRu": "Слушай. Я их слышу."
+ },
+ {
+  "id": "know",
+  "w": "know",
+  "ru": "знать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "knows",
+   "knew",
+   "known",
+   "knowing"
+  ],
+  "ex": "I know many things.",
+  "exRu": "Я знаю многое."
+ },
+ {
+  "id": "want",
+  "w": "want",
+  "ru": "хотеть",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "wants",
+   "wanted",
+   "wanting"
+  ],
+  "ex": "You want your name.",
+  "exRu": "Ты хочешь своё имя."
+ },
+ {
+  "id": "need",
+  "w": "need",
+  "ru": "нуждаться; нужно",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "needs",
+   "needed",
+   "needing"
+  ],
+  "ex": "I need my name.",
+  "exRu": "Мне нужно моё имя."
+ },
+ {
+  "id": "have",
+  "w": "have",
+  "ru": "иметь; есть (у кого-то)",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "has",
+   "had",
+   "having"
+  ],
+  "ex": "I have my name!",
+  "exRu": "У меня есть имя!"
+ },
+ {
+  "id": "like",
+  "w": "like",
+  "ru": "любить; нравиться; как",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "likes",
+   "liked",
+   "liking"
+  ],
+  "ex": "I like this place.",
+  "exRu": "Мне нравится это место."
+ },
+ {
+  "id": "think",
+  "w": "think",
+  "ru": "думать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "thinks",
+   "thought",
+   "thinking"
+  ],
+  "ex": "I think so.",
+  "exRu": "Я так думаю."
+ },
+ {
+  "id": "give",
+  "w": "give",
+  "ru": "давать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "gives",
+   "gave",
+   "given",
+   "giving"
+  ],
+  "ex": "Give it to me!",
+  "exRu": "Отдай это мне!"
+ },
+ {
+  "id": "say",
+  "w": "say",
+  "ru": "говорить; сказать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "says",
+   "said",
+   "saying"
+  ],
+  "ex": "Say your name.",
+  "exRu": "Назови своё имя."
+ },
+ {
+  "id": "dont",
+  "w": "dont",
+  "ru": "не (делать)",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "don't",
+   "doesn't",
+   "didn't"
+  ],
+  "ex": "I don't know.",
+  "exRu": "Я не знаю."
+ },
+ {
+  "id": "do",
+  "w": "do",
+  "ru": "делать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "did",
+   "done",
+   "doing"
+  ],
+  "ex": "What can I do?",
+  "exRu": "Что я могу делать?"
+ },
+ {
+  "id": "does",
+  "w": "does",
+  "ru": "делает (he/she/it); вспомогательный глагол",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Why does he want it?",
+  "exRu": "Зачем ему это?"
+ },
+ {
+  "id": "push",
+  "w": "push",
+  "ru": "толкать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "pushes",
+   "pushed",
+   "pushing"
+  ],
+  "ex": "Push the door!",
+  "exRu": "Толкай дверь!"
+ },
+ {
+  "id": "read",
+  "w": "read",
+  "ru": "читать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "reads",
+   "reading"
+  ],
+  "ex": "I read. I climb.",
+  "exRu": "Я читаю. Я лезу вверх."
+ },
+ {
+  "id": "live",
+  "w": "live",
+  "ru": "жить",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "lives",
+   "lived",
+   "living"
+  ],
+  "ex": "He lives in the Hall.",
+  "exRu": "Он живёт в Зале."
+ },
+ {
+  "id": "wait",
+  "w": "wait",
+  "ru": "ждать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "waits",
+   "waited",
+   "waiting"
+  ],
+  "ex": "Wait.",
+  "exRu": "Подожди."
+ },
+ {
+  "id": "ask",
+  "w": "ask",
+  "ru": "спрашивать; просить",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "asks",
+   "asked",
+   "asking"
+  ],
+  "ex": "Ask me later.",
+  "exRu": "Спроси меня позже."
+ },
+ {
+  "id": "all",
+  "w": "all",
+  "ru": "все; всё",
+  "pos": "det",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "That is all.",
+  "exRu": "Это всё."
+ },
+ {
+  "id": "always",
+  "w": "always",
+  "ru": "всегда",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "It is always rude.",
+  "exRu": "Она всегда грубая."
+ },
+ {
+  "id": "answer",
+  "w": "answer",
+  "ru": "ответ; отвечать",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "answers",
+   "answered"
+  ],
+  "ex": "That is not an answer.",
+  "exRu": "Это не ответ."
+ },
+ {
+  "id": "at",
+  "w": "at",
+  "ru": "в; на; у",
+  "pos": "prep",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Look at the gate.",
+  "exRu": "Смотри на ворота."
+ },
+ {
+  "id": "book",
+  "w": "book",
+  "ru": "книга",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "books"
+  ],
+  "ex": "I like books.",
+  "exRu": "Я люблю книги."
+ },
+ {
+  "id": "build",
+  "w": "build",
+  "ru": "строить",
+  "pos": "v",
+  "lvl": "A2",
+  "forms": [
+   "builds",
+   "built",
+   "building"
+  ],
+  "ex": "Who builds the Tower?",
+  "exRu": "Кто строит Башню?"
+ },
+ {
+  "id": "choose",
+  "w": "choose",
+  "ru": "выбирать",
+  "pos": "v",
+  "lvl": "A2",
+  "forms": [
+   "chooses",
+   "chose",
+   "chosen"
+  ],
+  "ex": "Why does it choose me?",
+  "exRu": "Почему она выбрала меня?"
+ },
+ {
+  "id": "climb",
+  "w": "climb",
+  "ru": "лезть; подниматься",
+  "pos": "v",
+  "lvl": "A2",
+  "forms": [
+   "climbs",
+   "climbed",
+   "climbing"
+  ],
+  "ex": "I read. I climb.",
+  "exRu": "Я читаю. Я лезу вверх."
+ },
+ {
+  "id": "correct",
+  "w": "correct",
+  "ru": "правильный; верно",
+  "pos": "adj",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "Correct. That is a key.",
+  "exRu": "Верно. Это ключ."
+ },
+ {
+  "id": "dream",
+  "w": "dream",
+  "ru": "сон; мечта",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "dreams"
+  ],
+  "ex": "This is a dream.",
+  "exRu": "Это сон."
+ },
+ {
+  "id": "fight",
+  "w": "fight",
+  "ru": "драться; бой",
+  "pos": "v",
+  "lvl": "A2",
+  "forms": [
+   "fights",
+   "fought",
+   "fighting"
+  ],
+  "ex": "She can fight.",
+  "exRu": "Она умеет драться."
+ },
+ {
+  "id": "floor",
+  "w": "floor",
+  "ru": "пол; этаж",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "floors"
+  ],
+  "ex": "The floor is cold.",
+  "exRu": "Пол холодный."
+ },
+ {
+  "id": "for",
+  "w": "for",
+  "ru": "для; за; на",
+  "pos": "prep",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "One word for one name.",
+  "exRu": "Одно слово за одно имя."
+ },
+ {
+  "id": "funny",
+  "w": "funny",
+  "ru": "смешной",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "That is not funny.",
+  "exRu": "Это не смешно."
+ },
+ {
+  "id": "hall",
+  "w": "hall",
+  "ru": "зал; коридор",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "halls"
+  ],
+  "ex": "The hall is big.",
+  "exRu": "Зал большой."
+ },
+ {
+  "id": "hear",
+  "w": "hear",
+  "ru": "слышать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "hears",
+   "heard",
+   "hearing"
+  ],
+  "ex": "I can hear them.",
+  "exRu": "Я слышу их."
+ },
+ {
+  "id": "heavy",
+  "w": "heavy",
+  "ru": "тяжёлый",
+  "pos": "adj",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "It is heavy.",
+  "exRu": "Она тяжёлая."
+ },
+ {
+  "id": "here",
+  "w": "here",
+  "ru": "здесь; сюда",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Come here.",
+  "exRu": "Иди сюда."
+ },
+ {
+  "id": "impressive",
+  "w": "impressive",
+  "ru": "впечатляющий",
+  "pos": "adj",
+  "lvl": "B1",
+  "forms": [],
+  "ex": "Yes. A door. Impressive.",
+  "exRu": "Да. Дверь. Впечатляет."
+ },
+ {
+  "id": "in",
+  "w": "in",
+  "ru": "в; внутри",
+  "pos": "prep",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "He lives in the Hall.",
+  "exRu": "Он живёт в Зале."
+ },
+ {
+  "id": "just",
+  "w": "just",
+  "ru": "просто; только",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "A name is just a word.",
+  "exRu": "Имя — всего лишь слово."
+ },
+ {
+  "id": "keeper",
+  "w": "keeper",
+  "ru": "хранитель",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "keepers"
+  ],
+  "ex": "He is the Keeper.",
+  "exRu": "Это Хранитель."
+ },
+ {
+  "id": "last",
+  "w": "last",
+  "ru": "последний",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The last door.",
+  "exRu": "Последняя дверь."
+ },
+ {
+  "id": "leg",
+  "w": "leg",
+  "ru": "нога",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "legs"
+  ],
+  "ex": "I have legs.",
+  "exRu": "У меня есть ноги."
+ },
+ {
+  "id": "life",
+  "w": "life",
+  "ru": "жизнь",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "This is my life.",
+  "exRu": "Это моя жизнь."
+ },
+ {
+  "id": "little",
+  "w": "little",
+  "ru": "маленький; немного",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "A little.",
+  "exRu": "Немного."
+ },
+ {
+  "id": "long",
+  "w": "long",
+  "ru": "длинный; долгий",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The way is long.",
+  "exRu": "Путь долгий."
+ },
+ {
+  "id": "lost",
+  "w": "lost",
+  "ru": "потерянный; потерял",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [
+   "lose",
+   "loses",
+   "losing"
+  ],
+  "ex": "The word is lost.",
+  "exRu": "Слово потеряно."
+ },
+ {
+  "id": "loud",
+  "w": "loud",
+  "ru": "громкий",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "You are loud.",
+  "exRu": "Ты шумный."
+ },
+ {
+  "id": "many",
+  "w": "many",
+  "ru": "много",
+  "pos": "det",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I know many things.",
+  "exRu": "Я знаю многое."
+ },
+ {
+  "id": "near",
+  "w": "near",
+  "ru": "близко; рядом",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The Silent is near.",
+  "exRu": "Безмолвные рядом."
+ },
+ {
+  "id": "new",
+  "w": "new",
+  "ru": "новый",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "New word: OPEN.",
+  "exRu": "Новое слово: ОТКРЫВАТЬ."
+ },
+ {
+  "id": "nothing",
+  "w": "nothing",
+  "ru": "ничего",
+  "pos": "pron",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Nothing. I don't want to talk.",
+  "exRu": "Ничего. Я не хочу говорить."
+ },
+ {
+  "id": "of",
+  "w": "of",
+  "ru": "из; (принадлежность)",
+  "pos": "prep",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "This is the Hall of Words.",
+  "exRu": "Это Зал Слов."
+ },
+ {
+  "id": "on",
+  "w": "on",
+  "ru": "на",
+  "pos": "prep",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "What is that on the wall?",
+  "exRu": "Что это на стене?"
+ },
+ {
+  "id": "place",
+  "w": "place",
+  "ru": "место",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "places"
+  ],
+  "ex": "I like this place.",
+  "exRu": "Мне нравится это место."
+ },
+ {
+  "id": "power",
+  "w": "power",
+  "ru": "сила; власть",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Words are power.",
+  "exRu": "Слова — это сила."
+ },
+ {
+  "id": "price",
+  "w": "price",
+  "ru": "цена",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "prices"
+  ],
+  "ex": "Mira knows the price.",
+  "exRu": "Мира знает цену."
+ },
+ {
+  "id": "quiet",
+  "w": "quiet",
+  "ru": "тихий",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Be quiet.",
+  "exRu": "Тише."
+ },
+ {
+  "id": "rude",
+  "w": "rude",
+  "ru": "грубый",
+  "pos": "adj",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "It is always rude.",
+  "exRu": "Она всегда грубая."
+ },
+ {
+  "id": "short",
+  "w": "short",
+  "ru": "короткий; низкий",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "It is a short answer.",
+  "exRu": "Это короткий ответ."
+ },
+ {
+  "id": "silent",
+  "w": "silent",
+  "ru": "безмолвный; тихий",
+  "pos": "adj",
+  "lvl": "A2",
+  "forms": [
+   "silents"
+  ],
+  "ex": "It is a Silent.",
+  "exRu": "Это Безмолвный."
+ },
+ {
+  "id": "still",
+  "w": "still",
+  "ru": "всё ещё; тихий",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Still slow.",
+  "exRu": "Всё ещё медленно."
+ },
+ {
+  "id": "talk",
+  "w": "talk",
+  "ru": "говорить; разговаривать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "talks",
+   "talked",
+   "talking"
+  ],
+  "ex": "Don't talk.",
+  "exRu": "Не говори."
+ },
+ {
+  "id": "there",
+  "w": "there",
+  "ru": "там; туда",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "There is the door!",
+  "exRu": "Вот дверь!"
+ },
+ {
+  "id": "thing",
+  "w": "thing",
+  "ru": "вещь; штука",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "things"
+  ],
+  "ex": "The thing is here!",
+  "exRu": "Эта штука здесь!"
+ },
+ {
+  "id": "to",
+  "w": "to",
+  "ru": "к; в; чтобы",
+  "pos": "prep",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Give it to me!",
+  "exRu": "Отдай это мне!"
+ },
+ {
+  "id": "tower",
+  "w": "tower",
+  "ru": "башня",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "towers"
+  ],
+  "ex": "This is the Tower.",
+  "exRu": "Это Башня."
+ },
+ {
+  "id": "trade",
+  "w": "trade",
+  "ru": "менять; обмен",
+  "pos": "v",
+  "lvl": "B1",
+  "forms": [
+   "trades",
+   "traded",
+   "trading"
+  ],
+  "ex": "I don't give. I trade.",
+  "exRu": "Я не отдаю. Я меняю."
+ },
+ {
+  "id": "try",
+  "w": "try",
+  "ru": "пытаться; пробовать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "tries",
+   "tried",
+   "trying"
+  ],
+  "ex": "Try it, Dan.",
+  "exRu": "Попробуй, Дэн."
+ },
+ {
+  "id": "up",
+  "w": "up",
+  "ru": "вверх; наверх",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Up. To the last door.",
+  "exRu": "Наверх. К последней двери."
+ },
+ {
+  "id": "down",
+  "w": "down",
+  "ru": "вниз",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Look down.",
+  "exRu": "Смотри вниз."
+ },
+ {
+  "id": "very",
+  "w": "very",
+  "ru": "очень",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "You are very weak.",
+  "exRu": "Ты очень слабый."
+ },
+ {
+  "id": "voice",
+  "w": "voice",
+  "ru": "голос",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "voices"
+  ],
+  "ex": "That is my voice.",
+  "exRu": "Это мой голос."
+ },
+ {
+  "id": "warning",
+  "w": "warning",
+  "ru": "предупреждение",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "warnings"
+  ],
+  "ex": "Warning. The Silent is near.",
+  "exRu": "Предупреждение. Безмолвные рядом."
+ },
+ {
+  "id": "way",
+  "w": "way",
+  "ru": "путь; дорога; способ",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "ways"
+  ],
+  "ex": "The way is long.",
+  "exRu": "Путь долгий."
+ },
+ {
+  "id": "with",
+  "w": "with",
+  "ru": "с; вместе с",
+  "pos": "prep",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "A man with no name.",
+  "exRu": "Человек без имени."
+ },
+ {
+  "id": "work",
+  "w": "work",
+  "ru": "работать; работа",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "works",
+   "worked",
+   "working"
+  ],
+  "ex": "Work, work, work.",
+  "exRu": "Работа, работа, работа."
+ },
+ {
+  "id": "climber",
+  "w": "climber",
+  "ru": "альпинист",
+  "pos": "n",
+  "lvl": "B1",
+  "forms": [
+   "climbers"
+  ],
+  "ex": "Mira is a climber.",
+  "exRu": "Мира — альпинистка."
+ },
+ {
+  "id": "mother",
+  "w": "mother",
+  "ru": "мама; мать",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "mothers",
+   "mom",
+   "mum",
+   "mama"
+  ],
+  "ex": "My mother is at home.",
+  "exRu": "Моя мама дома."
+ },
+ {
+  "id": "father",
+  "w": "father",
+  "ru": "папа; отец",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "fathers",
+   "dad"
+  ],
+  "ex": "My father is tall.",
+  "exRu": "Мой папа высокий."
+ },
+ {
+  "id": "sister",
+  "w": "sister",
+  "ru": "сестра",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "sisters"
+  ],
+  "ex": "She is my sister.",
+  "exRu": "Она моя сестра."
+ },
+ {
+  "id": "brother",
+  "w": "brother",
+  "ru": "брат",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "brothers"
+  ],
+  "ex": "My brother is small.",
+  "exRu": "Мой брат маленький."
+ },
+ {
+  "id": "son",
+  "w": "son",
+  "ru": "сын",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "sons"
+  ],
+  "ex": "He is my son.",
+  "exRu": "Он мой сын."
+ },
+ {
+  "id": "daughter",
+  "w": "daughter",
+  "ru": "дочь",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "daughters"
+  ],
+  "ex": "She is my daughter.",
+  "exRu": "Она моя дочь."
+ },
+ {
+  "id": "family",
+  "w": "family",
+  "ru": "семья",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "families"
+  ],
+  "ex": "I love my family.",
+  "exRu": "Я люблю свою семью."
+ },
+ {
+  "id": "friend",
+  "w": "friend",
+  "ru": "друг; подруга",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "friends"
+  ],
+  "ex": "You are my friend.",
+  "exRu": "Ты мой друг."
+ },
+ {
+  "id": "boy",
+  "w": "boy",
+  "ru": "мальчик",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "boys"
+  ],
+  "ex": "The boy runs.",
+  "exRu": "Мальчик бежит."
+ },
+ {
+  "id": "girl",
+  "w": "girl",
+  "ru": "девочка; девушка",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "girls"
+  ],
+  "ex": "The girl reads a book.",
+  "exRu": "Девочка читает книгу."
+ },
+ {
+  "id": "woman",
+  "w": "woman",
+  "ru": "женщина",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "women"
+  ],
+  "ex": "The woman is here.",
+  "exRu": "Женщина здесь."
+ },
+ {
+  "id": "child",
+  "w": "child",
+  "ru": "ребёнок",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "children",
+   "kid",
+   "kids"
+  ],
+  "ex": "The child is small.",
+  "exRu": "Ребёнок маленький."
+ },
+ {
+  "id": "baby",
+  "w": "baby",
+  "ru": "малыш; младенец",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "babies"
+  ],
+  "ex": "The baby sleeps.",
+  "exRu": "Малыш спит."
+ },
+ {
+  "id": "people",
+  "w": "people",
+  "ru": "люди",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Many people are here.",
+  "exRu": "Здесь много людей."
+ },
+ {
+  "id": "person",
+  "w": "person",
+  "ru": "человек; личность",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "persons"
+  ],
+  "ex": "She is a good person.",
+  "exRu": "Она хороший человек."
+ },
+ {
+  "id": "water",
+  "w": "water",
+  "ru": "вода",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I want water.",
+  "exRu": "Я хочу воды."
+ },
+ {
+  "id": "coffee",
+  "w": "coffee",
+  "ru": "кофе",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I want coffee.",
+  "exRu": "Я хочу кофе."
+ },
+ {
+  "id": "tea",
+  "w": "tea",
+  "ru": "чай",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Tea is hot.",
+  "exRu": "Чай горячий."
+ },
+ {
+  "id": "food",
+  "w": "food",
+  "ru": "еда",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The food is good.",
+  "exRu": "Еда вкусная."
+ },
+ {
+  "id": "bread",
+  "w": "bread",
+  "ru": "хлеб",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I eat bread.",
+  "exRu": "Я ем хлеб."
+ },
+ {
+  "id": "milk",
+  "w": "milk",
+  "ru": "молоко",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I drink milk.",
+  "exRu": "Я пью молоко."
+ },
+ {
+  "id": "apple",
+  "w": "apple",
+  "ru": "яблоко",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "apples"
+  ],
+  "ex": "This is a red apple.",
+  "exRu": "Это красное яблоко."
+ },
+ {
+  "id": "egg",
+  "w": "egg",
+  "ru": "яйцо",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "eggs"
+  ],
+  "ex": "I eat an egg.",
+  "exRu": "Я ем яйцо."
+ },
+ {
+  "id": "meat",
+  "w": "meat",
+  "ru": "мясо",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I don't eat meat.",
+  "exRu": "Я не ем мясо."
+ },
+ {
+  "id": "fish",
+  "w": "fish",
+  "ru": "рыба",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I like fish.",
+  "exRu": "Я люблю рыбу."
+ },
+ {
+  "id": "rice",
+  "w": "rice",
+  "ru": "рис",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Rice is good.",
+  "exRu": "Рис вкусный."
+ },
+ {
+  "id": "cake",
+  "w": "cake",
+  "ru": "торт; пирожное",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "cakes"
+  ],
+  "ex": "The cake is big.",
+  "exRu": "Торт большой."
+ },
+ {
+  "id": "sugar",
+  "w": "sugar",
+  "ru": "сахар",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I want sugar.",
+  "exRu": "Я хочу сахар."
+ },
+ {
+  "id": "salt",
+  "w": "salt",
+  "ru": "соль",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Salt is white.",
+  "exRu": "Соль белая."
+ },
+ {
+  "id": "eat",
+  "w": "eat",
+  "ru": "есть; кушать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "eats",
+   "ate",
+   "eaten",
+   "eating"
+  ],
+  "ex": "I eat bread.",
+  "exRu": "Я ем хлеб."
+ },
+ {
+  "id": "drink",
+  "w": "drink",
+  "ru": "пить; напиток",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "drinks",
+   "drank",
+   "drunk",
+   "drinking"
+  ],
+  "ex": "I drink water.",
+  "exRu": "Я пью воду."
+ },
+ {
+  "id": "sleep",
+  "w": "sleep",
+  "ru": "спать; сон",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "sleeps",
+   "slept",
+   "sleeping"
+  ],
+  "ex": "I sleep at night.",
+  "exRu": "Я сплю ночью."
+ },
+ {
+  "id": "walk",
+  "w": "walk",
+  "ru": "идти пешком; гулять",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "walks",
+   "walked",
+   "walking"
+  ],
+  "ex": "I walk to work.",
+  "exRu": "Я иду на работу пешком."
+ },
+ {
+  "id": "speak",
+  "w": "speak",
+  "ru": "говорить",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "speaks",
+   "spoke",
+   "spoken",
+   "speaking"
+  ],
+  "ex": "I speak English.",
+  "exRu": "Я говорю по-английски."
+ },
+ {
+  "id": "write",
+  "w": "write",
+  "ru": "писать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "writes",
+   "wrote",
+   "written",
+   "writing"
+  ],
+  "ex": "I write a word.",
+  "exRu": "Я пишу слово."
+ },
+ {
+  "id": "play",
+  "w": "play",
+  "ru": "играть",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "plays",
+   "played",
+   "playing"
+  ],
+  "ex": "I play at night.",
+  "exRu": "Я играю ночью."
+ },
+ {
+  "id": "love",
+  "w": "love",
+  "ru": "любить; любовь",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "loves",
+   "loved",
+   "loving"
+  ],
+  "ex": "I love my family.",
+  "exRu": "Я люблю свою семью."
+ },
+ {
+  "id": "feel",
+  "w": "feel",
+  "ru": "чувствовать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "feels",
+   "felt",
+   "feeling"
+  ],
+  "ex": "I feel tired.",
+  "exRu": "Я чувствую усталость."
+ },
+ {
+  "id": "find",
+  "w": "find",
+  "ru": "находить",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "finds",
+   "found",
+   "finding"
+  ],
+  "ex": "I find a key.",
+  "exRu": "Я нахожу ключ."
+ },
+ {
+  "id": "get",
+  "w": "get",
+  "ru": "получать; становиться",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "gets",
+   "got",
+   "getting"
+  ],
+  "ex": "I get a key.",
+  "exRu": "Я получаю ключ."
+ },
+ {
+  "id": "make",
+  "w": "make",
+  "ru": "делать; создавать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "makes",
+   "made",
+   "making"
+  ],
+  "ex": "I make a cake.",
+  "exRu": "Я готовлю торт."
+ },
+ {
+  "id": "put",
+  "w": "put",
+  "ru": "класть; ставить",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "puts",
+   "putting"
+  ],
+  "ex": "Put it here.",
+  "exRu": "Положи это сюда."
+ },
+ {
+  "id": "use",
+  "w": "use",
+  "ru": "использовать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "uses",
+   "used",
+   "using"
+  ],
+  "ex": "I use a key.",
+  "exRu": "Я использую ключ."
+ },
+ {
+  "id": "buy",
+  "w": "buy",
+  "ru": "покупать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "buys",
+   "bought",
+   "buying"
+  ],
+  "ex": "I buy bread.",
+  "exRu": "Я покупаю хлеб."
+ },
+ {
+  "id": "sell",
+  "w": "sell",
+  "ru": "продавать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "sells",
+   "sold",
+   "selling"
+  ],
+  "ex": "He sells apples.",
+  "exRu": "Он продаёт яблоки."
+ },
+ {
+  "id": "call",
+  "w": "call",
+  "ru": "звать; звонить",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "calls",
+   "called",
+   "calling"
+  ],
+  "ex": "Call me Zero.",
+  "exRu": "Зови меня Зеро."
+ },
+ {
+  "id": "meet",
+  "w": "meet",
+  "ru": "встречать; знакомиться",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "meets",
+   "met",
+   "meeting"
+  ],
+  "ex": "I meet a friend.",
+  "exRu": "Я встречаю друга."
+ },
+ {
+  "id": "show",
+  "w": "show",
+  "ru": "показывать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "shows",
+   "showed",
+   "shown",
+   "showing"
+  ],
+  "ex": "Show me the map.",
+  "exRu": "Покажи мне карту."
+ },
+ {
+  "id": "tell",
+  "w": "tell",
+  "ru": "говорить; рассказывать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "tells",
+   "told",
+   "telling"
+  ],
+  "ex": "Tell me your name.",
+  "exRu": "Скажи мне своё имя."
+ },
+ {
+  "id": "turn",
+  "w": "turn",
+  "ru": "поворачивать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "turns",
+   "turned",
+   "turning"
+  ],
+  "ex": "Turn left.",
+  "exRu": "Поверни налево."
+ },
+ {
+  "id": "start",
+  "w": "start",
+  "ru": "начинать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "starts",
+   "started",
+   "starting"
+  ],
+  "ex": "We start now.",
+  "exRu": "Мы начинаем сейчас."
+ },
+ {
+  "id": "stay",
+  "w": "stay",
+  "ru": "оставаться",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "stays",
+   "stayed",
+   "staying"
+  ],
+  "ex": "Stay here.",
+  "exRu": "Оставайся здесь."
+ },
+ {
+  "id": "sit",
+  "w": "sit",
+  "ru": "сидеть",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "sits",
+   "sat",
+   "sitting"
+  ],
+  "ex": "Sit here.",
+  "exRu": "Садись сюда."
+ },
+ {
+  "id": "stand",
+  "w": "stand",
+  "ru": "стоять",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "stands",
+   "stood",
+   "standing"
+  ],
+  "ex": "I stand here.",
+  "exRu": "Я стою здесь."
+ },
+ {
+  "id": "see",
+  "w": "see",
+  "ru": "видеть",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "sees",
+   "saw",
+   "seen",
+   "seeing"
+  ],
+  "ex": "I can see a light.",
+  "exRu": "Я вижу свет."
+ },
+ {
+  "id": "watch",
+  "w": "watch",
+  "ru": "смотреть; наблюдать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "watches",
+   "watched",
+   "watching"
+  ],
+  "ex": "I watch a film.",
+  "exRu": "Я смотрю фильм."
+ },
+ {
+  "id": "learn",
+  "w": "learn",
+  "ru": "учить; учиться",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "learns",
+   "learned",
+   "learning"
+  ],
+  "ex": "I learn a new word.",
+  "exRu": "Я учу новое слово."
+ },
+ {
+  "id": "draw",
+  "w": "draw",
+  "ru": "рисовать; чертить",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "draws",
+   "drew",
+   "drawn",
+   "drawing"
+  ],
+  "ex": "I draw a house.",
+  "exRu": "Я рисую дом."
+ },
+ {
+  "id": "fall",
+  "w": "fall",
+  "ru": "падать",
+  "pos": "v",
+  "lvl": "A2",
+  "forms": [
+   "falls",
+   "fell",
+   "fallen",
+   "falling"
+  ],
+  "ex": "Don't fall.",
+  "exRu": "Не упади."
+ },
+ {
+  "id": "jump",
+  "w": "jump",
+  "ru": "прыгать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "jumps",
+   "jumped",
+   "jumping"
+  ],
+  "ex": "Jump now!",
+  "exRu": "Прыгай!"
+ },
+ {
+  "id": "hold",
+  "w": "hold",
+  "ru": "держать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "holds",
+   "held",
+   "holding"
+  ],
+  "ex": "Hold my hand.",
+  "exRu": "Держи мою руку."
+ },
+ {
+  "id": "bring",
+  "w": "bring",
+  "ru": "приносить",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "brings",
+   "brought",
+   "bringing"
+  ],
+  "ex": "Bring the key.",
+  "exRu": "Принеси ключ."
+ },
+ {
+  "id": "let",
+  "w": "let",
+  "ru": "позволять; давайте",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "lets",
+   "letting"
+  ],
+  "ex": "Let me help.",
+  "exRu": "Дай мне помочь."
+ },
+ {
+  "id": "happy",
+  "w": "happy",
+  "ru": "счастливый",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [
+   "happier"
+  ],
+  "ex": "I am happy.",
+  "exRu": "Я счастлив."
+ },
+ {
+  "id": "sad",
+  "w": "sad",
+  "ru": "грустный",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "She is sad.",
+  "exRu": "Ей грустно."
+ },
+ {
+  "id": "hot",
+  "w": "hot",
+  "ru": "горячий; жаркий",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The tea is hot.",
+  "exRu": "Чай горячий."
+ },
+ {
+  "id": "cold",
+  "w": "cold",
+  "ru": "холодный",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [
+   "colder"
+  ],
+  "ex": "The floor is cold.",
+  "exRu": "Пол холодный."
+ },
+ {
+  "id": "easy",
+  "w": "easy",
+  "ru": "лёгкий; простой",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [
+   "easier"
+  ],
+  "ex": "This is easy.",
+  "exRu": "Это легко."
+ },
+ {
+  "id": "hard",
+  "w": "hard",
+  "ru": "трудный; твёрдый",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [
+   "harder"
+  ],
+  "ex": "This is hard.",
+  "exRu": "Это трудно."
+ },
+ {
+  "id": "old",
+  "w": "old",
+  "ru": "старый",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [
+   "older"
+  ],
+  "ex": "This is an old door.",
+  "exRu": "Это старая дверь."
+ },
+ {
+  "id": "young",
+  "w": "young",
+  "ru": "молодой",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [
+   "younger"
+  ],
+  "ex": "He is young.",
+  "exRu": "Он молод."
+ },
+ {
+  "id": "fast",
+  "w": "fast",
+  "ru": "быстрый; быстро",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [
+   "faster"
+  ],
+  "ex": "She is fast.",
+  "exRu": "Она быстрая."
+ },
+ {
+  "id": "strong",
+  "w": "strong",
+  "ru": "сильный",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [
+   "stronger"
+  ],
+  "ex": "He is strong.",
+  "exRu": "Он сильный."
+ },
+ {
+  "id": "bad",
+  "w": "bad",
+  "ru": "плохой",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [
+   "worse",
+   "worst"
+  ],
+  "ex": "This is bad.",
+  "exRu": "Это плохо."
+ },
+ {
+  "id": "better",
+  "w": "better",
+  "ru": "лучше",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "This is better.",
+  "exRu": "Так лучше."
+ },
+ {
+  "id": "right",
+  "w": "right",
+  "ru": "правильный; правый",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "That is the right door.",
+  "exRu": "Это правильная дверь."
+ },
+ {
+  "id": "wrong",
+  "w": "wrong",
+  "ru": "неправильный",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "That is wrong.",
+  "exRu": "Это неправильно."
+ },
+ {
+  "id": "free",
+  "w": "free",
+  "ru": "свободный; бесплатный",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Your name is free.",
+  "exRu": "Твоё имя бесплатно."
+ },
+ {
+  "id": "ready",
+  "w": "ready",
+  "ru": "готовый",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I am ready.",
+  "exRu": "Я готов."
+ },
+ {
+  "id": "dark",
+  "w": "dark",
+  "ru": "тёмный",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The room is dark.",
+  "exRu": "В комнате темно."
+ },
+ {
+  "id": "hungry",
+  "w": "hungry",
+  "ru": "голодный",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I am hungry.",
+  "exRu": "Я голоден."
+ },
+ {
+  "id": "afraid",
+  "w": "afraid",
+  "ru": "испуганный",
+  "pos": "adj",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "I am afraid.",
+  "exRu": "Мне страшно."
+ },
+ {
+  "id": "alone",
+  "w": "alone",
+  "ru": "один; одинокий",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I am alone.",
+  "exRu": "Я один."
+ },
+ {
+  "id": "real",
+  "w": "real",
+  "ru": "настоящий",
+  "pos": "adj",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "Is this real?",
+  "exRu": "Это по-настоящему?"
+ },
+ {
+  "id": "true",
+  "w": "true",
+  "ru": "правдивый; верный",
+  "pos": "adj",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "That is true.",
+  "exRu": "Это правда."
+ },
+ {
+  "id": "home",
+  "w": "home",
+  "ru": "дом; домой",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "homes"
+  ],
+  "ex": "I go home.",
+  "exRu": "Я иду домой."
+ },
+ {
+  "id": "house",
+  "w": "house",
+  "ru": "дом",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "houses"
+  ],
+  "ex": "This is my house.",
+  "exRu": "Это мой дом."
+ },
+ {
+  "id": "city",
+  "w": "city",
+  "ru": "город",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "cities"
+  ],
+  "ex": "This is a big city.",
+  "exRu": "Это большой город."
+ },
+ {
+  "id": "street",
+  "w": "street",
+  "ru": "улица",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "streets"
+  ],
+  "ex": "The street is dark.",
+  "exRu": "Улица тёмная."
+ },
+ {
+  "id": "car",
+  "w": "car",
+  "ru": "машина",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "cars"
+  ],
+  "ex": "The car is red.",
+  "exRu": "Машина красная."
+ },
+ {
+  "id": "bus",
+  "w": "bus",
+  "ru": "автобус",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "buses"
+  ],
+  "ex": "I take the bus.",
+  "exRu": "Я еду на автобусе."
+ },
+ {
+  "id": "phone",
+  "w": "phone",
+  "ru": "телефон",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "phones"
+  ],
+  "ex": "My phone is here.",
+  "exRu": "Мой телефон здесь."
+ },
+ {
+  "id": "computer",
+  "w": "computer",
+  "ru": "компьютер",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "computers"
+  ],
+  "ex": "The computer is on.",
+  "exRu": "Компьютер включён."
+ },
+ {
+  "id": "table",
+  "w": "table",
+  "ru": "стол",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "tables"
+  ],
+  "ex": "The key is on the table.",
+  "exRu": "Ключ на столе."
+ },
+ {
+  "id": "chair",
+  "w": "chair",
+  "ru": "стул",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "chairs"
+  ],
+  "ex": "Sit on the chair.",
+  "exRu": "Сядь на стул."
+ },
+ {
+  "id": "bed",
+  "w": "bed",
+  "ru": "кровать",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "beds"
+  ],
+  "ex": "I am in bed.",
+  "exRu": "Я в постели."
+ },
+ {
+  "id": "window",
+  "w": "window",
+  "ru": "окно",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "windows"
+  ],
+  "ex": "Look at the window.",
+  "exRu": "Посмотри на окно."
+ },
+ {
+  "id": "paper",
+  "w": "paper",
+  "ru": "бумага; газета",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "papers"
+  ],
+  "ex": "I need paper.",
+  "exRu": "Мне нужна бумага."
+ },
+ {
+  "id": "pen",
+  "w": "pen",
+  "ru": "ручка",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "pens"
+  ],
+  "ex": "I have a pen.",
+  "exRu": "У меня есть ручка."
+ },
+ {
+  "id": "bag",
+  "w": "bag",
+  "ru": "сумка; рюкзак",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "bags"
+  ],
+  "ex": "My bag is heavy.",
+  "exRu": "Моя сумка тяжёлая."
+ },
+ {
+  "id": "money",
+  "w": "money",
+  "ru": "деньги",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I need money.",
+  "exRu": "Мне нужны деньги."
+ },
+ {
+  "id": "school",
+  "w": "school",
+  "ru": "школа",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "schools"
+  ],
+  "ex": "I go to school.",
+  "exRu": "Я иду в школу."
+ },
+ {
+  "id": "office",
+  "w": "office",
+  "ru": "офис",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "offices"
+  ],
+  "ex": "The office is empty.",
+  "exRu": "Офис пуст."
+ },
+ {
+  "id": "head",
+  "w": "head",
+  "ru": "голова",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "heads"
+  ],
+  "ex": "My head is hot.",
+  "exRu": "Моя голова горячая."
+ },
+ {
+  "id": "eye",
+  "w": "eye",
+  "ru": "глаз",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "eyes"
+  ],
+  "ex": "I have two eyes.",
+  "exRu": "У меня два глаза."
+ },
+ {
+  "id": "face",
+  "w": "face",
+  "ru": "лицо",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "faces"
+  ],
+  "ex": "It has no face.",
+  "exRu": "У него нет лица."
+ },
+ {
+  "id": "ear",
+  "w": "ear",
+  "ru": "ухо",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "ears"
+  ],
+  "ex": "I have two ears.",
+  "exRu": "У меня два уха."
+ },
+ {
+  "id": "mouth",
+  "w": "mouth",
+  "ru": "рот",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "mouths"
+  ],
+  "ex": "Open your mouth.",
+  "exRu": "Открой рот."
+ },
+ {
+  "id": "heart",
+  "w": "heart",
+  "ru": "сердце",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "hearts"
+  ],
+  "ex": "My heart is fast.",
+  "exRu": "Моё сердце бьётся быстро."
+ },
+ {
+  "id": "foot",
+  "w": "foot",
+  "ru": "нога; стопа",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "feet"
+  ],
+  "ex": "My feet are cold.",
+  "exRu": "Мои ноги холодные."
+ },
+ {
+  "id": "arm",
+  "w": "arm",
+  "ru": "рука (от плеча)",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "arms"
+  ],
+  "ex": "My arm is tired.",
+  "exRu": "Моя рука устала."
+ },
+ {
+  "id": "back",
+  "w": "back",
+  "ru": "спина; назад",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "backs"
+  ],
+  "ex": "Go back!",
+  "exRu": "Иди назад!"
+ },
+ {
+  "id": "day",
+  "w": "day",
+  "ru": "день",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "days"
+  ],
+  "ex": "It is a good day.",
+  "exRu": "Это хороший день."
+ },
+ {
+  "id": "night",
+  "w": "night",
+  "ru": "ночь",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "nights"
+  ],
+  "ex": "It is night.",
+  "exRu": "Сейчас ночь."
+ },
+ {
+  "id": "morning",
+  "w": "morning",
+  "ru": "утро",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "mornings"
+  ],
+  "ex": "Good morning.",
+  "exRu": "Доброе утро."
+ },
+ {
+  "id": "evening",
+  "w": "evening",
+  "ru": "вечер",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "evenings"
+  ],
+  "ex": "Good evening.",
+  "exRu": "Добрый вечер."
+ },
+ {
+  "id": "today",
+  "w": "today",
+  "ru": "сегодня",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I work today.",
+  "exRu": "Я работаю сегодня."
+ },
+ {
+  "id": "tomorrow",
+  "w": "tomorrow",
+  "ru": "завтра",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "See you tomorrow.",
+  "exRu": "Увидимся завтра."
+ },
+ {
+  "id": "yesterday",
+  "w": "yesterday",
+  "ru": "вчера",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I was here yesterday.",
+  "exRu": "Вчера я был здесь."
+ },
+ {
+  "id": "week",
+  "w": "week",
+  "ru": "неделя",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "weeks"
+  ],
+  "ex": "One week is seven days.",
+  "exRu": "Неделя — семь дней."
+ },
+ {
+  "id": "year",
+  "w": "year",
+  "ru": "год",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "years"
+  ],
+  "ex": "I am twenty-four years old.",
+  "exRu": "Мне двадцать четыре года."
+ },
+ {
+  "id": "month",
+  "w": "month",
+  "ru": "месяц",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "months"
+  ],
+  "ex": "One month.",
+  "exRu": "Один месяц."
+ },
+ {
+  "id": "hour",
+  "w": "hour",
+  "ru": "час",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "hours"
+  ],
+  "ex": "I wait one hour.",
+  "exRu": "Я жду час."
+ },
+ {
+  "id": "minute",
+  "w": "minute",
+  "ru": "минута",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "minutes"
+  ],
+  "ex": "Wait one minute.",
+  "exRu": "Подожди минуту."
+ },
+ {
+  "id": "time",
+  "w": "time",
+  "ru": "время; раз",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "times"
+  ],
+  "ex": "What time is it?",
+  "exRu": "Который час?"
+ },
+ {
+  "id": "later",
+  "w": "later",
+  "ru": "позже",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "See you later.",
+  "exRu": "Увидимся позже."
+ },
+ {
+  "id": "early",
+  "w": "early",
+  "ru": "рано; ранний",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I am early.",
+  "exRu": "Я рано."
+ },
+ {
+  "id": "red",
+  "w": "red",
+  "ru": "красный",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The key is red.",
+  "exRu": "Ключ красный."
+ },
+ {
+  "id": "blue",
+  "w": "blue",
+  "ru": "синий; голубой",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The sky is blue.",
+  "exRu": "Небо голубое."
+ },
+ {
+  "id": "green",
+  "w": "green",
+  "ru": "зелёный",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The door is green.",
+  "exRu": "Дверь зелёная."
+ },
+ {
+  "id": "yellow",
+  "w": "yellow",
+  "ru": "жёлтый",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The light is yellow.",
+  "exRu": "Свет жёлтый."
+ },
+ {
+  "id": "black",
+  "w": "black",
+  "ru": "чёрный",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The door is black.",
+  "exRu": "Дверь чёрная."
+ },
+ {
+  "id": "white",
+  "w": "white",
+  "ru": "белый",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The wall is white.",
+  "exRu": "Стена белая."
+ },
+ {
+  "id": "brown",
+  "w": "brown",
+  "ru": "коричневый",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The key is brown.",
+  "exRu": "Ключ коричневый."
+ },
+ {
+  "id": "grey",
+  "w": "grey",
+  "ru": "серый",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [
+   "gray"
+  ],
+  "ex": "The sky is grey.",
+  "exRu": "Небо серое."
+ },
+ {
+  "id": "sky",
+  "w": "sky",
+  "ru": "небо",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "skies"
+  ],
+  "ex": "The sky is blue.",
+  "exRu": "Небо голубое."
+ },
+ {
+  "id": "sun",
+  "w": "sun",
+  "ru": "солнце",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The sun is hot.",
+  "exRu": "Солнце жаркое."
+ },
+ {
+  "id": "moon",
+  "w": "moon",
+  "ru": "луна",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The moon is white.",
+  "exRu": "Луна белая."
+ },
+ {
+  "id": "tree",
+  "w": "tree",
+  "ru": "дерево",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "trees"
+  ],
+  "ex": "The tree is big.",
+  "exRu": "Дерево большое."
+ },
+ {
+  "id": "cat",
+  "w": "cat",
+  "ru": "кот; кошка",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "cats"
+  ],
+  "ex": "The cat sleeps.",
+  "exRu": "Кот спит."
+ },
+ {
+  "id": "dog",
+  "w": "dog",
+  "ru": "собака",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "dogs"
+  ],
+  "ex": "The dog runs.",
+  "exRu": "Собака бежит."
+ },
+ {
+  "id": "from",
+  "w": "from",
+  "ru": "из; от",
+  "pos": "prep",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I am from Russia.",
+  "exRu": "Я из России."
+ },
+ {
+  "id": "out",
+  "w": "out",
+  "ru": "наружу; из",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Go out!",
+  "exRu": "Выходи!"
+ },
+ {
+  "id": "into",
+  "w": "into",
+  "ru": "в; внутрь",
+  "pos": "prep",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "Jump into the gate.",
+  "exRu": "Прыгни в ворота."
+ },
+ {
+  "id": "under",
+  "w": "under",
+  "ru": "под",
+  "pos": "prep",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The key is under the table.",
+  "exRu": "Ключ под столом."
+ },
+ {
+  "id": "over",
+  "w": "over",
+  "ru": "над; через",
+  "pos": "prep",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The light is over the door.",
+  "exRu": "Свет над дверью."
+ },
+ {
+  "id": "after",
+  "w": "after",
+  "ru": "после",
+  "pos": "prep",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "After the night, the day.",
+  "exRu": "После ночи — день."
+ },
+ {
+  "id": "before",
+  "w": "before",
+  "ru": "до; перед",
+  "pos": "prep",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Think before you run.",
+  "exRu": "Думай, прежде чем бежать."
+ },
+ {
+  "id": "by",
+  "w": "by",
+  "ru": "у; рядом; на (транспорте)",
+  "pos": "prep",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Sit by the window.",
+  "exRu": "Сядь у окна."
+ },
+ {
+  "id": "behind",
+  "w": "behind",
+  "ru": "позади; за",
+  "pos": "prep",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "Look behind you!",
+  "exRu": "Оглянись!"
+ },
+ {
+  "id": "between",
+  "w": "between",
+  "ru": "между",
+  "pos": "prep",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "Between two doors.",
+  "exRu": "Между двумя дверями."
+ },
+ {
+  "id": "some",
+  "w": "some",
+  "ru": "несколько; немного",
+  "pos": "det",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I want some water.",
+  "exRu": "Я хочу немного воды."
+ },
+ {
+  "id": "any",
+  "w": "any",
+  "ru": "какой-нибудь; любой",
+  "pos": "det",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Do you have any keys?",
+  "exRu": "У тебя есть ключи?"
+ },
+ {
+  "id": "every",
+  "w": "every",
+  "ru": "каждый",
+  "pos": "det",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Every day.",
+  "exRu": "Каждый день."
+ },
+ {
+  "id": "much",
+  "w": "much",
+  "ru": "много",
+  "pos": "det",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I don't have much time.",
+  "exRu": "У меня мало времени."
+ },
+ {
+  "id": "other",
+  "w": "other",
+  "ru": "другой",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [
+   "others"
+  ],
+  "ex": "The other door is open.",
+  "exRu": "Другая дверь открыта."
+ },
+ {
+  "id": "only",
+  "w": "only",
+  "ru": "только; единственный",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I only have one key.",
+  "exRu": "У меня только один ключ."
+ },
+ {
+  "id": "never",
+  "w": "never",
+  "ru": "никогда",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I never run.",
+  "exRu": "Я никогда не бегаю."
+ },
+ {
+  "id": "again",
+  "w": "again",
+  "ru": "снова",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Say it again.",
+  "exRu": "Скажи это снова."
+ },
+ {
+  "id": "too",
+  "w": "too",
+  "ru": "тоже; слишком",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Me too.",
+  "exRu": "Я тоже."
+ },
+ {
+  "id": "well",
+  "w": "well",
+  "ru": "хорошо; колодец",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "You run well.",
+  "exRu": "Ты хорошо бегаешь."
+ },
+ {
+  "id": "which",
+  "w": "which",
+  "ru": "какой; который",
+  "pos": "pron",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Which door?",
+  "exRu": "Какая дверь?"
+ },
+ {
+  "id": "something",
+  "w": "something",
+  "ru": "что-то",
+  "pos": "pron",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I see something.",
+  "exRu": "Я что-то вижу."
+ },
+ {
+  "id": "someone",
+  "w": "someone",
+  "ru": "кто-то",
+  "pos": "pron",
+  "lvl": "A1",
+  "forms": [
+   "somebody"
+  ],
+  "ex": "Someone is here.",
+  "exRu": "Здесь кто-то есть."
+ },
+ {
+  "id": "everything",
+  "w": "everything",
+  "ru": "всё",
+  "pos": "pron",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "Everything is gone.",
+  "exRu": "Всё исчезло."
+ },
+ {
+  "id": "nobody",
+  "w": "nobody",
+  "ru": "никто",
+  "pos": "pron",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "Nobody is here.",
+  "exRu": "Здесь никого нет."
+ },
+ {
+  "id": "question",
+  "w": "question",
+  "ru": "вопрос",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "questions"
+  ],
+  "ex": "I have a question.",
+  "exRu": "У меня есть вопрос."
+ },
+ {
+  "id": "story",
+  "w": "story",
+  "ru": "история; рассказ",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "stories"
+  ],
+  "ex": "This is a good story.",
+  "exRu": "Это хорошая история."
+ },
+ {
+  "id": "english",
+  "w": "english",
+  "ru": "английский",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I learn English.",
+  "exRu": "Я учу английский."
+ },
+ {
+  "id": "move",
+  "w": "move",
+  "ru": "двигаться; двигать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "moves",
+   "moved",
+   "moving"
+  ],
+  "ex": "A door moves when you push it.",
+  "exRu": "Дверь двигается, когда ты её толкаешь."
+ },
+ {
+  "id": "eleven",
+  "w": "eleven",
+  "ru": "одиннадцать",
+  "pos": "num",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I have eleven keys.",
+  "exRu": "У меня одиннадцать ключей."
+ },
+ {
+  "id": "twelve",
+  "w": "twelve",
+  "ru": "двенадцать",
+  "pos": "num",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "It is twelve.",
+  "exRu": "Сейчас двенадцать."
+ },
+ {
+  "id": "twenty",
+  "w": "twenty",
+  "ru": "двадцать",
+  "pos": "num",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Twenty men are here.",
+  "exRu": "Здесь двадцать человек."
+ },
+ {
+  "id": "hundred",
+  "w": "hundred",
+  "ru": "сто",
+  "pos": "num",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "One hundred words.",
+  "exRu": "Сто слов."
+ },
+ {
+  "id": "first",
+  "w": "first",
+  "ru": "первый; сначала",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "This is the first door.",
+  "exRu": "Это первая дверь."
+ },
+ {
+  "id": "second",
+  "w": "second",
+  "ru": "второй; секунда",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [
+   "seconds"
+  ],
+  "ex": "Wait a second.",
+  "exRu": "Подожди секунду."
+ },
+ {
+  "id": "monday",
+  "w": "monday",
+  "ru": "понедельник",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I work on Monday.",
+  "exRu": "Я работаю в понедельник."
+ },
+ {
+  "id": "friday",
+  "w": "friday",
+  "ru": "пятница",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Friday is good.",
+  "exRu": "Пятница — это хорошо."
+ },
+ {
+  "id": "sunday",
+  "w": "sunday",
+  "ru": "воскресенье",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I sleep on Sunday.",
+  "exRu": "Я сплю в воскресенье."
+ },
+ {
+  "id": "map",
+  "w": "map",
+  "ru": "карта",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "maps"
+  ],
+  "ex": "Look at the map.",
+  "exRu": "Посмотри на карту."
+ },
+ {
+  "id": "secret",
+  "w": "secret",
+  "ru": "секрет; тайна",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "secrets"
+  ],
+  "ex": "This is a secret.",
+  "exRu": "Это секрет."
+ },
+ {
+  "id": "truth",
+  "w": "truth",
+  "ru": "правда",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "Say the truth.",
+  "exRu": "Скажи правду."
+ },
+ {
+  "id": "lie",
+  "w": "lie",
+  "ru": "лгать; ложь",
+  "pos": "v",
+  "lvl": "A2",
+  "forms": [
+   "lies",
+   "lied",
+   "lying"
+  ],
+  "ex": "Don't lie.",
+  "exRu": "Не ври."
+ },
+ {
+  "id": "shadow",
+  "w": "shadow",
+  "ru": "тень",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "shadows"
+  ],
+  "ex": "I see a shadow.",
+  "exRu": "Я вижу тень."
+ },
+ {
+  "id": "fear",
+  "w": "fear",
+  "ru": "страх; бояться",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "fears"
+  ],
+  "ex": "I feel fear.",
+  "exRu": "Я чувствую страх."
+ },
+ {
+  "id": "danger",
+  "w": "danger",
+  "ru": "опасность",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "dangers"
+  ],
+  "ex": "Danger is near.",
+  "exRu": "Опасность рядом."
+ },
+ {
+  "id": "enemy",
+  "w": "enemy",
+  "ru": "враг",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "enemies"
+  ],
+  "ex": "He is an enemy.",
+  "exRu": "Он враг."
+ },
+ {
+  "id": "fire",
+  "w": "fire",
+  "ru": "огонь",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "fires"
+  ],
+  "ex": "The fire is hot.",
+  "exRu": "Огонь горячий."
+ },
+ {
+  "id": "stairs",
+  "w": "stairs",
+  "ru": "лестница; ступеньки",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "stair"
+  ],
+  "ex": "Go up the stairs.",
+  "exRu": "Поднимись по лестнице."
+ },
+ {
+  "id": "lock",
+  "w": "lock",
+  "ru": "замок; запирать",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "locks",
+   "locked"
+  ],
+  "ex": "The door has a lock.",
+  "exRu": "У двери есть замок."
+ },
+ {
+  "id": "bridge",
+  "w": "bridge",
+  "ru": "мост",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "bridges"
+  ],
+  "ex": "Run across the bridge.",
+  "exRu": "Беги по мосту."
+ },
+ {
+  "id": "ghost",
+  "w": "ghost",
+  "ru": "призрак",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "ghosts"
+  ],
+  "ex": "I see a ghost.",
+  "exRu": "Я вижу призрака."
+ },
+ {
+  "id": "wake",
+  "w": "wake",
+  "ru": "просыпаться; будить",
+  "pos": "v",
+  "lvl": "A2",
+  "forms": [
+   "wakes",
+   "woke",
+   "woken",
+   "waking"
+  ],
+  "ex": "Wake up!",
+  "exRu": "Проснись!"
+ },
+ {
+  "id": "hide",
+  "w": "hide",
+  "ru": "прятаться",
+  "pos": "v",
+  "lvl": "A2",
+  "forms": [
+   "hides",
+   "hid",
+   "hidden",
+   "hiding"
+  ],
+  "ex": "Hide here.",
+  "exRu": "Спрячься здесь."
+ },
+ {
+  "id": "follow",
+  "w": "follow",
+  "ru": "следовать; идти за",
+  "pos": "v",
+  "lvl": "A2",
+  "forms": [
+   "follows",
+   "followed",
+   "following"
+  ],
+  "ex": "Follow me.",
+  "exRu": "Иди за мной."
+ },
+ {
+  "id": "scream",
+  "w": "scream",
+  "ru": "кричать; крик",
+  "pos": "v",
+  "lvl": "A2",
+  "forms": [
+   "screams",
+   "screamed",
+   "screaming"
+  ],
+  "ex": "Don't scream.",
+  "exRu": "Не кричи."
+ },
+ {
+  "id": "change",
+  "w": "change",
+  "ru": "менять; изменение",
+  "pos": "v",
+  "lvl": "A2",
+  "forms": [
+   "changes",
+   "changed",
+   "changing"
+  ],
+  "ex": "Change the word.",
+  "exRu": "Измени слово."
+ },
+ {
+  "id": "remember",
+  "w": "remember",
+  "ru": "помнить",
+  "pos": "v",
+  "lvl": "A2",
+  "forms": [
+   "remembers",
+   "remembered",
+   "remembering"
+  ],
+  "ex": "I remember my name.",
+  "exRu": "Я помню своё имя."
+ },
+ {
+  "id": "forget",
+  "w": "forget",
+  "ru": "забывать",
+  "pos": "v",
+  "lvl": "A2",
+  "forms": [
+   "forgets",
+   "forgot",
+   "forgotten",
+   "forgetting"
+  ],
+  "ex": "Don't forget the key.",
+  "exRu": "Не забудь ключ."
+ },
+ {
+  "id": "believe",
+  "w": "believe",
+  "ru": "верить",
+  "pos": "v",
+  "lvl": "A2",
+  "forms": [
+   "believes",
+   "believed",
+   "believing"
+  ],
+  "ex": "I believe you.",
+  "exRu": "Я тебе верю."
+ },
+ {
+  "id": "understand",
+  "w": "understand",
+  "ru": "понимать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "understands",
+   "understood",
+   "understanding"
+  ],
+  "ex": "I understand.",
+  "exRu": "Я понимаю."
+ },
+ {
+  "id": "mean",
+  "w": "mean",
+  "ru": "значить; иметь в виду",
+  "pos": "v",
+  "lvl": "A2",
+  "forms": [
+   "means",
+   "meant",
+   "meaning"
+  ],
+  "ex": "What does it mean?",
+  "exRu": "Что это значит?"
+ },
+ {
+  "id": "careful",
+  "w": "careful",
+  "ru": "осторожный",
+  "pos": "adj",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "Be careful.",
+  "exRu": "Будь осторожен."
+ },
+ {
+  "id": "dangerous",
+  "w": "dangerous",
+  "ru": "опасный",
+  "pos": "adj",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "This floor is dangerous.",
+  "exRu": "Этот этаж опасен."
+ },
+ {
+  "id": "empty",
+  "w": "empty",
+  "ru": "пустой",
+  "pos": "adj",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "The room is empty.",
+  "exRu": "Комната пуста."
+ },
+ {
+  "id": "full",
+  "w": "full",
+  "ru": "полный",
+  "pos": "adj",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "The room is full.",
+  "exRu": "Комната полна."
+ },
+ {
+  "id": "deep",
+  "w": "deep",
+  "ru": "глубокий",
+  "pos": "adj",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "The dark is deep.",
+  "exRu": "Тьма глубокая."
+ },
+ {
+  "id": "high",
+  "w": "high",
+  "ru": "высокий",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The tower is high.",
+  "exRu": "Башня высокая."
+ },
+ {
+  "id": "tall",
+  "w": "tall",
+  "ru": "высокий (о росте)",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "He is tall.",
+  "exRu": "Он высокий."
+ },
+ {
+  "id": "next",
+  "w": "next",
+  "ru": "следующий",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "This is the next floor.",
+  "exRu": "Это следующий этаж."
+ },
+ {
+  "id": "same",
+  "w": "same",
+  "ru": "тот же; одинаковый",
+  "pos": "adj",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "It is the same door.",
+  "exRu": "Это та же дверь."
+ },
+ {
+  "id": "different",
+  "w": "different",
+  "ru": "другой; разный",
+  "pos": "adj",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "This is different.",
+  "exRu": "Это другое."
+ },
+ {
+  "id": "important",
+  "w": "important",
+  "ru": "важный",
+  "pos": "adj",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "This word is important.",
+  "exRu": "Это слово важное."
+ },
+ {
+  "id": "nice",
+  "w": "nice",
+  "ru": "приятный; милый",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "That is nice.",
+  "exRu": "Это мило."
+ },
+ {
+  "id": "sure",
+  "w": "sure",
+  "ru": "уверенный",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I am not sure.",
+  "exRu": "Я не уверен."
+ },
+ {
+  "id": "please",
+  "w": "please",
+  "ru": "пожалуйста",
+  "pos": "interj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Help me, please.",
+  "exRu": "Помоги мне, пожалуйста."
+ },
+ {
+  "id": "maybe",
+  "w": "maybe",
+  "ru": "может быть",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Maybe it is a key.",
+  "exRu": "Может быть, это ключ."
+ },
+ {
+  "id": "about",
+  "w": "about",
+  "ru": "о; около",
+  "pos": "prep",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Tell me about it.",
+  "exRu": "Расскажи мне об этом."
+ },
+ {
+  "id": "across",
+  "w": "across",
+  "ru": "через; по ту сторону",
+  "pos": "prep",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "Run across the hall.",
+  "exRu": "Беги через зал."
+ },
+ {
+  "id": "through",
+  "w": "through",
+  "ru": "сквозь; через",
+  "pos": "prep",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "Go through the gate.",
+  "exRu": "Пройди через ворота."
+ },
+ {
+  "id": "around",
+  "w": "around",
+  "ru": "вокруг",
+  "pos": "prep",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Look around.",
+  "exRu": "Оглянись вокруг."
+ },
+ {
+  "id": "inside",
+  "w": "inside",
+  "ru": "внутри",
+  "pos": "adv",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "Look inside.",
+  "exRu": "Загляни внутрь."
+ },
+ {
+  "id": "outside",
+  "w": "outside",
+  "ru": "снаружи",
+  "pos": "adv",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "The Silent is outside.",
+  "exRu": "Безмолвный снаружи."
+ },
+ {
+  "id": "left",
+  "w": "left",
+  "ru": "левый; налево",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Turn left.",
+  "exRu": "Поверни налево."
+ },
+ {
+  "id": "end",
+  "w": "end",
+  "ru": "конец; заканчивать",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "ends"
+  ],
+  "ex": "This is the end of the hall.",
+  "exRu": "Это конец зала."
+ },
+ {
+  "id": "side",
+  "w": "side",
+  "ru": "сторона",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "sides"
+  ],
+  "ex": "Go to the other side.",
+  "exRu": "Иди на другую сторону."
+ },
+ {
+  "id": "part",
+  "w": "part",
+  "ru": "часть",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "parts"
+  ],
+  "ex": "This is part of the story.",
+  "exRu": "Это часть истории."
+ },
+ {
+  "id": "point",
+  "w": "point",
+  "ru": "точка; смысл; указывать",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "points"
+  ],
+  "ex": "That is the point.",
+  "exRu": "В этом смысл."
+ },
+ {
+  "id": "war",
+  "w": "war",
+  "ru": "война",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "There is a war.",
+  "exRu": "Идёт война."
+ },
+ {
+  "id": "test",
+  "w": "test",
+  "ru": "тест; испытание",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "tests"
+  ],
+  "ex": "This is a test.",
+  "exRu": "Это испытание."
+ },
+ {
+  "id": "game",
+  "w": "game",
+  "ru": "игра",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "games"
+  ],
+  "ex": "This is a game.",
+  "exRu": "Это игра."
+ },
+ {
+  "id": "comic",
+  "w": "comic",
+  "ru": "комикс",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "comics"
+  ],
+  "ex": "I read a comic.",
+  "exRu": "Я читаю комикс."
+ },
+ {
+  "id": "film",
+  "w": "film",
+  "ru": "фильм",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "films",
+   "movie"
+  ],
+  "ex": "I watch a film.",
+  "exRu": "Я смотрю фильм."
+ },
+ {
+  "id": "music",
+  "w": "music",
+  "ru": "музыка",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I like music.",
+  "exRu": "Я люблю музыку."
+ },
+ {
+  "id": "job",
+  "w": "job",
+  "ru": "работа; должность",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "jobs"
+  ],
+  "ex": "I have a job.",
+  "exRu": "У меня есть работа."
+ },
+ {
+  "id": "engineer",
+  "w": "engineer",
+  "ru": "инженер",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "engineers"
+  ],
+  "ex": "Dan is an engineer.",
+  "exRu": "Дэн — инженер."
+ },
+ {
+  "id": "design",
+  "w": "design",
+  "ru": "дизайн; проектировать",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "designs"
+  ],
+  "ex": "I like design.",
+  "exRu": "Я люблю дизайн."
+ },
+ {
+  "id": "language",
+  "w": "language",
+  "ru": "язык",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "languages"
+  ],
+  "ex": "English is a language.",
+  "exRu": "Английский — это язык."
+ },
+ {
+  "id": "sentence",
+  "w": "sentence",
+  "ru": "предложение",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "sentences"
+  ],
+  "ex": "Read the sentence.",
+  "exRu": "Прочитай предложение."
+ },
+ {
+  "id": "letter",
+  "w": "letter",
+  "ru": "буква; письмо",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "letters"
+  ],
+  "ex": "This is a letter.",
+  "exRu": "Это буква."
+ },
+ {
+  "id": "dictionary",
+  "w": "dictionary",
+  "ru": "словарь",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "dictionaries"
+  ],
+  "ex": "I need a dictionary.",
+  "exRu": "Мне нужен словарь."
+ },
+ {
+  "id": "sound",
+  "w": "sound",
+  "ru": "звук",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "sounds"
+  ],
+  "ex": "I hear a sound.",
+  "exRu": "Я слышу звук."
+ },
+ {
+  "id": "noise",
+  "w": "noise",
+  "ru": "шум",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "noises"
+  ],
+  "ex": "I hear a noise.",
+  "exRu": "Я слышу шум."
+ },
+ {
+  "id": "breath",
+  "w": "breath",
+  "ru": "дыхание",
+  "pos": "n",
+  "lvl": "B1",
+  "forms": [
+   "breaths"
+  ],
+  "ex": "Take a breath.",
+  "exRu": "Сделай вдох."
+ }
+]

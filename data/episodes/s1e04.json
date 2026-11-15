@@ -1,0 +1,663 @@
+{
+ "id": "s1e04",
+ "title": "The Price of a Name",
+ "titleRu": "Цена имени",
+ "level": "A1",
+ "newWords": [
+  "know",
+  "want",
+  "need",
+  "have",
+  "like",
+  "think",
+  "give",
+  "name",
+  "say",
+  "dont"
+ ],
+ "panels": [
+  {
+   "bg": "hall",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Круглый зал. Полки до потолка. На каждой — светящиеся слова, словно светлячки в банках."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Where are we?",
+     "ru": "Где мы?"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I don't know.",
+     "ru": "Я не знаю."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I know many things. Not this.",
+     "ru": "Я знаю много. Но не это."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I like this place. I like books!",
+     "ru": "Мне нравится это место. Я люблю книги!"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "No. These are words.",
+     "ru": "Нет. Это слова."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "keeper",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "В центре, в глубоком кресле, сидит человек в капюшоне. Лица не видно. Он будто ждал их давно."
+    },
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "Welcome, Zero. I know you.",
+     "ru": "Добро пожаловать, Зеро. Я знаю тебя."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Zero, don't talk to him.",
+     "ru": "Зеро, не говори с ним."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "keeper",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "You want your name. I have it.",
+     "ru": "Тебе нужно твоё имя. Оно у меня."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Give it to me!",
+     "ru": "Отдай его мне!"
+    },
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "I don't give. I trade.",
+     "ru": "Я не отдаю. Я меняю."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "keeper",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "One word for one name.",
+     "ru": "Одно слово за одно имя."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "What word?",
+     "ru": "Какое слово?"
+    },
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "You have two words. Run and open. I want open.",
+     "ru": "У тебя два слова. Бежать и открывать. Мне нужно «открывать»."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Warning. You need the word OPEN.",
+     "ru": "Предупреждение. Тебе нужно слово ОТКРЫВАТЬ."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I need it. I need my name.",
+     "ru": "Мне нужно оно. Мне нужно моё имя."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Think, Zero! Don't do it!",
+     "ru": "Думай, Зеро! Не делай этого!"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "A name is just a word.",
+     "ru": "Имя — всего лишь слово."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I don't think so.",
+     "ru": "Я так не думаю."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "No. A name is me.",
+     "ru": "Нет. Имя — это я."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "keeper",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "Mira knows the price. Ask her.",
+     "ru": "Мира знает цену. Спроси её."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Don't say a word, Keeper!",
+     "ru": "Не смей говорить, Хранитель!"
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "What price?",
+     "ru": "Какая цена?"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Nothing. I don't want to talk.",
+     "ru": "Ничего. Я не хочу об этом говорить."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Дэн смотрит на светящиеся слова. Он думает об офисе, о маме и о том, как она выбирала ему имя."
+    },
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "I like my name. It is me.",
+     "ru": "Мне нравится моё имя. Это я."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "keeper",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "OK. Take open. Give me my name.",
+     "ru": "Ладно. Забирай «открывать». Верни моё имя."
+    },
+    {
+     "type": "shout",
+     "who": "mira",
+     "en": "Zero, no!",
+     "ru": "Зеро, нет!"
+    }
+   ]
+  },
+  {
+   "bg": "flash",
+   "mood": "action",
+   "sfx": "WHOOSH",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Слово вырывается из груди Дэна, как дыхание на морозе. Светящейся нитью оно летит к Хранителю."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Word lost: OPEN.",
+     "ru": "Слово потеряно: ОТКРЫВАТЬ."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "keeper",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "Now say it. Say your name.",
+     "ru": "Теперь скажи. Назови своё имя."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I... I am...",
+     "ru": "Я... Я..."
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "I am Dan!",
+     "ru": "Я Дэн!"
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Имя возвращается — тёплое, родное, как старая куртка."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "I have my name! I am Dan! I am Dan!",
+     "ru": "У меня есть имя! Я Дэн! Я Дэн!"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "You have your name. You have no door.",
+     "ru": "У тебя есть имя. У тебя нет двери."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Позади Дэна — выход. Дверь в стене. Мира кивает на неё."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Try it, Dan. Open the door.",
+     "ru": "Попробуй, Дэн. Открой дверь."
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "Open! Open the door!",
+     "ru": "Открывайся! Открой дверь!"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "You don't have that word.",
+     "ru": "У тебя нет этого слова."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "keeper",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Хранитель улыбается из-под капюшона. Дверь так и стоит закрытой."
+    },
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "Good luck, Dan.",
+     "ru": "Удачи, Дэн."
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "action",
+   "sfx": "SCREECH",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "keeper",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Полки гаснут одна за другой. В темноте слышен звук — тысячи тихих шагов."
+    },
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "Run. They hear your name.",
+     "ru": "Беги. Они слышат твоё имя."
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "shout",
+     "who": "mira",
+     "en": "You have no door! Think!",
+     "ru": "У тебя нет двери! Думай!"
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "I have a name and I have legs. Run!",
+     "ru": "У меня есть имя и ноги. Бежим!"
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "Настоящее время: I / you + do / don't",
+  "body": "Для обычных действий (знаю, хочу, нужно, нравится) глагол просто стоит после I или you: «I know», «You want». Чтобы сказать «не», ставим перед глаголом don't: «I don't know». Don't — это сокращение от do not.",
+  "examples": [
+   {
+    "en": "I know many things.",
+    "ru": "Я знаю многое."
+   },
+   {
+    "en": "I don't know.",
+    "ru": "Я не знаю."
+   },
+   {
+    "en": "You want your name.",
+    "ru": "Тебе нужно твоё имя."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Что Хранитель хотел получить взамен имени?",
+   "options": [
+    "Слово «бежать»",
+    "Слово «открывать»",
+    "Ключ",
+    "Карту"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Что ответил Дэн, когда Мира сказала, что имя — просто слово?",
+   "options": [
+    "Имя — это я",
+    "Имя ничего не значит",
+    "Я не знаю",
+    "Мне всё равно"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Что произошло, когда Дэн вернул имя и захотел открыть дверь?",
+   "options": [
+    "Дверь открылась",
+    "Появился ключ",
+    "Дверь не открылась",
+    "Дверь исчезла"
+   ],
+   "answer": 2
+  },
+  {
+   "q": "Чего Мира не захотела обсуждать?",
+   "options": [
+    "Свою цену",
+    "Свой дом",
+    "Дорогу к воротам",
+    "Работу Дэна"
+   ],
+   "answer": 0
+  }
+ ]
+}

@@ -1,0 +1,1155 @@
+{
+ "levels": [
+  "A1",
+  "A2",
+  "B1",
+  "B2",
+  "C1"
+ ],
+ "vocab": [
+  {
+   "level": "A1",
+   "word": "house",
+   "options": [
+    "лошадь",
+    "час",
+    "дом",
+    "рука"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "A1",
+   "word": "water",
+   "options": [
+    "вода",
+    "хлеб",
+    "улица",
+    "мясо"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "A1",
+   "word": "friend",
+   "options": [
+    "враг",
+    "брат",
+    "сосед",
+    "друг"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "A1",
+   "word": "eat",
+   "options": [
+    "спать",
+    "есть (кушать)",
+    "пить",
+    "читать"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "A1",
+   "word": "big",
+   "options": [
+    "красный",
+    "холодный",
+    "новый",
+    "большой"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "A1",
+   "word": "school",
+   "options": [
+    "комната",
+    "школа",
+    "машина",
+    "работа"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "A1",
+   "word": "morning",
+   "options": [
+    "утро",
+    "вечер",
+    "неделя",
+    "ночь"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "A1",
+   "word": "blue",
+   "options": [
+    "жёлтый",
+    "зелёный",
+    "синий",
+    "чёрный"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "A1",
+   "word": "brother",
+   "options": [
+    "отец",
+    "брат",
+    "сын",
+    "дядя"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "A1",
+   "word": "walk",
+   "options": [
+    "сидеть",
+    "стоять",
+    "ехать",
+    "идти пешком"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "A1",
+   "word": "cold",
+   "options": [
+    "горячий",
+    "старый",
+    "холодный",
+    "быстрый"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "A1",
+   "word": "book",
+   "options": [
+    "книга",
+    "окно",
+    "стол",
+    "сумка"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "A2",
+   "word": "borrow",
+   "options": [
+    "терять",
+    "брать взаймы",
+    "продавать",
+    "оставлять"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "A2",
+   "word": "crowded",
+   "options": [
+    "переполненный",
+    "пустой",
+    "тихий",
+    "грязный"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "A2",
+   "word": "journey",
+   "options": [
+    "праздник",
+    "урок",
+    "путешествие",
+    "подарок"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "A2",
+   "word": "invite",
+   "options": [
+    "требовать",
+    "приглашать",
+    "напоминать",
+    "разрешать"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "A2",
+   "word": "enough",
+   "options": [
+    "иногда",
+    "слишком",
+    "почти",
+    "достаточно"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "A2",
+   "word": "angry",
+   "options": [
+    "уставший",
+    "голодный",
+    "сердитый",
+    "смущённый"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "A2",
+   "word": "receive",
+   "options": [
+    "получать",
+    "отправлять",
+    "искать",
+    "терять"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "A2",
+   "word": "luggage",
+   "options": [
+    "билет",
+    "паспорт",
+    "багаж",
+    "карта"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "A2",
+   "word": "weather",
+   "options": [
+    "погода",
+    "сезон",
+    "климат",
+    "ветер"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "A2",
+   "word": "ticket",
+   "options": [
+    "очередь",
+    "место",
+    "цена",
+    "билет"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "A2",
+   "word": "during",
+   "options": [
+    "после",
+    "во время",
+    "вместо",
+    "рядом"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "A2",
+   "word": "exercise",
+   "options": [
+    "экзамен",
+    "опыт",
+    "привычка",
+    "упражнение"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "B1",
+   "word": "although",
+   "options": [
+    "поэтому",
+    "пока",
+    "хотя",
+    "иначе"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "B1",
+   "word": "improve",
+   "options": [
+    "улучшать",
+    "сравнивать",
+    "проверять",
+    "повторять"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "B1",
+   "word": "opportunity",
+   "options": [
+    "обязанность",
+    "опасность",
+    "возможность",
+    "мнение"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "B1",
+   "word": "attitude",
+   "options": [
+    "отношение (позиция)",
+    "достижение",
+    "расстояние",
+    "ощущение"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "B1",
+   "word": "suggest",
+   "options": [
+    "объяснять",
+    "замечать",
+    "запрещать",
+    "предлагать"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "B1",
+   "word": "experience",
+   "options": [
+    "эксперимент",
+    "опыт",
+    "событие",
+    "знание"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "B1",
+   "word": "avoid",
+   "options": [
+    "принимать",
+    "догонять",
+    "терпеть",
+    "избегать"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "B1",
+   "word": "environment",
+   "options": [
+    "правительство",
+    "окружающая среда",
+    "оборудование",
+    "здание"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "B1",
+   "word": "unless",
+   "options": [
+    "если не",
+    "потому что",
+    "как только",
+    "хотя бы"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "B1",
+   "word": "realise",
+   "options": [
+    "создавать",
+    "отвергать",
+    "осознавать",
+    "запоминать"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "B1",
+   "word": "tend",
+   "options": [
+    "стараться",
+    "иметь склонность",
+    "притворяться",
+    "спешить"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "B1",
+   "word": "develop",
+   "options": [
+    "разрушать",
+    "удалять",
+    "заменять",
+    "развивать"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "B2",
+   "word": "reluctant",
+   "options": [
+    "уверенный",
+    "неохотный",
+    "щедрый",
+    "внимательный"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "B2",
+   "word": "thorough",
+   "options": [
+    "поверхностный",
+    "быстрый",
+    "случайный",
+    "тщательный"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "B2",
+   "word": "undermine",
+   "options": [
+    "укреплять",
+    "подрывать",
+    "игнорировать",
+    "защищать"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "B2",
+   "word": "ambiguous",
+   "options": [
+    "двусмысленный",
+    "очевидный",
+    "безопасный",
+    "временный"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "B2",
+   "word": "outcome",
+   "options": [
+    "причина",
+    "намерение",
+    "исход, результат",
+    "условие"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "B2",
+   "word": "convince",
+   "options": [
+    "заставлять",
+    "убеждать",
+    "обманывать",
+    "отговаривать"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "B2",
+   "word": "hinder",
+   "options": [
+    "ускорять",
+    "заменять",
+    "направлять",
+    "препятствовать"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "B2",
+   "word": "reliable",
+   "options": [
+    "дорогой",
+    "модный",
+    "надёжный",
+    "упрямый"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "B2",
+   "word": "justify",
+   "options": [
+    "оправдывать",
+    "обвинять",
+    "отменять",
+    "откладывать"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "B2",
+   "word": "inevitable",
+   "options": [
+    "маловероятный",
+    "желанный",
+    "неизбежный",
+    "необычный"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "B2",
+   "word": "sustain",
+   "options": [
+    "поддерживать (длительно)",
+    "прерывать",
+    "ограничивать",
+    "присваивать"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "B2",
+   "word": "compelling",
+   "options": [
+    "скучный",
+    "спорный",
+    "поверхностный",
+    "убедительный"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "C1",
+   "word": "ubiquitous",
+   "options": [
+    "редкий",
+    "вездесущий",
+    "загадочный",
+    "опасный"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "C1",
+   "word": "scrutiny",
+   "options": [
+    "одобрение",
+    "сомнение",
+    "наказание",
+    "пристальное изучение"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "C1",
+   "word": "exacerbate",
+   "options": [
+    "смягчать",
+    "объяснять",
+    "усугублять",
+    "устранять"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "C1",
+   "word": "ephemeral",
+   "options": [
+    "недолговечный",
+    "вечный",
+    "хрупкий",
+    "древний"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "C1",
+   "word": "meticulous",
+   "options": [
+    "небрежный",
+    "щедрый",
+    "дотошный, скрупулёзный",
+    "настойчивый"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "C1",
+   "word": "pragmatic",
+   "options": [
+    "практичный",
+    "идеалистичный",
+    "упрямый",
+    "осторожный"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "C1",
+   "word": "juxtapose",
+   "options": [
+    "упрощать",
+    "заменять",
+    "скрывать",
+    "сопоставлять (рядом)"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "C1",
+   "word": "ambivalent",
+   "options": [
+    "безразличный",
+    "относящийся двойственно",
+    "враждебный",
+    "восторженный"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "C1",
+   "word": "tenuous",
+   "options": [
+    "прочный",
+    "очевидный",
+    "сложный",
+    "шаткий, слабый"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "C1",
+   "word": "candid",
+   "options": [
+    "скрытный",
+    "откровенный",
+    "вежливый",
+    "язвительный"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "C1",
+   "word": "obsolete",
+   "options": [
+    "устаревший",
+    "новаторский",
+    "популярный",
+    "дорогой"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "C1",
+   "word": "mitigate",
+   "options": [
+    "усиливать",
+    "предсказывать",
+    "смягчать",
+    "игнорировать"
+   ],
+   "answer": 2
+  }
+ ],
+ "reading": [
+  {
+   "level": "A1",
+   "text": "Tom has a cat. The cat is black.",
+   "q": "Какого цвета кот?",
+   "options": [
+    "Белый",
+    "Рыжий",
+    "Чёрный",
+    "Серый"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "A1",
+   "text": "Anna is at school. She has a red bag.",
+   "q": "Что у Анны?",
+   "options": [
+    "Красная книга",
+    "Красная сумка",
+    "Синяя ручка",
+    "Чёрный телефон"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "A1",
+   "text": "I get up at seven. I eat bread and drink tea.",
+   "q": "Что человек пьёт утром?",
+   "options": [
+    "Чай",
+    "Кофе",
+    "Воду",
+    "Молоко"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "A1",
+   "text": "My name is Leo. I am twenty. I live in a small house.",
+   "q": "Где живёт Лео?",
+   "options": [
+    "В большом городе",
+    "В школе",
+    "В офисе",
+    "В маленьком доме"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "A2",
+   "text": "Last week I went to Paris with my sister. We stayed in a small hotel near the river. The weather was bad, so we visited museums every day.",
+   "q": "Почему они каждый день ходили по музеям?",
+   "options": [
+    "Музеи были бесплатными",
+    "Отель был рядом с музеем",
+    "Сестра там работает",
+    "Из-за плохой погоды"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "A2",
+   "text": "Ben usually takes the bus to work, but today it was late. He walked for twenty minutes and arrived tired.",
+   "q": "Почему Бен приехал уставшим?",
+   "options": [
+    "Автобус был переполнен",
+    "Он плохо спал",
+    "Шёл пешком двадцать минут",
+    "Он бежал на встречу"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "A2",
+   "text": "My brother wants to buy a new phone, but it is expensive. He is saving money and will buy it in May.",
+   "q": "Когда брат купит телефон?",
+   "options": [
+    "Завтра",
+    "В мае",
+    "В следующем году",
+    "Когда он подешевеет"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "A2",
+   "text": "The library opens at nine and closes at six. On Sundays it is closed. You can borrow three books for two weeks.",
+   "q": "Сколько книг можно взять?",
+   "options": [
+    "Три",
+    "Две",
+    "Шесть",
+    "Девять"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "B1",
+   "text": "Although Maria was nervous, she accepted the job in Berlin. She thought it was a great opportunity to improve her German, even though the salary was lower than before.",
+   "q": "Почему Мария согласилась на работу?",
+   "options": [
+    "Хотела улучшить немецкий",
+    "Зарплата была выше",
+    "Боялась остаться без работы",
+    "Её уговорил друг"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "B1",
+   "text": "Many people think that working from home saves time. However, a recent survey shows that employees often work longer hours because they cannot separate work from personal life.",
+   "q": "Что показал опрос?",
+   "options": [
+    "Дома работать быстрее",
+    "Люди меньше устают",
+    "Все хотят вернуться в офис",
+    "Дома люди часто работают дольше"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "B1",
+   "text": "The museum was supposed to open in June, but the builders found a problem with the roof. Unless it is repaired quickly, the opening will be delayed until autumn.",
+   "q": "Когда откроют музей, если крышу не починят быстро?",
+   "options": [
+    "В июне",
+    "Зимой",
+    "Осенью",
+    "Весной"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "B1",
+   "text": "When I started learning the guitar, I practised every day. After a month I stopped because I thought I was not improving, but my teacher said progress is slow at the beginning.",
+   "q": "Что сказал учитель?",
+   "options": [
+    "Нужно играть чаще",
+    "Вначале прогресс медленный",
+    "Гитара ему не подходит",
+    "Нужно купить новую гитару"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "B2",
+   "text": "Despite the initial scepticism of investors, the start-up managed to secure funding after demonstrating that its prototype could reduce energy consumption by a third. Critics, however, argue that the figures were obtained under laboratory conditions that rarely reflect real-world use.",
+   "q": "В чём сомневаются критики?",
+   "options": [
+    "Инвесторы не дали денег",
+    "Цифры получены в нереалистичных лабораторных условиях",
+    "Прототип потребляет больше энергии",
+    "Стартап скрыл данные"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "B2",
+   "text": "The committee was reluctant to approve the proposal, not because it lacked merit, but because the timing coincided with a budget review. As a result, the decision was postponed until the autumn.",
+   "q": "Почему решение отложили?",
+   "options": [
+    "Время совпало с пересмотром бюджета",
+    "Предложение было слабым",
+    "Не хватило членов комитета",
+    "Автор отозвал предложение"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "B2",
+   "text": "Contrary to popular belief, multitasking rarely makes people more productive. Researchers found that switching between tasks consumes mental energy, so the overall quality of work tends to deteriorate.",
+   "q": "Что обнаружили исследователи?",
+   "options": [
+    "Многозадачность повышает продуктивность",
+    "Люди лучше работают вечером",
+    "Задачи нужно делегировать",
+    "Переключение между задачами ухудшает качество"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "B2",
+   "text": "Her novel, which was initially dismissed by reviewers, gained a cult following after being adapted for television. She now admits that the success felt bittersweet, since the criticism had nearly made her abandon writing altogether.",
+   "q": "Почему успех казался ей горько-сладким?",
+   "options": [
+    "Экранизацию сделали без неё",
+    "Она не любит телевидение",
+    "Критика почти заставила её бросить писать",
+    "Рецензенты извинились"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "C1",
+   "text": "The proliferation of digital platforms has ostensibly democratised access to information, yet scholars caution that it has simultaneously fostered echo chambers in which users encounter only perspectives that corroborate their existing convictions. Algorithms optimised for engagement tend to amplify emotionally charged content, thereby eroding the shared factual baseline on which public deliberation depends. Proponents counter that such concerns are overstated, pointing out that most users still consume a varied diet of sources. Nevertheless, the empirical evidence remains equivocal, and the debate shows no sign of abating.",
+   "q": "Как автор оценивает имеющиеся данные?",
+   "options": [
+    "Они полностью подтверждают опасения",
+    "Они опровергают критиков",
+    "Они неоднозначны, спор продолжается",
+    "Данных пока не собирали"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "C1",
+   "text": "Although the translator was widely praised for her fidelity to the original, a handful of critics argued that this very fidelity rendered the prose stilted. Whatever one's verdict, it is undeniable that the choices she made, preserving idiom at the expense of fluency, reflect a coherent philosophy rather than mere carelessness. It is perhaps telling that readers who know the source language tend to be more forgiving.",
+   "q": "Кто, по тексту, более снисходителен к переводу?",
+   "options": [
+    "Критики",
+    "Читатели, знающие язык оригинала",
+    "Сама переводчица",
+    "Те, кто не читает книг"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "C1",
+   "text": "The firm's decision to relocate its headquarters was framed as a cost-saving measure, but internal memos suggest that the real motive was to sidestep impending regulation. Executives, who had previously insisted that the move was purely logistical, were conspicuously silent when asked to comment. Analysts note that such discrepancies seldom go unnoticed for long.",
+   "q": "Что можно заключить о настоящей причине переезда?",
+   "options": [
+    "Скорее всего, обойти будущее регулирование",
+    "Единственная причина — экономия",
+    "Нехватка сотрудников",
+    "Давление акционеров"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "C1",
+   "text": "Her argument rests on a deceptively simple premise: that memory is reconstructive rather than reproductive. Each time we recall an event, we rebuild it from fragments, and in doing so we inevitably alter it. This, she contends, calls into question the reliability of eyewitness testimony, a cornerstone of many legal systems.",
+   "q": "Что, по мнению автора, ставится под сомнение?",
+   "options": [
+    "Само существование памяти",
+    "Честность судей",
+    "Скорость запоминания",
+    "Надёжность показаний свидетелей"
+   ],
+   "answer": 3
+  }
+ ],
+ "listening": [
+  {
+   "level": "A1",
+   "audio": "I have a red car.",
+   "q": "Что сказали?",
+   "options": [
+    "У меня красный дом",
+    "Я вижу красную машину",
+    "У меня красная машина",
+    "У меня синяя машина"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "A1",
+   "audio": "She is my sister.",
+   "q": "Что сказали?",
+   "options": [
+    "Она моя мама",
+    "Она моя сестра",
+    "Он мой брат",
+    "Она моя подруга"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "A1",
+   "audio": "Where is the bus?",
+   "q": "Что сказали?",
+   "options": [
+    "Где автобус?",
+    "Где школа?",
+    "Когда придёт автобус?",
+    "Какой это автобус?"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "A1",
+   "audio": "We eat at six.",
+   "q": "Что сказали?",
+   "options": [
+    "Мы ужинаем в семь",
+    "Мы спим в шесть",
+    "Я ем в шесть",
+    "Мы ужинаем в шесть"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "A2",
+   "audio": "I usually drink tea in the morning.",
+   "q": "Что сказали?",
+   "options": [
+    "Обычно я пью кофе утром",
+    "Сегодня я пью чай вечером",
+    "Утром я никогда не пью чай",
+    "Обычно я пью чай утром"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "A2",
+   "audio": "Can you tell me the way to the station?",
+   "q": "Что сказали?",
+   "options": [
+    "Подскажите, когда отправляется поезд",
+    "Подскажите, где ближайший магазин",
+    "Подскажите дорогу до вокзала",
+    "Вы покажете мне свой билет?"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "A2",
+   "audio": "The train leaves at half past seven.",
+   "q": "Что сказали?",
+   "options": [
+    "Поезд прибывает в половине восьмого",
+    "Поезд отправляется в половине восьмого",
+    "Поезд отправляется без четверти семь",
+    "Автобус отправляется в половине восьмого"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "A2",
+   "audio": "I forgot my keys at home yesterday.",
+   "q": "Что сказали?",
+   "options": [
+    "Вчера я забыл ключи дома",
+    "Сегодня я потерял ключи",
+    "Вчера я забыл ключи на работе",
+    "Завтра я возьму ключи"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "B1",
+   "audio": "If I had more time, I would learn another language.",
+   "q": "Что сказали?",
+   "options": [
+    "Будь у меня больше времени, я бы выучил ещё один язык",
+    "У меня есть время, и я учу другой язык",
+    "Я учил другой язык, пока было время",
+    "Если будет время, я забуду язык"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "B1",
+   "audio": "She has been working here since the beginning of last year.",
+   "q": "Что сказали?",
+   "options": [
+    "Она работала здесь в прошлом году, но ушла",
+    "Она работает здесь уже десять лет",
+    "Она начнёт работать здесь в следующем году",
+    "Она работает здесь с начала прошлого года"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "B1",
+   "audio": "I would rather stay at home than go out in this weather.",
+   "q": "Что сказали?",
+   "options": [
+    "В такую погоду я обязательно пойду гулять",
+    "Я остался дома, потому что заболел",
+    "В такую погоду я лучше останусь дома, чем пойду гулять",
+    "Дома мне нравится больше, чем на работе"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "B1",
+   "audio": "He suggested that we should meet earlier than usual.",
+   "q": "Что сказали?",
+   "options": [
+    "Он настоял, чтобы мы встретились позже",
+    "Он предложил встретиться раньше обычного",
+    "Он спросил, когда мы обычно встречаемся",
+    "Он предложил встретиться в обычное время"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "B2",
+   "audio": "Had I known about the delay, I would have booked a different flight.",
+   "q": "Что сказали?",
+   "options": [
+    "Я знал о задержке, но всё равно забронировал этот рейс",
+    "Если бы я знал о задержке, я бы забронировал другой рейс",
+    "Я узнал о задержке и отменил рейс",
+    "Когда я узнаю о задержке, я забронирую другой рейс"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "B2",
+   "audio": "The report fell short of expectations, which came as no surprise to anyone.",
+   "q": "Что сказали?",
+   "options": [
+    "Отчёт не оправдал ожиданий, и никого это не удивило",
+    "Отчёт превзошёл ожидания, и все удивились",
+    "Отчёт не оправдал ожиданий, и все были удивлены",
+    "Отчёт был ожидаемо хорош, и никто не удивился"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "B2",
+   "audio": "It is not so much the cost that bothers me as the lack of transparency.",
+   "q": "Что сказали?",
+   "options": [
+    "Меня беспокоит и цена, и непрозрачность одинаково",
+    "Меня беспокоит только цена",
+    "Меня не беспокоит ни цена, ни прозрачность",
+    "Меня беспокоит не столько цена, сколько непрозрачность"
+   ],
+   "answer": 3
+  },
+  {
+   "level": "B2",
+   "audio": "She managed to turn the negotiations around at the last minute.",
+   "q": "Что сказали?",
+   "options": [
+    "Она сорвала переговоры в последнюю минуту",
+    "Она не успела прийти на переговоры",
+    "Ей удалось в последнюю минуту переломить ход переговоров",
+    "Она отложила переговоры на следующую неделю"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "C1",
+   "audio": "Not that I am complaining, but the whole thing could have been handled with a bit more tact.",
+   "q": "Что сказали?",
+   "options": [
+    "Я не жалуюсь, всё было сделано очень тактично",
+    "Я жалуюсь, что всё сделали слишком быстро",
+    "Не то чтобы я жаловался, но можно было бы действовать тактичнее",
+    "Я бы пожаловался, но уже поздно"
+   ],
+   "answer": 2
+  },
+  {
+   "level": "C1",
+   "audio": "Having weighed up the pros and cons, they decided to scale back the project.",
+   "q": "Что сказали?",
+   "options": [
+    "Взвесив все за и против, они решили расширить проект",
+    "Взвесив все за и против, они решили сократить масштаб проекта",
+    "Они решили отказаться от проекта, не обсуждая его",
+    "Они сначала сократили проект, а потом всё взвесили"
+   ],
+   "answer": 1
+  },
+  {
+   "level": "C1",
+   "audio": "He was hardly in a position to criticise, given his own track record.",
+   "q": "Что сказали?",
+   "options": [
+    "Учитывая его собственный послужной список, ему вряд ли стоило критиковать",
+    "Он имел полное право критиковать из-за своего опыта",
+    "Он вообще не стал критиковать, чтобы не обидеть",
+    "Он критиковал, потому что был в курсе всех дел"
+   ],
+   "answer": 0
+  },
+  {
+   "level": "C1",
+   "audio": "The proposal, were it to pass, would have far-reaching ramifications for small businesses.",
+   "q": "Что сказали?",
+   "options": [
+    "Предложение приняли, и малый бизнес не пострадал",
+    "Предложение отклонили из-за малого бизнеса",
+    "Предложение коснётся только крупных компаний",
+    "Если бы предложение приняли, оно серьёзно затронуло бы малый бизнес"
+   ],
+   "answer": 3
+  }
+ ]
+}

@@ -1,0 +1,614 @@
+{
+ "id": "s1e01",
+ "title": "The Door",
+ "titleRu": "Дверь",
+ "level": "A1",
+ "newWords": [
+  "door",
+  "open",
+  "word",
+  "run",
+  "help",
+  "who",
+  "what",
+  "tired",
+  "weak",
+  "slow"
+ ],
+ "panels": [
+  {
+   "bg": "office-night",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Два часа ночи. Офис пуст. Только Дэн, чертежи и остывший кофе."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am Dan.",
+     "ru": "Я Дэн."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am tired.",
+     "ru": "Я устал."
+    }
+   ]
+  },
+  {
+   "bg": "office-night",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Дэн — инженер. Он рисует чужие здания. Свою жизнь он не рисует вообще."
+    },
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "Work, work, work.",
+     "ru": "Работа, работа, работа."
+    },
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "This is my life.",
+     "ru": "Это моя жизнь."
+    }
+   ]
+  },
+  {
+   "bg": "office-night",
+   "mood": "tense",
+   "sfx": "CREAK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "И вдруг стена за спиной тихо скрипит."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "What is that?",
+     "ru": "Что это?"
+    }
+   ]
+  },
+  {
+   "bg": "office-night",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "В стене — дверь. Старая, чёрная. Три года Дэн работает здесь. Двери тут никогда не было."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "This is a door.",
+     "ru": "Это дверь."
+    },
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "But the door is not here.",
+     "ru": "Но двери здесь нет."
+    }
+   ]
+  },
+  {
+   "bg": "office-night",
+   "mood": "tense",
+   "sfx": "KNOCK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Hello? Hello?",
+     "ru": "Эй? Эй?"
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Тишина. Потом — стук. Изнутри."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Who is that?",
+     "ru": "Кто это?"
+    }
+   ]
+  },
+  {
+   "bg": "office-night",
+   "mood": "tense",
+   "sfx": "CLICK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Дверь медленно открывается сама. За ней — свет."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Open? The door is open!",
+     "ru": "Открыта? Дверь открыта!"
+    },
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "I am tired. This is a dream.",
+     "ru": "Я устал. Это сон."
+    }
+   ]
+  },
+  {
+   "bg": "flash",
+   "mood": "action",
+   "sfx": "FLASH",
+   "cast": [],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Дэн делает шаг. Свет ослепляет, и пол уходит из-под ног."
+    }
+   ]
+  },
+  {
+   "bg": "tower-exterior",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Он стоит на каменной площади. Над ним — башня. Она уходит выше облаков."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "What is this place?",
+     "ru": "Что это за место?"
+    }
+   ]
+  },
+  {
+   "bg": "tower-exterior",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "system",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Welcome. This is the Tower.",
+     "ru": "Добро пожаловать. Это Башня."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "You have 0 words.",
+     "ru": "У тебя 0 слов."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "New word: OPEN.",
+     "ru": "Новое слово: ОТКРЫВАТЬ."
+    }
+   ]
+  },
+  {
+   "bg": "tower-exterior",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "system",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Zero words? I am Dan!",
+     "ru": "Ноль слов? Я Дэн!"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Words are power. You are weak.",
+     "ru": "Слова — это сила. Ты слабый."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am not weak!",
+     "ru": "Я не слабый!"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "You are very weak.",
+     "ru": "Ты очень слабый."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "tense",
+   "sfx": "SCRATCH",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Дэн оборачивается. Двери за спиной больше нет. Зато в темноте кто-то скребётся."
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "Open the door! Open!",
+     "ru": "Открой дверь! Откройся!"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "No door is here.",
+     "ru": "Здесь нет двери."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Из тени выходит девушка с рюкзаком и холодным взглядом. Она явно привыкла выживать."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "You are loud.",
+     "ru": "Ты шумный."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Who are you?",
+     "ru": "Кто ты?"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I am Mira.",
+     "ru": "Я Мира."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Help me!",
+     "ru": "Помоги мне!"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "No.",
+     "ru": "Нет."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "No?",
+     "ru": "Нет?"
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Мира смотрит не на Дэна. Она смотрит ему за спину."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "tense",
+   "sfx": "HISSS",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Тень на полу растёт. Из неё поднимается фигура без лица."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "It is a Silent.",
+     "ru": "Это Безмолвный."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Who is it? What is a Silent?",
+     "ru": "Кто это? Что такое Безмолвный?"
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "shout",
+     "who": "mira",
+     "en": "Run!",
+     "ru": "Беги!"
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "Help! Help!",
+     "ru": "Помогите! Помогите!"
+    },
+    {
+     "type": "shout",
+     "who": "mira",
+     "en": "Run, Dan! Run!",
+     "ru": "Беги, Дэн! Беги!"
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "action",
+   "sfx": "STEP",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Мира тянет Дэна за руку. Но он не спортсмен. Он инженер."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am slow! I am so tired!",
+     "ru": "Я медленный! Я так устал!"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "You are slow!",
+     "ru": "Да, ты медленный!"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "You are very slow.",
+     "ru": "Ты очень медленный."
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "silent",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Безмолвный наклоняется к лицу Дэна. Вместо рта — пустота."
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "I am Dan.",
+     "ru": "Я Дэн."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Word lost: DAN.",
+     "ru": "Слово потеряно: ДЭН."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Дэн открывает рот. Имени там больше нет. А у существа — его голос."
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "Глагол to be: am / is / are",
+  "body": "В английском нельзя пропустить глагол: «Я Дэн» — это «I am Dan». Для «я» используем am, для «ты» (и «мы», «они») — are, а для «он / она / оно / это» — is. Вопрос получается перестановкой: «Who are you?».",
+  "examples": [
+   {
+    "en": "I am Dan.",
+    "ru": "Я Дэн."
+   },
+   {
+    "en": "You are weak.",
+    "ru": "Ты слабый."
+   },
+   {
+    "en": "This is a door.",
+    "ru": "Это дверь."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Что появилось в стене офиса, где Дэн работал допоздна?",
+   "options": [
+    "Окно",
+    "Дверь",
+    "Лифт",
+    "Картина"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Что сказала Дэну Система в Башне?",
+   "options": [
+    "У тебя 100 слов",
+    "Ты в безопасности",
+    "У тебя 0 слов",
+    "Ты спишь"
+   ],
+   "answer": 2
+  },
+  {
+   "q": "Как зовут девушку, которая встретила Дэна?",
+   "options": [
+    "Мира",
+    "Дэна",
+    "Лина",
+    "Зеро"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Что сказал Безмолвный голосом Дэна?",
+   "options": [
+    "Open the door.",
+    "I am Dan.",
+    "I am Mira.",
+    "Run!"
+   ],
+   "answer": 1
+  }
+ ]
+}

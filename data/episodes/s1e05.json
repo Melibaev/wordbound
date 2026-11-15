@@ -1,0 +1,656 @@
+{
+ "id": "s1e05",
+ "title": "A Voice in the Dark",
+ "titleRu": "Голос во тьме",
+ "level": "A1",
+ "newWords": [
+  "she",
+  "he",
+  "does",
+  "why",
+  "how",
+  "push",
+  "read",
+  "live",
+  "wait",
+  "ask"
+ ],
+ "panels": [
+  {
+   "bg": "black",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Шаги Безмолвных — отовсюду. Мира дёргает Дэна за рукав. Дверь — вот она. Но слова «открыть» у него больше нет."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Dan! Think!",
+     "ru": "Дэн! Думай!"
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "I can't open it!",
+     "ru": "Я не могу её открыть!"
+    },
+    {
+     "type": "shout",
+     "who": "mira",
+     "en": "How does a door move? Push it!",
+     "ru": "Как двигается дверь? Толкай её!"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "action",
+   "sfx": "BANG",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "New word: PUSH.",
+     "ru": "Новое слово: ТОЛКАТЬ."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "A door moves when you push it.",
+     "ru": "Дверь двигается, когда ты её толкаешь."
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "I push! I push!",
+     "ru": "Я толкаю! Я толкаю!"
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Дверь поддаётся. Не потому что открылась, а потому что её толкнули. Башня засчитывает."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": "SLAM",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Они вваливаются в тёмный коридор. Дверь захлопывается. Шаги за ней стихают."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I don't need open. I push!",
+     "ru": "Мне не нужно «открывать». Я толкаю!"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "You are slow. But you think.",
+     "ru": "Ты медленный. Но ты думаешь."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Who is he? The man in the Hall?",
+     "ru": "Кто он? Тот человек в Зале?"
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Where does he live?",
+     "ru": "Где он живёт?"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "He lives in the Hall. He is the Keeper.",
+     "ru": "В Зале. Он Хранитель."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "He reads. He takes a word. He gives a name.",
+     "ru": "Он читает. Он берёт слово. Он даёт имя."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Why does he want open?",
+     "ru": "Зачем ему «открывать»?"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I don't know. Ask the Keeper. He wants a door.",
+     "ru": "Не знаю. Спроси Хранителя. Ему нужна дверь."
+    },
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "A door? What door?",
+     "ru": "Дверь? Какая дверь?"
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "And who builds the Tower?",
+     "ru": "А кто построил Башню?"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "No one knows.",
+     "ru": "Никто не знает."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "I know.",
+     "ru": "Я знаю."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "I do. Ask me when you have 100 words.",
+     "ru": "Знаю. Спроси меня, когда у тебя будет сто слов."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Why does she choose me?",
+     "ru": "Почему она выбрала меня?"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "You have 0 words. That is why.",
+     "ru": "У тебя 0 слов. Вот почему."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "That is not an answer.",
+     "ru": "Это не ответ."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "It is a short answer. Ask me later.",
+     "ru": "Это короткий ответ. Спроси позже."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "She is rude. She is always rude.",
+     "ru": "Она грубая. Она всегда грубая."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Впервые за всю ночь Мира почти улыбается. Почти."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "How do you read so many words?",
+     "ru": "Как ты читаешь столько слов?"
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I live here. I read. I climb. I wait.",
+     "ru": "Я живу здесь. Я читаю. Я лезу вверх. Я жду."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Where does this go?",
+     "ru": "Куда это ведёт?"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Up. To the last door of the floor.",
+     "ru": "Наверх. К последней двери этажа."
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Последний зал этажа. Холодный камень, эхо шагов. В глубине — высокая чёрная дверь."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "There is the door!",
+     "ru": "Вот дверь!"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Wait.",
+     "ru": "Подожди."
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "silent",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Перед дверью стоит Безмолвный. Он не двигается. Он будто ждёт."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "How does it see us?",
+     "ru": "Как он нас видит?"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "It does not see. It hears.",
+     "ru": "Он не видит. Он слышит."
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "silent",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Wait. Don't talk. Don't run. Push the door slow.",
+     "ru": "Жди. Не говори. Не беги. Толкай дверь медленно."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Дэн кладёт ладони на холодное дерево. Дверь скрипит так тихо, как только может."
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": "CREAK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "silent",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I push. It is heavy.",
+     "ru": "Я толкаю. Она тяжёлая."
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "Mira?",
+     "ru": "Мира?"
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "silent",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Голос тонкий, детский. Мира замирает, будто её ударили."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "No.",
+     "ru": "Нет."
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "silent",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "Mira. It is me. Why do you run?",
+     "ru": "Мира. Это я. Почему ты бежишь?"
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Mira? Who is it?",
+     "ru": "Мира? Кто это?"
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "center"
+    }
+   ],
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Мира роняет рюкзак. Она открывает рот — и закрывает. Слово, которое она хочет сказать, потеряно давно."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "She is my...",
+     "ru": "Она моя..."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I can't. I don't have the word.",
+     "ru": "Не могу. У меня нет этого слова."
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "He / she + глагол с -s и вопросы с does",
+  "body": "С he, she и it к глаголу в настоящем времени добавляем -s: «He lives», «She knows», «He wants». В вопросах и отрицаниях появляется does, а глагол остаётся без -s: «Why does he want it?», «It does not see». Для I и you — по-прежнему do.",
+  "examples": [
+   {
+    "en": "He lives in the Hall.",
+    "ru": "Он живёт в Зале."
+   },
+   {
+    "en": "Why does he want open?",
+    "ru": "Зачем ему «открывать»?"
+   },
+   {
+    "en": "It does not see. It hears.",
+    "ru": "Он не видит. Он слышит."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Какое новое слово получил Дэн, чтобы выйти через дверь?",
+   "options": [
+    "Push",
+    "Open",
+    "Key",
+    "Door"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Что Мира сказала про Хранителя?",
+   "options": [
+    "Он живёт в Зале",
+    "Он живёт в офисе",
+    "Он живёт у ворот",
+    "Он друг Дэна"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Что ответила Система на вопрос, почему она выбрала Дэна?",
+   "options": [
+    "Потому что он сильный",
+    "Потому что у него 0 слов",
+    "Потому что он умный",
+    "Потому что он ночью работал"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Что Мира не смогла сказать в конце?",
+   "options": [
+    "Своё имя",
+    "Слово «дверь»",
+    "Слово, которое потеряла",
+    "Слово «Хранитель»"
+   ],
+   "answer": 2
+  }
+ ]
+}
