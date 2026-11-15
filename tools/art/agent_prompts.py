@@ -76,9 +76,9 @@ def video_md(eid, panels, checks):
     ck = checks.get(eid, [])
     L = ["## Видео (после того как все картинки готовы)\n",
          "Отправляй в **тот же чат агента**, где делал картинки этого эпизода. Перед каждым видео Flow покажет окно "
-         "подтверждения со стоимостью в кредитах. Максимум 3 видео на эпизод, по важности: "
+         "подтверждения со стоимостью в кредитах. Максимум 2 видео на эпизод (лучше одно), по важности: "
          "⭐ — обязательно, остальные — если хватает кредитов.\n"]
-    for rank, i in enumerate(video_order(panels)[:3]):
+    for rank, i in enumerate(video_order(panels)[:2]):
         n = i + 1
         star = " ⭐ главное" if rank == 0 else ""
         msg = ('Animate the final image of panel %02d from the collection "%s" into a short video. %s '
