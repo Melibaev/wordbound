@@ -127,7 +127,7 @@
 ## 5. ВИЗУАЛЬНАЯ БИБЛИЯ (для генерации изображений, английский)
 
 ### 5.1 Global style line (prefix every prompt with this)
-`Korean webtoon style, full colour, clean digital linework with soft cel shading, cinematic framing, vertical panel composition. Palette: warm paper cream #F3E9D2, ink black #1B1A17, ash grey #8C877C, ochre/brass lamp light #C99A3B, cold teal #2F7F86 reserved for the Silent, and vermilion #E8391D reserved ONLY for word power. No purple, no violet, no blue neon, no gradients of purple-to-blue.`
+`Modern full-colour vertical webtoon style, clean digital linework with soft cel shading, cinematic framing, vertical panel composition. Palette: warm paper cream #F3E9D2, ink black #1B1A17, ash grey #8C877C, ochre/brass lamp light #C99A3B, cold teal #2F7F86 reserved for the Silent, and vermilion #E8391D reserved ONLY for word power. No purple, no violet, no blue neon, no gradients of purple-to-blue.`
 
 Colour rules: **vermilion = power of words** (glowing letters, the thread of breath, the System border). **Teal = the Silent** (shadows, ink, their skin edges). **Warm paper/ochre = safety, humans, lamps.** Office is the odd one out: cold fluorescent grey-green and sodium orange.
 
