@@ -1446,6 +1446,416 @@ This — то, что рядом («это»), that — то, что подал�
 
 ---
 
+## Эпизод 7 (s1e07): The Ink Market — Рынок Чернил
+
+- **Уровень:** A1
+- **Панелей:** 17
+- **newWords:** buy, sell, money, much, many, fix, rest, phone, girl, sing
+
+### Синопсис
+
+Дэн выносит почти бездыханную Миру на Рынок Чернил, где всё покупают и продают, а дыхание стоит слов, которых у него нет. Он замечает, что навес торговца вот-вот рухнет, и в нужде связывает слово FIX: балка сшита красными буквами, а в уплату торговец отдаёт ему слово REST. Дэн шепчет REST Мире, и дыхание возвращается к ней, а слово остаётся у него: учить и отдавать можно, не теряя. Одно слово торговца он не слышит — как будто кто-то смял бумагу, и Система снова говорит «Almost». На прилавке «вещей снаружи» звонит его телефон, голос мамы зовёт его поесть, но телефон уходит к человеку в чёрном пальто с гроссбухом: голос, который зовёт снаружи, здесь дороже любого слова. Торговец говорит, что телефон принесла маленькая девочка, которая не говорит, а только поёт. Издалека доносится песня, Мира узнаёт её и уходит в темноту одна.
+
+### Сценарий по панелям
+
+#### Панель 01
+
+- **bg:** `street` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), mira (center), pip (right)
+- **art:** Wide low-angle establishing shot at the entrance of the Ink Market: Dan staggers forward at the left carrying limp Mira piggyback, while Pip trots at his side on the right. Around them hooded traders at crooked stalls under patched paper awnings turn their faces away. Hanging glass bottles of black ink, small jars with one vermilion spark each, ochre lanterns, steam.
+- **Реплики:**
+  - `narration-ru` — **RU:** Рынок встречает Дэна запахом чернил и полным равнодушием. Никто не оборачивается: у каждого здесь свой счёт.
+  - `shout / dan` — **EN:** Help! She has two breaths! — **RU:** Помогите! У неё два дыхания!
+  - `speech / pip` — **EN:** Nobody helps here. They buy. They sell. — **RU:** Тут никто не помогает. Тут покупают. Тут продают.
+
+#### Панель 02
+
+- **bg:** `street` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), pip (right)
+- **art:** Very wide high-angle shot over the whole Ink Market landing: dozens of crooked stalls, awnings, ropes and pulleys, hanging bottles of black ink, small vermilion sparks in jars, steam. Dan stands small at the left foreground looking out; Pip at the right foreground sweeps one arm across the scene like a guide. At the far left a bench with only Mira's boots visible.
+- **Реплики:**
+  - `speech / pip` — **EN:** This is the Ink Market. They sell breath. — **RU:** Это Рынок Чернил. Тут продают дыхание.
+  - `speech / dan` — **EN:** How much is a breath? — **RU:** Сколько стоит дыхание?
+
+#### Панель 03
+
+- **bg:** `street` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), trader (right), system (center)
+- **art:** Medium two-shot at a plank counter: the stout trader in an ink-stained apron holds up ten fingers in one hand and two in the other and leans toward Dan; Dan on the left looks at small jars on the counter, each with a thin vermilion thread of breath curling inside. The System window floats above the counter.
+- **Реплики:**
+  - `speech / trader` — **EN:** Ten breaths, two words. Buy it. A good price. — **RU:** Десять дыханий за два слова. Бери. Хорошая цена.
+  - `system / system` — **EN:** Count: two. You are poor. — **RU:** Счёт: два. Ты беден.
+
+#### Панель 04
+
+- **bg:** `street` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), mira (right), system (center)
+- **art:** Close two-shot beside a wooden bench: Mira lies on it with her head on her rolled cream scarf, lips grey, a thin vermilion thread at the corner of her mouth; Dan crouches at the left and stares at his own empty open palm. The System window hovers between them.
+- **Реплики:**
+  - `system / system` — **EN:** Mira has one breath. — **RU:** У Миры одно дыхание.
+  - `thought / dan` — **EN:** Think. I have two words. I need them. I have no money. — **RU:** Думай. У меня два слова. Они мне нужны. Денег нет.
+
+#### Панель 05
+
+- **bg:** `street` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), trader (right)
+- **art:** Medium-wide shot looking up at the trader's stall: Dan at the left points the yellow pencil up at a sagging wooden beam with a visible hairline crack, one of the four posts leaning out; hundreds of ink bottles hang on ropes from the beam. The trader at the right folds his arms and scoffs.
+- **Реплики:**
+  - `narration-ru` — **RU:** Три года Дэн считал чужие балки. Эта не доживёт до вечера.
+  - `speech / dan` — **EN:** Your roof is bad. That leg is weak. I can fix it. — **RU:** Твоя крыша плохая. Вот эта стойка слабая. Я могу её починить.
+  - `speech / trader` — **EN:** My roof is good. Go home, Zero. — **RU:** Моя крыша хорошая. Иди домой, Зеро.
+
+#### Панель 06
+
+- **bg:** `street` | **mood:** `action` | **sfx:** `CRACK`
+- **cast:** dan (left), trader (right)
+- **art:** Dynamic low-angle shot: the beam of the awning splits with a loud crack, one corner post kicks out, the whole roof tilts and hundreds of hanging ink bottles swing and slide on their ropes. The trader at the right clutches his head; Dan at the left looks up with glasses glinting, one hand raised.
+- **Реплики:**
+  - `shout / dan` — **EN:** How many jars? — **RU:** Сколько банок?
+  - `shout / trader` — **EN:** Twenty! Too many! My money! — **RU:** Двадцать! Слишком много! Мои деньги!
+
+#### Панель 07
+
+- **bg:** `street` | **mood:** `action` | **sfx:** `CREAK`
+- **cast:** dan (left), system (right)
+- **art:** Dramatic wide shot from below: Dan at the left braced under the sagging beam, one palm raised to stop it, a long wooden pole propped under it; glowing vermilion lettering shapes (lettering added later) stream from his mouth and stitch the crack in the beam like red thread. The System window floats at the right.
+- **Реплики:**
+  - `shout / dan` — **EN:** Stop! Push! Fix! — **RU:** Стой! Толкай! Чини!
+  - `system / system` — **EN:** New word: FIX. FIX is yours now. Count: three. — **RU:** Новое слово: FIX. FIX теперь твоё. Счёт: три.
+  - `system / system` — **EN:** Big thing, big breath. Dan has one breath. — **RU:** Большая вещь — большое дыхание. У Дэна одно дыхание.
+
+#### Панель 08
+
+- **bg:** `street` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), trader (right), system (center)
+- **art:** Medium shot: the repaired beam between Dan and the trader carries a fading vermilion seam; three posts stand straight but the fourth leans a little. The trader points at the crooked post while Dan cups a hand to his ear in confusion. The System window floats above them.
+- **Реплики:**
+  - `speech / trader` — **EN:** Three words, and you fix my roof! But you don't ... it. One leg is still bad. — **RU:** Три слова, и ты чинишь мою крышу! Но ты не ... её. Одна стойка всё ещё кривая.
+  - `speech / dan` — **EN:** What word? I hear nothing. — **RU:** Какое слово? Я ничего не слышу.
+  - `system / system` — **EN:** Almost. — **RU:** Почти.
+  - `narration-ru` — **RU:** Одно слово торговца Дэн не расслышал — будто кто-то смял бумагу. Четвёртая стойка так и осталась кривой.
+
+#### Панель 09
+
+- **bg:** `street` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), trader (right), system (center)
+- **art:** Over-the-shoulder shot from behind Dan: the trader, now smiling, holds out his open palm with a tiny glowing vermilion spark floating above it, a word handed over like a coin; Dan reaches toward it. The System window hovers above the spark.
+- **Реплики:**
+  - `speech / trader` — **EN:** A trade is a trade. I pay a word, not money. — **RU:** Сделка есть сделка. Я плачу словом, а не деньгами.
+  - `speech / trader` — **EN:** REST gives breath. Say it to her. — **RU:** REST даёт дыхание. Скажи его ей.
+  - `system / system` — **EN:** New word: REST. REST is yours now. Count: four. Title: Roof-Fixer. — **RU:** Новое слово: REST. REST теперь твоё. Счёт: четыре. Титул: Починщик крыш.
+
+#### Панель 10
+
+- **bg:** `street` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (right), system (center)
+- **art:** Close two-shot at the bench: Dan kneels at the left, bent over Mira with one hand held above her chest; a soft warm vermilion glow drifts from his lips toward hers and the colour is coming back into her cheeks. The System window floats above.
+- **Реплики:**
+  - `speech / dan` — **EN:** Rest, Mira. Rest. — **RU:** Отдыхай, Мира. Отдыхай.
+  - `system / system` — **EN:** Mira has six breaths. — **RU:** У Миры шесть дыханий.
+  - `thought / dan` — **EN:** I give her breath. I don't lose the word. Good. — **RU:** Я отдаю ей дыхание. А слово не теряю. Хорошо.
+
+#### Панель 11
+
+- **bg:** `street` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), pip (right)
+- **art:** Medium shot at a small fruit-and-bread stall: Pip behind the counter holds up two fingers with a sly grin, a pile of red apples between him and Dan; Dan at the left counts on his fingers with one hand on his belly, stomach clearly empty. Mira sits up small on the bench far behind them.
+- **Реплики:**
+  - `speech / dan` — **EN:** How many apples for one word? — **RU:** Сколько яблок за одно слово?
+  - `speech / pip` — **EN:** Two! You have four words. Eight apples! Eat something, Zero. — **RU:** Два! У тебя четыре слова. Восемь яблок! Поешь что-нибудь, Зеро.
+
+#### Панель 12
+
+- **bg:** `street` | **mood:** `tense` | **sfx:** `RING`
+- **cast:** dan (center)
+- **art:** Tight close-up on Dan's face turning sharply to the right, eyes wide behind the taped round glasses, one hand freezing on the pencil behind his ear. The market behind him is a dim blur; faint thin pale arcs of sound curve past his ear.
+- **Реплики:**
+  - `speech / dan` — **EN:** That sound. I know that sound. — **RU:** Этот звук. Я знаю этот звук.
+
+#### Панель 13
+
+- **bg:** `street` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), trader (right)
+- **art:** Medium shot over Dan's shoulder: on a low table of things from outside (one sneaker, a ring of keys, a wristwatch, a teddy bear, a coffee mug) lies Dan's smartphone with a spiderweb-cracked screen glowing softly white. Dan at the left reaches toward it, the trader behind the table smiles.
+- **Реплики:**
+  - `narration` — **EN:** Mom: Dan, eat something. — **RU:** Мама: Дэн, поешь что-нибудь.
+  - `shout / dan` — **EN:** My phone! That is my mom! How much is it? — **RU:** Мой телефон! Это моя мама! Сколько он стоит?
+
+#### Панель 14
+
+- **bg:** `street` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), trader (right), system (center)
+- **art:** Wide two-level shot: in the foreground the trader at the right holds the phone up while Dan at the left reaches for it. Behind them a tall man in a long ink-black coat with brass buttons and a thin brass chain from collar to pocket, black gloves, a slim ledger book under his arm, face hidden by his high collar, takes the phone and walks toward a far stair. The System window hovers at the centre.
+- **Реплики:**
+  - `speech / trader` — **EN:** The phone is not cheap. Twenty words. It has a voice from outside. — **RU:** Телефон не дешёвый. Двадцать слов. В нём голос снаружи.
+  - `speech / trader` — **EN:** Sorry, Zero. That man buys it. He pays much. — **RU:** Прости, Зеро. Тот человек его покупает. Он платит много.
+  - `system / system` — **EN:** Missed calls: 10. — **RU:** Пропущенные звонки: 10.
+  - `narration-ru` — **RU:** Голос, который зовёт тебя снаружи, стоит здесь дороже любого слова. Дэн пока не знает почему.
+
+#### Панель 15
+
+- **bg:** `street` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Action medium shot: Dan at the left lunges toward a far stair with an outstretched arm; Mira at the right sits up on the bench and grips his sleeve with her left hand, the red cord on her wrist. Far in the background a small figure in a black coat climbs the stair holding something that glows faintly white.
+- **Реплики:**
+  - `shout / dan` — **EN:** Stop him! That is my mom! — **RU:** Остановите его! Это моя мама!
+  - `speech / mira` — **EN:** No. Think. You give me breath. Not bad, Zero. — **RU:** Нет. Думай. Ты отдал мне дыхание. Неплохо, Зеро.
+
+#### Панель 16
+
+- **bg:** `street` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (center), trader (right)
+- **art:** Medium three-shot: Dan at the left, still breathing hard, leans on the counter; Mira in the centre sits on the bench edge with a hand on her temple; the trader at the right shrugs while polishing a jar with a cloth. The mood is quiet and tired.
+- **Реплики:**
+  - `speech / dan` — **EN:** Who sells you my phone? — **RU:** Кто продал тебе мой телефон?
+  - `speech / trader` — **EN:** A little girl sells it to me. She does not talk. She sings. — **RU:** Маленькая девочка. Она не говорит. Она поёт.
+  - `speech / mira` — **EN:** A girl? What does she sing? — **RU:** Девочка? Что она поёт?
+
+#### Панель 17
+
+- **bg:** `black` | **mood:** `tense` | **sfx:** `—`
+- **cast:** mira (center), system (right)
+- **art:** Dark wide shot from behind: Mira, small in the centre, walks alone away from the lantern light into a narrow dark passage between stalls; only faint thin pale sound-lines drift from the far darkness. The dim System window floats at the right.
+- **Реплики:**
+  - `narration-ru` — **RU:** Издалека доносится тонкая песня без слов. Мира знает эту песню. Она сама когда-то пела её тому, кто боялся темноты.
+  - `speech / mira` — **EN:** I know that song. Lina sings it every night. — **RU:** Я знаю эту песню. Лина поёт её каждую ночь.
+  - `system / system` — **EN:** The girl sings. She is near. — **RU:** Девочка поёт. Она рядом.
+
+### Грамматика: How much / how many, множественное число и числа
+
+Цену спрашивают так: «How much is the phone?». Количество предметов, которые можно пересчитать, — «How many jars?». После many слово стоит во множественном числе: к нему добавляется -s (one jar — twenty jars, one apple — two apples). Деньги и цена идут с much, предметы по штукам — с many. Ответом служит просто число: «Twenty!».
+
+- How much is a breath? — Сколько стоит дыхание?
+- How many jars? — Сколько банок?
+- How many apples for one word? — Сколько яблок за одно слово?
+
+### Квиз
+
+1. Чем на Рынке Чернил платят за вещи и дыхание?
+   - Деньгами
+   - Словами **(верно)**
+   - Карандашами
+   - Яблоками
+2. Как Дэн заработал слово REST?
+   - Купил у Пипа
+   - Выиграл спор у торговца
+   - Починил навес торговца **(верно)**
+   - Нашёл на земле
+3. Что Дэн увидел на прилавке «вещей снаружи»?
+   - Ключ от двери
+   - Жёлтый карандаш
+   - Карту Миры
+   - Свой телефон с голосом мамы **(верно)**
+4. Кто продал телефон торговцу?
+   - Маленькая девочка, которая поёт **(верно)**
+   - Пип
+   - Хранитель
+   - Мира
+
+---
+
+## Эпизод 8 (s1e08): Lina — Лина
+
+- **Уровень:** A1
+- **Панелей:** 16
+- **newWords:** family, mother, child, love, friend, lie, true, alone, use
+
+### Синопсис
+
+В тупике за рынком Мира наконец рассказывает о Лине, и серия почти вся — её воспоминание, рассказанное в настоящем времени. Две сестры остались вдвоём; на кухонной стене выросла дверь, Лина открыла её, а потом, в Башне, Безмолвные забрали все слова Лины. На рисунке памяти нельзя разобрать, чьи пальцы разжались первыми. Чтобы получить карту к последней двери, Мира отдала Хранителю слово целиком, и теперь не слышит и не говорит его. Ей нужен Зеро: тот, кто учит слова, может составить предложение, которое откроет дверь, и она три года ждала такого человека. Дэн узнаёт, что его использовали, они ссорятся, и он уходит; Мира делает шаг и не может побежать за ним. Одинокого Дэна берёт за рукав маленькая Безмолвная и ведёт туда, где нет Мириной карты.
+
+### Сценарий по панелям
+
+#### Панель 01
+
+- **bg:** `street` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Tense two-shot in a dead-end stone alley behind the market: Dan at the left, Mira at the right facing him, both out of breath. The song has gone silent; on a rusty nail in the wall between them hangs a scrap of frayed vermilion thread, the same as Mira's cord. One flickering ochre lantern, cold teal darkness at the far end.
+- **Реплики:**
+  - `narration-ru` — **RU:** Тупик за рынком. Песня стихла. На ржавом гвозде — обрывок красной нити, точь-в-точь как у Миры на запястье.
+  - `speech / dan` — **EN:** Lina is your sister, Mira. — **RU:** Лина — твоя сестра, Мира.
+  - `speech / mira` — **EN:** I hear nothing. But yes. — **RU:** Я ничего не слышу. Но да.
+
+#### Панель 02
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Quiet two-shot in a tiny round niche room with ochre scratched walls and a bare hanging lamp with a vermilion-hearted flame: Mira at the right sits with her back to the wall and her knees up, eyes on the floor; Dan at the left sits cross-legged, listening. Warm, fragile light.
+- **Реплики:**
+  - `narration-ru` — **RU:** Мира говорит быстро и ровно — как человек, который много раз рассказывал это самому себе.
+  - `speech / mira` — **EN:** I tell you the true story. It is not good. — **RU:** Я расскажу тебе правдивую историю. Она нехорошая.
+
+#### Панель 03
+
+- **bg:** `white` | **mood:** `calm` | **sfx:** `—`
+- **cast:** mira (left), lina_human (right)
+- **art:** Memory scene in warm sepia paper tones. Wide shot of a tiny cramped family kitchen: young Mira (the same look, three years younger) at the left and her 14-year-old sister Lina with two loose braids at the right sit close together at a small table, two cups, a small window with soft light; the other two chairs are empty. A faint red cord on each girl's left wrist.
+- **Реплики:**
+  - `speech / mira` — **EN:** Lina and me. Our mother is gone. Our father is gone. — **RU:** Мы с Линой. Нашей мамы нет. Нашего папы нет.
+  - `speech / mira` — **EN:** She is my family. I am her family. — **RU:** Она моя семья. Я её семья.
+
+#### Панель 04
+
+- **bg:** `white` | **mood:** `calm` | **sfx:** `—`
+- **cast:** mira (left), lina_human (right)
+- **art:** Memory scene in warm sepia paper tones. Medium shot in the kitchen: on the plain wall a wooden door has grown out of nowhere, a single faint vermilion glow shape (abstract, no letters) around its frame; Lina at the right reaches for its handle with a curious smile; young Mira at the left sits at the table, seen half from behind, watching.
+- **Реплики:**
+  - `speech / mira` — **EN:** A door comes. Lina opens it. She is a child. She loves doors. — **RU:** Приходит дверь. Лина открывает её. Она ребёнок. Она любит двери.
+
+#### Панель 05
+
+- **bg:** `white` | **mood:** `tense` | **sfx:** `—`
+- **cast:** mira (left), lina_human (right)
+- **art:** Memory scene in warm sepia paper tones. Medium tracking shot in a narrow Tower corridor: Lina at the right walks ahead with her chin up, singing with her mouth open; young Mira at the left hurries behind her with a finger raised to her own lips. Faint vermilion sparks float overhead.
+- **Реплики:**
+  - `speech / mira` — **EN:** A child sings. She loves songs. She is loud. I say: be quiet. — **RU:** Ребёнок поёт. Она любит песни. Она громкая. Я говорю: тише.
+
+#### Панель 06
+
+- **bg:** `white` | **mood:** `action` | **sfx:** `—`
+- **cast:** mira (left), lina_human (center), silent (right)
+- **art:** Memory scene in warm sepia paper tones. Dramatic close shot on two hands in the foreground drifting apart, fingers sliding, both slightly blurred so that it is impossible to tell which hand opened first; behind them, out of focus, young Mira on her knees at the left, Lina pulled back at the centre, and a tall faceless Silent looming at the right.
+- **Реплики:**
+  - `speech / mira` — **EN:** They come. I have no breath. They take the child. They take all her words. — **RU:** Они идут. У меня нет дыхания. Они забирают ребёнка. Они забирают все её слова.
+  - `narration-ru` — **RU:** Две руки расходятся. Чьи пальцы разжались первыми — на этом рисунке не разобрать.
+  - `speech / mira` — **EN:** Then I am alone. — **RU:** И я остаюсь одна.
+
+#### Панель 07
+
+- **bg:** `room` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Two-shot in the niche room: Dan at the left leans forward with elbows on his knees, listening hard; Mira at the right stares at the lamp, her jaw tight, one hand gripping the red cord on her left wrist. The lamp's vermilion-hearted flame flickers.
+- **Реплики:**
+  - `speech / dan` — **EN:** And the Keeper? — **RU:** А Хранитель?
+  - `speech / mira` — **EN:** I go to him. He has a map to the last door. It is not free. — **RU:** Я иду к нему. У него есть карта к последней двери. Она не бесплатная.
+
+#### Панель 08
+
+- **bg:** `white` | **mood:** `tense` | **sfx:** `—`
+- **cast:** keeper (center), mira (left), system (right)
+- **art:** Memory scene in warm sepia paper tones. Wide shot of the huge round Hall of Words with shelves of glowing jars: the Keeper (hood hiding his eyes, only a calm small smile visible) at the centre draws a single glowing vermilion thread out of young Mira's chest with his ink-stained fingertips; Mira at the left, pale and rigid. The red cord on her wrist dims. The System window floats at the right.
+- **Реплики:**
+  - `speech / keeper` — **EN:** One word, whole. I give you the map. — **RU:** Одно слово, целиком. Я даю тебе карту.
+  - `system / system` — **EN:** Word lost: ... — **RU:** Слово потеряно: ...
+  - `narration-ru` — **RU:** Даже в собственной памяти Мира не слышит, какое слово у неё забрали.
+
+#### Панель 09
+
+- **bg:** `room` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), mira (right), system (center)
+- **art:** Close two-shot in the niche room: Mira at the right looks straight at Dan with hard honest eyes; Dan at the left listens, the lamp flame between them. The System window hovers at the top centre, its border steady.
+- **Реплики:**
+  - `speech / mira` — **EN:** Lina waits at the last door. It needs a sentence. — **RU:** Лина ждёт у последней двери. Ей нужно предложение.
+  - `speech / mira` — **EN:** Nobody here can make one. We buy words and use them one by one. — **RU:** Здесь никто не может его составить. Мы покупаем слова и используем их по одному.
+  - `system / system` — **EN:** True. — **RU:** Правда.
+
+#### Панель 10
+
+- **bg:** `room` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Close-up two-shot, eye level: Mira at the right speaks without looking away; Dan at the left slowly understands, eyes widening behind the taped glasses. The lamp's warm light cuts across both faces.
+- **Реплики:**
+  - `speech / mira` — **EN:** The Keeper tells me: wait for a Zero. A Zero learns his words. He can open that door. — **RU:** Хранитель говорит мне: жди Зеро. Зеро учит свои слова. Он может открыть ту дверь.
+  - `speech / dan` — **EN:** So you wait for me. — **RU:** Значит, ты ждала меня.
+  - `speech / mira` — **EN:** I wait three years. I don't tell you. That is a lie too. — **RU:** Я жду три года. Я не говорю тебе. Это тоже ложь.
+
+#### Панель 11
+
+- **bg:** `room` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Tense two-shot, slightly low angle: Dan at the left has stood up, fists clenched, stricken and angry; Mira at the right stays seated, looking up at him, unflinching. The niche walls are scratched with names.
+- **Реплики:**
+  - `speech / dan` — **EN:** You don't help me. You use me. — **RU:** Ты мне не помогаешь. Ты меня используешь.
+  - `speech / mira` — **EN:** Yes. I use you. Lina is my family. — **RU:** Да. Я использую тебя. Лина — моя семья.
+  - `speech / dan` — **EN:** One day. Then I am gone. Zero is useful. — **RU:** Один день. Потом я уйду. Зеро полезен.
+  - `speech / mira` — **EN:** It is true. I don't lie to you now. — **RU:** Это правда. Сейчас я тебе не вру.
+
+#### Панель 12
+
+- **bg:** `room` | **mood:** `action` | **sfx:** `—`
+- **cast:** dan (left), mira (right), system (center)
+- **art:** Action two-shot in the niche room: Dan at the left shouts with one arm thrown out, Mira at the right on her feet shouts back, both leaning into each other; between and above them the System window with a solid vermilion border and inverted colours (a warning). The lamp flame leans sideways as if from the noise.
+- **Реплики:**
+  - `shout / dan` — **EN:** My name! My OPEN! You know his price! — **RU:** Моё имя! Моё OPEN! Ты знала его цену!
+  - `shout / mira` — **EN:** I tell you: don't talk to him! He is bad for us! — **RU:** Я говорила: не говори с ним! Он плох для нас!
+  - `shout / dan` — **EN:** My mom calls me! You lie! I am not your key! — **RU:** Мне звонит мама! Ты лжёшь! Я не твой ключ!
+  - `system / system` — **EN:** Quiet. They hear you. — **RU:** Тише. Они слышат вас.
+
+#### Панель 13
+
+- **bg:** `corridor` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Medium shot in the soot-dark corridor from behind Mira at the right: Dan at the left walks away from her into the corridor, his back to the viewer, fists in his pockets. Mira has taken half a step and stopped, one hand outstretched, her feet visibly unable to follow. The niche's warm lamp glow behind her.
+- **Реплики:**
+  - `speech / dan` — **EN:** I am not your friend. Find your door alone. — **RU:** Я тебе не друг. Ищи свою дверь одна.
+  - `speech / mira` — **EN:** Zero. Wait. — **RU:** Зеро. Подожди.
+  - `thought / mira` — **EN:** He is not my friend. He is my key. Then why can't I run? — **RU:** Он мне не друг. Он мой ключ. Тогда почему я не могу бежать?
+  - `narration-ru` — **RU:** Мира хочет побежать за ним — и не может. Там, где было слово, теперь дыра: она не умеет удерживать своих.
+
+#### Панель 14
+
+- **bg:** `corridor` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), system (right)
+- **art:** Quiet medium shot in the corridor: Dan at the left sits on the floor with his back against the wall, knees up, glasses pushed up on his forehead, rubbing his eyes; the System window floats at the right at his eye level, small and dim.
+- **Реплики:**
+  - `system / system` — **EN:** You are alone. That is a bad plan. — **RU:** Ты один. Это плохой план.
+  - `speech / dan` — **EN:** True. Her plan is bad too. A friend does not use a friend. — **RU:** Верно. Её план тоже плохой. Друг не использует друга.
+  - `system / system` — **EN:** Missed calls: 11. — **RU:** Пропущенные звонки: 11.
+  - `thought / dan` — **EN:** Mom. I love you. I never say it to you. — **RU:** Мама. Я люблю тебя. Я никогда тебе этого не говорю.
+
+#### Панель 15
+
+- **bg:** `corridor` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), silent (right)
+- **art:** Close two-shot at hip height: a small child-sized Silent (1.4 m, with a frayed vermilion cord on its left wrist) at the right has taken Dan's sleeve between two thin pale fingers and tugs it; Dan at the left looks down at it, caught between fear and tenderness.
+- **Реплики:**
+  - `speech / silent` — **EN:** Come. — **RU:** Иди.
+  - `speech / dan` — **EN:** Lina? I am not Mira. Mira is there. — **RU:** Лина? Я не Мира. Мира там.
+  - `speech / silent` — **EN:** Come. You. — **RU:** Иди. Ты.
+
+#### Панель 16
+
+- **bg:** `black` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), silent (center), system (right)
+- **art:** Dark low-angle shot: in a black wall a narrow slit of red light splits the dark; the small Silent in the centre points one thin arm toward it, Dan at the left looks at the slit, and the System window with a solid vermilion border floats at the right.
+- **Реплики:**
+  - `speech / silent` — **EN:** Look. — **RU:** Смотри.
+  - `system / system` — **EN:** Warning. This place is not on her map. — **RU:** Предупреждение. Этого места нет на её карте.
+  - `narration-ru` — **RU:** Она ведёт его не к сестре. Она ведёт его туда, куда три года водила пальцем по камню.
+
+### Грамматика: my, your, his, her, our и me, him, her, us, them
+
+Слова my (мой), your (твой), his (его), her (её), our (наш) стоят перед существительным и показывают, чьё оно: my name, her words, our mother. Слова me, him, her, us, them стоят после глагола и отвечают на вопрос «кого?»: You use me. They take her. Заметь, что her бывает двух видов: her family — «её семья», They take her — «забирают её».
+
+- She is my family. — Она моя семья.
+- I am her family. — Я её семья.
+- You use me. — Ты меня используешь.
+
+### Квиз
+
+1. Какое слово Мира отдала Хранителю?
+   - Мама
+   - Дверь
+   - Сестра **(верно)**
+   - Карта
+2. Что Мира получила взамен?
+   - Карту к последней двери **(верно)**
+   - Новое имя
+   - Красный шнурок
+   - Десять дыханий
+3. Зачем Мире нужен Зеро?
+   - Он сильнее всех на этаже
+   - Он носит её рюкзак
+   - Он умеет драться
+   - Он учит слова и может составить предложение для двери **(верно)**
+4. Кто увёл Дэна в конце серии?
+   - Пип
+   - Маленькая Безмолвная — Лина **(верно)**
+   - Хранитель
+   - Торговец
+
+---
+
 # 3. Статус эпизодов (картинки и видео)
 
 Данные из `art/manifest.json`, только чтение.
@@ -1458,6 +1868,8 @@ This — то, что рядом («это»), that — то, что подал�
 | s1e04 | The Price of a Name / Цена имени | 17 | 17 из 17 | 2 (панели 11, 17) | да, 17 |
 | s1e05 | A Voice in the Dark / Голос во тьме | 15 | 15 из 15 | 2 (панели 2, 15) | да, 15 |
 | s1e06 | The Stair of Echoes / Лестница эха | 16 | 0 из 16 | 0 | да, 16 |
+| s1e07 | The Ink Market / Рынок Чернил | 17 | 0 из 17 | 0 | да, 17 |
+| s1e08 | Lina / Лина | 16 | 0 из 16 | 0 | да, 16 |
 
 ---
 

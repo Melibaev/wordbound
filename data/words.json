@@ -4986,5 +4986,144 @@
   "forms": [],
   "ex": "Lina is her sister.",
   "exRu": "Лина её сестра."
+ },
+ {
+  "id": "ink",
+  "w": "ink",
+  "ru": "чернила",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "inks"
+  ],
+  "ex": "The ink is black.",
+  "exRu": "Чернила чёрные."
+ },
+ {
+  "id": "poor",
+  "w": "poor",
+  "ru": "бедный",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "You are poor.",
+  "exRu": "Ты беден."
+ },
+ {
+  "id": "roof",
+  "w": "roof",
+  "ru": "крыша",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "roofs"
+  ],
+  "ex": "Your roof is bad.",
+  "exRu": "Твоя крыша плохая."
+ },
+ {
+  "id": "fix",
+  "w": "fix",
+  "ru": "чинить",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "fixes",
+   "fixed",
+   "fixing",
+   "fixer"
+  ],
+  "ex": "I can fix it.",
+  "exRu": "Я могу это починить."
+ },
+ {
+  "id": "pay",
+  "w": "pay",
+  "ru": "платить",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "pays",
+   "paid",
+   "paying"
+  ],
+  "ex": "He pays much.",
+  "exRu": "Он платит много."
+ },
+ {
+  "id": "rest",
+  "w": "rest",
+  "ru": "отдыхать; отдых",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "rests",
+   "resting"
+  ],
+  "ex": "Rest, Mira. Rest.",
+  "exRu": "Отдыхай, Мира. Отдыхай."
+ },
+ {
+  "id": "title",
+  "w": "title",
+  "ru": "титул; название",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "titles"
+  ],
+  "ex": "Title: Roof-Fixer.",
+  "exRu": "Титул: Починщик крыш."
+ },
+ {
+  "id": "cheap",
+  "w": "cheap",
+  "ru": "дешёвый",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The phone is not cheap.",
+  "exRu": "Телефон не дешёвый."
+ },
+ {
+  "id": "miss",
+  "w": "miss",
+  "ru": "пропускать; скучать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "misses",
+   "missed",
+   "missing"
+  ],
+  "ex": "Missed calls: 10.",
+  "exRu": "Пропущенные звонки: 10."
+ },
+ {
+  "id": "sing",
+  "w": "sing",
+  "ru": "петь",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "sings",
+   "sang",
+   "sung",
+   "singing"
+  ],
+  "ex": "She sings.",
+  "exRu": "Она поёт."
+ },
+ {
+  "id": "song",
+  "w": "song",
+  "ru": "песня",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "songs"
+  ],
+  "ex": "I know that song.",
+  "exRu": "Я знаю эту песню."
  }
 ]

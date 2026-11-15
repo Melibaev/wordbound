@@ -591,5 +591,306 @@
    "avoid": "No Silent in frame; Pip is not smiling.",
    "check": "Мира без сознания на руках у Дэна. Пип стоит выше, руки в карманах, смотрит спокойно."
   }
+ ],
+ "s1e07": [
+  {
+   "camera": "Wide low-angle establishing shot at the market entrance, camera at about waist height.",
+   "action": "Dan at the LEFT-CENTRE staggers forward carrying Mira piggyback, her arms hanging limp over his shoulders, her head against his neck. Pip trots at the RIGHT, one hand pointing ahead. Hooded traders at crooked stalls on both sides turn their faces away.",
+   "faces": "Dan: panicked, mouth open, shouting. Mira: unconscious, grey. Pip: calm, matter-of-fact. Traders: faces hidden in deep hoods.",
+   "props": "Hanging glass bottles of black ink; small jars with one vermilion spark each; ochre lanterns; ropes and pulleys; steam; vermilion cord on Mira's LEFT wrist; yellow pencil behind Dan's right ear.",
+   "light": "Warm ochre lantern light, cramped and smoky.",
+   "avoid": "No text on signs, bottles or awnings (blank or abstract strokes only); no Silent; the traders are hooded humans, not blank Silent faces; the crowd is indifferent, not rushing to help.",
+   "check": "Дэн несёт на спине безвольную Миру через рынок; торговцы в капюшонах отворачиваются; рядом идёт Пип. Надписей нет."
+  },
+  {
+   "camera": "Very wide high-angle shot over the whole Ink Market landing.",
+   "action": "Dan stands small at the LEFT foreground looking out over the bazaar. Pip at the RIGHT foreground half-sits on a crate and sweeps one arm across the scene like a showman. Far below and at the left a bench with only Mira's boots visible.",
+   "faces": "Dan: tired, amazed. Pip: cheeky showman grin.",
+   "props": "Dozens of crooked stalls under patched paper awnings, hanging ink bottles, jars each with one vermilion spark, ropes and pulleys, a crooked pulley lift, steam, Pip's brass bell without a clapper.",
+   "light": "Warm ochre lanterns in smoke, ash-grey haze above.",
+   "avoid": "No readable signs or lettering anywhere; the sparks in the jars are plain glowing dots, not letters; no Silent.",
+   "check": "Общий план рынка сверху: ларьки, навесы, бутылки с чернилами. Слева маленький Дэн, справа Пип показывает рукой на рынок."
+  },
+  {
+   "camera": "Medium two-shot at a plank counter, eye level, from the side.",
+   "action": "At the RIGHT, behind the counter, the stout trader (black-stained leather apron, copper spectacles pushed up on his forehead) holds up ten fingers in one hand and two in the other as he leans toward Dan. At the LEFT Dan stands with clenched fists, looking down at small jars on the counter, each with a thin vermilion thread curling inside. The System window floats above the counter in the CENTRE.",
+   "faces": "Trader: friendly-greedy smile. Dan: tense, calculating.",
+   "props": "Small jars with curling vermilion threads of breath; ink-black fingers on the trader; the System window is blank cream paper with a red double border, tilted 2-3 degrees.",
+   "light": "Warm ochre lantern light from above the stall.",
+   "avoid": "No letters or numbers drawn anywhere (the price is shown only by fingers); nothing written on the jars or the window.",
+   "check": "Торговец показывает пальцами 10 и 2, Дэн смотрит на банки с красными нитями дыхания. Окно Системы пустое."
+  },
+  {
+   "camera": "Close two-shot, slightly high angle, beside the bench.",
+   "action": "Mira lies on a wooden bench at the RIGHT, head on her rolled-up cream scarf, eyes closed, lips grey, a thin vermilion thread at the corner of her mouth. Dan crouches at the LEFT, close to her, and stares at his own empty open palm. The System window hovers between them at the top.",
+   "faces": "Mira: unconscious, grey. Dan: stricken, thinking hard.",
+   "props": "Vermilion cord on Mira's LEFT wrist; Dan's empty palm; blank System window.",
+   "light": "Warm ochre light on Dan, cooler grey on Mira.",
+   "avoid": "No text; the thread at Mira's mouth is thin; no Silent.",
+   "check": "Мира лежит на скамье, губы серые. Дэн присел рядом и смотрит на свою пустую ладонь."
+  },
+  {
+   "camera": "Medium-wide low-angle shot looking up at the stall roof.",
+   "action": "Dan at the LEFT points the yellow pencil up at a sagging wooden beam of the awning; a hairline crack runs through it and one of the four posts leans out. Hundreds of ink bottles hang from the beam on ropes. The trader at the RIGHT folds his arms and scoffs.",
+   "faces": "Dan: focused engineer's squint. Trader: smug, dismissive.",
+   "props": "Four wooden posts, one clearly leaning; a thin crack drawn as a plain line; many hanging bottles; the yellow pencil.",
+   "light": "Warm ochre lanterns, soft shadow under the awning.",
+   "avoid": "No text on bottles or awning; Dan is not holding a tool except the pencil; the crack is hairline, the roof still stands.",
+   "check": "Дэн карандашом показывает на треснувшую балку навеса, одна стойка кривая. Торговец скрестил руки."
+  },
+  {
+   "camera": "Dynamic low-angle shot from the floor, tilted frame.",
+   "action": "The beam of the awning splits, one corner post kicks outward, the roof tilts and hundreds of hanging bottles swing and slide on their ropes. The trader at the RIGHT clutches his head. Dan at the LEFT looks up, glasses glinting, one hand raised.",
+   "faces": "Trader: horror. Dan: alert, calculating.",
+   "props": "Swinging ink bottles, splintering beam, rope lines.",
+   "light": "Warm ochre light with deep shadows, dust in the air.",
+   "avoid": "No broken glass cutting anyone, no blood; the ink does not splash on faces; no text on the bottles.",
+   "check": "Балка ломается, навес наклоняется, бутылки качаются. Торговец хватается за голову, Дэн смотрит вверх."
+  },
+  {
+   "camera": "Dramatic wide shot from below, camera near the ground.",
+   "action": "Dan at the LEFT is braced under the sagging beam with one palm raised toward it; a long wooden pole is propped under the beam. Glowing vermilion lettering shapes (abstract, added later) stream from Dan's mouth and stitch the crack like red thread. The System window floats at the RIGHT.",
+   "faces": "Dan: gritted teeth, strain, pale.",
+   "props": "Vermilion glyph-shapes only as abstract glow; wooden pole; the stitched crack; blank System window.",
+   "light": "The vermilion glow is the main light, warm ochre fill.",
+   "avoid": "No readable letters in the glow; the glow is vermilion only (no blue, no purple); Dan holds no tools.",
+   "check": "Дэн упирается под балкой, из его рта идёт красное свечение и сшивает трещину, как нитки. Окно Системы справа."
+  },
+  {
+   "camera": "Medium shot, eye level, slightly from the side.",
+   "action": "Between Dan (LEFT) and the trader (RIGHT) stands the repaired beam with a fading vermilion seam; three posts are straight but the fourth still leans a little. The trader points at the crooked post while Dan cups a hand to his ear, confused. The System window floats above them.",
+   "faces": "Trader: amazed but nagging. Dan: puzzled, frowning.",
+   "props": "Fading red seam on the beam; the one crooked post; the yellow pencil; blank System window.",
+   "light": "Warm ochre lantern light, calm.",
+   "avoid": "No text; exactly one post is still crooked; the beam is fixed and not broken.",
+   "check": "Балка починена, красный шов гаснет, но четвёртая стойка ещё кривая. Дэн прикладывает ладонь к уху."
+  },
+  {
+   "camera": "Over-the-shoulder shot from behind Dan at the LEFT.",
+   "action": "The trader at the RIGHT, now smiling, holds out his open palm with a tiny glowing vermilion spark floating above it, a word handed over like a coin. Dan's hand reaches toward it. The System window hovers above the spark.",
+   "faces": "Trader: warm, businesslike smile. Dan (back of head only): leaning in.",
+   "props": "A single small vermilion spark; the trader's ink-black fingers; blank System window.",
+   "light": "Vermilion spark lights the trader's palm, warm ochre background.",
+   "avoid": "The spark is a plain glowing dot, no letters; no coins or money in the trader's hand.",
+   "check": "Торговец с улыбкой держит на ладони красную искру — слово вместо денег. Дэн тянется к ней."
+  },
+  {
+   "camera": "Close two-shot at the bench, eye level.",
+   "action": "Dan kneels at the LEFT, bent over Mira on the bench (RIGHT) with one hand held above her chest. A soft warm vermilion glow drifts from his lips toward hers; colour is coming back into her cheeks and her eyes begin to open. The System window floats above them.",
+   "faces": "Dan: gentle, focused. Mira: waking, grey turning warm.",
+   "props": "Vermilion glow wisp; the red cord on Mira's LEFT wrist; blank System window.",
+   "light": "Soft warm vermilion and ochre glow, a hopeful light.",
+   "avoid": "No text; the glow is a soft wisp, no glyph letters; no kissing impression: the wisp is between them, faces not touching.",
+   "check": "Дэн склонился над Мирой, красный лёгкий свет перетекает к ней, щёки розовеют."
+  },
+  {
+   "camera": "Medium shot, eye level, at a small fruit-and-bread stall.",
+   "action": "Pip at the RIGHT behind a plank counter holds up two fingers with a sly grin; a pile of red apples sits between him and Dan. Dan at the LEFT counts on his fingers with one hand pressed to his belly. Far behind them, small, Mira sits up on the bench.",
+   "faces": "Pip: sly. Dan: hungry, hopeful.",
+   "props": "Pile of red apples, flat round loaves of bread, Pip's brass bell, Dan's yellow pencil.",
+   "light": "Warm ochre light, friendly.",
+   "avoid": "No text or price signs; Pip does not touch the pencil; Mira is small and far, not the focus.",
+   "check": "Пип за прилавком с яблоками показывает два пальца, Дэн считает на пальцах и держится за живот."
+  },
+  {
+   "camera": "Tight close-up on Dan's face, slightly low angle.",
+   "action": "Dan turns his head sharply to the RIGHT, eyes wide behind the taped round glasses, one hand freezing on the pencil behind his right ear. The market behind him is a dim blur; faint thin pale arcs of sound curve past his ear.",
+   "faces": "Dan: stunned recognition.",
+   "props": "Taped hinge of the glasses; the sound arcs are thin pale lines (not vermilion).",
+   "light": "Soft ochre glow on one cheek, the rest of the frame dim.",
+   "avoid": "No phone visible yet; no text; sound arcs must not be vermilion.",
+   "check": "Крупный план Дэна: он резко повернул голову и замер, вокруг уха тонкие бледные дуги звука."
+  },
+  {
+   "camera": "Medium shot over Dan's shoulder, slight low angle.",
+   "action": "On a low wooden table at the RIGHT among odd things from outside (one sneaker, keys on a ring, a wristwatch, a small teddy bear, a coffee mug) lies Dan's smartphone, its screen spiderweb-cracked and glowing softly white. Dan at the LEFT reaches toward it; the trader stands behind the table smiling.",
+   "faces": "Dan: shaken, eyes wet. Trader: genial, calculating.",
+   "props": "Cracked smartphone with blank glowing screen (no icons, no text), sneaker, keys, watch, teddy bear, mug.",
+   "light": "Pale white glow from the phone on Dan's face, warm ochre around.",
+   "avoid": "The phone screen shows no text, numbers or call icons; no vermilion on the phone (it is not word power).",
+   "check": "На столике «вещей снаружи» лежит телефон Дэна с треснувшим экраном. Дэн тянется к нему."
+  },
+  {
+   "camera": "Wide two-level shot, deep focus.",
+   "action": "Foreground: the trader at the RIGHT holds the phone up to Dan, who reaches for it from the LEFT. Background right: a tall man in a long ink-black coat with brass buttons, a thin brass chain from collar to pocket, black gloves and a slim ledger book under his arm, face hidden by his high collar, takes the phone and walks away toward a far stair, small in frame. The System window hovers at the CENTRE.",
+   "faces": "Trader: apologetic shrug. Dan: desperate. The man in black: face NOT visible.",
+   "props": "Thin brass chain, slim blank ledger book, cracked phone glowing white, blank System window.",
+   "light": "Warm ochre foreground, cooler grey in the distance.",
+   "avoid": "No readable face for the man in black; the ledger cover has no text; no Silent; no text in the window.",
+   "check": "Высокий человек в чёрном пальто с латунной цепочкой и книгой забирает телефон и уходит к дальней лестнице. Лица не видно."
+  },
+  {
+   "camera": "Action medium shot, slightly high angle.",
+   "action": "Dan at the LEFT lunges toward a far stair with an outstretched arm. Mira at the RIGHT sits up on the bench and grips his sleeve with her LEFT hand, the red cord on her wrist. Far in the background a small figure in a black coat climbs the stair holding something that glows faintly white.",
+   "faces": "Dan: frantic. Mira: pale, stern, determined.",
+   "props": "Red cord on Mira's LEFT wrist; Dan's rolled sleeve in her grip; far white glow of the phone.",
+   "light": "Warm ochre lantern light; the stair is lit grey in the distance.",
+   "avoid": "No text; the man in black is tiny and faceless; Mira does not stand up.",
+   "check": "Дэн рвётся за человеком в чёрном, Мира, сидя на скамье, держит его за рукав. Далеко на лестнице светится телефон."
+  },
+  {
+   "camera": "Medium three-shot, eye level.",
+   "action": "Dan at the LEFT leans on the counter breathing hard; Mira in the CENTRE sits on the edge of the bench with a hand on her temple; the trader at the RIGHT shrugs while polishing a jar with a cloth. Quiet, tired mood.",
+   "faces": "Dan: tense, questioning. Mira: tired but alert. Trader: casual shrug.",
+   "props": "A cloth and a jar in the trader's hands; red cord on Mira's LEFT wrist.",
+   "light": "Warm ochre lantern light, soft.",
+   "avoid": "No text; nobody is drawing a weapon; no phone in frame.",
+   "check": "Дэн, Мира и торговец у прилавка; торговец пожимает плечами и протирает банку."
+  },
+  {
+   "camera": "Dark wide shot from behind, low camera.",
+   "action": "Mira, small in the CENTRE of the frame and seen from behind, walks alone away from the lantern light into a narrow dark passage between stalls. Only faint thin pale sound-lines drift from the far darkness. The dim System window floats at the RIGHT.",
+   "faces": "Mira is seen only from behind; no face visible.",
+   "props": "Red cord on Mira's LEFT wrist; thin pale sound-lines; dim blank System window.",
+   "light": "Almost black frame, last warm ochre lantern behind her, cold darkness ahead.",
+   "avoid": "No Lina or any Silent visible; no text; sound-lines are pale, not vermilion; Dan is not in frame.",
+   "check": "Мира со спины уходит одна в тёмный проход между ларьками; издалека тянутся бледные линии песни."
+  }
+ ],
+ "s1e08": [
+  {
+   "camera": "Tense two-shot, eye level, side-on, in a dead-end alley.",
+   "action": "Dan stands at the LEFT, Mira at the RIGHT, facing each other, both out of breath. On a rusty nail in the stone wall between them hangs a scrap of frayed vermilion thread, matching Mira's cord. One flickering ochre lantern; cold teal darkness at the far end of the alley.",
+   "faces": "Dan: earnest, tired. Mira: guarded, lips pressed.",
+   "props": "Frayed vermilion thread on the nail; vermilion cord on Mira's LEFT wrist; crates and broken ink jars.",
+   "light": "Dim ochre lantern from the side, teal darkness behind.",
+   "avoid": "No text; no Silent or girl in frame; the thread is a plain scrap, not a word.",
+   "check": "Тупик за рынком: Дэн слева, Мира справа, на гвозде между ними обрывок красной нити."
+  },
+  {
+   "camera": "Quiet two-shot, eye level, in a tiny round niche room.",
+   "action": "Mira at the RIGHT sits with her back against the wall and her knees up, eyes on the floor. Dan at the LEFT sits cross-legged, listening. A bare lamp with a vermilion-hearted flame hangs between them; the ochre walls are scratched with names.",
+   "faces": "Mira: shut-down, steady. Dan: attentive, gentle.",
+   "props": "Scratched wall (abstract marks only), lamp with vermilion core, red cord on Mira's LEFT wrist.",
+   "light": "Warm ochre lamp light, cosy and fragile.",
+   "avoid": "The scratches on the walls are abstract marks, no readable names or letters.",
+   "check": "Мира сидит у стены, обняв колени; Дэн напротив, слушает. Между ними лампа с красным сердцем."
+  },
+  {
+   "camera": "Wide shot, eye level, memory in warm sepia paper tones.",
+   "action": "Young Mira (same look, three years younger) at the LEFT and Lina, a 14-year-old girl with two loose braids, at the RIGHT sit close together at a small table in a cramped kitchen; two cups, a small window with soft light, the other chairs empty. A faint red cord on each girl's left wrist.",
+   "faces": "Mira: serious, protective. Lina: smiling, small, cheerful.",
+   "props": "Two cups, small table, window; red cords on both girls' LEFT wrists.",
+   "light": "Soft sepia light from the window, paper-grain feel.",
+   "avoid": "Sepia only: no vermilion except the faint cords; no text on cups or walls; no parents shown.",
+   "check": "Воспоминание в сепии: Мира слева и четырнадцатилетняя Лина справа за маленьким столом на кухне."
+  },
+  {
+   "camera": "Medium shot, eye level, sepia memory.",
+   "action": "On the plain kitchen wall a wooden door has grown out of nowhere; a single faint vermilion glow shape (abstract, no letters) edges its frame. Lina at the RIGHT reaches for the handle with a curious smile. Young Mira at the LEFT sits at the table, half turned away from the viewer, watching.",
+   "faces": "Lina: bright curiosity. Mira: worried, calm.",
+   "props": "Plain wooden door with abstract vermilion glow around it; red cords on both girls' LEFT wrists.",
+   "light": "Sepia warm tones, the faint vermilion glow on Lina's face.",
+   "avoid": "No text on the door; the glow is abstract, no letters; no Silent.",
+   "check": "Лина тянется к ручке внезапно выросшей на стене двери; Мира смотрит со стороны."
+  },
+  {
+   "camera": "Medium tracking shot, sepia memory, in a narrow Tower corridor.",
+   "action": "Lina at the RIGHT walks ahead with her chin up, mouth open, singing. Young Mira at the LEFT hurries behind her with a finger raised to her own lips. Faint small vermilion sparks float overhead.",
+   "faces": "Lina: happy, loud. Mira: anxious, shushing.",
+   "props": "Red cords on both girls' LEFT wrists; faint sparks overhead.",
+   "light": "Sepia tones, one warm lantern ahead.",
+   "avoid": "No text; no Silent; no musical notes drawn as letters.",
+   "check": "Лина идёт впереди и поёт, Мира спешит следом, прижав палец к губам."
+  },
+  {
+   "camera": "Dramatic close shot, sepia memory, shallow depth of field.",
+   "action": "Two hands in the foreground drift apart, fingers sliding, both slightly blurred so that it is impossible to tell which hand opened first. Behind them, out of focus: young Mira on her knees at the LEFT, Lina pulled back in the CENTRE, a tall faceless Silent looming at the RIGHT.",
+   "faces": "Faces are out of focus and unreadable; the Silent has no eyes, no nose, no lips, only one thin vertical seam.",
+   "props": "Two blurred hands; red cords on both wrists.",
+   "light": "Sepia with a cold shadow creeping from the right; no vermilion glow.",
+   "avoid": "The hands must stay ambiguous: do not show one hand clearly opening; no gore; no text.",
+   "check": "Две размытые руки расходятся — не видно, чья разжалась первой. На заднем плане силуэт Безмолвного."
+  },
+  {
+   "camera": "Two-shot, slightly low angle, in the niche room.",
+   "action": "Dan at the LEFT leans forward with elbows on his knees, listening hard. Mira at the RIGHT stares at the lamp with her jaw tight, one hand gripping the red cord on her left wrist. The lamp's vermilion-hearted flame flickers.",
+   "faces": "Dan: serious. Mira: tense, closed.",
+   "props": "Lamp with vermilion core; red cord on Mira's LEFT wrist.",
+   "light": "Warm ochre lamp light with harder shadows.",
+   "avoid": "No text; no map drawn with readable marks.",
+   "check": "Дэн слушает, подавшись вперёд; Мира смотрит на лампу и сжимает красный шнурок."
+  },
+  {
+   "camera": "Wide shot, sepia memory, in the huge round Hall of Words.",
+   "action": "The Keeper at the CENTRE (hood hiding his eyes, only a calm small smile) draws a single glowing vermilion thread out of young Mira's chest with ink-stained fingertips. Mira at the LEFT stands pale and rigid; the red cord on her wrist dims. The System window floats at the RIGHT.",
+   "faces": "Keeper: eyes never visible, gentle smile. Mira: frozen, silent.",
+   "props": "Shelves of jars with sparks in the background; one bright vermilion thread; the dimming red cord on Mira's LEFT wrist; blank System window.",
+   "light": "Sepia with the vermilion thread as the one bright accent.",
+   "avoid": "The Keeper's eyes are never visible; no text on jars or window; no blood; the thread is a plain glow, not a word.",
+   "check": "Хранитель вытягивает из груди юной Миры красную нить; шнурок на её запястье тускнеет."
+  },
+  {
+   "camera": "Close two-shot, eye level, in the niche room.",
+   "action": "Mira at the RIGHT looks straight at Dan with hard, honest eyes. Dan at the LEFT listens with a frown. The lamp flame stands between them. The System window hovers at the top centre with a calm, steady border.",
+   "faces": "Mira: direct. Dan: absorbing, uneasy.",
+   "props": "Lamp; blank System window with a red double border; red cord on Mira's LEFT wrist.",
+   "light": "Warm ochre lamp light.",
+   "avoid": "No text; the System window is blank paper.",
+   "check": "Мира прямо смотрит на Дэна. Окно Системы вверху по центру."
+  },
+  {
+   "camera": "Close-up two-shot, eye level, in the niche room.",
+   "action": "Mira at the RIGHT speaks without looking away; Dan at the LEFT slowly understands, his eyes widening behind the taped round glasses. The lamp's warm light cuts across both faces.",
+   "faces": "Mira: flat, honest. Dan: dawning shock.",
+   "props": "Taped hinge on Dan's glasses; red cord on Mira's LEFT wrist.",
+   "light": "Strong warm side light, deep shadow.",
+   "avoid": "No text; no one touches the other.",
+   "check": "Крупный план: Мира говорит правду, Дэн медленно понимает."
+  },
+  {
+   "camera": "Tense two-shot, slightly low angle, in the niche room.",
+   "action": "Dan at the LEFT has stood up, fists clenched, stricken and angry. Mira at the RIGHT stays seated and looks up at him, unflinching. The walls behind them are scratched with abstract marks.",
+   "faces": "Dan: hurt, furious. Mira: still, honest, with a trace of pain.",
+   "props": "Yellow pencil behind Dan's right ear; red cord on Mira's LEFT wrist; lamp.",
+   "light": "Warm ochre lamp light from the side.",
+   "avoid": "No text on the walls; neither character is physically attacking the other.",
+   "check": "Дэн вскочил и сжал кулаки, Мира остаётся сидеть и смотрит на него снизу вверх."
+  },
+  {
+   "camera": "Action two-shot, eye level, shot with a slight dutch tilt.",
+   "action": "Dan at the LEFT shouts with one arm thrown out; Mira at the RIGHT, on her feet, shouts back, both leaning into the argument. Between and above them floats the System window with a solid vermilion border and inverted colours (a warning). The lamp flame leans sideways from the noise.",
+   "faces": "Dan: anger and tears. Mira: fierce, strained.",
+   "props": "Warning System window (solid red border, inverted colours, no text); lamp with leaning flame; red cord on Mira's LEFT wrist.",
+   "light": "Harsh warm lamp light and the red glow of the warning window.",
+   "avoid": "No text in the window; no one is hitting anyone; no Silent.",
+   "check": "Дэн и Мира кричат друг на друга, над ними окно Системы-предупреждение с красной рамкой."
+  },
+  {
+   "camera": "Medium shot from behind Mira, eye level, in a soot-dark corridor.",
+   "action": "Dan at the LEFT walks away from Mira down the corridor, his back to the viewer, fists in his pockets. Mira at the RIGHT, in the foreground, has taken half a step after him and stopped, one hand outstretched, her feet visibly unable to follow. The niche's warm lamp glow behind her.",
+   "faces": "Dan: not visible (back). Mira: face seen in profile, bewildered.",
+   "props": "Yellow pencil behind Dan's right ear; red cord on Mira's LEFT wrist.",
+   "light": "Warm ochre glow behind Mira, cold teal darkness ahead of Dan.",
+   "avoid": "No text; no Silent; Mira is not chained or held by anything visible.",
+   "check": "Дэн уходит по коридору, Мира делает полшага и застывает с протянутой рукой."
+  },
+  {
+   "camera": "Quiet medium shot, eye level, in the corridor.",
+   "action": "Dan at the LEFT sits on the floor with his back against the wall, knees up, glasses pushed up on his forehead, rubbing his eyes. The System window floats at the RIGHT at his eye level, small and dim.",
+   "faces": "Dan: exhausted, wet-eyed, the weakest he has looked. No smile.",
+   "props": "Taped glasses on forehead; yellow pencil behind right ear; mustard lanyard; blank dim System window.",
+   "light": "Dim ochre light from one lantern, soft shadow.",
+   "avoid": "No text; the window shows nothing; no phone.",
+   "check": "Дэн сидит на полу у стены, очки на лбу, трёт глаза. Окно Системы рядом, тусклое."
+  },
+  {
+   "camera": "Close two-shot at hip height, slightly high angle.",
+   "action": "A small child-sized Silent (1.4 m, blank paper-white face, frayed vermilion cord on its left wrist) at the RIGHT has taken Dan's sleeve between two thin pale fingers and tugs it gently. Dan at the LEFT looks down at it, caught between fear and tenderness.",
+   "faces": "Silent: blank face, no eyes, no nose, no lips, only a thin vertical teal seam. Dan: soft, startled.",
+   "props": "Frayed vermilion cord on the Silent's LEFT wrist; Dan's sleeve between its fingers; taped glasses.",
+   "light": "Dim ochre light with a teal shadow behind the Silent.",
+   "avoid": "The Silent has NO eyes; it is not threatening; no text; Mira not in frame.",
+   "check": "Маленький Безмолвный с красной ниткой на левом запястье тянет Дэна за рукав."
+  },
+  {
+   "camera": "Dark low-angle shot, near-black frame.",
+   "action": "In a black wall a narrow slit of red light splits the dark. The small Silent in the CENTRE points one thin arm toward it. Dan at the LEFT looks at the slit; the System window with a solid vermilion border floats at the RIGHT.",
+   "faces": "Dan: awed, uneasy. The Silent: blank face, no eyes, a thin teal seam.",
+   "props": "Slit of red light; frayed vermilion cord on the Silent's LEFT wrist; warning System window (red border, no text).",
+   "light": "Almost black, with one narrow vermilion light.",
+   "avoid": "No text; nothing visible inside the slit; Mira absent.",
+   "check": "В чёрной стене щель красного света, маленькая Безмолвная показывает на неё, Дэн смотрит."
+  }
  ]
 }

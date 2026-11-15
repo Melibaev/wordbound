@@ -1,0 +1,667 @@
+{
+ "id": "s1e07",
+ "title": "The Ink Market",
+ "titleRu": "Рынок Чернил",
+ "level": "A1",
+ "newWords": [
+  "buy",
+  "sell",
+  "money",
+  "much",
+  "many",
+  "fix",
+  "rest",
+  "phone",
+  "girl",
+  "sing"
+ ],
+ "panels": [
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "pip",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide low-angle establishing shot at the entrance of the Ink Market: Dan staggers forward at the left carrying limp Mira piggyback, while Pip trots at his side on the right. Around them hooded traders at crooked stalls under patched paper awnings turn their faces away. Hanging glass bottles of black ink, small jars with one vermilion spark each, ochre lanterns, steam.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Рынок встречает Дэна запахом чернил и полным равнодушием. Никто не оборачивается: у каждого здесь свой счёт."
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "Help! She has two breaths!",
+     "ru": "Помогите! У неё два дыхания!"
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "Nobody helps here. They buy. They sell.",
+     "ru": "Тут никто не помогает. Тут покупают. Тут продают."
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "pip",
+     "pos": "right"
+    }
+   ],
+   "art": "Very wide high-angle shot over the whole Ink Market landing: dozens of crooked stalls, awnings, ropes and pulleys, hanging bottles of black ink, small vermilion sparks in jars, steam. Dan stands small at the left foreground looking out; Pip at the right foreground sweeps one arm across the scene like a guide. At the far left a bench with only Mira's boots visible.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "This is the Ink Market. They sell breath.",
+     "ru": "Это Рынок Чернил. Тут продают дыхание."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "How much is a breath?",
+     "ru": "Сколько стоит дыхание?"
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "trader",
+     "pos": "right"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    }
+   ],
+   "art": "Medium two-shot at a plank counter: the stout trader in an ink-stained apron holds up ten fingers in one hand and two in the other and leans toward Dan; Dan on the left looks at small jars on the counter, each with a thin vermilion thread of breath curling inside. The System window floats above the counter.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "trader",
+     "en": "Ten breaths, two words. Buy it. A good price.",
+     "ru": "Десять дыханий за два слова. Бери. Хорошая цена."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Count: two. You are poor.",
+     "ru": "Счёт: два. Ты беден."
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    }
+   ],
+   "art": "Close two-shot beside a wooden bench: Mira lies on it with her head on her rolled cream scarf, lips grey, a thin vermilion thread at the corner of her mouth; Dan crouches at the left and stares at his own empty open palm. The System window hovers between them.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Mira has one breath.",
+     "ru": "У Миры одно дыхание."
+    },
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "Think. I have two words. I need them. I have no money.",
+     "ru": "Думай. У меня два слова. Они мне нужны. Денег нет."
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "trader",
+     "pos": "right"
+    }
+   ],
+   "art": "Medium-wide shot looking up at the trader's stall: Dan at the left points the yellow pencil up at a sagging wooden beam with a visible hairline crack, one of the four posts leaning out; hundreds of ink bottles hang on ropes from the beam. The trader at the right folds his arms and scoffs.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Три года Дэн считал чужие балки. Эта не доживёт до вечера."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Your roof is bad. That leg is weak. I can fix it.",
+     "ru": "Твоя крыша плохая. Вот эта стойка слабая. Я могу её починить."
+    },
+    {
+     "type": "speech",
+     "who": "trader",
+     "en": "My roof is good. Go home, Zero.",
+     "ru": "Моя крыша хорошая. Иди домой, Зеро."
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "action",
+   "sfx": "CRACK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "trader",
+     "pos": "right"
+    }
+   ],
+   "art": "Dynamic low-angle shot: the beam of the awning splits with a loud crack, one corner post kicks out, the whole roof tilts and hundreds of hanging ink bottles swing and slide on their ropes. The trader at the right clutches his head; Dan at the left looks up with glasses glinting, one hand raised.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "How many jars?",
+     "ru": "Сколько банок?"
+    },
+    {
+     "type": "shout",
+     "who": "trader",
+     "en": "Twenty! Too many! My money!",
+     "ru": "Двадцать! Слишком много! Мои деньги!"
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "action",
+   "sfx": "CREAK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "system",
+     "pos": "right"
+    }
+   ],
+   "art": "Dramatic wide shot from below: Dan at the left braced under the sagging beam, one palm raised to stop it, a long wooden pole propped under it; glowing vermilion lettering shapes (lettering added later) stream from his mouth and stitch the crack in the beam like red thread. The System window floats at the right.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "Stop! Push! Fix!",
+     "ru": "Стой! Толкай! Чини!"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "New word: FIX. FIX is yours now. Count: three.",
+     "ru": "Новое слово: FIX. FIX теперь твоё. Счёт: три."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Big thing, big breath. Dan has one breath.",
+     "ru": "Большая вещь — большое дыхание. У Дэна одно дыхание."
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "trader",
+     "pos": "right"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    }
+   ],
+   "art": "Medium shot: the repaired beam between Dan and the trader carries a fading vermilion seam; three posts stand straight but the fourth leans a little. The trader points at the crooked post while Dan cups a hand to his ear in confusion. The System window floats above them.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "trader",
+     "en": "Three words, and you fix my roof! But you don't ... it. One leg is still bad.",
+     "ru": "Три слова, и ты чинишь мою крышу! Но ты не ... её. Одна стойка всё ещё кривая."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "What word? I hear nothing.",
+     "ru": "Какое слово? Я ничего не слышу."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Almost.",
+     "ru": "Почти."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Одно слово торговца Дэн не расслышал — будто кто-то смял бумагу. Четвёртая стойка так и осталась кривой."
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "trader",
+     "pos": "right"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    }
+   ],
+   "art": "Over-the-shoulder shot from behind Dan: the trader, now smiling, holds out his open palm with a tiny glowing vermilion spark floating above it, a word handed over like a coin; Dan reaches toward it. The System window hovers above the spark.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "trader",
+     "en": "A trade is a trade. I pay a word, not money.",
+     "ru": "Сделка есть сделка. Я плачу словом, а не деньгами."
+    },
+    {
+     "type": "speech",
+     "who": "trader",
+     "en": "REST gives breath. Say it to her.",
+     "ru": "REST даёт дыхание. Скажи его ей."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "New word: REST. REST is yours now. Count: four. Title: Roof-Fixer.",
+     "ru": "Новое слово: REST. REST теперь твоё. Счёт: четыре. Титул: Починщик крыш."
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    }
+   ],
+   "art": "Close two-shot at the bench: Dan kneels at the left, bent over Mira with one hand held above her chest; a soft warm vermilion glow drifts from his lips toward hers and the colour is coming back into her cheeks. The System window floats above.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Rest, Mira. Rest.",
+     "ru": "Отдыхай, Мира. Отдыхай."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Mira has six breaths.",
+     "ru": "У Миры шесть дыханий."
+    },
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "I give her breath. I don't lose the word. Good.",
+     "ru": "Я отдаю ей дыхание. А слово не теряю. Хорошо."
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "pip",
+     "pos": "right"
+    }
+   ],
+   "art": "Medium shot at a small fruit-and-bread stall: Pip behind the counter holds up two fingers with a sly grin, a pile of red apples between him and Dan; Dan at the left counts on his fingers with one hand on his belly, stomach clearly empty. Mira sits up small on the bench far behind them.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "How many apples for one word?",
+     "ru": "Сколько яблок за одно слово?"
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "Two! You have four words. Eight apples! Eat something, Zero.",
+     "ru": "Два! У тебя четыре слова. Восемь яблок! Поешь что-нибудь, Зеро."
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": "RING",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "center"
+    }
+   ],
+   "art": "Tight close-up on Dan's face turning sharply to the right, eyes wide behind the taped round glasses, one hand freezing on the pencil behind his ear. The market behind him is a dim blur; faint thin pale arcs of sound curve past his ear.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "That sound. I know that sound.",
+     "ru": "Этот звук. Я знаю этот звук."
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "trader",
+     "pos": "right"
+    }
+   ],
+   "art": "Medium shot over Dan's shoulder: on a low table of things from outside (one sneaker, a ring of keys, a wristwatch, a teddy bear, a coffee mug) lies Dan's smartphone with a spiderweb-cracked screen glowing softly white. Dan at the left reaches toward it, the trader behind the table smiles.",
+   "lines": [
+    {
+     "type": "narration",
+     "en": "Mom: Dan, eat something.",
+     "ru": "Мама: Дэн, поешь что-нибудь."
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "My phone! That is my mom! How much is it?",
+     "ru": "Мой телефон! Это моя мама! Сколько он стоит?"
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "trader",
+     "pos": "right"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    }
+   ],
+   "art": "Wide two-level shot: in the foreground the trader at the right holds the phone up while Dan at the left reaches for it. Behind them a tall man in a long ink-black coat with brass buttons and a thin brass chain from collar to pocket, black gloves, a slim ledger book under his arm, face hidden by his high collar, takes the phone and walks toward a far stair. The System window hovers at the centre.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "trader",
+     "en": "The phone is not cheap. Twenty words. It has a voice from outside.",
+     "ru": "Телефон не дешёвый. Двадцать слов. В нём голос снаружи."
+    },
+    {
+     "type": "speech",
+     "who": "trader",
+     "en": "Sorry, Zero. That man buys it. He pays much.",
+     "ru": "Прости, Зеро. Тот человек его покупает. Он платит много."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Missed calls: 10.",
+     "ru": "Пропущенные звонки: 10."
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Голос, который зовёт тебя снаружи, стоит здесь дороже любого слова. Дэн пока не знает почему."
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Action medium shot: Dan at the left lunges toward a far stair with an outstretched arm; Mira at the right sits up on the bench and grips his sleeve with her left hand, the red cord on her wrist. Far in the background a small figure in a black coat climbs the stair holding something that glows faintly white.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "Stop him! That is my mom!",
+     "ru": "Остановите его! Это моя мама!"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "No. Think. You give me breath. Not bad, Zero.",
+     "ru": "Нет. Думай. Ты отдал мне дыхание. Неплохо, Зеро."
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "trader",
+     "pos": "right"
+    }
+   ],
+   "art": "Medium three-shot: Dan at the left, still breathing hard, leans on the counter; Mira in the centre sits on the bench edge with a hand on her temple; the trader at the right shrugs while polishing a jar with a cloth. The mood is quiet and tired.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Who sells you my phone?",
+     "ru": "Кто продал тебе мой телефон?"
+    },
+    {
+     "type": "speech",
+     "who": "trader",
+     "en": "A little girl sells it to me. She does not talk. She sings.",
+     "ru": "Маленькая девочка. Она не говорит. Она поёт."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "A girl? What does she sing?",
+     "ru": "Девочка? Что она поёт?"
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "system",
+     "pos": "right"
+    }
+   ],
+   "art": "Dark wide shot from behind: Mira, small in the centre, walks alone away from the lantern light into a narrow dark passage between stalls; only faint thin pale sound-lines drift from the far darkness. The dim System window floats at the right.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Издалека доносится тонкая песня без слов. Мира знает эту песню. Она сама когда-то пела её тому, кто боялся темноты."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I know that song. Lina sings it every night.",
+     "ru": "Я знаю эту песню. Лина поёт её каждую ночь."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "The girl sings. She is near.",
+     "ru": "Девочка поёт. Она рядом."
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "How much / how many, множественное число и числа",
+  "body": "Цену спрашивают так: «How much is the phone?». Количество предметов, которые можно пересчитать, — «How many jars?». После many слово стоит во множественном числе: к нему добавляется -s (one jar — twenty jars, one apple — two apples). Деньги и цена идут с much, предметы по штукам — с many. Ответом служит просто число: «Twenty!».",
+  "examples": [
+   {
+    "en": "How much is a breath?",
+    "ru": "Сколько стоит дыхание?"
+   },
+   {
+    "en": "How many jars?",
+    "ru": "Сколько банок?"
+   },
+   {
+    "en": "How many apples for one word?",
+    "ru": "Сколько яблок за одно слово?"
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Чем на Рынке Чернил платят за вещи и дыхание?",
+   "options": [
+    "Деньгами",
+    "Словами",
+    "Карандашами",
+    "Яблоками"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Как Дэн заработал слово REST?",
+   "options": [
+    "Купил у Пипа",
+    "Выиграл спор у торговца",
+    "Починил навес торговца",
+    "Нашёл на земле"
+   ],
+   "answer": 2
+  },
+  {
+   "q": "Что Дэн увидел на прилавке «вещей снаружи»?",
+   "options": [
+    "Ключ от двери",
+    "Жёлтый карандаш",
+    "Карту Миры",
+    "Свой телефон с голосом мамы"
+   ],
+   "answer": 3
+  },
+  {
+   "q": "Кто продал телефон торговцу?",
+   "options": [
+    "Маленькая девочка, которая поёт",
+    "Пип",
+    "Хранитель",
+    "Мира"
+   ],
+   "answer": 0
+  }
+ ]
+}

@@ -22,6 +22,8 @@ MODELS = os.path.join(ROOT, ".models")
 VOICES = {
     "dan": ("am_michael", 1.0),
     "pip": ("am_puck", 1.08),         # boy ~11, fast talker
+    "trader": ("am_fenrir", 1.0),     # stout ink trader
+    "lina_human": ("af_sky", 1.05),   # Lina, 14, flashbacks
     "mira": ("af_sarah", 1.0),
     "keeper": ("bm_george", 1.0),
     "system": ("am_onyx", 0.95),
