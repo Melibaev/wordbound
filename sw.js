@@ -1,5 +1,5 @@
 // WORDBOUND service worker: network-first with cache fallback; background prefetch of episodes.
-const CACHE = 'wordbound-v2';
+const CACHE = 'wordbound-v3';
 const MEDIA = 'wordbound-media-v1';
 const MEDIA_MAX = 150;
 const MEDIA_RE = /\/art\/[^?#]+\.(?:jpe?g|png|webp|mp4)$/i;

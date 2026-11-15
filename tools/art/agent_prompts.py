@@ -27,7 +27,6 @@ GENERAL_CHECK = """## Общая проверка для каждой панел
 - Нет корейских/японских/китайских букв.
 - Нет пузырей с репликами и надписей.
 - Вертикальный кадр 3:4.
-- Сверху есть свободное место.
 
 Если панель не та, напиши агенту в чат (по-английски), например:
 
@@ -86,7 +85,7 @@ Rules for every panel image:
 1. Korean webtoon style, full colour, clean digital linework, soft cel shading, cinematic framing, expressive faces.
 2. Palette: warm paper cream, ink black, ash grey, ochre lamp light. Cold teal ONLY for the Silent. Vermilion red ONLY for word power and the System window. No purple, no violet, no blue neon.
 3. Vertical 3:4 image. Exactly ONE image per panel, in the given order. Do not merge panels.
-4. Absolutely no text, letters, captions, speech bubbles, white cloud or balloon shapes, sound effects or watermarks. Keep the upper third of the frame calm and fairly empty for speech bubbles added later.
+4. Absolutely no text, letters, captions, speech bubbles, white cloud or balloon shapes, sound effects or watermarks. Use the whole frame edge to edge: no blank paper margins, no empty bands at the top or bottom (speech bubbles are placed outside the image).
    LANGUAGE: "Korean webtoon" describes only the drawing style. The story is set in an English-speaking world: any writing that appears (a sign, a label, a phone screen, a book) must be in ENGLISH only. Never use Korean (Hangul), Japanese or Chinese characters anywhere in the image. Always reply to me in English.
 5. Recurring characters (Dan, Mira, Keeper, Silent) must always match their character references exactly, whether they are tagged with @ or just named.
 6. "The System window" = a floating blank cream-paper panel with a thin double vermilion border, slightly tilted, no text inside.

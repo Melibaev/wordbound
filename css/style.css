@@ -399,6 +399,11 @@ a.btn { text-decoration: none; }
 .art-img { opacity: 0; transition: opacity 0.3s ease-out; }
 .art.img-ready .art-img { opacity: 1; }
 .panel.has-img .art { aspect-ratio: 3 / 4; }
+/* once the real image is loaded, the frame follows the image's own proportions (blank bands are trimmed on import) */
+.panel.has-img .art.img-ready { aspect-ratio: auto; }
+.art.img-ready .art-img { position: relative; inset: auto; height: auto; }
+.art.img-ready > svg { display: none; }
+.art.img-ready .art-video { object-position: 50% 75%; }
 .panel.has-img { border-width: 2px; box-shadow: 5px 5px 0 var(--shadow); }
 .panel.has-img.mood-tense { border-width: 3px; }
 .panel.has-img.mood-action { border-width: 3px; box-shadow: 6px 6px 0 var(--accent); }

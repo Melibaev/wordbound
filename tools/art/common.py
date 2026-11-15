@@ -24,7 +24,7 @@ for _s in (sys.stdout, sys.stderr):
 STYLE_PREAMBLE = ("Korean webtoon, full colour, clean confident lineart, cel shading with soft gradients "
                   "in lighting, cinematic lighting, expressive faces")
 SUFFIX = ("vertical 3:4 portrait composition, no text, no letters, no speech bubbles, no captions, "
-          "no watermark, leave clean empty space in the upper third for speech bubbles")
+          "no watermark, use the full frame edge to edge, no blank margins or empty bands")
 SHEET_SUFFIX = ("character reference sheet, turnaround of the same character: front view, side view and "
                 "three-quarter view, full body, neutral plain light-grey background, even flat lighting, "
                 "consistent design in every view, full colour webtoon style, no text, no letters, no labels, "
@@ -295,7 +295,48 @@ def _pil():
         die("Pillow is required for this step: python -m pip install --user pillow")
 
 
-def to_jpeg_bytes(src, width=1080, quality=82, max_kb=250):
+def trim_bands(im, min_frac=0.04):
+    """Cut flat light bands (blank paper left 'for speech bubbles') off the top and bottom.
+    A row counts as blank when it is light (mean > 200) and nearly uniform; a thin dark frame
+    line right under the band is removed too. Dark bands are kept (they are part of night scenes)."""
+    g = im.convert("L")
+    w, h = g.size
+    px = g.load()
+    step = max(1, w // 64)
+
+    def blank(y):
+        vals = [px[x, y] for x in range(0, w, step)]
+        m = sum(vals) / len(vals)
+        return m > 200 and max(vals) - min(vals) < 40
+
+    def framed(y):
+        vals = [px[x, y] for x in range(0, w, step)]
+        return sum(vals) / len(vals) < 90
+
+    top = 0
+    while top < h // 2 and blank(top):
+        top += 1
+    bot = h
+    while bot > h // 2 and blank(bot - 1):
+        bot -= 1
+    if top < h * min_frac:
+        top = 0
+    else:
+        k = 0
+        while k < 8 and top < h // 2 and framed(top):
+            top += 1
+            k += 1
+    if h - bot < h * min_frac:
+        bot = h
+    else:
+        k = 0
+        while k < 8 and bot > h // 2 and framed(bot - 1):
+            bot -= 1
+            k += 1
+    return im.crop((0, top, w, bot)) if (top or bot != h) else im
+
+
+def to_jpeg_bytes(src, width=1080, quality=82, max_kb=250, trim=False):
     """src: path or bytes. Returns (jpeg_bytes, quality_used, (w,h))."""
     import io
     Image, ImageOps = _pil()
@@ -308,6 +349,8 @@ def to_jpeg_bytes(src, width=1080, quality=82, max_kb=250):
         im = bg
     else:
         im = im.convert("RGB")
+    if trim:
+        im = trim_bands(im)
     w = width
     while True:
         r = im.resize((w, max(1, round(im.height * w / im.width))), Image.LANCZOS) if im.width != w else im
@@ -332,6 +375,7 @@ def save_jpeg_to(src, path, **kw):
 
 
 def save_panel_jpeg(src, eid, n, **kw):
+    kw.setdefault("trim", True)
     p = os.path.join(ART, eid, "%02d.jpg" % n)
     size, q, wh = save_jpeg_to(src, p, **kw)
     return p, size, q, wh
