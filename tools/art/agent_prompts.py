@@ -113,6 +113,7 @@ def panel_block(eid, n, panel, chars, bible, prev_loc):
         lines.append("Setting: same as the previous panel." if loc == prev_loc else "Setting: %s." % loc)
     shot = LETTERING.sub("", b["scene"].strip())
     shot = re.sub(r"\btaped glasses\b", "round black glasses", shot)
+    shot = re.sub(r"\b(engineer's )?blueprint\b(?! drawings)", r"\g<0> (pure line drawing: NO labels, NO annotations, NO writing)", shot)
     shot = re.sub(r"\b(lettering|letters)\b(?: of [A-Z]+)?", "glyph-shaped light (abstract, not readable)", shot)
     lines.append("Shot: %s" % shot)
     return "\n".join(lines), tags, loc
