@@ -63,7 +63,7 @@
 
 **Шаг 2. Аватар.** Вставь описание → **Generate**:
 ```text
-Modern full-colour vertical webtoon style, clean digital linework with soft cel shading. Portrait, head and shoulders, front view. 24-year-old East-Slavic man, lean, tired but kind face, short messy black hair with a cowlick, dark brown eyes with faint dark circles, round black-frame glasses with a small piece of white tape wrapped around the hinge, light stubble. Rumpled pale-grey button-up shirt, mustard-yellow office lanyard, a yellow carpenter pencil behind his right ear. Plain light background, no text.
+Korean webtoon style, full colour, clean digital linework with soft cel shading. Portrait, head and shoulders, front view. 24-year-old East-Slavic man, lean, tired but kind face, short messy black hair with a cowlick, dark brown eyes with faint dark circles, round black-frame glasses with a small piece of white tape wrapped around the hinge, light stubble. Rumpled pale-grey button-up shirt, mustard-yellow office lanyard, a yellow carpenter pencil behind his right ear. Plain light background, no text.
 ```
 Проверь: очки с изолентой **на дужке** (не на лице), карандаш за ухом, жёлтый бейдж, серая рубашка, усталое доброе лицо.
 Если изолента оказалась на лице — в «Что вы хотите изменить?»:
@@ -105,7 +105,7 @@ Dan Vey, 24, a tired design engineer who fell into the Tower, a place where word
 
 **Шаг 2. Аватар:**
 ```text
-Modern full-colour vertical webtoon style, clean digital linework with soft cel shading. Portrait, head and shoulders, front view. 23-year-old woman, sharp narrow face, olive-tan skin, amber-gold eyes, a small scar through her left eyebrow, dark-brown choppy shoulder-length hair tied in a short ponytail with loose strands. Olive-khaki canvas climbing jacket, long cream scarf. Dry, unimpressed, half-lidded expression. Plain light background, no text.
+Korean webtoon style, full colour, clean digital linework with soft cel shading. Portrait, head and shoulders, front view. 23-year-old woman, sharp narrow face, olive-tan skin, amber-gold eyes, a small scar through her left eyebrow, dark-brown choppy shoulder-length hair tied in a short ponytail with loose strands. Olive-khaki canvas climbing jacket, long cream scarf. Dry, unimpressed, half-lidded expression. Plain light background, no text.
 ```
 Проверь: шрам на левой брови, янтарные глаза, короткий хвост, «скучающий» взгляд.
 
@@ -149,7 +149,7 @@ Mira, 23, a Tower climber with many words. Dry, sarcastic, speaks in short sente
 
 **Шаг 2. Аватар:**
 ```text
-Modern full-colour vertical webtoon style, clean digital linework with soft cel shading. Head and shoulders, front view. A man of indeterminate age in a long ink-black robe with a high deep hood that completely hides his eyes; only his pale thin lower face and a calm small smile are visible. Ochre thread script embroidered on the edge of the hood. Plain light background, no text.
+Korean webtoon style, full colour, clean digital linework with soft cel shading. Head and shoulders, front view. A man of indeterminate age in a long ink-black robe with a high deep hood that completely hides his eyes; only his pale thin lower face and a calm small smile are visible. Ochre thread script embroidered on the edge of the hood. Plain light background, no text.
 ```
 Проверь: **глаз не видно**, только нижняя часть лица и улыбка.
 Если глаза видны:
@@ -191,7 +191,7 @@ The Keeper of the Hall of Words. Calm, polite, patient, quietly dangerous. Trade
 
 **Шаг 2. Аватар:**
 ```text
-Modern full-colour vertical webtoon style, clean digital linework with soft cel shading. Head and shoulders, front view. A gaunt humanoid creature with a smooth, featureless, matte paper-white head and face: no eyes, no nose, no hair, only a single thin vertical teal seam where a mouth would be. Tattered faded grey-teal remnants of human clothing. Unsettling, calm. Plain light background, no text.
+Korean webtoon style, full colour, clean digital linework with soft cel shading. Head and shoulders, front view. A gaunt humanoid creature with a smooth, featureless, matte paper-white head and face: no eyes, no nose, no hair, only a single thin vertical teal seam where a mouth would be. Tattered faded grey-teal remnants of human clothing. Unsettling, calm. Plain light background, no text.
 ```
 Проверь: на лице **нет глаз и носа**, только тонкая бирюзовая полоска.
 Если появились глаза или нос:

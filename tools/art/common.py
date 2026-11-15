@@ -21,7 +21,7 @@ for _s in (sys.stdout, sys.stderr):
         pass
 
 # ---------------------------------------------------------------- prompt text
-STYLE_PREAMBLE = ("Modern full-colour vertical webtoon, clean confident lineart, cel shading with soft gradients "
+STYLE_PREAMBLE = ("Korean webtoon, full colour, clean confident lineart, cel shading with soft gradients "
                   "in lighting, cinematic lighting, expressive faces")
 SUFFIX = ("vertical 3:4 portrait composition, no text, no letters, no speech bubbles, no captions, "
           "no watermark, leave clean empty space in the upper third for speech bubbles")
