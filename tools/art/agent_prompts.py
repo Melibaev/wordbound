@@ -10,6 +10,7 @@ Output: art-prompts/agent/instructions.md (paste once into "Инструкции
 Style, palette and rules live in the agent instructions, characters come from Flow
 characters via @Name, so each panel needs only location + shot.
 """
+import json
 import os
 import re
 import sys
@@ -18,6 +19,66 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import common as C  # noqa: E402
 
 OUT = os.path.join(C.PROMPTS_DIR, "agent")
+CHECKS_PATH = os.path.join(C.ROOT, "story", "checks.json")
+
+GENERAL_CHECK = """## Общая проверка для каждой панели
+
+- Персонажи похожи на себя: Дэн — круглые очки, карандаш за ухом, жёлтый бейдж; Мира — шнурок на левом запястье; у Хранителя не видно глаз; у Безмолвных нет глаз и носа.
+- Нет корейских/японских/китайских букв.
+- Нет пузырей с репликами и надписей.
+- Вертикальный кадр 3:4.
+- Сверху есть свободное место.
+
+Если панель не та, напиши агенту в чат (по-английски), например:
+
+- `Redo panel 03: Dan must be in the foreground.` — «Переделай панель 03: Дэн должен быть на переднем плане».
+- `Redo panel 05: remove all text and letters from the image.` — «Переделай панель 05: убери весь текст и буквы с картинки».
+"""
+
+DOWNLOADS = r"C:\Users\Laptop\Downloads\<файл>.mp4"
+
+
+def load_checks():
+    try:
+        with open(CHECKS_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return {}
+
+
+def first_sentence(t):
+    m = re.match(r".*?[.!?](?=\s|$)", t, re.S)
+    return (m.group(0) if m else t).strip()
+
+
+def video_order(panels):
+    """Last panel (cliffhanger) first, then action panels, then the first panel."""
+    km = [i for i in range(len(panels)) if C.key_moment(panels, i)]
+    last = len(panels) - 1
+    order = ([last] if last in km else []) + [i for i in km if i not in (0, last)]
+    if 0 in km and 0 != last:
+        order.append(0)
+    return order
+
+
+def video_md(eid, panels, checks):
+    ck = checks.get(eid, [])
+    L = ["## Видео (после того как все картинки готовы)\n",
+         "Отправляй в **тот же чат агента**, где делал картинки этого эпизода. Перед каждым видео Flow покажет окно "
+         "подтверждения со стоимостью в кредитах — сначала посмотри цену. Блоки идут по важности; "
+         "⭐ — делай в первую очередь.\n"]
+    for rank, i in enumerate(video_order(panels)):
+        n = i + 1
+        star = " ⭐ в первую очередь" if rank < 3 else ""
+        msg = ('Animate the final image of panel %02d from the collection "%s" into a short video. %s '
+               'Vertical 9:16, no dialogue, no text, no subtitles. Name it "%s panel %02d video".'
+               % (n, eid, C.build_video_prompt(panels[i]), eid, n))
+        hint = first_sentence(ck[i]) if i < len(ck) and ck[i] else ""
+        L.append("### Видео: панель %02d%s\n" % (n, star))
+        L.append("```text\n%s\n```\n" % msg)
+        L.append("Проверь: движение мягкое, персонажи не меняют лицо, нет текста" + ("; в кадре: " + hint if hint else ".") + "\n")
+        L.append("Импорт:\n\n```bash\npython tools/art/import_art.py - %s --video %d \"%s\"\n```\n" % (eid, n, DOWNLOADS))
+    return "\n".join(L)
 
 INSTRUCTIONS = [
     ("WORDBOUND style", None, """You are the illustrator of WORDBOUND, an original colour webtoon. Every request is a list of numbered panels.
@@ -57,13 +118,15 @@ def panel_block(eid, n, panel, chars, bible, prev_loc):
 
 
 def episode_md(eid, ep, chars, bible, size):
+    checks = load_checks()
     panels = ep.get("panels", [])
     n = len(panels)
     L = ["# %s: %s (%s) — сообщения для агента Flow\n" % (eid, ep.get("title", ""), ep.get("titleRu", "")),
          "Панелей: %d, сообщений: %d. Каждое сообщение — отдельный блок ниже: скопируй целиком, вставь в чат агента, отправь.\n"
          % (n, (n + size - 1) // size),
          "**Метки `@Dan`, `@Mira`… набери заново руками**, выбирая персонажа из выпадающего списка — "
-         "вставленный текстом `@Dan` Flow может не распознать как персонажа.\n"]
+         "вставленный текстом `@Dan` Flow может не распознать как персонажа.\n",
+         GENERAL_CHECK]
     for start in range(0, n, size):
         chunk = list(range(start, min(start + size, n)))
         first, last = chunk[0] + 1, chunk[-1] + 1
@@ -78,6 +141,12 @@ def episode_md(eid, ep, chars, bible, size):
         L.append("## Сообщение %d — панели %02d–%02d\n" % (start // size + 1, first, last))
         L.append("Персонажи в этом сообщении: %s\n" % (", ".join("`%s`" % t for t in all_tags) or "нет"))
         L.append("```text\n%s\n```\n" % msg)
+        L.append("**Как проверить:**\n")
+        ck = checks.get(eid, [])
+        for i in chunk:
+            L.append("- **Панель %02d:** %s" % (i + 1, ck[i] if i < len(ck) and ck[i] else "описание не найдено"))
+        L.append("")
+    L.append(video_md(eid, panels, checks))
     return "\n".join(L)
 
 
