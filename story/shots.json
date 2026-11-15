@@ -1,0 +1,449 @@
+{
+ "s1e03": [
+  {
+   "camera": "Tight medium shot, eye level, side-on. The camera stands inside the small round room, a little to the right of the door, so the door is on the LEFT edge of the frame and the two characters fill the rest.",
+   "action": "The small wooden door with an iron handle is at the left edge, closed. Dan stands at left facing the door (his body turned toward the left edge of the frame), his right arm stretched toward the handle, fingers stopped about one inch short of it, NOT touching it. Mira stands right behind him, to his right in the frame, her black-gloved left fist clamped around his right wrist and pulling the arm back. The System window floats in the upper right corner of the frame.",
+   "faces": "Dan: pulling his hand back, jaw set, a frightened but decided look. Mira: sharp half-lidded eyes on Dan, one corner of her mouth showing a tiny dry approval.",
+   "props": "Closed small door with a rusty iron handle at the left edge; a thin line of cold teal shadow under the door; the System window (blank cream paper, vermilion double border, tilted 2-3 degrees) in the upper right corner; Mira's red cord visible on her left wrist where it grips Dan.",
+   "light": "Warm ochre lamp light from above the frame, deep soft shadows in the corners, a hint of cold teal at the bottom of the door only.",
+   "avoid": "Dan must not touch the handle; the door stays closed; no Silent visible; nothing written in the System window; no knocking hands.",
+   "check": "Дэн слева лицом к двери, рука в дюйме от ручки, но не касается её. Кулак Миры сжимает его запястье. Дверь закрыта, внизу бирюзовая щель, окно Системы справа вверху."
+  },
+  {
+   "camera": "Close-up looking up, camera low near the floor in the middle of the room, aimed at the ceiling lamp which fills the upper third of the frame; the two characters are in the lower part of the frame.",
+   "action": "The bare ceiling lamp hangs at top centre, its flame shrunk to a tiny ember with a faint vermilion heart. Below it on the RIGHT, Mira kneels on one knee and rummages in her open backpack, head bowed, looking into it. On the LEFT, Dan stands, head tilted back, looking up at the lamp with worry.",
+   "faces": "Dan: anxious, brows pulled together, lips pressed. Mira: focused and grim, eyes on the pack.",
+   "props": "The ember-lamp at top; the open canvas backpack with a coil of rope beside Mira's knee; the small round room's ochre walls scratched with names (abstract scratches, no readable letters); rusty tin cans on the floor.",
+   "light": "Very weak warm ochre glow from the ember only, the room noticeably darker than before; creeping cold teal shadows climbing the walls from the corners and the floor.",
+   "avoid": "No Silent inside the room; no text on the walls (scratches are abstract marks only); the lamp must not be bright or full; the door must be closed.",
+   "check": "Лампа вверху почти погасла, остался красноватый уголёк. Мира справа на коленях роется в рюкзаке, Дэн слева смотрит вверх на свет. Комната темнее, по стенам ползёт бирюзовая тень."
+  },
+  {
+   "camera": "Top-down insert, camera directly above the floor, looking straight down (bird's-eye).",
+   "action": "A worn, creased paper map lies unfolded on the stone floor between two pairs of kneeling knees: Dan's knees on the LEFT, Mira's on the RIGHT. Mira's gloved right index finger rests on the map and traces a long winding path. Only the tops of their heads and shoulders are visible at the left and right edges; Dan's head is bowed over the map.",
+   "faces": "Barely visible from above; Dan's round glasses glint at the left edge.",
+   "props": "The map: hand-drawn dark ink lines only, a long winding path that starts at the bottom, passes a rectangular hall drawn as a grid of tiny pillar dots, and ends at a big arch symbol marked by a vermilion cross. NO writing, NO labels, NO legend, NO letters anywhere on the map. Mira's red cord on her left wrist rests on the floor near the map edge.",
+   "light": "Dim warm ochre lamp light from above, soft shadows of their heads falling across the map.",
+   "avoid": "No text, no letters, no numbers on the map; no compass lettering; Dan and Mira must not look at the camera; no full faces.",
+   "check": "Вид строго сверху: карта на полу между коленями Дэна (слева) и Миры (справа). Палец Миры ведёт по пути, в конце арка с красным крестом. На карте нет букв."
+  },
+  {
+   "camera": "Epic wide establishing shot, slightly high angle. The camera stands just behind the entrance and a bit above, looking down the whole length of the hall; the two characters are tiny at the bottom of the frame, seen from behind.",
+   "action": "A vast colonnade hall seen in one-point perspective, pale stone pillars in two long rows. Dozens of tall Silent stand motionless against both side walls, evenly spaced, their heads tilted slightly toward the entrance. Dan (left) and Mira (right) stand tiny at the bottom centre, their backs to the camera, holding hands: Mira's left hand holds Dan's right hand, her red cord visible. Far away at the end of the hall a small exit arch glows faintly.",
+   "faces": "Not visible (backs to camera); the Silent have smooth blank faces with no eyes and no nose, a thin teal seam for a mouth.",
+   "props": "Two rows of pillars; Silent figures against the walls; a faint worn fresco shape near the far arch (tiny, unreadable); dust motes in light shafts.",
+   "light": "Dim ash-grey light falling in slanting shafts from high wall slits, cold teal shadow at the bases of the pillars, a hint of warm light only on the two heroes.",
+   "avoid": "Do not draw the Silent walking or in the middle of the floor; no Silent with eyes, nose or lips; no text; keep the heroes tiny, not in a close-up.",
+   "check": "Огромный зал с колоннами, десятки Безмолвных вдоль стен. Дэн и Мира крошечные внизу, спиной к камере, держатся за руки. Безмолвные без глаз и носа."
+  },
+  {
+   "camera": "Low-angle over-the-shoulder shot: the camera is near floor level, behind and below a row of Silent in the foreground, looking along the hall wall.",
+   "action": "In the foreground, three or four Silent stand in a row along the wall, shown from the side and behind so only their heads, shoulders and long arms are seen, their blank faces tilted slightly toward the sound of footsteps (they are blind, they do not look at the heroes). In the background Dan (left) and Mira (right) creep past along the wall in the same direction, left to right, Mira half a step ahead. Dan stares UP at the tall Silent; Mira keeps her eyes lowered on the floor.",
+   "faces": "Dan: a nervous half-smile, wide eyes, looking up. Mira: head bowed, lips pressed, eyes on the floor.",
+   "props": "Pillars behind; the foreground Silent with long thin fingers hanging, ink-teal drips from the fingertips.",
+   "light": "Ash-grey light from the high slits, cold teal shadows along the wall behind the Silent, no warm light.",
+   "avoid": "The Silent must have no eyes, no nose, no lips (only a thin vertical teal seam); no Silent looking directly at Dan; no second Dan or Mira; no text.",
+   "check": "На переднем плане головы Безмолвных (вид сбоку), вдали Дэн и Мира идут вдоль стены. Дэн смотрит вверх с нервной полуулыбкой, Мира смотрит вниз."
+  },
+  {
+   "camera": "Close-up, eye level, tight on the two heroes, slightly from the front-left.",
+   "action": "Dan is crouched low at the left of the frame, a palm-sized grey stone held in his right hand near his shoulder ready to throw, his head turned and his eyes fixed on a far corner of the hall off-frame (to the upper left). Mira crouches at the right beside him, looking at the stone, with one eyebrow raised.",
+   "faces": "Dan: a tiny sly engineer's grin, eyes narrowed with calculation. Mira: sceptical, one eyebrow raised, mouth flat.",
+   "props": "The grey stone in Dan's hand; a blurred pillar and one blurred standing Silent far behind them; Mira's red cord on her left wrist, her gloved hand resting on her knee.",
+   "light": "Dim ash-grey light, a cool rim light on their faces, shallow depth of field.",
+   "avoid": "Do not throw the stone yet (it is still in his hand); no Silent close to them; no text; no bandage on Dan's face.",
+   "check": "Дэн присел слева с камнем в руке (камень ещё не брошен), хитро улыбается. Мира справа, бровь поднята. Дэн смотрит в дальний угол."
+  },
+  {
+   "camera": "Wide motion shot, medium-high camera across the hall: from the entrance side looking at the far corner, so both rows of Silent and the far corner are visible.",
+   "action": "A small dark stone is caught in mid-air in a long arc over the hall toward the far upper-left corner. Every Silent head, in both rows, has swung to face that far corner, all in the same direction, like a field of flowers turned toward the sun. In the foreground at the bottom right, Dan and Mira slip along the opposite (right) wall, bodies pressed to the wall, moving toward the exit, Dan in front, Mira behind.",
+   "faces": "Dan: a tight pleased smile, eyes on his path. Mira: almost smiling, the corner of her mouth lifted slightly.",
+   "props": "The airborne stone with a faint motion trail (no letters); rows of pillars; Silent lining both walls, heads all turned the same way.",
+   "light": "Ash-grey slanted light, cold teal shadows; a little warm light on the heroes.",
+   "avoid": "No sound-effect lettering; no Silent facing the heroes; no Silent moving; the stone must be small.",
+   "check": "Камень в воздухе летит в дальний угол, все головы Безмолвных повёрнуты туда. Дэн и Мира крадутся вдоль противоположной стены."
+  },
+  {
+   "camera": "Dramatic low close-up, camera on the floor at ankle level, wide-angle; Dan's foot is large in the foreground, his face visible above and behind it.",
+   "action": "Dan's right sneaker has just come down on a loose floor tile that cracks; concentric ripple rings of glowing vermilion light spread outward across the floor from under the sneaker (abstract rings only). Above and behind the foot Dan's face looks down toward it, frozen. Behind him, in a perfect line, every Silent head has snapped round to face him and the camera. Mira stands blurred at the right edge, rigid.",
+   "faces": "Dan: eyes wide behind the glasses, mouth in a silent 'oh no', frozen mid-step. Mira (blurred): clenched jaw.",
+   "props": "The cracked tile with fine cracks; the vermilion ripple rings on the floor; the white sneaker; a straight row of Silent heads.",
+   "light": "Cold ash-grey light, the rings glow vermilion and cast a thin red light on the sneaker and Dan's chin.",
+   "avoid": "No letters or sound-effect words inside the rings; the Silent have no eyes, no nose, no lips; do not show anyone attacking.",
+   "check": "Крупно кроссовок Дэна на треснувшей плитке, от него красные круги по полу. Позади все Безмолвные повернулись к Дэну. Глаза Дэна широкие. Букв в кругах нет."
+  },
+  {
+   "camera": "Heroic low-angle shot, camera on the floor in front of Mira looking up, wide lens.",
+   "action": "Mira stands at the centre of the frame facing the camera and the hall beyond it, her LEFT arm stretched straight out toward the camera, palm open and facing out, her red cord on that wrist clearly visible. From her open mouth a shockwave ring of glowing vermilion glyph-shaped light bursts outward (abstract curled shapes, not readable letters). A few tall Silent behind and around her are frozen mid-step, one leg raised. Dan is half-visible at the left edge, bracing and staring at her.",
+   "faces": "Mira: furious and fierce, mouth wide open in a shout, her face draining of colour, lips cracked, a thin vermilion thread running from her lips. Dan: amazed.",
+   "props": "The ring of vermilion glyph-light; the thin vermilion breath thread trailing from her lips; her scarf lifted by the blast.",
+   "light": "Strong vermilion glow from the shockwave on her face and the nearest Silent, the rest ash-grey with cold teal shadow.",
+   "avoid": "No readable letters in the shockwave; no Silent attacking or falling; no second Mira; Mira must not touch Dan.",
+   "check": "Мира снизу, левая рука вытянута вперёд (на запястье шнурок), изо рта красный всплеск знаков (не читаемых). Безмолвные застыли на ходу. Лицо бледное, красная нить."
+  },
+  {
+   "camera": "Dynamic diagonal shot, medium-wide, slightly tilted camera, eye level; the pair move toward the left of the frame.",
+   "action": "Mira (right) stumbles, knees buckling, her head hanging; her LEFT arm (red cord on the wrist) is draped over Dan's shoulders. Dan (left), bent under her weight, holds that arm and drags her toward a small exit arch visible at the far left background. Around them the Silent are still standing frozen but start to twitch: a finger, a head beginning to turn.",
+   "faces": "Mira: pale, eyes half closed, a thin vermilion thread dripping from her lips. Dan: strained, teeth gritted, eyes on the arch.",
+   "props": "The distant exit arch with a faint glow; Mira's backpack on her back; a few frozen Silent around.",
+   "light": "Ash-grey light with a faint vermilion tint around Mira; cold teal shadows.",
+   "avoid": "Dan must not carry Mira on his back or in his arms (arm over shoulder only); no Silent touching them; no text.",
+   "check": "Мира обмякла, её левая рука на плечах Дэна, он тащит её к арке слева вдали. Вокруг застывшие Безмолвные начинают шевелиться."
+  },
+  {
+   "camera": "Medium shot, eye level, slightly from the front, at the exit arch; the stone wall with the fresco fills the background.",
+   "action": "A worn faded fresco on the wall shows two girls, one taller and one smaller, standing side by side holding hands; the smaller girl has a thin red cord painted on her wrist. In front of it, at the right, Mira stands stopped dead, facing the fresco, her LEFT wrist with the red cord lifted slightly in front of her chest, in the same frame as the painted wrist. Dan stands at the left, half turned, his eyes moving between the fresco and Mira.",
+   "faces": "Mira: stricken, wide amber eyes, lips parted, frozen. Dan: puzzled, concerned, brows up.",
+   "props": "The fresco in cracked faded ochre-cream paint, faces simple and unreadable, no writing around it; Mira's cord and the painted cord side by side.",
+   "light": "Dim ash-grey light from above, the fresco slightly warmer, cold teal shadows at the edges.",
+   "avoid": "No text or signature on the fresco; the fresco girls must not look like photographs; Mira must not cry out; no Silent.",
+   "check": "Фреска: две девочки держатся за руки, у меньшей красный шнурок. Мира справа замерла, её запястье со шнурком рядом. Дэн слева смотрит то на фреску, то на неё. Текста нет."
+  },
+  {
+   "camera": "Monumental low-angle wide shot, camera near the ground looking steeply up; the heroes seen from behind at the bottom.",
+   "action": "A house-high gate: a huge stone arch with two smooth stone leaves meeting in a vertical seam in the middle, no handle, no lock. Above the arch runs one long line of faint carved vermilion glyph-shaped marks (abstract, NOT real letters). At the base, a pool of cold teal shadow. Dan (left) and Mira (right) stand tiny at its feet, backs to the camera, heads tilted far back; Dan has one hand half-raised.",
+   "faces": "Not visible (backs to camera).",
+   "props": "The closed gate with a clear central seam, the engraved glyph line, teal shadow at the base, worn stone steps.",
+   "light": "Cold ash-grey light, the glyph line glows a faint vermilion, teal shadow at the base.",
+   "avoid": "No handle, no lock, no door-knob; no readable letters in the carved line; no Silent; the gate must stay closed.",
+   "check": "Огромные ворота с вертикальным швом посередине, без ручки. Над аркой строка знаков (не буквы). Дэн и Мира внизу, спиной к камере. Ворота закрыты."
+  },
+  {
+   "camera": "Medium three-shot at the foot of the gate, eye level, from the front; the gate's lower stone fills the background.",
+   "action": "The System window floats at the centre of the frame, at chest height between the two heroes, tilted 2-3 degrees, its border a hard glowing vermilion. Dan (left) clutches his head with both hands, eyes squeezed shut, struggling to remember. Mira (right) grips his shoulder with her right hand and leans toward him, urging him, mouth open.",
+   "faces": "Dan: pained, squeezing his eyes shut, mouth tight (round black glasses pushed slightly up by his fingers but still on). Mira: urgent, fierce, brows down.",
+   "props": "The blank System window (no text); the stone gate surface behind; teal shadow on the ground.",
+   "light": "Vermilion glow from the window on both faces, the rest cold ash-grey with teal shadow.",
+   "avoid": "Nothing written in the System window; Dan must not hold anything; no Silent yet; no bandage on Dan.",
+   "check": "В центре окно Системы с яркой красной рамкой (пустое). Дэн слева держится за голову, зажмурился. Мира справа держит его за плечо и торопит."
+  },
+  {
+   "camera": "Over-the-shoulder shot from behind the two heroes: the camera stands at the foot of the gate, behind their shoulders, looking down the long hall. Dan's shoulder fills the lower left, Mira's back the lower right.",
+   "action": "Far down the hall, between the rows of pillars, ONE tall Silent walks toward them in a straight, calm line, in the middle of the floor, its pale face catching the light. In the foreground Mira (right) stands with her back stiff and shoulders raised, facing the hall. Dan (left) is turning his head and upper body from the gate toward the hall, showing his face in three-quarter profile.",
+   "faces": "Dan: horrified, mouth open, eyes wide. Mira: face not visible (stiff back).",
+   "props": "The single approaching Silent far away, the empty hall, the pillars; Dan's lanyard swinging.",
+   "light": "Ash-grey light from the slits, the Silent's face pale, teal shadows around its feet.",
+   "avoid": "Only ONE Silent, no crowd; the Silent has no eyes, no nose, no lips; it must be far away, not near; no text.",
+   "check": "Камера у ворот смотрит вдоль зала. Вдали один Безмолвный идёт по центру. На переднем плане плечо Дэна слева и спина Миры справа. Дэн оборачивается в ужасе."
+  },
+  {
+   "camera": "Wide shot, eye level, slightly from the side; the gate fills the background.",
+   "action": "In the centre, a tall Silent stands directly in front of the closed gate, facing it, seen from behind and slightly from the side, its head tilted up as it speaks; its thin teal mouth-seam is slightly open in profile. The long carved line above the arch flares bright vermilion. At the left edge of the frame, Dan (left) and Mira (right) are pressed flat against the stone side wall of the arch, a few metres from the Silent, shoulder to shoulder, heads turned toward it, trying not to be seen.",
+   "faces": "Dan: terrified, holding his breath, wide eyes. Mira: tense, jaw clenched, eyes on the Silent.",
+   "props": "The flaring vermilion glyph line above the arch (abstract shapes only); the closed gate; the Silent's long thin fingers with teal drips.",
+   "light": "A hard vermilion glow from the flaring line lights the gate and the Silent's head from above; cold teal shadow on the floor and the heroes.",
+   "avoid": "No readable letters; the Silent has no eyes, no nose, no lips; the Silent must not look at the heroes; the gate is still closed; no second Silent.",
+   "check": "Безмолвный в центре спиной к камере стоит перед воротами. Строка над аркой вспыхнула. Дэн и Мира прижались к боковой стене арки сбоку. Безмолвный один."
+  },
+  {
+   "camera": "Action shot from behind and low, the camera standing a few steps back from the gate, looking into the gate; strong perspective toward the light.",
+   "action": "The two stone leaves of the gate have split down the middle and are swinging closed again; a blinding gap of white-gold light between them. The calm tall Silent steps through the gap first, seen as a dark silhouette from behind. Right behind it Dan (left) and Mira (right) dash side by side into the narrowing gap, seen from behind and the side, all moving AWAY from the camera into the light. Dan's round glasses are flying off his nose in mid-air, Mira's cream scarf whips behind her; her red cord is visible on her left wrist.",
+   "faces": "Dan: shouting, mouth wide open, face in profile with squinted eyes. Mira: teeth gritted, shouting 'go'.",
+   "props": "The gate leaves, the light gap, the airborne glasses, the whipping scarf.",
+   "light": "Overexposed white-gold light from the gap, strong silhouettes and rim light, motion blur lines.",
+   "avoid": "No readable lettering or sound-effect text; no more than one Silent; Dan and Mira must be going INTO the gate, not out of it.",
+   "check": "Ворота раскололись, из щели свет. Безмолвный проходит первым (силуэт), Дэн и Мира бегут за ним ВНУТРЬ. У Дэна слетают очки, шарф Миры развевается."
+  },
+  {
+   "camera": "Almost black frame, close-up on the lower half of a face; camera at eye level, straight on.",
+   "action": "In total darkness, a single low amber candle at the bottom of the frame lights only the lower half of the Keeper's face from below: pale thin skin, a calm small smile, the nose tip and mouth only. The deep black hood completely hides his eyes. His ink-stained fingertips are folded under his chin. At the far left and far right edges of the dark, two tiny dark silhouettes (Dan and Mira) stand small and still.",
+   "faces": "Keeper: a calm, pleased, small smile; eyes never visible. Dan and Mira: silhouettes only.",
+   "props": "The candle and its small flame; ink-black robe barely visible with a few glints of ochre embroidery; a brass quill tip glinting in the sleeve.",
+   "light": "Only the amber candle light from below; everything else ink black.",
+   "avoid": "The Keeper's eyes must not be visible (hood hides them); no chair, no jars, no room visible; no readable embroidery; Dan and Mira only as tiny silhouettes.",
+   "check": "Почти чёрный кадр: снизу свеча освещает нижнюю часть лица Хранителя, улыбка. Глаз не видно, капюшон. По краям темноты два маленьких силуэта."
+  }
+ ],
+ "s1e04": [
+  {
+   "camera": "Sweeping wide establishing shot, high angle: the camera hangs inside the hall high above the floor, looking down and across at the entrance door in the lower part of the frame.",
+   "action": "A vast round library: curved shelves climb from the floor to a domed ceiling, filled with thousands of glass jars. Dan (left) and Mira (right) stand tiny at the entrance at the bottom of the frame, side by side, Dan with his head tipped back and his mouth open in awe, Mira standing straight with arms at her sides looking forward. Loose blank paper sheets are scattered over the floor.",
+   "faces": "Dan: open-mouthed wonder, wide eyes. Mira: dry, unimpressed, half-lidded.",
+   "props": "Each jar holds one softly glowing vermilion glyph shape like a firefly (abstract glyphs, NOT readable letters); the jars have NO labels and NO writing; the central chair is not in frame.",
+   "light": "Warm amber light, glowing jar-lights dotting the shelves like stars; the entrance a little cooler.",
+   "avoid": "No labels or text on jars, shelves or paper sheets; no Keeper in view; do not draw Dan reaching for a jar; keep both heroes tiny.",
+   "check": "Огромный круглый зал, стеллажи до купола, светящиеся банки (без надписей). Дэн и Мира крошечные внизу у входа, Дэн с открытым ртом смотрит вверх. Хранителя нет."
+  },
+  {
+   "camera": "Medium close two-shot, eye level, from the front.",
+   "action": "Dan (left) turns his head to the right and looks sideways at Mira with a suspicious frown. Mira (right) does not look at him; she stares straight ahead out of frame, jaw set, her left hand tight on the strap of her backpack so that her red cord shows on the wrist.",
+   "faces": "Dan: suspicious, brows down, mouth tight. Mira: cold, guarded, jaw clenched, no eye contact.",
+   "props": "Blurred shelves of softly glowing jars behind them (no labels); the backpack strap; Mira's red cord.",
+   "light": "Warm amber light from the jars, soft shadows on the faces.",
+   "avoid": "No Keeper in the frame; no writing on the jars; Mira must not look at Dan; Dan must not smile.",
+   "check": "Дэн слева косо смотрит на Миру с подозрением. Мира справа смотрит прямо перед собой, рука на лямке рюкзака, шнурок виден. Хранителя нет."
+  },
+  {
+   "camera": "Frontal wide composition, eye level, camera at the entrance side looking toward the centre of the hall; Dan and Mira are small, seen from behind at the bottom of the frame.",
+   "action": "At the centre of the hall the Keeper sits in a very tall dark wooden chair, facing the camera, hands folded in his lap. His deep hood hides his eyes completely; only the pale lower face with a faint calm smile is visible; a brass quill sticks out of his sleeve. Behind the chair stands a heavy sealed door covered in blobs of vermilion wax. Dan (left) and Mira (right) stand small in the foreground, backs to the camera, facing him, a few steps apart.",
+   "faces": "Keeper: calm faint smile, eyes never visible. Dan and Mira: not visible (backs to the camera).",
+   "props": "The tall chair, the sealed door with round vermilion wax seals (no stamped letters, plain blobs), shelves of glowing jars around the walls, ink-black robe with ochre embroidery (abstract pattern).",
+   "light": "A pool of warmer amber light on the Keeper, darker amber elsewhere, the door slightly in shadow.",
+   "avoid": "The Keeper's eyes must not be visible; no writing on the door or seals; the door must stay closed and sealed; no Silent.",
+   "check": "В центре Хранитель в высоком кресле лицом к камере, глаз не видно. Позади дверь с красными восковыми печатями без букв. Дэн и Мира внизу спиной к камере."
+  },
+  {
+   "camera": "Close-up, eye level; shallow depth of field. The sharp subject is the Keeper's hand and the jar, Dan is a blur in the foreground.",
+   "action": "The Keeper's pale hand with ink-stained fingertips lifts a glass jar into the centre-right of the frame; inside it one small vermilion glyph pulses like a heartbeat. Behind the jar, soft focus, the lower half of the Keeper's face with a calm smile (hood hiding the eyes). In the left foreground, out of focus, Dan's arm and open hand reach toward the jar.",
+   "faces": "Keeper: a small smile, eyes hidden by the hood. Dan: only the reaching arm and part of his face blurred.",
+   "props": "The glass jar with one glowing vermilion glyph (abstract), a blank cork stopper; the Keeper's sleeve with ochre thread.",
+   "light": "Warm amber light with the vermilion glow of the jar on his fingers.",
+   "avoid": "No label, no writing, no readable letter on the jar; the Keeper's eyes must not be visible; Dan must not touch the jar.",
+   "check": "Бледная рука Хранителя держит банку с одним красным знаком, за ней улыбка без глаз. Слева размытая рука Дэна тянется к банке. На банке нет надписей."
+  },
+  {
+   "camera": "Medium shot, slightly low angle, from the front.",
+   "action": "The Keeper, in the centre background, leans forward in his chair, his hood tilting down toward Dan, his pale smile widening. Dan (left, foreground) presses one hand flat on his own chest, where a faint vermilion glow pulses through his shirt. Mira (right) takes one step forward so that she stands half in front of Dan, shielding him, her shoulder turned toward the Keeper.",
+   "faces": "Keeper: a widening smile, eyes hidden. Dan: anxious, brows up, lips parted. Mira: hard, protective, narrowed eyes on the Keeper.",
+   "props": "The glow through Dan's grey shirt on his chest; the Keeper's tall chair behind; Mira's red cord on her left wrist.",
+   "light": "Warm amber light, a faint vermilion glow on Dan's chest.",
+   "avoid": "The Keeper's eyes not visible; no writing; Dan must not be holding any jar.",
+   "check": "Хранитель в центре подался вперёд, улыбка шире, глаз нет. Дэн слева прижимает руку к груди, там красный свет. Мира справа наполовину закрывает Дэна."
+  },
+  {
+   "camera": "Medium shot, eye level, centred; the window is the focal point.",
+   "action": "The System window floats at chest height between Dan and Mira, tilted 2-3 degrees, now a WARNING style: a blank rectangle filled solid vermilion red with a thin cream border, no writing. Dan (left) is hunched, head lowered, shoulders sagging, a haunted look. Mira (right) holds his sleeve with her right hand, glancing at him.",
+   "faces": "Dan: gloomy, haunted, eyes downcast behind the glasses. Mira: tense and worried but hiding it, brows pinched.",
+   "props": "The solid vermilion warning window (blank, no letters), Mira's red cord.",
+   "light": "The window glows red and casts a red tint on both faces; the background is dim amber.",
+   "avoid": "No text or symbols in the window; no Keeper; the window must not be blue or neon.",
+   "check": "Между Дэном и Мирой окно Системы: сплошная красная заливка с кремовой рамкой, без текста. Дэн слева сгорблен, Мира справа держит его за рукав."
+  },
+  {
+   "camera": "Over-the-shoulder shot: the camera stands behind Dan's left shoulder (his shoulder and back of the head in the left foreground), looking at the shelf and at Mira beyond.",
+   "action": "Dan stands in front of a tall shelf of jars; one jar at eye level glows more brightly than the rest, centre of the frame. Dan's lips are parted as if speaking the word. Mira stands further back on the right, suddenly pale, wincing, her right hand pressed over her right ear as if a high note hurts it; her left wrist with the red cord is down by her side.",
+   "faces": "Dan: curious, brows raised, mouth slightly open. Mira: pale, flinching, eyes narrowed.",
+   "props": "The glowing jar with an abstract vermilion glyph (NOT readable), no label on the jar or shelf; shelf rows blurred in the background.",
+   "light": "Warm amber light, the single jar glows vermilion on Dan's glasses and cheek.",
+   "avoid": "No writing on the jar, the shelf or the wall; Mira must not touch the jar; no Keeper.",
+   "check": "Дэн спиной стоит у полки, одна банка светится на уровне глаз. Мира дальше справа бледная, правой рукой зажимает ухо. На банке нет надписей."
+  },
+  {
+   "camera": "Triangle composition, medium-wide, slightly high angle; the three figures form a triangle.",
+   "action": "At the top of the triangle, the Keeper leans back in his tall chair, relaxed, relishing it, fingers laced on his chest. At the right foreground Mira strides toward him, furious, her right index finger raised and pointing at him. Dan stands in the middle ground between them, head turned to Mira, hands half raised, confused.",
+   "faces": "Keeper: relaxed smile, eyes hidden. Mira: furious, teeth bared, brows down. Dan: lost, brows up, mouth slightly open.",
+   "props": "The tall chair, the shelves of jars behind, the sealed door in the dark behind the chair.",
+   "light": "Warm amber light on the Keeper, shadows on the other two.",
+   "avoid": "The Keeper's eyes not visible; Mira must not touch him; no writing; no Silent.",
+   "check": "Хранитель вверху откинулся в кресле. Мира справа идёт к нему с поднятым пальцем, зла. Дэн между ними, растерян, смотрит на Миру."
+  },
+  {
+   "camera": "Quiet close-up on Dan alone, eye level, slightly from the side; the background is soft warm bokeh.",
+   "action": "Dan is alone in the frame, head turned three-quarters, looking at the glowing jars blurred into warm round lights behind him. In the upper right corner sits a small rectangular memory inset with a soft torn-paper edge and faded cream tones (NOT a bubble, NOT a cloud shape): a child's small hand with a pencil is writing a squiggly line on a school notebook page, drawn as meaningless wavy scribble, no letters.",
+   "faces": "Dan: gentle, resolved, a sad faint smile, eyes glistening.",
+   "props": "The cream memory inset with the child's hand and notebook; tiny vermilion glyph sparks reflected in his round glasses.",
+   "light": "Warm amber bokeh light, the inset in soft faded cream tones.",
+   "avoid": "No readable writing in the notebook; no speech or thought bubble; no Keeper or Mira; no bandage on Dan's face.",
+   "check": "Дэн один, лицо вполоборота, позади тёплые светлые круги (банки). В углу вставка: детская рука пишет в тетради (просто каракули, букв нет), не пузырь."
+  },
+  {
+   "camera": "Dynamic medium-wide shot, eye level, slightly tilted camera.",
+   "action": "Dan (left foreground) in profile faces right, his arm stretched out toward the Keeper with his hand open, palm up, jaw set. Mira (right foreground) lunges toward him from the right to stop him, one arm reaching for his arm, her cream scarf flying behind her. The Keeper (centre background) sits perfectly still in his tall chair, smile unchanged.",
+   "faces": "Dan: grim and determined. Mira: alarmed, shouting. Keeper: serene smile, eyes hidden.",
+   "props": "The open palm, the flying scarf, the tall chair; jar-lit shelves behind.",
+   "light": "Warm amber light, sharp rim light on the scarf.",
+   "avoid": "Mira must not have grabbed him yet (mid-lunge); the Keeper's eyes not visible; no text; no jars in Dan's hand.",
+   "check": "Дэн слева в профиль тянет раскрытую ладонь к Хранителю. Мира справа бросается к нему, шарф летит. Хранитель в центре сидит неподвижно, улыбается."
+  },
+  {
+   "camera": "Full-bleed flash composition, medium shot, eye level, centred on Dan.",
+   "action": "Dan is in the centre, bent backwards in an arch, mouth open in a silent cry, his round glasses sliding down his nose. A long spiral thread of glowing vermilion glyph-shaped light is torn from his chest and streams toward the upper right edge of the frame, where a pale hand holding an open glass jar catches it.",
+   "faces": "Dan: shock and pain, mouth open, eyes squeezed shut behind the glasses.",
+   "props": "The spiral of vermilion glyph-light (abstract curled shapes, not readable letters); the open jar and pale hand at the very edge.",
+   "light": "The whole frame is a white-vermilion burst, high exposure, Dan partly silhouetted.",
+   "avoid": "No readable letters; no Keeper's face; no blood; no bandage on Dan; Mira not in frame.",
+   "check": "Белая вспышка с красным: из груди Дэна выходит спираль красных знаков вправо к банке на краю кадра. Дэн выгнулся назад, очки сползают. Букв нет."
+  },
+  {
+   "camera": "Intimate close-up, eye level; camera at Dan's face height, looking at him from the front-right.",
+   "action": "In the right foreground a pale hand with ink-stained fingertips and a black sleeve with ochre thread offers, on its open palm, a small glowing ember-ball of vermilion light. Dan (left of centre) looks at it, mouth open in wonder as he speaks, his face lit warmly from below, eyes wet. Far behind, small and soft-focus on the right, Mira stands with her arms crossed, looking away to the side.",
+   "faces": "Dan: joy and disbelief, wet eyes, shouting happily. Mira: aloof, looking away.",
+   "props": "The glowing ember-ball (no letters), the Keeper's hand and sleeve only (no Keeper's face).",
+   "light": "Warm vermilion-amber glow from the ember lighting Dan's face from below; dim amber behind.",
+   "avoid": "The Keeper's face must not be shown; no writing; Mira must not look at Dan.",
+   "check": "Справа рука Хранителя (без лица) с красным светящимся шариком на ладони. Дэн слева смотрит на него, лицо тепло освещено, глаза влажные. Мира далеко, скрестила руки."
+  },
+  {
+   "camera": "Warm two-shot, medium close, eye level, from the front.",
+   "action": "Dan (left) grins stupidly, his chest glowing faintly vermilion through the grey shirt, shoulders loose. Mira (right) tilts her head toward him, arms crossed, eyes half-lidded; the corner of her mouth has the tiniest reluctant tug.",
+   "faces": "Dan: silly, relieved grin. Mira: unimpressed but with a hint of softness at the mouth corner.",
+   "props": "The faint glow on Dan's chest; Mira's red cord on her left wrist where her arm crosses; blurred glowing jars behind.",
+   "light": "Warm amber light with soft bokeh from the jars.",
+   "avoid": "No Keeper; no text; Mira must not smile broadly; no bandage on Dan.",
+   "check": "Дэн слева глупо улыбается, грудь слабо светится красным. Мира справа склонила голову, руки скрещены, едва заметный изгиб губ."
+  },
+  {
+   "camera": "Cinematic reveal, low angle over Dan's shoulder: the camera stands behind and left of Dan (back of his head and shoulder in the left foreground), looking at the Keeper and the sealed door.",
+   "action": "The Keeper stands up in front of his tall chair and points one arm at the sealed door behind it; glowing vermilion glyph-shaped light streams out of his sleeve toward the door and the round wax seals crack one by one, chips of red wax flying. In the middle of the door a narrow vertical slit of cold green-grey fluorescent light cuts through into the amber hall; through it, small and clear, a desk with a coffee mug and a ringing phone with a blank glowing screen (an office at night). Dan stares at it, one hand rising.",
+   "faces": "Keeper: a calm smile, eyes hidden by the hood. Dan: not visible (back).",
+   "props": "The cracked wax seals, the slit of cold light, the tiny office view (desk, mug, phone with blank screen), the Keeper's black robe with ochre thread.",
+   "light": "Warm amber hall light cut by a cold green-grey slit of light.",
+   "avoid": "No writing on the phone screen or anywhere; Mira not in frame; the door is open only as a narrow slit; the Keeper's eyes not visible.",
+   "check": "Хранитель встал перед креслом и указывает на дверь, печати трескаются, в щели холодный зелёный свет: стол, кружка, звонящий телефон. Дэн спиной слева. Миры нет."
+  },
+  {
+   "camera": "Action shot, medium-wide, slightly low angle.",
+   "action": "The sealed door in the centre background is slamming shut, the slit of light narrowing to a hair line, the wax seals knitting back together. Dan (left foreground) lunges toward it, both arms stretched forward, mouth open. Mira (right, directly behind him) has caught him around the waist with both arms and pulls him back, her heels braced. The Keeper stands calmly to the right of the door, hands folded in front of him, unmoved.",
+   "faces": "Dan: desperate, shouting. Mira: strained, gritted teeth. Keeper: calm, smile, eyes hidden.",
+   "props": "The door, the closing light slit, red wax pieces, Mira's red cord on her left wrist on Dan's belt.",
+   "light": "Warm amber light, the last cold slit of light on the floor.",
+   "avoid": "Dan must not touch the door; the Keeper must not move or touch anyone; no writing.",
+   "check": "Дверь захлопывается, щель света почти исчезла. Дэн слева рвётся к ней, Мира сзади обхватила его за пояс. Хранитель справа спокойно стоит, руки сложены."
+  },
+  {
+   "camera": "Wide shot from a high angle, the camera high above the hall's centre looking down obliquely.",
+   "action": "The lamps on the shelves go out one after another, starting from the entrance and moving toward the centre: the near part of the hall is already dark, the jars dead. Between the shelves tall teal silhouettes of Silent pour into the hall. The Keeper sits back down in his tall chair in the last pool of amber light, smiling. Dan and Mira are two tiny figures at the lower left edge of that pool, backs to the camera, looking back toward the entrance.",
+   "faces": "Keeper: a calm smile, eyes hidden. Dan and Mira: not visible (small and from behind).",
+   "props": "The dying lamps, the teal Silent silhouettes (smooth faces, no eyes or nose), the tall chair, the pool of amber light.",
+   "light": "A single pool of amber light in the centre, the rest sinking into dark teal.",
+   "avoid": "No visible eyes on the Silent; the Keeper's eyes not visible; no text; the Silent must not touch the heroes yet.",
+   "check": "Вид сверху на зал: лампы гаснут от входа, между полками льются бирюзовые силуэты. Хранитель в последнем пятне света улыбается. Дэн и Мира крошечные слева внизу."
+  },
+  {
+   "camera": "Wordless chase shot, eye level, slightly low, side-on; they run across the frame from left to right.",
+   "action": "Dan (left) and Mira (right) run to the right toward a small side door at the far right edge, set in a dark wall, with a thin line of weak light under it. Mira leads, her right hand dragging Dan by the sleeve. Behind them, from every gap on the left, a flood of teal silhouettes pours in. A small tilted blank System window floats beside them at upper centre.",
+   "faces": "Dan: panicked, mouth open, glasses slipping. Mira: urgent, grim, eyes on the door.",
+   "props": "The small side door, the blank System window (cream, vermilion double border, no text), the last dying amber lamps.",
+   "light": "Almost black, with a few dying amber lights and cold teal glow from the pursuing silhouettes.",
+   "avoid": "No text in the window; no Keeper in view; the Silent must not be catching them; no readable letters.",
+   "check": "Дэн и Мира бегут слева направо к маленькой боковой двери, Мира впереди тянет Дэна за рукав. Позади из щелей льются бирюзовые силуэты. Рядом пустое окно Системы."
+  }
+ ],
+ "s1e05": [
+  {
+   "camera": "Dutch-angle (tilted) chase shot, wide, eye level, from the side.",
+   "action": "Dan (left) and Mira (right) have just burst out of the hall's side exit, which is in the left background: its doorway shows dying amber light and teal shapes flooding toward it. They are skidding to a stop in a narrow dark stair-like corridor in front of a heavy plank door with iron hinges, which stands at the right of the frame, closed. Dan reaches out toward it with one hand, Mira pulls at his sleeve.",
+   "faces": "Dan: panicked, mouth open, shouting. Mira: urgent, jaw set, looking at the door.",
+   "props": "The heavy plank door with iron hinges and no handle, the dark corridor walls with torn paper pages, the amber light fading in the exit behind.",
+   "light": "Dying amber light from the left behind them, cold teal shapes in the exit, dark brown corridor, a few vermilion lantern glows.",
+   "avoid": "No text; the door must stay closed; the Silent must not be clear figures (only teal shapes); no handle on the door.",
+   "check": "Наклонённый кадр: Дэн и Мира выбежали из зала (позади слева проём с гаснущим светом и бирюзовыми тенями) и тормозят перед тяжёлой дверью справа. Дверь закрыта, без ручки."
+  },
+  {
+   "camera": "Close-up insert, eye level from the side and slightly behind: the door fills the frame, Dan's hands in the foreground.",
+   "action": "Dan faces the old plank door and pushes it with both palms flat on the wood, arms straight; vermilion glyph-shaped light blooms under his palms like heat. The door has shifted a finger-width, dust shaking from above. Behind his hands, Dan's face in three-quarter view with a look of dawning realisation. Mira stands blurred behind him; a small blank System window floats at the upper corner.",
+   "faces": "Dan: dawning realisation, eyes wide behind the round black glasses (tape on the hinge only), a faint smile.",
+   "props": "The old wood, glowing vermilion shapes under both palms (abstract, not letters), falling dust, the narrow gap.",
+   "light": "Warm vermilion glow under his hands lighting the wood and his chin; the rest dark with cold teal at the edges.",
+   "avoid": "No readable letters in the glow; Dan must push (hands on the door), not open a handle; no text in the System window.",
+   "check": "Крупно: обе ладони Дэна лежат на двери и толкают её, под ладонями красное свечение (не буквы). Дверь сдвинулась на палец, сыплется пыль. Лицо Дэна: понял."
+  },
+  {
+   "camera": "Wide shot from inside the dark corridor on the other side of the door, looking back at the doorway.",
+   "action": "Dan (left) and Mira (right) have tumbled through the open doorway into the dark corridor. Dan is in front, stumbling forward, both palms still held out in front of him as if he cannot believe it. Mira is at the doorway behind him, her back turned to Dan, heaving the heavy door shut with both gloved hands and her shoulder. Thin slivers of vermilion light lie on the floor.",
+   "faces": "Dan: disbelief, mouth open, eyes wide. Mira: effort, gritted teeth, looking over her shoulder at the door.",
+   "props": "The heavy door half closed, slivers of vermilion light on the floor, the dark corridor.",
+   "light": "Very dim: faint vermilion slivers of light on the floor and a trace of amber from the doorway, the rest dark.",
+   "avoid": "No Silent inside the corridor; the door is shut or nearly shut; no text.",
+   "check": "Дэн и Мира внутри тёмного коридора: Дэн впереди, ладони вперёд. Мира у двери, спиной к Дэну, изо всех сил закрывает её. На полу красные полоски света."
+  },
+  {
+   "camera": "Quiet two-shot, medium, eye level, from the opposite side of the corridor.",
+   "action": "Dan (left) and Mira (right) sit slumped side by side on the floor with their backs against the corridor wall, legs stretched out. Mira, looking straight ahead and not at him, holds out a crust of dry bread toward Dan in her right hand. Dan looks at the bread, then at her, touched and amused, a small smile. Her backpack lies beside her; her red cord is visible on her left wrist resting on her knee.",
+   "faces": "Dan: moved, amused, a soft smile. Mira: expressionless, eyes forward.",
+   "props": "A small crust of dry bread, her canvas backpack, a lantern-word glyph glowing on the wall above them (abstract light, no letters).",
+   "light": "Warm ochre light from the lantern-word on the wall above them, deep dark corridor beyond.",
+   "avoid": "No text on the lantern glyph; no bandage on Dan; Mira must not look at Dan; no Silent.",
+   "check": "Дэн слева и Мира справа сидят у стены. Мира, глядя вперёд, протягивает ему корку хлеба. Дэн смотрит на хлеб, потом на неё, растроган. Тёплый свет от фонаря-слова."
+  },
+  {
+   "camera": "Close two-shot, low warm light, eye level, from the front.",
+   "action": "Dan (left), chewing, turns toward Mira with raised eyebrows like a schoolboy about to ask a question, holding the rest of the bread. Mira (right) leans her head back against the wall and looks up at the ceiling, bracing for the question.",
+   "faces": "Dan: eager, boyish, raised brows. Mira: weary, eyes on the ceiling.",
+   "props": "The bread in Dan's hand, her backpack, the corridor wall.",
+   "light": "Low warm ochre light from the side.",
+   "avoid": "Mira must not look at Dan; no text; no bandage on Dan's face.",
+   "check": "Дэн слева жуёт и повернулся к Мире, брови вверх, как школьник. Мира справа откинула голову и смотрит в потолок, ждёт вопроса."
+  },
+  {
+   "camera": "Medium close-up on Dan, eye level, from the front, slightly right; Mira at the right edge.",
+   "action": "Dan is thoughtful, chewing, pinching the bridge of his nose with two fingers under his round glasses (glasses stay on his face). At the right edge Mira half-listens, wiping her black glove on her trousers and looking aside. Behind them the corridor recedes into darkness.",
+   "faces": "Dan: thoughtful, eyes lowered. Mira: indifferent, half-lidded.",
+   "props": "The dark corridor behind, a lantern glow far back, the bread crumbs.",
+   "light": "Warm ochre light from the left, shadows deepen behind them.",
+   "avoid": "Dan's glasses must stay on his face; nothing else on his face; no text.",
+   "check": "Дэн задумчиво жуёт, щиплет переносицу под очками (очки на месте). Справа Мира вытирает перчатку, смотрит в сторону. Позади тёмный коридор."
+  },
+  {
+   "camera": "Over-the-shoulder shot: the camera behind Dan's shoulder (left foreground), looking up at the window.",
+   "action": "Dan looks up at the System window floating above them in the dark corridor, like a student looking at a patient teacher; the window hangs above his eye level, centre of the frame, tilted slightly, with a steady vermilion border. Mira stands in the right corner of the frame, leaning on the wall, rolling her eyes.",
+   "faces": "Dan: patient, curious. Mira: eye-roll, mouth flat.",
+   "props": "The blank System window (no text), the dark corridor walls.",
+   "light": "A faint vermilion glow from the window on their faces, the rest dark ochre.",
+   "avoid": "No text in the window; no Silent; the window must not be blue.",
+   "check": "Из-за плеча Дэна: он смотрит вверх на окно Системы в тёмном коридоре, рамка красная и ровная. Мира справа у стены закатывает глаза."
+  },
+  {
+   "camera": "Close two-shot, eye level; Mira in the right foreground in profile, Dan behind her on the left.",
+   "action": "Mira looks down at her left wrist, where the frayed vermilion cord shows, her mouth a flat line; then she turns her eyes away. Dan, just behind and left of her, watches her with softening, curious eyes. A rare pale trace of a smile on her lips is fading.",
+   "faces": "Mira: pained, a vanishing hint of a smile. Dan: soft curiosity.",
+   "props": "The frayed vermilion cord on Mira's left wrist, clearly visible and in focus.",
+   "light": "Warm ochre light, soft.",
+   "avoid": "Mira's cord must be on her LEFT wrist; no text; Dan must not touch her.",
+   "check": "Мира справа в профиль смотрит на потрёпанный шнурок на левом запястье, потом отводит взгляд. Дэн слева смотрит мягко. На губах Миры гаснет тень улыбки."
+  },
+  {
+   "camera": "Wordless wide shot, camera inside the stairwell a few metres behind the two figures, looking toward the narrow window.",
+   "action": "A tall narrow arrow-slit window in the thick stone wall, just wide enough for two. Dan (left) and Mira (right) lean side by side at the sill with their backs partly to the camera and their faces in profile, silhouettes against the view. Beyond the slit the bone-white wall of the Tower curves away, with balconies and thousands of small vermilion lantern-sparks rising into a dusky apricot-and-grey-teal sky.",
+   "faces": "Dan and Mira: quiet, small, tired profiles.",
+   "props": "The window slit, the bone-white curved Tower wall, balconies, drifting vermilion sparks (abstract).",
+   "light": "Dusk apricot and grey-teal light flooding through the slit, the interior dark.",
+   "avoid": "No text; no Silent; do not draw the heroes' faces large; no extra people.",
+   "check": "Узкое окно-бойница: Дэн и Мира силуэтами у подоконника. Снаружи белая стена Башни, балконы и красные огоньки в закатном небе. Без слов, без текста."
+  },
+  {
+   "camera": "Wide establishing shot, camera at the entrance behind the two heroes, looking down the length of the hall.",
+   "action": "A cold bare stone hall in ash-grey light. At the far end stands a tall black wooden door with iron bands; the guard Silent stands motionless just to the right of the door, facing the entrance. This guard is noticeably smaller and slighter than the tall Silent from before, about child height, standing very still with arms hanging, wrists hidden in long sleeves. Dan (left) and Mira (right) stand tiny at the entrance at the bottom of the frame, side by side, backs to the camera.",
+   "faces": "Not visible (backs). The guard Silent has no eyes, no nose, no lips, only a thin vertical teal seam.",
+   "props": "The black door with iron bands (no writing), pools of teal shadow along the floor, bare stone.",
+   "light": "Cold ash-grey light, teal shadows pooling on the floor.",
+   "avoid": "Only ONE guard Silent; no cord visible on its wrist yet; no text; no second door.",
+   "check": "Холодный зал, вдали чёрная высокая дверь с железными полосами. Справа от двери стоит неподвижный страж-Безмолвный, он маленький, как ребёнок. Дэн и Мира крошечные у входа."
+  },
+  {
+   "camera": "Medium shot over Mira's shoulder: the camera behind Mira (head and shoulder in the left foreground), looking at the guard.",
+   "action": "Mira crouches with her right index finger pressed to her lips, her eyes on the guard Silent in the middle distance, whose smooth head is turned a few degrees toward them (it is blind and is listening). Dan crouches beside her on the right, listening, both hands raised slightly with palms out in a freeze gesture.",
+   "faces": "Mira (profile): intent, wary. Dan: frozen, wide eyes, holding his breath.",
+   "props": "The small guard Silent in front of the far door, the stone floor.",
+   "light": "Cold ash-grey light, teal shadow around the guard.",
+   "avoid": "The Silent must not look straight at them (blind, head turned only slightly); no cord on its wrist yet; no text; no second Silent.",
+   "check": "Из-за плеча Миры: она присела, палец у губ, смотрит на стража (его голова чуть повёрнута). Рядом Дэн с поднятыми ладонями. Шнурка на руке стража ещё нет."
+  },
+  {
+   "camera": "Tension shot, medium wide, camera behind and to the left of Dan, low.",
+   "action": "Dan stands at the left side of the giant black door with both palms flat on the iron-banded wood, arms trembling with effort; the door has opened a finger-width with a slow groan, showing a hair of light. Behind him to the right, at a few metres' distance, the guard Silent's head turns toward the sound. Mira stands right behind Dan with her hand pressed over her own mouth.",
+   "faces": "Dan: straining, teeth bared, eyes shut. Mira: wide-eyed fear, hand over her mouth.",
+   "props": "The huge door with iron bands, the thin gap of light, the small guard Silent in the background.",
+   "light": "Cold ash-grey light, a thin vertical line of warm light from the gap.",
+   "avoid": "Dan pushes the door (hands on it), he does not pull a handle; the door opens only a finger-width; no text.",
+   "check": "Дэн слева у двери, обе ладони на ней, руки дрожат, дверь чуть приоткрыта. Позади справа страж-Безмолвный поворачивает голову. Мира за Дэном зажала рот рукой."
+  },
+  {
+   "camera": "Extreme close-up on Mira's face, eye level, three-quarter view looking to the right of frame.",
+   "action": "Mira's face fills the left and centre of the frame, frozen as if slapped: amber eyes wide, pupils tiny, a muscle tight in her jaw, scar through her left eyebrow. Soft-focus at the right, the guard Silent's blank white face looks toward her, its teal mouth-seam slightly open as it speaks.",
+   "faces": "Mira: stunned, stricken, lips pressed. The Silent: blank face, no eyes, no nose, only the open teal seam.",
+   "props": "Mira's scar, the blurred Silent face.",
+   "light": "Cold ash-grey light, teal rim light on the Silent.",
+   "avoid": "The Silent must have no nose, no lips and no eyes; no tears; no text.",
+   "check": "Крупно лицо Миры, как после пощёчины: глаза огромные, зрачки крошечные. Справа размыто белое лицо Безмолвного, бирюзовый рот приоткрыт. Носа и глаз у него нет."
+  },
+  {
+   "camera": "Over-the-shoulder shot from Dan's side: the camera behind Dan's left shoulder (back of his head and glasses at the left), looking at the Silent and Mira.",
+   "action": "The guard Silent has turned fully toward them and raises one thin hand: around its wrist is a tiny frayed fragment of vermilion cord, identical to the one on Mira's left wrist. Mira stands to the right, her left wrist with the same cord visible at her side. Dan's face is in three-quarter profile, his eyes shifting from the Silent's wrist to Mira's wrist.",
+   "faces": "Dan: puzzled, a growing realisation, brows pinched. Mira: frozen.",
+   "props": "Two matching frayed vermilion cords: one on the Silent's raised wrist, one on Mira's left wrist.",
+   "light": "Cold ash-grey light, the cords the only warm red accents.",
+   "avoid": "The Silent has no eyes, no nose, no lips; only ONE Silent; no text.",
+   "check": "Из-за плеча Дэна: страж-Безмолвный поднял тонкую руку, на запястье обрывок красного шнурка. Справа Мира, на её левом запястье такой же шнурок. Дэн смотрит с одного на другой."
+  },
+  {
+   "camera": "Final close-up, black frame, medium close on Mira, centred.",
+   "action": "Mira stands in the centre, chest up, dropping her backpack: it slides off her shoulder and her gloved hand opens. Her LEFT wrist is held low in front of her, the frayed vermilion cord glowing faintly. Everything else is black. Behind her, barely visible as a faint teal rim of light, is the child-sized outline of the Silent.",
+   "faces": "Mira: devastated, mouth open and closing without a sound, eyes wet.",
+   "props": "The backpack falling, the glowing cord, the faint teal rim outline of a child-sized figure.",
+   "light": "Almost black; only the faint vermilion glow of the cord on her hand and a thin teal rim on the figure behind.",
+   "avoid": "No readable text; the child-sized figure must be only an outline, not detailed; no Dan in frame.",
+   "check": "Почти чёрный кадр: Мира в центре роняет рюкзак, рука открывается, шнурок на левом запястье слабо светится. Позади едва виден детский силуэт Безмолвного."
+  }
+ ]
+}

@@ -3,7 +3,8 @@
 
     python tools/art/agent_prompts.py            # all episodes
     python tools/art/agent_prompts.py s1e01      # one episode
-    python tools/art/agent_prompts.py --batch 3  # panels per message (default 4)
+    python tools/art/agent_prompts.py --batch 3  # panels per message (default: 4 for episodes
+                                                 # with detailed shots in story/shots.json, else 6)
 
 Output: art-prompts/agent/instructions.md (paste once into "Инструкции для агента")
         art-prompts/agent/<episodeId>.md   (one chat message per batch of panels)
@@ -20,6 +21,9 @@ import common as C  # noqa: E402
 
 OUT = os.path.join(C.PROMPTS_DIR, "agent")
 CHECKS_PATH = os.path.join(C.ROOT, "story", "checks.json")
+SHOTS_PATH = os.path.join(C.ROOT, "story", "shots.json")
+SHOT_FIELDS = (("camera", "Camera"), ("action", "Action"), ("faces", "Faces"),
+               ("props", "Props"), ("light", "Light"), ("avoid", "Avoid"))
 
 GENERAL_CHECK = """## Общая проверка для каждой панели
 
@@ -40,6 +44,14 @@ DOWNLOADS = r"C:\Users\Laptop\Downloads\<файл>.mp4"
 def load_checks():
     try:
         with open(CHECKS_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return {}
+
+
+def load_shots():
+    try:
+        with open(SHOTS_PATH, encoding="utf-8") as f:
             return json.load(f)
     except (OSError, ValueError):
         return {}
@@ -101,7 +113,7 @@ Rules for every panel image:
 LETTERING = re.compile(r"\s*\([^)]*\b(lettering|text|letters?)\b[^)]*\)", re.I)
 
 
-def panel_block(eid, n, panel, chars, bible, prev_loc):
+def panel_block(eid, n, panel, chars, bible, prev_loc, shot=None):
     b = C.build_panel_prompt(panel, chars, bible, eid)
     locs = bible["locations"]
     bg = panel.get("bg")
@@ -111,6 +123,12 @@ def panel_block(eid, n, panel, chars, bible, prev_loc):
     lines = [head]
     if loc:
         lines.append("Setting: same as the previous panel." if loc == prev_loc else "Setting: %s." % loc)
+    if shot:
+        for key, label in SHOT_FIELDS:
+            v = (shot.get(key) or "").strip()
+            if v:
+                lines.append("%s: %s" % (label, v))
+        return "\n".join(lines), tags, loc
     shot = LETTERING.sub("", b["scene"].strip())
     shot = re.sub(r"\btaped glasses\b", "round black glasses", shot)
     shot = re.sub(r"\b(engineer's )?blueprint\b(?! drawings)", r"\g<0> (pure line drawing: NO labels, NO annotations, NO writing)", shot)
@@ -119,10 +137,14 @@ def panel_block(eid, n, panel, chars, bible, prev_loc):
     return "\n".join(lines), tags, loc
 
 
-def episode_md(eid, ep, chars, bible, size):
+def episode_md(eid, ep, chars, bible, size=None):
     checks = load_checks()
+    shots = load_shots().get(eid) or []
     panels = ep.get("panels", [])
     n = len(panels)
+    if len(shots) != n:
+        shots = []
+    size = size or (4 if shots else 6)
     L = ["# %s: %s (%s) — сообщения для агента Flow\n" % (eid, ep.get("title", ""), ep.get("titleRu", "")),
          "Панелей: %d, сообщений: %d. Каждое сообщение — отдельный блок ниже: скопируй целиком, вставь в чат агента, отправь.\n"
          % (n, (n + size - 1) // size),
@@ -133,7 +155,7 @@ def episode_md(eid, ep, chars, bible, size):
         first, last = chunk[0] + 1, chunk[-1] + 1
         blocks, all_tags, prev = [], [], None
         for i in chunk:
-            blk, tags, prev = panel_block(eid, i + 1, panels[i], chars, bible, prev)
+            blk, tags, prev = panel_block(eid, i + 1, panels[i], chars, bible, prev, shots[i] if shots else None)
             blocks.append(blk)
             all_tags += [t for t in tags.split() if t and t not in all_tags]
         msg = ("Generate %d separate images: WORDBOUND %s, panels %02d-%02d, one image per panel, in this order. "
@@ -162,7 +184,7 @@ def write(name, text):
 
 def main():
     args = sys.argv[1:]
-    size = 6
+    size = None
     if "--batch" in args:
         i = args.index("--batch")
         size = max(1, int(args[i + 1]))
