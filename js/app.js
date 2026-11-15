@@ -2,6 +2,7 @@
 import * as store from './store.js';
 import { initData } from './data.js';
 import { initTTS } from './tts.js';
+import { initAudio } from './audio.js';
 import { applyTheme } from './theme.js';
 import { esc } from './util.js';
 import * as home from './views/home.js';
@@ -93,6 +94,7 @@ function boot() {
   store.load();
   applyTheme();
   initTTS(() => store.get().settings);
+  initAudio();
   try {
     if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
   } catch (e) {

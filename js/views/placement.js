@@ -1,7 +1,8 @@
 // Adaptive placement test: vocab -> reading -> listening, staircase per section.
 import * as store from '../store.js';
-import { loadPlacement } from '../data.js';
-import { ttsAvailable, speak, stopSpeaking } from '../tts.js';
+import { loadPlacement, findWord } from '../data.js';
+import { ttsAvailable } from '../tts.js';
+import { audioIndex, playPlacement, playPlacementWord, stopAudio } from '../audio.js';
 import { esc, shuffle, sample, dayKey, confirmBox, wait } from '../util.js';
 import { icon, bar, showScreen } from '../ui.js';
 
@@ -47,7 +48,8 @@ export async function mount(root, ctx) {
     return;
   }
 
-  const hasTTS = ttsAvailable();
+  const aidx = await audioIndex();
+  const hasTTS = ttsAvailable() || !!(aidx && aidx.placement);
   const sections = SECTIONS.filter((sec) => data[sec.id].length && (sec.id !== 'listening' || hasTTS));
   const levels = data.levels;
 
@@ -90,7 +92,7 @@ ${bar(((i + 0) / n) * 100)}
 ${isV ? '<button class="btn ghost dk" data-opt="-1">Не знаю</button>' : ''}
 </div>`;
       window.scrollTo(0, 0);
-      const say = () => speak(isV ? item.word : item.audio, { rate: isV ? 0.9 : 0.85 });
+      const say = () => (isV ? playPlacementWord(item.word, findWord(item.word)) : playPlacement(item._i, item.audio));
       const sb = root.querySelector('[data-say]');
       if (sb) sb.addEventListener('click', say);
       if (sec.id === 'listening') setTimeout(() => ctx.alive && say(), 350);
@@ -101,7 +103,7 @@ ${isV ? '<button class="btn ghost dk" data-opt="-1">Не знаю</button>' : ''
           locked = true;
           const k = Number(b.dataset.opt);
           b.classList.add('picked');
-          stopSpeaking();
+          stopAudio();
           await wait(200);
           resolve({ correct: k === item.answer });
         })

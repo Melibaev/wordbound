@@ -1,2 +1,4 @@
 incoming/
 __pycache__/
+.models/
+.mcp.json

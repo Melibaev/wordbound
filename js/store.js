@@ -17,7 +17,7 @@ export function defaults() {
     words: {}, // id -> { due, interval, ease, reps, lapses, relearn, skip, added }
     episodes: {}, // id -> { done, date, score, total }
     days: [], // studied day keys, never reset
-    settings: { theme: 'auto', rate: 0.9, voice: '', hintDismissed: false },
+    settings: { theme: 'auto', rate: 0.9, voice: '', speech: 'normal', hintDismissed: false },
   };
 }
 

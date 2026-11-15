@@ -1,0 +1,12 @@
+{
+ "episodes": {
+  "s1e01": true,
+  "s1e02": true,
+  "s1e03": true,
+  "s1e04": true,
+  "s1e05": true
+ },
+ "placement": true,
+ "version": 2,
+ "words": true
+}

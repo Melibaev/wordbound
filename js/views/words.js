@@ -1,7 +1,7 @@
 import * as store from '../store.js';
 import { db } from '../data.js';
 import { status } from '../srs.js';
-import { speak } from '../tts.js';
+import { playWord } from '../audio.js';
 import { esc, openSheet, fmtInterval, toast } from '../util.js';
 import { topbar, icon } from '../ui.js';
 
@@ -62,13 +62,13 @@ ${[['all', 'Все'], ['new', 'Новые'], ['learning', 'Учу'], ['known', '
     const due = rec.skip ? 'отмечено как известное' : rec.due <= Date.now() ? 'пора повторить' : 'через ' + fmtInterval(rec.due - Date.now());
     const sh = openSheet(`<div class="wc-tags"><span class="stamp tilt">${esc(w.lvl || '')}</span><span class="tag">${esc(w.pos || '')}</span><span class="stamp st-${st}">${ST[st]}</span></div>
 <h2 class="wc-word">${esc(w.w)}</h2>
-<button class="btn round" data-say>${icon('speaker')}<span>Слушать</span></button>
+${db.pron[w.id] ? `<div class="wc-ipa muted">/${esc(db.pron[w.id])}/</div>` : ''}<button class="btn round" data-say>${icon('speaker')}<span>Слушать</span></button>
 <div class="wc-ru">${esc(w.ru)}</div>
 ${w.ex ? `<div class="wc-ex"><p class="en">${esc(w.ex)}</p><p class="muted">${esc(w.exRu || '')}</p></div>` : ''}
 ${w.forms && w.forms.length ? `<p class="muted">Формы: ${esc(w.forms.join(', '))}</p>` : ''}
 <p class="muted">Повторение: ${esc(due)}</p>
 <div class="row"><button class="btn" data-del>Удалить</button><button class="btn primary" data-close>Закрыть</button></div>`);
-    sh.el.querySelector('[data-say]').addEventListener('click', () => speak(w.w));
+    sh.el.querySelector('[data-say]').addEventListener('click', () => playWord(w.id, w.w));
     sh.el.querySelector('[data-close]').addEventListener('click', sh.close);
     sh.el.querySelector('[data-del]').addEventListener('click', () => {
       store.removeWord(w.id);
@@ -76,6 +76,6 @@ ${w.forms && w.forms.length ? `<p class="muted">Формы: ${esc(w.forms.join('
       toast('Слово удалено');
       draw();
     });
-    setTimeout(() => speak(w.w), 150);
+    setTimeout(() => playWord(w.id, w.w), 150);
   });
 }

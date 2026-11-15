@@ -1,6 +1,7 @@
 // New-word introduction cards for an episode.
 import * as store from '../store.js';
-import { speak } from '../tts.js';
+import { db } from '../data.js';
+import { playWord, playExample } from '../audio.js';
 import { esc } from '../util.js';
 import { icon, bar } from '../ui.js';
 
@@ -20,6 +21,7 @@ ${bar((i / words.length) * 100)}
 <article class="card word-card">
   <div class="wc-tags"><span class="stamp tilt">${esc(w.lvl || '')}</span><span class="tag">${esc(w.pos || '')}</span></div>
   <h2 class="wc-word">${esc(w.w)}</h2>
+  ${db.pron[w.id] ? `<div class="wc-ipa muted">/${esc(db.pron[w.id])}/</div>` : ''}
   <button class="btn round" id="say" aria-label="Озвучить">${icon('speaker')}<span>Слушать</span></button>
   <div class="wc-ru">${esc(w.ru)}</div>
   ${w.ex ? `<div class="wc-ex"><p class="en">${esc(w.ex)}</p><p class="muted">${esc(w.exRu || '')}</p><button class="icon-btn small" id="sayex" aria-label="Озвучить пример">${icon('speaker')}</button></div>` : ''}
@@ -30,9 +32,9 @@ ${bar((i / words.length) * 100)}
 </div></div>`;
       window.scrollTo(0, 0);
       const q = (s) => root.querySelector(s);
-      q('#say').addEventListener('click', () => speak(w.w));
+      q('#say').addEventListener('click', () => playWord(w.id, w.w));
       const ex = q('#sayex');
-      if (ex) ex.addEventListener('click', () => speak(w.ex));
+      if (ex) ex.addEventListener('click', () => playExample(w.id, w.ex));
       q('#learn').addEventListener('click', () => {
         store.addWord(w.id);
         learned++;
@@ -45,7 +47,7 @@ ${bar((i / words.length) * 100)}
         i++;
         draw();
       });
-      setTimeout(() => ctx.alive && speak(w.w), 250);
+      setTimeout(() => ctx.alive && playWord(w.id, w.w), 250);
     };
     draw();
   });

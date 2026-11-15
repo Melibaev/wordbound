@@ -1,7 +1,10 @@
 // WORDBOUND service worker: network-first with cache fallback; background prefetch of episodes.
-const CACHE = 'wordbound-v3';
+const CACHE = 'wordbound-v4';
 const MEDIA = 'wordbound-media-v1';
 const MEDIA_MAX = 150;
+const AUDIO = 'wordbound-audio-v1';
+const AUDIO_MAX = 3000;
+const AUDIO_RE = /\/audio\/[^?#]+\.mp3$/i;
 const MEDIA_RE = /\/art\/[^?#]+\.(?:jpe?g|png|webp|mp4)$/i;
 const SHELL = [
   './',
@@ -15,6 +18,7 @@ const SHELL = [
   'js/levels.js',
   'js/theme.js',
   'js/tts.js',
+  'js/audio.js',
   'js/data.js',
   'js/art.js',
   'js/ui.js',
@@ -44,7 +48,7 @@ self.addEventListener('activate', (e) => {
   e.waitUntil(
     caches
       .keys()
-      .then((keys) => Promise.all(keys.filter((k) => k !== CACHE && k !== MEDIA).map((k) => caches.delete(k))))
+      .then((keys) => Promise.all(keys.filter((k) => k !== CACHE && k !== MEDIA && k !== AUDIO).map((k) => caches.delete(k))))
       .then(() => self.clients.claim())
   );
 });
@@ -69,7 +73,7 @@ async function prefetchData(storyRes) {
   try {
     const story = await storyRes.json();
     const cache = await caches.open(CACHE);
-    const rels = ['data/words.json', 'data/placement.json'];
+    const rels = ['data/words.json', 'data/placement.json', 'data/pron.json', 'audio/index.json'];
     for (const ep of story.episodes || []) if (ep && ep.file) rels.push('data/' + ep.file);
     for (const rel of rels) {
       const url = new URL(rel, self.registration.scope).href;
@@ -120,11 +124,57 @@ async function mediaFirst(req) {
   return res;
 }
 
+// Speech audio: cache-first in its own big cache. Only full 200 responses are stored (never Range/partial).
+// A new ?v= version of the same file replaces the old entry.
+let audioPuts = 0;
+async function audioFirst(req) {
+  const cache = await caches.open(AUDIO);
+  const hit = await cache.match(req);
+  if (hit) return hit;
+  const res = await fetch(req);
+  if (res && res.status === 200 && !res.headers.get('content-range')) {
+    await cache.put(req, res.clone());
+    try {
+      const same = await cache.keys(req, { ignoreSearch: true });
+      for (const k of same) if (k.url !== req.url) await cache.delete(k);
+      if (++audioPuts % 50 === 0) {
+        const keys = await cache.keys();
+        for (let i = 0; i < keys.length - AUDIO_MAX; i++) await cache.delete(keys[i]);
+      }
+    } catch (err) {
+      /* housekeeping only */
+    }
+  }
+  return res;
+}
+
+// iOS <audio> asks for byte ranges. Serve them by slicing a fully cached file; never cache the partial answers.
+async function audioRange(req) {
+  const cache = await caches.open(AUDIO);
+  const full = new Request(req.url);
+  const hit = await cache.match(full);
+  const m = /bytes=(\d*)-(\d*)/.exec(req.headers.get('range') || '');
+  if (!hit || !m) return fetch(req);
+  const buf = await hit.arrayBuffer();
+  const size = buf.byteLength;
+  let start = m[1] === '' ? Math.max(0, size - Number(m[2])) : Number(m[1]);
+  let end = m[1] === '' || m[2] === '' ? size - 1 : Math.min(Number(m[2]), size - 1);
+  if (start > end || start >= size) return new Response(null, { status: 416, headers: { 'Content-Range': 'bytes */' + size } });
+  return new Response(buf.slice(start, end + 1), {
+    status: 206,
+    headers: { 'Content-Type': 'audio/mpeg', 'Content-Length': String(end - start + 1), 'Content-Range': `bytes ${start}-${end}/${size}` },
+  });
+}
+
 self.addEventListener('fetch', (event) => {
   const req = event.request;
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
+  if (AUDIO_RE.test(url.pathname)) {
+    event.respondWith(req.headers.has('range') ? audioRange(req) : audioFirst(req));
+    return;
+  }
   if (MEDIA_RE.test(url.pathname)) {
     if (req.headers.has('range')) return; // partial responses (video) go straight to the network
     event.respondWith(mediaFirst(req));

@@ -436,3 +436,8 @@ a.btn { text-decoration: none; }
   .lv-badge { width: 88px; height: 88px; font-size: 46px; }
   .wc-word, .rv-word { font-size: 42px; }
 }
+
+/* transcription under a word */
+.wc-ipa, .pop-ipa { font: 600 15px/1.2 var(--f-body, system-ui, sans-serif); letter-spacing: 0.02em; margin: 2px 0 6px; }
+.pop-ipa { color: #5d584d; margin: 0 0 4px; }
+.settings .fallback { margin-top: 10px; }

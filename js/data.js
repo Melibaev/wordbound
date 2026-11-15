@@ -3,6 +3,7 @@ export const db = {
   story: null, // { title, characters, episodes }
   chars: new Map(),
   words: [],
+  pron: {}, // wordId -> transcription with stress mark (data/pron.json)
   byId: new Map(),
   lookup: new Map(), // lowercase form -> word
   wordsLoaded: false,
@@ -66,6 +67,14 @@ export async function initData() {
       /* leave empty; words just won't be tappable */
     }
   }
+  if (!Object.keys(db.pron).length) {
+    try {
+      const p = await getJSON('data/pron.json');
+      if (p && typeof p === 'object') db.pron = p;
+    } catch (e) {
+      /* transcriptions are optional */
+    }
+  }
   return { story: !!db.story, words: db.wordsLoaded };
 }
 
@@ -76,7 +85,7 @@ export async function loadPlacement() {
     levels: asArr(j.levels).length ? j.levels : ['A1', 'A2', 'B1', 'B2', 'C1'],
     vocab: asArr(j.vocab).filter(validQ),
     reading: asArr(j.reading).filter(validQ),
-    listening: asArr(j.listening).filter(validQ),
+    listening: asArr(j.listening).map((q, i) => (q && typeof q === 'object' ? { ...q, _i: i } : q)).filter(validQ),
   };
 }
 

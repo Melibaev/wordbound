@@ -192,5 +192,26 @@ def report(*a, **k):
     check_art_manifest()
     return _report_without_art(*a, **k)
 
+# ---- optional line field "voice": character id whose TTS voice reads the line (additive check)
+def check_line_voice():
+    story = load(os.path.join(DATA, "story.json"))
+    if not isinstance(story, dict):
+        return
+    chars = {c.get("id") for c in story.get("characters", [])}
+    for ep in story.get("episodes", []):
+        path = os.path.join(DATA, ep.get("file", ""))
+        if not os.path.isfile(path):
+            continue
+        d = load(path)
+        for pi, p in enumerate((d or {}).get("panels", []), 1):
+            for li, ln in enumerate(p.get("lines", []), 1):
+                if "voice" in ln and (not isinstance(ln["voice"], str) or ln["voice"] not in chars):
+                    err("%s panel %d line %d: bad voice %r (must be a character id)" % (ep.get("id"), pi, li, ln["voice"]))
+
+_report_without_voice = report
+def report(*a, **k):
+    check_line_voice()
+    return _report_without_voice(*a, **k)
+
 if __name__ == "__main__":
     sys.exit(main())

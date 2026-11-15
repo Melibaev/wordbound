@@ -2,7 +2,7 @@
 import * as store from '../store.js';
 import { db, tokenize, shortRu } from '../data.js';
 import { grade, previewMs } from '../srs.js';
-import { speak } from '../tts.js';
+import { playWord } from '../audio.js';
 import { esc, sample, shuffle, fmtInterval, wait } from '../util.js';
 import { icon, bar } from '../ui.js';
 
@@ -77,7 +77,7 @@ export function runReviews(root, ids, ctx) {
 </div></div>`;
       window.scrollTo(0, 0);
       const q = (s) => root.querySelector(s);
-      q('#say').addEventListener('click', () => speak(w.w));
+      q('#say').addEventListener('click', () => playWord(w.id, w.w));
       const reveal = () => {
         q('.rv-back').hidden = false;
         q('#show').hidden = true;
@@ -89,7 +89,7 @@ export function runReviews(root, ids, ctx) {
         if (!e.target.closest('button') && q('#show') && !q('#show').hidden) reveal();
       });
       root.querySelectorAll('[data-g]').forEach((b) => b.addEventListener('click', () => finishCard(w, rec, Number(b.dataset.g))));
-      setTimeout(() => ctx.alive && speak(w.w), 200);
+      setTimeout(() => ctx.alive && playWord(w.id, w.w), 200);
     }
 
     function drawMC(w, rec, wrong) {
@@ -106,7 +106,7 @@ export function runReviews(root, ids, ctx) {
 <div class="feedback" aria-live="polite"></div>
 <button class="btn primary big" id="nx" hidden><span>Дальше</span></button></div>`;
       window.scrollTo(0, 0);
-      root.querySelector('#say').addEventListener('click', () => speak(w.w));
+      root.querySelector('#say').addEventListener('click', () => playWord(w.id, w.w));
       let locked = false;
       root.querySelectorAll('.opt').forEach((b) =>
         b.addEventListener('click', async () => {
@@ -129,7 +129,7 @@ export function runReviews(root, ids, ctx) {
           }
         })
       );
-      setTimeout(() => ctx.alive && speak(w.w), 200);
+      setTimeout(() => ctx.alive && playWord(w.id, w.w), 200);
     }
 
     next();
