@@ -20,7 +20,7 @@
 - **Видео тратят кредиты Flow** (баланс виден во Flow). Поэтому видео — только для 2–4 ключевых панелей эпизода, и только когда картинки уже готовы.
 
 **Объём работы:** 83 панели в 5 эпизодах + 4 персонажа. Не надо делать всё сразу.
-**План на первый день (~40–60 минут):** персонажи (шаг 2) + панели 01–08 первого эпизода.
+**План на первый день (~1–1,5 часа):** персонажи (шаг 2) + панели 01–08 первого эпизода.
 
 **Где лежат промпты** (в папке проекта `D:\English\art-prompts\`):
 - `characters.md` — персонажи;
@@ -46,40 +46,161 @@
 
 ---
 
-## 2. Персонажи (один раз, ~15 минут)
+## 2. Персонажи (один раз, ~30 минут)
 
 Это главный шаг: благодаря ему Дэн на 1-й и 80-й панели выглядит одинаково.
+Нужны 4 персонажа: **Dan, Mira, Keeper, Silent**. Систему рисует приложение, её делать не надо.
 
-Нужны 4 персонажа: **Dan, Mira, Keeper, Silent** (Система рисуется приложением, её делать не надо).
+### 2.1 Как устроена страница персонажа во Flow
 
-Для каждого:
+- **Имя** — сверху, правится карандашом ✏️. Строго латиницей: `Dan`, `Mira`, `Keeper`, `Silent` — в промптах панелей стоят метки `@Dan`, `@Mira` и т. д.
+- **Выбрать голос** — нужен для видео с речью (2.4).
+- **Информация о персонаже (необязательно)** — характер и поведение, Flow использует его в видео (2.5).
+- **Картинки:** две вкладки — **Аватар** (портрет) и **Создать тело** (полный рост). Персонажу нужны **обе**: без полного роста Flow будет каждый раз выдумывать одежду и обувь.
+- **«Что вы хотите изменить?»** — поле внизу для правок готовой картинки. Там же выбор модели: ставь **Nano Banana Pro** (точнее держит детали, чем 2.1).
+- **Перегенерировать** — новый вариант с нуля; **Повторить** — ещё варианты в том же духе.
 
-1. В проекте слева нажми **Characters** → **New Character** (если персонажей ещё нет — кнопка будет сразу).
-2. Открой `art-prompts/characters.md`, найди блок нужного персонажа и скопируй **весь английский текст** из серого блока.
-3. Вставь его в поле описания персонажа.
-4. В разделе изображений сгенерируй 1–2 картинки (**Generate**). Если не нравится — генерируй ещё, пока персонаж не станет «тем самым».
-   Что проверить:
-   - **Dan:** круглые очки с изолентой, жёлтый карандаш за ухом, серая рубашка, жёлтый бейдж на шее, лохматые чёрные волосы.
-   - **Mira:** оливковая куртка, кремовый шарф, короткий хвост, шрам на брови, **красный шнурок на левом запястье**.
-   - **Keeper:** чёрный капюшон, видно лицо только от носа вниз, улыбка, латунное перо.
-   - **Silent:** высокий, лицо гладкое белое без глаз, одна бирюзовая полоска вместо рта.
-   - Нет текста, надписей, подписей на картинке.
-5. **Имя персонажа — строго латиницей, ровно так:** `Dan`, `Mira`, `Keeper`, `Silent`.
-   Это важно: в промптах панелей стоят метки `@Dan`, `@Mira` и т. д.
-6. Голос (**Select a voice** / «Выбрать голос»): нужен только для видео с речью. Настройки:
+### 2.2 Порядок для каждого персонажа
 
-   | Персонаж | Голос (запасной) | Пример диалога | Настроить производительность |
-   |---|---|---|---|
-   | Dan | Zubenelgenubi (Schedar) | `Nine calls. All Mom. I am sorry, Mom... Wait. What is that door?` | `Tired 24-year-old man at 2 AM. Quiet, slightly hoarse, warm and honest. Short sentences with small pauses. Breathless and urgent when scared.` |
-   | Mira | Kore (Despina) | `Loud is dead here. Walk slow. You want help? Not my problem. Not today.` | `Young woman, dry and deadpan, sarcastic. Short clipped sentences, low and controlled, never shouts. A hint of hidden sadness.` |
-   | Keeper | Umbriel (Gacrux) | `Welcome, Zero. And welcome back, Mira. Every word has a price.` | `Calm, slow, velvety man. Polite, almost kind, but unsettling. A soft smile in the voice, long deliberate pauses.` |
-   | Silent | Enceladus (Achernar) | `I am Dan... Mira? It is cold.` | `Hollow breathy whisper, flat and emotionless, like an echo in a stone hall. Slightly too slow, unnatural pauses.` |
-7. «Информация о персонаже» (необязательно, но полезно для видео — Flow лучше понимает характер и мимику):
-   - **Dan:** `Dan Vey, 24, a tired design engineer who fell into the Tower, a place where words are power. He starts with zero words and loses his own name. Kind, quiet, stubborn; solves problems like an engineer. Glasses taped at the hinge, yellow pencil behind his ear.`
-   - **Mira:** `Mira, 23, a Tower climber with many words. Dry, sarcastic, speaks in short sentences, never smiles at her own jokes. Helps Dan reluctantly. Hides grief about her lost sister. Always wears a frayed red cord on her left wrist.`
-   - **Keeper:** `The Keeper of the Hall of Words. Calm, polite, patient, quietly dangerous. Trades words for words. His eyes are always hidden by a deep black hood; only his small smile is visible. Carries a brass quill.`
-   - **Silent:** `The Silent: tall faceless creatures that steal words and names from tired people. They never show emotion, move slowly and listen for sound. They speak only with stolen voices. Smooth white face, a thin teal seam for a mouth.`
+1. Слева **Characters** → **New Character**.
+2. Вставь **описание внешности** из таблицы 2.3 (колонка «Аватар») → **Generate**. Перегенерируй, пока не понравится.
+3. Если нужна мелкая правка — напиши её в «Что вы хотите изменить?» (готовые правки — в 2.6). Заканчивай фразой `Keep everything else exactly the same.`
+4. Нажми **Создать тело**, вставь текст из колонки «Тело». Проверь, что лицо то же, что на аватаре.
+5. Впиши **имя**.
+6. **Выбрать голос** → настройки из 2.4 → прослушай → **Добавить к персонажу**.
+7. Заполни **Информацию о персонаже** из 2.5.
 8. Справа сверху **Done**.
+
+### 2.3 Внешность: аватар и тело
+
+**Dan**
+
+Аватар:
+```text
+Korean webtoon style, full colour, clean digital linework with soft cel shading. Portrait, head and shoulders, front view. 24-year-old East-Slavic man, lean, tired but kind face, short messy black hair with a cowlick, dark brown eyes with faint dark circles, round black-frame glasses with a small piece of white tape wrapped around the hinge, light stubble. Rumpled pale-grey button-up shirt, mustard-yellow office lanyard, a yellow carpenter pencil behind his right ear. Plain light background, no text.
+```
+Тело:
+```text
+Full body, standing straight, front view, same face, hair and glasses. Rumpled pale-grey button-up shirt with sleeves rolled to the elbows, mustard-yellow lanyard, loosened dark-olive chinos, white sneakers, yellow pencil behind his right ear. Slightly hunched, tired posture. Plain light background, no text.
+```
+Проверь: очки с изолентой **на дужке** (не на лице), карандаш за ухом, бейдж, оливковые брюки, белые кроссовки.
+
+**Mira**
+
+Аватар:
+```text
+Korean webtoon style, full colour, clean digital linework with soft cel shading. Portrait, head and shoulders, front view. 23-year-old woman, sharp narrow face, olive-tan skin, amber-gold eyes, a small scar through her left eyebrow, dark-brown choppy shoulder-length hair tied in a short ponytail with loose strands. Olive-khaki canvas climbing jacket, long cream scarf. Dry, unimpressed, half-lidded expression. Plain light background, no text.
+```
+Тело:
+```text
+Full body, standing, front view, same face and hair. Athletic and wiry build. Olive-khaki canvas climbing jacket with patched elbows, long cream scarf, black fingerless gloves, ink-black cargo trousers, rust-brown boots, a worn canvas backpack with a coil of rope, a frayed vermilion-red cord bracelet on her left wrist. Arms crossed, confident stance. Plain light background, no text.
+```
+Проверь: шрам на левой брови, янтарные глаза, хвост, **красный шнурок на левом запястье** (он важен для сюжета).
+
+**Keeper** (лицо всегда скрыто — вместо портрета делаем сидящую позу)
+
+Аватар:
+```text
+Korean webtoon style, full colour, clean digital linework with soft cel shading. Head and shoulders, front view. A man of indeterminate age in a long ink-black robe with a high deep hood that completely hides his eyes; only his pale thin lower face and a calm small smile are visible. Ochre thread script embroidered on the edge of the hood. Plain light background, no text.
+```
+Тело:
+```text
+Full body, seated in a very tall high-backed dark wooden chair, front view, same hooded figure. Long ink-black robe, sleeves embroidered with fine ochre thread script, ink-stained fingertips resting on the armrests, a brass quill pen tucked in the sleeve. Eyes always hidden by the hood. Plain light background, no text.
+```
+Проверь: **глаз не видно**, только улыбка; латунное перо; охровая вышивка.
+
+**Silent**
+
+Аватар:
+```text
+Korean webtoon style, full colour, clean digital linework with soft cel shading. Head and shoulders, front view. A gaunt humanoid creature with a smooth, featureless, matte paper-white head and face: no eyes, no nose, no hair, only a single thin vertical teal seam where a mouth would be. Tattered faded grey-teal remnants of human clothing. Unsettling, calm. Plain light background, no text.
+```
+Тело:
+```text
+Full body, standing, front view, same creature. Very tall (2.3 m) and thin, long arms and long thin fingers like unbound pages, ink-teal drips from the fingertips, tattered faded grey-teal clothing, body edges dissolving into cold teal shadow. Plain light background, no text.
+```
+Проверь: на лице **нет глаз и носа**, только тонкая бирюзовая полоска; очень длинные руки и пальцы.
+
+### 2.4 Голос
+
+Окно «Выбрать голос»: найди голос в списке (или через «Поиск объектов»), вставь «Пример диалога» и «Настроить производительность», нажми **Предварительное прослушивание**. Не нравится — возьми запасной. Потом **Добавить к персонажу**.
+
+| Персонаж | Голос (запасной) |
+|---|---|
+| Dan | Zubenelgenubi (Schedar) |
+| Mira | Kore (Despina) |
+| Keeper | Umbriel (Gacrux) |
+| Silent | Enceladus (Achernar) |
+
+**Dan** — пример диалога:
+```text
+Nine calls. All Mom. I am sorry, Mom... Wait. What is that door?
+```
+настроить производительность:
+```text
+Tired 24-year-old man at 2 AM. Quiet, slightly hoarse, warm and honest. Short sentences with small pauses. Breathless and urgent when scared.
+```
+
+**Mira** — пример диалога:
+```text
+Loud is dead here. Walk slow. You want help? Not my problem. Not today.
+```
+настроить производительность:
+```text
+Young woman, dry and deadpan, sarcastic. Short clipped sentences, low and controlled, never shouts. A hint of hidden sadness.
+```
+
+**Keeper** — пример диалога:
+```text
+Welcome, Zero. And welcome back, Mira. Every word has a price.
+```
+настроить производительность:
+```text
+Calm, slow, velvety man. Polite, almost kind, but unsettling. A soft smile in the voice, long deliberate pauses.
+```
+
+**Silent** — пример диалога:
+```text
+I am Dan... Mira? It is cold.
+```
+настроить производительность:
+```text
+Hollow breathy whisper, flat and emotionless, like an echo in a stone hall. Slightly too slow, unnatural pauses.
+```
+
+> Безмолвные в сюжете говорят **украденными** голосами (Дэна, ребёнка). Для таких сцен в видео бери голос того, кого они копируют.
+
+### 2.5 Информация о персонаже
+
+На английском — так модель понимает надёжнее. Если поле не вмещает, сокращай с конца.
+
+**Dan**
+```text
+Dan Vey, 24, a tired design engineer who fell into the Tower, a place where words are power. He starts with zero words and loses his own name. Kind, quiet, stubborn; solves problems like an engineer. Glasses taped at the hinge, yellow pencil behind his ear.
+```
+**Mira**
+```text
+Mira, 23, a Tower climber with many words. Dry, sarcastic, speaks in short sentences, never smiles at her own jokes. Helps Dan reluctantly. Hides grief about her lost sister. Always wears a frayed red cord on her left wrist.
+```
+**Keeper**
+```text
+The Keeper of the Hall of Words. Calm, polite, patient, quietly dangerous. Trades words for words. His eyes are always hidden by a deep black hood; only his small smile is visible. Carries a brass quill.
+```
+**Silent**
+```text
+The Silent: tall faceless creatures that steal words and names from tired people. They never show emotion, move slowly and listen for sound. They speak only with stolen voices. Smooth white face, a thin teal seam for a mouth.
+```
+
+### 2.6 Готовые правки (поле «Что вы хотите изменить?»)
+
+| Проблема | Что написать |
+|---|---|
+| Изолента на лице, а не на очках | `Remove the tape from his face. Put a small piece of white tape wrapped around the hinge of the glasses instead. Keep everything else exactly the same.` |
+| На картинке текст или подписи | `Remove all text, letters and labels. Keep everything else exactly the same.` |
+| Слишком бледные, выцветшие цвета | `Make the colours richer and more saturated, stronger contrast, like a full-colour webtoon. Keep everything else exactly the same.` |
+| У Keeper видны глаза | `Pull the hood lower so his eyes are completely hidden in shadow; only the lower face and smile are visible. Keep everything else exactly the same.` |
+| У Silent появились глаза/нос | `Make the face completely smooth and featureless: no eyes, no nose, only one thin vertical teal seam for a mouth. Keep everything else exactly the same.` |
+| У Миры нет шнурка | `Add a frayed vermilion-red cord bracelet on her left wrist. Keep everything else exactly the same.` |
 
 ---
 
@@ -198,7 +319,7 @@ python tools/art/import_art.py - s1e01 --video 7 "C:\Users\Laptop\Downloads\им
 ## 8. Порядок работы — коротко
 
 1. Проект `WORDBOUND S1` во Flow.
-2. 4 персонажа: Dan, Mira, Keeper, Silent.
+2. 4 персонажа: Dan, Mira, Keeper, Silent — у каждого аватар + тело, голос, информация.
 3. Image · 3:4 · Nano Banana Pro · 2 outputs.
 4. Для каждой панели по порядку: `@Персонажи` + промпт → Generate → лучший → Download → `incoming/s1e01`.
 5. `import_art.py … --dry-run` → `import_art.py …`.
