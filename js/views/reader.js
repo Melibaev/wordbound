@@ -105,7 +105,7 @@ export async function readEpisode(root, ep, ctx, opts = {}) {
   const manifest = await loadManifest();
   if (ctx && ctx.alive === false) return;
   const entry = manifest && manifest[ep.id];
-  const media = { entry, base: `art/${ep.id}/`, q: entry && entry.v ? `?v=${encodeURIComponent(entry.v)}` : '' };
+  const media = { entry, hasManifest: !!manifest, base: `art/${ep.id}/`, q: entry && entry.v ? `?v=${encodeURIComponent(entry.v)}` : '' };
   return new Promise((resolve) => {
     const newSet = new Set(ep.newWords);
     const label = opts.finishLabel || 'Дальше';
@@ -200,8 +200,8 @@ export async function readEpisode(root, ep, ctx, opts = {}) {
     };
     root.querySelectorAll('.panel').forEach((panel) => {
       let img = panel.querySelector('img.art-img');
-      if (!img && !media.entry) {
-        // no manifest: probe images only, one request per panel
+      if (!img && !media.hasManifest) {
+        // no manifest file at all: probe images only, one request per panel
         img = new Image();
         img.className = 'art-img';
         img.decoding = 'async';
