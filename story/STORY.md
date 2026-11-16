@@ -157,7 +157,7 @@ Colour rules: **vermilion = power of words** (glowing letters, the thread of bre
 
 ### 5.2 Characters
 
-**Dan** — `24-year-old East-Slavic man, 178 cm, lean and slightly hunched, tired but kind face, short messy black hair with a cowlick, dark brown eyes with faint dark circles, round black-frame glasses with a bit of tape on the hinge, light stubble. Rumpled pale-grey button-up shirt with sleeves rolled to the elbows, loosened dark-olive chinos, white sneakers, a mustard-yellow office lanyard around his neck, a yellow carpenter pencil behind his right ear.` Signature: yellow pencil + taped glasses. Palette: pale grey, olive, mustard.
+**Dan** — `24-year-old East-Slavic man, 178 cm, lean and slightly hunched, tired but kind face, short messy black hair with a cowlick, dark brown eyes with faint dark circles, round black-frame glasses, light stubble. Rumpled pale-grey button-up shirt with sleeves rolled to the elbows, loosened dark-olive chinos, white sneakers, a mustard-yellow office lanyard around his neck, a yellow carpenter pencil behind his right ear.` Signature: yellow pencil + taped glasses. Palette: pale grey, olive, mustard.
 
 **Mira** — `23-year-old woman, 168 cm, athletic and wiry, sharp narrow face, olive-tan skin, amber-gold eyes, small scar through her left eyebrow, dark-brown choppy shoulder-length hair tied in a short ponytail with loose strands. Olive-khaki canvas climbing jacket with patched elbows, long cream scarf, black fingerless gloves, ink-black cargo trousers, rust-brown boots, a worn canvas backpack with a coil of rope. A frayed vermilion cord bracelet on her left wrist.` Signature: vermilion cord bracelet. Palette: olive, cream, rust, one thread of vermilion. Expression default: dry, unimpressed, half-lidded.
 
@@ -211,7 +211,7 @@ Spoken power words appear as **glowing vermilion lettering** curling out of the 
 
 - **bg:** `office-night` | **mood:** `calm` | **sfx:** `—`
 - **cast:** dan (left)
-- **art:** High-angle shot over Dan's shoulder at a cluttered drafting desk at 2 AM. His phone lights his tired face from below; the screen shows a long stack of missed calls (vermilion text added in lettering pass). Cold green-grey fluorescent light, sodium-orange city glow in the window behind.
+- **art:** High-angle dynamic shot over Dan's shoulder at a cluttered drafting desk at 2 AM, bold confident ink linework. His phone lights his tired face from below; the phone screen is a plain glowing rectangle. The blueprints and monitor show only abstract line drawings and grid lines, no writing. Cold green-grey fluorescent light, sodium-orange city glow in the window behind. Upper third of the frame is dark ceiling and window.
 - **Реплики:**
   - `narration-ru` — **RU:** 02:07 ночи. Сегодня у мамы день рождения. Дэн обещал позвонить вечером. Он сидит над чужим чертежом, а телефон показывает девять пропущенных.
   - `thought / dan` — **EN:** Nine calls. All Mom. — **RU:** Девять звонков. И все от мамы.
@@ -220,7 +220,7 @@ Spoken power words appear as **glowing vermilion lettering** curling out of the 
 
 - **bg:** `office-night` | **mood:** `calm` | **sfx:** `—`
 - **cast:** dan (left)
-- **art:** Extreme close-up of the phone screen held in Dan's hand, a short text message from Mom (lettering added later), a coffee ring on the desk beneath. Behind, out of focus, a rolled drawing of a bridge pinned over the monitor.
+- **art:** Extreme close-up of a phone held in Dan's hand; the phone screen is a plain soft glowing blank rectangle with no writing on it. A coffee ring on the desk beneath. The upper-left corner is dark plain wall; the out-of-focus rolled drawing of a bridge is pinned on the RIGHT side behind the hand.
 - **Реплики:**
   - `narration` — **EN:** Mom: Dan, eat something. — **RU:** Мама: Дэн, поешь что-нибудь.
   - `thought / dan` — **EN:** I am sorry, Mom. — **RU:** Прости, мам.
@@ -230,7 +230,7 @@ Spoken power words appear as **glowing vermilion lettering** curling out of the 
 
 - **bg:** `office-night` | **mood:** `tense` | **sfx:** `CREAK`
 - **cast:** dan (left)
-- **art:** Low-angle wide shot: behind Dan's desk the plain grey wall now holds a tall black wooden door that was never there, a faint vermilion glow leaking around its edges. Dan, small in the foreground, turns with a coffee mug in his hand.
+- **art:** Medium-wide shot at eye level, bold ink linework, one single full-bleed picture with no bands, borders or frames: Dan, holding a coffee mug, has turned around and stares at a tall black wooden door standing in the plain grey office wall where no door should be; a faint vermilion glow leaks around its edges. Dan is seen in three-quarter view from behind-left, his face in profile turned toward the door. The upper part of the picture shows the dim office ceiling with one fluorescent lamp, continuous with the room.
 - **Реплики:**
   - `narration-ru` — **RU:** Три года Дэн знает эту стену. Он сам чертил этот этаж. Двери здесь быть не может.
   - `speech / dan` — **EN:** I know this wall. There is no door. — **RU:** Я знаю эту стену. Здесь нет двери.
@@ -239,7 +239,7 @@ Spoken power words appear as **glowing vermilion lettering** curling out of the 
 
 - **bg:** `office-night` | **mood:** `tense` | **sfx:** `—`
 - **cast:** —
-- **art:** Insert shot: an old brass door handle in close-up, glowing vermilion letters crawl across the black wood like cracks of light (lettering added later). Tiny dust motes float in the glow.
+- **art:** Insert close-up: an old brass door handle on black wood; above it, cracks of glowing vermilion light in the wood form the four large clear capital letters O P E N, one word only, easily readable. Tiny dust motes float in the glow. The upper-left corner is dark office shadow.
 - **Реплики:**
   - `narration-ru` — **RU:** На ручке горит красное слово. Дэн читает его — «OPEN». Оно слабо пульсирует, будто дышит.
   - `speech / dan` — **EN:** A word on a door? What is that? — **RU:** Слово на двери? Что это?
@@ -248,7 +248,7 @@ Spoken power words appear as **glowing vermilion lettering** curling out of the 
 
 - **bg:** `office-night` | **mood:** `tense` | **sfx:** `KNOCK`
 - **cast:** dan (left)
-- **art:** Close-up on Dan's wide eyes behind taped glasses, phone ringing in his raised hand, the black door in soft focus behind him with ripples spreading through its wood from three knocks.
+- **art:** Close-up of Dan on the RIGHT half of the frame, wide frightened eyes behind clean round black glasses, the phone ringing in his raised hand; the black door in soft focus on the LEFT with ripples spreading through its wood from three knocks. The upper-left quarter and the bottom-left corner are dark door wood with nothing important.
 - **Реплики:**
   - `narration-ru` — **RU:** Стук. Изнутри. Три раза, ровно. Телефон в руке звонит в такт.
   - `speech / dan` — **EN:** Who is there? — **RU:** Кто там?
@@ -277,7 +277,7 @@ Spoken power words appear as **glowing vermilion lettering** curling out of the 
 
 - **bg:** `tower-exterior` | **mood:** `calm` | **sfx:** `—`
 - **cast:** dan (left)
-- **art:** Extreme low-angle establishing shot: Dan, tiny, sprawled on a stone plaza at dusk; the colossal bone-white Tower rises endlessly through cream clouds above him. Thousands of small vermilion letters drift upward like lanterns against an apricot-to-grey-teal sky.
+- **art:** Extreme low-angle establishing shot: Dan, tiny, sprawled on a stone plaza at dusk near the bottom-right; a colossal straight bone-white Tower of stacked smooth rings and bridges (an original invented design, perfectly vertical, no arches, no columns) rises endlessly through cream clouds. Thousands of small vermilion glyph-lanterns (abstract shapes) drift upward against an apricot-to-grey-teal sky. Clean plaza stones with no marks.
 - **Реплики:**
   - `narration-ru` — **RU:** Дэн лежит на холодных плитах. Над ним — Башня, она уходит выше облаков. Вверх плывут красные огоньки. Это не огни. Это слова.
   - `speech / dan` — **EN:** What is this place? — **RU:** Что это за место?
@@ -286,7 +286,7 @@ Spoken power words appear as **glowing vermilion lettering** curling out of the 
 
 - **bg:** `tower-exterior` | **mood:** `calm` | **sfx:** `—`
 - **cast:** dan (left), system (right)
-- **art:** Medium shot: a floating cream-paper System window with a vermilion double border hovers beside Dan's face; his glasses reflect vermilion light. The window is slightly tilted and casts a soft shadow.
+- **art:** Medium shot, bold ink linework: Dan on the LEFT half, waist-up, staring in shock, his glasses reflecting vermilion light. On the RIGHT half floats a large blank cream-paper window with a double vermilion border and a small round seal in its corner, completely empty, no title, no writing; it spans from the middle of the frame to the right edge and from about 35% to 85% of the frame height, slightly tilted, casting a soft shadow. The Tower and plaza behind.
 - **Реплики:**
   - `system / system` — **EN:** Welcome to the Tower. — **RU:** Добро пожаловать в Башню.
   - `system / system` — **EN:** You have 0 words. — **RU:** У тебя 0 слов.
@@ -296,7 +296,7 @@ Spoken power words appear as **glowing vermilion lettering** curling out of the 
 
 - **bg:** `tower-exterior` | **mood:** `calm` | **sfx:** `—`
 - **cast:** dan (left), system (right)
-- **art:** Over-the-shoulder shot from behind the System window: Dan jabs an indignant finger at it, the window floats there blank and unbothered. Plaza stones and the Tower's base blur behind.
+- **art:** Over-the-shoulder shot from behind Dan's right shoulder on the RIGHT: Dan jabs an indignant index finger at a blank cream-paper window with a double vermilion border floating on the LEFT (empty, no writing). His pointing hand has a thumb, one extended index finger and three curled fingers. The plaza stones and the base of the white Tower blur behind.
 - **Реплики:**
   - `speech / dan` — **EN:** Zero words? I am Dan! — **RU:** Ноль слов? Я — Дэн!
   - `system / system` — **EN:** Words are power. You are weak. — **RU:** Слова — это сила. Ты слабый.
@@ -307,18 +307,18 @@ Spoken power words appear as **glowing vermilion lettering** curling out of the 
 
 - **bg:** `tower-exterior` | **mood:** `calm` | **sfx:** `—`
 - **cast:** dan (left), system (right)
-- **art:** Wide shot: Dan turns to the spot where he landed; the plaza wall behind him is blank stone, no door. He spreads his hands, baffled. The System window floats at the edge of frame, a small tilted rectangle.
+- **art:** Wide shot on the stone plaza at the foot of the white Tower: Dan on the LEFT turns to a blank stone wall behind him where there is no door, spreading both hands, baffled. On the RIGHT side floats a tall blank cream-paper window with a double vermilion border, empty, no writing, spanning from 55% to 95% of the frame width and from 10% to 70% of the height.
 - **Реплики:**
   - `speech / dan` — **EN:** Where is my door? — **RU:** Где моя дверь?
   - `system / system` — **EN:** It is gone. — **RU:** Её нет.
   - `speech / dan` — **EN:** Is there a way home? — **RU:** Есть путь домой?
-  - `system / system` — **EN:** Find the last door. Some doors go home. — **RU:** Найди последнюю дверь. Некоторые двери ведут домой.
+  - `system / system` — **EN:** Find the last door. It goes home. — **RU:** Найди последнюю дверь. Она ведёт домой.
 
 #### Панель 12
 
 - **bg:** `corridor` | **mood:** `tense` | **sfx:** `SCRATCH`
 - **cast:** dan (left)
-- **art:** Wide shot of a narrow soot-brown stone corridor lined with torn paper pages, cold teal darkness at its far end. Dan stands small in the foreground clutching his lanyard; beside him a rusted iron hatch in the wall. Faint claw-scratches echo (visual: tiny dust shaking from the ceiling).
+- **art:** Wide shot of a narrow soot-brown stone corridor lined with torn paper pages bearing only faint abstract marks, cold teal darkness at its far end. Dan crouches on the RIGHT beside a small square rusted iron hatch set low in the stone wall at knee-to-hip height (about one metre wide, rivets around its frame, heavy hinges, a round iron ring handle; clearly a small hatch, not a door); like an engineer he runs two fingers along the hinge and rivets, studying them closely, his mustard lanyard hanging from his neck, a yellow pencil behind his right ear. The left half of the frame is the empty corridor receding into teal darkness. Tiny dust shaking from the ceiling. The picture fills the whole frame edge to edge with stone wall and floor; the glowing marks on the walls are abstract swirls of vermilion light, not any real writing.
 - **Реплики:**
   - `narration-ru` — **RU:** Площадь кончается коридором. В темноте скребутся чьи-то когти. Рядом в стене — ржавый люк. Дэн замечает заклёпки и петли: люк точно открывается.
   - `shout / dan` — **EN:** Open the hatch! — **RU:** Откройся, люк!
@@ -332,11 +332,12 @@ Spoken power words appear as **glowing vermilion lettering** curling out of the 
   - `speech / dan` — **EN:** It works! — **RU:** Работает!
   - `system / system` — **EN:** New word: OPEN. — **RU:** Новое слово: OPEN.
   - `system / system` — **EN:** Count: one. — **RU:** Счёт: один.
+  - `narration-ru` — **RU:** Count — это счёт: сколько слов у Дэна. Было ноль. Теперь одно — OPEN.
 
 #### Панель 14
 
 - **bg:** `corridor` | **mood:** `tense` | **sfx:** `—`
-- **cast:** dan (left), mira (right)
+- **cast:** dan (right), mira (left)
 - **art:** Medium two-shot: Mira steps out of the dark behind Dan, a rope coil on her shoulder, vermilion cord on her wrist, one eyebrow raised, deadpan. Dan jumps. The open hatch yawns black beside them.
 - **Реплики:**
   - `speech / mira` — **EN:** You are loud. — **RU:** Ты шумный.
@@ -359,7 +360,7 @@ Spoken power words appear as **glowing vermilion lettering** curling out of the 
 
 - **bg:** `corridor` | **mood:** `action` | **sfx:** `HISSS`
 - **cast:** dan (left), mira (center), silent (right)
-- **art:** Dramatic low-angle: a tall Silent rises from the teal shadow behind Dan, its blank bone-white face with a single vertical teal seam for a mouth; Mira already half-turned to bolt, Dan frozen mid-turn, glasses catching the light.
+- **art:** Dramatic low-angle shot in the stone corridor: on the RIGHT a tall gaunt Silent rises out of the teal shadow behind Dan; its head is a completely smooth egg-shaped bone-white surface with NO eyes, NO eye slits, NO nose, only one thin vertical teal seam as a mouth; its two long thin arms hang at its sides, far from Dan. Dan in the middle foreground frozen mid-turn, glasses catching the light. Mira on the LEFT, lower half of the frame, already half-turned to bolt. The upper-left area is dark ceiling.
 - **Реплики:**
   - `speech / mira` — **EN:** It is a Silent. — **RU:** Это Безмолвный.
   - `speech / dan` — **EN:** Who is that? What is a Silent? — **RU:** Кто это? Что такое Безмолвный?
@@ -368,8 +369,8 @@ Spoken power words appear as **glowing vermilion lettering** curling out of the 
 #### Панель 17
 
 - **bg:** `corridor` | **mood:** `action` | **sfx:** `STEP`
-- **cast:** dan (left), mira (center)
-- **art:** Dynamic wide diagonal shot: Dan and Mira sprint down the corridor between lantern-words; Dan stumbles behind, gasping, glasses askew; Mira drags him by the sleeve. Far behind them the Silent just walks, never closer, never farther.
+- **cast:** dan (left), mira (center), silent (center)
+- **art:** Dynamic wide diagonal shot: Dan and Mira sprint down the corridor between vermilion lantern-glyphs; Mira in front on the RIGHT drags Dan by the sleeve; Dan behind on the LEFT stumbles, gasping, clean round glasses askew. Far behind them, small in the teal dark, the tall gaunt Silent just walks; its head is a completely blank white egg shape with no eyes, no eye holes, no mask features at all, only one thin vertical teal line. The top-left and bottom-left corners are dark stone floor and wall. The glowing marks on the walls are abstract swirls and drips of vermilion light, not characters of any real writing system (no Chinese, Japanese or Latin letters). The papers on the walls are blank and stained.
 - **Реплики:**
   - `speech / dan` — **EN:** I am slow! I am so tired! — **RU:** Я медленный! Я так устал!
   - `speech / mira` — **EN:** You are slow. Run, run, run! — **RU:** Да, ты медленный. Беги, беги, беги!
@@ -388,11 +389,11 @@ Spoken power words appear as **glowing vermilion lettering** curling out of the 
 
 ### Грамматика: Глагол to be: am / is / are
 
-В английском нельзя пропустить глагол: «Я Дэн» — это «I am Dan». Для «я» ставим am, для «ты» (а ещё «мы», «они») — are, а для «он / она / оно / это» — is. Вопрос получается перестановкой: «Who are you?». Отрицание — просто not после глагола: «I am not weak». Слово, которое нужно назвать как слово, пишем ЗАГЛАВНЫМИ: OPEN.
+В английском нельзя пропустить глагол: «Я Дэн» — это «I am Dan». Для «я» ставим am, для «ты» (а ещё «мы», «они») — are, а для «он / она / оно / это» — is. Вопрос получается перестановкой: «Who are you?». Отрицание — просто not после глагола: «I am not weak». Слово, которое нужно назвать как слово, пишем ЗАГЛАВНЫМИ: OPEN. После he / she / it глагол получает -s: «It goes home» (оно идёт домой), а с I / you / we / they — без -s: «We go», «I go». We — «мы».
 
 - I am Dan. — Я Дэн.
 - You are weak. — Ты слабый.
-- This is a door. — Это дверь.
+- It goes home. — Она ведёт домой.
 
 ### Квиз
 
