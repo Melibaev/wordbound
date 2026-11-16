@@ -15,10 +15,10 @@ _Last update: 2026-11-16_
 
 ## Next (in order)
 1. **Fix s1e01 by the reader review** (`story/reviews/s1e01.md`, score 8/10): redraw panel 16 (Silent has eye slits/nose; arm from behind Dan's ear), panels 4 (word OPEN not readable as shape), 12 (grey bands, hatch drawn as huge door, stray silhouette); remove Dan's bandage (panels 3, 5, 9, 10, 11, 17) — root cause: the Flow character "Dan" reference likely has the bandage → make a clean reference; move bubbles off faces (p5 "Who is there?", p16 "It is a Silent."), p2 duplicate text on the phone, p9/p11 System windows should sit on the drawn windows; simplify English overload (hatch, Count, "Some doors go home"); audio: 13-01 "It works!" too high, 01-02 too quiet. Re-run reader → target 10/10.
-3. Bubble placement (`place`) for s1e02–s1e12 (look at each image; avoid faces).
-4. Video voice-over: mux the panel's Chatterbox lines onto its video (needs ffmpeg) + a "watch & understand" listening task type.
-5. **Season 2 in style v1:** new clean character references (Dan without bandage, sharper manhwa look), then s2e01… via episode-writer → pipeline → reader loop.
-6. Better art QA: 2 variants per panel + Sonnet visual reviewer per panel (counts hands, text, character rules) before import.
+2. Bubble placement (`place`) for s1e02–s1e12 (look at each image; avoid faces).
+3. Video voice-over: mux the panel's Chatterbox lines onto its video (needs ffmpeg) + a "watch & understand" listening task type.
+4. **Season 2 in style v1:** new clean character references (Dan without bandage, sharper manhwa look), then s2e01… via episode-writer → pipeline → reader loop.
+5. Better art QA: 2 variants per panel + Sonnet visual reviewer per panel (counts hands, text, character rules) before import.
 
 ## Known issues
 - Flow agent batches often fail on the first attempt ("Reuse prompt" locator) → retry; downloads sometimes fail ("tile menu did not open") → `flow_download` by title or regenerate. flow-mcp source was patched (`safeGoto`) — re-apply if flow-mcp is updated.
