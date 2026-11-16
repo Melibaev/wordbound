@@ -1,0 +1,141 @@
+[
+ {
+  "panel": 1,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's glasses temple has a grey tape-like band; no pencil behind his visible right ear",
+  "fix": "Redraw with plain black round glasses, no tape or white patches anywhere on temple or face. Add yellow pencil behind right ear."
+ },
+ {
+  "panel": 2,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's round glasses have a white tape/bandage wrap on the temple hinge (white square at temple)",
+  "fix": "Redraw with plain black round glasses, no tape or white patches anywhere on temple or face."
+ },
+ {
+  "panel": 5,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's round glasses have a white tape/bandage wrap on the temple hinge",
+  "fix": "Redraw with plain black round glasses, no tape or white patches anywhere on temple or face."
+ },
+ {
+  "panel": 11,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's round glasses have a white tape/bandage wrap on the temple hinge",
+  "fix": "Redraw with plain black round glasses, no tape or white patches anywhere on temple or face."
+ },
+ {
+  "panel": 13,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Plaster/tape on glasses temple, next to the pencil",
+  "fix": "Redraw with plain black round glasses, no tape or white patches anywhere on temple or face."
+ },
+ {
+  "panel": 14,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's round glasses have a white tape/bandage wrap on the temple hinge",
+  "fix": "Redraw with plain black round glasses, no tape or white patches anywhere on temple or face."
+ },
+ {
+  "panel": 16,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's round glasses have a white tape/bandage wrap on the temple hinge",
+  "fix": "Redraw with plain black round glasses, no tape or white patches anywhere on temple or face."
+ },
+ {
+  "panel": 3,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Mira has a red cord on BOTH wrists (viewer-left hand plain cord, viewer-right hand glowing cord)",
+  "fix": "Keep the cord, glowing, only on her left wrist; bare right wrist."
+ },
+ {
+  "panel": 6,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "System window on Mira's close-up contains pseudo-text lines and a heading of letter-like glyphs (Y, L, O shapes)",
+  "fix": "Redraw the window blank (cream paper, double red border, seal)."
+ },
+ {
+  "panel": 15,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Wall posters show readable partial words (e.g. WIST..., ...RTON, IM) and many text lines",
+  "fix": "Redraw posters blank/grey scribbles with no letters; keep glowing signs abstract."
+ },
+ {
+  "panel": 4,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Mira's red cord is on the viewer-left hand (her right) while she faces the viewer; Lina also has red cord on wrist",
+  "fix": "Cord on Mira's left wrist only; remove Lina's red cord."
+ },
+ {
+  "panel": 11,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Mira in right-facing profile shows cord on near (right) wrist",
+  "fix": "Mirror or move the cord to her left wrist."
+ },
+ {
+  "panel": 7,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Cord visible on Mira's near hand while facing right (likely right wrist); Lina has red cords on wrist(s)",
+  "fix": "Cord only on Mira's left wrist; plain wrist for Lina."
+ },
+ {
+  "panel": 15,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Silent at the door is tall, claw-handed and menacing, not the small child Lina; reads as a threat in a calm climb",
+  "fix": "Redraw as child-sized Lina with smooth face, seam, no claws, red cord removed."
+ },
+ {
+  "panel": 8,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Door behind Keeper is an arched door with many seals; elsewhere it is a rectangular door with few seals; chair is cream-coloured vs dark elsewhere",
+  "fix": "Use the same door and dark chair as p2/p5."
+ },
+ {
+  "panel": 10,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Whole hall has teal-green colour grade though teal is for the Silent only",
+  "fix": "Shift to ash grey/ochre."
+ },
+ {
+  "panel": 12,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Sky is teal-grey and the System window has an ornate scrolled frame instead of the plain double red border",
+  "fix": "Warmer ash/ochre sky; use the standard window frame."
+ },
+ {
+  "panel": 14,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Dark teal-grey clouds in the background",
+  "fix": "Use ash grey/cream clouds."
+ },
+ {
+  "panel": 6,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Image is 1080x1190 instead of 1080x1446 (different aspect from the rest)",
+  "fix": "Regenerate at 3:4 if the reader shows a gap."
+ },
+ {
+  "videos": {
+   "panel12": "good"
+  },
+  "notes": "Video 12: same composition, gate rises out of frame, stairs sparkle; the gate posts morph/vanish in the middle frame but it reads as motion, no rule broken. Pacing: p2-p7 is a long talking-teaching stretch with no action except the p3 burst, but the 'sister' word moment (p6-p7) lands well. Logic: the mother's call/door closing (p9) happens with little reaction from Dan beyond a back view; the p16 twist (Tower fakes the mother's voice) is clear. Dan has no pencil in p1 and p15 while other panels do."
+ }
+]

@@ -1,0 +1,220 @@
+[
+ {
+  "panel": 1,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Plaster/bandage patch on Dan's cheek next to the glasses; walls carry readable names and dates (Tamona, Khani, Mane, Dave, Anil, Kariouma 17.12.23).",
+  "fix": "Clean cheek; replace all wall writing with abstract scratch marks."
+ },
+ {
+  "panel": 1,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "The System window is drawn with a title bar reading 'System' and a close X (text inside the image; must be a blank cream paper window with double red frame).",
+  "fix": "Redraw as plain cream paper with double red border, no title bar or letters."
+ },
+ {
+  "panel": 1,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Thick cream margin around the whole image (framed look) instead of full bleed; bubble spot (0.64,0.05) lands on the window, ok.",
+  "fix": "Regenerate full-bleed without the cream outer frame."
+ },
+ {
+  "panel": 2,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Teal shadows climb the side walls and the left/right edges although no Silent is present (teal only for the Silent); Dan has no yellow pencil visible.",
+  "fix": "Use dark brown/grey shadows; keep teal only in the Silent."
+ },
+ {
+  "panel": 3,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Glyph-like marks on the room walls in the corners (a six-point star, circle symbols); map dots are a clean grid and the arch with red X is readable.",
+  "fix": "Keep, optionally remove the star glyph."
+ },
+ {
+  "panel": 4,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan wears a black T-shirt and Mira is a tall girl in shorts and a beige top with light-brown loose hair and no gloves (not Mira); Dan has no lanyard/grey shirt.",
+  "fix": "Dan: grey shirt, mustard lanyard, glasses; Mira: dark ponytail, olive jacket, scarf, fingerless gloves, red cord on left wrist."
+ },
+ {
+  "panel": 4,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Silents have clearly drawn closed eyelids, noses and teal-coloured lips on every close figure.",
+  "fix": "Smooth white faces with a single thin vertical teal seam only."
+ },
+ {
+  "panel": 4,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Cream border/strips around all four sides of the image.",
+  "fix": "Full-bleed regenerate."
+ },
+ {
+  "panel": 5,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Dan's smile is fine; Mira's eyes shut while walking; foreground Silents' heads are not 'tilted toward the sound'.",
+  "fix": "Optional: tilt heads."
+ },
+ {
+  "panel": 7,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Silents in robes have visible human faces: eyes, brows, noses, mouths (checked at zoom).",
+  "fix": "Redraw Silents with blank smooth faces and thin teal seam."
+ },
+ {
+  "panel": 7,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Heads of the Silents look straight at the heroes / down the hall, not swinging toward the far corner as the text says; Dan has no pencil.",
+  "fix": "Heads turned toward the thrown stone, away from Dan and Mira."
+ },
+ {
+  "panel": 8,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "A plaster/bandage patch on Dan's cheek.",
+  "fix": "Remove the patch."
+ },
+ {
+  "panel": 8,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Hooded Silents behind Dan have two small round eyes each.",
+  "fix": "Faces fully blank, no eye dots."
+ },
+ {
+  "panel": 8,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Mira has new scratches/scar on her cheek and no cord visible; she appears with face turned away, fine.",
+  "fix": "No cheek scar; show red cord on left wrist."
+ },
+ {
+  "panel": 9,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Mira's red cord is on her RIGHT wrist (outstretched arm at image-left while she faces camera); gloves missing and hair/jacket redesigned (loose brown-red hair).",
+  "fix": "Mira with ponytail, gloves, cord on LEFT wrist (mirror the pose)."
+ },
+ {
+  "panel": 9,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Several Silents in dark brown robes show visible eyes, noses and mouths; one ghost-like figure kicks mid-air.",
+  "fix": "Blank faces; static frozen poses."
+ },
+ {
+  "panel": 9,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Dan is mostly hidden behind a pillar at the edge, text bubble 'She can stop them!' has no clear speaker; Dan's lanyard not visible.",
+  "fix": "Show Dan's face in frame at the left."
+ },
+ {
+  "panel": 10,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "A plaster/bandage patch on Dan's cheek.",
+  "fix": "Remove the patch."
+ },
+ {
+  "panel": 10,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Several naked humanoid teal figures sit on the floor with detailed human faces (eyes, noses, mouths) and bodies; Mira shows a red cord on BOTH wrists (right arm over Dan's shoulder and left hand hanging).",
+  "fix": "Silents robed with blank faces; red cord only on Mira's left wrist."
+ },
+ {
+  "panel": 10,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Mira has blood running from the mouth (text: a thin vermilion thread); Mira without gloves; Dan has no pencil.",
+  "fix": "Thin vermilion thread, not blood."
+ },
+ {
+  "panel": 11,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Fresco shows an adult woman and a small girl (text: two girls); Mira has no gloves; Dan's pencil not visible.",
+  "fix": "Two girls of similar age holding hands, red cord on one wrist."
+ },
+ {
+  "panel": 12,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Teal pools at the base of the gate and on the left/right walls; Mira's cord not visible; otherwise gate, abstract glyphs and scale are strong.",
+  "fix": "Keep teal minimal or switch to grey."
+ },
+ {
+  "panel": 13,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "The System window is a red glowing glass window with a title bar 'System' and minimise/close icons (text in image; should be cream paper with double red frame); it also covers both characters' torsos.",
+  "fix": "Redraw as blank cream paper window placed beside the characters, not in front of them."
+ },
+ {
+  "panel": 13,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Dan has no pencil visible; a wall torch appears on the right.",
+  "fix": "Optional."
+ },
+ {
+  "panel": 14,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's right ear is clearly visible and there is no yellow pencil behind it.",
+  "fix": "Add a yellow pencil behind Dan's right ear."
+ },
+ {
+  "panel": 14,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "The far Silent is a grey full-body figure in tight clothes with a pale mask-like face; large flat cream wall fills the frame, teal ink pools on the floor; the whole image reads cream/yellow, unlike the grey-teal hall.",
+  "fix": "Hooded Silent in the same robe as other panels; grey-teal hall palette."
+ },
+ {
+  "panel": 15,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "The Silent is a fully naked teal humanoid shown from behind with a visible open mouth and teeth/lips (and bare buttocks).",
+  "fix": "Robed Silent, smooth white blank face, no open mouth."
+ },
+ {
+  "panel": 15,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Cream border frame around the image; Dan holds his lanyard, pencil not visible.",
+  "fix": "Full-bleed regenerate."
+ },
+ {
+  "panel": 16,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "The Silent is drawn as a dark silhouette in a tailored suit (not the robe); Dan has scratch on cheek; Mira's cord on left wrist is visible (correct).",
+  "fix": "Silhouette in a long robe."
+ },
+ {
+  "panel": 17,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "The two silhouettes: Mira is a long-haired girl in a dress (not her ponytail/jacket profile); Keeper's eyes are hidden by the hood (ok).",
+  "fix": "Mira silhouette with ponytail and jacket."
+ },
+ {
+  "videos": {
+   "panel07": "redo",
+   "panel08": "redo",
+   "panel17": "good"
+  },
+  "notes": "Video 07: camera drops to floor level, stone lands in a close-up with sparks, Dan leaves the frame, Silents keep human faces (redo). Video 08: Mira morphs into a different woman (wavy brown hair, green coat, grey scarf) in the last frames and Dan keeps the plaster patch from the still (redo). Video 17: Keeper stays face-hidden, slow push-in, candle smoke, silhouettes stay (good, only the Mira silhouette is a long-haired girl). Story: the hall sequence (p4-p10) is the strongest part - the stone trick is clever and Dan's own plan pays off; p3 narration jumps to 'Hall of Words' before the Gate and might confuse; the fresco reveal (p11) lands well but Mira's 'No one' needs the fresco to show two girls clearly (here a woman and a child), and the Silent suddenly taking the gate path in p14-16 happens without any explanation of why it came - fine as mystery. Different art styles between panels (cream framed p1/p4/p15 vs dark painterly p9/p10) make the chapter feel patchy."
+ }
+]

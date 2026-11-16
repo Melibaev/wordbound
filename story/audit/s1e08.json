@@ -1,0 +1,176 @@
+[
+ {
+  "panel": 1,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Dan's right ear is visible but there is no yellow pencil behind it.",
+  "fix": "Redraw with the yellow pencil tucked behind Dan's RIGHT ear."
+ },
+ {
+  "panel": 1,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Alley is graded strongly teal (walls and sky); teal is reserved for the Silent.",
+  "fix": "Regrade alley to ash/ochre with a cool grey shadow, no teal."
+ },
+ {
+  "panel": 2,
+  "severity": "visible",
+  "kind": "place",
+  "problem": "Niche room is a clay cave with scratched tally marks, while panels 7, 9, 10, 11, 12 show steel/riveted vault or brick rooms; the same place looks different every time.",
+  "fix": "Redraw p2 in the same round vault niche used in p7/p9 (shelves, hanging lamp), or unify all panels to the clay cave."
+ },
+ {
+  "panel": 2,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Dan's right ear is visible but there is no yellow pencil behind it.",
+  "fix": "Redraw with the yellow pencil tucked behind Dan's RIGHT ear."
+ },
+ {
+  "panel": 3,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Mira has the red cord on BOTH wrists (left forearm shows two cord loops and the right wrist also has one).",
+  "fix": "Redraw with the red cord only on Mira's left wrist, bare right wrist."
+ },
+ {
+  "panel": 3,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Memory says Mira is three years younger but she looks as old as present-day Mira and about the same age as Lina (14).",
+  "fix": "Make young Mira a little younger and softer, Lina clearly smaller."
+ },
+ {
+  "panel": 4,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Young Mira sits front-on and the cord is on the arm at viewer-left, which is her right arm (likely wrong wrist).",
+  "fix": "Mirror or redraw so the cord is on her left wrist only."
+ },
+ {
+  "panel": 5,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Mira has the red cord on both wrists (raised hand at her lips and the other hand low on the left).",
+  "fix": "Cord only on Mira's left wrist."
+ },
+ {
+  "panel": 6,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "The two foreground POV hands (Mira's own) both wear the red cord, one on each wrist.",
+  "fix": "Keep the cord on the left hand only; right hand bare."
+ },
+ {
+  "panel": 6,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "The POV hands are Mira's, yet Mira also kneels visibly in the frame, so it is unclear whose hands these are; she also wears fingerless gloves here but not in other memory panels.",
+  "fix": "Make the POV hands Lina's or drop kneeling Mira; remove the gloves."
+ },
+ {
+  "panel": 7,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Dan's right ear is visible but there is no yellow pencil behind it.",
+  "fix": "Redraw with the yellow pencil tucked behind Dan's RIGHT ear."
+ },
+ {
+  "panel": 8,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Mira's cord hand is the viewer-left one while she is turned toward the Keeper (right); this probably puts the cord on her right wrist.",
+  "fix": "Redraw/mirror so the cord is on her left wrist."
+ },
+ {
+  "panel": 9,
+  "severity": "visible",
+  "kind": "place",
+  "problem": "System 'True.' (last line, a reply to Mira) stands at the top (y .06) above both Mira bubbles, so the reply is read before the statement.",
+  "fix": "Move 'True.' below the second Mira bubble."
+ },
+ {
+  "panel": 10,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Dan's right ear is visible but there is no yellow pencil behind it.",
+  "fix": "Redraw with the yellow pencil tucked behind Dan's RIGHT ear."
+ },
+ {
+  "panel": 11,
+  "severity": "visible",
+  "kind": "place",
+  "problem": "Order wrong: Dan's question 'You don't help me.' (y .4) sits below Mira's reply (y .03).",
+  "fix": "Move Dan's first bubble to the top-left (y .03) and Mira's reply below it."
+ },
+ {
+  "panel": 11,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Pencil lies flat across the crown of Dan's head, not behind the ear; Mira has no gloves here but has them in p9/p12.",
+  "fix": "Tuck pencil behind the right ear; keep gloves consistent."
+ },
+ {
+  "panel": 12,
+  "severity": "visible",
+  "kind": "place",
+  "problem": "System 'Quiet. They hear you.' is the last line but sits at the top (y .1), above the shouts that come before it.",
+  "fix": "Move it lower or reorder so it is read last."
+ },
+ {
+  "panel": 12,
+  "severity": "visible",
+  "kind": "place",
+  "problem": "Yet another room look (brick vault with pipes and backpacks) that differs from the other niche panels; the narration says 'niche walls scratched with names', not shown.",
+  "fix": "Use the same niche set as p7/p9."
+ },
+ {
+  "panel": 12,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "System window is a solid dark-red filled box instead of the cream double-frame paper window; lantern flame is drawn outside the glass.",
+  "fix": "Use the cream/red-frame window; fix the lantern flame."
+ },
+ {
+  "panel": 13,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Wall papers carry letter-like headings (paper at upper left); corridor lit strongly teal.",
+  "fix": "Make papers pure grey scribble lines and regrade away from teal."
+ },
+ {
+  "panel": 14,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Dan's right ear is visible but there is no yellow pencil behind it. (glasses are up on his forehead, ear fully visible).",
+  "fix": "Redraw with the yellow pencil tucked behind Dan's RIGHT ear."
+ },
+ {
+  "panel": 14,
+  "severity": "cosmetic",
+  "kind": "place",
+  "problem": "First System line 'You are alone...' is at the top, not on the drawn System window (window y .37-.54); only the third line sits on it.",
+  "fix": "Put all System lines on the window."
+ },
+ {
+  "panel": 16,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Dan's right ear is visible but there is no yellow pencil behind it.",
+  "fix": "Redraw with the yellow pencil tucked behind Dan's RIGHT ear."
+ },
+ {
+  "panel": 16,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Silent's hanging hand ends in thin dripping tendril-like fingers.",
+  "fix": "Redraw Silent's hand with five normal pale fingers."
+ },
+ {
+  "videos": {
+   "16": "good"
+  },
+  "notes": "Memory block (p3-p8) is six talking-head panels in a row; p6 is the only action beat so the middle drags a little. Strong hook at p10 ('wait for a Zero ... I don't tell you'). Reader may be confused by Mira's three-years-younger memory self looking adult and by the niche room changing look almost every panel. Video p16 has the same composition as the still and no hard-rule breaks (clip is cropped narrower so the System window is cut at the right edge; white glyph flecks appear in the red slit mid-clip; Dan turns toward camera at the end); acceptable."
+ }
+]

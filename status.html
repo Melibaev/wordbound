@@ -1,0 +1,19 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Статус очереди</title>
+<style>body{font:17px system-ui;background:#111;color:#eee;margin:24px}small{color:#999}</style>
+<h2>Статус очереди</h2><p id="m">Ищу туннель…</p><small>Открывайте со своим ключом: этот адрес + <code>#k=КЛЮЧ</code></small>
+<script>
+const key = new URLSearchParams(location.hash.slice(1)).get('k') || '';
+const msg = (t) => (document.getElementById('m').textContent = t);
+async function go() {
+  if (!key) return msg('Нет ключа в ссылке (#k=…).');
+  try {
+    const r = await fetch('https://raw.githubusercontent.com/Melibaev/wordbound/status-url/url.json?t=' + Date.now(), { cache: 'no-store' });
+    const { url } = await r.json();
+    const ok = await fetch(url + '/status.json?k=' + encodeURIComponent(key), { cache: 'no-store' }).then((x) => x.ok).catch(() => false);
+    if (ok) return location.replace(url + '/?k=' + encodeURIComponent(key));
+    msg('Туннель переподключается… (' + new Date().toLocaleTimeString() + ')');
+  } catch (e) { msg('Жду адрес туннеля…'); }
+  setTimeout(go, 10000);
+}
+go();
+</script>

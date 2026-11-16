@@ -1,0 +1,120 @@
+[
+ {
+  "panel": 1,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Pencil sits on Dan's LEFT temple (viewer's right) at the hairline, not behind the right ear.",
+  "fix": "Draw the yellow pencil behind his right ear (viewer's left)."
+ },
+ {
+  "panel": 2,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Dan carries a black backpack that appears nowhere else in the episode.",
+  "fix": "Remove the backpack."
+ },
+ {
+  "panel": 3,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Red thread curls in the jars look like the digit 2; the trader's fingers do not read as ten plus two.",
+  "fix": "Make the threads loose curls without a '2' shape."
+ },
+ {
+  "panel": 4,
+  "severity": "visible",
+  "kind": "place",
+  "problem": "System line 'Mira has one breath.' sits top-left on the street background while Dan's thought is on the System window.",
+  "fix": "Put the System bubble on the window and Dan's thought lower."
+ },
+ {
+  "panel": 4,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Dan's visible right ear has no pencil; the window is a portrait card with ornate corners, unlike panel 3.",
+  "fix": "Add the pencil; use the same window style."
+ },
+ {
+  "panel": 7,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Glowing letter-like glyphs stream from Dan's mouth; they read as pseudo-script.",
+  "fix": "Replace with plain glowing thread strokes."
+ },
+ {
+  "panel": 8,
+  "severity": "visible",
+  "kind": "place",
+  "problem": "Bubble order: System 'Almost.' (y=0.04) is above the trader and Dan lines although it comes after them.",
+  "fix": "Move 'Almost.' lower so top-to-bottom follows line order."
+ },
+ {
+  "panel": 9,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "System window sits on the trader's apron chest, not above the spark; reads like a name tag.",
+  "fix": "Place the window above the spark between the characters."
+ },
+ {
+  "panel": 10,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Pencil lies across Dan's hair above the ear instead of behind it.",
+  "fix": "Tuck the pencil behind the right ear."
+ },
+ {
+  "panel": 11,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Dan's visible right ear has no pencil; his counting hand does not show a clear number.",
+  "fix": "Add the pencil; show a clear finger count."
+ },
+ {
+  "panel": 12,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Dan's hand is on his shoulder/neck, not on the pencil as in the note.",
+  "fix": "Put the fingertips on the pencil."
+ },
+ {
+  "panel": 13,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "A drawn speech bubble with '...' floats beside Dan's face.",
+  "fix": "Remove the bubble completely."
+ },
+ {
+  "panel": 13,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Dan's visible right ear has no pencil behind it.",
+  "fix": "Add the pencil."
+ },
+ {
+  "panel": 15,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Mira sits with both hands on her knees; the brief says she grips Dan's sleeve with her left hand.",
+  "fix": "Draw her left hand (red cord) on Dan's sleeve."
+ },
+ {
+  "panel": 15,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Dan's id badge is missing from the lanyard.",
+  "fix": "Add the badge."
+ },
+ {
+  "panel": 17,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "System window is a bright plain cream rectangle with a thin dark outline, not dim and not double-framed.",
+  "fix": "Dim it and use the double red frame."
+ },
+ {
+  "videos": {
+   "panel07": "good"
+  },
+  "notes": "Best trade sequence so far: the beam fix and the phone beat (p12-p15) are clear and emotional, and the Roof-Fixer title pays off. Pacing dips in p3-p4 and p9-p11 (prices and word counting, many numbers for an A0 reader). The man in the black coat takes the phone quickly in p14, and System lines in p4/p8/p9 do not align with their windows."
+ }
+]

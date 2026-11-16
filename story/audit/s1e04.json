@@ -1,0 +1,212 @@
+[
+ {
+  "panel": 1,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Jar glyphs are curly pseudo-letters (some resemble real characters); the sealed door at the entrance is the same door the Keeper sits before in panel 3, so the heroes enter through the 'far' door.",
+  "fix": "Make the jar marks more abstract (loops/strokes); optional: heroes enter by a different arch."
+ },
+ {
+  "panel": 2,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's right ear is clearly visible and has no yellow pencil behind it.",
+  "fix": "Add the yellow pencil behind Dan's right ear."
+ },
+ {
+  "panel": 3,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Keeper is shown in a big dark throne with iron-strapped plank door behind; panels 5 and 8 give him an armchair / carved chair and 5 a different door, so the set keeps changing; rest is clean (eyes hidden, plain face).",
+  "fix": "Use one chair and one door design through the episode."
+ },
+ {
+  "panel": 4,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Blurred foreground Dan shows his ear without the yellow pencil.",
+  "fix": "Pencil behind the right ear."
+ },
+ {
+  "panel": 4,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Keeper's robe is grey-cream with a pale hood here, black in panel 3; jar shows an ECG heartbeat line instead of a glowing word.",
+  "fix": "Black hooded robe as in 3; abstract vermilion glow mark in the jar."
+ },
+ {
+  "panel": 5,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Jars and floor papers carry curly cursive text that reads like Latin letters (e.g. word-like scripts on the jars at left and right, handwriting lines on the floor papers).",
+  "fix": "Replace with abstract glowing strokes; blank papers."
+ },
+ {
+  "panel": 5,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Mira's red cord is on her RIGHT wrist (the hand hanging at image-left while she walks toward the camera).",
+  "fix": "Put the cord on her left wrist (swap which hand is shown)."
+ },
+ {
+  "panel": 5,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "The Keeper is a different design: a skeletal figure with long thin hands, a toothy grin and a wing-collar cape in a wingback chair; he is far away, not 'leaning forward'; Mira walks beside Dan instead of stepping in front.",
+  "fix": "Same Keeper as panel 3: black hood, calm thin smile, no teeth, close to the heroes."
+ },
+ {
+  "panel": 6,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan wears a grey hoodie with jeans (not the grey shirt) and has a plaster on his cheek and white tape on the left lens frame of his glasses.",
+  "fix": "Grey button shirt, mustard lanyard, clean face and plain round glasses."
+ },
+ {
+  "panel": 6,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "System window is a flat solid red rectangle with a cream border and a red square in the corner, covering Dan's shoulder and Mira's scarf; not the usual double-red-frame paper window.",
+  "fix": "Cream paper window with double red frame between the characters, not over them."
+ },
+ {
+  "panel": 7,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's right ear is visible and has no yellow pencil behind it (back view).",
+  "fix": "Pencil behind the right ear."
+ },
+ {
+  "panel": 8,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Setting differs from the round library: a rectangular room with flagstones, scroll racks and plain doors; Keeper sits upright (text: leans back); Dan's pencil is missing.",
+  "fix": "Place the scene in the round jar-library with the same chair."
+ },
+ {
+  "panel": 9,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's right ear is clearly visible and has no yellow pencil behind it; glasses are rectangular-rounded rather than round.",
+  "fix": "Pencil behind the right ear; plain round black glasses."
+ },
+ {
+  "panel": 9,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "The memory inset shows a notebook with only a scribble (no name), which is good; floor papers carry text lines.",
+  "fix": "Blank floor papers."
+ },
+ {
+  "panel": 10,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Dan's glasses are squarish; Mira's red cord is on the near (left) wrist - correct. Keeper's hand is a pale frayed glove.",
+  "fix": "Round glasses."
+ },
+ {
+  "panel": 11,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Dan's glasses squarish, ear shows no pencil in a close view; word-thread glyphs are abstract (ok).",
+  "fix": "Pencil behind the right ear."
+ },
+ {
+  "panel": 12,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's right ear is clearly visible and has no yellow pencil behind it; glasses are squarish.",
+  "fix": "Pencil behind the right ear; round glasses."
+ },
+ {
+  "panel": 12,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Mira faces the camera with arms crossed (text: looking away) and the Keeper's black sleeve has a gold rope wrapped at the wrist that looks like Mira's cord.",
+  "fix": "Mira looking away; remove the rope on the Keeper's wrist."
+ },
+ {
+  "panel": 13,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "A white plaster patch on Dan's cheek.",
+  "fix": "Remove the plaster."
+ },
+ {
+  "panel": 13,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Jars again carry curly pseudo-text (word-like handwriting) on every shelf; Mira's wrists hidden by crossed arms, no red cord visible.",
+  "fix": "Abstract glow strokes; show her left wrist with the cord."
+ },
+ {
+  "panel": 13,
+  "severity": "cosmetic",
+  "kind": "place",
+  "problem": "Bubble order: Mira (0.5,0.02) is line 1 but Dan's reply (0.03,0.03) sits at the same height to the left, so it reads first.",
+  "fix": "Move Mira's bubble up/left or Dan's down."
+ },
+ {
+  "panel": 14,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's right ear is visible and has no yellow pencil behind it.",
+  "fix": "Pencil behind the right ear."
+ },
+ {
+  "panel": 15,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "The cord trailing from Mira's wrist as she grips Dan's waist is on the near (right) hand; the door is now a carved double panel door with small seals (differs from the plank door in panels 3/14).",
+  "fix": "Cord on Mira's left wrist; reuse the plank door."
+ },
+ {
+  "panel": 16,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "The Silents are grey-teal men in torn T-shirts with no seam, unlike the robed Silents in e03; lamps on shelves are all still lit although the text says they go dark; Dan and Mira are tiny and hard to read.",
+  "fix": "Robed Silents with thin teal seam; shelf lamps dark near the entrance."
+ },
+ {
+  "panel": 17,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "The System window is a folder-shaped tab with the word 'System' printed on it (letters in the image).",
+  "fix": "Plain cream paper window with double red frame, no tab text."
+ },
+ {
+  "panel": 17,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan has a plaster on his cheek and a white bandage on his forearm.",
+  "fix": "Remove both."
+ },
+ {
+  "panel": 17,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Mira is off-model: brown hair with a short ponytail, light green jacket over a white T-shirt, sneakers, no gloves, no red cord.",
+  "fix": "Mira in olive jacket, dark top, fingerless gloves, boots, red cord on left wrist."
+ },
+ {
+  "panel": 17,
+  "severity": "visible",
+  "kind": "place",
+  "problem": "Mira's bubble (0.72,0.08) is above and to the right of Dan's line (0.02,0.27) that she answers; System (0.34,0.14) sits between them.",
+  "fix": "Place Dan's line first (top-left), Mira's below it, System last."
+ },
+ {
+  "panel": 6,
+  "severity": "cosmetic",
+  "kind": "place",
+  "problem": "System warning (first line, y 0.5) is placed below Dan (0.03) and Mira (0.03) bubbles, so reading order does not match line order.",
+  "fix": "Move the System bubble onto the top part of the window or reorder."
+ },
+ {
+  "videos": {
+   "panel11": "good",
+   "panel17": "redo"
+  },
+  "notes": "Video 11: same composition as the still, thread and lightning intensify, hand with jar leaves frame, background drifts to grey - acceptable (valid only if the still stays). Video 17: still has plaster/bandage and System text; in the video Mira turns into a different woman (wavy hair, green scarf, no ponytail), the System window gains letters-like squiggles, teal swirls and sparks flood the frame (redo). Story: the trade scene (p4-p12) is the strongest and clearest part, the memory beat in p9 is short but moving; p7 SISTER hint is subtle and works, but the Keeper's price/deal rules (a name for a word) are explained twice (p4 and p5) and slow the pace; p14-p15 office reveal is great but 'a phone ringing' on the desk should be visible in the slit (it is) - the weak spot is that Keeper's 'one more word' leaves the logic of why he opened the door open. The Keeper looks like three different characters (p3 throne, p5 skeleton, p14 standing) which hurts the reveal."
+ }
+]

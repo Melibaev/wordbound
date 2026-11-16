@@ -1,0 +1,211 @@
+[
+ {
+  "panel": 1,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's glasses have a white/grey tape-like patch on the temple arm at the hinge (clear in zoom).",
+  "fix": "Redraw Dan with plain round black glasses, clean temple arms, no patch or tape."
+ },
+ {
+  "panel": 1,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Mira has the red cord on BOTH wrists (left and right).",
+  "fix": "Cord only on Mira's left wrist."
+ },
+ {
+  "panel": 1,
+  "severity": "visible",
+  "kind": "place",
+  "problem": "Order: Mira 'You find her.' is the first line but sits right of Dan's 'She finds me.' at the same height, so left-to-right reading reverses the dialogue.",
+  "fix": "Place Mira's bubble higher (y .03) and Dan's lower (y .13)."
+ },
+ {
+  "panel": 2,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's glasses have a white/grey tape-like patch on the temple arm at the hinge (clear in zoom).",
+  "fix": "Redraw Dan with plain round black glasses, clean temple arms, no patch or tape."
+ },
+ {
+  "panel": 2,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Sky at upper left is teal-grey.",
+  "fix": "Warm the sky to ash/ochre."
+ },
+ {
+  "panel": 3,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Mira's cord fist is the arm nearer the viewer while she faces right, so the cord may be on her right wrist; verify.",
+  "fix": "Make sure the cord is on the left wrist."
+ },
+ {
+  "panel": 4,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's glasses have a white/grey tape-like patch on the temple arm at the hinge (clear in zoom).",
+  "fix": "Redraw Dan with plain round black glasses, clean temple arms, no patch or tape."
+ },
+ {
+  "panel": 4,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Dan's right ear is visible but there is no yellow pencil behind it.",
+  "fix": "Redraw with the yellow pencil tucked behind Dan's RIGHT ear."
+ },
+ {
+  "panel": 5,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's glasses have a white/grey tape-like patch on the temple arm at the hinge (clear in zoom).",
+  "fix": "Redraw Dan with plain round black glasses, clean temple arms, no patch or tape."
+ },
+ {
+  "panel": 6,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's glasses have a white/grey tape-like patch on the temple arm at the hinge (clear in zoom).",
+  "fix": "Redraw Dan with plain round black glasses, clean temple arms, no patch or tape."
+ },
+ {
+  "panel": 7,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's glasses have a white/grey tape-like patch on the temple arm at the hinge (clear in zoom). The same patch appears in all three video frames.",
+  "fix": "Redraw Dan with plain round black glasses, clean temple arms, no patch or tape."
+ },
+ {
+  "panel": 7,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "The four glowing signs read vaguely like 'S K F K'; Dan's ear is shown without the pencil.",
+  "fix": "Make signs clearly abstract; add pencil."
+ },
+ {
+  "panel": 8,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Corridor is graded strongly teal; no pencil.",
+  "fix": "Regrade to ash/ochre; add pencil."
+ },
+ {
+  "panel": 9,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's glasses have a white/grey tape-like patch on the temple arm at the hinge (clear in zoom).",
+  "fix": "Redraw Dan with plain round black glasses, clean temple arms, no patch or tape."
+ },
+ {
+  "panel": 10,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Dan's right ear is visible but there is no yellow pencil behind it.",
+  "fix": "Redraw with the yellow pencil tucked behind Dan's RIGHT ear."
+ },
+ {
+  "panel": 10,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Narration/prompt says Mira smiles slightly after the word, but she is open-mouthed and tense; the glow row in the air is jumbled, not a steady row.",
+  "fix": "Add a small smile; make the four signs an even row."
+ },
+ {
+  "panel": 10,
+  "severity": "visible",
+  "kind": "place",
+  "problem": "Order: Mira 'I... close... door.' (y .02, right) vs System 'Not true...' (y .02, left) are at the same height, so the System reply is read first.",
+  "fix": "Put the System bubble lower or Mira's higher."
+ },
+ {
+  "panel": 11,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "The tall Silent at the right edge has two eye-socket hollows, a tear drop and a nose-height seam; Silents must be smooth with only the vertical seam.",
+  "fix": "Redraw that Silent's face smooth and blank, seam only."
+ },
+ {
+  "panel": 11,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Dan's right ear is visible but there is no yellow pencil behind it.",
+  "fix": "Redraw with the yellow pencil tucked behind Dan's RIGHT ear."
+ },
+ {
+  "panel": 12,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's glasses have a white/grey tape-like patch on the temple arm at the hinge (clear in zoom).",
+  "fix": "Redraw Dan with plain round black glasses, clean temple arms, no patch or tape."
+ },
+ {
+  "panel": 12,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Silents behind wear long black cloaks, unlike the torn grey-green hoodie/vest Silents elsewhere.",
+  "fix": "Dress them in the same torn clothes."
+ },
+ {
+  "panel": 13,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's glasses have a white/grey tape-like patch on the temple arm at the hinge (clear in zoom). It looks cracked and dirty.",
+  "fix": "Redraw Dan with plain round black glasses, clean temple arms, no patch or tape."
+ },
+ {
+  "panel": 14,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "The big Silent at the right front shows two eye holes and a mouth hole (three dark openings) and no seam; rule: no eyes/nose/mouth.",
+  "fix": "Redraw a smooth blank face with the thin teal seam."
+ },
+ {
+  "panel": 14,
+  "severity": "visible",
+  "kind": "place",
+  "problem": "Silent 'I am Dan. I am Dan.' is the first line but sits at the very bottom (y .8), below Mira and System.",
+  "fix": "Move it to the top or make it the last line."
+ },
+ {
+  "panel": 14,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Whole hall and Silents are teal-grey (teal outside the Silent seams).",
+  "fix": "Regrade hall to ash/ochre."
+ },
+ {
+  "panel": 15,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "System window is a dark red box filled with four rows of signs (should be a blank cream window; ends with a '!'); Mira's cord is on the arm nearest the viewer, which for a face-up body is her right wrist.",
+  "fix": "Use the blank cream window; move the cord to Mira's left wrist."
+ },
+ {
+  "panel": 15,
+  "severity": "visible",
+  "kind": "place",
+  "problem": "Silent 'I am Mira.' (y .3) is first in the file but sits below System 'Word lost: MIRA.' (y .1).",
+  "fix": "Put the Silent line above the System line."
+ },
+ {
+  "panel": 16,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "The System window is a sci-fi HUD with rows of Latin-looking letters ('REYSHK', 'BAEIEF', 'RYYDEY', 'INSKR'), a radar circle and a bar, and is cut off by the right edge; it must be a blank cream window.",
+  "fix": "Replace with the blank cream double-red-frame window fully inside the frame."
+ },
+ {
+  "panel": 16,
+  "severity": "visible",
+  "kind": "place",
+  "problem": "Keeper 'Bring your name...' (y .8) is below System 'Mira is Zero now.' (y .43) but is spoken before it.",
+  "fix": "Move the Keeper line above the System line."
+ },
+ {
+  "videos": {
+   "07": "redo"
+  },
+  "notes": "Tape on Dan's glasses is the dominant defect: 10 of the 16 stills carry it, so Dan's reference needs fixing before redrawing. p9 (sentence montage with lamp and key) is the fun beat and works; p10 repeats the same trick at lower energy. Climax p13-p16 is clear and strong, but in p15 Dan is missing, so the reader may wonder where he stands while Mira falls. The door Dan opens in p7 (black slab in a white void) does not match the banded door in p4-p6 and p8-p10. Video p07: composition drifts (door swings, camera ends on a bright doorway) and the tape patch is in every frame, so redo after the still is fixed."
+ }
+]

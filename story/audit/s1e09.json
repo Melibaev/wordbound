@@ -1,0 +1,190 @@
+[
+ {
+  "panel": 1,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Wall glyph bricks contain readable Latin letters and digits (e.g. '250', 'NO', 'ISPOOK', 'PLE') instead of purely abstract signs.",
+  "fix": "Redraw wall with abstract non-alphabet carved shapes only (spirals, bars, angles), no digits or Latin."
+ },
+ {
+  "panel": 1,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Walkway and left wall graded teal.",
+  "fix": "Regrade to ochre/ash."
+ },
+ {
+  "panel": 2,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Glyph wall again includes Latin-looking letters/digits (e.g. 'OB3', 'POEBSHEA').",
+  "fix": "Same wall as p1: abstract carved shapes only."
+ },
+ {
+  "panel": 2,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Pencil is drawn diagonally across the hair onto the glasses arm rather than tucked behind the ear.",
+  "fix": "Draw the pencil horizontal behind the right ear."
+ },
+ {
+  "panel": 2,
+  "severity": "visible",
+  "kind": "place",
+  "problem": "System answer 'Because the Tower builds with words.' (y .03) is above Dan's 'Why?' (y .72), so the answer comes before the question.",
+  "fix": "Put the answer below 'Why?' or move 'Why?' to the top."
+ },
+ {
+  "panel": 3,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "The glowing brick in front of Dan's face reads as Latin letters ('KIIKER ...'); only abstract signs are allowed.",
+  "fix": "Redraw glowing row as unreadable carved shapes."
+ },
+ {
+  "panel": 3,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan is in profile facing left and the pencil is behind his LEFT (visible) ear; the rule is the right ear.",
+  "fix": "Mirror the frame (Dan facing right) so the pencil sits behind his right ear."
+ },
+ {
+  "panel": 4,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Sky is dark teal-green; a few wall glyphs look like Latin characters.",
+  "fix": "Warm the sky to ash/ochre; keep glyphs abstract."
+ },
+ {
+  "panel": 5,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's glasses have a white/grey tape-like patch on the temple arm at the hinge (clear in zoom).",
+  "fix": "Redraw Dan with plain round black glasses, clean temple arms, no patch or tape."
+ },
+ {
+  "panel": 5,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Wall rows include readable Latin letters (e.g. 'AIM' and word-like rows) and the whole wall is graded blue-teal.",
+  "fix": "Redraw glyphs abstract, regrade to ochre/ash."
+ },
+ {
+  "panel": 6,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Dan's right ear is visible but there is no yellow pencil behind it.",
+  "fix": "Redraw with the yellow pencil tucked behind Dan's RIGHT ear."
+ },
+ {
+  "panel": 7,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Pencil crosses the hair at the top of the head rather than tucked behind the ear.",
+  "fix": "Tuck pencil behind right ear."
+ },
+ {
+  "panel": 7,
+  "severity": "visible",
+  "kind": "place",
+  "problem": "Order: System 'Almost.' (y .44), Dan 'What?' (y .3), System 'Not now' (y .2) climbs upward, so the reading order is reversed.",
+  "fix": "Stack top to bottom: Dan line, 'Almost.', 'What?', 'Not now.'"
+ },
+ {
+  "panel": 8,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "System window is a teal/cyan HUD with pseudo-text, percent signs, progress bars and a window-button row; teal is Silent-only, and the window must be cream paper with a red double frame and no text.",
+  "fix": "Replace with the cream double-red-frame blank window."
+ },
+ {
+  "panel": 9,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "A pale translucent patch on the glasses arm near the temple reads as tape/film; Dan's right ear has no pencil.",
+  "fix": "Clean glasses arm; add pencil behind right ear."
+ },
+ {
+  "panel": 10,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's glasses have a white/grey tape-like patch on the temple arm at the hinge (clear in zoom).",
+  "fix": "Redraw Dan with plain round black glasses, clean temple arms, no patch or tape."
+ },
+ {
+  "panel": 10,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Dan's right ear is visible but there is no yellow pencil behind it.",
+  "fix": "Redraw with the yellow pencil tucked behind Dan's RIGHT ear."
+ },
+ {
+  "panel": 11,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's glasses have a white/grey tape-like patch on the temple arm at the hinge (clear in zoom). Three horizontal strips are visible.",
+  "fix": "Redraw Dan with plain round black glasses, clean temple arms, no patch or tape."
+ },
+ {
+  "panel": 11,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Dan's right ear is visible but there is no yellow pencil behind it.",
+  "fix": "Redraw with the yellow pencil tucked behind Dan's RIGHT ear."
+ },
+ {
+  "panel": 12,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Glasses: a pale film-like patch under the lens/temple reads as tape; thin red streaks on the Silent dress hem look like blood.",
+  "fix": "Clean glasses; remove red streaks from the Silent dress."
+ },
+ {
+  "panel": 13,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's glasses have a white/grey tape-like patch on the temple arm at the hinge (clear in zoom).",
+  "fix": "Redraw Dan with plain round black glasses, clean temple arms, no patch or tape."
+ },
+ {
+  "panel": 13,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Pencil lies horizontally across the hair, not behind the ear.",
+  "fix": "Pencil behind right ear."
+ },
+ {
+  "panel": 14,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "The glyph wall behind Dan and the Silent contains clearly readable Latin words/letters ('EXOTIPE', 'VANISIERI', 'CHARBEEF', 'RKRG').",
+  "fix": "Redraw wall as abstract carved shapes only."
+ },
+ {
+  "panel": 14,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Glasses arm is drawn pale/translucent like tape; Dan's right ear has no pencil.",
+  "fix": "Clean glasses arm; add pencil behind right ear."
+ },
+ {
+  "panel": 15,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "System window is a dark filled box with seal and bar glyphs, not the cream paper window; the three giant flaming signs read like the letters 'W', 'Z', 'K'; the lower wall is teal.",
+  "fix": "Use the cream double-frame window; redraw flames as abstract non-letter shapes; regrade teal to ochre."
+ },
+ {
+  "panel": 16,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Dan's pencil is behind his LEFT ear (viewer-right ear, face turned slightly left); the System window at the right edge is cut by the frame and filled with rows of pseudo-text.",
+  "fix": "Move pencil to the right ear or mirror; shift the window fully into frame and leave it blank."
+ },
+ {
+  "videos": {
+   "15": "good"
+  },
+  "notes": "System exposition in p4-p5 and p10-p11 ('Tower is a sentence', 'nobody loses') is dense and talk-only; reader may skim. p11 and p13 are two near-identical calm sitting shots. p12 logic is confusing: the Silent says 'Mira' and Dan reads it as wanting Mira, though the Silent is Lina-coded. Good cliffhanger in p15-p16 (the wall wants a name). Video p15 is the same composition as the still with no hard-rule breaks in any frame (camera tilts, Dan slides to the bottom edge, window cut at the right); but it inherits the pseudo-text wall and dark window of the still, so re-render it only if the still is redrawn."
+ }
+]

@@ -1,0 +1,120 @@
+[
+ {
+  "panel": 4,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's round glasses have a white tape/bandage wrap on the temple hinge (clear at zoom)",
+  "fix": "Redraw with plain black round glasses, no tape or white patches anywhere on temple or face."
+ },
+ {
+  "panel": 5,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's round glasses have a white tape/bandage wrap on the temple hinge",
+  "fix": "Redraw with plain black round glasses, no tape or white patches anywhere on temple or face."
+ },
+ {
+  "panel": 8,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Pale striped patch on Dan's glasses temple looks like tape",
+  "fix": "Redraw with plain black round glasses, no tape or white patches anywhere on temple or face."
+ },
+ {
+  "panel": 15,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's round glasses have a white tape/bandage wrap on the temple hinge (left side of face)",
+  "fix": "Redraw with plain black round glasses, no tape or white patches anywhere on temple or face."
+ },
+ {
+  "panel": 17,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan's round glasses have a white tape/bandage wrap on the temple hinge (wrapped band)",
+  "fix": "Redraw with plain black round glasses, no tape or white patches anywhere on temple or face."
+ },
+ {
+  "panel": 16,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Mira's red cord is on the hand at viewer-left, which is her RIGHT wrist (she faces the viewer)",
+  "fix": "Redraw with the cord only on her left wrist (viewer-right side), or mirror the panel."
+ },
+ {
+  "panel": 17,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Cream/white strips at left and right edges of the image",
+  "fix": "Redraw full-bleed, or crop/extend dark background to the edges."
+ },
+ {
+  "panel": 16,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Two different doors: sealed door in centre plus a green-lit open doorway at far left; in p15 the sealed door is intact although p14 cracked it open",
+  "fix": "Show the one door either cracked open with green-grey light (after p14) or remove the green doorway."
+ },
+ {
+  "panel": 15,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Sealed door in background still intact with all seals, but p14 showed it cracked open",
+  "fix": "Draw the door slightly ajar with a green-grey slit behind Dan."
+ },
+ {
+  "panel": 1,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Dan has no mustard lanyard in the close shot (cream shirt, only sleeves visible)",
+  "fix": "Add the thin mustard lanyard with blank badge."
+ },
+ {
+  "panel": 2,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Lina (the Silent) has a red cord on her wrist; red is reserved for word power, cord is Mira's",
+  "fix": "Remove the red cord from Lina or make it plain grey rope."
+ },
+ {
+  "panel": 2,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Doorway behind Dan opens onto a teal-blue void; wall scratches in places read like letters (A, H shapes)",
+  "fix": "Make the outside dark ink/ash and keep only simple tally strokes."
+ },
+ {
+  "panel": 6,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Door behind the Keeper is a grey riveted door with few seals, in p5/p8/p9 it is a brown panelled door; p7 also riveted",
+  "fix": "Use one consistent tall brown panelled door with many vermilion seals."
+ },
+ {
+  "panel": 9,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Jar labels on shelves have pseudo-handwriting scribbles",
+  "fix": "Leave labels blank."
+ },
+ {
+  "panel": 13,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Dan's front foot is cropped by the left edge",
+  "fix": "Pull Dan slightly right so both feet are in frame."
+ },
+ {
+  "panel": 10,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Brief says the Keeper rises half out of the chair, but he sits fully in it",
+  "fix": "Optional: lift him slightly off the seat."
+ },
+ {
+  "videos": {
+   "panel13": "good"
+  },
+  "notes": "Video 13: same composition across frames, no rule broken; the System window disappears after frame a and the whole frame flashes white-red in the middle, Dan ends recoiling (nice beat). Pacing: p5-p12 are 8 static talking panels of the Keeper in the same hall, with identical framing, so the middle drags; add one wider or different angle. p14 door opens while p15-16 look as if it were still shut (continuity). Dan's choice (mother vs Mira) is clear; the cliffhanger p17 works but loses the Keeper's menace (he looks like a flat silhouette)."
+ }
+]

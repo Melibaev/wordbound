@@ -399,7 +399,7 @@
      "ru": "Тут 300 ступенек. Ты медленный.",
      "delivery": "flat sarcastic system voice, dry and exact, a little smug",
      "place": {
-      "x": 0.43,
+      "x": 0.5,
       "y": 0.35,
       "w": 0.42,
       "tail": "none"
@@ -522,10 +522,10 @@
      "ru": "Тогда давай жёлтый карандаш.",
      "delivery": "greedy, quick and sly, eyes on the pencil, a boy bargaining",
      "place": {
-      "x": 0.02,
+      "x": 0.5,
       "y": 0.02,
-      "w": 0.38,
-      "tail": "down-right"
+      "w": 0.45,
+      "tail": "down-left"
      }
     },
     {
@@ -792,8 +792,8 @@
      "ru": "Предупреждение. У Миры два дыхания.",
      "delivery": "grave flat system alarm, cold and exact, urgent",
      "place": {
-      "x": 0.38,
-      "y": 0.32,
+      "x": 0.33,
+      "y": 0.3,
       "w": 0.3,
       "tail": "none"
      }

@@ -1,0 +1,219 @@
+[
+ {
+  "panel": 1,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Silents in the side doorway (left) have glowing white eyes.",
+  "fix": "Redraw doorway crowd as eyeless teal silhouettes with smooth faces, no glowing eyes."
+ },
+ {
+  "panel": 1,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Real Hangul-like glyphs on the red lanterns (top right and mid corridor).",
+  "fix": "Make lantern signs abstract glowing strokes, not letters."
+ },
+ {
+  "panel": 1,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan wears a dark jacket over the grey shirt (should be just the grey shirt).",
+  "fix": "Redraw Dan in grey shirt only, sleeves rolled, mustard lanyard, pencil behind right ear."
+ },
+ {
+  "panel": 1,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Large empty dark band at the top of the image (about 25%).",
+  "fix": "Recompose so the scene fills the frame, or keep the band intentionally for bubbles."
+ },
+ {
+  "panel": 2,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Bandage/plaster on Dan's cheek and tape at the glasses temple.",
+  "fix": "Redraw with clean round black glasses and clean face, no tape/plaster at all."
+ },
+ {
+  "panel": 2,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Big flat grey band across the top third of the image (the empty System card sits in it).",
+  "fix": "Extend the corridor art to the top edge."
+ },
+ {
+  "panel": 3,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Tape/plaster on Dan's glasses and temple.",
+  "fix": "Redraw with clean round black glasses and clean face, no tape/plaster at all."
+ },
+ {
+  "panel": 3,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Large empty dark band at the top.",
+  "fix": "Extend the scene to the top edge."
+ },
+ {
+  "panel": 4,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "The wall lantern glyph looks like a mirrored digit 2 / letter Z.",
+  "fix": "Replace with a plain glowing flame or an abstract non-letter shape."
+ },
+ {
+  "panel": 4,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Cream strip along the bottom edge of the image.",
+  "fix": "Extend the art to the bottom edge."
+ },
+ {
+  "panel": 4,
+  "severity": "visible",
+  "kind": "text",
+  "problem": "Three-bubble stack on the left wall (x=0.02) may cover the lantern and Dan's face area.",
+  "fix": "Check in the reader; move the stack to the top right if it overlaps."
+ },
+ {
+  "panel": 5,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Dan's visible right ear has no yellow pencil behind it.",
+  "fix": "Add the yellow pencil behind his right ear."
+ },
+ {
+  "panel": 5,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Wall glow marks look like runic letters (X, F shapes).",
+  "fix": "Make them softer abstract flares."
+ },
+ {
+  "panel": 6,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Plaster on Dan's cheek next to the glasses.",
+  "fix": "Redraw with clean round black glasses and clean face, no tape/plaster at all."
+ },
+ {
+  "panel": 6,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Large near-black band at the top of the image.",
+  "fix": "Extend the vaulted corridor up to the edge."
+ },
+ {
+  "panel": 7,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Plaster on Dan's cheek by the glasses (profile).",
+  "fix": "Redraw with clean round black glasses and clean face, no tape/plaster at all."
+ },
+ {
+  "panel": 7,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "In the crossed-arms pose Mira's red cord is on the forearm whose elbow is at her right (viewer's left); looks like the right wrist.",
+  "fix": "Redraw so the cord is only on her left wrist (viewer's right) or hide it under the other arm."
+ },
+ {
+  "panel": 7,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Mira's eyes are blank white without pupils.",
+  "fix": "Add pupils."
+ },
+ {
+  "panel": 8,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Plaster on Dan's glasses/temple.",
+  "fix": "Redraw with clean round black glasses and clean face, no tape/plaster at all."
+ },
+ {
+  "panel": 8,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Pencil is behind Dan's LEFT ear (viewer's right), mirrored.",
+  "fix": "Put the pencil behind his right ear (viewer's left)."
+ },
+ {
+  "panel": 9,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Plaster on Dan's cheek by the glasses.",
+  "fix": "Redraw with clean round black glasses and clean face, no tape/plaster at all."
+ },
+ {
+  "panel": 10,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Cream strips along the left and right image edges.",
+  "fix": "Redraw full-bleed with the hall filling the frame."
+ },
+ {
+  "panel": 10,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "The guard Silent is tiny and far; its teal seam is not readable.",
+  "fix": "Make the guard a bit larger with a clear thin vertical teal seam."
+ },
+ {
+  "panel": 11,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Plaster on Dan's cheek.",
+  "fix": "Redraw with clean round black glasses and clean face, no tape/plaster at all."
+ },
+ {
+  "panel": 11,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "The guard Silent stands in a side doorway, not in front of the big black door shown in panel 10.",
+  "fix": "Place it in front of the same high black door."
+ },
+ {
+  "panel": 12,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Plaster on Dan's cheek by the glasses.",
+  "fix": "Redraw with clean round black glasses and clean face, no tape/plaster at all."
+ },
+ {
+  "panel": 12,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "The guard is a teal armoured knight with a helmet and visor, not the faceless Silent used elsewhere.",
+  "fix": "Redraw as the cloaked Silent with a smooth white face and one vertical teal seam."
+ },
+ {
+  "panel": 13,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "The Silent has a mouth-like teal curved line (lips) on its face.",
+  "fix": "Replace with a single thin vertical teal seam, no mouth."
+ },
+ {
+  "panel": 14,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Silent is a teal-skinned armoured figure with a plain egg face and no seam; differs from panels 10-13.",
+  "fix": "Use one consistent Silent design: dark hooded robe, white smooth face, thin vertical teal seam."
+ },
+ {
+  "panel": 2,
+  "severity": "visible",
+  "kind": "video",
+  "problem": "Video: Dan's bandage vanishes in later frames, Mira morphs into a blurry different person with blue trousers, and the shot zooms in; grey band remains.",
+  "fix": "Drop it or regenerate from the redrawn still."
+ },
+ {
+  "videos": {
+   "panel02": "redo",
+   "panel15": "good"
+  },
+  "notes": "Strong emotional ending (p13-15), but p1-p9 is a long talk-heavy stretch with little visual change; the window shot in p9 is a good breather. Guard Silent logic is vague: Mira says it hears and does not see, yet it turns toward the door and speaks Mira's name before any sound from Dan. The Silent look changes in every panel (p10 cloak, p11 black body, p12 knight, p13 hood, p14 teal armour), which weakens the reveal."
+ }
+]

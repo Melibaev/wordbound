@@ -1,0 +1,120 @@
+[
+ {
+  "panel": 1,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Mira faces right and the red cord sits on her near (right) wrist, gripped by her other hand; the brief says the cord is on her left wrist.",
+  "fix": "Redraw so the cord is clearly on her left wrist only."
+ },
+ {
+  "panel": 2,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Dan's yellow pencil lies across his forehead/hairline instead of behind the right ear.",
+  "fix": "Tuck it behind his right ear."
+ },
+ {
+  "panel": 2,
+  "severity": "visible",
+  "kind": "place",
+  "problem": "System lines are out of order: 'Almost. Ask me later.' (y=0.04) is above 'This door wants more' (y=0.2), and Dan's shout (y=0.6), first in order, is lowest.",
+  "fix": "Swap positions so top-to-bottom matches line order; keep System lines on the window."
+ },
+ {
+  "panel": 3,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Silents have no thin vertical teal seam on their smooth faces.",
+  "fix": "Add the thin vertical teal seam."
+ },
+ {
+  "panel": 4,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Mira has a red cord on BOTH wrists (the hand Dan grips and the other forearm).",
+  "fix": "Keep the red cord only on her left wrist."
+ },
+ {
+  "panel": 4,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Mira has a coloured crest patch on the jacket shoulder; the child Silent has cords on both wrists.",
+  "fix": "Remove the patch; keep one cord on the Silent's left wrist."
+ },
+ {
+  "panel": 6,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "System window is a translucent glass UI with a close button, not the cream paper window with double red frame.",
+  "fix": "Redraw as cream paper window with double red frame, no icons."
+ },
+ {
+  "panel": 8,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "System window is a translucent glass UI, not the cream/red-framed paper window.",
+  "fix": "Redraw as cream paper window with double red frame."
+ },
+ {
+  "panel": 8,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Open shaft is on Dan's right, not on his left as in the art note.",
+  "fix": "Optional: ignore or flip the shaft side."
+ },
+ {
+  "panel": 9,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "The crawling Silent has no teal seam on its face.",
+  "fix": "Add a thin vertical teal seam."
+ },
+ {
+  "panel": 12,
+  "severity": "visible",
+  "kind": "place",
+  "problem": "System line 'True.' is at the bottom (y=0.76), not on the cream window near the glowing door (y about 0.45).",
+  "fix": "Move the System bubble onto the window."
+ },
+ {
+  "panel": 13,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Mira has the red cord on both wrists (the hand at her ear and the low hand).",
+  "fix": "Keep the cord only on her left wrist."
+ },
+ {
+  "panel": 14,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "White tape patch on the temple/left lens of Dan's glasses.",
+  "fix": "Redraw the glasses clean; remove the tape."
+ },
+ {
+  "panel": 14,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "A thin red scratch line crosses Dan's cheek over the lens.",
+  "fix": "Remove it or keep a subtle glint."
+ },
+ {
+  "panel": 15,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Mira kneels looking left while her hand presses the wall on the right; pose feels twisted.",
+  "fix": "Turn her torso toward Dan or the hand toward the wall she faces."
+ },
+ {
+  "panel": 16,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Dan's visible right ear has no pencil behind it.",
+  "fix": "Add the pencil behind his right ear."
+ },
+ {
+  "videos": {
+   "panel03": "good"
+  },
+  "notes": "Good pacing in the second half: Pip, the trade and the reveal that Lina is Mira's sister land well. Soft points: the hidden room Dan sells to Pip is not set up visually before p12, and Pip's line that Mira sells her sister is heavy for A0 readers. The Silent child (p1, p4) reads clearly, but the System window changes style (glass in p6/p8, paper elsewhere)."
+ }
+]

@@ -205,9 +205,9 @@
      "ru": "У тебя 14 слов и нет плана.",
      "delivery": "flat dry system announcement with a hint of mockery",
      "place": {
-      "x": 0.62,
-      "y": 0.26,
-      "w": 0.36,
+      "x": 0.64,
+      "y": 0.44,
+      "w": 0.32,
       "tail": "none"
      }
     }
@@ -738,9 +738,9 @@
      "ru": "Правда. Правда. Правда. Счёт: 31. Новый ранг: WORD.",
      "delivery": "flat cold game-system announcement, crisp, with a slight formal lift on the rank",
      "place": {
-      "x": 0.55,
-      "y": 0.28,
-      "w": 0.4,
+      "x": 0.62,
+      "y": 0.56,
+      "w": 0.36,
       "tail": "none"
      }
     },
@@ -800,7 +800,7 @@
      "delivery": "anguished and cracking, torn apart",
      "place": {
       "x": 0.02,
-      "y": 0.15,
+      "y": 0.08,
       "w": 0.44,
       "tail": "down-right"
      }

@@ -1,0 +1,1 @@
+s1e08: REDO 5: Mira has red cord on BOTH wrists - cord only on LEFT wrist (Lina's cord ok). REDO 6: POV hands both wear cord, fingers tangled - cord ONLY on left hand (screen-left), clean 5 fingers each, hands apart. Re-placed p6, p8, p11. p9/p12: System on top window is read before dialogues (cannot fix by place).

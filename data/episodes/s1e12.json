@@ -135,10 +135,10 @@
      "ru": "Я... Я Мира!",
      "delivery": "a hoarse breaking cry, shocked and joyful, the name erupting out of her",
      "place": {
-      "x": 0.62,
-      "y": 0.76,
-      "w": 0.36,
-      "tail": "up-right"
+      "x": 0.72,
+      "y": 0.0,
+      "w": 0.26,
+      "tail": "down-left"
      }
     },
     {
@@ -241,8 +241,8 @@
      "delivery": "patient friendly teacher voice, slow and clear, a small smile, pausing between each short sentence",
      "place": {
       "x": 0.03,
-      "y": 0.02,
-      "w": 0.6,
+      "y": 0.0,
+      "w": 0.5,
       "tail": "down-left"
      }
     },
@@ -253,10 +253,10 @@
      "ru": "Моя мама — мама Лины. Та же мама. Тот же папа.",
      "delivery": "slow careful repetition, testing each word, quiet wonder dawning",
      "place": {
-      "x": 0.52,
-      "y": 0.2,
-      "w": 0.45,
-      "tail": "down-right"
+      "x": 0.56,
+      "y": 0.02,
+      "w": 0.41,
+      "tail": "down-left"
      }
     },
     {
@@ -315,7 +315,7 @@
      "delivery": "flat cold game-system announcement, almost gentle for once",
      "place": {
       "x": 0.55,
-      "y": 0.4,
+      "y": 0.37,
       "w": 0.42,
       "tail": "none"
      }
@@ -645,8 +645,8 @@
      "delivery": "tired excited and a little cheeky, half laughing, then suddenly serious on the last question",
      "place": {
       "x": 0.02,
-      "y": 0.03,
-      "w": 0.4,
+      "y": 0.02,
+      "w": 0.42,
       "tail": "down-right"
      }
     },
@@ -657,8 +657,8 @@
      "ru": "Ответ: потому что у тебя ноль слов и ты учишь каждое слово, а другие только покупают и берут, и Башня тоже хочет учиться.",
      "delivery": "flat dry system voice, slower and fuller than ever before, carefully building a long sentence like a first attempt",
      "place": {
-      "x": 0.52,
-      "y": 0.5,
+      "x": 0.5,
+      "y": 0.12,
       "w": 0.46,
       "tail": "none"
      }
@@ -671,7 +671,7 @@
      "delivery": "dry surprised understatement, wry amused, shaking his head",
      "place": {
       "x": 0.02,
-      "y": 0.2,
+      "y": 0.26,
       "w": 0.4,
       "tail": "down-right"
      }
@@ -684,7 +684,7 @@
      "delivery": "flat deadpan with a hidden hint of pride and mischief",
      "place": {
       "x": 0.5,
-      "y": 0.8,
+      "y": 0.62,
       "w": 0.46,
       "tail": "none"
      }
@@ -728,9 +728,9 @@
      "delivery": "uneasy puzzled voice, the first chill of fear under the curiosity",
      "place": {
       "x": 0.5,
-      "y": 0.68,
-      "w": 0.46,
-      "tail": "up-left"
+      "y": 0.2,
+      "w": 0.42,
+      "tail": "down-left"
      }
     },
     {
@@ -740,9 +740,9 @@
      "ru": "Спроси, когда у тебя будет 300 слов. Это длинный ответ.",
      "delivery": "flat dry deflection, a slight softening on the last sentence",
      "place": {
-      "x": 0.6,
-      "y": 0.2,
-      "w": 0.38,
+      "x": 0.55,
+      "y": 0.42,
+      "w": 0.4,
       "tail": "none"
      }
     }
@@ -775,10 +775,10 @@
      "ru": "Спасибо, Дэн. ...Зеро.",
      "delivery": "low and awkward, a rare soft thank-you, then slipping back into deadpan with the old nickname",
      "place": {
-      "x": 0.45,
-      "y": 0.72,
+      "x": 0.03,
+      "y": 0.02,
       "w": 0.5,
-      "tail": "up-left"
+      "tail": "down-right"
      }
     },
     {
@@ -788,10 +788,10 @@
      "ru": "Я Дэн.",
      "delivery": "hollow smooth monotone, flat and eerie, imitating Dan's voice slightly wrong from far behind",
      "place": {
-      "x": 0.4,
-      "y": 0.04,
+      "x": 0.58,
+      "y": 0.1,
       "w": 0.34,
-      "tail": "right"
+      "tail": "down-right"
      }
     }
    ]
@@ -844,9 +844,9 @@
      "ru": "Это не твоя мама. Это Башня. У неё голос твоей мамы.",
      "delivery": "flat cold warning voice, slow and grave, no mockery now",
      "place": {
-      "x": 0.5,
+      "x": 0.56,
       "y": 0.38,
-      "w": 0.47,
+      "w": 0.42,
       "tail": "none"
      }
     },

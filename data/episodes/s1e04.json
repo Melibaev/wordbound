@@ -197,7 +197,7 @@
      "delivery": "urgent, demanding and desperate, reaching out for his name",
      "place": {
       "x": 0.03,
-      "y": 0.86,
+      "y": 0.62,
       "w": 0.36,
       "tail": "up-right"
      }
@@ -305,8 +305,8 @@
      "ru": "Предупреждение. OPEN — твоё единственное слово.",
      "delivery": "grave cold system warning, slow and heavy, a stern alarm",
      "place": {
-      "x": 0.31,
-      "y": 0.5,
+      "x": 0.25,
+      "y": 0.625,
       "w": 0.4,
       "tail": "none"
      }
@@ -362,9 +362,9 @@
      "ru": "SISTER? Что такое SISTER?",
      "delivery": "puzzled wonder, reading a strange glowing jar, curious and slightly lost",
      "place": {
-      "x": 0.45,
-      "y": 0.03,
-      "w": 0.5,
+      "x": 0.03,
+      "y": 0.2,
+      "w": 0.46,
       "tail": "down-left"
      }
     },
@@ -375,9 +375,9 @@
      "ru": "Я ничего не слышу. Поставь на место.",
      "delivery": "confused and tense, flat low voice, telling him to stop, unaware",
      "place": {
-      "x": 0.45,
-      "y": 0.15,
-      "w": 0.5,
+      "x": 0.5,
+      "y": 0.3,
+      "w": 0.46,
       "tail": "down-right"
      }
     },
@@ -427,9 +427,9 @@
      "ru": "Мира знает цену. Спроси её.",
      "delivery": "sly smooth tease, courteous with a barbed smile, dangling a secret",
      "place": {
-      "x": 0.04,
-      "y": 0.04,
-      "w": 0.46,
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.44,
       "tail": "right"
      }
     },
@@ -440,10 +440,10 @@
      "ru": "Ни слова, Хранитель!",
      "delivery": "angry strained warning, low fury aimed at the Keeper",
      "place": {
-      "x": 0.28,
-      "y": 0.19,
-      "w": 0.34,
-      "tail": "right"
+      "x": 0.5,
+      "y": 0.17,
+      "w": 0.46,
+      "tail": "down-right"
      }
     },
     {
@@ -497,10 +497,10 @@
      "ru": "Не думаю. Имя — это я.",
      "delivery": "quiet thoughtful inner voice, gentle certainty after a memory of his mother",
      "place": {
-      "x": 0.5,
-      "y": 0.22,
-      "w": 0.46,
-      "tail": "down-left"
+      "x": 0.56,
+      "y": 0.52,
+      "w": 0.4,
+      "tail": "left"
      }
     }
    ]
@@ -673,7 +673,7 @@
      "delivery": "goofy cheerful self-mockery, happy and slightly dazed",
      "place": {
       "x": 0.03,
-      "y": 0.03,
+      "y": 0.17,
       "w": 0.4,
       "tail": "down-right"
      }
@@ -685,8 +685,8 @@
      "ru": "Ты дурак, Зеро.",
      "delivery": "flat and dry, affectionate exasperation barely hidden",
      "place": {
-      "x": 0.4,
-      "y": 0.14,
+      "x": 0.52,
+      "y": 0.2,
       "w": 0.4,
       "tail": "down-left"
      }
@@ -856,7 +856,7 @@
      "delivery": "panicked, breathless humor, running for his life, half laughing in fear",
      "place": {
       "x": 0.02,
-      "y": 0.27,
+      "y": 0.05,
       "w": 0.28,
       "tail": "down-right"
      }
@@ -868,9 +868,9 @@
      "ru": "У тебя нет OPEN! Думай!",
      "delivery": "sharp urgent bark, panicked and fierce, running at full speed",
      "place": {
-      "x": 0.72,
-      "y": 0.08,
-      "w": 0.26,
+      "x": 0.74,
+      "y": 0.06,
+      "w": 0.24,
       "tail": "down-left"
      }
     },
@@ -881,8 +881,8 @@
      "ru": "Счёт: ноль. Снова.",
      "delivery": "flat cold counter readout, bored precision with a hint of sarcasm",
      "place": {
-      "x": 0.34,
-      "y": 0.14,
+      "x": 0.36,
+      "y": 0.24,
       "w": 0.3,
       "tail": "none"
      }
