@@ -8,14 +8,13 @@ _Last update: 2026-11-16_
 - **Agents:** `.claude/agents/reader.md` (manhwa-reader critic, writes `story/reviews/<ep>.md`), `.claude/agents/episode-writer.md`. (New agent files load in a NEW session; in the old one call general-purpose with "read .claude/agents/<name>.md and become it".)
 - **Series foundation:** `story/series-bible.md`, `curriculum.md`, `season-1.md`, `seasons-2-4.md`, `WRITING-GUIDE.md`, `DIGEST.md`.
 
-## In progress (check before continuing)
-- **Trials for s1e01–s1e12** being written by an Opus agent → `data/trials/*.json`, `story/TRIALS.md`, `tools/validate_trials.py`. When present: update `data/trials/index.json` (list every file), run `python tools/validate_trials.py`, generate trial audio (`.models/cbenv/Scripts/python tools/audio/gen_trials_audio.py`), test a trial in the browser at 375px, commit + push.
-- **`tools/pipeline.py`** (one command per step) + `story/DIGEST.md` being built by a Sonnet agent — verify they exist and work.
-- Engine commits since `a9c728c` are local only (trials engine, System windows, bubble overlay, s1e01 placements) — **not pushed yet**; push together with the trials.
+## Recently finished
+- **Trials for s1e01–s1e12** (Opus): `data/trials/*.json`, `story/TRIALS.md`, validator passes; trial audio generated (842 files, ~9 weak lines). Russian task text always visible. Published.
+- `tools/pipeline.py` + `tools/README.md`, `story/DIGEST.md`. Live Flow path of `pipeline.py art/video` NOT yet tested end-to-end — test it on the next real art job.
+- Whisper QA now on GPU (cuBLAS/cuDNN pip libs in `.models/cbenv`).
 
 ## Next (in order)
-1. Finish trials (above), publish.
-2. **Fix s1e01 by the reader review** (`story/reviews/s1e01.md`, score 8/10): redraw panel 16 (Silent has eye slits/nose; arm from behind Dan's ear), panels 4 (word OPEN not readable as shape), 12 (grey bands, hatch drawn as huge door, stray silhouette); remove Dan's bandage (panels 3, 5, 9, 10, 11, 17) — root cause: the Flow character "Dan" reference likely has the bandage → make a clean reference; move bubbles off faces (p5 "Who is there?", p16 "It is a Silent."), p2 duplicate text on the phone, p9/p11 System windows should sit on the drawn windows; simplify English overload (hatch, Count, "Some doors go home"); audio: 13-01 "It works!" too high, 01-02 too quiet. Re-run reader → target 10/10.
+1. **Fix s1e01 by the reader review** (`story/reviews/s1e01.md`, score 8/10): redraw panel 16 (Silent has eye slits/nose; arm from behind Dan's ear), panels 4 (word OPEN not readable as shape), 12 (grey bands, hatch drawn as huge door, stray silhouette); remove Dan's bandage (panels 3, 5, 9, 10, 11, 17) — root cause: the Flow character "Dan" reference likely has the bandage → make a clean reference; move bubbles off faces (p5 "Who is there?", p16 "It is a Silent."), p2 duplicate text on the phone, p9/p11 System windows should sit on the drawn windows; simplify English overload (hatch, Count, "Some doors go home"); audio: 13-01 "It works!" too high, 01-02 too quiet. Re-run reader → target 10/10.
 3. Bubble placement (`place`) for s1e02–s1e12 (look at each image; avoid faces).
 4. Video voice-over: mux the panel's Chatterbox lines onto its video (needs ffmpeg) + a "watch & understand" listening task type.
 5. **Season 2 in style v1:** new clean character references (Dan without bandage, sharper manhwa look), then s2e01… via episode-writer → pipeline → reader loop.

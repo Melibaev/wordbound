@@ -1,0 +1,701 @@
+{
+ "episode": "s1e04",
+ "unlocks": "s1e05",
+ "title": "Count: Zero",
+ "titleRu": "Счёт: ноль",
+ "trials": [
+  {
+   "id": "s1e04-t1",
+   "title": "I Don't Have It",
+   "titleRu": "У меня этого нет",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "status",
+     "title": "STATUS",
+     "lines": [
+      {
+       "en": "Count: zero.",
+       "ru": "Счёт: ноль."
+      },
+      {
+       "en": "Name: DAN. OPEN: gone.",
+       "ru": "Имя: DAN. OPEN: нет."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "I have my name. I don't have OPEN.",
+      "ru": "У меня есть имя. Но нет OPEN."
+     },
+     {
+      "who": "mira",
+      "en": "You don't have time. Run.",
+      "ru": "У тебя нет времени. Беги."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "Open! Open the door!",
+      "ru": "Откройся! Открой дверь!"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "I ___ have that word now.",
+     "options": [
+      "don't",
+      "do",
+      "am"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "You don't have that word.",
+      "ru": "У тебя нет этого слова."
+     },
+     "fail": {
+      "who": "system",
+      "en": "You don't have that word.",
+      "ru": "У тебя нет этого слова."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "mira",
+      "en": "Do you have a word? One word?",
+      "ru": "У тебя есть слово? Хоть одно?"
+     },
+     "prompt": {
+      "en": "Dan says...",
+      "ru": "Что ответит Дэн?"
+     },
+     "options": [
+      "No, I don't.",
+      "No, I am not.",
+      "Yes, I don't."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Zero words. Zero again.",
+      "ru": "Ноль слов. Снова Зеро."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "'No, I don't.' Do and don't.",
+      "ru": "«No, I don't». Do и don't."
+     }
+    },
+    {
+     "type": "match",
+     "story": {
+      "who": "dan",
+      "en": "Trade. Price. I know these words now. Too well.",
+      "ru": "Обмен. Цена. Теперь я знаю эти слова. Слишком хорошо."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Соедини слово и перевод."
+     },
+     "pairs": [
+      [
+       "trade",
+       "обмен"
+      ],
+      [
+       "price",
+       "цена"
+      ],
+      [
+       "need",
+       "нуждаться"
+      ],
+      [
+       "want",
+       "хотеть"
+      ]
+     ],
+     "success": {
+      "who": "mira",
+      "en": "Good. Now run.",
+      "ru": "Хорошо. Теперь беги."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Think, Zero.",
+      "ru": "Думай, Зеро."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "mira",
+      "en": "Why do you trade OPEN? Why?",
+      "ru": "Зачем ты отдал OPEN? Зачем?"
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери ответ Дэна: «Мне нужно моё имя»."
+     },
+     "answer": "I need my name",
+     "distractors": [
+      "want",
+      "your"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "And now you need OPEN.",
+      "ru": "А теперь тебе нужен OPEN."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "'I need my name.' I need it.",
+      "ru": "«I need my name». Мне оно нужно."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "system",
+      "en": "Name: DAN. It is yours.",
+      "ru": "Имя: DAN. Оно твоё."
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Дэн говорит, и голос — его собственный: «Я Дэн»."
+     },
+     "answer": "I am Dan",
+     "accept": [
+      "my name is Dan",
+      "i'm Dan"
+     ],
+     "success": {
+      "who": "dan",
+      "en": "I am Dan. I am a happy fool.",
+      "ru": "Я Дэн. Я счастливый дурак."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "'I am Dan.' Your name. Say it.",
+      "ru": "«I am Dan». Твоё имя. Скажи его."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "What does he say?",
+      "ru": "Что он говорит?"
+     },
+     "prompt": {
+      "en": "What is it?",
+      "ru": "Что ты слышишь? Выбери."
+     },
+     "audio_text": "I don't give. I trade.",
+     "voice": "keeper",
+     "delivery": "soft velvety polite voice from the dark, slow and pleased, smiling",
+     "options": [
+      "I don't give. I trade.",
+      "I don't trade. I give.",
+      "I don't know. I trade."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "He never gives. Never.",
+      "ru": "Он никогда не дарит. Никогда."
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "I don't give, Dan. I trade.",
+      "ru": "Я не дарю, Дэн. Я меняю."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Name: DAN. Count: zero.",
+       "ru": "Имя: DAN. Счёт: ноль."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "A name and zero words. A happy fool.",
+      "ru": "Имя и ноль слов. Счастливый дурак."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e04-t2",
+   "title": "The Trade",
+   "titleRu": "Сделка Хранителя",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Know the trade.",
+       "ru": "ЗАДАНИЕ: Пойми сделку."
+      },
+      {
+       "en": "A trade is a trade.",
+       "ru": "Сделка есть сделка."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "keeper",
+      "en": "Think, Dan. A trade is a trade.",
+      "ru": "Подумай, Дэн. Сделка есть сделка."
+     },
+     {
+      "who": "dan",
+      "en": "I think. Now I think.",
+      "ru": "Думаю. Теперь я думаю."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "mira",
+      "en": "Listen to him. A word is a price here.",
+      "ru": "Слушай его. Здесь слово — это цена."
+     },
+     "prompt": {
+      "en": "What is it?",
+      "ru": "Что ты слышишь? Выбери."
+     },
+     "audio_text": "One word, one name. That is the price.",
+     "voice": "keeper",
+     "delivery": "soft velvety polite voice from the dark, slow and pleased, smiling",
+     "options": [
+      "One word, one name.",
+      "One name, two words.",
+      "One word, no name."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "One word, one name. My OPEN for my name.",
+      "ru": "Одно слово — одно имя. Мой OPEN за моё имя."
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "One word, one name. That is all.",
+      "ru": "Одно слово — одно имя. Вот и всё."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "keeper",
+      "en": "A Silent brings me names.",
+      "ru": "Безмолвный приносит мне имена."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "I trade names ___ words.",
+     "options": [
+      "for",
+      "of",
+      "to"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "keeper",
+      "en": "Names for words. Always.",
+      "ru": "Имена на слова. Всегда."
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "For, Dan. Names for words.",
+      "ru": "For, Дэн. Имена на слова."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "And the door? The door with my office?",
+      "ru": "А дверь? Дверь с моим офисом?"
+     },
+     "prompt": {
+      "en": "The Keeper says...",
+      "ru": "Что ответит Хранитель?"
+     },
+     "options": [
+      "I need one more word.",
+      "I need one more name.",
+      "I don't need a word."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "One more word. What word?",
+      "ru": "Ещё одно слово. Какое?"
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "One more word, Dan. Not yet.",
+      "ru": "Ещё одно слово, Дэн. Пока нет."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "mira",
+      "en": "What is a name, Zero? Say it.",
+      "ru": "Что такое имя, Зеро? Скажи."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери, что сказал Дэн Хранителю: «Имя — это я»."
+     },
+     "answer": "A name is me",
+     "distractors": [
+      "word",
+      "you"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "A name is you. And now you are poor.",
+      "ru": "Имя — это ты. А теперь ты нищий."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "'A name is me.' Me.",
+      "ru": "«A name is me». Это я."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "keeper",
+      "en": "A word here has a...",
+      "ru": "У слова здесь есть…"
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Напиши одно слово: «цена»."
+     },
+     "answer": "price",
+     "accept": [
+      "a price",
+      "the price"
+     ],
+     "success": {
+      "who": "keeper",
+      "en": "A price. Good, Dan. Very good.",
+      "ru": "Цена. Хорошо, Дэн. Очень хорошо."
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "A price, Dan. All things have a price.",
+      "ru": "Цена, Дэн. У всего есть цена."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "system",
+      "en": "Word lost: OPEN.",
+      "ru": "Слово потеряно: OPEN."
+     },
+     "prompt": {
+      "en": "Dan has...",
+      "ru": "Что теперь есть у Дэна?"
+     },
+     "options": [
+      "his name. No OPEN.",
+      "OPEN. No name.",
+      "OPEN and his name."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "You have your name. You have no OPEN.",
+      "ru": "У тебя есть имя. Но нет OPEN."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Name: DAN. OPEN: no.",
+      "ru": "Имя: DAN. OPEN: нет."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "You know the trade.",
+       "ru": "Ты понял сделку."
+      },
+      {
+       "en": "The Keeper has OPEN.",
+       "ru": "OPEN теперь у Хранителя."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "keeper",
+      "en": "Not bad, Zero. Not bad.",
+      "ru": "Неплохо, Зеро. Неплохо."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e04-t3",
+   "title": "They Hear Your Name",
+   "titleRu": "Они слышат твоё имя",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "warning",
+     "title": "WARNING",
+     "lines": [
+      {
+       "en": "Warning. They hear your name.",
+       "ru": "Внимание. Они слышат твоё имя."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Don't say it again. Don't say your name.",
+      "ru": "Не повторяй его. Не говори своё имя."
+     },
+     {
+      "who": "dan",
+      "en": "I have legs. I run.",
+      "ru": "У меня есть ноги. Я бегу."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "They hear me? How?",
+      "ru": "Они меня слышат? Как?"
+     },
+     "prompt": {
+      "en": "What is it?",
+      "ru": "Что ты слышишь? Выбери."
+     },
+     "audio_text": "Run, Dan. They hear your name.",
+     "voice": "keeper",
+     "delivery": "soft velvety polite voice from the dark, slow and pleased, smiling",
+     "options": [
+      "They hear your name.",
+      "They hear your voice.",
+      "They have your name."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "My name. My big, loud name.",
+      "ru": "Моё имя. Моё большое громкое имя."
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "They hear your name, Dan.",
+      "ru": "Они слышат твоё имя, Дэн."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "mira",
+      "en": "Zero. Zero! Don't...",
+      "ru": "Зеро. Зеро! Не…"
+     },
+     "prompt": {
+      "en": "What is it in English?",
+      "ru": "«Не говори своё имя» — как это по-английски?"
+     },
+     "options": [
+      "Don't say your name.",
+      "Don't say my name.",
+      "I don't say your name."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Don't say it. Think it.",
+      "ru": "Не говори его. Думай его."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Don't say your name. Your name.",
+      "ru": "Не говори СВОЁ имя."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "So many! Silents! There, and there!",
+      "ru": "Их так много! Безмолвные! Там и там!"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "They ___ names. They don't see.",
+     "options": [
+      "hear",
+      "hears",
+      "have"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "They hear. They don't see. So be quiet.",
+      "ru": "Они слышат. Но не видят. Так что тихо."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "They hear. They hear, Zero.",
+      "ru": "Они слышат. Слышат, Зеро."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "A door! Mira, a door!",
+      "ru": "Дверь! Мира, дверь!"
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери, что понимает Дэн: «Мне нужна дверь»."
+     },
+     "answer": "We need a door",
+     "distractors": [
+      "want",
+      "the"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "We need a door. And a word.",
+      "ru": "Нам нужна дверь. И слово."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "'We need a door.' Need.",
+      "ru": "«We need a door». Need."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "mira",
+      "en": "You know this. Say it. Not your name.",
+      "ru": "Ты это знаешь. Скажи. Только не имя."
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Дэн шепчет: «Я не знаю»."
+     },
+     "answer": "I don't know",
+     "accept": [
+      "i do not know",
+      "i dont know"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "Then think.",
+      "ru": "Тогда думай."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "'I don't know.' Three words.",
+      "ru": "«I don't know». Три слова."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "mira",
+      "en": "Listen. The System.",
+      "ru": "Слушай. Система."
+     },
+     "prompt": {
+      "en": "What is it?",
+      "ru": "Что ты слышишь? Выбери."
+     },
+     "audio_text": "Count: zero. Again.",
+     "voice": "system",
+     "delivery": "flat cold game-system announcement, deadpan, no emotion",
+     "options": [
+      "Count: zero. Again.",
+      "Count: one. Again.",
+      "Count: two. Again."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Zero again. I know.",
+      "ru": "Снова ноль. Я знаю."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Zero. Again.",
+      "ru": "Ноль. Снова."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "A door. You have no OPEN.",
+       "ru": "Дверь. У тебя нет OPEN."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Think, Zero. Think!",
+      "ru": "Думай, Зеро. Думай!"
+     }
+    ]
+   }
+  }
+ ]
+}

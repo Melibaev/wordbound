@@ -1,0 +1,721 @@
+{
+ "episode": "s1e12",
+ "unlocks": "s2e01",
+ "title": "The Way Up",
+ "titleRu": "Путь наверх",
+ "trials": [
+  {
+   "id": "s1e12-t1",
+   "title": "What Does It Mean?",
+   "titleRu": "Что это значит?",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Teach one word.",
+       "ru": "ЗАДАНИЕ: Научи одному слову."
+      },
+      {
+       "en": "A word you teach is not lost.",
+       "ru": "Слово, которому учишь, не теряется."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Lina. Sister. I hear it. Teach me more, Zero.",
+      "ru": "Лина. Сестра. Я это слышу. Научи меня ещё, Зеро."
+     },
+     {
+      "who": "dan",
+      "en": "OK. A word, and what it means.",
+      "ru": "Ладно. Слово — и что оно значит."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "Lina's mother is your mother. Lina's father is your father.",
+      "ru": "Мать Лины — твоя мать. Отец Лины — твой отец."
+     },
+     "prompt": {
+      "en": "What does it mean?",
+      "ru": "Какое слово Дэн объясняет?"
+     },
+     "options": [
+      "sister",
+      "friend",
+      "mother",
+      "girl"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Sister. My sister.",
+      "ru": "Сестра. Моя сестра."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Same mother. Same father. Sister.",
+      "ru": "Та же мать. Тот же отец. Сестра."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "mira",
+      "en": "My mother is Lina's mother.",
+      "ru": "Моя мама — мама Лины."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "Lina is ___ sister.",
+     "options": [
+      "Mira's",
+      "Mira",
+      "Dan's"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Mira's sister. Mine.",
+      "ru": "Сестра Миры. Моя."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Mira's. Mira's sister.",
+      "ru": "Mira's. Сестра Миры."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "Say it to her. Not to me.",
+      "ru": "Скажи это ей. Не мне."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Lina. I am your sister. I am here.",
+     "voice": "mira",
+     "delivery": "dry low voice cracking with feeling, almost crying, trying to stay deadpan",
+     "options": [
+      "I am your sister. I am here.",
+      "I am your sister. I am near.",
+      "You are my sister. You are here."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "silent",
+      "en": "Mira. Sister.",
+      "ru": "Мира. Сестра."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "I am your sister. I am here.",
+      "ru": "Я твоя сестра. Я здесь."
+     }
+    },
+    {
+     "type": "match",
+     "story": {
+      "who": "mira",
+      "en": "More words. Sister words.",
+      "ru": "Ещё слова. Сестринские слова."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Соедини слово и перевод."
+     },
+     "pairs": [
+      [
+       "together",
+       "вместе"
+      ],
+      [
+       "same",
+       "тот же"
+      ],
+      [
+       "teach",
+       "учить"
+      ],
+      [
+       "answer",
+       "ответ"
+      ]
+     ],
+     "success": {
+      "who": "mira",
+      "en": "Too easy. Again.",
+      "ru": "Слишком легко. Ещё."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Slow, Zero. I am faster.",
+      "ru": "Медленно, Зеро. Я быстрее."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "The same family. What does it mean?",
+      "ru": "Одна семья. Что это значит?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "It ___ we are together.",
+     "options": [
+      "means",
+      "mean",
+      "is mean"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "It means. Not 'it mean'.",
+      "ru": "It means. Не «it mean»."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "dan",
+      "en": "Lina is Mira's...",
+      "ru": "Лина — это… Миры."
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Напиши слово, которое Мира наконец слышит: «сестра»."
+     },
+     "answer": "sister",
+     "accept": [
+      "her sister",
+      "a sister"
+     ],
+     "success": {
+      "who": "system",
+      "en": "SISTER is yours now.",
+      "ru": "SISTER теперь твоё."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Sister. I hear it now.",
+      "ru": "Сестра. Теперь я это слышу."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "The child has two words. They are hers.",
+       "ru": "У ребёнка два слова. Они её."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Two words. Then three. Then a hundred.",
+      "ru": "Два слова. Потом три. Потом сто."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e12-t2",
+   "title": "Teacher of One",
+   "titleRu": "Учитель одного",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Teach. Lose nothing.",
+       "ru": "ЗАДАНИЕ: Учи. Ничего не теряй."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "keeper",
+      "en": "You teach her. You give, and you still have it.",
+      "ru": "Ты учишь её. Ты отдаёшь — и оно остаётся у тебя."
+     },
+     {
+      "who": "dan",
+      "en": "I teach. She learns. Nobody loses.",
+      "ru": "Я учу. Она учится. Никто не теряет."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "keeper",
+      "en": "Then every jar here is a lie.",
+      "ru": "Тогда каждая банка здесь — ложь."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "You give, and you still have it.",
+     "voice": "keeper",
+     "delivery": "soft velvety voice, old and tired under the politeness, slow",
+     "options": [
+      "You give, and you still have it.",
+      "You give, and you lose it.",
+      "You take, and you still have it."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Yes. A word is not bread.",
+      "ru": "Да. Слово — не хлеб."
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "You give, and you still have it. How?",
+      "ru": "Отдаёшь — и оно у тебя остаётся. Как?"
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "mira",
+      "en": "Teach me 'together'.",
+      "ru": "Научи меня слову «together»."
+     },
+     "prompt": {
+      "en": "What does it mean?",
+      "ru": "Какое объяснение верное?"
+     },
+     "options": [
+      "Two or more people, one way.",
+      "One man, no friend.",
+      "A door with no key."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Together. Lina, me, you. One way.",
+      "ru": "Вместе. Лина, я, ты. Одна дорога."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "No. Together means two or more, one way.",
+      "ru": "Нет. Вместе — это двое или больше, одной дорогой."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "I teach. She...",
+      "ru": "Я учу. Она…"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "I teach. She ___. Nobody loses.",
+     "options": [
+      "learns",
+      "learn",
+      "teaches"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "She learns. Not 'she learn'.",
+      "ru": "She learns. Не «she learn»."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "mira",
+      "en": "And 'hundred'?",
+      "ru": "А «hundred»?"
+     },
+     "prompt": {
+      "en": "What does it mean?",
+      "ru": "Какое объяснение верное?"
+     },
+     "options": [
+      "Ten and ten and ten... ten times ten.",
+      "One and one. Two.",
+      "Forty years in a hall."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "A hundred. Many words.",
+      "ru": "Сто. Много слов."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Ten times ten. A hundred.",
+      "ru": "Десять раз по десять. Сто."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "keeper",
+      "en": "Who pays, Dan? Who pays?",
+      "ru": "Кто платит, Дэн? Кто платит?"
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери ответ Дэна: «Никто не платит»."
+     },
+     "answer": "Nobody pays for it",
+     "distractors": [
+      "pay",
+      "every"
+     ],
+     "success": {
+      "who": "keeper",
+      "en": "That is not a trade.",
+      "ru": "Это не сделка."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "'Nobody pays for it.'",
+      "ru": "«Nobody pays for it»."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "system",
+      "en": "Title: Teacher of One.",
+      "ru": "Титул: Учитель одного."
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Одно слово: «учить, обучать»."
+     },
+     "answer": "teach",
+     "success": {
+      "who": "mira",
+      "en": "Teach me more. Later.",
+      "ru": "Научи меня ещё. Потом."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Teach.",
+      "ru": "Учить."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Title: Teacher of One.",
+       "ru": "Титул: Учитель одного."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Thank you, Dan. ...Zero.",
+      "ru": "Спасибо, Дэн. …Зеро."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e12-t3",
+   "title": "One Hundred",
+   "titleRu": "Сто",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "status",
+     "title": "STATUS",
+     "lines": [
+      {
+       "en": "Count: one hundred. Rank: PHRASE.",
+       "ru": "Счёт: сто. Ранг: PHRASE."
+      },
+      {
+       "en": "Class: BUILDER.",
+       "ru": "Класс: BUILDER."
+      },
+      {
+       "en": "Missed calls: 12.",
+       "ru": "Пропущенных звонков: 12."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "One hundred words. And a way up.",
+      "ru": "Сто слов. И путь наверх."
+     },
+     {
+      "who": "silent",
+      "en": "I am Dan.",
+      "ru": "Я Дэн."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "pick_voice",
+     "story": {
+      "who": "mira",
+      "en": "Two voices. One is you. One is not.",
+      "ru": "Два голоса. Один — ты. Другой — нет."
+     },
+     "prompt": {
+      "en": "Which voice is Dan?",
+      "ru": "Какой голос — настоящий Дэн?"
+     },
+     "clips": [
+      {
+       "voice": "dan",
+       "delivery": "tired young man, honest, out of breath, a little scared, warm, a little proud now",
+       "audio_text": "I am Dan."
+      },
+      {
+       "voice": "silent",
+       "delivery": "hollow breathy whisper, copying a human voice slightly wrong, calm and empty, a perfect copy",
+       "audio_text": "I am Dan."
+      }
+     ],
+     "options": [
+      "Голос A",
+      "Голос B"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "You. Tired and loud. You.",
+      "ru": "Ты. Усталый и громкий. Ты."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "No. That one has no breath. Listen again.",
+      "ru": "Нет. У того нет дыхания. Послушай ещё."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "narration",
+      "en": "A voice from up there.",
+      "ru": "Голос сверху."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Come up, Dan. Mom waits, because you learn.",
+     "voice": "narration",
+     "delivery": "warm worried mother on a bad phone line, far away, too perfect, slightly echoing",
+     "options": [
+      "Mom waits, because you learn.",
+      "Mom waits, but you learn.",
+      "Mom calls, because you learn."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "That is not your mother. That is the Tower.",
+      "ru": "Это не твоя мать. Это Башня."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Because you learn.",
+      "ru": "Потому что ты учишься."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "system",
+      "en": "It has your mother's voice.",
+      "ru": "У неё голос твоей матери."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "The Tower has your ___ voice.",
+     "options": [
+      "mother's",
+      "mother",
+      "mothers"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Her voice. Not her.",
+      "ru": "Её голос. Но не она."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Your mother's voice.",
+      "ru": "Голос твоей матери."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "Together. Say it with me.",
+      "ru": "Вместе. Скажи со мной."
+     },
+     "prompt": {
+      "en": "Make the sentence.",
+      "ru": "Собери начало предложения в 18 слов: «Я Дэн, и мы открываем эту дверь вместе»."
+     },
+     "answer": "I am Dan and we open this door together",
+     "distractors": [
+      "opens",
+      "that"
+     ],
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Not true. Who, what, the thing, how.",
+      "ru": "Неправда. Кто, что, предмет, как."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "Why me?",
+      "ru": "Почему я?"
+     },
+     "prompt": {
+      "en": "What is the answer?",
+      "ru": "Что ответила Система?"
+     },
+     "options": [
+      "Because you learn every word.",
+      "Because you buy every word.",
+      "Because you have a name."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "It is the first. Don't tell Mira.",
+      "ru": "Это первое. Мире не говори."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Because you learn. The others only buy and take.",
+      "ru": "Потому что ты учишься. Другие только покупают и забирают."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "mira",
+      "en": "Up, Zero. Slowly. You are very good at it.",
+      "ru": "Наверх, Зеро. Медленно. У тебя это хорошо выходит."
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Напиши: «Мы идём наверх»."
+     },
+     "answer": "We go up",
+     "accept": [
+      "we go up together",
+      "together we go up"
+     ],
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "'We go up.' Together.",
+      "ru": "«We go up». Вместе."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Floor of Names: behind you.",
+       "ru": "Этаж Имён: позади."
+      },
+      {
+       "en": "Next floor: up.",
+       "ru": "Следующий этаж: наверху."
+      },
+      {
+       "en": "Count: one hundred.",
+       "ru": "Счёт: сто."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "One hundred words. A sister. A friend. A way up.",
+      "ru": "Сто слов. Сестра. Друг. Путь наверх."
+     },
+     {
+      "who": "mira",
+      "en": "And no apples. Go.",
+      "ru": "И ни одного яблока. Иди."
+     }
+    ]
+   }
+  }
+ ]
+}

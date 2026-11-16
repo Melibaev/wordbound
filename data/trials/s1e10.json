@@ -1,0 +1,642 @@
+{
+ "episode": "s1e10",
+ "unlocks": "s1e11",
+ "title": "Who, What, Where",
+ "titleRu": "Кто, что, где",
+ "trials": [
+  {
+   "id": "s1e10-t1",
+   "title": "I Hold Her",
+   "titleRu": "Я держу её",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Find a light. Take Mira.",
+       "ru": "ЗАДАНИЕ: Найди свет. Унеси Миру."
+      },
+      {
+       "en": "Mira: no breath. No name.",
+       "ru": "Мира: нет дыхания. Нет имени."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Who? I. What do I do? I hold her.",
+      "ru": "Кто? Я. Что я делаю? Я держу её."
+     },
+     {
+      "who": "silent",
+      "en": "Mira? Mira?",
+      "ru": "Мира? Мира?"
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "Who, then what, then the thing. Like a wall.",
+      "ru": "Кто, потом что, потом предмет. Как кладка."
+     },
+     "prompt": {
+      "en": "What is the right sentence?",
+      "ru": "Какое предложение правильное?"
+     },
+     "options": [
+      "I hold Mira.",
+      "Mira I hold.",
+      "Hold I Mira."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "Sentence: 3 words. True.",
+      "ru": "Предложение: 3 слова. Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Not true. That is not a sentence.",
+      "ru": "Неправда. Это не предложение."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "There is a lamp. Far. I...",
+      "ru": "Там лампа. Далеко. Я…"
+     },
+     "prompt": {
+      "en": "Make the sentence.",
+      "ru": "Собери предложение-силу: «Я нахожу свет»."
+     },
+     "answer": "I find the light",
+     "distractors": [
+      "finds",
+      "a"
+     ],
+     "success": {
+      "who": "system",
+      "en": "Sentence: 4 words. True. One breath.",
+      "ru": "Предложение: 4 слова. Правда. Одно дыхание."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Not true. Who, what, the thing.",
+      "ru": "Неправда. Кто, что, предмет."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "How many words? Listen.",
+      "ru": "Сколько слов? Слушай."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Sentence: 4 words. True.",
+     "voice": "system",
+     "delivery": "flat cold game-system announcement, deadpan, no emotion",
+     "options": [
+      "Sentence: 4 words. True.",
+      "Sentence: 3 words. True.",
+      "Sentence: 4 words. Not true."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Four words. One breath. I can do this.",
+      "ru": "Четыре слова. Одно дыхание. Я справлюсь."
+     },
+     "fail": {
+      "who": "system",
+      "en": "4 words. True.",
+      "ru": "4 слова. Правда."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "silent",
+      "en": "I am Dan. I am Dan.",
+      "ru": "Я Дэн. Я Дэн."
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Напиши предложение-силу: «Я закрываю дверь»."
+     },
+     "answer": "I close the door",
+     "accept": [
+      "i close a door",
+      "i close this door",
+      "i close that door"
+     ],
+     "success": {
+      "who": "system",
+      "en": "True. The door closes.",
+      "ru": "Правда. Дверь закрывается."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "No. 'I close the door.' Who, what, the thing.",
+      "ru": "Нет. «I close the door». Кто, что, предмет."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "Mira is heavy. I am weak. But...",
+      "ru": "Мира тяжёлая. Я слабый. Но…"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "I ___ her. I don't fight.",
+     "options": [
+      "hold",
+      "holds",
+      "fight"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "'I hold.' Not 'I holds'.",
+      "ru": "«I hold». Не «I holds»."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "A true sentence is strong.",
+       "ru": "Правдивое предложение — сильное."
+      },
+      {
+       "en": "Count: 14.",
+       "ru": "Счёт: 14."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "I hold her. 14 words. And no plan.",
+      "ru": "Я держу её. Четырнадцать слов. И никакого плана."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e10-t2",
+   "title": "Every Door Hears",
+   "titleRu": "Каждая дверь слышит",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "warning",
+     "title": "WARNING",
+     "lines": [
+      {
+       "en": "Silents in the way. Many.",
+       "ru": "На пути Безмолвные. Много."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "keeper",
+      "en": "Bring your name to my hall, Dan. Then she has hers.",
+      "ru": "Принеси своё имя в мой зал, Дэн. Тогда она получит своё."
+     },
+     {
+      "who": "dan",
+      "en": "Not now. Now I run.",
+      "ru": "Не сейчас. Сейчас я бегу."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "What does he say? Again.",
+      "ru": "Что он говорит? Ещё раз."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Bring your name to my hall, Dan.",
+     "voice": "keeper",
+     "delivery": "soft velvety polite voice, slow and pleased, smiling",
+     "options": [
+      "Bring your name to my hall.",
+      "Bring my name to your hall.",
+      "Bring your hand to my hall."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "My name for her name. A trade. Again.",
+      "ru": "Моё имя за её имя. Опять сделка."
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "Your name. My hall. That is all, Dan.",
+      "ru": "Твоё имя. Мой зал. Вот и всё, Дэн."
+     }
+    },
+    {
+     "type": "match",
+     "story": {
+      "who": "dan",
+      "en": "Make, find, close, hold. My new hands.",
+      "ru": "Делать, находить, закрывать, держать. Мои новые руки."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Соедини слово и перевод."
+     },
+     "pairs": [
+      [
+       "make",
+       "делать"
+      ],
+      [
+       "find",
+       "находить"
+      ],
+      [
+       "close",
+       "закрывать"
+      ],
+      [
+       "hold",
+       "держать"
+      ]
+     ],
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Not true.",
+      "ru": "Неправда."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "silent",
+      "en": "I am Mira. I am Mira.",
+      "ru": "Я Мира. Я Мира."
+     },
+     "prompt": {
+      "en": "Make the sentence.",
+      "ru": "Собери предложение-силу: «Я останавливаю Безмолвного»."
+     },
+     "answer": "I stop the Silent",
+     "distractors": [
+      "stops",
+      "me"
+     ],
+     "success": {
+      "who": "system",
+      "en": "True. It does not move.",
+      "ru": "Правда. Он не двигается."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Not true. Who, what, the thing.",
+      "ru": "Неправда. Кто, что, предмет."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "A strong word? No. A true sentence.",
+      "ru": "Сильное слово? Нет. Правдивое предложение."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "Every door hears a true ___.",
+     "options": [
+      "sentence",
+      "word",
+      "name"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "A true sentence. Not a strong word.",
+      "ru": "Правдивое предложение. Не сильное слово."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "system",
+      "en": "Mira has no breath. She is heavy.",
+      "ru": "У Миры нет дыхания. Она тяжёлая."
+     },
+     "prompt": {
+      "en": "What is the right sentence?",
+      "ru": "Что Дэн должен сказать, чтобы удержать Миру?"
+     },
+     "options": [
+      "I hold Mira.",
+      "Mira holds me.",
+      "I hold the lamp."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True. One breath.",
+      "ru": "Правда. Одно дыхание."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Not true. You hold her. She does not hold you.",
+      "ru": "Неправда. Ты держишь её. Не она тебя."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "dan",
+      "en": "There. A small room. A lamp.",
+      "ru": "Там. Маленькая комната. Лампа."
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Напиши предложение-силу: «Я нахожу лампу»."
+     },
+     "answer": "I find the lamp",
+     "accept": [
+      "i find a lamp"
+     ],
+     "success": {
+      "who": "system",
+      "en": "True. The lamp burns.",
+      "ru": "Правда. Лампа горит."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "No. 'I find the lamp.'",
+      "ru": "Нет. «I find the lamp»."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "A lamp. Silents stay out of the light.",
+       "ru": "Лампа. Безмолвные не входят в свет."
+      },
+      {
+       "en": "Count: 14.",
+       "ru": "Счёт: 14."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "In the light. We are in the light.",
+      "ru": "В свете. Мы в свете."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e10-t3",
+   "title": "Mira Is Zero",
+   "titleRu": "Мира — Зеро",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "status",
+     "title": "STATUS",
+     "lines": [
+      {
+       "en": "Mira is Zero now.",
+       "ru": "Мира теперь Зеро."
+      },
+      {
+       "en": "No breath. No name.",
+       "ru": "Нет дыхания. Нет имени."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "silent",
+      "en": "Mira?",
+      "ru": "Мира?"
+     },
+     {
+      "who": "dan",
+      "en": "Lina. Here. In the light.",
+      "ru": "Лина. Сюда. В свет."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "System. Say it again.",
+      "ru": "Система. Повтори."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Mira is Zero now.",
+     "voice": "system",
+     "delivery": "flat cold game-system announcement, deadpan, no emotion",
+     "options": [
+      "Mira is Zero now.",
+      "Mira is here now.",
+      "Mira is home now."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Zero. Like me. Not like me.",
+      "ru": "Зеро. Как я. И не как я."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Mira is Zero now.",
+      "ru": "Мира теперь Зеро."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "She has no breath. And...",
+      "ru": "У неё нет дыхания. И…"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "She ___ no name now.",
+     "options": [
+      "has",
+      "have",
+      "is"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "She has. Not she have.",
+      "ru": "She has. Не she have."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "keeper",
+      "en": "Then she has hers.",
+      "ru": "Тогда она получит своё."
+     },
+     "prompt": {
+      "en": "What is it?",
+      "ru": "Что предлагает Хранитель?"
+     },
+     "options": [
+      "His name for her name.",
+      "Her name for free.",
+      "His OPEN for her name."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "My name for her name. Always a trade.",
+      "ru": "Моё имя за её. Вечно сделка."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "No. He wants my name. For her name.",
+      "ru": "Нет. Ему нужно моё имя. За её имя."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "Think. Think, Dan.",
+      "ru": "Думай. Думай, Дэн."
+     },
+     "prompt": {
+      "en": "Make the sentence.",
+      "ru": "Собери предложение Дэна: «Я делаю новый план»."
+     },
+     "answer": "I make a new plan",
+     "distractors": [
+      "makes",
+      "bad"
+     ],
+     "success": {
+      "who": "system",
+      "en": "True. A plan. Not a good one.",
+      "ru": "Правда. План. Не очень хороший."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "'I make a new plan.' A new one.",
+      "ru": "«I make a new plan». Новый."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "system",
+      "en": "Mira fights with her last breath.",
+      "ru": "Мира сражается последним дыханием."
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Одно слово: «последний»."
+     },
+     "answer": "last",
+     "success": {
+      "who": "dan",
+      "en": "Her last breath. For me.",
+      "ru": "Её последнее дыхание. Ради меня."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Last.",
+      "ru": "Последний."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "The lamp burns. The room is safe. For now.",
+       "ru": "Лампа горит. Комната безопасна. Пока."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Mira. Look at me.",
+      "ru": "Мира. Посмотри на меня."
+     }
+    ]
+   }
+  }
+ ]
+}

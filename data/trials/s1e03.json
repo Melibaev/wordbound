@@ -1,0 +1,670 @@
+{
+ "episode": "s1e03",
+ "unlocks": "s1e04",
+ "title": "After the Gate",
+ "titleRu": "За Воротами",
+ "trials": [
+  {
+   "id": "s1e03-t1",
+   "title": "In the Dark",
+   "titleRu": "В темноте",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Stand. Look. Listen.",
+       "ru": "ЗАДАНИЕ: Встань. Смотри. Слушай."
+      },
+      {
+       "en": "It is dark here.",
+       "ru": "Здесь темно."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Zero. Take my hand. Do not talk.",
+      "ru": "Зеро. Дай руку. Не говори."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "build",
+     "story": {
+      "who": "mira",
+      "en": "It is dark. I can't see you.",
+      "ru": "Темно. Я тебя не вижу."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери приказ Миры: «Возьми меня за руку»."
+     },
+     "answer": "Take my hand",
+     "distractors": [
+      "look",
+      "your"
+     ],
+     "success": {
+      "who": "dan",
+      "en": "Your hand is cold.",
+      "ru": "У тебя холодная рука."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "'Take my hand.' My hand, Zero.",
+      "ru": "«Take my hand». Мою руку, Зеро."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "What? I can't hear you.",
+      "ru": "Что? Я тебя не слышу."
+     },
+     "prompt": {
+      "en": "What is it?",
+      "ru": "Что ты слышишь? Выбери."
+     },
+     "audio_text": "Look down. Go slowly.",
+     "voice": "mira",
+     "delivery": "deadpan low whisper, unimpressed, barely moving her lips",
+     "options": [
+      "Look down. Go slowly.",
+      "Look down. Go now.",
+      "Look at me. Go slowly."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Down. Slowly. OK.",
+      "ru": "Вниз. Медленно. Понял."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Look down. Go slowly. Slowly.",
+      "ru": "Смотри вниз. Иди медленно. Медленно."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "mira",
+      "en": "Slowly, Zero.",
+      "ru": "Медленно, Зеро."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "I ___ go slowly. I am very good at it.",
+     "options": [
+      "can",
+      "am",
+      "is"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Very good. For a slow man.",
+      "ru": "Очень хорошо. Для медленного."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "I can go. I can look. Can.",
+      "ru": "I can go. I can look. Can."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "What is that on the wall?",
+      "ru": "Что это на стене?"
+     },
+     "prompt": {
+      "en": "What is it in English?",
+      "ru": "«Не смотри на них» — как это по-английски?"
+     },
+     "options": [
+      "Do not look at them.",
+      "Look at them.",
+      "Do not go to them.",
+      "Do not take them."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Do not look. Go.",
+      "ru": "Не смотри. Иди."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Do not look. Do not.",
+      "ru": "Не смотри. Не."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "narration",
+      "en": "Mira is far. It is dark.",
+      "ru": "Мира отошла. Темно."
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Дэн зовёт Миру: «Иди сюда!»"
+     },
+     "answer": "Come here",
+     "accept": [
+      "come here mira",
+      "mira come here",
+      "mira, come here"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "I am here. Quiet.",
+      "ru": "Я здесь. Тише."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "'Come here.' Two words.",
+      "ru": "«Come here». Два слова."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "You can go slowly. Good.",
+       "ru": "Ты умеешь идти медленно. Хорошо."
+      },
+      {
+       "en": "Count: one.",
+       "ru": "Счёт: один."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Slow is my power.",
+      "ru": "Медленность — моя сила."
+     },
+     {
+      "who": "mira",
+      "en": "It is not.",
+      "ru": "Нет."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e03-t2",
+   "title": "Can and Can't",
+   "titleRu": "Могу и не могу",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "status",
+     "title": "STATUS",
+     "lines": [
+      {
+       "en": "Count: one. OPEN.",
+       "ru": "Счёт: один. OPEN."
+      },
+      {
+       "en": "STOP: new word. Not yours.",
+       "ru": "STOP: новое слово. Ещё не твоё."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "I have no more breath. I can't stop them now.",
+      "ru": "У меня больше нет дыхания. Сейчас я их не остановлю."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "Mira? You are so white.",
+      "ru": "Мира? Ты такая бледная."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "Mira ___ stop them. Not now.",
+     "options": [
+      "can't",
+      "can",
+      "is"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Not now. Soon.",
+      "ru": "Не сейчас. Скоро."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "No breath. I can't.",
+      "ru": "Нет дыхания. Не могу."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "What? Say it.",
+      "ru": "Что? Скажи."
+     },
+     "prompt": {
+      "en": "What is it?",
+      "ru": "Что шепчет Мира? Напиши."
+     },
+     "audio_text": "No more breath.",
+     "voice": "mira",
+     "delivery": "sharp urgent whisper, commanding, out of breath",
+     "answer": "No more breath",
+     "accept": [
+      "no more breath mira"
+     ],
+     "success": {
+      "who": "dan",
+      "en": "No more breath. OK. I can go for you.",
+      "ru": "Дыхания больше нет. Ладно. Я пойду за тебя."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "No. More. Breath.",
+      "ru": "No. More. Breath."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "Can I go? I have no name.",
+      "ru": "Мне можно идти? У меня нет имени."
+     },
+     "prompt": {
+      "en": "Mira says...",
+      "ru": "Что ответит Мира?"
+     },
+     "options": [
+      "You can go. Slowly.",
+      "You can go. Be loud.",
+      "You can't go. Never."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Slowly. You are good at it.",
+      "ru": "Медленно. У тебя это хорошо выходит."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "No. Go. Slowly.",
+      "ru": "Нет. Иди. Медленно."
+     }
+    },
+    {
+     "type": "match",
+     "story": {
+      "who": "dan",
+      "en": "Can, take, come, look. Small words. Big power.",
+      "ru": "Can, take, come, look. Маленькие слова. Большая сила."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Соедини слово и перевод."
+     },
+     "pairs": [
+      [
+       "can",
+       "мочь"
+      ],
+      [
+       "take",
+       "брать"
+      ],
+      [
+       "come",
+       "приходить"
+      ],
+      [
+       "look",
+       "смотреть"
+      ]
+     ],
+     "success": {
+      "who": "mira",
+      "en": "Good. Now be quiet.",
+      "ru": "Хорошо. Теперь тихо."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Slow, Zero. Slow.",
+      "ru": "Медленно, Зеро. Медленно."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "mira",
+      "en": "You have one word. What can you do?",
+      "ru": "У тебя одно слово. Что ты можешь?"
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери ответ Дэна: «Я могу открыть дверь»."
+     },
+     "answer": "I can open the door",
+     "distractors": [
+      "can't",
+      "is"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "One word. One door. OK.",
+      "ru": "Одно слово. Одна дверь. Ладно."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "'I can open the door.' Can, then open.",
+      "ru": "«I can open the door». Сначала can, потом open."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "system",
+      "en": "The gate wants a name.",
+      "ru": "Воротам нужно имя."
+     },
+     "prompt": {
+      "en": "Dan says: I can't...",
+      "ru": "Чего Дэн НЕ может? Он говорит: «Я не могу…»"
+     },
+     "options": [
+      "say my name.",
+      "open a door.",
+      "go slowly.",
+      "take your hand."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "My name is gone. I can't say it.",
+      "ru": "Моего имени нет. Я не могу его сказать."
+     },
+     "fail": {
+      "who": "system",
+      "en": "No name. The gate wants a name.",
+      "ru": "Нет имени. А Воротам нужно имя."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "One word. OPEN. It is yours.",
+       "ru": "Одно слово. OPEN. Оно твоё."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "One word. Not bad, Zero. Not good.",
+      "ru": "Одно слово. Неплохо, Зеро. Но и не хорошо."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e03-t3",
+   "title": "A Voice in the Hall",
+   "titleRu": "Голос в зале",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "warning",
+     "title": "WARNING",
+     "lines": [
+      {
+       "en": "Someone is here. It is not a Silent.",
+       "ru": "Здесь кто-то есть. Это не Безмолвный."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "keeper",
+      "en": "Come in, Zero. Come. Look.",
+      "ru": "Входи, Зеро. Входи. Смотри."
+     },
+     {
+      "who": "mira",
+      "en": "Do not go to that voice.",
+      "ru": "Не иди на этот голос."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "Who is that? That voice...",
+      "ru": "Кто это? Этот голос…"
+     },
+     "prompt": {
+      "en": "What is it?",
+      "ru": "Что ты слышишь? Выбери."
+     },
+     "audio_text": "Come here, Zero. Take my hand.",
+     "voice": "keeper",
+     "delivery": "soft velvety polite voice from the dark, slow and pleased, smiling",
+     "options": [
+      "Come here. Take my hand.",
+      "Come here. Take my key.",
+      "Go home. Take my hand."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "No. Do not take that hand.",
+      "ru": "Нет. Эту руку не бери."
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "Take my hand, Zero. My hand.",
+      "ru": "Возьми мою руку, Зеро. Мою."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "mira",
+      "en": "Stop. Look down. Do not talk.",
+      "ru": "Стой. Смотри вниз. Не говори."
+     },
+     "prompt": {
+      "en": "Dan can't...",
+      "ru": "Что Дэну сейчас НЕЛЬЗЯ делать?"
+     },
+     "options": [
+      "talk",
+      "look down",
+      "stop"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "...",
+      "ru": "…"
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Do not talk, Zero.",
+      "ru": "Не говори, Зеро."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "keeper",
+      "en": "Come. My light is good.",
+      "ru": "Иди. Мой свет хороший."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "___ my hand, Zero. Not that hand.",
+     "options": [
+      "Take",
+      "Takes",
+      "Look"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "My hand. Not that one. Good.",
+      "ru": "Мою руку. Не ту. Хорошо."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Take. Not takes. Take my hand.",
+      "ru": "Take, не takes. Возьми мою руку."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "keeper",
+      "en": "You can talk to me, Zero.",
+      "ru": "Со мной можно говорить, Зеро."
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Дэн спрашивает голос: «Кто вы?»"
+     },
+     "answer": "Who are you",
+     "accept": [
+      "who is that",
+      "who is there"
+     ],
+     "success": {
+      "who": "keeper",
+      "en": "A good question. Later.",
+      "ru": "Хороший вопрос. Позже."
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "'Who are you.' Say it, Zero.",
+      "ru": "«Who are you». Скажи, Зеро."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "Mira? What can I do?",
+      "ru": "Мира? Что мне делать?"
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери шёпот Миры: «Не говори с этим голосом»."
+     },
+     "answer": "Do not talk to that voice",
+     "distractors": [
+      "take",
+      "this"
+     ],
+     "success": {
+      "who": "dan",
+      "en": "OK. Not a word.",
+      "ru": "Ладно. Ни слова."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "'Do not talk to that voice.'",
+      "ru": "«Do not talk to that voice»."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "That voice knows you. How?",
+      "ru": "Этот голос тебя знает. Откуда?"
+     },
+     "prompt": {
+      "en": "What is it?",
+      "ru": "Что ты слышишь? Выбери."
+     },
+     "audio_text": "And welcome back, Mira.",
+     "voice": "keeper",
+     "delivery": "soft velvety polite voice from the dark, slow and pleased, smiling",
+     "options": [
+      "Welcome back, Mira.",
+      "Welcome, Mira.",
+      "Come back, Mira."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Not now.",
+      "ru": "Не сейчас."
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "Welcome back. Back, Mira.",
+      "ru": "С возвращением. Обратно, Мира."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "The lamps burn. A big hall is here.",
+       "ru": "Лампы загораются. Перед тобой большой зал."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Lamps. A big hall. And all that light...",
+      "ru": "Лампы. Огромный зал. И весь этот свет…"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,643 @@
+{
+ "episode": "s1e08",
+ "unlocks": "s1e09",
+ "title": "Alone",
+ "titleRu": "Один",
+ "trials": [
+  {
+   "id": "s1e08-t1",
+   "title": "Her Story",
+   "titleRu": "Её история",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "status",
+     "title": "STATUS",
+     "lines": [
+      {
+       "en": "Dan: alone.",
+       "ru": "Дэн: один."
+      },
+      {
+       "en": "Missed calls: 11.",
+       "ru": "Пропущенных звонков: 11."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "system",
+      "en": "You are alone. That is a bad plan.",
+      "ru": "Ты один. Это плохой план."
+     },
+     {
+      "who": "dan",
+      "en": "Then I think. Her story. Her plan.",
+      "ru": "Тогда я думаю. Её история. Её план."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "Lina and Mira. One family.",
+      "ru": "Лина и Мира. Одна семья."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "Mira says: Lina is ___ family.",
+     "options": [
+      "my",
+      "his",
+      "your"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Mira says: my family. She is my family.",
+      "ru": "Мира говорит: моя семья. Она — моя семья."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "Their mother? Their father?",
+      "ru": "Их мама? Их папа?"
+     },
+     "prompt": {
+      "en": "Mira says...",
+      "ru": "Как Мира говорила об этом?"
+     },
+     "options": [
+      "Our mother is gone.",
+      "My mother is here.",
+      "Your mother is gone."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Our mother. Lina and Mira. One family.",
+      "ru": "Наша мама. Лина и Мира. Одна семья."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Our mother is gone. Our father is gone.",
+      "ru": "Нашей мамы нет. Нашего папы нет."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "What is his price? I know it.",
+      "ru": "Какая у него цена? Я её знаю."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "One word, whole. I give you the map.",
+     "voice": "keeper",
+     "delivery": "soft velvety polite voice, slow and pleased, smiling",
+     "options": [
+      "One word, whole.",
+      "One name, whole.",
+      "Two words, whole."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "One whole word. For a map.",
+      "ru": "Одно целое слово. За карту."
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "One word, whole. Not half.",
+      "ru": "Одно слово, целиком. Не половину."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "She uses me. And I...",
+      "ru": "Она меня использует. А я…"
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери, что думает Дэн: «Друг не использует друга»."
+     },
+     "answer": "A friend does not use a friend",
+     "distractors": [
+      "do",
+      "uses"
+     ],
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "'A friend does not use a friend.'",
+      "ru": "«A friend does not use a friend»."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "system",
+      "en": "You are...",
+      "ru": "Ты…"
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Одно слово: «один, в одиночестве»."
+     },
+     "answer": "alone",
+     "success": {
+      "who": "system",
+      "en": "Alone. That is a bad plan.",
+      "ru": "Один. Это плохой план."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Alone.",
+      "ru": "Один."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "You know her story. Her plan is bad too.",
+       "ru": "Ты знаешь её историю. Её план тоже плохой."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "True. Her plan is bad. And my plan?",
+      "ru": "Правда. Её план плохой. А мой?"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e08-t2",
+   "title": "Mine, Not Yours",
+   "titleRu": "Моё, не твоё",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Know who has what.",
+       "ru": "ЗАДАНИЕ: Пойми, у кого что."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "My name. My OPEN. Who has them?",
+      "ru": "Моё имя. Мой OPEN. У кого они?"
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "The Keeper has OPEN.",
+      "ru": "OPEN у Хранителя."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "He has my OPEN. It is ___ word now.",
+     "options": [
+      "his",
+      "her",
+      "him"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "His word. Not mine.",
+      "ru": "Его слово. Не моё."
+     },
+     "fail": {
+      "who": "system",
+      "en": "He has it. It is his.",
+      "ru": "Оно у него. Оно его."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "And the child? They take...",
+      "ru": "А ребёнок? Они забирают…"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "They take the child. They take all ___ words.",
+     "options": [
+      "her",
+      "she",
+      "them"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "All her words. All of them.",
+      "ru": "Все её слова. Все до одного."
+     },
+     "fail": {
+      "who": "system",
+      "en": "The child: her words.",
+      "ru": "Ребёнок: её слова."
+     }
+    },
+    {
+     "type": "match",
+     "story": {
+      "who": "dan",
+      "en": "Me, him, us, them. Small words. Big lies.",
+      "ru": "Меня, его, нас, их. Маленькие слова. Большая ложь."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Соедини слово и перевод."
+     },
+     "pairs": [
+      [
+       "me",
+       "меня"
+      ],
+      [
+       "him",
+       "его"
+      ],
+      [
+       "us",
+       "нас"
+      ],
+      [
+       "them",
+       "их"
+      ]
+     ],
+     "success": {
+      "who": "system",
+      "en": "Good.",
+      "ru": "Хорошо."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Not true.",
+      "ru": "Неправда."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "Mira. Her voice. In my head.",
+      "ru": "Мира. Её голос. В моей голове."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "He is bad for us!",
+     "voice": "mira",
+     "delivery": "sharp urgent whisper, commanding, out of breath",
+     "options": [
+      "He is bad for us.",
+      "He is bad for them.",
+      "He is bad for me."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "For us. She says us.",
+      "ru": "Для нас. Она говорит «нас»."
+     },
+     "fail": {
+      "who": "system",
+      "en": "For us.",
+      "ru": "Для нас."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "You don't help me. You...",
+      "ru": "Ты мне не помогаешь. Ты…"
+     },
+     "prompt": {
+      "en": "What is it in English?",
+      "ru": "«Ты меня используешь» — как это по-английски?"
+     },
+     "options": [
+      "You use me.",
+      "You use him.",
+      "I use you."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "You use me. And it is true.",
+      "ru": "Ты меня используешь. И это правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "You use me.",
+      "ru": "Ты меня используешь."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "narration",
+      "en": "A phone. Far. Again.",
+      "ru": "Телефон. Далеко. Снова."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Mom. I love you.",
+     "voice": "dan",
+     "delivery": "tired young man, honest, out of breath, a little scared, quiet, sad, saying it to nobody",
+     "answer": "Mom I love you",
+     "accept": [
+      "mom, i love you",
+      "i love you mom",
+      "i love you"
+     ],
+     "success": {
+      "who": "system",
+      "en": "Missed calls: 11.",
+      "ru": "Пропущенных звонков: 11."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Mom. I love you. I never say it.",
+      "ru": "Мама. Я тебя люблю. Я никогда этого не говорю."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Missed calls: 11.",
+       "ru": "Пропущенных звонков: 11."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "I never say it to her. I say it to nobody.",
+      "ru": "Я никогда ей этого не говорю. Говорю в пустоту."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e08-t3",
+   "title": "Come. You.",
+   "titleRu": "Идём. Ты.",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "warning",
+     "title": "WARNING",
+     "lines": [
+      {
+       "en": "A small Silent. It does not take.",
+       "ru": "Маленький Безмолвный. Он не забирает."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "silent",
+      "en": "Come. You.",
+      "ru": "Идём. Ты."
+     },
+     {
+      "who": "dan",
+      "en": "Lina? I am not Mira.",
+      "ru": "Лина? Я не Мира."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "What does she say?",
+      "ru": "Что она говорит?"
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Come. You.",
+     "voice": "silent",
+     "delivery": "thin hollow child voice, far away, sad and slightly wrong",
+     "options": [
+      "Come. You.",
+      "Come. Mira.",
+      "Go. You."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Me? OK. I come.",
+      "ru": "Я? Ладно. Иду."
+     },
+     "fail": {
+      "who": "silent",
+      "en": "Come. You.",
+      "ru": "Идём. Ты."
+     }
+    },
+    {
+     "type": "pick_voice",
+     "story": {
+      "who": "dan",
+      "en": "Behind me. Mira? Or not Mira?",
+      "ru": "Позади. Мира? Или не Мира?"
+     },
+     "prompt": {
+      "en": "Which voice is the Silent?",
+      "ru": "Два голоса говорят одно и то же. Какой — Безмолвный?"
+     },
+     "clips": [
+      {
+       "voice": "mira",
+       "delivery": "tired guilty low voice, far behind, real and human",
+       "audio_text": "Zero. Wait."
+      },
+      {
+       "voice": "silent",
+       "delivery": "hollow breathy whisper, copying a human voice slightly wrong, copying a young woman, too calm",
+       "audio_text": "Zero. Wait."
+      }
+     ],
+     "options": [
+      "Голос A",
+      "Голос B"
+     ],
+     "answer": 1,
+     "success": {
+      "who": "dan",
+      "en": "Not her. Mira is far. That voice is near.",
+      "ru": "Это не она. Мира далеко. А этот голос — рядом."
+     },
+     "fail": {
+      "who": "silent",
+      "en": "Zero. Wait. Zero. Wait.",
+      "ru": "Зеро. Стой. Зеро. Стой."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "silent",
+      "en": "Come.",
+      "ru": "Идём."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "I go with ___. She knows the way.",
+     "options": [
+      "her",
+      "she",
+      "his"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "With her. Not with them.",
+      "ru": "С ней. Не с ними."
+     },
+     "fail": {
+      "who": "system",
+      "en": "With her.",
+      "ru": "С ней."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "Where does she go?",
+      "ru": "Куда она идёт?"
+     },
+     "prompt": {
+      "en": "What is it?",
+      "ru": "Что ты знаешь наверняка?"
+     },
+     "options": [
+      "She does not go to Mira.",
+      "She goes to Mira.",
+      "She goes to the Keeper."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Not to Mira.",
+      "ru": "Не к Мире."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "silent",
+      "en": "Look.",
+      "ru": "Смотри."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери, что говорит Дэн: «Она ведёт меня туда, где я не был»: «Это место новое для меня»."
+     },
+     "answer": "This place is new for me",
+     "distractors": [
+      "that",
+      "him"
+     ],
+     "success": {
+      "who": "system",
+      "en": "Warning. This place is not on her map.",
+      "ru": "Внимание. Этого места нет на её карте."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "'This place is new for me.'",
+      "ru": "«This place is new for me»."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "This place is not on her map.",
+       "ru": "Этого места нет на её карте."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Not on her map. So where am I?",
+      "ru": "Нет на её карте. Тогда где я?"
+     }
+    ]
+   }
+  }
+ ]
+}

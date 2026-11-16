@@ -1,0 +1,642 @@
+{
+ "episode": "s1e09",
+ "unlocks": "s1e10",
+ "title": "The Wall Speaks",
+ "titleRu": "Стена говорит",
+ "trials": [
+  {
+   "id": "s1e09-t1",
+   "title": "Lost Words",
+   "titleRu": "Пробелы в Стене",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Read the wall. Find the lost words.",
+       "ru": "ЗАДАНИЕ: Прочитай Стену. Найди потерянные слова."
+      },
+      {
+       "en": "Small words are free.",
+       "ru": "Маленькие слова бесплатны."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "system",
+      "en": "Every lost word comes here.",
+      "ru": "Каждое потерянное слово приходит сюда."
+     },
+     {
+      "who": "dan",
+      "en": "Then I read. Letter by letter.",
+      "ru": "Тогда я читаю. Буква за буквой."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "fill",
+     "story": {
+      "who": "narration",
+      "en": "A sentence of the wall. One stone is gone.",
+      "ru": "Предложение Стены. Одного камня нет."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "The Tower builds with words, ___ it can't make them.",
+     "options": [
+      "because",
+      "but",
+      "and"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True. It can't make them. It takes them.",
+      "ru": "Правда. Сама она их делать не умеет. Она их забирает."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Because. That is the reason.",
+      "ru": "Because. В этом и причина."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "This sentence knows me.",
+      "ru": "Это предложение меня знает."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "I am Dan. I am not weak. I am ___.",
+     "options": [
+      "tired",
+      "slow",
+      "loud"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Tired. Not weak. My first night.",
+      "ru": "Усталый. Не слабый. Моя первая ночь."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "No. I know that sentence. Tired.",
+      "ru": "Нет. Я знаю это предложение. Усталый."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "narration",
+      "en": "Two small words. One is gone.",
+      "ru": "Два маленьких слова. Одного нет."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "Stop ___ push.",
+     "options": [
+      "and",
+      "but",
+      "because"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "Two words. One breath and a half.",
+      "ru": "Два слова. Полтора дыхания."
+     },
+     "fail": {
+      "who": "system",
+      "en": "AND. A small word. Free.",
+      "ru": "AND. Маленькое слово. Бесплатное."
+     }
+    },
+    {
+     "type": "match",
+     "story": {
+      "who": "dan",
+      "en": "Letters, sentences, voices. A wall of them.",
+      "ru": "Буквы, предложения, голоса. Целая стена."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Соедини слово и перевод."
+     },
+     "pairs": [
+      [
+       "letter",
+       "буква"
+      ],
+      [
+       "sentence",
+       "предложение"
+      ],
+      [
+       "voice",
+       "голос"
+      ],
+      [
+       "tower",
+       "башня"
+      ]
+     ],
+     "success": {
+      "who": "system",
+      "en": "Good. You read.",
+      "ru": "Хорошо. Ты читаешь."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Not true. Read again.",
+      "ru": "Неверно. Прочитай ещё раз."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "The wall talks. Many voices.",
+      "ru": "Стена говорит. Много голосов."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "I am Lina. I am Dan. I am...",
+     "voice": "narration",
+     "delivery": "many quiet voices whispering together out of a stone wall, eerie",
+     "options": [
+      "I am Lina. I am Dan.",
+      "I am Mira. I am Dan.",
+      "I am Lina. I am Pip."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "It takes names, because it has no name.",
+      "ru": "Она берёт имена, потому что у неё нет своего."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Lina. Dan. And nothing.",
+      "ru": "Лина. Дэн. И пустота."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "system",
+      "en": "This is the Wall of Letters.",
+      "ru": "Это Стена Букв."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери строку Стены: «Каждое потерянное слово приходит сюда»."
+     },
+     "answer": "Every lost word comes here",
+     "distractors": [
+      "come",
+      "words"
+     ],
+     "success": {
+      "who": "dan",
+      "en": "Every word. My OPEN too?",
+      "ru": "Каждое слово. И мой OPEN?"
+     },
+     "fail": {
+      "who": "system",
+      "en": "Every lost word comes here.",
+      "ru": "Каждое потерянное слово приходит сюда."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "The wall reads you too.",
+       "ru": "Стена тоже тебя читает."
+      },
+      {
+       "en": "Count: five.",
+       "ru": "Счёт: пять."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Five words. A wall of letters. And me.",
+      "ru": "Пять слов. Стена из букв. И я."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e09-t2",
+   "title": "A Door Hears a Reason",
+   "titleRu": "Дверь слышит причину",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Give the door a reason.",
+       "ru": "ЗАДАНИЕ: Назови двери причину."
+      },
+      {
+       "en": "A true reason. Not a loud one.",
+       "ru": "Правдивую причину. Не громкую."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "system",
+      "en": "This door hears a reason.",
+      "ru": "Эта дверь слышит причину."
+     },
+     {
+      "who": "dan",
+      "en": "A reason. OK. I have many.",
+      "ru": "Причину. Ладно. Их у меня полно."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "choose",
+     "story": {
+      "who": "system",
+      "en": "One reason. A true one.",
+      "ru": "Одна причина. Правдивая."
+     },
+     "prompt": {
+      "en": "What is the right sentence?",
+      "ru": "Какая фраза откроет дверь?"
+     },
+     "options": [
+      "Let me in, because I learn.",
+      "Let me in, but I learn.",
+      "Because let me in, I learn."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Not true. That is not a reason.",
+      "ru": "Неправда. Это не причина."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "silent",
+      "en": "Mira.",
+      "ru": "Мира."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "You want Mira. ___ I don't like her now.",
+     "options": [
+      "But",
+      "Because",
+      "And"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "But. A small word. A big problem.",
+      "ru": "Но. Маленькое слово. Большая проблема."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Two things. One is not like the other: but.",
+      "ru": "Две вещи. Одна против другой — but."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "She lies. And...",
+      "ru": "Она врёт. И…"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "She lies, ___ she is my first friend here.",
+     "options": [
+      "and",
+      "because",
+      "so"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "Two true things.",
+      "ru": "Две правды."
+     },
+     "fail": {
+      "who": "system",
+      "en": "She lies. And she is your friend. Two true things.",
+      "ru": "Она врёт. И она твой друг. Две правды."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "OK. We find her. Why?",
+      "ru": "Ладно. Мы её найдём. Почему?"
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери причину Дэна: «Мы её найдём, потому что она одна»."
+     },
+     "answer": "We find her because she is alone",
+     "distractors": [
+      "but",
+      "him"
+     ],
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "'We find her because she is alone.'",
+      "ru": "«We find her because she is alone»."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "system",
+      "en": "One word opens this door. A small one.",
+      "ru": "Эту дверь открывает одно слово. Маленькое."
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Одно слово: «потому что»."
+     },
+     "answer": "because",
+     "success": {
+      "who": "system",
+      "en": "Because. Small, but not weak.",
+      "ru": "Because. Маленькое, но не слабое."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Because.",
+      "ru": "Because."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "The door hears you. It opens.",
+       "ru": "Дверь тебя слышит. Она открывается."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "I learn. And nobody loses.",
+      "ru": "Я учусь. И никто не теряет."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e09-t3",
+   "title": "My Voice in the Wall",
+   "titleRu": "Мой голос в Стене",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "warning",
+     "title": "WARNING",
+     "lines": [
+      {
+       "en": "The Tower learns from you.",
+       "ru": "Башня учится у тебя."
+      },
+      {
+       "en": "It keeps every word you say.",
+       "ru": "Она хранит каждое твоё слово."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "That is my voice. In the stones.",
+      "ru": "Это мой голос. В камнях."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "system",
+      "en": "It learns to speak.",
+      "ru": "Она учится говорить."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "I am Dan. I am not weak. I am tired.",
+     "voice": "narration",
+     "delivery": "Dan's voice from the first night, tired, scared, echoing out of a stone wall",
+     "options": [
+      "I am not weak. I am tired.",
+      "I am not tired. I am weak.",
+      "I am not Dan. I am tired."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "My words. My first night here.",
+      "ru": "Мои слова. Моя первая ночь здесь."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Not weak. Tired. I know that night.",
+      "ru": "Не слабый. Усталый. Я помню ту ночь."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "When do I say that?",
+      "ru": "Когда я это говорю?"
+     },
+     "prompt": {
+      "en": "Dan says it...",
+      "ru": "Когда Дэн сказал эту фразу?"
+     },
+     "options": [
+      "on the first night.",
+      "at the market.",
+      "on the stairs."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "The first night. The Tower keeps it.",
+      "ru": "Первая ночь. Башня её хранит."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "No. The first night. With the System.",
+      "ru": "Нет. Первая ночь. С Системой."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "And that? That sound?",
+      "ru": "А это? Этот звук?"
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "OK. OK. OK.",
+     "voice": "narration",
+     "delivery": "Dan's voice from the first night, tired, scared, echoing out of a stone wall",
+     "options": [
+      "OK. OK. OK.",
+      "Go. Go. Go.",
+      "No. No. No."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "My OK. From the stairs.",
+      "ru": "Моё «OK». С лестницы."
+     },
+     "fail": {
+      "who": "system",
+      "en": "OK. Your OK.",
+      "ru": "OK. Твоё OK."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "It keeps my words. But I don't lose them.",
+      "ru": "Она хранит мои слова. Но я их не теряю."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "You speak. The Tower ___.",
+     "options": [
+      "learns",
+      "learn",
+      "is learn"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "You speak. It learns. Nobody loses.",
+      "ru": "Ты говоришь. Она учится. Никто не теряет."
+     },
+     "fail": {
+      "who": "system",
+      "en": "It learns. Not 'it learn'.",
+      "ru": "It learns. Не «it learn»."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "The others buy and sell. And me?",
+      "ru": "Другие покупают и продают. А я?"
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери слова Системы: «Другие покупают, а ты учишься»."
+     },
+     "answer": "The others buy but you learn",
+     "distractors": [
+      "because",
+      "sell"
+     ],
+     "success": {
+      "who": "system",
+      "en": "That is new.",
+      "ru": "Это ново."
+     },
+     "fail": {
+      "who": "system",
+      "en": "The others buy. But you learn.",
+      "ru": "Другие покупают. А ты учишься."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Someone comes. She hears your voice.",
+       "ru": "Кто-то идёт. Она слышит твой голос."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Someone is behind us. Lina, do not run.",
+      "ru": "Кто-то позади нас. Лина, не убегай."
+     }
+    ]
+   }
+  }
+ ]
+}

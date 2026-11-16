@@ -12,6 +12,20 @@
   "s1e10": true
  },
  "placement": true,
- "version": 7,
+ "trials": {
+  "s1e01": true,
+  "s1e02": true,
+  "s1e03": true,
+  "s1e04": true,
+  "s1e05": true,
+  "s1e06": true,
+  "s1e07": true,
+  "s1e08": true,
+  "s1e09": true,
+  "s1e10": true,
+  "s1e11": true,
+  "s1e12": true
+ },
+ "version": 8,
  "words": true
 }

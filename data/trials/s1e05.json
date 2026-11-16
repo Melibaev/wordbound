@@ -1,0 +1,620 @@
+{
+ "episode": "s1e05",
+ "unlocks": "s1e06",
+ "title": "The Last Door",
+ "titleRu": "Последняя дверь",
+ "trials": [
+  {
+   "id": "s1e05-t1",
+   "title": "The Red Cord",
+   "titleRu": "Красная нить",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Look. Listen. Ask.",
+       "ru": "ЗАДАНИЕ: Смотри. Слушай. Спрашивай."
+      },
+      {
+       "en": "A small Silent is at the last door.",
+       "ru": "У последней двери стоит маленький Безмолвный."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "silent",
+      "en": "Mira. It is me.",
+      "ru": "Мира. Это я."
+     },
+     {
+      "who": "dan",
+      "en": "Mira does not move. Why?",
+      "ru": "Мира не двигается. Почему?"
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "That thing. It is small. And...",
+      "ru": "Это существо. Оно маленькое. И…"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "It ___ a red cord.",
+     "options": [
+      "has",
+      "have",
+      "is"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "It has a red cord. Mira has a red cord.",
+      "ru": "У него красная нить. У Миры — тоже."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "It has. She has. He has.",
+      "ru": "It has. She has. He has."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "That voice. A little voice. Who?",
+      "ru": "Этот голос. Тонкий голосок. Чей?"
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Mira. Why do you run?",
+     "voice": "silent",
+     "delivery": "thin hollow child voice, far away, sad and slightly wrong",
+     "options": [
+      "Why do you run?",
+      "Why do you wait?",
+      "Why do you read?"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "...",
+      "ru": "…"
+     },
+     "fail": {
+      "who": "system",
+      "en": "Why do you run.",
+      "ru": "Почему ты бежишь."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "Mira? Who is she?",
+      "ru": "Мира? Кто она?"
+     },
+     "prompt": {
+      "en": "Mira says...",
+      "ru": "Что отвечает Мира?"
+     },
+     "options": [
+      "She is my... I don't have the word.",
+      "She is my friend.",
+      "She is the Keeper."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "She does not have that word.",
+      "ru": "У неё нет этого слова."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "She is my... I can't.",
+      "ru": "Она моя… Я не могу."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "Mira is white. Her hands are cold.",
+      "ru": "Мира белая. Руки ледяные."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери, что видит Дэн: «Мира не двигается»."
+     },
+     "answer": "Mira does not move",
+     "distractors": [
+      "do",
+      "moves"
+     ],
+     "success": {
+      "who": "dan",
+      "en": "She does not move. She does not talk.",
+      "ru": "Она не двигается. Она не говорит."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "'Mira does not move.' Does, not do.",
+      "ru": "«Mira does not move». Does, а не do."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "dan",
+      "en": "Mira. Look at me. I need to ask...",
+      "ru": "Мира. Посмотри на меня. Мне надо спросить…"
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Дэн спрашивает: «Кто она?»"
+     },
+     "answer": "Who is she",
+     "accept": [
+      "who's she"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "She is... no.",
+      "ru": "Она… нет."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "'Who is she.' Three words.",
+      "ru": "«Who is she». Три слова."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "The red cord. Two cords.",
+       "ru": "Красная нить. Две нити."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Her cord. That cord. Mira, why?",
+      "ru": "Её нить. Та нить. Мира, почему?"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e05-t2",
+   "title": "How Does It Hear?",
+   "titleRu": "Как он слышит?",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "warning",
+     "title": "WARNING",
+     "lines": [
+      {
+       "en": "Silents are near. They hear.",
+       "ru": "Безмолвные рядом. Они слышат."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Wait. It does not see. It hears.",
+      "ru": "Жди. Он не видит. Он слышит."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "It does not see us. But...",
+      "ru": "Он нас не видит. Но…"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "How ___ it hear us?",
+     "options": [
+      "does",
+      "do",
+      "is"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "It hears breath. It hears words.",
+      "ru": "Он слышит дыхание. Он слышит слова."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "How does it. Does.",
+      "ru": "How does it. Does."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "What? Say it again. Slowly.",
+      "ru": "Что? Скажи ещё раз. Медленно."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "It does not see. It hears.",
+     "voice": "mira",
+     "delivery": "deadpan low whisper, unimpressed, barely moving her lips",
+     "options": [
+      "It does not see. It hears.",
+      "It does not hear. It sees.",
+      "It does not wait. It hears."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "It hears. So I am quiet.",
+      "ru": "Он слышит. Значит, я молчу."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "It hears, Zero. It does not see.",
+      "ru": "Он слышит, Зеро. Он не видит."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "Where does the Keeper live?",
+      "ru": "Где живёт Хранитель?"
+     },
+     "prompt": {
+      "en": "Mira says...",
+      "ru": "Что ответила Мира?"
+     },
+     "options": [
+      "He lives in the Hall.",
+      "He live in the Hall.",
+      "He is live in the Hall."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "He lives in the Hall. He wants that door open.",
+      "ru": "Он живёт в Зале. Он хочет, чтобы та дверь открылась."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "He lives. Not 'he live'.",
+      "ru": "He lives. Не «he live»."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "And that small Silent...",
+      "ru": "А тот маленький Безмолвный…"
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери вопрос Дэна: «Почему она ждёт здесь?»"
+     },
+     "answer": "Why does she wait here",
+     "distractors": [
+      "do",
+      "waits"
+     ],
+     "success": {
+      "who": "system",
+      "en": "Ask me later.",
+      "ru": "Спроси потом."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "'Why does she wait here.' Does she wait.",
+      "ru": "«Why does she wait here». Does she wait."
+     }
+    },
+    {
+     "type": "match",
+     "story": {
+      "who": "dan",
+      "en": "Push. Read. Wait. Ask. My new life.",
+      "ru": "Толкать. Читать. Ждать. Спрашивать. Моя новая жизнь."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Соедини слово и перевод."
+     },
+     "pairs": [
+      [
+       "push",
+       "толкать"
+      ],
+      [
+       "read",
+       "читать"
+      ],
+      [
+       "wait",
+       "ждать"
+      ],
+      [
+       "ask",
+       "спрашивать"
+      ]
+     ],
+     "success": {
+      "who": "mira",
+      "en": "Good. You read. Now be quiet.",
+      "ru": "Хорошо. Читать умеешь. Теперь тихо."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Slow. You are slow.",
+      "ru": "Медленно. Ты медленный."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "dan",
+      "en": "This door. It is heavy. I have one new word.",
+      "ru": "Эта дверь. Она тяжёлая. У меня одно новое слово."
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Дэн говорит слово-силу: «Толкай!»"
+     },
+     "answer": "push",
+     "success": {
+      "who": "system",
+      "en": "PUSH. The door is heavy. It does not move.",
+      "ru": "PUSH. Дверь тяжёлая. Она не двигается."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Your new word, Zero. PUSH.",
+      "ru": "Твоё новое слово, Зеро. PUSH."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "You ask. You know more.",
+       "ru": "Ты спрашиваешь. Ты знаешь больше."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "You ask many questions.",
+      "ru": "Ты задаёшь много вопросов."
+     },
+     {
+      "who": "dan",
+      "en": "It is my job.",
+      "ru": "Это моя работа."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e05-t3",
+   "title": "She Does Not Have the Word",
+   "titleRu": "У неё нет этого слова",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "status",
+     "title": "STATUS",
+     "lines": [
+      {
+       "en": "Mira does not have the word.",
+       "ru": "У Миры нет этого слова."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Mira reads. Mira climbs. Mira waits. Three years.",
+      "ru": "Мира читает. Мира лазает. Мира ждёт. Три года."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "Three years. Mira waits for...",
+      "ru": "Три года. Мира ждёт…"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "Mira ___ here. Three years.",
+     "options": [
+      "waits",
+      "wait",
+      "are"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "She waits. Always.",
+      "ru": "Она ждёт. Всегда."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "She waits. Not 'she wait'.",
+      "ru": "She waits. Не «she wait»."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "System? Why?",
+      "ru": "Система? Почему?"
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "She does not have that word.",
+     "voice": "system",
+     "delivery": "flat cold game-system announcement, deadpan, no emotion",
+     "options": [
+      "She does not have that word.",
+      "She does not hear that word.",
+      "She does not want that word."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "She does not have it. Who has it?",
+      "ru": "У неё его нет. А у кого есть?"
+     },
+     "fail": {
+      "who": "system",
+      "en": "She does not have that word.",
+      "ru": "У неё нет этого слова."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "What does Mira want?",
+      "ru": "Чего хочет Мира?"
+     },
+     "prompt": {
+      "en": "What is it?",
+      "ru": "Как ответить на вопрос Дэна?"
+     },
+     "options": [
+      "She wants the small Silent.",
+      "She wants the Keeper.",
+      "She wants OPEN."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "That small one. Not a door. That one.",
+      "ru": "Того маленького. Не дверь. Его."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "No. Look at her. She wants the small one.",
+      "ru": "Нет. Посмотри на неё. Ей нужен тот маленький."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "silent",
+      "en": "Mira. It is me.",
+      "ru": "Мира. Это я."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери, что понимает Дэн: «Она знает Миру»."
+     },
+     "answer": "She knows Mira",
+     "distractors": [
+      "know",
+      "does"
+     ],
+     "success": {
+      "who": "dan",
+      "en": "She knows Mira. And Mira knows her.",
+      "ru": "Она знает Миру. И Мира знает её."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "'She knows Mira.' Knows.",
+      "ru": "«She knows Mira». Knows."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "mira",
+      "en": "I can't. I don't have the word.",
+      "ru": "Не могу. У меня нет этого слова."
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Одно слово: «почему»."
+     },
+     "answer": "why",
+     "success": {
+      "who": "system",
+      "en": "Why. A good word. Ask me later.",
+      "ru": "Почему. Хорошее слово. Спроси потом."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Why. Why, why, why.",
+      "ru": "Почему. Почему, почему, почему."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "You ask why. No answer.",
+       "ru": "Ты спрашиваешь «почему». Ответа нет."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "She can't say the word. And I don't know it.",
+      "ru": "Она не может сказать это слово. А я его не знаю."
+     }
+    ]
+   }
+  }
+ ]
+}

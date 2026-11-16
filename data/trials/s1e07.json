@@ -1,0 +1,726 @@
+{
+ "episode": "s1e07",
+ "unlocks": "s1e08",
+ "title": "The Song",
+ "titleRu": "Песня",
+ "trials": [
+  {
+   "id": "s1e07-t1",
+   "title": "Cheap for You",
+   "titleRu": "Тебе дёшево",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Buy food. Do not pay too much.",
+       "ru": "ЗАДАНИЕ: Купи еды. Не переплати."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "pip",
+      "en": "Apples! Bread! Cheap for you, Roof-Fixer.",
+      "ru": "Яблоки! Хлеб! Тебе дёшево, Чинильщик Крыш."
+     },
+     {
+      "who": "dan",
+      "en": "Cheap for me. I know that word.",
+      "ru": "Мне дёшево. Знаю я это слово."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "Apples. One, two, three...",
+      "ru": "Яблоки. Одно, два, три…"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "How ___ apples for one word?",
+     "options": [
+      "many",
+      "much",
+      "more"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "pip",
+      "en": "Two! A good price.",
+      "ru": "Два! Хорошая цена."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "Apples: how many. Money: how much.",
+      "ru": "Яблоки — how many. Деньги — how much."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "How many? Say it again.",
+      "ru": "Сколько? Повтори."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай. Сколько яблок? Напиши числом или словом."
+     },
+     "audio_text": "Four words? Eight apples!",
+     "voice": "pip",
+     "delivery": "fast cheeky boy of eleven, haggling, grinning, a little too loud",
+     "answer": "eight",
+     "accept": [
+      "8",
+      "eight apples",
+      "8 apples"
+     ],
+     "success": {
+      "who": "pip",
+      "en": "Eight! You can count. Wow.",
+      "ru": "Восемь! Ты умеешь считать. Ого."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "Eight! Four words, eight apples!",
+      "ru": "Восемь! Четыре слова — восемь яблок!"
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "And bread? Money, words...",
+      "ru": "А хлеб? Деньги, слова…"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "How ___ is the bread?",
+     "options": [
+      "much",
+      "many",
+      "more"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "pip",
+      "en": "One word. For you. Today.",
+      "ru": "Одно слово. Для тебя. Сегодня."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "Bread: how much. Not many.",
+      "ru": "Хлеб — how much. Не many."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "pip",
+      "en": "Ten apples, two words. Buy it!",
+      "ru": "Десять яблок — два слова. Бери!"
+     },
+     "prompt": {
+      "en": "Dan says...",
+      "ru": "Что ответит Дэн? Он знает цену: одно слово — два яблока."
+     },
+     "options": [
+      "Ten apples? Five words.",
+      "Ten apples? Two words. OK.",
+      "Ten apples? One word."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "pip",
+      "en": "Five! You can count. Not funny.",
+      "ru": "Пять! Ты умеешь считать. Не смешно."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "Two apples, one word. Ten apples...?",
+      "ru": "Два яблока — одно слово. А десять…?"
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "pip",
+      "en": "Buy something or go home, Zero.",
+      "ru": "Купи что-нибудь или иди домой, Зеро."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери вопрос Дэна: «Сколько стоит хлеб?»"
+     },
+     "answer": "How much is the bread",
+     "distractors": [
+      "many",
+      "are"
+     ],
+     "success": {
+      "who": "pip",
+      "en": "One word. Eat something, Zero.",
+      "ru": "Одно слово. Поешь, Зеро."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "'How much is the bread.' Much.",
+      "ru": "«How much is the bread». Much."
+     }
+    },
+    {
+     "type": "match",
+     "story": {
+      "who": "dan",
+      "en": "Buy, sell, money, cheap. Market words.",
+      "ru": "Купить, продать, деньги, дёшево. Рыночные слова."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Соедини слово и перевод."
+     },
+     "pairs": [
+      [
+       "buy",
+       "покупать"
+      ],
+      [
+       "sell",
+       "продавать"
+      ],
+      [
+       "money",
+       "деньги"
+      ],
+      [
+       "cheap",
+       "дешёвый"
+      ]
+     ],
+     "success": {
+      "who": "pip",
+      "en": "Fast with words. Slow with legs.",
+      "ru": "Со словами быстрый. Ногами медленный."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "Buy, sell. Easy, Zero!",
+      "ru": "Купить, продать. Легко же, Зеро!"
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Bread. Two apples. A good price.",
+       "ru": "Хлеб. Два яблока. Хорошая цена."
+      },
+      {
+       "en": "Count: four.",
+       "ru": "Счёт: четыре."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Eat something, Zero.",
+      "ru": "Поешь, Зеро."
+     },
+     {
+      "who": "dan",
+      "en": "Now you say it too.",
+      "ru": "Теперь и ты это говоришь."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e07-t2",
+   "title": "Twenty Jars",
+   "titleRu": "Двадцать банок",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Count the jars.",
+       "ru": "ЗАДАНИЕ: Пересчитай банки."
+      },
+      {
+       "en": "A trade is a trade.",
+       "ru": "Сделка есть сделка."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "trader",
+      "en": "Count my jars, Roof-Fixer. I pay for numbers.",
+      "ru": "Пересчитай мои банки, Чинильщик Крыш. Я плачу за цифры."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "match",
+     "story": {
+      "who": "trader",
+      "en": "Numbers! Many numbers!",
+      "ru": "Числа! Много чисел!"
+     },
+     "prompt": {
+      "en": "Find the numbers.",
+      "ru": "Соедини число и цифру."
+     },
+     "pairs": [
+      [
+       "twelve",
+       "12"
+      ],
+      [
+       "twenty",
+       "20"
+      ],
+      [
+       "eleven",
+       "11"
+      ],
+      [
+       "nine",
+       "9"
+      ]
+     ],
+     "success": {
+      "who": "trader",
+      "en": "Good. You can count.",
+      "ru": "Хорошо. Считать умеешь."
+     },
+     "fail": {
+      "who": "trader",
+      "en": "No, no. My money!",
+      "ru": "Нет, нет. Мои деньги!"
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "trader",
+      "en": "How many jars? Listen!",
+      "ru": "Сколько банок? Слушай!"
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Twenty jars! Too many!",
+     "voice": "trader",
+     "delivery": "big gruff market trader, loud and businesslike, counting money",
+     "options": [
+      "Twenty jars.",
+      "Twelve jars.",
+      "Two jars."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "trader",
+      "en": "Twenty! Too many for one roof!",
+      "ru": "Двадцать! Слишком много для одной крыши!"
+     },
+     "fail": {
+      "who": "trader",
+      "en": "Twenty! Twenty jars!",
+      "ru": "Двадцать! Двадцать банок!"
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "One jar, two jars...",
+      "ru": "Одна банка, две банки…"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "Ten breaths, two ___.",
+     "options": [
+      "words",
+      "word",
+      "a word"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "trader",
+      "en": "Ten breaths, two words. A good price.",
+      "ru": "Десять дыханий — два слова. Хорошая цена."
+     },
+     "fail": {
+      "who": "trader",
+      "en": "Two words. Many words.",
+      "ru": "Two words. Слов — много."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "Jar. Jars. Listen to the end.",
+      "ru": "Банка. Банки. Слушай окончание."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Three apples, one jar.",
+     "voice": "trader",
+     "delivery": "big gruff market trader, loud and businesslike, counting money",
+     "options": [
+      "Three apples, one jar.",
+      "Three apple, one jar.",
+      "Three apples, one jars."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "trader",
+      "en": "Three apples. One jar. You hear the end.",
+      "ru": "Три яблока. Одна банка. Ты слышишь окончание."
+     },
+     "fail": {
+      "who": "trader",
+      "en": "Three apples. One jar.",
+      "ru": "Три яблока. Одна банка."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "trader",
+      "en": "I don't count. You count.",
+      "ru": "Я не считаю. Считаешь ты."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери вопрос Дэна: «Сколько у тебя банок?»"
+     },
+     "answer": "How many jars do you have",
+     "distractors": [
+      "much",
+      "does"
+     ],
+     "success": {
+      "who": "trader",
+      "en": "Twenty. Now look at that leg!",
+      "ru": "Двадцать. А теперь посмотри на ту ногу!"
+     },
+     "fail": {
+      "who": "trader",
+      "en": "'How many jars do you have.' Many, not much.",
+      "ru": "«How many jars do you have». Many, не much."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "system",
+      "en": "Missed calls: 10.",
+      "ru": "Пропущенных звонков: 10."
+     },
+     "prompt": {
+      "en": "What is it?",
+      "ru": "Что значит окно Системы?"
+     },
+     "options": [
+      "Mom calls. Ten times.",
+      "Ten words. Ten breaths.",
+      "The phone is cheap."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Ten calls. Mom. Ten.",
+      "ru": "Десять звонков. Мама. Десять."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Missed calls: 10.",
+      "ru": "Пропущенных звонков: 10."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Twenty jars. All here.",
+       "ru": "Двадцать банок. Все на месте."
+      },
+      {
+       "en": "Missed calls: 10.",
+       "ru": "Пропущенных звонков: 10."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "trader",
+      "en": "A trade is a trade. Go, Roof-Fixer.",
+      "ru": "Сделка есть сделка. Иди, Чинильщик Крыш."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e07-t3",
+   "title": "The Song",
+   "titleRu": "Песня",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Find the girl.",
+       "ru": "ЗАДАНИЕ: Найди девочку."
+      },
+      {
+       "en": "The girl sings. She is near.",
+       "ru": "Девочка поёт. Она рядом."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "I know that song. Lina sings it every night.",
+      "ru": "Я знаю эту песню. Лина поёт её каждую ночь."
+     },
+     {
+      "who": "dan",
+      "en": "Then we go. Now.",
+      "ru": "Тогда идём. Сейчас."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "trader",
+      "en": "Who sells me the phone? Listen, Zero.",
+      "ru": "Кто продал мне телефон? Слушай, Зеро."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "A little girl sells it to me. She does not talk. She sings.",
+     "voice": "trader",
+     "delivery": "big gruff market trader, loud and businesslike, counting money",
+     "options": [
+      "She does not talk. She sings.",
+      "She does not sing. She talks.",
+      "She does not sell. She sings."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "She sings. It is her.",
+      "ru": "Она поёт. Это она."
+     },
+     "fail": {
+      "who": "trader",
+      "en": "She sings! She does not talk!",
+      "ru": "Она поёт! Она не говорит!"
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "Who sells you my phone?",
+      "ru": "Кто продал тебе мой телефон?"
+     },
+     "prompt": {
+      "en": "The trader says...",
+      "ru": "Что отвечает торговец?"
+     },
+     "options": [
+      "A little girl.",
+      "A little boy.",
+      "The Keeper."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "A girl. A small girl with my phone.",
+      "ru": "Девочка. Маленькая девочка с моим телефоном."
+     },
+     "fail": {
+      "who": "trader",
+      "en": "A girl! Little! Not a boy!",
+      "ru": "Девочка! Маленькая! Не мальчик!"
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "mira",
+      "en": "Every night. Every night, Zero.",
+      "ru": "Каждую ночь. Каждую ночь, Зеро."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "Lina ___ it every night.",
+     "options": [
+      "sings",
+      "sing",
+      "song"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "She sings. I hear her.",
+      "ru": "Она поёт. Я её слышу."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Lina sings. Not 'Lina sing'.",
+      "ru": "Lina sings. Не «Lina sing»."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "Where is she?",
+      "ru": "Где она?"
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери, что говорит Система: «Девочка поёт. Она рядом»."
+     },
+     "answer": "The girl sings and she is near",
+     "distractors": [
+      "sing",
+      "far"
+     ],
+     "accept": [
+      "She is near and the girl sings"
+     ],
+     "success": {
+      "who": "system",
+      "en": "Near. Go.",
+      "ru": "Рядом. Иди."
+     },
+     "fail": {
+      "who": "system",
+      "en": "The girl sings. She is near.",
+      "ru": "Девочка поёт. Она рядом."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "mira",
+      "en": "That way. The song. Come!",
+      "ru": "Туда. Песня. Идём!"
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Одно слово: «песня»."
+     },
+     "answer": "song",
+     "accept": [
+      "a song",
+      "the song"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "Her song. Our song.",
+      "ru": "Её песня. Наша песня."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Song. A song.",
+      "ru": "Song. Песня."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "Mira, wait. Listen.",
+      "ru": "Мира, стой. Слушай."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "The song stops.",
+     "voice": "system",
+     "delivery": "flat cold game-system announcement, deadpan, no emotion",
+     "options": [
+      "The song stops.",
+      "The song is near.",
+      "The girl sings."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "No. No, no. Where is she?",
+      "ru": "Нет. Нет, нет. Где она?"
+     },
+     "fail": {
+      "who": "system",
+      "en": "The song stops.",
+      "ru": "Песня обрывается."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "The song stops. A dead end.",
+       "ru": "Песня стихла. Тупик."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "A dead end. And a red...",
+      "ru": "Тупик. И красная…"
+     }
+    ]
+   }
+  }
+ ]
+}

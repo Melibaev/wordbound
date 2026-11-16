@@ -406,7 +406,9 @@
   "ru": "Дэн (имя)",
   "pos": "name",
   "lvl": "A1",
-  "forms": [],
+  "forms": [
+   "dan's"
+  ],
   "ex": "I am Dan.",
   "exRu": "Я Дэн."
  },
@@ -416,7 +418,9 @@
   "ru": "Мира (имя)",
   "pos": "name",
   "lvl": "A1",
-  "forms": [],
+  "forms": [
+   "mira's"
+  ],
   "ex": "I am Mira.",
   "exRu": "Я Мира."
  },
@@ -5291,5 +5295,51 @@
   "forms": [],
   "ex": "I go home as Dan.",
   "exRu": "Я иду домой как Дэн."
+ },
+ {
+  "id": "quest",
+  "w": "quest",
+  "ru": "задание (квест)",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "quests"
+  ],
+  "ex": "New quest: find the last door.",
+  "exRu": "Новое задание: найди последнюю дверь."
+ },
+ {
+  "id": "system",
+  "w": "system",
+  "ru": "система; Система (голос Башни)",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "systems"
+  ],
+  "ex": "That is the System. It is not nice.",
+  "exRu": "Это Система. Она не добрая."
+ },
+ {
+  "id": "shh",
+  "w": "shh",
+  "ru": "тсс",
+  "pos": "interj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Shh. It is here.",
+  "exRu": "Тсс. Он здесь."
+ },
+ {
+  "id": "number",
+  "w": "number",
+  "ru": "число; номер",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "numbers"
+  ],
+  "ex": "Count my jars. I pay for numbers.",
+  "exRu": "Пересчитай мои банки. Я плачу за цифры."
  }
 ]

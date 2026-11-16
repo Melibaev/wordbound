@@ -1,0 +1,123 @@
+{
+  "episode": "s1e01",
+  "unlocks": "s1e02",
+  "title": "The Door Trials",
+  "titleRu": "Испытания Двери",
+  "trials": [
+    {
+      "id": "s1e01-t1",
+      "title": "Say hello to the Tower",
+      "titleRu": "Поздоровайся с Башней",
+      "pass": 0.8,
+      "lives": 3,
+      "intro": {
+        "window": { "kind": "quest", "title": "QUEST", "lines": [{ "en": "New quest: speak to the door.", "ru": "Новое задание: поговори с дверью." }, { "en": "Reward: one word.", "ru": "Награда: одно слово." }] },
+        "story": [{ "who": "mira", "en": "Do not touch the door. Listen first.", "ru": "Не трогай дверь. Сначала послушай." }]
+      },
+      "steps": [
+        {
+          "type": "choose",
+          "story": { "who": "mira", "en": "What does the door say?", "ru": "Что говорит дверь?" },
+          "prompt": { "en": "Choose the right word.", "ru": "Выбери правильное слово." },
+          "options": ["Welcome", "Goodbye", "Please", "Stop"],
+          "answer": 0,
+          "success": { "who": "mira", "en": "Good. You can read.", "ru": "Хорошо. Ты умеешь читать." },
+          "fail": { "who": "mira", "en": "No. Look again.", "ru": "Нет. Посмотри ещё раз." }
+        },
+        {
+          "type": "build",
+          "story": { "who": "dan", "en": "I need to say it. I need the right words.", "ru": "Мне надо это сказать. Нужны правильные слова." },
+          "prompt": { "en": "Build the sentence: I am a man.", "ru": "Собери предложение." },
+          "answer": "I am a man",
+          "distractors": ["are", "woman"],
+          "success": { "who": "system", "en": "Correct.", "ru": "Верно." },
+          "fail": { "who": "system", "en": "Not true.", "ru": "Неверно." }
+        },
+        {
+          "type": "type",
+          "story": { "who": "mira", "en": "Tell the door your name.", "ru": "Назови двери своё имя." },
+          "prompt": { "en": "Type: My name is Dan.", "ru": "Напиши: Меня зовут Дэн." },
+          "answer": "My name is Dan",
+          "accept": ["I am Dan", "I'm Dan"],
+          "success": { "who": "dan", "en": "It worked.", "ru": "Сработало." },
+          "fail": { "who": "dan", "en": "It did not like that.", "ru": "Ей это не понравилось." }
+        },
+        {
+          "type": "listen",
+          "story": { "who": "mira", "en": "Shh. Listen to the System.", "ru": "Тсс. Слушай Систему." },
+          "prompt": { "en": "What did you hear?", "ru": "Что ты услышал?" },
+          "audio_text": "You have zero words.",
+          "voice": "system",
+          "delivery": "flat cold announcement",
+          "options": ["You have zero words.", "You have ten words.", "You have no door."],
+          "answer": 0,
+          "success": { "who": "mira", "en": "You heard it.", "ru": "Ты услышал." },
+          "fail": { "who": "mira", "en": "Listen again, slowly.", "ru": "Послушай ещё раз, медленно." }
+        },
+        {
+          "type": "match",
+          "story": { "who": "dan", "en": "Words, words. Which is which?", "ru": "Слова, слова. Какое какое?" },
+          "prompt": { "en": "Match the words.", "ru": "Найди пары." },
+          "pairs": [["door", "дверь"], ["night", "ночь"], ["phone", "телефон"]],
+          "success": { "who": "dan", "en": "Easy.", "ru": "Легко." },
+          "fail": { "who": "dan", "en": "I mixed them up.", "ru": "Я всё перепутал." }
+        },
+        {
+          "type": "fill",
+          "story": { "who": "mira", "en": "Finish my sentence.", "ru": "Закончи моё предложение." },
+          "prompt": { "en": "Fill the gap.", "ru": "Заполни пропуск." },
+          "sentence": "The door ___ open.",
+          "options": ["is", "are", "am"],
+          "answer": 0,
+          "success": { "who": "mira", "en": "Yes. It is open.", "ru": "Да. Она открыта." },
+          "fail": { "who": "mira", "en": "'The door is.' Remember.", "ru": "«The door is». Запомни." }
+        },
+        {
+          "type": "pick_voice",
+          "story": { "who": "mira", "en": "Which voice is the System?", "ru": "Какой голос принадлежит Системе?" },
+          "prompt": { "en": "Listen and pick the System.", "ru": "Послушай и выбери Систему." },
+          "clips": [
+            { "voice": "dan", "delivery": "tired and sad", "audio_text": "Welcome to the Tower." },
+            { "voice": "system", "delivery": "flat cold announcement", "audio_text": "Welcome to the Tower." }
+          ],
+          "options": ["Это Система", "Это Система"],
+          "answer": 1,
+          "success": { "who": "mira", "en": "Right. Cold and flat.", "ru": "Верно. Холодный и плоский." },
+          "fail": { "who": "mira", "en": "No. The System has no feelings.", "ru": "Нет. У Системы нет чувств." }
+        }
+      ],
+      "outro": {
+        "window": { "kind": "reward", "title": "REWARD", "lines": [{ "en": "Trial passed. You earned one word.", "ru": "Испытание пройдено. Ты получил одно слово." }] },
+        "story": [{ "who": "mira", "en": "Not bad. For a man with zero words.", "ru": "Неплохо. Для человека с нулём слов." }]
+      }
+    },
+    {
+      "id": "s1e01-t2",
+      "title": "The second door",
+      "titleRu": "Вторая дверь",
+      "pass": 0.5,
+      "lives": 2,
+      "intro": { "window": { "kind": "status", "title": "STATUS", "lines": [{ "en": "Warning: you are weak.", "ru": "Предупреждение: ты слаб." }] }, "story": [] },
+      "steps": [
+        {
+          "type": "choose",
+          "story": { "who": "silent", "en": "Dan. Dan. Dan.", "ru": "Дэн. Дэн. Дэн." },
+          "prompt": { "en": "Who is speaking?", "ru": "Кто говорит?" },
+          "options": ["The Silent", "Mira"],
+          "answer": 0,
+          "success": { "who": "mira", "en": "Do not answer it.", "ru": "Не отвечай ему." },
+          "fail": { "who": "mira", "en": "It is not me.", "ru": "Это не я." }
+        },
+        {
+          "type": "type",
+          "story": { "who": "mira", "en": "Say the word: door.", "ru": "Скажи слово: дверь." },
+          "prompt": { "en": "Type the English word for «дверь».", "ru": "Напиши по-английски." },
+          "answer": "door",
+          "success": { "who": "mira", "en": "Good.", "ru": "Хорошо." },
+          "fail": { "who": "mira", "en": "It is door.", "ru": "Это door." }
+        }
+      ],
+      "outro": { "window": { "kind": "reward", "title": "REWARD", "lines": [{ "en": "All trials passed.", "ru": "Все испытания пройдены." }] }, "story": [] }
+    }
+  ]
+}

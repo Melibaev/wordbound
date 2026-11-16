@@ -1,0 +1,705 @@
+{
+ "episode": "s1e01",
+ "unlocks": "s1e02",
+ "title": "The Dark Way",
+ "titleRu": "Тёмный путь",
+ "trials": [
+  {
+   "id": "s1e01-t1",
+   "title": "Not Dead",
+   "titleRu": "Не мёртвый",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Run.",
+       "ru": "ЗАДАНИЕ: Беги."
+      },
+      {
+       "en": "Words are power.",
+       "ru": "Слова — это сила."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "You are not dead. Run.",
+      "ru": "Ты не умер. Беги."
+     },
+     {
+      "who": "dan",
+      "en": "I am so tired.",
+      "ru": "Я так устал."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "mira",
+      "en": "That is the System. It is not nice.",
+      "ru": "Это Система. Она не добрая."
+     },
+     "prompt": {
+      "en": "What is it?",
+      "ru": "Что ты слышишь? Выбери."
+     },
+     "audio_text": "You are very slow.",
+     "voice": "system",
+     "delivery": "flat cold game-system announcement, deadpan, no emotion",
+     "options": [
+      "You are very slow.",
+      "You are very loud.",
+      "You are very weak."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Slow. Not dead.",
+      "ru": "Медленный. Но живой."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "No. Slow. You are slow.",
+      "ru": "Нет. Медленный. Ты медленный."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "I am not weak! I am...",
+      "ru": "Я не слабый! Я…"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "I ___ tired.",
+     "options": [
+      "am",
+      "is",
+      "are"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "Tired is weak.",
+      "ru": "Усталый — значит слабый."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "I am. You are. It is.",
+      "ru": "I am. You are. It is. Запомни."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "mira",
+      "en": "The Silent is slow too. Run.",
+      "ru": "Безмолвный тоже медленный. Беги."
+     },
+     "prompt": {
+      "en": "What is it in English?",
+      "ru": "«Помогите мне!» — как это по-английски?"
+     },
+     "options": [
+      "Help me!",
+      "Run now!",
+      "Wait for me!",
+      "Who are you?"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Not my problem. Run.",
+      "ru": "Не моя проблема. Беги."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "No. 'Help me.' And run.",
+      "ru": "Нет. «Help me». И беги."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "system",
+      "en": "Tired is weak. You are weak.",
+      "ru": "Усталый — слабый. Ты слабый."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери ответ Дэна: «Я не слабый»."
+     },
+     "answer": "I am not weak",
+     "distractors": [
+      "is",
+      "are"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "Loud. OK. Run.",
+      "ru": "Громко. Но ладно. Беги."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "'I am not weak.' Four words.",
+      "ru": "«I am not weak». Четыре слова."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "mira",
+      "en": "There is a door. You have a word.",
+      "ru": "Там дверь. У тебя есть слово."
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Дэн говорит своё слово-силу: «Открой!» Напиши его."
+     },
+     "answer": "open",
+     "success": {
+      "who": "system",
+      "en": "OPEN. It works.",
+      "ru": "OPEN. Работает."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Your one word. OPEN.",
+      "ru": "Твоё единственное слово. OPEN."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "What? Who is there?",
+      "ru": "Что? Кто там?"
+     },
+     "prompt": {
+      "en": "What is it?",
+      "ru": "Что шепчет Мира?"
+     },
+     "audio_text": "Loud is dead here.",
+     "voice": "mira",
+     "delivery": "deadpan low whisper, unimpressed, barely moving her lips",
+     "options": [
+      "Loud is dead here.",
+      "Loud is bad here.",
+      "Slow is dead here."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Yes. And you are loud.",
+      "ru": "Да. А ты громкий."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Loud. Is. Dead. Here.",
+      "ru": "Громкий. Значит. Мёртвый. Здесь."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "You stand. You run.",
+       "ru": "Ты стоишь на ногах. Ты бежишь."
+      },
+      {
+       "en": "Count: one.",
+       "ru": "Счёт: один."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Not bad. For a slow man.",
+      "ru": "Неплохо. Для медленного."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e01-t2",
+   "title": "Doors in the Dark",
+   "titleRu": "Двери в темноте",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Find a way.",
+       "ru": "ЗАДАНИЕ: Найди путь."
+      },
+      {
+       "en": "Some doors go home.",
+       "ru": "Некоторые двери ведут домой."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Doors. Doors. Where is my door?",
+      "ru": "Двери. Двери. Где моя дверь?"
+     },
+     {
+      "who": "mira",
+      "en": "Not here. Run.",
+      "ru": "Не здесь. Беги."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "match",
+     "story": {
+      "who": "dan",
+      "en": "Words on the doors. What is what?",
+      "ru": "Слова на дверях. Что есть что?"
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Соедини слово и перевод."
+     },
+     "pairs": [
+      [
+       "door",
+       "дверь"
+      ],
+      [
+       "word",
+       "слово"
+      ],
+      [
+       "home",
+       "дом"
+      ],
+      [
+       "way",
+       "путь"
+      ]
+     ],
+     "success": {
+      "who": "dan",
+      "en": "I know doors.",
+      "ru": "Двери я знаю."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Slow. Very slow.",
+      "ru": "Медленно. Очень медленно."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "system",
+      "en": "Find the last door.",
+      "ru": "Найди последнюю дверь."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "Some doors ___ home.",
+     "options": [
+      "go",
+      "is",
+      "am"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Some doors go home. My door too.",
+      "ru": "Некоторые двери ведут домой. Моя тоже."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Some doors go home.",
+      "ru": "Некоторые двери ведут домой."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "And you? Who are you?",
+      "ru": "А ты? Ты кто?"
+     },
+     "prompt": {
+      "en": "Mira says...",
+      "ru": "Что ответит Мира?"
+     },
+     "options": [
+      "I am Mira.",
+      "It is Mira.",
+      "You are Mira."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "I am Mira. That is all.",
+      "ru": "Я Мира. И всё."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "No. 'I am Mira.'",
+      "ru": "Нет. «I am Mira»."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "mira",
+      "en": "Shh. The System.",
+      "ru": "Тсс. Система."
+     },
+     "prompt": {
+      "en": "What is it?",
+      "ru": "Что ты слышишь? Выбери."
+     },
+     "audio_text": "Find the last door.",
+     "voice": "system",
+     "delivery": "flat cold game-system announcement, deadpan, no emotion",
+     "options": [
+      "Find the last door.",
+      "Find the lost door.",
+      "Find the next door."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "The last door. Where is it?",
+      "ru": "Последняя дверь. Где она?"
+     },
+     "fail": {
+      "who": "system",
+      "en": "Last. Not lost.",
+      "ru": "Последнюю. Не потерянную."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "mira",
+      "en": "That hatch. Now!",
+      "ru": "Тот люк. Живо!"
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Напиши, что крикнет Дэн: «Открой люк!»"
+     },
+     "answer": "Open the hatch",
+     "accept": [
+      "open hatch",
+      "open the hatch now"
+     ],
+     "success": {
+      "who": "system",
+      "en": "It works.",
+      "ru": "Работает."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "'Open the hatch.' Fast.",
+      "ru": "«Open the hatch». И быстро."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "Mira...",
+      "ru": "Мира…"
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери вопрос Дэна: «Где моя дверь?»"
+     },
+     "answer": "Where is my door",
+     "distractors": [
+      "are",
+      "what"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "Not here. Not now.",
+      "ru": "Не здесь. Не сейчас."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "'Where is my door.'",
+      "ru": "«Where is my door». Where — первым."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "A way. Not home.",
+       "ru": "Путь. Не домой."
+      },
+      {
+       "en": "Run.",
+       "ru": "Беги."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Doors are not your problem. Silents are.",
+      "ru": "Двери — не твоя проблема. Безмолвные — да."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e01-t3",
+   "title": "It Is Not Tired",
+   "titleRu": "Он не устаёт",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "warning",
+     "title": "WARNING",
+     "lines": [
+      {
+       "en": "A Silent is near.",
+       "ru": "Рядом Безмолвный."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "It is here. Do not talk.",
+      "ru": "Он здесь. Не говори."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "Who is there? Mom?",
+      "ru": "Кто там? Мама?"
+     },
+     "prompt": {
+      "en": "Who is it?",
+      "ru": "Кто это говорит?"
+     },
+     "audio_text": "I am lost. Help me.",
+     "voice": "silent",
+     "delivery": "hollow breathy whisper, copying a human voice slightly wrong",
+     "options": [
+      "The Silent",
+      "Mira",
+      "The System"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Yes. It is not you.",
+      "ru": "Да. Это не ты."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "No. That is the Silent.",
+      "ru": "Нет. Это Безмолвный."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "It is slow. Very slow. And...",
+      "ru": "Он медленный. Очень. И…"
+     },
+     "prompt": {
+      "en": "What is it in English?",
+      "ru": "«Он не устаёт» — как это по-английски?"
+     },
+     "options": [
+      "It is not tired.",
+      "It is not slow.",
+      "It is not here."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "It is not tired. You are.",
+      "ru": "Он не устаёт. А ты — да."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Not tired. That is the problem.",
+      "ru": "Не устаёт. В этом и проблема."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "mira",
+      "en": "You and me. Slow.",
+      "ru": "Ты и я. Медленные."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "We ___ slow.",
+     "options": [
+      "is",
+      "are",
+      "am"
+     ],
+     "answer": 1,
+     "success": {
+      "who": "mira",
+      "en": "We are slow. So we run now.",
+      "ru": "Мы медленные. Поэтому бежим сейчас."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "We are. You are. They are.",
+      "ru": "We are. You are. They are."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "dan",
+      "en": "There is a thing on the wall...",
+      "ru": "На стене что-то есть…"
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Дэн шепчет: «Что это?»"
+     },
+     "answer": "What is that",
+     "accept": [
+      "what is it",
+      "what is this",
+      "what's that",
+      "what's this",
+      "what's it"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "Nothing. Not a Silent. Run.",
+      "ru": "Тень. Не Безмолвный. Беги."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "'What is that.'",
+      "ru": "«What is that». Тише."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "What is it? What is a Silent?",
+      "ru": "Что это? Что такое Безмолвный?"
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери ответ Миры: «Это Безмолвный»."
+     },
+     "answer": "It is a Silent",
+     "distractors": [
+      "are",
+      "am"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "It is a Silent. It is not a man.",
+      "ru": "Это Безмолвный. Это не человек."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "'It is a Silent.'",
+      "ru": "«It is a Silent»."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "mira",
+      "en": "Do not talk. Run.",
+      "ru": "Не говори. Беги."
+     },
+     "prompt": {
+      "en": "What is it in English?",
+      "ru": "Что Мира велит делать Дэну?"
+     },
+     "options": [
+      "Run",
+      "Talk",
+      "Help",
+      "Wait"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Run. OK. I run.",
+      "ru": "Бежать. Ладно. Бегу."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Run. Run, run, run.",
+      "ru": "Беги. Беги, беги, беги."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "The Silent is far. It is not gone.",
+       "ru": "Безмолвный далеко. Но он не исчез."
+      },
+      {
+       "en": "Count: one.",
+       "ru": "Счёт: один."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "It is slow. It is not tired. Run.",
+      "ru": "Он медленный. Но он не устаёт. Беги."
+     }
+    ]
+   }
+  }
+ ]
+}

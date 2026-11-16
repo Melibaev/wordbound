@@ -1,0 +1,640 @@
+{
+ "episode": "s1e06",
+ "unlocks": "s1e07",
+ "title": "Up There",
+ "titleRu": "Там, наверху",
+ "trials": [
+  {
+   "id": "s1e06-t1",
+   "title": "300 Stairs",
+   "titleRu": "Триста ступеней",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Go up. Find help.",
+       "ru": "ЗАДАНИЕ: Иди вверх. Найди помощь."
+      },
+      {
+       "en": "Be quiet. Paper is quiet.",
+       "ru": "Тихо. Бумага тихая."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "pip",
+      "en": "Up, up, up! There is a market up there.",
+      "ru": "Вверх, вверх, вверх! Там, наверху, рынок."
+     },
+     {
+      "who": "mira",
+      "en": "I can walk. Do not help me.",
+      "ru": "Я могу идти. Не помогай мне."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "So many stairs. Mira, sit down.",
+      "ru": "Столько ступеней. Мира, сядь."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "There ___ many stairs.",
+     "options": [
+      "are",
+      "is",
+      "am"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "There are 300 stairs. You are slow.",
+      "ru": "Тут 300 ступеней. Ты медленный."
+     },
+     "fail": {
+      "who": "system",
+      "en": "One stair: there is. Many stairs: there are.",
+      "ru": "Одна ступенька — there is. Много — there are."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "pip",
+      "en": "Shh! Listen. Your rude friend.",
+      "ru": "Тсс! Слушай. Твоя грубая подружка."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "There are 300 stairs. You are slow.",
+     "voice": "system",
+     "delivery": "flat cold game-system announcement, deadpan, no emotion",
+     "options": [
+      "There are 300 stairs.",
+      "There are 30 stairs.",
+      "There are 13 stairs."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "300. Good. Very good.",
+      "ru": "300. Прекрасно. Просто прекрасно."
+     },
+     "fail": {
+      "who": "system",
+      "en": "300 stairs.",
+      "ru": "300 ступеней."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "Where is the market?",
+      "ru": "Где рынок?"
+     },
+     "prompt": {
+      "en": "Pip says...",
+      "ru": "Что отвечает Пип?"
+     },
+     "options": [
+      "It is up there.",
+      "It is down there.",
+      "It is under us."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "pip",
+      "en": "Up there. Not free.",
+      "ru": "Там, наверху. Не бесплатно."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "Up! Up there, slow man!",
+      "ru": "Вверх! Там, наверху, тормоз!"
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "Mira, do not look down.",
+      "ru": "Мира, не смотри вниз."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери, что пишет Дэн в записке: «Под нами ничего нет»."
+     },
+     "answer": "There is nothing under us",
+     "distractors": [
+      "are",
+      "up"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "I know. Do not write it.",
+      "ru": "Я знаю. Не пиши это."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "'There is nothing under us.'",
+      "ru": "«There is nothing under us»."
+     }
+    },
+    {
+     "type": "match",
+     "story": {
+      "who": "pip",
+      "en": "Up, down, under, behind. Four words, four apples.",
+      "ru": "Вверх, вниз, под, за. Четыре слова — четыре яблока."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Соедини слово и перевод."
+     },
+     "pairs": [
+      [
+       "up",
+       "вверх"
+      ],
+      [
+       "down",
+       "вниз"
+      ],
+      [
+       "under",
+       "под"
+      ],
+      [
+       "behind",
+       "позади"
+      ]
+     ],
+     "success": {
+      "who": "pip",
+      "en": "Not bad for a Zero.",
+      "ru": "Неплохо для Зеро."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "Up is up, Zero!",
+      "ru": "Вверх — это вверх, Зеро!"
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "There is a thing behind us. Again.",
+      "ru": "За нами снова что-то есть."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "There ___ a Silent behind us.",
+     "options": [
+      "is",
+      "are",
+      "am"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "pip",
+      "en": "There is. So be quiet and go.",
+      "ru": "Есть. Так что тихо и иди."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "One Silent. There is.",
+      "ru": "Один Безмолвный. There is."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "100 stairs. 200 more.",
+       "ru": "100 ступеней. Ещё 200."
+      },
+      {
+       "en": "Count: two.",
+       "ru": "Счёт: два."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Do not count. Go.",
+      "ru": "Не считай. Иди."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e06-t2",
+   "title": "Pay the Boy",
+   "titleRu": "Пошлина Пипа",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Pay the boy.",
+       "ru": "ЗАДАНИЕ: Заплати мальчишке."
+      },
+      {
+       "en": "Quiet is not free.",
+       "ru": "Тишина не бесплатна."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "pip",
+      "en": "I sell quiet. One quiet, one word. Again.",
+      "ru": "Я продаю тишину. Одна тишина — одно слово. Снова."
+     },
+     {
+      "who": "dan",
+      "en": "Again? Pip, I have two words.",
+      "ru": "Снова? Пип, у меня два слова."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "What does he want now?",
+      "ru": "Что ему теперь надо?"
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Give me the yellow pencil.",
+     "voice": "pip",
+     "delivery": "fast cheeky boy of eleven, haggling, grinning, a little too loud",
+     "options": [
+      "Give me the yellow pencil.",
+      "Give me the yellow paper.",
+      "Give me the yellow phone."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "No. Not the pencil.",
+      "ru": "Нет. Только не карандаш."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "The pencil! Behind your ear!",
+      "ru": "Карандаш! Тот, что за ухом!"
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "pip",
+      "en": "Why not? It is just a pencil.",
+      "ru": "Почему нет? Это просто карандаш."
+     },
+     "prompt": {
+      "en": "Dan says...",
+      "ru": "Что ответит Дэн?"
+     },
+     "options": [
+      "I don't know. Not the pencil.",
+      "Yes. Take the pencil.",
+      "There is a pencil."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "pip",
+      "en": "You don't know? Funny man.",
+      "ru": "Не знаешь? Смешной ты."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "No. I don't know why. Not the pencil.",
+      "ru": "Нет. Сам не знаю почему. Только не карандаш."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "I give you a secret.",
+      "ru": "Я дам тебе секрет."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "There is a room ___ the stairs.",
+     "options": [
+      "under",
+      "up",
+      "on"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "Under. Down, under the stairs.",
+      "ru": "Под. Внизу, под лестницей."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "pip",
+      "en": "OK, OK. A secret for a secret.",
+      "ru": "Ладно, ладно. Секрет за секрет."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери, что спрашивает Дэн: «Там, наверху, есть помощь?»"
+     },
+     "answer": "Is there help up there",
+     "distractors": [
+      "are",
+      "down"
+     ],
+     "success": {
+      "who": "pip",
+      "en": "There is a market up there. Help is not free.",
+      "ru": "Там, наверху, рынок. Помощь не бесплатна."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "'Is there help up there.' Is there, Zero.",
+      "ru": "«Is there help up there». Is there, Зеро."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "pip",
+      "en": "What do I sell? Say it.",
+      "ru": "Что я продаю? Скажи."
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Пип продаёт тишину. Напиши одно слово: «тихий, тишина»."
+     },
+     "answer": "quiet",
+     "success": {
+      "who": "pip",
+      "en": "Quiet! A good word up here.",
+      "ru": "Тишина! Хорошее слово тут, наверху."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "Quiet. My word. My one word.",
+      "ru": "Quiet. Моё слово. Моё единственное."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Pip is quiet. For now.",
+       "ru": "Пип молчит. Пока."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "pip",
+      "en": "A good trade. I like you, Zero. A little.",
+      "ru": "Хорошая сделка. Ты мне нравишься, Зеро. Чуть-чуть."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e06-t3",
+   "title": "Two Breaths",
+   "titleRu": "Два дыхания",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "warning",
+     "title": "WARNING",
+     "lines": [
+      {
+       "en": "Warning. Mira has two breaths.",
+       "ru": "Внимание. У Миры два дыхания."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Mira. Sit down. Please.",
+      "ru": "Мира. Сядь. Пожалуйста."
+     },
+     {
+      "who": "mira",
+      "en": "I do not sit. I climb.",
+      "ru": "Я не сижу. Я лезу."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "Two? Two what?",
+      "ru": "Два? Два чего?"
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Mira has two breaths.",
+     "voice": "system",
+     "delivery": "flat cold game-system announcement, deadpan, no emotion",
+     "options": [
+      "Mira has two breaths.",
+      "Mira has ten breaths.",
+      "Mira has no breath."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Two. Only two.",
+      "ru": "Два. Всего два."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Two breaths.",
+      "ru": "Два дыхания."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "pip",
+      "en": "Two breaths. Then no breath. Then she is a Silent.",
+      "ru": "Два дыхания. Потом ни одного. Потом она Безмолвная."
+     },
+     "prompt": {
+      "en": "What is it?",
+      "ru": "Что это значит?"
+     },
+     "options": [
+      "Mira can be a Silent.",
+      "Mira is a Silent now.",
+      "Mira has no breath now."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "No. Not Mira. Not her.",
+      "ru": "Нет. Не Мира. Только не она."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "Two now. Zero soon. Then Silent.",
+      "ru": "Сейчас два. Скоро ноль. Потом Безмолвная."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "pip",
+      "en": "There is a Silent behind you! Here!",
+      "ru": "За тобой Безмолвный! Вот он!"
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Дэн говорит слово-силу: «Стоп!»"
+     },
+     "answer": "stop",
+     "success": {
+      "who": "system",
+      "en": "STOP. It does not move.",
+      "ru": "STOP. Он не двигается."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "STOP, Zero. Your word.",
+      "ru": "STOP, Зеро. Твоё слово."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "mira",
+      "en": "I am OK.",
+      "ru": "Я в порядке."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "Sit ___, Mira. Stop.",
+     "options": [
+      "down",
+      "up",
+      "under"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "...OK. One minute.",
+      "ru": "…Ладно. Одну минуту."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Sit down. Down.",
+      "ru": "Сядь. Вниз."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "Pip! Help us!",
+      "ru": "Пип! Помоги нам!"
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери ответ Пипа: «Там, наверху, рынок»."
+     },
+     "answer": "There is a market up there",
+     "distractors": [
+      "are",
+      "down"
+     ],
+     "success": {
+      "who": "pip",
+      "en": "It is not free, Zero.",
+      "ru": "Это не бесплатно, Зеро."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "'There is a market up there.' Up!",
+      "ru": "«There is a market up there». Вверх!"
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "STOP is yours. Count: two.",
+       "ru": "STOP твоё. Счёт: два."
+      },
+      {
+       "en": "Mira has two breaths.",
+       "ru": "У Миры два дыхания."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Two words. Two breaths. Up.",
+      "ru": "Два слова. Два дыхания. Наверх."
+     }
+    ]
+   }
+  }
+ ]
+}

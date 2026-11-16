@@ -13,7 +13,22 @@ def whisper():
     global _W
     if _W is None:
         from faster_whisper import WhisperModel
-        # CPU on purpose: the 4 GB GPU is needed by Chatterbox
+        dev = os.environ.get("WB_WHISPER_DEVICE", "cuda")
+        if dev == "cuda":
+            # cuBLAS/cuDNN come from pip (nvidia-cublas-cu12, nvidia-cudnn-cu12) — expose their DLLs on Windows.
+            import site
+            for sp in site.getsitepackages():
+                for sub in ("cublas", "cudnn", "cuda_nvrtc"):
+                    d = os.path.join(sp, "nvidia", sub, "bin")
+                    if os.path.isdir(d):
+                        os.add_dll_directory(d)
+                        os.environ["PATH"] = d + os.pathsep + os.environ.get("PATH", "")
+            try:
+                _W = WhisperModel("small.en", device="cuda", compute_type="int8_float16",
+                                  download_root=os.path.join(ROOT, ".models", "whisper"))
+                return _W
+            except Exception as e:  # fall back to CPU if CUDA libs or VRAM are missing
+                print("whisper: CUDA unavailable, using CPU:", str(e)[:120])
         _W = WhisperModel("small.en", device="cpu", compute_type="int8", cpu_threads=6,
                           download_root=os.path.join(ROOT, ".models", "whisper"))
     return _W

@@ -1,0 +1,664 @@
+{
+ "episode": "s1e11",
+ "unlocks": "s1e12",
+ "title": "Choose, Dan",
+ "titleRu": "Выбирай, Дэн",
+ "trials": [
+  {
+   "id": "s1e11-t1",
+   "title": "The First Zero",
+   "titleRu": "Первый Зеро",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Know the Keeper.",
+       "ru": "ЗАДАНИЕ: Пойми Хранителя."
+      },
+      {
+       "en": "Read the trade. Every word.",
+       "ru": "Прочитай сделку. Каждое слово."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "keeper",
+      "en": "Sit, Dan. A long story. A short man.",
+      "ru": "Садись, Дэн. Длинная история. Короткий человек."
+     },
+     {
+      "who": "dan",
+      "en": "I don't want to sit. I want to know.",
+      "ru": "Я не хочу сидеть. Я хочу знать."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "You. Who are you?",
+      "ru": "Ты. Кто ты?"
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "I come here a young man. No words. No friend.",
+     "voice": "keeper",
+     "delivery": "soft velvety voice, old and tired under the politeness, slow",
+     "options": [
+      "A young man. No words. No friend.",
+      "An old man. No words. No friend.",
+      "A young man. No home. No friend."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "A Zero. Like me.",
+      "ru": "Зеро. Как я."
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "Young, Dan. Young, with no words.",
+      "ru": "Молодой, Дэн. Молодой и без слов."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "keeper",
+      "en": "Now I am old.",
+      "ru": "Теперь я старый."
+     },
+     "prompt": {
+      "en": "How many years?",
+      "ru": "Сколько лет Хранитель в этом зале?"
+     },
+     "options": [
+      "forty",
+      "four",
+      "ten"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "keeper",
+      "en": "Forty years in this hall.",
+      "ru": "Сорок лет в этом зале."
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "Forty, Dan. Forty years.",
+      "ru": "Сорок, Дэн. Сорок лет."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "keeper",
+      "en": "I make the rule. One word, one name.",
+      "ru": "Я придумал правило. Одно слово — одно имя."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "Every year I want ___ go home.",
+     "options": [
+      "to",
+      "for",
+      "at"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "He wants to go home. He wants what I want.",
+      "ru": "Он хочет домой. Он хочет того же, что и я."
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "I want to go. Want to.",
+      "ru": "I want to go. Want to."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "keeper",
+      "en": "The door needs two.",
+      "ru": "Двери нужны двое."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "One remembers. One ___.",
+     "options": [
+      "calls",
+      "call",
+      "forgets"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "keeper",
+      "en": "Nobody calls my name. I don't remember it.",
+      "ru": "Никто не зовёт меня по имени. Я его не помню."
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "One calls, Dan. A voice from home.",
+      "ru": "Один зовёт, Дэн. Голос из дома."
+     }
+    },
+    {
+     "type": "match",
+     "story": {
+      "who": "dan",
+      "en": "Remember, forget, stay, leave. His whole life.",
+      "ru": "Помнить, забыть, остаться, уйти. Вся его жизнь."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Соедини слово и перевод."
+     },
+     "pairs": [
+      [
+       "remember",
+       "помнить"
+      ],
+      [
+       "forget",
+       "забывать"
+      ],
+      [
+       "stay",
+       "оставаться"
+      ],
+      [
+       "leave",
+       "уходить"
+      ]
+     ],
+     "success": {
+      "who": "keeper",
+      "en": "Good words. Old words.",
+      "ru": "Хорошие слова. Старые слова."
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "Slowly, Dan. I have time.",
+      "ru": "Медленнее, Дэн. У меня есть время."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "keeper",
+      "en": "Your mother calls. Every hour she calls Dan.",
+      "ru": "Твоя мать звонит. Каждый час она зовёт Дэна."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери, чего хочет Хранитель: «Мне нужно твоё имя»."
+     },
+     "answer": "I need your name",
+     "distractors": [
+      "want",
+      "my"
+     ],
+     "success": {
+      "who": "dan",
+      "en": "With my name you go home. As me.",
+      "ru": "С моим именем ты идёшь домой. Мной."
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "I need your name, Dan. Only that.",
+      "ru": "Мне нужно твоё имя, Дэн. Только это."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "The Keeper is the first Zero.",
+       "ru": "Хранитель — первый Зеро."
+      },
+      {
+       "en": "Count: 31.",
+       "ru": "Счёт: 31."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "He is old. He wants what I want.",
+      "ru": "Он старый. Он хочет того же, что и я."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e11-t2",
+   "title": "Two Ways",
+   "titleRu": "Два пути",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "status",
+     "title": "STATUS",
+     "lines": [
+      {
+       "en": "Way one: your name. Way two: home.",
+       "ru": "Путь первый: твоё имя. Путь второй: домой."
+      },
+      {
+       "en": "Rank: WORD. Count: 31.",
+       "ru": "Ранг: WORD. Счёт: 31."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "system",
+      "en": "You have to choose. This voice can't help.",
+      "ru": "Ты должен выбрать. Этот голос не может помочь."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "choose",
+     "story": {
+      "who": "keeper",
+      "en": "Give me your name, whole. I give Mira her name. You stay.",
+      "ru": "Отдай мне своё имя целиком. Я верну Мире её имя. Ты останешься."
+     },
+     "prompt": {
+      "en": "Way one...",
+      "ru": "Путь первый: что будет?"
+     },
+     "options": [
+      "Mira has her name. Dan stays.",
+      "Dan has his name. Mira stays.",
+      "Dan and Mira go home."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "She has her name. I have nothing.",
+      "ru": "У неё будет имя. У меня — ничего."
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "Mira has her name. You stay. I go.",
+      "ru": "У Миры — имя. Ты остаёшься. Ухожу я."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "keeper",
+      "en": "Or go home now. You forget the Tower. You forget Mira.",
+      "ru": "Или иди домой сейчас. Ты забудешь Башню. Забудешь Миру."
+     },
+     "prompt": {
+      "en": "Way two...",
+      "ru": "Путь второй: что будет?"
+     },
+     "options": [
+      "Dan goes home and forgets Mira.",
+      "Dan goes home with Mira.",
+      "Dan stays and Mira goes home."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "I forget Mira? No.",
+      "ru": "Я забуду Миру? Нет."
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "You go. You forget. It is a dream.",
+      "ru": "Ты уходишь. Ты забываешь. Это сон."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "system",
+      "en": "This voice can't help.",
+      "ru": "Этот голос не может помочь."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "You ___ to choose.",
+     "options": [
+      "have",
+      "has",
+      "want"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "You have to choose. Have to.",
+      "ru": "Ты должен выбрать. Have to."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "And Mira has no name because of me.",
+      "ru": "А у Миры нет имени из-за меня."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери слова Дэна: «Я не хочу оставлять её»."
+     },
+     "answer": "I don't want to leave her",
+     "distractors": [
+      "need",
+      "him"
+     ],
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "'I don't want to leave her.' True.",
+      "ru": "«I don't want to leave her». Это правда."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "System. Say it.",
+      "ru": "Система. Скажи это."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "You have to choose. This voice can't help.",
+     "voice": "system",
+     "delivery": "flat cold game-system announcement, deadpan, no emotion",
+     "options": [
+      "You have to choose.",
+      "You want to choose.",
+      "You need to go."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "I know.",
+      "ru": "Я знаю."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Have to.",
+      "ru": "Должен."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "keeper",
+      "en": "Choose, Dan.",
+      "ru": "Выбирай, Дэн."
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Одно слово: «выбирать»."
+     },
+     "answer": "choose",
+     "success": {
+      "who": "keeper",
+      "en": "Yes. Choose.",
+      "ru": "Да. Выбирай."
+     },
+     "fail": {
+      "who": "keeper",
+      "en": "Choose, Dan. Slowly. But choose.",
+      "ru": "Choose, Дэн. Медленно. Но выбирай."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Two ways. One door.",
+       "ru": "Два пути. Одна дверь."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Zero. Look at the door.",
+      "ru": "Зеро. Посмотри на дверь."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e11-t3",
+   "title": "Mom Calls",
+   "titleRu": "Мама звонит",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "status",
+     "title": "STATUS",
+     "lines": [
+      {
+       "en": "Missed calls: 12.",
+       "ru": "Пропущенных звонков: 12."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "narration",
+      "en": "Mom: Dan? Dan, call me. Please.",
+      "ru": "Мама: Дэн? Дэн, позвони мне. Пожалуйста."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "Mom!",
+      "ru": "Мама!"
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай. Что просит мама? Напиши."
+     },
+     "audio_text": "Dan, call me. Please.",
+     "voice": "narration",
+     "delivery": "warm worried mother on a bad phone line, far away",
+     "answer": "call me",
+     "accept": [
+      "call me please",
+      "dan call me",
+      "dan call me please"
+     ],
+     "success": {
+      "who": "dan",
+      "en": "Call me. She wants me to call.",
+      "ru": "Позвони мне. Она ждёт звонка."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Call me.",
+      "ru": "Позвони мне."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "I want to go home.",
+      "ru": "Я хочу домой."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "I need ___ call her.",
+     "options": [
+      "to",
+      "at",
+      "for"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Need to. Need to call.",
+      "ru": "Need to. Нужно позвонить."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "Her voice. I need it.",
+      "ru": "Её голос. Он мне нужен."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери правду Дэна: «Я хочу помнить её голос»."
+     },
+     "answer": "I want to remember her voice",
+     "distractors": [
+      "forget",
+      "his"
+     ],
+     "success": {
+      "who": "system",
+      "en": "True. True. True.",
+      "ru": "Правда. Правда. Правда."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "'I want to remember her voice.'",
+      "ru": "«I want to remember her voice»."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "mira",
+      "en": "I stay. I have three years here. You are young. You have a mother.",
+      "ru": "Я остаюсь. У меня здесь три года. Ты молод. У тебя есть мама."
+     },
+     "prompt": {
+      "en": "What is it?",
+      "ru": "Чего хочет Мира?"
+     },
+     "options": [
+      "She wants Dan to go home.",
+      "She wants to go home.",
+      "She wants Dan to stay."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "You have no name! I can't leave you.",
+      "ru": "У тебя нет имени! Я не могу тебя бросить."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Go, Zero. I stay.",
+      "ru": "Иди, Зеро. Я остаюсь."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "keeper",
+      "en": "A trade is a trade. But look. OPEN.",
+      "ru": "Сделка есть сделка. Но смотри. OPEN."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "The door is open. You ___ to choose now.",
+     "options": [
+      "have",
+      "has",
+      "are"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Zero. Go.",
+      "ru": "Зеро. Иди."
+     },
+     "fail": {
+      "who": "system",
+      "en": "You have to choose.",
+      "ru": "Ты должен выбрать."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "The door is open. Your hand is on it.",
+       "ru": "Дверь открыта. Твоя рука на ней."
+      },
+      {
+       "en": "Missed calls: 12.",
+       "ru": "Пропущенных звонков: 12."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Mom. I hear you.",
+      "ru": "Мама. Я тебя слышу."
+     }
+    ]
+   }
+  }
+ ]
+}

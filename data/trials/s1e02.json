@@ -1,0 +1,659 @@
+{
+ "episode": "s1e02",
+ "unlocks": "s1e03",
+ "title": "The Safe Room",
+ "titleRu": "Безопасная комната",
+ "trials": [
+  {
+   "id": "s1e02-t1",
+   "title": "Names on the Wall",
+   "titleRu": "Имена на стене",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Know this room.",
+       "ru": "ЗАДАНИЕ: Узнай эту комнату."
+      },
+      {
+       "en": "This room is safe. That door is not.",
+       "ru": "Эта комната безопасна. Та дверь — нет."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Be quiet. It is out there. The wall. Names.",
+      "ru": "Тихо. Он там, снаружи. Стена. Имена."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "fill",
+     "story": {
+      "who": "mira",
+      "en": "This lamp is here, with me. That wall is far.",
+      "ru": "Эта лампа здесь, у меня. А та стена — далеко."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "___ lamp is here, with me.",
+     "options": [
+      "This",
+      "That",
+      "A"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "This lamp. Here. Good.",
+      "ru": "Эта лампа. Здесь. Хорошо."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Here, with me: this.",
+      "ru": "Здесь, рядом, — this."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "And there, on the far wall?",
+      "ru": "А там, на дальней стене?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "___ is a name. Far, on the wall.",
+     "options": [
+      "That",
+      "This",
+      "The"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "That is a name. People wait here.",
+      "ru": "Это имя. Здесь ждут люди."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Far is that. Here is this.",
+      "ru": "Далеко — that. Рядом — this."
+     }
+    },
+    {
+     "type": "match",
+     "story": {
+      "who": "dan",
+      "en": "A key, a lamp, a wall. Small words.",
+      "ru": "Ключ, лампа, стена. Простые слова."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Соедини слово и перевод."
+     },
+     "pairs": [
+      [
+       "key",
+       "ключ"
+      ],
+      [
+       "light",
+       "свет"
+      ],
+      [
+       "wall",
+       "стена"
+      ],
+      [
+       "name",
+       "имя"
+      ]
+     ],
+     "success": {
+      "who": "dan",
+      "en": "I know walls. And keys.",
+      "ru": "Стены я знаю. И ключи."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Slow, Zero.",
+      "ru": "Медленно, Зеро."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "mira",
+      "en": "Someone gives a word. The lamp burns.",
+      "ru": "Кто-то отдаёт слово. Лампа горит."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "___ light is a word.",
+     "options": [
+      "The",
+      "A",
+      "That"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "The light. This light. A word.",
+      "ru": "Свет. Этот свет. Это слово."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "One lamp, one light. The light.",
+      "ru": "Одна лампа, один свет. The light."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "Why is a small room safe?",
+      "ru": "Почему маленькая комната безопасна?"
+     },
+     "prompt": {
+      "en": "Mira says...",
+      "ru": "Что ответит Мира?"
+     },
+     "options": [
+      "Silents stay out of the light.",
+      "Silents stay in the light.",
+      "The light is a Silent."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Out of the light. Always.",
+      "ru": "Вне света. Всегда."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "They stay out. We stay in.",
+      "ru": "Они снаружи. Мы внутри."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "And the names on the wall?",
+      "ru": "А имена на стене?"
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери ответ Миры: «Здесь ждут люди»."
+     },
+     "answer": "People wait in this room",
+     "distractors": [
+      "that",
+      "is"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "They wait. Then they are gone.",
+      "ru": "Ждут. А потом их нет."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "'People wait in this room.'",
+      "ru": "«People wait in this room»."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "The lamp burns. The room is safe.",
+       "ru": "Лампа горит. Комната безопасна."
+      },
+      {
+       "en": "Count: one.",
+       "ru": "Счёт: один."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "So that is a name. And that. And that.",
+      "ru": "Значит, это имя. И это. И это."
+     },
+     {
+      "who": "mira",
+      "en": "Not now, Zero.",
+      "ru": "Не сейчас, Зеро."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e02-t2",
+   "title": "Out There",
+   "titleRu": "Там, снаружи",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "warning",
+     "title": "WARNING",
+     "lines": [
+      {
+       "en": "A Silent is at the door.",
+       "ru": "У двери Безмолвный."
+      },
+      {
+       "en": "It has a voice. It is not yours.",
+       "ru": "У него есть голос. Он не твой."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "It has your voice. Be quiet.",
+      "ru": "У него твой голос. Тихо."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "Who is that?",
+      "ru": "Кто это?"
+     },
+     "prompt": {
+      "en": "What is it?",
+      "ru": "Что ты слышишь? Выбери."
+     },
+     "audio_text": "Open the door.",
+     "voice": "silent",
+     "delivery": "hollow breathy whisper, copying a human voice slightly wrong",
+     "options": [
+      "Open the door.",
+      "Open the wall.",
+      "Open the light."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "The door? No. Never.",
+      "ru": "Дверь? Нет. Никогда."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "'Open the door.' It always says that.",
+      "ru": "«Open the door». Он всегда так говорит."
+     }
+    },
+    {
+     "type": "pick_voice",
+     "story": {
+      "who": "mira",
+      "en": "You say it. Then it says it. Which one is you?",
+      "ru": "Скажи ты. Потом скажет он. Какой из голосов — ты?"
+     },
+     "prompt": {
+      "en": "Which voice is Dan?",
+      "ru": "Послушай оба голоса. Какой — настоящий Дэн?"
+     },
+     "clips": [
+      {
+       "voice": "silent",
+       "delivery": "hollow breathy whisper, copying a human voice slightly wrong, hollow and too calm",
+       "audio_text": "I am not weak."
+      },
+      {
+       "voice": "dan",
+       "delivery": "tired young man, honest, out of breath, a little scared, warm and alive",
+       "audio_text": "I am not weak."
+      }
+     ],
+     "options": [
+      "Голос A",
+      "Голос B"
+     ],
+     "answer": 1,
+     "success": {
+      "who": "mira",
+      "en": "Good. Your voice is tired. That voice is cold.",
+      "ru": "Хорошо. Твой голос усталый. А тот — холодный."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "No. That one is cold. You are tired.",
+      "ru": "Нет. Тот голос холодный. А ты — усталый."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "That is my voice. That is my name.",
+      "ru": "Это мой голос. Это моё имя."
+     },
+     "prompt": {
+      "en": "Mira says...",
+      "ru": "Что скажет Мира?"
+     },
+     "options": [
+      "That is not you.",
+      "That is you.",
+      "This is you."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "That is not you. Stay in the light.",
+      "ru": "Это не ты. Стой в свете."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "No. That is not you.",
+      "ru": "Нет. Это не ты."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "mira",
+      "en": "Shh. The System.",
+      "ru": "Тсс. Система."
+     },
+     "prompt": {
+      "en": "What is it?",
+      "ru": "Что говорит Система? Послушай."
+     },
+     "audio_text": "It is out there. It is never tired.",
+     "voice": "system",
+     "delivery": "flat cold game-system announcement, deadpan, no emotion",
+     "options": [
+      "It is never tired.",
+      "It is never there.",
+      "It is very tired."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Never tired. Good.",
+      "ru": "Никогда не устаёт. Прекрасно."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Never tired.",
+      "ru": "Никогда не устаёт."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "silent",
+      "en": "Open the door. I am...",
+      "ru": "Открой дверь. Я…"
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери, что говорит Мира: «Стой в свете!»"
+     },
+     "answer": "Stay in the light",
+     "distractors": [
+      "a",
+      "out"
+     ],
+     "success": {
+      "who": "dan",
+      "en": "In the light. OK.",
+      "ru": "В свете. Ладно."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "'Stay in the light.' The light. Not a light.",
+      "ru": "«Stay in the light». The light, не a light."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "You stay in the light.",
+       "ru": "Ты остаёшься в свете."
+      },
+      {
+       "en": "The Silent is out. You are in.",
+       "ru": "Безмолвный снаружи. Ты внутри."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "It is never tired. And I am very tired.",
+      "ru": "Он никогда не устаёт. А я очень устал."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1e02-t3",
+   "title": "Cold",
+   "titleRu": "Холодно",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "warning",
+     "title": "WARNING",
+     "lines": [
+      {
+       "en": "The voice is new.",
+       "ru": "Голос новый."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "silent",
+      "en": "Mira? Open the door. It is cold.",
+      "ru": "Мира? Открой дверь. Здесь холодно."
+     },
+     {
+      "who": "dan",
+      "en": "Mira? Who is that?",
+      "ru": "Мира? Кто это?"
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "That is a little voice. Who is it?",
+      "ru": "Это детский голос. Кто это?"
+     },
+     "prompt": {
+      "en": "What is it?",
+      "ru": "Что ты слышишь? Выбери."
+     },
+     "audio_text": "It is cold.",
+     "voice": "silent",
+     "delivery": "thin hollow child voice behind a door, sad and slightly wrong",
+     "options": [
+      "It is cold.",
+      "It is gone.",
+      "It is good."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Cold. A little voice in the cold.",
+      "ru": "Холодно. Маленький голос на холоде."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Cold.",
+      "ru": "Холодно."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "Mira? Mira, you are white.",
+      "ru": "Мира? Мира, ты вся белая."
+     },
+     "prompt": {
+      "en": "What is it in English?",
+      "ru": "«Мира знает этот голос» — как это сказать?"
+     },
+     "options": [
+      "Mira knows that voice.",
+      "Mira knows this lamp.",
+      "Mira is that voice."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "That is not... no.",
+      "ru": "Это не… нет."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Mira knows that voice.",
+      "ru": "Мира знает этот голос."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "Mira. The door.",
+      "ru": "Мира. Дверь."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "That is ___ Silent with a little voice.",
+     "options": [
+      "a",
+      "an",
+      "the"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "A Silent. A little voice. A Silent.",
+      "ru": "Безмолвный. Тонкий голос. Но Безмолвный."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "A Silent. One Silent.",
+      "ru": "A Silent. Один Безмолвный."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "mira",
+      "en": "Not to that door. To me. You have no name. Here you are...",
+      "ru": "Не той двери. Мне. У тебя нет имени. Здесь ты…"
+     },
+     "prompt": {
+      "en": "Say it in English.",
+      "ru": "Напиши имя, которое дала Дэну Мира: Зеро."
+     },
+     "answer": "Zero",
+     "accept": [
+      "I am Zero",
+      "my name is Zero"
+     ],
+     "success": {
+      "who": "system",
+      "en": "Zero is a good name.",
+      "ru": "Зеро — хорошее имя."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Zero. A good name.",
+      "ru": "Зеро. Хорошее имя."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "mira",
+      "en": "What is that thing?",
+      "ru": "Что это за штука?"
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери, что думает Дэн: «Это не человек»."
+     },
+     "answer": "That is not a person",
+     "distractors": [
+      "this",
+      "the"
+     ],
+     "success": {
+      "who": "dan",
+      "en": "Not a person. Not a person. So why...",
+      "ru": "Не человек. Не человек. Тогда почему…"
+     },
+     "fail": {
+      "who": "dan",
+      "en": "'That is not a person.'",
+      "ru": "«That is not a person»."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "You know the voice. The door is not open.",
+       "ru": "Ты узнал голос. Дверь не открыта."
+      },
+      {
+       "en": "The door is not open.",
+       "ru": "Дверь не открыта."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Why am I at the door? Why?",
+      "ru": "Почему я у двери? Почему?"
+     }
+    ]
+   }
+  }
+ ]
+}

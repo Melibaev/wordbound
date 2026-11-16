@@ -60,7 +60,8 @@ function winHTML(w, fallbackKind) {
 
 function promptHTML(p) {
   if (!p || !p.en) return '';
-  return `<div class="tprompt"><span class="tp-lab">ЗАДАНИЕ</span><p class="en">${tokensHTML(p.en)}</p>${ruTag(p.ru)}${p.ru ? `<p class="ru" hidden>${esc(p.ru)}</p>` : ''}</div>`;
+  // The Russian task text is the actual instruction for an A0 learner, so it is always visible in trials.
+  return `<div class="tprompt"><span class="tp-lab">ЗАДАНИЕ</span><p class="en">${tokensHTML(p.en)}</p>${p.ru ? `<p class="ru">${esc(p.ru)}</p>` : ''}</div>`;
 }
 
 const hearts = (lives, max) =>
