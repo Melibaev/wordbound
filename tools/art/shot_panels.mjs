@@ -38,7 +38,7 @@ let browser;
 try {
   browser = await chromium.launch(exe ? { executablePath: exe, headless: true } : { channel: 'chrome', headless: true });
   const ctx = await browser.newContext({
-    viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true,
+    viewport: { width: 390, height: 844 }, deviceScaleFactor: process.argv.includes('--zoom') ? 4 : 2, colorScheme: process.argv.includes('--dark') ? 'dark' : 'light', isMobile: true, hasTouch: true,
     serviceWorkers: 'block', reducedMotion: process.argv.includes('--motion') ? 'no-preference' : 'reduce',
   });
   await ctx.addInitScript(() => {
