@@ -1,5 +1,5 @@
 # WORDBOUND S1 — continuity digest (s1e01–s1e12)
-Source of truth = data/episodes/*.json; details via grep in story/STORY.md. Count = Dan's word counter.
+Source: data/episodes/*.json; details: grep story/STORY.md.
 Rank scale: Blank 0 (Br10) / Letter 1 (Br10) / Word 25 (Br15) / Phrase 100 (Br25) / Clause 300. Breath (Br) = Dan's stamina in breaths.
 
 ## s1e01 The Door (18p, A1)
@@ -102,7 +102,7 @@ Rank scale: Blank 0 (Br10) / Letter 1 (Br10) / Word 25 (Br15) / Phrase 100 (Br25
 - Silent: 2.3m gaunt, paper-white faceless head, single vertical teal seam mouth, long page-like fingers, teal drips; repeats only heard phrases.
 - Keeper: seen nose down, pale face, calm smile, ink fingers, black robe, deep hood, brass quill; soft salesman/teacher, "one word, one name".
 - Pip: 11, 138cm, gap teeth, sand hair, big grey cap, oversized patched coat, brass bell no clapper; fast, prices, "Psst, Deal?, Not free."
-- Trader: 50, stout, copper spectacles on forehead, black-dyed hands, ink apron; friendly shrewd.
+- Trader: 50, stout, copper spectacles on forehead, ink-black hands/apron; shrewd, friendly.
 - Lina: 14 (human look), amber eyes, dark braids, vermilion cord left wrist, ash-grey dress; echo/Silent form small; short repeated words, sings.
 - Nad: the Silent who stole Dan's name; speaks only Dan's past phrases.
 
@@ -119,5 +119,4 @@ Rank scale: Blank 0 (Br10) / Letter 1 (Br10) / Word 25 (Br15) / Phrase 100 (Br25
 - Lina human again: S4E8 (word SING). Mira secret 2: let go of Lina's hand (S3E3).
 - Yellow pencil remembers two boys -> S3E6.
 - Pip: informer; real name "Pip is a sound" -> S3E5; joins Kitchen S2E3.
-- Last door of each floor needs a new sentence; fresco bridge w/o right bank (S1E9) -> S2E1 "top moves".
 - Who built Tower -> S8E6–E8, S9E11 (grew from Keeper's phrase).
