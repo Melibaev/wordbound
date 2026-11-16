@@ -892,5 +892,297 @@
    "avoid": "No text; nothing visible inside the slit; Mira absent.",
    "check": "В чёрной стене щель красного света, маленькая Безмолвная показывает на неё, Дэн смотрит."
   }
+ ],
+ "s1e09": [
+  {
+   "camera": "Wide establishing shot from low behind the two figures, tilted up.",
+   "action": "Dan at the LEFT edge and the child-sized Silent at the RIGHT edge stand side by side on a narrow stone walkway, seen small and from slightly behind, their heads tipped back. Behind them in the lower corner a thin slit of red light in a stone wall is closing. The colossal curved Wall of Letters, a surface of millions of carved abstract glyph-bricks, rises from the walkway and fills the whole upper frame, vermilion sparks drifting up along it.",
+   "faces": "Dan: awed, mouth a little open. Silent: smooth blank face turned up.",
+   "props": "Wall of abstract carved glyph-bricks; vermilion sparks; the closing slit of red light; frayed vermilion cord on the Silent's LEFT wrist.",
+   "light": "Dusty apricot dusk light on the wall, cold teal shade pooling at the foot of the walkway.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. Silents have smooth white faces with no eyes, nose or lips and one thin vertical teal seam. The small Silent is child-sized with a frayed vermilion cord on its LEFT wrist. No other characters.",
+   "check": "Дэн слева и маленькая Безмолвная справа на карнизе, над ними гигантская стена из абстрактных знаков; читаемых букв нет."
+  },
+  {
+   "camera": "Medium over-the-shoulder shot, eye level, from behind Dan's right shoulder.",
+   "action": "Dan at the LEFT, seen three-quarters from behind, looks up at the System window that floats at the RIGHT at head height. Behind and between them the wall of abstract glyph-bricks; at its foot a dark slot into which a few small vermilion sparks drift from the sky.",
+   "faces": "Dan (visible in profile): curious, a small frown.",
+   "props": "Blank System window; dark slot in the wall; drifting vermilion sparks.",
+   "light": "Soft apricot dusk light, warm rim on Dan's glasses.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No Silents in frame.",
+   "check": "Дэн слева смотрит на пустое окно Системы справа; за ними стена, красные искры летят к тёмной щели у основания."
+  },
+  {
+   "camera": "Tight medium shot, slightly low angle, side-on to Dan.",
+   "action": "Dan at the LEFT leans toward the wall with his face a hand's width from it, eyes narrowed. In front of his eyes the carved abstract glyph-bricks blur and swim with motion smear; a short row right at his eye level sharpens and glows steady vermilion. The System window floats at the RIGHT edge.",
+   "faces": "Dan: strained concentration, then the first flicker of a grin.",
+   "props": "Blur-smeared glyph-bricks, one sharp glowing vermilion row of abstract shapes, yellow pencil behind his right ear.",
+   "light": "Apricot light from the left, vermilion glow reflected in his round glasses.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The glowing row must be abstract shapes, not a readable phrase. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face.",
+   "check": "Дэн слева почти касается лбом стены, перед ним размытые знаки и одна чёткая красная строка; справа пустое окно Системы."
+  },
+  {
+   "camera": "Low-angle wide shot looking up along the wall.",
+   "action": "Dan at the LEFT bottom, small, head tipped back, arms hanging. The System window floats at the RIGHT, larger in the frame, perfectly still. A single thin vermilion line of abstract glyph shapes runs across the whole wall and disappears into the clouds, like an endless sentence.",
+   "faces": "Dan: stunned, lips parted.",
+   "props": "One endless line of vermilion abstract glyphs; blank System window.",
+   "light": "Dusty apricot light fading to grey-teal high above.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No Silents.",
+   "check": "Дэн слева внизу смотрит вверх, справа окно Системы; по стене тянется одна бесконечная строка красных знаков."
+  },
+  {
+   "camera": "Eye-level two-shot, static, a little wider than a close-up.",
+   "action": "Dan at the LEFT stands with arms hanging and turns his whole body toward the System window floating at the RIGHT, close to him. On the stone ground between them one ochre lantern glows; the foot of the glyph wall behind.",
+   "faces": "Dan: tired, direct, asking. The window has no face.",
+   "props": "Ochre lantern, blank System window with its seal faintly glowing.",
+   "light": "Warm ochre lantern light from below, cold teal in the background.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No Silents.",
+   "check": "Дэн слева обращён к окну Системы справа; между ними на камне тёплый фонарь."
+  },
+  {
+   "camera": "Medium two-shot at wall level, with the wall's top gap visible above in the upper frame.",
+   "action": "The child-sized Silent at the RIGHT presses her thin left hand (with the frayed vermilion cord on the wrist) flat against the stone; around her fingertips one small cluster of carved abstract glyphs glows vermilion. Dan at the LEFT stands half a step back, watching her and then glancing up. High above them in the upper frame, a blank gap in a huge line of glyph-bricks flickers with changing glowing abstract shapes.",
+   "faces": "Silent: smooth blank face turned to the wall. Dan: troubled, thoughtful.",
+   "props": "Vermilion cord on the Silent's LEFT wrist; glowing abstract glyph cluster at her fingertips; flickering gap high above.",
+   "light": "Apricot dusk light with a pulsing vermilion glow from the gap.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The glowing cluster is NOT a readable name. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. Silents have smooth white faces with no eyes, nose or lips and one thin vertical teal seam.",
+   "check": "Маленькая Безмолвная справа касается стены, у её пальцев светится красный узор; наверху мигает пробел в строке."
+  },
+  {
+   "camera": "Medium shot, slightly high angle, looking down at the base of the wall.",
+   "action": "On the stone base of the wall is an old faded ochre-and-ash fresco: two small boys seen from behind, standing at the two ends of a bridge; the bridge's RIGHT end stops in empty air with no bank. One boy wears a mustard-yellow hooded sweatshirt. Dan at the LEFT crouches in front of the fresco, head tilted, one hand rubbing his chin, squinting at the bridge like an engineer. The System window hovers at the RIGHT.",
+   "faces": "Dan: curious, engineer's frown. The boys' faces are not shown.",
+   "props": "Faded fresco of a half-bridge and two boys from behind, yellow pencil behind Dan's right ear.",
+   "light": "Soft grey-ochre light, warm and quiet.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. No faces on the boys. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face.",
+   "check": "Дэн присел слева перед старой фреской: два мальчика у моста, у которого нет правого берега; справа окно Системы."
+  },
+  {
+   "camera": "Dynamic low-angle action shot along a narrow ledge, slight Dutch tilt.",
+   "action": "Dan at the LEFT, mouth wide in a shout, right arm thrust forward. Two bands of glowing vermilion abstract glyph shapes stream from his mouth: the upper band hits the lead tall Silent in the CENTER, which freezes mid-step with a thin vermilion rim around it; the lower band shoves a huge fallen stone block lying across the ledge at the far RIGHT, which slides and grinds. A line of more tall adult Silents stands frozen behind the lead one. The System window floats in the upper right corner.",
+   "faces": "Dan: fierce, breathless, eyes wide behind his glasses. Silents: smooth blank faces.",
+   "props": "Two vermilion glyph-streams; stone block on the ledge; dust and chips flying.",
+   "light": "Strong vermilion glow against cold teal shadow; apricot sky behind.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. Silents have smooth white faces with no eyes, nose or lips and one thin vertical teal seam. The small child-sized Silent is NOT in this frame; only tall adult Silents. No blood, no injury.",
+   "check": "Дэн слева кричит; две красные струи знаков: одна замораживает переднего Безмолвного в центре, другая двигает каменный блок справа."
+  },
+  {
+   "camera": "Medium shot, eye level, door at the lower right of the frame.",
+   "action": "A small waist-high wooden door with a round brass knob and an iron hinge is set into the glyph-brick wall at the lower CENTER-RIGHT. Dan at the LEFT stands in front of it with one hand held open toward it, speaking; a thin ribbon of vermilion abstract glyph shapes goes from his mouth to the door. The door has just cracked open, warm ochre light spilling out of the gap onto the stone. The System window hovers at the RIGHT.",
+   "faces": "Dan: earnest, a little amazed.",
+   "props": "Small wooden door with brass knob; ribbon of abstract vermilion glyphs; ochre light through the crack.",
+   "light": "Warm ochre light from the doorway against cool dusk.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No Silents.",
+   "check": "Дэн слева говорит с маленькой деревянной дверцей в стене; из щели льётся тёплый свет, справа окно Системы."
+  },
+  {
+   "camera": "Medium shot inside a small round niche, eye level.",
+   "action": "Dan at the LEFT turns toward the right with a delighted open-mouthed grin. Two tiny round glowing vermilion glyph shapes float toward him from a crack in the wall at the RIGHT, trailing sparks. Around them the curved niche walls are made of abstract glyph-bricks, some of which hover and slide into place by themselves. The System window floats near the right edge.",
+   "faces": "Dan: delighted, almost laughing.",
+   "props": "Two small vermilion glyph shapes; self-placing glyph-bricks; bare lamp with a vermilion-hearted flame on the ceiling.",
+   "light": "Warm ochre lamp light, vermilion glow from the floating shapes.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The two floating shapes are NOT the letters O and K, just abstract round marks. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face.",
+   "check": "В нише Дэн слева с радостью смотрит на два красных светящихся знака, влетающих справа; стены сами укладывают кирпичи."
+  },
+  {
+   "camera": "Quiet medium two-shot, eye level, slightly wide.",
+   "action": "Dan at the LEFT sits on the floor of the niche with his back against the curved wall, hands loose over his knees, head tilted back. The System window floats at the RIGHT slightly lower than usual. A bare lamp with a vermilion-hearted flame hangs between them.",
+   "faces": "Dan: relieved, a small tired smile.",
+   "props": "Bare lamp with vermilion flame core; blank System window.",
+   "light": "Warm ochre lamp light, cosy and fragile.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No Silents.",
+   "check": "Дэн сидит слева на полу ниши, спиной к стене, с облегчённой улыбкой; справа окно Системы; между ними лампа."
+  },
+  {
+   "camera": "Medium close two-shot at the height of the child, eye level.",
+   "action": "Dan at the LEFT kneels on one knee. The child-sized Silent at the RIGHT holds his open right palm in her thin pale fingers and presses it flat against one brick of the niche wall that glows faintly vermilion (abstract mark only); her other thin arm points upward.",
+   "faces": "Dan: torn, gentle, shaking his head. Silent: smooth blank face turned up to him.",
+   "props": "Glowing brick with an abstract mark; frayed vermilion cord on the Silent's LEFT wrist; pencil behind Dan's right ear.",
+   "light": "Warm ochre lamp light, a soft vermilion glow on their hands.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The brick's mark is an abstract shape, not a name. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. Silents have smooth white faces with no eyes, nose or lips and one thin vertical teal seam. The small Silent is child-sized with a frayed vermilion cord on its LEFT wrist.",
+   "check": "Дэн на колене слева, маленькая Безмолвная справа кладёт его ладонь на светящийся кирпич и показывает вверх."
+  },
+  {
+   "camera": "Close medium shot, eye level, quiet and still.",
+   "action": "Dan at the LEFT sits with his shoulders low and his head tilted, looking at a torn piece of dark bread resting in his open palm. The System window hovers small and dim at the RIGHT edge.",
+   "faces": "Dan: conflicted, tired, soft.",
+   "props": "Torn piece of dark bread; yellow pencil behind his right ear; dim blank System window.",
+   "light": "Warm ochre lamp light from above, deep soft shadows.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No Silents.",
+   "check": "Дэн слева смотрит на кусок тёмного хлеба на ладони; справа тусклое окно Системы."
+  },
+  {
+   "camera": "Wide shot, eye level, side-on, long walkway receding into the distance.",
+   "action": "Dan at the LEFT stands straight with his back to the small door in the wall, his chin lifted, looking down the walkway. The child-sized Silent at the RIGHT holds the cuff of his sleeve between two fingers and has turned her blank face up toward him.",
+   "faces": "Dan: resolute, calm. Silent: blank face turned to Dan.",
+   "props": "Small wooden door behind Dan; frayed vermilion cord on the Silent's LEFT wrist; the glyph wall rising behind.",
+   "light": "Golden apricot dusk light, warm and clear.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. Silents have smooth white faces with no eyes, nose or lips and one thin vertical teal seam. The small Silent is child-sized with a frayed vermilion cord on its LEFT wrist.",
+   "check": "Дэн слева спиной к дверце смотрит вдаль по карнизу, маленькая Безмолвная справа держит его за рукав."
+  },
+  {
+   "camera": "Dramatic low-angle wide shot, strongly tilted up toward the top of the wall.",
+   "action": "Dan at the bottom LEFT, tiny, looks up with a hand half raised. Far above him in the blank gap of the great glyph line, three enormous abstract vermilion glyph shapes are rising out of the stone like glowing lava. The System window floats at the RIGHT in warning style: solid vermilion frame, inverted dark paper.",
+   "faces": "Dan: alarmed, pale.",
+   "props": "Three huge abstract vermilion glyph shapes; inverted warning System window.",
+   "light": "Hard vermilion light from above, deep teal shadow below.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The three glyph shapes must NOT read as the letters D, A, N or any alphabet. The System window is inverted dark paper with a solid vermilion border and a round seal, tilted 2-3 degrees, no text, no face. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No Silents.",
+   "check": "Дэн крошечный слева внизу смотрит вверх; в пробеле стены встают три огромных красных знака; справа красное предупреждающее окно."
+  },
+  {
+   "camera": "Dark close-up on Dan's face, slightly low angle.",
+   "action": "Dan's face fills the LEFT of the frame, eyes wide behind his round glasses, lips parted, frozen. A faint vermilion rim light touches his cheek and the edge of his glasses from the right and behind. Deep black everywhere else. A small System window with a solid vermilion frame sits at the RIGHT edge.",
+   "faces": "Dan: stunned, hearing his own voice come from the dark.",
+   "props": "Round glasses with tape on the hinge; yellow pencil behind his right ear; small warning System window.",
+   "light": "Almost black frame, thin vermilion rim light only.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No teal, no other characters.",
+   "check": "Тёмный кадр: лицо Дэна слева, потрясённого собственным голосом из тьмы; справа маленькое окно Системы с красной рамкой."
+  }
+ ],
+ "s1e10": [
+  {
+   "camera": "Wide three-shot at eye level, slight depth, wall rising behind.",
+   "action": "Dan at the LEFT and the child-sized Silent at the CENTER stand side by side near the wall's base. Mira at the RIGHT has just stopped mid-stride three steps from them, chest heaving, hands open at her sides, her red cord on her LEFT wrist. Far up behind them the gap in the wall's great glyph line pulses faintly vermilion.",
+   "faces": "Mira: guarded, relieved, unreadable. Dan: tired, wary. Silent: blank face turned toward Mira.",
+   "props": "Red cord on Mira's LEFT wrist; frayed vermilion cord on the Silent's LEFT wrist; the glyph wall.",
+   "light": "Dusky apricot with a dim vermilion pulse from above.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. Silents have smooth white faces with no eyes, nose or lips and one thin vertical teal seam. The small Silent is child-sized with a frayed vermilion cord on its LEFT wrist.",
+   "check": "Дэн слева и маленькая Безмолвная в центре, Мира справа остановилась в трёх шагах, запыхавшись."
+  },
+  {
+   "camera": "Eye-level two-shot, calm, static.",
+   "action": "Mira at the RIGHT stands stiffly with her eyes on the ground, one hand rubbing the back of her neck, red cord on her LEFT wrist. Dan at the LEFT faces her with one raised finger, a faint half-smile. An ochre lantern glows on the stone between them.",
+   "faces": "Mira: uncomfortable, unused to apologising. Dan: tired but resolved.",
+   "props": "Ochre lantern; red cord on Mira's LEFT wrist; pencil behind Dan's right ear.",
+   "light": "Warm ochre lantern light against grey-teal dusk.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No Silents in frame.",
+   "check": "Мира справа смотрит в землю и тирает шею, Дэн слева поднимает палец; между ними фонарь."
+  },
+  {
+   "camera": "Medium shot at eye level, Mira in the foreground left.",
+   "action": "Mira at the LEFT leans forward with her LEFT fist tightly clenched around her red cord, one foot lifted but not stepping, her feet clearly rooted. The child-sized Silent at the CENTER, a few paces away, faces her with arms hanging loosely. The System window floats at the RIGHT.",
+   "faces": "Mira: stricken, confused, lips pressed. Silent: blank face turned toward her.",
+   "props": "Red cord clenched in Mira's LEFT fist; frayed vermilion cord on the Silent's LEFT wrist; blank System window.",
+   "light": "Dim apricot dusk, a cold teal shadow between them.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. Silents have smooth white faces with no eyes, nose or lips and one thin vertical teal seam. The small Silent is child-sized with a frayed vermilion cord on its LEFT wrist. No violence, no other characters.",
+   "check": "Мира слева сжимает красный шнурок и не может шагнуть к маленькой Безмолвной в центре; справа окно Системы."
+  },
+  {
+   "camera": "Medium shot, slightly low angle, the door dominating the frame.",
+   "action": "A huge black door with iron bands fills the CENTER and RIGHT of the frame. Dan at the LEFT presses both palms flat against it, shoulders and back strained, small vermilion sparks around his hands, the door not moving at all. Mira stands a few paces behind him with her arms crossed, red cord on her LEFT wrist. The System window floats in the upper right.",
+   "faces": "Dan: strained, frustrated. Mira: watchful, grim.",
+   "props": "Black iron-banded door; sparks at Dan's palms; red cord on Mira's LEFT wrist.",
+   "light": "Dim ochre lantern light, cold teal darkness at the far end.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. No glyphs or lettering on the door. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No Silents.",
+   "check": "Дэн слева упирается ладонями в огромную чёрную дверь, она не движется; Мира с руками на груди сзади."
+  },
+  {
+   "camera": "Close medium shot, eye level, shallow depth of field.",
+   "action": "Dan at the CENTER rests his right hand flat on the cold iron door and looks along the seams between the big stones of the wall, eyes narrowed in an engineer's squint. Very faint thin ochre lines trace the joints of the stones around him as if drawn by his thinking (abstract lines only).",
+   "faces": "Dan: thoughtful, the first spark of an idea.",
+   "props": "Iron door, stone joints, yellow pencil behind his right ear.",
+   "light": "Warm ochre lantern light from the left, soft.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No other characters.",
+   "check": "Дэн один в центре, ладонь на железной двери, он разглядывает швы кладки; тихий кадр."
+  },
+  {
+   "camera": "Eye-level two-shot, medium.",
+   "action": "Dan at the LEFT gestures with one open hand and a pointing fingertip, counting three beats in the air. Mira at the RIGHT stands with her arms crossed, red cord on her LEFT wrist, the eyebrow with the small scar raised in doubt.",
+   "faces": "Dan: animated, eager. Mira: sceptical, dry.",
+   "props": "Red cord on Mira's LEFT wrist; pencil behind Dan's right ear; the iron door behind them, closed.",
+   "light": "Warm ochre lantern light, cold teal at the far end.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. No drawn symbols in the air. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No Silents.",
+   "check": "Дэн слева загибает пальцы, объясняя; Мира справа скептически скрестила руки."
+  },
+  {
+   "camera": "Straight-on medium shot, bright and clean, slightly low angle.",
+   "action": "Dan at the CENTER stands calm and upright, his right hand extended toward a great black iron door on the far side of the frame. A steady straight horizontal row of four glowing vermilion abstract glyph shapes travels from his mouth to the door, evenly spaced. The door swings quietly inward, white light spilling out; the frame is overexposed white with a faint vermilion crack of light.",
+   "faces": "Dan: calm, focused, a small astonished smile.",
+   "props": "Row of four vermilion abstract glyph shapes; opening iron door; round glasses with tape on the hinge.",
+   "light": "Overexposed white with a thin vermilion crack of light.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The four shapes must not be readable letters. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No other characters.",
+   "check": "Дэн один в центре, ровная красная строка из четырёх знаков идёт от его рта к двери, дверь тихо открывается."
+  },
+  {
+   "camera": "Eye-level two-shot with the opened door in the background.",
+   "action": "Mira at the RIGHT stares at the open black iron door with her mouth a little open, red cord on her LEFT wrist. Dan at the LEFT gives a small modest shrug, one eyebrow raised. The System window floats at the CENTER above them. Behind the open door a dim passage leads to a distant ochre light.",
+   "faces": "Mira: stunned, disbelieving. Dan: smug and tired.",
+   "props": "Open iron door with a passage beyond; blank System window; red cord on Mira's LEFT wrist.",
+   "light": "Warm ochre light from the passage, cool shadow in the corridor.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No Silents.",
+   "check": "Мира справа ошарашена смотрит на открытую дверь, Дэн слева пожимает плечами; в центре окно Системы."
+  },
+  {
+   "camera": "Medium-wide shot, eye level, lively.",
+   "action": "Dan at the LEFT laughs with joy, his right hand raised holding a small lit brass oil lamp, his left hand holding up a small brass key; several small vermilion abstract glyph shapes orbit around him like fireflies. The great iron door stands half-closed behind him. Mira at the RIGHT has her arms folded, red cord on her LEFT wrist, one eyebrow raised, the corner of her mouth almost smiling. The System window hovers at the CENTER-top.",
+   "faces": "Dan: delighted, boyish. Mira: exasperated, almost amused.",
+   "props": "Small lit oil lamp, brass key, orbiting abstract vermilion shapes, half-closed iron door.",
+   "light": "Warm lamp light plus vermilion glow, cheerful.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The orbiting shapes are not letters. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No Silents.",
+   "check": "Дэн слева смеётся, в руках лампа и ключ, вокруг него летают красные знаки; Мира справа скрестила руки."
+  },
+  {
+   "camera": "Eye-level two-shot, warm and playful.",
+   "action": "Mira at the RIGHT faces the great iron door with one hand raised toward it, red cord on her LEFT wrist, mouth open mid-word; a neat straight row of four steady vermilion abstract glyph shapes leaves her lips toward the door, which slides closed softly. A tiny first smile curls at the corner of her mouth. Dan at the LEFT grins at her with one finger raised like a patient teacher.",
+   "faces": "Mira: surprised, hint of a smile, the first. Dan: proud, teasing.",
+   "props": "Iron door closing, row of four abstract vermilion shapes, red cord on Mira's LEFT wrist.",
+   "light": "Warm ochre light with a soft vermilion glow on Mira's face.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The shapes are not readable letters. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No Silents. No violence.",
+   "check": "Мира справа у железной двери, из её рта ровная красная строка, дверь закрывается; на лице почти улыбка; Дэн слева с поднятым пальцем."
+  },
+  {
+   "camera": "Wide low-angle shot from the doorway looking into the hall.",
+   "action": "Dan at the LEFT, small, has stopped in the arched doorway; Mira is just behind him, partly hidden in the shadow. In the CENTER the Keeper stands upright, hands folded, a small calm smile under his deep hood (only nose-down visible, eyes never shown). At the RIGHT a tall Silent with two faint round dents on its blank face and a frayed strip of mustard-yellow lanyard knotted around its neck stands at the head of a still line of tall Silents along the wall. Broken unlit lamps lie scattered on the stone floor; a high black iron-banded door is at the far end.",
+   "faces": "Keeper: calm smile, eyes hidden under the hood. Dan: wary. Silents: smooth blank faces.",
+   "props": "Scattered broken lamps (unlit); black iron-banded door at the far end; yellow lanyard strip on the dented Silent's neck.",
+   "light": "Cold ash-grey light from high slits, teal shadows; no warm lamp light.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The Keeper's eyes are never visible. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. Silents have smooth white faces with no eyes, nose or lips and one thin vertical teal seam. The small child-sized Silent is NOT in this frame. No chair.",
+   "check": "Дэн в дверях слева, Хранитель стоит в центре (не в кресле), справа высокий Безмолвный с жёлтой полоской на шее во главе шеренги."
+  },
+  {
+   "camera": "Tight two-shot at eye level, slightly low.",
+   "action": "Dan at the LEFT and the Keeper at the RIGHT stand two paces apart, facing each other. The Keeper extends his open palm toward Dan, smooth and polite, small calm smile under the deep hood (eyes never visible). Dan stands with his jaw set, fists closed, shaking his head. Out of focus behind the Keeper, tall Silents wait in the shadow.",
+   "faces": "Keeper: polite, calm smile, eyes hidden by the hood. Dan: defiant.",
+   "props": "Keeper's open ink-stained palm; brass quill in his sleeve; Dan's pencil behind his right ear.",
+   "light": "Cold ash-grey light, teal shadow, a faint vermilion glow from the jars' memory only on the Keeper's hand.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The Keeper's eyes are never visible. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. Silents have smooth white faces with no eyes, nose or lips and one thin vertical teal seam. No child-sized Silent.",
+   "check": "Дэн слева и Хранитель справа лицом друг к другу, Хранитель протягивает раскрытую ладонь за именем."
+  },
+  {
+   "camera": "Dynamic wide-medium shot, slight Dutch tilt.",
+   "action": "Dan at the LEFT thrusts his right hand forward, a thin vermilion stream of abstract glyph shapes pouring from his mouth to the nearest tall Silent at the RIGHT, which stops mid-step with a vermilion rim around it. Mira at the CENTER-LEFT, red cord on her LEFT wrist, braces both hands against a black iron door behind them to hold it shut, teeth clenched. More tall adult Silents advance in the shadow behind the frozen one.",
+   "faces": "Dan: fierce, straining. Mira: tense, determined. Silents: smooth blank faces.",
+   "props": "Vermilion stream of abstract shapes; iron door; red cord on Mira's LEFT wrist.",
+   "light": "Strong vermilion glow against cold teal shadow.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. Silents have smooth white faces with no eyes, nose or lips and one thin vertical teal seam. Only tall adult Silents; the small child-sized Silent is NOT in this frame. No blood, no injury.",
+   "check": "Дэн слева останавливает ближнего Безмолвного красной струёй; Мира упёрлась в железную дверь, держит её."
+  },
+  {
+   "camera": "Low-angle dramatic wide shot centered on Mira.",
+   "action": "Mira at the CENTER stands with her feet planted and her head thrown back, mouth wide in a full-throat shout, vermilion light pouring from her mouth, the red cord on her LEFT wrist blazing; concentric rings of abstract vermilion light spread across the hall and push the front row of tall Silents back, their arms raised. Dan at the LEFT shields his face with an arm. The tall Silent with two round dents and the mustard-yellow lanyard strip at the RIGHT still walks toward Dan with an arm held out.",
+   "faces": "Mira: fierce, pale, shouting. Dan: shocked. Silents: smooth blank faces.",
+   "props": "Blazing red cord; concentric vermilion light rings (abstract); yellow lanyard strip on the dented Silent.",
+   "light": "Brilliant vermilion burst in the middle, cold teal shadow at the edges.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. Silents have smooth white faces with no eyes, nose or lips and one thin vertical teal seam. The small child-sized Silent is NOT in this frame. No blood, no injury.",
+   "check": "Мира в центре кричит изо всех сил, красные волны отбрасывают Безмолвных; справа высокий Безмолвный с жёлтой полоской всё ещё идёт к Дэну."
+  },
+  {
+   "camera": "Low-angle tense shot near floor level.",
+   "action": "Mira lies on her back on the stone floor at the LEFT-center, pale, eyes closed, her red cord dull and faded on her LEFT wrist. A tall plain Silent (smooth blank face, no dents, no lanyard strip) bends over her from the LEFT, its thin teal seam inches from her face (it does not touch her). The Keeper stands at the RIGHT behind, hands folded, hood hiding his eyes. The System window floats above the center in warning style: solid vermilion frame, inverted dark paper.",
+   "faces": "Mira: unconscious, pale, peaceful. Keeper: calm smile, eyes never visible.",
+   "props": "Dull red cord on Mira's LEFT wrist; warning System window.",
+   "light": "Cold ash-grey light, teal shadow, a single thin vermilion glow from the window.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Silents have smooth white faces with no eyes, nose or lips and one thin vertical teal seam. The Keeper's eyes are never visible. The small child-sized Silent is NOT in this frame. No blood, no wounds; Mira is only pale and still.",
+   "check": "Мира без сознания на полу, над ней склонился высокий обычный Безмолвный (без жёлтой полоски); справа Хранитель; сверху красное окно."
+  },
+  {
+   "camera": "Dark low-key shot, medium close, slightly low angle.",
+   "action": "Mira at the LEFT kneels on the floor, one hand at her throat, mouth open in a silent gasp, eyes wide with fright, the red cord on her LEFT wrist faded. The Keeper at the CENTER-RIGHT is lit only from below by the glow of a tiny glass jar with one vermilion spark that he holds in his open palm (hood hides his eyes, small calm smile). At the RIGHT edge floats the System window in warning style. Dan's dark silhouette stands frozen at the far LEFT edge. Everything else is black.",
+   "faces": "Mira: terrified, empty. Keeper: calm smile, eyes never visible.",
+   "props": "Tiny jar with a single vermilion spark; faded red cord on Mira's LEFT wrist; warning System window.",
+   "light": "Almost black frame, only the vermilion jar glow and the window's red frame.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The Keeper's eyes are never visible. No Silents and no child in frame. No blood.",
+   "check": "Мира слева на коленях, рука у горла, рот открыт без голоса; Хранитель в центре держит банку с красной искрой; справа окно Системы."
+  }
  ]
 }

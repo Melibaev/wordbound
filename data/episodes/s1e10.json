@@ -1,0 +1,656 @@
+{
+ "id": "s1e10",
+ "title": "The First Sentence",
+ "titleRu": "Первое предложение",
+ "level": "A1",
+ "newWords": [
+  "make",
+  "find",
+  "close",
+  "hold",
+  "strong",
+  "new",
+  "breath",
+  "fight",
+  "every",
+  "last"
+ ],
+ "panels": [
+  {
+   "bg": "tower-exterior",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "silent",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide shot at the foot of the Wall of Letters: Dan at the left and the child-sized Silent at the center stand together, while Mira at the right has stopped three steps away, out of breath, her red cord on her left wrist. Behind them the wall's top gap still pulses faintly vermilion.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Стена за спиной всё ещё шепчет голосом Дэна. Мира пришла на этот голос — и остановилась в трёх шагах от маленькой Безмолвной."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "You find her.",
+     "ru": "Ты нашёл её."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "She finds me.",
+     "ru": "Это она меня нашла."
+    }
+   ]
+  },
+  {
+   "bg": "tower-exterior",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Quiet two-shot at the wall's foot: Mira at the right looks at the ground and rubs the back of her neck, awkward and stiff. Dan at the left raises one finger like an engineer with an idea. A little ochre lantern glows between them.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I am sorry, Zero.",
+     "ru": "Прости, Зеро."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I don't like your plan. But I have a new plan. We make a sentence for the last door.",
+     "ru": "Мне не нравится твой план. Но у меня есть новый план. Мы составим предложение для последней двери."
+    }
+   ]
+  },
+  {
+   "bg": "tower-exterior",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "left"
+    },
+    {
+     "id": "silent",
+     "pos": "center"
+    },
+    {
+     "id": "system",
+     "pos": "right"
+    }
+   ],
+   "art": "Tense shot: Mira at the left clenches her red cord in her fist and leans forward as if to step, but her feet stay rooted. The child-sized Silent in the center turns its blank face toward her, arms hanging. The System window floats at the right.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Мира не может подойти. Проданное слово оставляет Дыру: её ноги сами обходят всё, что это слово называло."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Mira holds her cord. She does not hold the child.",
+     "ru": "Мира держит свой шнурок. Ребёнка она не держит."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I can't. I don't know why.",
+     "ru": "Я не могу. Я не знаю почему."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "tense",
+   "sfx": "THUD",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "system",
+     "pos": "right"
+    }
+   ],
+   "art": "Tense shot in a narrow stone corridor: a huge black iron-banded door fills the center and right of the frame. Dan at the left presses both palms flat against it, shoulders straining, small vermilion sparks around his hands, but the door does not move. Mira stands behind with her arms crossed; the System window floats top right.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "This door is strong. PUSH is weak here.",
+     "ru": "Эта дверь сильная. PUSH здесь слабое."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I can say OPEN. It does nothing. The Keeper has it.",
+     "ru": "Я могу сказать OPEN. Оно ничего не делает. Оно у Хранителя."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "center"
+    }
+   ],
+   "art": "Quiet close shot: Dan alone at the center rests one hand on the cold iron door and studies the joints of the stones around it with an engineer's squint; faint ochre construction-style lines seem to trace the seams of the wall as he thinks. His yellow pencil is behind his right ear.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Слово — это камень. Но стену держат не камни, а кладка. Инженер в Дэне наконец поднимает голову."
+    },
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "One stone is not a wall. The Tower makes a sentence. I can make a sentence too.",
+     "ru": "Один камень — ещё не стена. Башня делает предложение. Я тоже могу сделать предложение."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Two-shot in the corridor: Dan at the left gestures with an open hand, drawing three small invisible points in the air with a fingertip, explaining. Mira at the right has her arms crossed and one eyebrow with the scar raised, sceptical.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "We buy words. They don't make a sentence. Nobody can.",
+     "ru": "Мы покупаем слова. Они не делают предложение. Никто не может."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I learn words. Who? I. What do I do? Open. What? The door.",
+     "ru": "Я учу слова. Кто? Я. Что делаю? Открываю. Что? Дверь."
+    }
+   ]
+  },
+  {
+   "bg": "flash",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "center"
+    }
+   ],
+   "art": "Bright overexposed shot: Dan alone at the center stands calm with his hand extended toward the iron door. From his mouth a steady horizontal row of four glowing vermilion glyph shapes travels in a neat straight line, like a sentence on a ruled page. At the far side the great iron door swings quietly inward and white light spills out.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "I open the door.",
+     "ru": "Я открываю дверь."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Sentence: 4 words. True. One breath.",
+     "ru": "Предложение: 4 слова. Правда. Одно дыхание."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    }
+   ],
+   "art": "Two-shot: Mira at the right stares at the now-open iron door, mouth open, stunned. Dan at the left gives a modest shrug, smug and tired at the same time. The System window floats above the center. Beyond the open door is a dim passage with a distant ochre light.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "One breath? For that door? You have no OPEN!",
+     "ru": "Одно дыхание? За эту дверь? У тебя нет OPEN!"
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I don't need a strong word. Every door hears a true sentence.",
+     "ru": "Мне не нужно сильное слово. Любая дверь слышит правдивое предложение."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "A true sentence makes small words yours. DOOR is yours now. Count: six.",
+     "ru": "Правдивое предложение делает маленькие слова твоими. DOOR теперь твоё. Счёт: шесть."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    }
+   ],
+   "art": "Playful montage in one frame: Dan at the left laughs, holding a small lit oil lamp in his raised right hand and a brass key in his left, while small vermilion glyph shapes orbit him like fireflies. The iron door stands half-closed behind him. Mira at the right has her arms folded and one eyebrow raised, almost smiling. The System window hovers at the top.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I close the door. I hold the lamp. I find the key. I see the stone. I touch the stone!",
+     "ru": "Я закрываю дверь. Я держу лампу. Я нахожу ключ. Я вижу камень. Я трогаю камень!"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "A true sentence is strong. Count: 14.",
+     "ru": "Правдивое предложение сильное. Счёт: 14."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Stop. You play.",
+     "ru": "Хватит. Ты играешь."
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    }
+   ],
+   "art": "Warm comic shot: Mira at the right faces the iron door with one hand raised, mouth open mid-word, a neat row of four steady vermilion glyph shapes leaving her lips, and the door slides closed softly. Her mouth curls into a tiny first smile. Dan at the left grins, one finger raised like a teacher.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I... close... door.",
+     "ru": "Я... закрыть... дверь."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Not true. That is not a sentence.",
+     "ru": "Неправда. Это не предложение."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "The small words are free. Say 'the'. Say it with me.",
+     "ru": "Маленькие слова бесплатны. Скажи «the». Скажи вместе со мной."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I close the door.",
+     "ru": "Я закрываю дверь."
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "keeper",
+     "pos": "center"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide low-angle shot of the bare stone last hall: broken lamps are scattered and unlit on the floor, a high black wooden door with iron bands at the far end. The Keeper stands upright in the center, not in a chair, hands folded, hood hiding his eyes. At the right a tall Silent with two round dents on its blank face and a strip of mustard-yellow lanyard at its neck heads a silent line of tall Silents along the wall. Dan at the left, small, has stopped in the doorway.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Лампы в последнем зале сметены. Хранитель стоит — впервые не в кресле. За ним неподвижной шеренгой стоят Безмолвные."
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "I am Dan.",
+     "ru": "Я Дэн."
+    },
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "Welcome to the last hall. A new sentence, Zero! Every jar in my hall hears it.",
+     "ru": "Добро пожаловать в последний зал. Новое предложение, Зеро! Каждая банка в моём зале его слышит."
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "keeper",
+     "pos": "right"
+    }
+   ],
+   "art": "Tense two-shot in the hall: Dan at the left and the Keeper at the right face each other two paces apart. The Keeper holds out his open palm toward Dan, asking for his name; Dan's jaw is set, his fists closed, shaking his head. Tall Silents wait in shadow behind the Keeper.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "Forty years, and nobody makes a new sentence here. I need one more word. Your name. Give it to me.",
+     "ru": "Сорок лет никто здесь не составлял новых предложений. Мне нужно ещё одно слово. Твоё имя. Отдай его мне."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "No trade. I don't fight. I make sentences.",
+     "ru": "Никакой сделки. Я не дерусь. Я составляю предложения."
+    },
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "Then no trade. They take it.",
+     "ru": "Тогда без сделки. Они его заберут."
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "action",
+   "sfx": "CRACK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "Action shot in the hall: Dan at the left thrusts his hand forward, vermilion abstract glyph shapes streaming from his mouth to freeze the nearest tall Silent at the right, which stops mid-step with a vermilion rim. Mira at the center-left has both hands braced against the iron door behind them, holding it shut. More tall Silents advance in shadow behind.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "I stop the Silent! I close the way!",
+     "ru": "Я останавливаю Безмолвного! Я закрываю путь!"
+    },
+    {
+     "type": "shout",
+     "who": "mira",
+     "en": "Don't fight them all! Hold the door!",
+     "ru": "Не дерись со всеми! Держи дверь!"
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "Powerful action shot: Mira at the center throws her head back in a full-throat shout, vermilion light pouring from her mouth and her red cord blazing, rings of abstract vermilion light spreading across the hall as the tall Silents in front stagger back with their arms raised. Dan at the left shields his face. The tall dented Silent with the yellow lanyard strip at the right still walks on toward Dan.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "I am Dan. I am Dan.",
+     "ru": "Я Дэн. Я Дэн."
+    },
+    {
+     "type": "shout",
+     "who": "mira",
+     "en": "Stop! Every one of you!",
+     "ru": "Стойте! Все до одного!"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Mira fights with her last breath.",
+     "ru": "Мира дерётся последним дыханием."
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "silent",
+     "pos": "left"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    },
+    {
+     "id": "keeper",
+     "pos": "right"
+    }
+   ],
+   "art": "Low tense shot: Mira lies on the stone floor, pale, eyes closed, her red cord dull on her left wrist. A tall plain Silent (no dents, no lanyard, a different one from the dented Silent) bends over her, its seam close to her face. The Keeper stands behind at the right; the System window floats above in warning style, solid vermilion frame.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "I am Mira.",
+     "ru": "Я Мира."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Word lost: MIRA.",
+     "ru": "Слово потеряно: MIRA."
+    },
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "Not the name I want. But a name is a name.",
+     "ru": "Не то имя, которое мне нужно. Но имя есть имя."
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "left"
+    },
+    {
+     "id": "keeper",
+     "pos": "center"
+    },
+    {
+     "id": "system",
+     "pos": "right"
+    }
+   ],
+   "art": "Dark shot: Mira at the left kneels with one hand at her throat, mouth open in a silent gasp, eyes wide and frightened. The Keeper at the center-right is half-lit, holding a tiny glass jar with one vermilion spark in his open palm. The System window at the right edge has a solid vermilion frame. Everything else is black; Dan's silhouette stands frozen at the far left edge.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I am... I am...",
+     "ru": "Я... я..."
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "Mira? Mira?",
+     "ru": "Мира? Мира?"
+    },
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "Bring your name to my hall, Dan. Then she has hers.",
+     "ru": "Принеси своё имя в мой зал, Дэн. И тогда у неё будет её имя."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Mira is Zero now.",
+     "ru": "Мира теперь Зеро."
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "Порядок слов: кто + делает + что",
+  "body": "В английском предложении порядок почти всегда один: сначала тот, кто действует (I), потом глагол (open), потом то, с чем он действует (the door): I open the door. Нельзя выбросить маленькие слова: «I close door» — это ещё не предложение, поэтому у Миры сначала ничего не получилось. Слово the стоит прямо перед существительным и тоже является частью порядка. В Башне такое предложение, если оно правдивое, стоит одно дыхание и делает слова твоими.",
+  "examples": [
+   {
+    "en": "I open the door.",
+    "ru": "Я открываю дверь."
+   },
+   {
+    "en": "I close the door.",
+    "ru": "Я закрываю дверь."
+   },
+   {
+    "en": "Mira holds her cord.",
+    "ru": "Мира держит свой шнурок."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Почему PUSH не открыл железную дверь?",
+   "options": [
+    "Дэн слишком устал",
+    "Дверь была слишком сильной для одного слова",
+    "Дверь уже была открыта",
+    "Мира держала её с другой стороны"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Сколько дыханий стоило первое предложение Дэна?",
+   "options": [
+    "Три",
+    "Десять",
+    "Ни одного",
+    "Одно"
+   ],
+   "answer": 3
+  },
+  {
+   "q": "Почему у Миры сначала не получилось?",
+   "options": [
+    "Она не слышала Дэна",
+    "Она слишком устала",
+    "Она сказала без маленьких слов, и это не предложение",
+    "Дверь была заперта"
+   ],
+   "answer": 2
+  },
+  {
+   "q": "Чьё имя забрал Безмолвный в конце серии?",
+   "options": [
+    "Миры",
+    "Дэна",
+    "Лины",
+    "Хранителя"
+   ],
+   "answer": 0
+  }
+ ]
+}

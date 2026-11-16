@@ -1856,6 +1856,409 @@ This — то, что рядом («это»), that — то, что подал�
 
 ---
 
+## Эпизод 9 (s1e09): The Wall of Letters — Стена Букв
+
+- **Уровень:** A1
+- **Панелей:** 16
+- **newWords:** because, but, letter, sentence, learn, speak, voice, first, tower, build
+
+### Синопсис
+
+Маленькая Безмолвная проводит Дэна через красную щель к исполинской Стене Букв, и Система наконец объясняет, что Башня — не дом, а длинное предложение без конца: она крадёт слова, потому что не умеет делать их сама. Дэн читает верхнюю строку (READ), впервые складывает цепочку из двух слов (AND) и узнаёт, что Башня учится на его голосе, а не отнимает его. Он видит стену, которая примеряет имена, и фреску с мостом без правого берега, а Система обрывает ответ на полуслове. Лина-Эхо просит Миру; Дэн всё ещё злится, но решает найти её — потому что она одна, а он знает, что такое одиночество. В пробеле верхней строки сами собой встают три огромных красных знака, и стена повторяет его слова из первой ночи его же голосом.
+
+### Сценарий по панелям
+
+#### Панель 01
+
+- **bg:** `tower-exterior` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), silent (right)
+- **art:** Wide low-angle shot from behind: Dan at the left and the child-sized Silent at the right stand small on a narrow stone walkway, a thin slit of red light closing behind them. Above them the colossal curved Wall of Letters, built of millions of carved abstract glyph-bricks and drifting vermilion sparks, fills the whole sky. Dusty apricot light, no readable text.
+- **Реплики:**
+  - `narration-ru` — **RU:** Щель в стене расширяется, и они выходят на узкий карниз. Перед Дэном встаёт стена высотой до самого неба — и каждый её камень оказывается буквой.
+  - `speech / dan` — **EN:** It is a wall. But it is not a wall. It is letters. — **RU:** Это стена. Но это не стена. Это буквы.
+
+#### Панель 02
+
+- **bg:** `tower-exterior` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), system (right)
+- **art:** Medium over-the-shoulder shot from behind Dan's right shoulder: Dan at the left looks up at the System window hovering at the right, with the glyph-brick wall behind both. A few vermilion sparks drift toward a dark slot at the foot of the wall, as if lost words were arriving. Apricot dusk light.
+- **Реплики:**
+  - `system / system` — **EN:** This is the Wall of Letters. Every lost word comes here. — **RU:** Это Стена Букв. Каждое потерянное слово попадает сюда.
+  - `speech / dan` — **EN:** Why? — **RU:** Почему?
+  - `system / system` — **EN:** Because the Tower builds with words. — **RU:** Потому что Башня строится из слов.
+
+#### Панель 03
+
+- **bg:** `tower-exterior` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), system (right)
+- **art:** Tight tense shot: Dan at the left leans close to the wall, his brow almost touching it, eyes narrowed behind his round glasses, while the carved glyph-bricks in front of him swim and blur like fish under glass. One short row near his eyes sharpens into steady shapes glowing vermilion. The System window at the right is blank cream paper with a red double border.
+- **Реплики:**
+  - `narration-ru` — **RU:** Знаки плывут и расползаются, как рыбки под стеклом. Дэн упирается лбом в камень и заставляет себя читать.
+  - `speech / dan` — **EN:** I can read it! These letters say 'I am'... and then nothing. — **RU:** Я могу это прочесть! Эти буквы говорят «I am»... а дальше ничего.
+  - `system / system` — **EN:** New word: READ. READ is yours now. Count: five. — **RU:** Новое слово: READ. READ теперь твоё. Счёт: пять.
+  - `speech / dan` — **EN:** Five! I am a happy fool again. — **RU:** Пять! Я снова счастливый дурак.
+
+#### Панель 04
+
+- **bg:** `tower-exterior` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), system (right)
+- **art:** Low-angle shot looking up: the System window at the right, large and still, while Dan at the left stands small and stunned beneath the enormous curve of the wall. A single vermilion line of abstract glyph shapes runs along the wall, endlessly, into the far distance and the clouds, with no end in sight.
+- **Реплики:**
+  - `system / system` — **EN:** The Tower is not a house. The Tower is a sentence. — **RU:** Башня — не дом. Башня — предложение.
+  - `system / system` — **EN:** A long sentence. It has no end. It builds with words, because it can't make them. — **RU:** Длинное предложение. У него нет конца. Оно строится из слов, потому что не умеет делать их само.
+
+#### Панель 05
+
+- **bg:** `tower-exterior` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), system (right)
+- **art:** Quiet two-shot, eye level: Dan at the left, arms hanging, turns to face the System window at the right. Between them a single warm ochre lantern glows on the stone at the foot of the wall. The seal on the window glows faintly, as if the window were listening.
+- **Реплики:**
+  - `speech / dan` — **EN:** And you? What are you? — **RU:** А ты? Кто ты?
+  - `system / system` — **EN:** This voice is the first word of the Tower. But this voice does not take. It learns. — **RU:** Этот голос — первое слово Башни. Но этот голос не берёт. Он учится.
+
+#### Панель 06
+
+- **bg:** `tower-exterior` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), silent (right)
+- **art:** Two-shot at the foot of the wall: the child-sized Silent at the right lays her thin left hand on the stone, and at her fingertips one cluster of tiny carved glyphs glows vermilion. High above, a blank gap in the huge line of glyphs blinks, cycling through different glowing shapes as if trying names on. Dan at the left watches, pencil behind his ear.
+- **Реплики:**
+  - `narration` — **EN:** The wall speaks: I am Lina. I am Dan. I am... — **RU:** Стена говорит: «I am Lina. I am Dan. I am...»
+  - `narration-ru` — **RU:** Пробел после «I am» мигает и примеряет имя за именем, как человек примеряет пальто в лавке.
+  - `speech / dan` — **EN:** It takes names, because it has no name! — **RU:** Она берёт имена, потому что у неё нет своего!
+
+#### Панель 07
+
+- **bg:** `tower-exterior` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), system (right)
+- **art:** Calm medium shot: low on the stone base of the wall, an old faded fresco of two boys standing at either end of a bridge whose right side ends in empty air, with no bank to meet it. Dan at the left crouches in front of it, head tilted, squinting like an engineer, while the System window waits at the right.
+- **Реплики:**
+  - `speech / dan` — **EN:** I build bridges. This bridge has no right side. They don't ... it. — **RU:** Я строю мосты. У этого моста нет правой стороны. Они не ... его.
+  - `system / system` — **EN:** Almost. — **RU:** Почти.
+  - `speech / dan` — **EN:** What? — **RU:** Что?
+  - `system / system` — **EN:** Not now. Ask me later. — **RU:** Не сейчас. Спроси меня позже.
+
+#### Панель 08
+
+- **bg:** `tower-exterior` | **mood:** `action` | **sfx:** `SCRAPE`
+- **cast:** dan (left), silent (center), system (right)
+- **art:** Dynamic low-angle action shot on a narrow ledge: Dan at the left shouts with his right hand thrust forward; two bands of glowing vermilion abstract glyph shapes stream from his mouth, one slamming into the lead tall Silent in the center, which freezes mid-step with a vermilion rim, the other shoving a huge fallen stone block that blocks the ledge. More tall Silents queue behind the lead. The System window floats top right.
+- **Реплики:**
+  - `shout / dan` — **EN:** Stop and push! — **RU:** Стой и толкай!
+  - `system / system` — **EN:** Two words. One breath and a half. Because of AND. — **RU:** Два слова. Полтора дыхания. Благодаря AND.
+  - `speech / dan` — **EN:** AND is a good word! — **RU:** AND — хорошее слово!
+  - `system / system` — **EN:** AND is a small word. Small words are free. — **RU:** AND — маленькое слово. Маленькие слова бесплатны.
+
+#### Панель 09
+
+- **bg:** `tower-exterior` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), system (right)
+- **art:** Medium shot at the base of the wall: a small wooden door, waist-high, with a round brass knob, set into the glyph-bricks. Dan at the left, hand held out and mouth open mid-sentence, speaks to it; a thin ribbon of vermilion abstract glyph shapes travels from his mouth to the door, and the door cracks open with warm ochre light spilling out. The System window floats at the right.
+- **Реплики:**
+  - `system / system` — **EN:** This door hears a reason. — **RU:** Эта дверь слышит причину.
+  - `speech / dan` — **EN:** Let me in, because I am Dan and I learn. — **RU:** Впусти меня, потому что я Дэн и я учусь.
+  - `system / system` — **EN:** True. — **RU:** Правда.
+
+#### Панель 10
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), system (right)
+- **art:** Cosy niche inside the wall: its curved walls are made of glyph-bricks that rise slowly and slot into place by themselves. Dan at the left turns in delight toward two tiny round vermilion glyph shapes floating in from a crack at the right, as if his own spoken word had come home. The System window hovers beside them.
+- **Реплики:**
+  - `narration-ru` — **RU:** В нише стена кладёт слова, как кирпичи. Из щели вплывает красное «OK» — голосом Дэна, ещё с Лестницы эха.
+  - `speech / dan` — **EN:** That is my OK! That is my voice! — **RU:** Это моё OK! Это мой голос!
+  - `system / system` — **EN:** The Tower learns from you. It keeps every word you say. — **RU:** Башня учится у тебя. Она хранит каждое твоё слово.
+
+#### Панель 11
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), system (right)
+- **art:** Quiet shot in the niche: Dan at the left sits on the floor with his back against the wall, hands loose over his knees, a relieved half-smile. The System window at the right hovers a little lower than before, calm. A bare lamp with a vermilion-hearted flame hangs between them.
+- **Реплики:**
+  - `speech / dan` — **EN:** But I don't lose them. — **RU:** Но я их не теряю.
+  - `system / system` — **EN:** No. You speak. It learns. Nobody loses. That is new. The others buy and sell. You learn. — **RU:** Нет. Ты говоришь. Она учится. Никто не теряет. Это ново. Другие покупают и продают. Ты учишься.
+
+#### Панель 12
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), silent (right)
+- **art:** Tender two-shot in the niche: Dan at the left kneels facing the child-sized Silent at the right, who takes his palm in her thin pale fingers and presses it flat onto a brick that glows faintly vermilion in the wall, then lifts her other thin arm and points upward. Dan looks torn, shaking his head slowly.
+- **Реплики:**
+  - `speech / dan` — **EN:** You want your name. But I can't take it. It is in the wall. — **RU:** Ты хочешь своё имя. Но я не могу его взять. Оно в стене.
+  - `speech / silent` — **EN:** Mira. — **RU:** Мира.
+  - `speech / dan` — **EN:** You want Mira. But I don't like her now. — **RU:** Ты хочешь Миру. Но она мне сейчас не нравится.
+
+#### Панель 13
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), system (right)
+- **art:** Quiet close shot in the niche: Dan at the left sits alone with his head tilted, looking down at a torn piece of dark bread in his open palm. The System window at the right is small and dim. Warm lamp light.
+- **Реплики:**
+  - `thought / dan` — **EN:** She uses me. But she gives me bread. She lies, and she is my first friend here. — **RU:** Она меня использует. Но она даёт мне хлеб. Она лжёт, и она мой первый друг здесь.
+  - `system / system` — **EN:** Two true things. — **RU:** Две правды.
+
+#### Панель 14
+
+- **bg:** `tower-exterior` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), silent (right)
+- **art:** Wide quiet shot on the walkway at golden dusk: Dan at the left stands tall with his back to the small door, resolute, while the child-sized Silent at the right holds his sleeve and turns toward him. Both look along the walkway into the distance, the way they came.
+- **Реплики:**
+  - `narration-ru` — **RU:** Это не расчёт. Это то, что остаётся, когда злость устала и человеку становится стыдно оставлять другого одного.
+  - `speech / dan` — **EN:** OK. We find her. Because she is alone, and I know alone. — **RU:** Хорошо. Мы найдём её. Потому что она одна, а я знаю, что такое одиночество.
+
+#### Панель 15
+
+- **bg:** `tower-exterior` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), system (right)
+- **art:** Dramatic low-angle wide shot: far above, in the blank gap of the huge line of glyphs, three enormous abstract vermilion glyph shapes rise out of the stone by themselves like lava sparks. Dan at the bottom left is tiny, looking up in alarm. The System window at the right is inverted: a solid vermilion frame with a dark fill, warning style.
+- **Реплики:**
+  - `narration-ru` — **RU:** В пробеле верхней строки сами собой встают огромные красные знаки. Три знака. Его знаки.
+  - `system / system` — **EN:** Warning. The sentence wants a name. — **RU:** Предупреждение. Предложению нужно имя.
+  - `speech / dan` — **EN:** That is my name. On the wall. Why? — **RU:** Это моё имя. На стене. Почему?
+
+#### Панель 16
+
+- **bg:** `black` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), system (right)
+- **art:** Dark close shot: Dan's face at the left, stunned, lips parted, lit from behind by a faint vermilion glow from the unseen wall; the rest is deep black. A small System window at the right edge has a solid vermilion frame.
+- **Реплики:**
+  - `narration` — **EN:** I am Dan. I am not weak. I am tired. — **RU:** Я Дэн. Я не слабый. Я устал.
+  - `speech / dan` — **EN:** That is my voice. I say that on the first night. — **RU:** Это мой голос. Я говорю это в первую ночь.
+  - `system / system` — **EN:** It learns to speak. — **RU:** Она учится говорить.
+
+### Грамматика: and, but, because — маленькие слова-связки
+
+Слово and («и») соединяет два слова или две части фразы: Stop and push! Слово but («но», «а») показывает противоположность: It is a wall. But it is not a wall. Слово because («потому что») называет причину: Let me in, because I am Dan and I learn. Сами по себе эти слова ничего не делают, но именно они склеивают слова в длинную фразу. Because обычно стоит посередине предложения и отвечает на вопрос «почему?».
+
+- Stop and push! — Стой и толкай!
+- It is a wall. But it is not a wall. — Это стена. Но это не стена.
+- Let me in, because I am Dan and I learn. — Впусти меня, потому что я Дэн и я учусь.
+
+### Квиз
+
+1. Что такое Башня на самом деле?
+   - Огромный каменный дом
+   - Длинное предложение без конца **(верно)**
+   - Школа для альпинистов
+   - Рынок слов
+2. Почему Башня забирает слова?
+   - Это её игра
+   - Она боится Дэна
+   - Она не умеет делать слова сама **(верно)**
+   - Её об этом попросила Мира
+3. Что дало слово AND в бою на карнизе?
+   - Два слова за полтора дыхания **(верно)**
+   - Новое имя для Дэна
+   - Дверь в стене
+   - Карту Миры
+4. Чьим голосом заговорила стена в конце серии?
+   - Миры
+   - Хранителя
+   - Системы
+   - Голосом Дэна **(верно)**
+
+---
+
+## Эпизод 10 (s1e10): The First Sentence — Первое предложение
+
+- **Уровень:** A1
+- **Панелей:** 16
+- **newWords:** make, find, close, hold, strong, new, breath, fight, every, last
+
+### Синопсис
+
+Мира находит Дэна рядом с Линой у говорящей стены, впервые просит прощения и не может даже подойти к сестре: проданное слово держит её ноги. Железная дверь не поддаётся ни PUSH, ни пустому OPEN, и Дэн, глядя на кладку, понимает, что стену держат не камни, а швы, и собирает первое предложение: «I open the door». Правдивое предложение стоит всего одно дыхание и привязывает сразу целую россыпь простых слов; Дэн учит Миру говорить маленькие слова, и у неё получается собственное предложение. В последнем зале их ждёт Хранитель, не в кресле, а на ногах, и шеренга Безмолвных; Дэн отказывается отдать имя, пробует бой предложениями и теряет дыхание. Мира кричит изо всех сил, падает без дыхания, и высокий Безмолвный забирает её имя. Хранитель называет цену: имя Дэна за имя Миры.
+
+### Сценарий по панелям
+
+#### Панель 01
+
+- **bg:** `tower-exterior` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), silent (center), mira (right)
+- **art:** Wide shot at the foot of the Wall of Letters: Dan at the left and the child-sized Silent at the center stand together, while Mira at the right has stopped three steps away, out of breath, her red cord on her left wrist. Behind them the wall's top gap still pulses faintly vermilion.
+- **Реплики:**
+  - `narration-ru` — **RU:** Стена за спиной всё ещё шепчет голосом Дэна. Мира пришла на этот голос — и остановилась в трёх шагах от маленькой Безмолвной.
+  - `speech / mira` — **EN:** You find her. — **RU:** Ты нашёл её.
+  - `speech / dan` — **EN:** She finds me. — **RU:** Это она меня нашла.
+
+#### Панель 02
+
+- **bg:** `tower-exterior` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Quiet two-shot at the wall's foot: Mira at the right looks at the ground and rubs the back of her neck, awkward and stiff. Dan at the left raises one finger like an engineer with an idea. A little ochre lantern glows between them.
+- **Реплики:**
+  - `speech / mira` — **EN:** I am sorry, Zero. — **RU:** Прости, Зеро.
+  - `speech / dan` — **EN:** I don't like your plan. But I have a new plan. We make a sentence for the last door. — **RU:** Мне не нравится твой план. Но у меня есть новый план. Мы составим предложение для последней двери.
+
+#### Панель 03
+
+- **bg:** `tower-exterior` | **mood:** `tense` | **sfx:** `—`
+- **cast:** mira (left), silent (center), system (right)
+- **art:** Tense shot: Mira at the left clenches her red cord in her fist and leans forward as if to step, but her feet stay rooted. The child-sized Silent in the center turns its blank face toward her, arms hanging. The System window floats at the right.
+- **Реплики:**
+  - `narration-ru` — **RU:** Мира не может подойти. Проданное слово оставляет Дыру: её ноги сами обходят всё, что это слово называло.
+  - `system / system` — **EN:** Mira holds her cord. She does not hold the child. — **RU:** Мира держит свой шнурок. Ребёнка она не держит.
+  - `speech / mira` — **EN:** I can't. I don't know why. — **RU:** Я не могу. Я не знаю почему.
+
+#### Панель 04
+
+- **bg:** `corridor` | **mood:** `tense` | **sfx:** `THUD`
+- **cast:** dan (left), system (right)
+- **art:** Tense shot in a narrow stone corridor: a huge black iron-banded door fills the center and right of the frame. Dan at the left presses both palms flat against it, shoulders straining, small vermilion sparks around his hands, but the door does not move. Mira stands behind with her arms crossed; the System window floats top right.
+- **Реплики:**
+  - `system / system` — **EN:** This door is strong. PUSH is weak here. — **RU:** Эта дверь сильная. PUSH здесь слабое.
+  - `speech / dan` — **EN:** I can say OPEN. It does nothing. The Keeper has it. — **RU:** Я могу сказать OPEN. Оно ничего не делает. Оно у Хранителя.
+
+#### Панель 05
+
+- **bg:** `corridor` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (center)
+- **art:** Quiet close shot: Dan alone at the center rests one hand on the cold iron door and studies the joints of the stones around it with an engineer's squint; faint ochre construction-style lines seem to trace the seams of the wall as he thinks. His yellow pencil is behind his right ear.
+- **Реплики:**
+  - `narration-ru` — **RU:** Слово — это камень. Но стену держат не камни, а кладка. Инженер в Дэне наконец поднимает голову.
+  - `thought / dan` — **EN:** One stone is not a wall. The Tower makes a sentence. I can make a sentence too. — **RU:** Один камень — ещё не стена. Башня делает предложение. Я тоже могу сделать предложение.
+
+#### Панель 06
+
+- **bg:** `corridor` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Two-shot in the corridor: Dan at the left gestures with an open hand, drawing three small invisible points in the air with a fingertip, explaining. Mira at the right has her arms crossed and one eyebrow with the scar raised, sceptical.
+- **Реплики:**
+  - `speech / mira` — **EN:** We buy words. They don't make a sentence. Nobody can. — **RU:** Мы покупаем слова. Они не делают предложение. Никто не может.
+  - `speech / dan` — **EN:** I learn words. Who? I. What do I do? Open. What? The door. — **RU:** Я учу слова. Кто? Я. Что делаю? Открываю. Что? Дверь.
+
+#### Панель 07
+
+- **bg:** `flash` | **mood:** `action` | **sfx:** `—`
+- **cast:** dan (center)
+- **art:** Bright overexposed shot: Dan alone at the center stands calm with his hand extended toward the iron door. From his mouth a steady horizontal row of four glowing vermilion glyph shapes travels in a neat straight line, like a sentence on a ruled page. At the far side the great iron door swings quietly inward and white light spills out.
+- **Реплики:**
+  - `shout / dan` — **EN:** I open the door. — **RU:** Я открываю дверь.
+  - `system / system` — **EN:** Sentence: 4 words. True. One breath. — **RU:** Предложение: 4 слова. Правда. Одно дыхание.
+
+#### Панель 08
+
+- **bg:** `corridor` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (right), system (center)
+- **art:** Two-shot: Mira at the right stares at the now-open iron door, mouth open, stunned. Dan at the left gives a modest shrug, smug and tired at the same time. The System window floats above the center. Beyond the open door is a dim passage with a distant ochre light.
+- **Реплики:**
+  - `speech / mira` — **EN:** One breath? For that door? You have no OPEN! — **RU:** Одно дыхание? За эту дверь? У тебя нет OPEN!
+  - `speech / dan` — **EN:** I don't need a strong word. Every door hears a true sentence. — **RU:** Мне не нужно сильное слово. Любая дверь слышит правдивое предложение.
+  - `system / system` — **EN:** A true sentence makes small words yours. DOOR is yours now. Count: six. — **RU:** Правдивое предложение делает маленькие слова твоими. DOOR теперь твоё. Счёт: шесть.
+
+#### Панель 09
+
+- **bg:** `corridor` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (right), system (center)
+- **art:** Playful montage in one frame: Dan at the left laughs, holding a small lit oil lamp in his raised right hand and a brass key in his left, while small vermilion glyph shapes orbit him like fireflies. The iron door stands half-closed behind him. Mira at the right has her arms folded and one eyebrow raised, almost smiling. The System window hovers at the top.
+- **Реплики:**
+  - `speech / dan` — **EN:** I close the door. I hold the lamp. I find the key. I see the stone. I touch the stone! — **RU:** Я закрываю дверь. Я держу лампу. Я нахожу ключ. Я вижу камень. Я трогаю камень!
+  - `system / system` — **EN:** A true sentence is strong. Count: 14. — **RU:** Правдивое предложение сильное. Счёт: 14.
+  - `speech / mira` — **EN:** Stop. You play. — **RU:** Хватит. Ты играешь.
+
+#### Панель 10
+
+- **bg:** `corridor` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (right), system (center)
+- **art:** Warm comic shot: Mira at the right faces the iron door with one hand raised, mouth open mid-word, a neat row of four steady vermilion glyph shapes leaving her lips, and the door slides closed softly. Her mouth curls into a tiny first smile. Dan at the left grins, one finger raised like a teacher.
+- **Реплики:**
+  - `speech / mira` — **EN:** I... close... door. — **RU:** Я... закрыть... дверь.
+  - `system / system` — **EN:** Not true. That is not a sentence. — **RU:** Неправда. Это не предложение.
+  - `speech / dan` — **EN:** The small words are free. Say 'the'. Say it with me. — **RU:** Маленькие слова бесплатны. Скажи «the». Скажи вместе со мной.
+  - `speech / mira` — **EN:** I close the door. — **RU:** Я закрываю дверь.
+
+#### Панель 11
+
+- **bg:** `dungeon` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), keeper (center), silent (right)
+- **art:** Wide low-angle shot of the bare stone last hall: broken lamps are scattered and unlit on the floor, a high black wooden door with iron bands at the far end. The Keeper stands upright in the center, not in a chair, hands folded, hood hiding his eyes. At the right a tall Silent with two round dents on its blank face and a strip of mustard-yellow lanyard at its neck heads a silent line of tall Silents along the wall. Dan at the left, small, has stopped in the doorway.
+- **Реплики:**
+  - `narration-ru` — **RU:** Лампы в последнем зале сметены. Хранитель стоит — впервые не в кресле. За ним неподвижной шеренгой стоят Безмолвные.
+  - `speech / silent` — **EN:** I am Dan. — **RU:** Я Дэн.
+  - `speech / keeper` — **EN:** Welcome to the last hall. A new sentence, Zero! Every jar in my hall hears it. — **RU:** Добро пожаловать в последний зал. Новое предложение, Зеро! Каждая банка в моём зале его слышит.
+
+#### Панель 12
+
+- **bg:** `dungeon` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), keeper (right)
+- **art:** Tense two-shot in the hall: Dan at the left and the Keeper at the right face each other two paces apart. The Keeper holds out his open palm toward Dan, asking for his name; Dan's jaw is set, his fists closed, shaking his head. Tall Silents wait in shadow behind the Keeper.
+- **Реплики:**
+  - `speech / keeper` — **EN:** Forty years, and nobody makes a new sentence here. I need one more word. Your name. Give it to me. — **RU:** Сорок лет никто здесь не составлял новых предложений. Мне нужно ещё одно слово. Твоё имя. Отдай его мне.
+  - `speech / dan` — **EN:** No trade. I don't fight. I make sentences. — **RU:** Никакой сделки. Я не дерусь. Я составляю предложения.
+  - `speech / keeper` — **EN:** Then no trade. They take it. — **RU:** Тогда без сделки. Они его заберут.
+
+#### Панель 13
+
+- **bg:** `dungeon` | **mood:** `action` | **sfx:** `CRACK`
+- **cast:** dan (left), mira (center), silent (right)
+- **art:** Action shot in the hall: Dan at the left thrusts his hand forward, vermilion abstract glyph shapes streaming from his mouth to freeze the nearest tall Silent at the right, which stops mid-step with a vermilion rim. Mira at the center-left has both hands braced against the iron door behind them, holding it shut. More tall Silents advance in shadow behind.
+- **Реплики:**
+  - `shout / dan` — **EN:** I stop the Silent! I close the way! — **RU:** Я останавливаю Безмолвного! Я закрываю путь!
+  - `shout / mira` — **EN:** Don't fight them all! Hold the door! — **RU:** Не дерись со всеми! Держи дверь!
+
+#### Панель 14
+
+- **bg:** `dungeon` | **mood:** `action` | **sfx:** `—`
+- **cast:** dan (left), mira (center), silent (right)
+- **art:** Powerful action shot: Mira at the center throws her head back in a full-throat shout, vermilion light pouring from her mouth and her red cord blazing, rings of abstract vermilion light spreading across the hall as the tall Silents in front stagger back with their arms raised. Dan at the left shields his face. The tall dented Silent with the yellow lanyard strip at the right still walks on toward Dan.
+- **Реплики:**
+  - `speech / silent` — **EN:** I am Dan. I am Dan. — **RU:** Я Дэн. Я Дэн.
+  - `shout / mira` — **EN:** Stop! Every one of you! — **RU:** Стойте! Все до одного!
+  - `system / system` — **EN:** Mira fights with her last breath. — **RU:** Мира дерётся последним дыханием.
+
+#### Панель 15
+
+- **bg:** `dungeon` | **mood:** `tense` | **sfx:** `—`
+- **cast:** silent (left), system (center), keeper (right)
+- **art:** Low tense shot: Mira lies on the stone floor, pale, eyes closed, her red cord dull on her left wrist. A tall plain Silent (no dents, no lanyard, a different one from the dented Silent) bends over her, its seam close to her face. The Keeper stands behind at the right; the System window floats above in warning style, solid vermilion frame.
+- **Реплики:**
+  - `speech / silent` — **EN:** I am Mira. — **RU:** Я Мира.
+  - `system / system` — **EN:** Word lost: MIRA. — **RU:** Слово потеряно: MIRA.
+  - `speech / keeper` — **EN:** Not the name I want. But a name is a name. — **RU:** Не то имя, которое мне нужно. Но имя есть имя.
+
+#### Панель 16
+
+- **bg:** `black` | **mood:** `tense` | **sfx:** `—`
+- **cast:** mira (left), keeper (center), system (right)
+- **art:** Dark shot: Mira at the left kneels with one hand at her throat, mouth open in a silent gasp, eyes wide and frightened. The Keeper at the center-right is half-lit, holding a tiny glass jar with one vermilion spark in his open palm. The System window at the right edge has a solid vermilion frame. Everything else is black; Dan's silhouette stands frozen at the far left edge.
+- **Реплики:**
+  - `speech / mira` — **EN:** I am... I am... — **RU:** Я... я...
+  - `speech / silent` — **EN:** Mira? Mira? — **RU:** Мира? Мира?
+  - `speech / keeper` — **EN:** Bring your name to my hall, Dan. Then she has hers. — **RU:** Принеси своё имя в мой зал, Дэн. И тогда у неё будет её имя.
+  - `system / system` — **EN:** Mira is Zero now. — **RU:** Мира теперь Зеро.
+
+### Грамматика: Порядок слов: кто + делает + что
+
+В английском предложении порядок почти всегда один: сначала тот, кто действует (I), потом глагол (open), потом то, с чем он действует (the door): I open the door. Нельзя выбросить маленькие слова: «I close door» — это ещё не предложение, поэтому у Миры сначала ничего не получилось. Слово the стоит прямо перед существительным и тоже является частью порядка. В Башне такое предложение, если оно правдивое, стоит одно дыхание и делает слова твоими.
+
+- I open the door. — Я открываю дверь.
+- I close the door. — Я закрываю дверь.
+- Mira holds her cord. — Мира держит свой шнурок.
+
+### Квиз
+
+1. Почему PUSH не открыл железную дверь?
+   - Дэн слишком устал
+   - Дверь была слишком сильной для одного слова **(верно)**
+   - Дверь уже была открыта
+   - Мира держала её с другой стороны
+2. Сколько дыханий стоило первое предложение Дэна?
+   - Три
+   - Десять
+   - Ни одного
+   - Одно **(верно)**
+3. Почему у Миры сначала не получилось?
+   - Она не слышала Дэна
+   - Она слишком устала
+   - Она сказала без маленьких слов, и это не предложение **(верно)**
+   - Дверь была заперта
+4. Чьё имя забрал Безмолвный в конце серии?
+   - Миры **(верно)**
+   - Дэна
+   - Лины
+   - Хранителя
+
+---
+
 # 3. Статус эпизодов (картинки и видео)
 
 Данные из `art/manifest.json`, только чтение.
@@ -1870,6 +2273,8 @@ This — то, что рядом («это»), that — то, что подал�
 | s1e06 | The Stair of Echoes / Лестница эха | 16 | 16 из 16 | 1 (панели 3) | да, 16 |
 | s1e07 | The Ink Market / Рынок Чернил | 17 | 17 из 17 | 1 (панели 7) | да, 17 |
 | s1e08 | Lina / Лина | 16 | 16 из 16 | 1 (панели 16) | да, 16 |
+| s1e09 | The Wall of Letters / Стена Букв | 16 | 0 из 16 | 0 | да, 16 |
+| s1e10 | The First Sentence / Первое предложение | 16 | 0 из 16 | 0 | да, 16 |
 
 ---
 

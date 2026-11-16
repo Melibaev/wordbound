@@ -122,6 +122,24 @@
    "titleRu": "Лина",
    "level": "A1",
    "file": "episodes/s1e08.json"
+  },
+  {
+   "id": "s1e09",
+   "season": 1,
+   "n": 9,
+   "title": "The Wall of Letters",
+   "titleRu": "Стена Букв",
+   "level": "A1",
+   "file": "episodes/s1e09.json"
+  },
+  {
+   "id": "s1e10",
+   "season": 1,
+   "n": 10,
+   "title": "The First Sentence",
+   "titleRu": "Первое предложение",
+   "level": "A1",
+   "file": "episodes/s1e10.json"
   }
  ]
 }

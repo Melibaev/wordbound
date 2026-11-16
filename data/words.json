@@ -5125,5 +5125,51 @@
   ],
   "ex": "I know that song.",
   "exRu": "Я знаю эту песню."
+ },
+ {
+  "id": "forty",
+  "w": "forty",
+  "ru": "сорок",
+  "pos": "num",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Forty years is a long time.",
+  "exRu": "Сорок лет — это долго."
+ },
+ {
+  "id": "half",
+  "w": "half",
+  "ru": "половина",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "I have one and a half apples.",
+  "exRu": "У меня полтора яблока."
+ },
+ {
+  "id": "reason",
+  "w": "reason",
+  "ru": "причина",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "reasons"
+  ],
+  "ex": "Give me a reason.",
+  "exRu": "Назови мне причину."
+ },
+ {
+  "id": "keep",
+  "w": "keep",
+  "ru": "хранить; держать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "keeps",
+   "kept",
+   "keeping"
+  ],
+  "ex": "Keep this key.",
+  "exRu": "Храни этот ключ."
  }
 ]

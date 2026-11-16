@@ -7,9 +7,11 @@
   "s1e05": true,
   "s1e06": true,
   "s1e07": true,
-  "s1e08": true
+  "s1e08": true,
+  "s1e09": true,
+  "s1e10": true
  },
  "placement": true,
- "version": 4,
+ "version": 5,
  "words": true
 }
