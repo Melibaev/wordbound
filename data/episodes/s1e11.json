@@ -1,0 +1,705 @@
+{
+ "id": "s1e11",
+ "title": "The Keeper's Door",
+ "titleRu": "Дверь Хранителя",
+ "level": "A1",
+ "newWords": [
+  "home",
+  "choose",
+  "stay",
+  "leave",
+  "remember",
+  "forget",
+  "call",
+  "year",
+  "old",
+  "young"
+ ],
+ "panels": [
+  {
+   "bg": "room",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Medium two-shot in the tiny round safe room: Mira at the right sits upright against the scratched ochre wall, grey-lipped and hollow-eyed, one hand at her throat. Dan at the left crouches facing her with both hands resting open on his own knees, speaking gently. A bare lamp with a vermilion-cored flame hangs above them.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Безмолвные не входят в свет лампы. Дэн принёс Миру в ближайшую комнату. У неё нет ни дыхания, ни имени."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "You are Mira.",
+     "ru": "Ты — Мира.",
+     "delivery": "gentle and urgent, saying it slowly like a fact she must believe, tired and warm"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I hear it. It is not mine. It is a sound.",
+     "ru": "Я его слышу. Оно не моё. Это просто звук.",
+     "delivery": "hoarse hollow whisper, flat and empty, no emotion, as if the name belongs to someone else"
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "Three-figure composition in the safe room: Mira at the center sits against the wall, pale, her face turned toward Dan; the child-sized Silent (Lina) at the right sits close beside her, hands in her own lap, blank face tilted up toward Mira. Dan at the left stands in the low doorway looking back, one hand on the door frame.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I have to go to him.",
+     "ru": "Я должен пойти к нему.",
+     "delivery": "quiet and heavy, a decision made against his will, jaw tight"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "You don't have to. You want to. Don't.",
+     "ru": "Не должен. Ты хочешь. Не надо.",
+     "delivery": "weak raspy deadpan, flat and short, but with a tiny crack of worry underneath"
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Lina, stay with her.",
+     "ru": "Лина, останься с ней.",
+     "delivery": "soft and kind, speaking to a child, then a last guilty glance"
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "pip",
+     "pos": "right"
+    }
+   ],
+   "art": "Medium shot in a narrow lamp-lit stone passage: Pip at the right walks briskly ahead, chewing a chunk of brown bread held in his right hand, his left hand pointing down the passage, cap and brass hand-bell swinging. Dan at the left follows a step behind with his arms crossed and one eyebrow up, wry and unimpressed.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "He waits for you. He always wants a name. I tell him things.",
+     "ru": "Он ждёт тебя. Ему всегда нужно имя. Я рассказываю ему всякое.",
+     "delivery": "fast cheeky patter, casual, a little too proud of himself, chewing between words"
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "Sorry. A little. He is old, but his bread is good. I am young. I need to eat!",
+     "ru": "Прости. Чуть-чуть. Он старый, но хлеб у него вкусный. Я молодой. Мне надо есть!",
+     "delivery": "fast comic defensive excuse, mock-sorry, then indignant on the last line"
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "system",
+     "pos": "right"
+    }
+   ],
+   "art": "Quiet shot in the passage: Dan at the left stops and rubs his forehead with his right hand, his yellow pencil held in his left hand. The System window hovers at the right, small and plain. Behind Dan the passage opens onto a distant amber glow, the Hall of Words.",
+   "lines": [
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "I need to make a plan.",
+     "ru": "Мне нужно составить план.",
+     "delivery": "tired inner voice, dry and low, talking to himself"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "You have 14 words and no plan.",
+     "ru": "У тебя 14 слов и нет плана.",
+     "delivery": "flat dry system announcement with a hint of mockery"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "keeper",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide shot of the Hall of Words: towering shelves of glass jars, but the left half of the hall is dark, its jars dim and dead. The Keeper sits in his high-backed chair at the right, hands folded, hood hiding his eyes, a faint smile; on the arm of the chair stands one tiny glass jar with a single vermilion spark. Dan at the left stands at the edge of the lit floor, small, hands loose at his sides.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Зал Слов наполовину тёмный: лампы на полках гаснут одна за другой. На подлокотнике кресла стоит банка с одной красной искрой — это имя Миры."
+    },
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "Welcome, Dan. You want to trade now.",
+     "ru": "Добро пожаловать, Дэн. Теперь ты хочешь торговать.",
+     "delivery": "calm velvety voice, slow and warm, a gentleman welcoming a guest he already owns"
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I don't want to trade. I want to know. Who are you?",
+     "ru": "Я не хочу торговать. Я хочу знать. Кто ты?",
+     "delivery": "tense and steady, controlled anger, refusing to be charmed"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "keeper",
+     "pos": "right"
+    }
+   ],
+   "art": "Low-angle medium shot centered on the Keeper in his chair at the right, his face tilted toward Dan, only his calm mouth visible, one pale hand lifting slowly from his lap toward the dark shelves. Dan at the left listens with his head tilted, pencil behind his ear. Warm amber light, soft shadow.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Хранитель рассказывает о прошлом в настоящем времени: на Этаже Имён другого времени нет."
+    },
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "A good question. I am the first Zero.",
+     "ru": "Хороший вопрос. Я — первый Зеро.",
+     "delivery": "soft pleased voice, a teacher praising a pupil, quiet and amused"
+    },
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "I come here a young man. No words. No friend. Now I am old. Forty years in this hall.",
+     "ru": "Я прихожу сюда молодым. Ни слов. Ни друга. Теперь я стар. Сорок лет в этом зале.",
+     "delivery": "slow quiet reminiscence, gentle and distant, a little tired, almost tender"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "keeper",
+     "pos": "right"
+    }
+   ],
+   "art": "Medium over-the-shoulder shot from behind the Keeper's chair: the Keeper's hooded head fills the foreground at the right, and beyond it Dan at the left, in focus and lit by amber jars, listens with a thoughtful, slowly softening frown.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "I make the rule. One word, one name. I have to live. Every year I want to go home.",
+     "ru": "Я делаю правило. Одно слово — одно имя. Мне надо жить. Каждый год я хочу домой.",
+     "delivery": "soft matter-of-fact tone, then a small honest ache on the last line, never raising his voice"
+    },
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "He is old. He wants what I want.",
+     "ru": "Он старый. Он хочет того же, чего хочу я.",
+     "delivery": "quiet surprised inner voice, slow, almost sympathetic"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "keeper",
+     "pos": "right"
+    }
+   ],
+   "art": "Tense shot looking past the chair to the sealed door: behind the Keeper's chair a tall door covered with vermilion wax seals fills the center of the frame. Dan at the left points at it with his right hand, his left hand open at his side; the Keeper at the right sits unmoving, hands folded, hood low.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "You have the door. You have OPEN. Go home.",
+     "ru": "У тебя есть дверь. У тебя есть OPEN. Иди домой.",
+     "delivery": "urgent and blunt, practical, an engineer pointing out the obvious"
+    },
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "The door needs two. One remembers. One calls. Nobody calls my name. I don't remember it.",
+     "ru": "Двери нужны двое. Один помнит. Другой зовёт. Моё имя никто не зовёт. И я его не помню.",
+     "delivery": "calm symmetrical phrasing, then a cold flat emptiness on the last two sentences"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": "RING",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    },
+    {
+     "id": "keeper",
+     "pos": "right"
+    }
+   ],
+   "art": "Moody shot: from behind the wax-sealed door a faint muffled ringing is shown as soft concentric vermilion ripples across the seals. Dan at the left has turned toward the door, lips parted, one hand halfway raised toward his ear. The Keeper at the right turns his hooded head slightly toward Dan, smiling. The System window hovers at the top center, small.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "За печатями глухо звонит телефон."
+    },
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "But your mother calls. Every hour she calls Dan.",
+     "ru": "Но твоя мама звонит. Каждый час она зовёт: Дэн.",
+     "delivery": "soft and almost kind, a gentle sting, savouring the words"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Missed calls: 12.",
+     "ru": "Пропущенных звонков: 12.",
+     "delivery": "flat cold system counter, neutral and quiet, no emotion"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "keeper",
+     "pos": "right"
+    }
+   ],
+   "art": "Low-angle tense two-shot: the Keeper at the right rises half out of his chair, one open palm turned upward as if offering, his other hand on the chair arm. Dan at the left holds one hand up as if to stop him, jaw tight, the other hand closed in a fist.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "I have OPEN. I need your name. Your mother calls it. With it I go home as Dan.",
+     "ru": "OPEN у меня есть. Мне нужно твоё имя. Твоя мама зовёт его. С ним я иду домой как Дэн.",
+     "delivery": "slow velvety reveal, calm and pleased, each short sentence laid down like a card on a table"
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "She knows her son!",
+     "ru": "Она знает своего сына!",
+     "delivery": "sharp angry protest, voice cracking, fighting panic"
+    },
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "The door makes me her son. She sees Dan. She hears Dan.",
+     "ru": "Дверь сделает меня её сыном. Она видит Дэна. Она слышит Дэна.",
+     "delivery": "soft cold certainty, gentle and terrible, no triumph in the voice"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "keeper",
+     "pos": "right"
+    }
+   ],
+   "art": "Close tense over-the-shoulder shot: the Keeper at the right holds the tiny glass jar with one vermilion spark in his open left palm, his right hand folded away. Dan at the left stares at the jar, his face stricken and torn.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "One way. Give me your name, whole. I give Mira her name. You stay. I go home to your mother. She is not alone. Is that bad?",
+     "ru": "Первый путь. Отдай мне имя целиком. Я верну Мире её имя. Ты остаёшься. Я иду домой к твоей маме. Она не одна. Разве это плохо?",
+     "delivery": "gentle reasonable offer, almost kind, with a small cold pause before the last sentence"
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "She is my mother!",
+     "ru": "Она моя мама!",
+     "delivery": "raw cracked protest, breaking, on the edge of tears"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "keeper",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide tense shot: the Keeper stands beside his chair at the right with both open hands spread to the sides in a quiet, polite gesture of two choices: one toward the jar on the chair arm, the other toward the sealed door behind him. Dan at the left stands rooted, shaking his head slowly, pale.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "Or go home now. You leave, and you forget the Tower. You forget Mira. It is a dream. I keep her name. You have to choose.",
+     "ru": "Или иди домой, сейчас. Ты уходишь — и забываешь Башню. Забываешь Миру. Это сон. Её имя остаётся у меня. Ты должен выбрать.",
+     "delivery": "calm mild final offer, a salesman closing a deal, soft and symmetrical"
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "I forget Mira? No!",
+     "ru": "Я забуду Миру? Нет!",
+     "delivery": "horrified disbelief rising into refusal, voice shaking"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "action",
+   "sfx": "THUD",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    },
+    {
+     "id": "keeper",
+     "pos": "right"
+    }
+   ],
+   "art": "Dynamic shot: Dan at the left lunges forward with his right arm stretched toward the jar on the chair arm, his left arm swung back for balance; a pane of faint vermilion light like a sheet of glass flares in the air in front of the jar and throws him back, his glasses slipping. The Keeper at the right sits calmly, hands folded. The System window floats at the top in warning style.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "I take the jar!",
+     "ru": "Я беру банку!",
+     "delivery": "desperate sharp shout, a lunge of pure frustration"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Not true. Two breaths lost.",
+     "ru": "Неправда. Потеряно два вздоха.",
+     "delivery": "flat dry system judgment, cold and short"
+    },
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "You can't take, Dan. A trade is a trade. But look. OPEN.",
+     "ru": "Ты не можешь взять, Дэн. Сделка есть сделка. Но смотри. OPEN.",
+     "delivery": "soft patient reproach, then a quiet knowing invitation on the last word"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": "CRACK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "keeper",
+     "pos": "right"
+    }
+   ],
+   "art": "Cinematic reveal: the Keeper at the right stands and raises one hand toward the sealed door; the wax seals crack one by one and a slit of cold green-grey fluorescent light opens in the door, through which Dan sees his own office, a desk, and a ringing phone with a glowing screen. Dan at the left reaches toward the slit with both hands, mouth open.",
+   "lines": [
+    {
+     "type": "narration",
+     "en": "Mom: Dan? Dan, call me. Please.",
+     "ru": "Мама: Дэн? Дэн, позвони мне. Пожалуйста.",
+     "delivery": "warm worried mother's voice heard through a thin phone speaker, tired and trembling, trying to stay calm"
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "Mom!",
+     "ru": "Мама!",
+     "delivery": "broken desperate cry, choked with tears"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "system",
+     "pos": "right"
+    }
+   ],
+   "art": "Intimate close-up: Dan at the left, eyes wet, his right hand pressed flat on his chest where faint vermilion light glows through his shirt, threads of abstract vermilion glyph shapes drifting up from him like fireflies. The System window at the right is large and clean with a bright vermilion border, as a rank-up window.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Правдивое «хочу» и «нужно» связывает слова. Дэн знает много простых слов — и сразу много из них становятся его."
+    },
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "I want to go home. I need to call her. I want to remember her voice.",
+     "ru": "Я хочу домой. Мне нужно ей позвонить. Я хочу помнить её голос.",
+     "delivery": "trembling honest inner voice, simple and heartfelt, nearly whispering"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "True. True. True. Count: 31. Rank up: WORD.",
+     "ru": "Правда. Правда. Правда. Счёт: 31. Новый ранг: WORD.",
+     "delivery": "flat cold game-system announcement, crisp, with a slight formal lift on the rank"
+    },
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "And Mira has no name because of me. I don't want to leave her.",
+     "ru": "А у Миры нет имени из-за меня. Я не хочу её оставлять.",
+     "delivery": "quiet guilty inner voice, heavy, almost breaking"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "pip",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide shot at the edge of the hall: Mira at the right stands in the entrance arch with one hand braced on a stone pillar, pale and unsteady. Pip stands just behind her at the center, small, guiltily holding his cap in both hands. Dan at the left stands half turned away from the open slit of office light, staring at her.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Zero. Look at the door.",
+     "ru": "Зеро. Смотри на дверь.",
+     "delivery": "hoarse thin voice, still deadpan, forcing steadiness through weakness"
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "You have no name! I can't leave you.",
+     "ru": "У тебя нет имени! Я не могу тебя оставить.",
+     "delivery": "anguished and cracking, torn apart"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I stay. I have three years here. You are young. You have a mother.",
+     "ru": "Я остаюсь. У меня здесь три года. Ты молодой. У тебя есть мама.",
+     "delivery": "quiet flat finality, no self-pity, just the numbers"
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "keeper",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Dark dramatic shot: Dan at the center, one hand on the edge of the open door, a slit of cold office light falling across his face and glasses; around him everything else is black. A faint hooded silhouette of the Keeper stands at the far left, and a faint silhouette of Mira at the far right edge; a tiny System window floats at the top, blank.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "Choose, Dan.",
+     "ru": "Выбирай, Дэн.",
+     "delivery": "soft final push, quiet and gentle, never raising his voice"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "You have to choose. This voice can't help.",
+     "ru": "Ты должен выбрать. Этот голос не поможет.",
+     "delivery": "flat dry system line, a hint of something almost like regret under the flatness"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Zero. Go.",
+     "ru": "Зеро. Иди.",
+     "delivery": "barely a whisper, hoarse and plain, the warmest thing she can say"
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "want to / need to / have to + глагол",
+  "body": "Три маленьких слова с to говорят, как человек относится к действию. I want to go — я хочу пойти (моё желание). I need to go — мне нужно пойти (нужда). I have to go — я должен пойти (так требует закон или чужое правило). После to стоит обычная форма глагола: want to trade, need to eat. Отрицание ставится перед главным словом: I don't want to trade. Обратите внимание: You don't have to — это «не обязан», а не «нельзя». Мира говорит именно так: Дэн не обязан идти, он просто хочет.",
+  "examples": [
+   {
+    "en": "I have to go to him.",
+    "ru": "Я должен пойти к нему."
+   },
+   {
+    "en": "You don't have to. You want to.",
+    "ru": "Не должен. Ты хочешь."
+   },
+   {
+    "en": "I don't want to trade. I want to know.",
+    "ru": "Я не хочу торговать. Я хочу знать."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Кто такой Хранитель?",
+   "options": [
+    "Старший брат Миры",
+    "Первый Зеро: человек, который сорок лет живёт в Башне",
+    "Безмолвный с жёлтой полоской на шее",
+    "Друг Пипа с рынка"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Что нужно двери домой, чтобы открыться?",
+   "options": [
+    "Только слово OPEN",
+    "Один человек и жёлтый карандаш",
+    "Двое: тот, кто помнит, и тот, кто зовёт",
+    "Три банки со словами"
+   ],
+   "answer": 2
+  },
+  {
+   "q": "Что Хранитель хочет сделать с именем Дэна?",
+   "options": [
+    "Уйти домой к маме Дэна под его именем",
+    "Вернуть его Мире",
+    "Продать в рынке чернил",
+    "Спрятать в банку навсегда"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Что говорит Мира в самом конце серии?",
+   "options": [
+    "Останься со мной",
+    "Купи мне имя",
+    "Я тебя прощаю",
+    "Зеро. Иди."
+   ],
+   "answer": 3
+  }
+ ]
+}

@@ -1839,7 +1839,8 @@
    "mothers",
    "mom",
    "mum",
-   "mama"
+   "mama",
+   "mother's"
   ],
   "ex": "My mother is at home.",
   "exRu": "Моя мама дома."
@@ -4983,7 +4984,9 @@
   "ru": "Лина (имя)",
   "pos": "name",
   "lvl": "A1",
-  "forms": [],
+  "forms": [
+   "lina's"
+  ],
   "ex": "Lina is her sister.",
   "exRu": "Лина её сестра."
  },
@@ -5171,5 +5174,122 @@
   ],
   "ex": "Keep this key.",
   "exRu": "Храни этот ключ."
+ },
+ {
+  "id": "leave",
+  "w": "leave",
+  "ru": "уходить; оставлять",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "leaves",
+   "leaving"
+  ],
+  "ex": "I don't want to leave her.",
+  "exRu": "Я не хочу её оставлять."
+ },
+ {
+  "id": "teach",
+  "w": "teach",
+  "ru": "учить (кого-то); преподавать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": [
+   "teaches",
+   "teaching",
+   "teacher"
+  ],
+  "ex": "I can teach you.",
+  "exRu": "Я могу научить тебя."
+ },
+ {
+  "id": "together",
+  "w": "together",
+  "ru": "вместе",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "We open this door together.",
+  "exRu": "Мы вместе открываем эту дверь."
+ },
+ {
+  "id": "rank",
+  "w": "rank",
+  "ru": "ранг",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "ranks"
+  ],
+  "ex": "Rank up: WORD.",
+  "exRu": "Новый ранг: WORD."
+ },
+ {
+  "id": "class",
+  "w": "class",
+  "ru": "класс (в игре); урок",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [
+   "classes"
+  ],
+  "ex": "Class: BUILDER.",
+  "exRu": "Класс: BUILDER."
+ },
+ {
+  "id": "phrase",
+  "w": "phrase",
+  "ru": "фраза",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "phrases"
+  ],
+  "ex": "Rank up: PHRASE.",
+  "exRu": "Новый ранг: PHRASE."
+ },
+ {
+  "id": "builder",
+  "w": "builder",
+  "ru": "строитель",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "builders"
+  ],
+  "ex": "Class: BUILDER.",
+  "exRu": "Класс: BUILDER."
+ },
+ {
+  "id": "mine",
+  "w": "mine",
+  "ru": "мой; моё",
+  "pos": "pron",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "This word is mine.",
+  "exRu": "Это слово моё."
+ },
+ {
+  "id": "rule",
+  "w": "rule",
+  "ru": "правило",
+  "pos": "n",
+  "lvl": "A2",
+  "forms": [
+   "rules"
+  ],
+  "ex": "This is the rule.",
+  "exRu": "Это правило."
+ },
+ {
+  "id": "as",
+  "w": "as",
+  "ru": "как; в роли",
+  "pos": "prep",
+  "lvl": "A2",
+  "forms": [],
+  "ex": "I go home as Dan.",
+  "exRu": "Я иду домой как Дэн."
  }
 ]

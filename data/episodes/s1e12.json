@@ -1,0 +1,688 @@
+{
+ "id": "s1e12",
+ "title": "Sister",
+ "titleRu": "Сестра",
+ "level": "A1",
+ "newWords": [
+  "sister",
+  "mean",
+  "teach",
+  "hear",
+  "together",
+  "back",
+  "again",
+  "hundred",
+  "answer",
+  "same"
+ ],
+ "panels": [
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "center"
+    }
+   ],
+   "art": "Tight dramatic shot: Dan's right hand rests on the edge of the open door home at the right of the frame, a slit of cold green-grey office light falling across his face and glasses. His left hand hangs at his side in a closed fist; his eyes are shut and his brow pinched as he turns his head away from the light, back toward the dark amber hall.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Рука Дэна лежит на краю двери домой, свет офиса падает ему на лицо. Он оборачивается."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Mom. One more minute. I come back. I am sorry. I don't go. There is a new way.",
+     "ru": "Мама. Ещё одну минуту. Я вернусь. Прости. Я не ухожу. Есть новый путь.",
+     "delivery": "a broken whisper at first, exhausted and guilty, then firming into a quiet steady decision"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Medium two-shot in the Hall of Words: Dan at the left, steady, holds both hands open at chest height as he speaks to Mira. Mira at the right stands pale and hollow-eyed, one hand at her throat, listening without understanding. Behind them on the chair arm the tiny glass jar glows a little brighter.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Имя нельзя купить, но его можно назвать. Три правдивых предложения о человеке — и имя находит дорогу к тому, кто его потерял."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Listen. You are Mira. You climb. You count every breath.",
+     "ru": "Слушай. Ты Мира. Ты лазишь по Башне. Ты считаешь каждый вздох.",
+     "delivery": "calm firm and gentle, speaking each fact slowly like laying stones"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "It is a sound.",
+     "ru": "Это просто звук.",
+     "delivery": "hollow flat whisper, empty and distant"
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "You say 'Loud is dead'. You give me bread. You wait three years for one girl. Who are you?",
+     "ru": "Ты говоришь «Шумный — мёртвый». Ты отдаёшь мне хлеб. Три года ты ждёшь одну девочку. Кто ты?",
+     "delivery": "warm and certain, rising with each true sentence, the last question almost a plea"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "action",
+   "sfx": "CRACK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "keeper",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Burst shot: on the chair arm in the background the glass jar cracks open and a ribbon of vermilion light flies across the hall into Mira's chest. Mira at the right throws her head back, mouth open mid-word, her red cord flaring. Dan at the left watches with wide eyes, both hands half raised. The Keeper sits stunned in his chair at the center; the System window floats at the top, blank.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "mira",
+     "en": "I am... I am Mira!",
+     "ru": "Я... Я Мира!",
+     "delivery": "a hoarse breaking cry, shocked and joyful, the name erupting out of her"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "True. True. True. MIRA comes back. Mira hears it. No trade.",
+     "ru": "Правда. Правда. Правда. MIRA возвращается. Мира слышит. Без обмена.",
+     "delivery": "flat cold game-system announcement with a hint of mockery directed at the Keeper"
+    },
+    {
+     "type": "shout",
+     "who": "keeper",
+     "en": "That is not a trade! Who pays?",
+     "ru": "Это не сделка! Кто платит?",
+     "delivery": "the velvet cracks, a polite man outraged for the first time, sharp and astonished"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "Medium shot: Mira at the center looks down, unsure, at the child-sized Silent (Lina) at the right, who stands very close in front of her with her blank face turned up. Dan at the left looks from one to the other with his hand under his chin, thinking. The amber hall stretches behind them.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Nobody pays. Mira, the child. Who is she?",
+     "ru": "Никто не платит. Мира, девочка. Кто она?",
+     "delivery": "short calm answer to the Keeper, then a soft careful question to Mira, patient and quiet"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "She is my... I can't hear the word.",
+     "ru": "Она моя... Я не слышу это слово.",
+     "delivery": "frustrated stumbling whisper, trailing off into a painful gap, stricken"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Quiet teaching shot: Dan at the left holds up three fingers of his right hand and with his left hand traces a small line in the air, patient like a teacher. Mira at the right listens, brow furrowed, her lips moving silently as she repeats after him. Between them hover three small steady vermilion glyph marks.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I can't give you the word. But I can teach you. Lina is a girl. Lina's mother is your mother. Lina's father is your father.",
+     "ru": "Я не могу дать тебе слово. Но я могу научить тебя. Лина — девочка. Мама Лины — твоя мама. Папа Лины — твой папа.",
+     "delivery": "patient friendly teacher voice, slow and clear, a small smile, pausing between each short sentence"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "My mother is Lina's mother. The same mother. The same father.",
+     "ru": "Моя мама — мама Лины. Та же мама. Тот же папа.",
+     "delivery": "slow careful repetition, testing each word, quiet wonder dawning"
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "It is the same family. What does it mean?",
+     "ru": "Это одна и та же семья. Что это значит?",
+     "delivery": "gentle and encouraging, leaning in, almost holding his breath"
+    }
+   ]
+  },
+  {
+   "bg": "flash",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "system",
+     "pos": "right"
+    }
+   ],
+   "art": "Soft overexposed white-gold frame: Mira at the center, eyes wide and wet, both hands pressed to her chest, mouth just closing on a word; a thin thread of vermilion light rises from her lips in a gentle ring. In the soft-focus far background a jar on a distant shelf cracks and releases a single warm spark that drifts toward her. The System window at the right glows gently.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Слова нет. Но смысл — вот он, целый, и никто не может его купить."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "It means... we are together. She is my... sister.",
+     "ru": "Это значит... мы вместе. Она моя... сестра.",
+     "delivery": "slow trembling realisation, each word pulled out of silence, the last word breaking into awe"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "New word: SISTER. SISTER is yours now.",
+     "ru": "Новое слово: SISTER. SISTER теперь твоё.",
+     "delivery": "flat cold game-system announcement, almost gentle for once"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "left"
+    },
+    {
+     "id": "system",
+     "pos": "center"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "Tender two-shot: Mira at the left kneels on one knee and holds the child-sized Silent's thin left hand gently in both of her hands. The small Silent at the right lifts her blank face toward Mira, her thin teal seam softly glowing vermilion at its edge as if she is about to speak. Soft warm light; the System window hovers above them.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Это не чужой голос. Это её собственный — тонкий, охрипший от трёх лет молчания."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I hear it! Lina. I am your sister. I am here.",
+     "ru": "Я слышу! Лина. Я твоя сестра. Я здесь.",
+     "delivery": "choked tender voice, breaking with emotion, warm and soft for the first time, whispering a vow"
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "voice": "lina_human",
+     "en": "Mira. ...Sister.",
+     "ru": "Мира. ...Сестра.",
+     "delivery": "tiny thin hoarse child's voice, her own voice for the first time, cracked from three years of silence, fragile and sweet"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "The child has two words. They are hers.",
+     "ru": "У девочки два слова. Они её.",
+     "delivery": "flat system line, quiet and almost warm"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "keeper",
+     "pos": "right"
+    }
+   ],
+   "art": "Tense two-shot: the Keeper at the right stands with his shoulders slightly slumped and his open hands hanging, hood low; behind him the jars on the shelves flicker and dim as if breathing out. Dan at the left stands steady, unsmiling but calm, the pencil in one hand, the other hand open at his side.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "You teach her. You give, and you still have it. Then every jar here is a lie.",
+     "ru": "Ты учишь её. Ты отдаёшь — и оно всё ещё у тебя. Тогда каждая банка здесь — ложь.",
+     "delivery": "soft stunned voice, the velvet gone thin, shaken to the root, almost a whisper"
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I teach. She learns. Nobody loses.",
+     "ru": "Я учу. Она учится. Никто ничего не теряет.",
+     "delivery": "calm quiet and plain, no triumph, just stating the truth"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "system",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide shot: the open door home behind the Keeper's chair swings slowly shut, the slit of cold office light narrowing to a thread and vanishing, the wax seals re-forming dull and grey. Dan at the left stands with his arms limp, watching it close with wet eyes but his chin up. The System window at the right floats low, blank.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Missed calls: 12. The call ends. The door closes. The way back is gone.",
+     "ru": "Пропущенных звонков: 12. Звонок обрывается. Дверь закрывается. Пути назад нет.",
+     "delivery": "flat cold system announcement, slow and weighty, each short sentence closing like a latch"
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Then I build a new way back.",
+     "ru": "Тогда я построю новый путь назад.",
+     "delivery": "quiet wet-eyed resolve, steady and low, a small stubborn engineer's smile at the edge"
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide low-angle shot of the bare stone last hall: the high black door banded with iron at the far end. Dan at the left, Mira at the center and the child-sized Silent at the right stand in a line facing it, small against the doorway, Mira and the small Silent holding hands. Tall Silents stand motionless in the shadows along both walls. Cold ash-grey light.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Дэн научил Миру — и ничего не потерял. Каждое слово, которое он объяснил, стало прочнее. Впереди последняя дверь этажа."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Count: 97. The last door wants a new sentence.",
+     "ru": "Счёт: 97. Последняя дверь хочет нового предложения.",
+     "delivery": "flat dry system announcement, matter-of-fact, quiet"
+    }
+   ]
+  },
+  {
+   "bg": "flash",
+   "mood": "action",
+   "sfx": "BOOM",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "Overexposed burst: Dan at the left, Mira at the center and the child-sized Silent at the right stand in a row about half a step apart before the black door, arms hanging at their sides, each with their mouth open in speech. From their three mouths one single unbroken horizontal ribbon of vermilion glyph shapes streams together into a straight line that strikes the door, which glows white from its seams.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Together. Say it with me. I am Dan,",
+     "ru": "Вместе. Скажи со мной. Я Дэн,",
+     "delivery": "steady rallying voice, calm and warm, leading a choir, the start of a vow"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "and I am Mira,",
+     "ru": "и я Мира,",
+     "delivery": "firm clear voice, proud, no longer hollow, speaking her own name like a flag"
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "voice": "lina_human",
+     "en": "Sister.",
+     "ru": "Сестра.",
+     "delivery": "tiny thin child's voice, hoarse and clear, one word offered with all her strength"
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "and we open this door together, because we go up.",
+     "ru": "и мы вместе открываем эту дверь, потому что мы идём вверх.",
+     "delivery": "ringing triumphant shout of three voices as one, bright and full, a climb to victory"
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "system",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide serene shot in open sky: the huge black door has risen straight upward into the cream clouds like a curtain, revealing a winding stair of pure warm light climbing into the sky. Dan at the left stands on the top step of the landing, small, one hand on his round glasses, awed. The System window at the right is large and bright, blank cream paper with an ornate double vermilion border and a round seal.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Sentence: 18 words. True. Count: one hundred. Rank up: PHRASE. Class: BUILDER. Title: Teacher of One.",
+     "ru": "Предложение: 18 слов. Правда. Счёт: сто. Новый ранг: PHRASE. Класс: BUILDER. Титул: Учитель одного.",
+     "delivery": "flat cold game-system announcement, crisp, each formula landing like a stamp, one hint of ceremony"
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "system",
+     "pos": "right"
+    }
+   ],
+   "art": "Quiet two-shot on the glowing stair landing: Dan at the left sits on the step with his elbows on his knees and his hands loosely clasped, looking up at the System window at the right with a tired smile. The window hovers close and slightly lowered, as if leaning in to talk.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "One hundred words. One hundred! Now answer. Why me?",
+     "ru": "Сто слов. Сто! Теперь ответь. Почему я?",
+     "delivery": "tired excited and a little cheeky, half laughing, then suddenly serious on the last question"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Answer: because you have zero words and you learn every word, and the others only buy and take, and the Tower wants to learn too.",
+     "ru": "Ответ: потому что у тебя ноль слов и ты учишь каждое слово, а другие только покупают и берут, и Башня тоже хочет учиться.",
+     "delivery": "flat dry system voice, slower and fuller than ever before, carefully building a long sentence like a first attempt"
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "That is a long sentence.",
+     "ru": "Это длинное предложение.",
+     "delivery": "dry surprised understatement, wry amused, shaking his head"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "It is the first. Don't tell Mira.",
+     "ru": "Это первое. Не говори Мире.",
+     "delivery": "flat deadpan with a hidden hint of pride and mischief"
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "system",
+     "pos": "right"
+    }
+   ],
+   "art": "Tense shot: the System window at the right turns slightly toward Dan, its border flickering from soft vermilion to a sharp solid line. Dan at the left has stopped mid-step on the stair, his right hand on his glasses, eyes wide. Behind them the stair of light seems to bend into dark clouds.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "And because you are here again.",
+     "ru": "И потому что ты здесь снова.",
+     "delivery": "flat quiet system voice, slower than before, a heavy pause before the last word"
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Again? What does 'again' mean?",
+     "ru": "Снова? Что значит «снова»?",
+     "delivery": "uneasy puzzled voice, the first chill of fear under the curiosity"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Ask me when you have 300 words. It is a long answer.",
+     "ru": "Спроси, когда у тебя будет 300 слов. Это длинный ответ.",
+     "delivery": "flat dry deflection, a slight softening on the last sentence"
+    }
+   ]
+  },
+  {
+   "bg": "corridor",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide shot looking back down a narrow stone stair-corridor lit with warm ochre light: Dan at the left and Mira at the center climb side by side, relaxed, Mira's red cord on her left wrist. Far behind them at the right, a tall Silent with two round dents on its blank face and a strip of mustard-yellow lanyard slips through the closing door, half in shadow, one long arm reaching in. The small Silent is just ahead, out of frame.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Thank you, Dan. ...Zero.",
+     "ru": "Спасибо, Дэн. ...Зеро.",
+     "delivery": "low and awkward, a rare soft thank-you, then slipping back into deadpan with the old nickname"
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "I am Dan.",
+     "ru": "Я Дэн.",
+     "delivery": "hollow smooth monotone, flat and eerie, imitating Dan's voice slightly wrong from far behind"
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "system",
+     "pos": "right"
+    }
+   ],
+   "art": "Dark close shot: Dan at the left, face upturned, lit from above by a faint warm ochre glow, listening. At the right the System window floats with a solid vermilion border in warning style. High above, at the top of the frame in darkness, a thin shaft of warm light like light under a door. Everything else is black.",
+   "lines": [
+    {
+     "type": "narration",
+     "en": "A voice from up there: Dan, eat something.",
+     "ru": "Голос сверху: Дэн, поешь что-нибудь.",
+     "delivery": "warm gentle motherly voice, slightly echoing from far above, familiar and tender"
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Mom?",
+     "ru": "Мама?",
+     "delivery": "a whisper full of hope and disbelief, breaking"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "That is not your mother. That is the Tower. It has your mother's voice.",
+     "ru": "Это не твоя мама. Это Башня. У неё голос твоей мамы.",
+     "delivery": "flat cold warning voice, slow and grave, no mockery now"
+    },
+    {
+     "type": "narration",
+     "en": "The voice: Come up, Dan. Mom waits, because you learn.",
+     "ru": "Голос: Поднимайся, Дэн. Мама ждёт, потому что ты учишься.",
+     "delivery": "the same warm motherly voice but slightly too even and too perfect, eerie, speaking Dan's own grammar back to him"
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "'s (чьё) и «X means Y» (что значит)",
+  "body": "Апостроф и s показывают, кому что принадлежит: Lina's mother — мать Лины, Lina's father — отец Лины. Сначала владелец, потом то, что ему принадлежит. Глагол mean значит «значить»: It means... — это значит...; вопрос строится с does: What does it mean? Так можно объяснить любое слово другими, уже знакомыми словами. Именно так Дэн вернул Мире слово sister: Lina's mother is your mother. Lina's father is your father. It is the same family.",
+  "examples": [
+   {
+    "en": "Lina's mother is your mother.",
+    "ru": "Мама Лины — твоя мама."
+   },
+   {
+    "en": "What does it mean?",
+    "ru": "Что это значит?"
+   },
+   {
+    "en": "It means... we are together.",
+    "ru": "Это значит... мы вместе."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Как Дэн вернул Мире имя?",
+   "options": [
+    "Обменял его на своё имя",
+    "Сказал о ней три правдивых предложения, без обмена",
+    "Отнял банку силой",
+    "Попросил Систему"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Как Мира снова услышала слово sister?",
+   "options": [
+    "Дэн объяснил его другими, знакомыми словами",
+    "Хранитель вернул его в награду",
+    "Лина написала его на стене",
+    "Она купила его у Пипа"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Какой класс получил Дэн?",
+   "options": [
+    "Singer",
+    "Keeper",
+    "Builder",
+    "Climber"
+   ],
+   "answer": 2
+  },
+  {
+   "q": "Чьим голосом позвали Дэна сверху?",
+   "options": [
+    "Голосом Миры",
+    "Голосом Лины",
+    "Голосом Хранителя",
+    "Башня говорила голосом мамы"
+   ],
+   "answer": 3
+  }
+ ]
+}

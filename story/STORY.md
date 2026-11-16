@@ -2259,6 +2259,417 @@ This — то, что рядом («это»), that — то, что подал�
 
 ---
 
+## Эпизод 11 (s1e11): The Keeper's Door — Дверь Хранителя
+
+- **Уровень:** A1
+- **Панелей:** 17
+- **newWords:** home, choose, stay, leave, remember, forget, call, year, old, young
+
+### Синопсис
+
+Дэн приводит безымянную Миру в безопасную комнату, оставляет с ней Лину и идёт к Хранителю: Пип по дороге признаётся, что за хлеб рассказывал ему всё. В Зале Слов Хранитель впервые говорит правду о себе: он первый Зеро, сорок лет в Башне, каждый год хочет домой — но дверь домой открывается только двоим, тому, кто помнит, и тому, кто зовёт, а его имя никто не зовёт. Зато мама Дэна звонит каждый час: Хранитель хочет выйти к ней под именем Дэна. Он предлагает два пути: отдать имя целиком и остаться в Башне (тогда Мира получит своё имя) или уйти домой и забыть Башню вместе с Мирой. Дэн пытается отнять банку, сила не работает («Not true»), и Хранитель сам открывает дверь, в щели виден офис и звонит телефон. Правдивые «хочу» и «нужно» связывают слова: счёт 31, ранг Word. Мира, бледная, приходит с Пипом и говорит: «Зеро. Иди». Рука Дэна на краю двери домой, и никто не поможет ему выбрать.
+
+### Сценарий по панелям
+
+#### Панель 01
+
+- **bg:** `room` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Medium two-shot in the tiny round safe room: Mira at the right sits upright against the scratched ochre wall, grey-lipped and hollow-eyed, one hand at her throat. Dan at the left crouches facing her with both hands resting open on his own knees, speaking gently. A bare lamp with a vermilion-cored flame hangs above them.
+- **Реплики:**
+  - `narration-ru` — **RU:** Безмолвные не входят в свет лампы. Дэн принёс Миру в ближайшую комнату. У неё нет ни дыхания, ни имени.
+  - `speech / dan` — **EN:** You are Mira. — **RU:** Ты — Мира.
+  - `speech / mira` — **EN:** I hear it. It is not mine. It is a sound. — **RU:** Я его слышу. Оно не моё. Это просто звук.
+
+#### Панель 02
+
+- **bg:** `room` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), mira (center), silent (right)
+- **art:** Three-figure composition in the safe room: Mira at the center sits against the wall, pale, her face turned toward Dan; the child-sized Silent (Lina) at the right sits close beside her, hands in her own lap, blank face tilted up toward Mira. Dan at the left stands in the low doorway looking back, one hand on the door frame.
+- **Реплики:**
+  - `speech / dan` — **EN:** I have to go to him. — **RU:** Я должен пойти к нему.
+  - `speech / mira` — **EN:** You don't have to. You want to. Don't. — **RU:** Не должен. Ты хочешь. Не надо.
+  - `speech / dan` — **EN:** Lina, stay with her. — **RU:** Лина, останься с ней.
+
+#### Панель 03
+
+- **bg:** `corridor` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), pip (right)
+- **art:** Medium shot in a narrow lamp-lit stone passage: Pip at the right walks briskly ahead, chewing a chunk of brown bread held in his right hand, his left hand pointing down the passage, cap and brass hand-bell swinging. Dan at the left follows a step behind with his arms crossed and one eyebrow up, wry and unimpressed.
+- **Реплики:**
+  - `speech / pip` — **EN:** He waits for you. He always wants a name. I tell him things. — **RU:** Он ждёт тебя. Ему всегда нужно имя. Я рассказываю ему всякое.
+  - `speech / pip` — **EN:** Sorry. A little. He is old, but his bread is good. I am young. I need to eat! — **RU:** Прости. Чуть-чуть. Он старый, но хлеб у него вкусный. Я молодой. Мне надо есть!
+
+#### Панель 04
+
+- **bg:** `corridor` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), system (right)
+- **art:** Quiet shot in the passage: Dan at the left stops and rubs his forehead with his right hand, his yellow pencil held in his left hand. The System window hovers at the right, small and plain. Behind Dan the passage opens onto a distant amber glow, the Hall of Words.
+- **Реплики:**
+  - `thought / dan` — **EN:** I need to make a plan. — **RU:** Мне нужно составить план.
+  - `system / system` — **EN:** You have 14 words and no plan. — **RU:** У тебя 14 слов и нет плана.
+
+#### Панель 05
+
+- **bg:** `hall` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), keeper (right)
+- **art:** Wide shot of the Hall of Words: towering shelves of glass jars, but the left half of the hall is dark, its jars dim and dead. The Keeper sits in his high-backed chair at the right, hands folded, hood hiding his eyes, a faint smile; on the arm of the chair stands one tiny glass jar with a single vermilion spark. Dan at the left stands at the edge of the lit floor, small, hands loose at his sides.
+- **Реплики:**
+  - `narration-ru` — **RU:** Зал Слов наполовину тёмный: лампы на полках гаснут одна за другой. На подлокотнике кресла стоит банка с одной красной искрой — это имя Миры.
+  - `speech / keeper` — **EN:** Welcome, Dan. You want to trade now. — **RU:** Добро пожаловать, Дэн. Теперь ты хочешь торговать.
+  - `speech / dan` — **EN:** I don't want to trade. I want to know. Who are you? — **RU:** Я не хочу торговать. Я хочу знать. Кто ты?
+
+#### Панель 06
+
+- **bg:** `hall` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), keeper (right)
+- **art:** Low-angle medium shot centered on the Keeper in his chair at the right, his face tilted toward Dan, only his calm mouth visible, one pale hand lifting slowly from his lap toward the dark shelves. Dan at the left listens with his head tilted, pencil behind his ear. Warm amber light, soft shadow.
+- **Реплики:**
+  - `narration-ru` — **RU:** Хранитель рассказывает о прошлом в настоящем времени: на Этаже Имён другого времени нет.
+  - `speech / keeper` — **EN:** A good question. I am the first Zero. — **RU:** Хороший вопрос. Я — первый Зеро.
+  - `speech / keeper` — **EN:** I come here a young man. No words. No friend. Now I am old. Forty years in this hall. — **RU:** Я прихожу сюда молодым. Ни слов. Ни друга. Теперь я стар. Сорок лет в этом зале.
+
+#### Панель 07
+
+- **bg:** `hall` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), keeper (right)
+- **art:** Medium over-the-shoulder shot from behind the Keeper's chair: the Keeper's hooded head fills the foreground at the right, and beyond it Dan at the left, in focus and lit by amber jars, listens with a thoughtful, slowly softening frown.
+- **Реплики:**
+  - `speech / keeper` — **EN:** I make the rule. One word, one name. I have to live. Every year I want to go home. — **RU:** Я делаю правило. Одно слово — одно имя. Мне надо жить. Каждый год я хочу домой.
+  - `thought / dan` — **EN:** He is old. He wants what I want. — **RU:** Он старый. Он хочет того же, чего хочу я.
+
+#### Панель 08
+
+- **bg:** `hall` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), keeper (right)
+- **art:** Tense shot looking past the chair to the sealed door: behind the Keeper's chair a tall door covered with vermilion wax seals fills the center of the frame. Dan at the left points at it with his right hand, his left hand open at his side; the Keeper at the right sits unmoving, hands folded, hood low.
+- **Реплики:**
+  - `speech / dan` — **EN:** You have the door. You have OPEN. Go home. — **RU:** У тебя есть дверь. У тебя есть OPEN. Иди домой.
+  - `speech / keeper` — **EN:** The door needs two. One remembers. One calls. Nobody calls my name. I don't remember it. — **RU:** Двери нужны двое. Один помнит. Другой зовёт. Моё имя никто не зовёт. И я его не помню.
+
+#### Панель 09
+
+- **bg:** `hall` | **mood:** `tense` | **sfx:** `RING`
+- **cast:** dan (left), system (center), keeper (right)
+- **art:** Moody shot: from behind the wax-sealed door a faint muffled ringing is shown as soft concentric vermilion ripples across the seals. Dan at the left has turned toward the door, lips parted, one hand halfway raised toward his ear. The Keeper at the right turns his hooded head slightly toward Dan, smiling. The System window hovers at the top center, small.
+- **Реплики:**
+  - `narration-ru` — **RU:** За печатями глухо звонит телефон.
+  - `speech / keeper` — **EN:** But your mother calls. Every hour she calls Dan. — **RU:** Но твоя мама звонит. Каждый час она зовёт: Дэн.
+  - `system / system` — **EN:** Missed calls: 12. — **RU:** Пропущенных звонков: 12.
+
+#### Панель 10
+
+- **bg:** `hall` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), keeper (right)
+- **art:** Low-angle tense two-shot: the Keeper at the right rises half out of his chair, one open palm turned upward as if offering, his other hand on the chair arm. Dan at the left holds one hand up as if to stop him, jaw tight, the other hand closed in a fist.
+- **Реплики:**
+  - `speech / keeper` — **EN:** I have OPEN. I need your name. Your mother calls it. With it I go home as Dan. — **RU:** OPEN у меня есть. Мне нужно твоё имя. Твоя мама зовёт его. С ним я иду домой как Дэн.
+  - `shout / dan` — **EN:** She knows her son! — **RU:** Она знает своего сына!
+  - `speech / keeper` — **EN:** The door makes me her son. She sees Dan. She hears Dan. — **RU:** Дверь сделает меня её сыном. Она видит Дэна. Она слышит Дэна.
+
+#### Панель 11
+
+- **bg:** `hall` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), keeper (right)
+- **art:** Close tense over-the-shoulder shot: the Keeper at the right holds the tiny glass jar with one vermilion spark in his open left palm, his right hand folded away. Dan at the left stares at the jar, his face stricken and torn.
+- **Реплики:**
+  - `speech / keeper` — **EN:** One way. Give me your name, whole. I give Mira her name. You stay. I go home to your mother. She is not alone. Is that bad? — **RU:** Первый путь. Отдай мне имя целиком. Я верну Мире её имя. Ты остаёшься. Я иду домой к твоей маме. Она не одна. Разве это плохо?
+  - `shout / dan` — **EN:** She is my mother! — **RU:** Она моя мама!
+
+#### Панель 12
+
+- **bg:** `hall` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), keeper (right)
+- **art:** Wide tense shot: the Keeper stands beside his chair at the right with both open hands spread to the sides in a quiet, polite gesture of two choices: one toward the jar on the chair arm, the other toward the sealed door behind him. Dan at the left stands rooted, shaking his head slowly, pale.
+- **Реплики:**
+  - `speech / keeper` — **EN:** Or go home now. You leave, and you forget the Tower. You forget Mira. It is a dream. I keep her name. You have to choose. — **RU:** Или иди домой, сейчас. Ты уходишь — и забываешь Башню. Забываешь Миру. Это сон. Её имя остаётся у меня. Ты должен выбрать.
+  - `shout / dan` — **EN:** I forget Mira? No! — **RU:** Я забуду Миру? Нет!
+
+#### Панель 13
+
+- **bg:** `hall` | **mood:** `action` | **sfx:** `THUD`
+- **cast:** dan (left), system (center), keeper (right)
+- **art:** Dynamic shot: Dan at the left lunges forward with his right arm stretched toward the jar on the chair arm, his left arm swung back for balance; a pane of faint vermilion light like a sheet of glass flares in the air in front of the jar and throws him back, his glasses slipping. The Keeper at the right sits calmly, hands folded. The System window floats at the top in warning style.
+- **Реплики:**
+  - `shout / dan` — **EN:** I take the jar! — **RU:** Я беру банку!
+  - `system / system` — **EN:** Not true. Two breaths lost. — **RU:** Неправда. Потеряно два вздоха.
+  - `speech / keeper` — **EN:** You can't take, Dan. A trade is a trade. But look. OPEN. — **RU:** Ты не можешь взять, Дэн. Сделка есть сделка. Но смотри. OPEN.
+
+#### Панель 14
+
+- **bg:** `hall` | **mood:** `tense` | **sfx:** `CRACK`
+- **cast:** dan (left), keeper (right)
+- **art:** Cinematic reveal: the Keeper at the right stands and raises one hand toward the sealed door; the wax seals crack one by one and a slit of cold green-grey fluorescent light opens in the door, through which Dan sees his own office, a desk, and a ringing phone with a glowing screen. Dan at the left reaches toward the slit with both hands, mouth open.
+- **Реплики:**
+  - `narration` — **EN:** Mom: Dan? Dan, call me. Please. — **RU:** Мама: Дэн? Дэн, позвони мне. Пожалуйста.
+  - `shout / dan` — **EN:** Mom! — **RU:** Мама!
+
+#### Панель 15
+
+- **bg:** `hall` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), system (right)
+- **art:** Intimate close-up: Dan at the left, eyes wet, his right hand pressed flat on his chest where faint vermilion light glows through his shirt, threads of abstract vermilion glyph shapes drifting up from him like fireflies. The System window at the right is large and clean with a bright vermilion border, as a rank-up window.
+- **Реплики:**
+  - `narration-ru` — **RU:** Правдивое «хочу» и «нужно» связывает слова. Дэн знает много простых слов — и сразу много из них становятся его.
+  - `thought / dan` — **EN:** I want to go home. I need to call her. I want to remember her voice. — **RU:** Я хочу домой. Мне нужно ей позвонить. Я хочу помнить её голос.
+  - `system / system` — **EN:** True. True. True. Count: 31. Rank up: WORD. — **RU:** Правда. Правда. Правда. Счёт: 31. Новый ранг: WORD.
+  - `thought / dan` — **EN:** And Mira has no name because of me. I don't want to leave her. — **RU:** А у Миры нет имени из-за меня. Я не хочу её оставлять.
+
+#### Панель 16
+
+- **bg:** `hall` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), pip (center), mira (right)
+- **art:** Wide shot at the edge of the hall: Mira at the right stands in the entrance arch with one hand braced on a stone pillar, pale and unsteady. Pip stands just behind her at the center, small, guiltily holding his cap in both hands. Dan at the left stands half turned away from the open slit of office light, staring at her.
+- **Реплики:**
+  - `speech / mira` — **EN:** Zero. Look at the door. — **RU:** Зеро. Смотри на дверь.
+  - `shout / dan` — **EN:** You have no name! I can't leave you. — **RU:** У тебя нет имени! Я не могу тебя оставить.
+  - `speech / mira` — **EN:** I stay. I have three years here. You are young. You have a mother. — **RU:** Я остаюсь. У меня здесь три года. Ты молодой. У тебя есть мама.
+
+#### Панель 17
+
+- **bg:** `black` | **mood:** `tense` | **sfx:** `—`
+- **cast:** keeper (left), dan (center), mira (right)
+- **art:** Dark dramatic shot: Dan at the center, one hand on the edge of the open door, a slit of cold office light falling across his face and glasses; around him everything else is black. A faint hooded silhouette of the Keeper stands at the far left, and a faint silhouette of Mira at the far right edge; a tiny System window floats at the top, blank.
+- **Реплики:**
+  - `speech / keeper` — **EN:** Choose, Dan. — **RU:** Выбирай, Дэн.
+  - `system / system` — **EN:** You have to choose. This voice can't help. — **RU:** Ты должен выбрать. Этот голос не поможет.
+  - `speech / mira` — **EN:** Zero. Go. — **RU:** Зеро. Иди.
+
+### Грамматика: want to / need to / have to + глагол
+
+Три маленьких слова с to говорят, как человек относится к действию. I want to go — я хочу пойти (моё желание). I need to go — мне нужно пойти (нужда). I have to go — я должен пойти (так требует закон или чужое правило). После to стоит обычная форма глагола: want to trade, need to eat. Отрицание ставится перед главным словом: I don't want to trade. Обратите внимание: You don't have to — это «не обязан», а не «нельзя». Мира говорит именно так: Дэн не обязан идти, он просто хочет.
+
+- I have to go to him. — Я должен пойти к нему.
+- You don't have to. You want to. — Не должен. Ты хочешь.
+- I don't want to trade. I want to know. — Я не хочу торговать. Я хочу знать.
+
+### Квиз
+
+1. Кто такой Хранитель?
+   - Старший брат Миры
+   - Первый Зеро: человек, который сорок лет живёт в Башне **(верно)**
+   - Безмолвный с жёлтой полоской на шее
+   - Друг Пипа с рынка
+2. Что нужно двери домой, чтобы открыться?
+   - Только слово OPEN
+   - Один человек и жёлтый карандаш
+   - Двое: тот, кто помнит, и тот, кто зовёт **(верно)**
+   - Три банки со словами
+3. Что Хранитель хочет сделать с именем Дэна?
+   - Уйти домой к маме Дэна под его именем **(верно)**
+   - Вернуть его Мире
+   - Продать в рынке чернил
+   - Спрятать в банку навсегда
+4. Что говорит Мира в самом конце серии?
+   - Останься со мной
+   - Купи мне имя
+   - Я тебя прощаю
+   - Зеро. Иди. **(верно)**
+
+---
+
+## Эпизод 12 (s1e12): Sister — Сестра
+
+- **Уровень:** A1
+- **Панелей:** 16
+- **newWords:** sister, mean, teach, hear, together, back, again, hundred, answer, same
+
+### Синопсис
+
+Дэн не уходит домой и не отдаёт имя: он называет Миру тремя правдивыми предложениями, банка с её именем лопается, и MIRA возвращается без обмена. Но слово sister Мира по-прежнему не слышит, и Дэн не может его подарить, зато может научить: он объясняет его через маму, папу и семью («Lina's mother is your mother»). Смысл возвращается раньше слова, Мира говорит «sister», и Лина впервые отвечает своим голосом. Хранитель понимает, что его банки лгут: учитель отдаёт слово и не теряет его. Звонок обрывается, дверь домой закрывается, и Дэн обещает построить новый путь назад. Втроём они говорят одно предложение, последняя дверь этажа поднимается, счёт Дэна — сто, ранг Phrase, класс Builder, титул Teacher of One. На вопрос «Why me?» Система отвечает первым в жизни длинным предложением и бросает крючок: ты здесь снова. Сзади в закрывающуюся дверь проскальзывает Nad, а сверху мамин голос зовёт Дэна фразой, которую мама никогда не говорила.
+
+### Сценарий по панелям
+
+#### Панель 01
+
+- **bg:** `black` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (center)
+- **art:** Tight dramatic shot: Dan's right hand rests on the edge of the open door home at the right of the frame, a slit of cold green-grey office light falling across his face and glasses. His left hand hangs at his side in a closed fist; his eyes are shut and his brow pinched as he turns his head away from the light, back toward the dark amber hall.
+- **Реплики:**
+  - `narration-ru` — **RU:** Рука Дэна лежит на краю двери домой, свет офиса падает ему на лицо. Он оборачивается.
+  - `speech / dan` — **EN:** Mom. One more minute. I come back. I am sorry. I don't go. There is a new way. — **RU:** Мама. Ещё одну минуту. Я вернусь. Прости. Я не ухожу. Есть новый путь.
+
+#### Панель 02
+
+- **bg:** `hall` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Medium two-shot in the Hall of Words: Dan at the left, steady, holds both hands open at chest height as he speaks to Mira. Mira at the right stands pale and hollow-eyed, one hand at her throat, listening without understanding. Behind them on the chair arm the tiny glass jar glows a little brighter.
+- **Реплики:**
+  - `narration-ru` — **RU:** Имя нельзя купить, но его можно назвать. Три правдивых предложения о человеке — и имя находит дорогу к тому, кто его потерял.
+  - `speech / dan` — **EN:** Listen. You are Mira. You climb. You count every breath. — **RU:** Слушай. Ты Мира. Ты лазишь по Башне. Ты считаешь каждый вздох.
+  - `speech / mira` — **EN:** It is a sound. — **RU:** Это просто звук.
+  - `speech / dan` — **EN:** You say 'Loud is dead'. You give me bread. You wait three years for one girl. Who are you? — **RU:** Ты говоришь «Шумный — мёртвый». Ты отдаёшь мне хлеб. Три года ты ждёшь одну девочку. Кто ты?
+
+#### Панель 03
+
+- **bg:** `hall` | **mood:** `action` | **sfx:** `CRACK`
+- **cast:** dan (left), keeper (center), mira (right)
+- **art:** Burst shot: on the chair arm in the background the glass jar cracks open and a ribbon of vermilion light flies across the hall into Mira's chest. Mira at the right throws her head back, mouth open mid-word, her red cord flaring. Dan at the left watches with wide eyes, both hands half raised. The Keeper sits stunned in his chair at the center; the System window floats at the top, blank.
+- **Реплики:**
+  - `shout / mira` — **EN:** I am... I am Mira! — **RU:** Я... Я Мира!
+  - `system / system` — **EN:** True. True. True. MIRA comes back. Mira hears it. No trade. — **RU:** Правда. Правда. Правда. MIRA возвращается. Мира слышит. Без обмена.
+  - `shout / keeper` — **EN:** That is not a trade! Who pays? — **RU:** Это не сделка! Кто платит?
+
+#### Панель 04
+
+- **bg:** `hall` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), mira (center), silent (right)
+- **art:** Medium shot: Mira at the center looks down, unsure, at the child-sized Silent (Lina) at the right, who stands very close in front of her with her blank face turned up. Dan at the left looks from one to the other with his hand under his chin, thinking. The amber hall stretches behind them.
+- **Реплики:**
+  - `speech / dan` — **EN:** Nobody pays. Mira, the child. Who is she? — **RU:** Никто не платит. Мира, девочка. Кто она?
+  - `speech / mira` — **EN:** She is my... I can't hear the word. — **RU:** Она моя... Я не слышу это слово.
+
+#### Панель 05
+
+- **bg:** `hall` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Quiet teaching shot: Dan at the left holds up three fingers of his right hand and with his left hand traces a small line in the air, patient like a teacher. Mira at the right listens, brow furrowed, her lips moving silently as she repeats after him. Between them hover three small steady vermilion glyph marks.
+- **Реплики:**
+  - `speech / dan` — **EN:** I can't give you the word. But I can teach you. Lina is a girl. Lina's mother is your mother. Lina's father is your father. — **RU:** Я не могу дать тебе слово. Но я могу научить тебя. Лина — девочка. Мама Лины — твоя мама. Папа Лины — твой папа.
+  - `speech / mira` — **EN:** My mother is Lina's mother. The same mother. The same father. — **RU:** Моя мама — мама Лины. Та же мама. Тот же папа.
+  - `speech / dan` — **EN:** It is the same family. What does it mean? — **RU:** Это одна и та же семья. Что это значит?
+
+#### Панель 06
+
+- **bg:** `flash` | **mood:** `calm` | **sfx:** `—`
+- **cast:** mira (center), system (right)
+- **art:** Soft overexposed white-gold frame: Mira at the center, eyes wide and wet, both hands pressed to her chest, mouth just closing on a word; a thin thread of vermilion light rises from her lips in a gentle ring. In the soft-focus far background a jar on a distant shelf cracks and releases a single warm spark that drifts toward her. The System window at the right glows gently.
+- **Реплики:**
+  - `narration-ru` — **RU:** Слова нет. Но смысл — вот он, целый, и никто не может его купить.
+  - `speech / mira` — **EN:** It means... we are together. She is my... sister. — **RU:** Это значит... мы вместе. Она моя... сестра.
+  - `system / system` — **EN:** New word: SISTER. SISTER is yours now. — **RU:** Новое слово: SISTER. SISTER теперь твоё.
+
+#### Панель 07
+
+- **bg:** `hall` | **mood:** `calm` | **sfx:** `—`
+- **cast:** mira (left), system (center), silent (right)
+- **art:** Tender two-shot: Mira at the left kneels on one knee and holds the child-sized Silent's thin left hand gently in both of her hands. The small Silent at the right lifts her blank face toward Mira, her thin teal seam softly glowing vermilion at its edge as if she is about to speak. Soft warm light; the System window hovers above them.
+- **Реплики:**
+  - `narration-ru` — **RU:** Это не чужой голос. Это её собственный — тонкий, охрипший от трёх лет молчания.
+  - `speech / mira` — **EN:** I hear it! Lina. I am your sister. I am here. — **RU:** Я слышу! Лина. Я твоя сестра. Я здесь.
+  - `speech / silent` — **EN:** Mira. ...Sister. — **RU:** Мира. ...Сестра.
+  - `system / system` — **EN:** The child has two words. They are hers. — **RU:** У девочки два слова. Они её.
+
+#### Панель 08
+
+- **bg:** `hall` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), keeper (right)
+- **art:** Tense two-shot: the Keeper at the right stands with his shoulders slightly slumped and his open hands hanging, hood low; behind him the jars on the shelves flicker and dim as if breathing out. Dan at the left stands steady, unsmiling but calm, the pencil in one hand, the other hand open at his side.
+- **Реплики:**
+  - `speech / keeper` — **EN:** You teach her. You give, and you still have it. Then every jar here is a lie. — **RU:** Ты учишь её. Ты отдаёшь — и оно всё ещё у тебя. Тогда каждая банка здесь — ложь.
+  - `speech / dan` — **EN:** I teach. She learns. Nobody loses. — **RU:** Я учу. Она учится. Никто ничего не теряет.
+
+#### Панель 09
+
+- **bg:** `hall` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), system (right)
+- **art:** Wide shot: the open door home behind the Keeper's chair swings slowly shut, the slit of cold office light narrowing to a thread and vanishing, the wax seals re-forming dull and grey. Dan at the left stands with his arms limp, watching it close with wet eyes but his chin up. The System window at the right floats low, blank.
+- **Реплики:**
+  - `system / system` — **EN:** Missed calls: 12. The call ends. The door closes. The way back is gone. — **RU:** Пропущенных звонков: 12. Звонок обрывается. Дверь закрывается. Пути назад нет.
+  - `speech / dan` — **EN:** Then I build a new way back. — **RU:** Тогда я построю новый путь назад.
+
+#### Панель 10
+
+- **bg:** `dungeon` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), mira (center), silent (right)
+- **art:** Wide low-angle shot of the bare stone last hall: the high black door banded with iron at the far end. Dan at the left, Mira at the center and the child-sized Silent at the right stand in a line facing it, small against the doorway, Mira and the small Silent holding hands. Tall Silents stand motionless in the shadows along both walls. Cold ash-grey light.
+- **Реплики:**
+  - `narration-ru` — **RU:** Дэн научил Миру — и ничего не потерял. Каждое слово, которое он объяснил, стало прочнее. Впереди последняя дверь этажа.
+  - `system / system` — **EN:** Count: 97. The last door wants a new sentence. — **RU:** Счёт: 97. Последняя дверь хочет нового предложения.
+
+#### Панель 11
+
+- **bg:** `flash` | **mood:** `action` | **sfx:** `BOOM`
+- **cast:** dan (left), mira (center), silent (right)
+- **art:** Overexposed burst: Dan at the left, Mira at the center and the child-sized Silent at the right stand in a row about half a step apart before the black door, arms hanging at their sides, each with their mouth open in speech. From their three mouths one single unbroken horizontal ribbon of vermilion glyph shapes streams together into a straight line that strikes the door, which glows white from its seams.
+- **Реплики:**
+  - `speech / dan` — **EN:** Together. Say it with me. I am Dan, — **RU:** Вместе. Скажи со мной. Я Дэн,
+  - `speech / mira` — **EN:** and I am Mira, — **RU:** и я Мира,
+  - `speech / silent` — **EN:** Sister. — **RU:** Сестра.
+  - `shout / dan` — **EN:** and we open this door together, because we go up. — **RU:** и мы вместе открываем эту дверь, потому что мы идём вверх.
+
+#### Панель 12
+
+- **bg:** `sky` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), system (right)
+- **art:** Wide serene shot in open sky: the huge black door has risen straight upward into the cream clouds like a curtain, revealing a winding stair of pure warm light climbing into the sky. Dan at the left stands on the top step of the landing, small, one hand on his round glasses, awed. The System window at the right is large and bright, blank cream paper with an ornate double vermilion border and a round seal.
+- **Реплики:**
+  - `system / system` — **EN:** Sentence: 18 words. True. Count: one hundred. Rank up: PHRASE. Class: BUILDER. Title: Teacher of One. — **RU:** Предложение: 18 слов. Правда. Счёт: сто. Новый ранг: PHRASE. Класс: BUILDER. Титул: Учитель одного.
+
+#### Панель 13
+
+- **bg:** `sky` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), system (right)
+- **art:** Quiet two-shot on the glowing stair landing: Dan at the left sits on the step with his elbows on his knees and his hands loosely clasped, looking up at the System window at the right with a tired smile. The window hovers close and slightly lowered, as if leaning in to talk.
+- **Реплики:**
+  - `speech / dan` — **EN:** One hundred words. One hundred! Now answer. Why me? — **RU:** Сто слов. Сто! Теперь ответь. Почему я?
+  - `system / system` — **EN:** Answer: because you have zero words and you learn every word, and the others only buy and take, and the Tower wants to learn too. — **RU:** Ответ: потому что у тебя ноль слов и ты учишь каждое слово, а другие только покупают и берут, и Башня тоже хочет учиться.
+  - `speech / dan` — **EN:** That is a long sentence. — **RU:** Это длинное предложение.
+  - `system / system` — **EN:** It is the first. Don't tell Mira. — **RU:** Это первое. Не говори Мире.
+
+#### Панель 14
+
+- **bg:** `sky` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), system (right)
+- **art:** Tense shot: the System window at the right turns slightly toward Dan, its border flickering from soft vermilion to a sharp solid line. Dan at the left has stopped mid-step on the stair, his right hand on his glasses, eyes wide. Behind them the stair of light seems to bend into dark clouds.
+- **Реплики:**
+  - `system / system` — **EN:** And because you are here again. — **RU:** И потому что ты здесь снова.
+  - `speech / dan` — **EN:** Again? What does 'again' mean? — **RU:** Снова? Что значит «снова»?
+  - `system / system` — **EN:** Ask me when you have 300 words. It is a long answer. — **RU:** Спроси, когда у тебя будет 300 слов. Это длинный ответ.
+
+#### Панель 15
+
+- **bg:** `corridor` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (center), silent (right)
+- **art:** Wide shot looking back down a narrow stone stair-corridor lit with warm ochre light: Dan at the left and Mira at the center climb side by side, relaxed, Mira's red cord on her left wrist. Far behind them at the right, a tall Silent with two round dents on its blank face and a strip of mustard-yellow lanyard slips through the closing door, half in shadow, one long arm reaching in. The small Silent is just ahead, out of frame.
+- **Реплики:**
+  - `speech / mira` — **EN:** Thank you, Dan. ...Zero. — **RU:** Спасибо, Дэн. ...Зеро.
+  - `speech / silent` — **EN:** I am Dan. — **RU:** Я Дэн.
+
+#### Панель 16
+
+- **bg:** `black` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), system (right)
+- **art:** Dark close shot: Dan at the left, face upturned, lit from above by a faint warm ochre glow, listening. At the right the System window floats with a solid vermilion border in warning style. High above, at the top of the frame in darkness, a thin shaft of warm light like light under a door. Everything else is black.
+- **Реплики:**
+  - `narration` — **EN:** A voice from up there: Dan, eat something. — **RU:** Голос сверху: Дэн, поешь что-нибудь.
+  - `speech / dan` — **EN:** Mom? — **RU:** Мама?
+  - `system / system` — **EN:** That is not your mother. That is the Tower. It has your mother's voice. — **RU:** Это не твоя мама. Это Башня. У неё голос твоей мамы.
+  - `narration` — **EN:** The voice: Come up, Dan. Mom waits, because you learn. — **RU:** Голос: Поднимайся, Дэн. Мама ждёт, потому что ты учишься.
+
+### Грамматика: 's (чьё) и «X means Y» (что значит)
+
+Апостроф и s показывают, кому что принадлежит: Lina's mother — мать Лины, Lina's father — отец Лины. Сначала владелец, потом то, что ему принадлежит. Глагол mean значит «значить»: It means... — это значит...; вопрос строится с does: What does it mean? Так можно объяснить любое слово другими, уже знакомыми словами. Именно так Дэн вернул Мире слово sister: Lina's mother is your mother. Lina's father is your father. It is the same family.
+
+- Lina's mother is your mother. — Мама Лины — твоя мама.
+- What does it mean? — Что это значит?
+- It means... we are together. — Это значит... мы вместе.
+
+### Квиз
+
+1. Как Дэн вернул Мире имя?
+   - Обменял его на своё имя
+   - Сказал о ней три правдивых предложения, без обмена **(верно)**
+   - Отнял банку силой
+   - Попросил Систему
+2. Как Мира снова услышала слово sister?
+   - Дэн объяснил его другими, знакомыми словами **(верно)**
+   - Хранитель вернул его в награду
+   - Лина написала его на стене
+   - Она купила его у Пипа
+3. Какой класс получил Дэн?
+   - Singer
+   - Keeper
+   - Builder **(верно)**
+   - Climber
+4. Чьим голосом позвали Дэна сверху?
+   - Голосом Миры
+   - Голосом Лины
+   - Голосом Хранителя
+   - Башня говорила голосом мамы **(верно)**
+
+---
+
 # 3. Статус эпизодов (картинки и видео)
 
 Данные из `art/manifest.json`, только чтение.
@@ -2275,6 +2686,8 @@ This — то, что рядом («это»), that — то, что подал�
 | s1e08 | Lina / Лина | 16 | 16 из 16 | 1 (панели 16) | да, 16 |
 | s1e09 | The Wall of Letters / Стена Букв | 16 | 16 из 16 | 1 (панели 15) | да, 16 |
 | s1e10 | The First Sentence / Первое предложение | 16 | 16 из 16 | 1 (панели 7) | да, 16 |
+| s1e11 | The Keeper's Door / Дверь Хранителя | 17 | 17 из 17 | 0 | да, 17 |
+| s1e12 | Sister / Сестра | 16 | 16 из 16 | 0 | да, 16 |
 
 ---
 
@@ -2412,6 +2825,15 @@ python tools/story_dump.py
 Правило различимости: закрой имена над репликами — по одной фразе должно быть понятно, кто говорит.
 
 Русский перевод (`ru`): живой разговорный, не подстрочник; Система — женский род («она»); Безмолвный — «он»; обращение «Зеро»; слова-силы в русском тексте остаются латиницей заглавными (OPEN, STOP).
+
+##### Озвучка: у каждой английской реплики есть `delivery`
+
+Диалоги озвучивает Gemini TTS (`tools/audio/gen_gemini.py`), и ему нужна «режиссёрская ремарка». Для каждой реплики с `en` (speech, thought, shout, narration, system) добавь необязательные строковые поля:
+
+- `"delivery"` — 8–25 слов по-английски: *как* сказано, с учётом сцены и характера. Пример: `"exhausted, guilty, almost whispering at 2 AM in an empty office"`; Мира — `"deadpan, low, unimpressed, barely moving her lips"`; Система — `"flat cold game-system announcement with a hint of mockery"`; Безмолвный — `"hollow breathy whisper, imitating Dan's voice slightly wrong"`.
+- `"tts_text"` — по желанию: тот же текст, что в `en`, плюс метки `<sigh>`, `<laugh>`, `<short pause>`. Слова должны совпадать с `en` (валидатор проверяет); ремарки в сам текст не вставлять — читатель видит `en` на экране.
+
+Новая реплика без `delivery` даёт предупреждение валидатора и озвучивается «по умолчанию». Если поменялся `en`/`delivery`/`tts_text`, запусти `python tools/audio/gen_gemini.py` — переозвучатся только изменённые строки.
 
 ---
 

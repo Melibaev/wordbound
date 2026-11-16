@@ -170,8 +170,13 @@ def main():
         gem = gen_gemini.current_set()
     except Exception as e:  # no state / no gemini module: plain Kokoro run
         gem = set()
+    try:  # ...and by Chatterbox (tools/audio/gen_chatterbox.py)
+        import gen_chatterbox
+        gem = gem | gen_chatterbox.current_set()
+    except Exception as e:
+        pass
     if gem:
-        print("skipping %d lines voiced by Gemini" % len([1 for j in jobs if j[0] in gem]))
+        print("skipping %d lines voiced by Gemini/Chatterbox" % len([1 for j in jobs if j[0] in gem]))
 
     todo = []
     for rel, text, v, s, grp in jobs:

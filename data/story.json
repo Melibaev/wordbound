@@ -140,6 +140,24 @@
    "titleRu": "Первое предложение",
    "level": "A1",
    "file": "episodes/s1e10.json"
+  },
+  {
+   "id": "s1e11",
+   "season": 1,
+   "n": 11,
+   "title": "The Keeper's Door",
+   "titleRu": "Дверь Хранителя",
+   "level": "A1",
+   "file": "episodes/s1e11.json"
+  },
+  {
+   "id": "s1e12",
+   "season": 1,
+   "n": 12,
+   "title": "Sister",
+   "titleRu": "Сестра",
+   "level": "A1",
+   "file": "episodes/s1e12.json"
   }
  ]
 }

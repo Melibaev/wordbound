@@ -1184,5 +1184,306 @@
    "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The Keeper's eyes are never visible. No Silents and no child in frame. No blood.",
    "check": "Мира слева на коленях, рука у горла, рот открыт без голоса; Хранитель в центре держит банку с красной искрой; справа окно Системы."
   }
+ ],
+ "s1e11": [
+  {
+   "camera": "Medium two-shot at eye level, lamp glow overhead.",
+   "action": "Dan at the LEFT crouches facing right, both hands open and resting on his own knees (not touching Mira). Mira at the RIGHT sits upright with her back against the wall, her RIGHT hand lightly at her throat, her LEFT hand resting on her knee with the red cord on its wrist, eyes unfocused and empty.",
+   "faces": "Dan: worried, gentle, intent. Mira: pale, hollow, blank.",
+   "props": "Bare lamp with a vermilion-cored flame; scratched ochre wall (abstract scratch marks, no letters); red cord on Mira's LEFT wrist; pencil behind Dan's right ear.",
+   "light": "Warm ochre lamp light, deep shadow beyond the circle of light.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. No Silents, no children, no blood, no injury, no hands touching between the two.",
+   "check": "Дэн слева на корточках, обе руки на коленях; Мира справа сидит у стены, бледная, пустой взгляд, красный шнурок на левом запястье."
+  },
+  {
+   "camera": "Wide-medium shot, slightly high angle, lamp overhead.",
+   "action": "Dan at the LEFT stands in the low doorway, his RIGHT hand on the door frame, his LEFT hand hanging at his side, head turned back over his shoulder toward the others. Mira at the CENTER sits against the wall, hands resting on her knees (red cord on her LEFT wrist), face turned toward Dan. The child-sized Silent at the RIGHT sits cross-legged close beside Mira, hands in her own lap, blank face turned up to Mira, a frayed vermilion cord on her LEFT wrist.",
+   "faces": "Dan: guilty, resolved. Mira: pale, tired, worried. Silent: blank face turned up.",
+   "props": "Door frame; bare lamp; red cord on Mira's LEFT wrist; frayed vermilion cord on the small Silent's LEFT wrist.",
+   "light": "Warm ochre lamp light in the room, cold grey-teal dusk through the doorway.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. No violence, no blood, no injury; Mira is awake and sitting up, only pale. The small Silent is child-sized and sits quietly. No other Silents in frame.",
+   "check": "Дэн слева в дверях, оглядывается; Мира в центре сидит у стены; маленькая Безмолвная справа сидит рядом с ней."
+  },
+  {
+   "camera": "Medium side-on tracking shot at eye level.",
+   "action": "Pip at the RIGHT walks ahead, a torn chunk of brown bread in his RIGHT hand being chewed, his LEFT hand pointing down the passage toward the distance. Dan at the LEFT follows one step behind, both arms folded across his chest, one eyebrow raised, pencil behind his right ear.",
+   "faces": "Pip: cheeky, mock-guilty, mouth full. Dan: wry, unimpressed, tired.",
+   "props": "Brown bread in Pip's RIGHT hand; Pip's flat cap and brass clapperless hand-bell on a string; ochre wall lamps in the passage.",
+   "light": "Warm ochre lamps in a dim stone passage, cool grey at the far end.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. No Silents. Pip does not touch Dan. No money, no pencil in Pip's hands.",
+   "check": "Пип справа идёт впереди с куском хлеба в правой руке и указывает левой; Дэн слева сзади, скрестил руки, бровь поднята."
+  },
+  {
+   "camera": "Medium shot, eye level, slight depth toward the amber glow behind Dan.",
+   "action": "Dan at the LEFT has stopped walking, his RIGHT hand rubbing his forehead under his hair, his LEFT hand holding the yellow pencil down at his side. The System window floats at the RIGHT at head height. Far behind Dan the passage ends in a warm amber glow.",
+   "faces": "Dan: tired, thinking hard. The System window has no face.",
+   "props": "Yellow pencil in Dan's LEFT hand; blank System window; amber glow in the distance.",
+   "light": "Dim ochre passage, warm amber glow at the far end.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. No other characters in frame.",
+   "check": "Дэн слева потирает лоб, карандаш в левой руке; справа окно Системы; вдали янтарное свечение Зала."
+  },
+  {
+   "camera": "Wide shot, slightly low angle, symmetrical hall.",
+   "action": "The Keeper at the RIGHT sits in his high-backed chair, both hands folded in his lap, hood low. On the LEFT arm of the chair (nearest the center) stands one tiny glass jar holding a single vermilion spark. Dan at the LEFT stands at the border between lit and dark floor, both hands hanging loose at his sides. The left half of the hall behind Dan is dark, its jars dull.",
+   "faces": "Keeper: calm smile only. Dan: wary, set jaw.",
+   "props": "High-backed chair; tiny glass jar with one vermilion spark on the chair arm; many glass jars glowing amber on the right, dull on the left.",
+   "light": "Amber glow from the jars on the right, darkness on the left.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The Keeper's eyes are never visible; his hood shadows the upper face and only his calm mouth and chin show. No Silents in frame. Jars hold abstract glowing sparks, no labels.",
+   "check": "Зал наполовину тёмный; Хранитель справа в кресле, на подлокотнике банка с одной красной искрой; Дэн слева на краю света."
+  },
+  {
+   "camera": "Low-angle medium close shot.",
+   "action": "The Keeper at the RIGHT sits in the chair, his head tilted toward Dan, his RIGHT hand lifting slowly from his lap toward the dark shelves, his LEFT hand still in his lap. Dan at the LEFT, in the lower corner, listens with head tilted, arms hanging.",
+   "faces": "Keeper: soft small smile, mouth and chin only. Dan: attentive, surprised.",
+   "props": "High-backed chair; dim jars on shelves; pencil behind Dan's right ear.",
+   "light": "Warm amber from the right, soft dark at the left.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The Keeper's eyes are never visible; his hood shadows the upper face and only his calm mouth and chin show. No Silents, no other characters.",
+   "check": "Хранитель справа в кресле, видны только рот и подбородок, поднимает правую руку к тёмным полкам; Дэн слева слушает."
+  },
+  {
+   "camera": "Over-the-shoulder medium shot from behind the Keeper, eye level.",
+   "action": "Foreground at the RIGHT: the back of the Keeper's hooded head and shoulder, out of focus. Beyond it at the LEFT, Dan stands facing the camera, both arms hanging, head slightly tilted, frowning thoughtfully.",
+   "faces": "Dan: thoughtful, unwillingly sympathetic. The Keeper's face is not seen at all.",
+   "props": "Jars glowing amber in the background; pencil behind Dan's right ear.",
+   "light": "Amber jar light on Dan's face, dark foreground silhouette of the Keeper.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The Keeper's eyes are never visible; his hood shadows the upper face and only his calm mouth and chin show. No Silents.",
+   "check": "Через плечо Хранителя (справа, размыт): Дэн слева в фокусе задумчиво хмурится."
+  },
+  {
+   "camera": "Wide-medium shot, straight on, depth toward the door.",
+   "action": "A tall door covered in intact vermilion wax seals stands in the CENTER background behind the high-backed chair. The Keeper at the RIGHT sits in the chair, hands folded in his lap. Dan at the LEFT points at the door with his RIGHT hand, his LEFT hand open and hanging at his side.",
+   "faces": "Dan: urgent, frustrated. Keeper: calm mouth, hidden eyes.",
+   "props": "Sealed door with abstract vermilion wax seals (no markings, no text); high-backed chair.",
+   "light": "Amber light, deep shadow around the sealed door.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The Keeper's eyes are never visible; his hood shadows the upper face and only his calm mouth and chin show. No Silents. The wax seals are abstract blobs, no letters or symbols.",
+   "check": "Огромная дверь с красными печатями по центру; Дэн слева показывает на неё правой рукой; Хранитель справа неподвижен в кресле."
+  },
+  {
+   "camera": "Medium shot, slight low angle, door centered behind.",
+   "action": "The sealed door in the CENTER background with soft concentric vermilion ripples spreading across its seals. Dan at the LEFT, body half turned toward the door, RIGHT hand raised halfway toward his ear, LEFT hand at his side, lips parted. The Keeper at the RIGHT turns his hooded head toward Dan, smiling, hands folded in his lap. The System window floats small at the TOP CENTER.",
+   "faces": "Dan: stricken, listening. Keeper: faint smile.",
+   "props": "Vermilion ripple rings (abstract, no text); wax seals; blank System window.",
+   "light": "Amber hall light, faint vermilion pulse at the door.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The Keeper's eyes are never visible; his hood shadows the upper face and only his calm mouth and chin show. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. No Silents.",
+   "check": "Дверь с печатями, по ней расходятся красные круги от глухого звонка; Дэн слева тянется ухом к двери; Хранитель справа улыбается."
+  },
+  {
+   "camera": "Low-angle two-shot, tension from below.",
+   "action": "The Keeper at the RIGHT rises halfway from the chair, his RIGHT arm extended with the open palm turned upward, his LEFT hand gripping the chair arm. Dan at the LEFT, a gap of two paces between them, raises his RIGHT hand in a stop gesture, his LEFT hand in a closed fist at his side.",
+   "faces": "Keeper: calm smile, eyes hidden. Dan: angry, afraid.",
+   "props": "High-backed chair; the tiny jar with one vermilion spark on the chair arm.",
+   "light": "Amber light from below, hard shadows on the hood.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The Keeper's eyes are never visible; his hood shadows the upper face and only his calm mouth and chin show. No hand contact between the two. No Silents.",
+   "check": "Хранитель справа привстаёт, ладонь вверх; Дэн слева поднимает правую руку, левая сжата в кулак; между ними два шага."
+  },
+  {
+   "camera": "Close over-the-shoulder shot from behind Dan's left shoulder.",
+   "action": "The Keeper at the RIGHT, in focus, holds the tiny glass jar with one vermilion spark in the open palm of his LEFT hand, his RIGHT hand folded against his robe. Dan at the LEFT, foreground, seen partly from behind and in profile, stares at the jar, both his hands closed in fists at his sides.",
+   "faces": "Dan: stricken, torn, wet eyes. Keeper: only the calm mouth.",
+   "props": "Tiny glass jar with a single vermilion spark in the Keeper's LEFT palm.",
+   "light": "Small vermilion glow of the jar lighting both faces from below.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The Keeper's eyes are never visible; his hood shadows the upper face and only his calm mouth and chin show. No hand contact between the two. No Silents.",
+   "check": "Хранитель справа держит на левой ладони банку с искрой; Дэн слева, изломанное лицо, кулаки сжаты."
+  },
+  {
+   "camera": "Wide shot at eye level, symmetrical composition with the door behind.",
+   "action": "The Keeper stands at the RIGHT beside his chair, his LEFT hand open toward the tiny jar on the chair arm and his RIGHT hand open toward the sealed wax-seal door behind him, a polite two-way gesture. Dan at the LEFT stands rooted with both hands hanging at his sides, head shaking slowly.",
+   "faces": "Dan: pale, horrified. Keeper: calm mouth, hidden eyes.",
+   "props": "Sealed door; tiny jar with one spark on the chair arm; empty chair.",
+   "light": "Amber light, dark vignette.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The Keeper's eyes are never visible; his hood shadows the upper face and only his calm mouth and chin show. No Silents. No hand contact.",
+   "check": "Хранитель справа стоит и широко разводит руки: к банке и к двери; Дэн слева бледный, качает головой."
+  },
+  {
+   "camera": "Dynamic wide-medium shot, slight Dutch tilt.",
+   "action": "Dan at the LEFT lunges forward with his RIGHT arm fully stretched toward the jar on the chair arm, his LEFT arm swung back for balance, glasses slipping. A faint translucent pane of vermilion light flares in the air between his hand and the jar. The Keeper at the RIGHT sits calmly, both hands folded in his lap. The System window floats at the TOP CENTER, solid vermilion frame.",
+   "faces": "Dan: furious, straining. Keeper: calm mouth.",
+   "props": "Tiny jar with one vermilion spark on the chair arm; translucent vermilion pane of light (abstract); inverted-style System window.",
+   "light": "Vermilion flash in the middle, amber hall behind.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The Keeper's eyes are never visible; his hood shadows the upper face and only his calm mouth and chin show. The System window is a warning window: solid vermilion frame with a dark fill, no text, no face. Dan never touches the Keeper. No Silents, no children, no blood.",
+   "check": "Дэн слева бросается к банке, перед ней вспыхивает красное стекло из света и отбрасывает его; Хранитель справа спокойно сидит."
+  },
+  {
+   "camera": "Wide cinematic shot, the door centered, Dan small in the left foreground.",
+   "action": "The tall door in the CENTER background has its vermilion wax seals cracking and falling away, opening a vertical slit of cold green-grey fluorescent light; inside the slit are a tiny office desk, a coffee mug and a phone with a softly glowing blank screen. The Keeper at the RIGHT stands, his RIGHT hand raised toward the door, his LEFT hand at his side. Dan at the LEFT is reaching toward the slit with both arms outstretched, mouth open.",
+   "faces": "Dan: wild hope and grief. Keeper: calm mouth.",
+   "props": "Cracking seals (abstract), slit of cold office light, desk with mug and phone (blank glowing screen, no text).",
+   "light": "Cold green-grey fluorescent slit cutting into warm amber.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The Keeper's eyes are never visible; his hood shadows the upper face and only his calm mouth and chin show. The phone screen is blank glowing, no numbers or letters. No Silents. Dan does not enter the slit.",
+   "check": "Печати трескаются, в щели видны офис, стол и телефон; Хранитель справа поднял руку; Дэн слева тянется к щели обеими руками."
+  },
+  {
+   "camera": "Close-up on Dan's face and chest, shallow depth.",
+   "action": "Dan at the LEFT, head slightly bowed, his RIGHT hand pressed flat on his chest where a soft vermilion light glows through the shirt, his LEFT hand hanging open. Small threads of abstract vermilion glyph shapes drift upward from him. The System window floats at the RIGHT, bright vermilion border, tilted, blank.",
+   "faces": "Dan: eyes wet, resolved and guilty.",
+   "props": "Vermilion glow at chest; drifting abstract glyph sparks; blank bright System window.",
+   "light": "Warm vermilion glow lighting Dan's face from below.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. No other characters in frame.",
+   "check": "Дэн слева, правая рука на груди, под рубашкой красное свечение; справа яркое окно ранг-апа."
+  },
+  {
+   "camera": "Wide shot at eye level, depth through the entrance arch.",
+   "action": "Mira at the RIGHT stands in the entrance arch, her RIGHT hand braced on a stone pillar, her LEFT hand hanging with the red cord on its wrist, pale and unsteady but upright. Pip stands at the CENTER just behind Mira's shoulder, holding his flat cap in both hands in front of him. Dan at the LEFT is half turned away from the slit of cold office light behind him, facing Mira.",
+   "faces": "Mira: pale, exhausted, steady eyes. Pip: guilty, wide-eyed. Dan: anguished.",
+   "props": "Red cord on Mira's LEFT wrist; Pip's cap and brass hand-bell; slit of cold office light behind Dan.",
+   "light": "Amber hall light, a cold green-grey line of office light on Dan's side.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. No violence, no blood, no injury, no Silents in frame; Mira is upright and walking, only pale. Pip does not touch Mira.",
+   "check": "Мира справа в арке, рука на колонне, бледная; Пип позади неё держит кепку в двух руках; Дэн слева отвернулся от света двери."
+  },
+  {
+   "camera": "Close dramatic shot, almost black frame, Dan lit only by the slit of light.",
+   "action": "Dan at the CENTER stands with his RIGHT hand on the edge of the open door (off to the right of frame), a thin slit of cold green-grey office light falling across his face; his LEFT hand hangs at his side. At the far LEFT a faint hooded silhouette of the Keeper. At the far RIGHT EDGE a faint silhouette of Mira, one hand raised slightly in farewell. A tiny blank System window at the top edge.",
+   "faces": "Dan: torn between two lights, eyes wide. Keeper and Mira are silhouettes only.",
+   "props": "Slit of office light; abstract black.",
+   "light": "Almost entirely black; one cold green-grey slit of light across Dan's face.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The Keeper's eyes are never visible; his hood shadows the upper face and only his calm mouth and chin show. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. Mira's silhouette is not injured. No Silents.",
+   "check": "Почти чёрный кадр: Дэн в центре, рука на краю двери, свет офиса на лице; силуэт Хранителя слева, силуэт Миры справа."
+  }
+ ],
+ "s1e12": [
+  {
+   "camera": "Tight close-up, Dan's face and the edge of the door, shallow depth.",
+   "action": "Dan at the CENTER, in profile turning away from the light: his RIGHT hand rests on the edge of an open door at the right edge of the frame, his LEFT hand hangs at his side as a closed fist. A thin slit of cold green-grey light from the door falls across his face and glasses; the background behind him is dark amber.",
+   "faces": "Dan: eyes shut, brow pinched, wet cheeks, resolved.",
+   "props": "Open door edge with a slit of cold office light; round black glasses with tape on the hinge only.",
+   "light": "Cold green-grey slit on one side of his face, warm amber dark on the other.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. No other characters in frame.",
+   "check": "Крупно: рука Дэна на краю двери, свет офиса на лице, глаза закрыты, он отворачивается от света."
+  },
+  {
+   "camera": "Medium two-shot at eye level, slight depth into the hall.",
+   "action": "Dan at the LEFT faces right, both hands open at chest height, palms up, speaking. Mira at the RIGHT stands upright, her RIGHT hand at her throat, her LEFT hand hanging with the red cord on its wrist, pale and listening. Behind them on the arm of the high-backed chair a tiny glass jar glows a little brighter.",
+   "faces": "Dan: earnest, steady. Mira: pale, blank, listening.",
+   "props": "Red cord on Mira's LEFT wrist; tiny glass jar with a vermilion spark; amber jar-lit shelves behind.",
+   "light": "Warm amber hall light, faint vermilion glow growing from the jar.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. No Silents in frame, no hand contact, no injury.",
+   "check": "Дэн слева говорит с раскрытыми ладонями; Мира справа бледная, рука у горла; позади на кресле банка светится ярче."
+  },
+  {
+   "camera": "Dynamic wide-medium shot, low angle, slight Dutch tilt.",
+   "action": "In the CENTER background the small glass jar on the arm of the chair bursts open and a ribbon of vermilion light streams across the hall into Mira's chest. Mira at the RIGHT throws her head back with her mouth open, her LEFT wrist with the red cord blazing, her RIGHT hand open at her side. Dan at the LEFT watches with both hands half raised at chest height. The Keeper at the CENTER back, seated in his chair, hands gripping its arms, hood turned toward the jar. The System window floats at the TOP.",
+   "faces": "Mira: shocked relief, wide open mouth. Dan: wide-eyed awe.",
+   "props": "Cracked glass jar with released vermilion light (abstract ribbon, no letters); blazing red cord on Mira's LEFT wrist; blank System window.",
+   "light": "Strong vermilion burst crossing the amber hall.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The Keeper's eyes are never visible; his hood shadows the upper face and only his calm mouth and chin show. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. No Silents, no blood.",
+   "check": "Банка на кресле лопается, красная лента света летит в грудь Мире; Мира справа запрокинула голову, шнурок горит; Дэн слева изумлён."
+  },
+  {
+   "camera": "Medium three-shot at eye level, slight depth to the dim wall of Silents.",
+   "action": "Mira at the CENTER stands with both hands hanging, her LEFT wrist with the red cord, looking down at the small Silent. The child-sized Silent at the RIGHT stands close in front of her, arms hanging, blank face turned up. Dan at the LEFT stands with his RIGHT hand under his chin and his LEFT arm across his waist, looking from one to the other.",
+   "faces": "Mira: stricken, searching. Dan: thinking. Small Silent: blank face turned up.",
+   "props": "Red cord on Mira's LEFT wrist; frayed vermilion cord on the small Silent's LEFT wrist.",
+   "light": "Warm amber hall light.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. Silents have smooth white faces with no eyes, nose or lips and one thin vertical teal seam. The small Silent is child-sized with a frayed vermilion cord on its LEFT wrist. No violence, no injury, no hand contact between characters.",
+   "check": "Мира в центре смотрит вниз на маленькую Безмолвную справа; Дэн слева думает, рука у подбородка; других Безмолвных в кадре нет."
+  },
+  {
+   "camera": "Calm medium two-shot at eye level.",
+   "action": "Dan at the LEFT holds up three fingers of his RIGHT hand and traces a small line in the air with his LEFT index finger, patient like a teacher. Mira at the RIGHT stands with her hands hanging, brow furrowed, lips moving as she repeats his words. Between them hover three small steady vermilion glyph marks (abstract dots and dashes).",
+   "faces": "Dan: patient, warm. Mira: concentrating, hopeful.",
+   "props": "Three steady abstract vermilion marks hovering between them; red cord on Mira's LEFT wrist.",
+   "light": "Warm amber hall light, small vermilion glow between them.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. No Silents, no text-like marks; the three marks are abstract dots and dashes, not letters or numbers.",
+   "check": "Дэн слева показывает три пальца и учит; Мира справа повторяет губами; между ними три маленьких красных знака."
+  },
+  {
+   "camera": "Close medium shot, soft glow, shallow depth.",
+   "action": "Mira at the CENTER, eyes wide and wet, both hands pressed flat against her chest, mouth just closing on a word; a thin ring of vermilion light rises from her lips. In the soft-focus BACKGROUND a distant jar on a shelf cracks and a single warm spark drifts toward her. The System window floats at the RIGHT, glowing softly.",
+   "faces": "Mira: wonder, tears, a trembling smile.",
+   "props": "Red cord on Mira's LEFT wrist; ring of vermilion light (abstract); distant cracked jar; blank System window.",
+   "light": "Overexposed white-gold glow with warm vermilion accents.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. No other characters in frame.",
+   "check": "Мира в центре в белом свете, руки у груди, слёзы; на дальней полке лопается банка; справа окно Системы."
+  },
+  {
+   "camera": "Tender medium two-shot, slightly low angle, soft focus background.",
+   "action": "Mira at the LEFT kneels on one knee, holding the child-sized Silent's LEFT hand gently in both of her own hands; Mira's red cord is visible on her own LEFT wrist. The small Silent at the RIGHT stands facing her, her other arm hanging, her blank face lifted toward Mira, the thin vertical teal seam edged with a soft vermilion glow. The System window floats above at the CENTER, small and blank.",
+   "faces": "Mira: tears, tender, smiling for real. Silent: blank face lifted toward her.",
+   "props": "Frayed vermilion cord on the small Silent's LEFT wrist; red cord on Mira's LEFT wrist; blank System window.",
+   "light": "Soft warm amber with a gentle vermilion glow at the Silent's seam.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. Silents have smooth white faces with no eyes, nose or lips and one thin vertical teal seam. The small Silent is child-sized with a frayed vermilion cord on its LEFT wrist. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. No violence, no injury, no other hand contact besides Mira holding the small Silent's hand.",
+   "check": "Мира слева на одном колене держит левую руку маленькой Безмолвной обеими руками; девочка справа поднимает лицо, шов светится красным."
+  },
+  {
+   "camera": "Wide-medium two-shot, eye level, jars flickering behind.",
+   "action": "The Keeper at the RIGHT stands, his shoulders slightly slumped, both hands hanging open at his sides, hood low. Behind him the shelf jars flicker and dim. Dan at the LEFT stands steady, holding the yellow pencil in his RIGHT hand, his LEFT hand open at his side.",
+   "faces": "Dan: calm, tired, not triumphant. Keeper: mouth slightly open, shaken.",
+   "props": "Flickering dimming jars on shelves; yellow pencil in Dan's RIGHT hand.",
+   "light": "Amber jar light flickering and fading.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The Keeper's eyes are never visible; his hood shadows the upper face and only his calm mouth and chin show. No Silents in frame, no hand contact.",
+   "check": "Хранитель справа с опущенными плечами, банки позади тускнеют; Дэн слева спокоен, карандаш в правой руке."
+  },
+  {
+   "camera": "Wide shot, slightly high angle, door small in the background.",
+   "action": "In the CENTER background the tall door behind the empty chair swings shut, a thin thread of cold office light narrowing to nothing, grey wax seals re-forming across it. Dan at the LEFT stands with both arms hanging limp, chin up, eyes wet, watching. The System window floats at the RIGHT, low and blank.",
+   "faces": "Dan: wet-eyed, jaw set, quiet resolve.",
+   "props": "Closing sealed door; thread of cold light; empty chair; blank System window.",
+   "light": "The cold slit shrinks to nothing, leaving warm amber.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. No Silents, no Keeper in frame.",
+   "check": "Дверь домой в глубине закрывается, полоса холодного света сужается; Дэн слева опустил руки, подбородок поднят; справа окно Системы."
+  },
+  {
+   "camera": "Wide low-angle shot from behind the three, door looming.",
+   "action": "Seen from BEHIND at a low angle: Dan at the LEFT, Mira at the CENTER and the child-sized Silent at the RIGHT stand side by side in a row, small against the huge black iron-banded door at the far end. Dan's hands hang at his sides; Mira's RIGHT hand holds the small Silent's LEFT hand, her own LEFT wrist with the red cord. Tall Silents stand motionless along both side walls in the shadows, far from the three.",
+   "faces": "Seen from behind; no faces.",
+   "props": "Huge black wooden door banded with iron; red cord on Mira's LEFT wrist; frayed vermilion cord on the small Silent's LEFT wrist.",
+   "light": "Cold ash-grey slit light, teal shadows, a faint vermilion glow at the three.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. Silents have smooth white faces with no eyes, nose or lips and one thin vertical teal seam. The small Silent is child-sized with a frayed vermilion cord on its LEFT wrist. No violence, no injury; the tall Silents are far away and still.",
+   "check": "Сзади: Дэн, Мира и маленькая Безмолвная стоят в ряд перед огромной чёрной дверью; Мира держит девочку за руку; вдоль стен неподвижные Безмолвные."
+  },
+  {
+   "camera": "Dynamic wide shot, symmetrical, overexposed light.",
+   "action": "Dan at the LEFT, Mira at the CENTER and the child-sized Silent at the RIGHT stand in a row, about half a step apart (clear gaps between their bodies), facing the black door, each with their mouth open. Every person's two arms hang straight down at their sides; nobody holds hands or touches. From their three mouths one single horizontal ribbon of vermilion glyph shapes (abstract) streams into one straight line that hits the door, which glows white along its seams.",
+   "faces": "All three: mouths open mid-word, fierce and bright.",
+   "props": "One continuous vermilion ribbon of abstract glyph shapes; black iron-banded door glowing white at the seams; red cord on Mira's LEFT wrist.",
+   "light": "Blinding white-gold burst with vermilion accents.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. Silents have smooth white faces with no eyes, nose or lips and one thin vertical teal seam. The small Silent is child-sized with a frayed vermilion cord on its LEFT wrist. No violence, no injury. No hand contact: each character has exactly two arms hanging at their sides. The ribbon is abstract shapes, never letters.",
+   "check": "Дэн, Мира и маленькая Безмолвная в ряд, с зазорами, руки опущены; из трёх ртов одна красная лента бьёт в чёрную дверь, швы двери светятся белым."
+  },
+  {
+   "camera": "Wide serene shot, Dan small, the luminous stair rising into the sky.",
+   "action": "The huge black door has risen upward into the cream clouds like a curtain, and a winding stair of warm light climbs into the sky behind. Dan at the LEFT stands small on the top step of a stone landing, his RIGHT hand lifting his round glasses, his LEFT hand open at his side, awed. The System window floats at the RIGHT, large and bright with an ornate double vermilion border and a round seal.",
+   "faces": "Dan: awed, tired, dazed smile.",
+   "props": "Risen door in the clouds; stair of warm light; large blank System window.",
+   "light": "Dusty apricot sky, warm glowing stair, soft vermilion accents.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. No other characters in frame, no Silents.",
+   "check": "Дверь ушла вверх в облака, вверх идёт лестница света; Дэн слева на площадке; справа большое окно Системы."
+  },
+  {
+   "camera": "Calm two-shot, slightly low, a cozy moment.",
+   "action": "Dan at the LEFT sits on a glowing stair step with both elbows on his knees and his hands loosely clasped, looking up and to the right with a tired smile. The System window floats close at the RIGHT, lowered toward him as if leaning in.",
+   "faces": "Dan: tired, amused. The System window has no face.",
+   "props": "Glowing stair step; blank System window; pencil behind Dan's right ear.",
+   "light": "Warm apricot light from the stair.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. No other characters in frame.",
+   "check": "Дэн слева сидит на ступени, локти на коленях, устало улыбается; окно Системы справа склонилось к нему."
+  },
+  {
+   "camera": "Medium two-shot, slight Dutch tilt.",
+   "action": "Dan at the LEFT has stopped mid-step on the glowing stair, his RIGHT hand touching his glasses, his LEFT hand gripping the stair rail of light, eyes wide. The System window at the RIGHT tilts toward him, its border flickering to a sharp solid vermilion line. Behind them the stair bends into dark clouds.",
+   "faces": "Dan: wide-eyed, uneasy.",
+   "props": "Glowing stair, flickering System window border, dark cloud bend.",
+   "light": "Warm stair glow against darkening cloud.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. No other characters in frame.",
+   "check": "Дэн слева застыл на лестнице, правая рука у очков; окно Системы справа наклонилось, рамка стала плотной красной; позади лестница уходит в тёмные облака."
+  },
+  {
+   "camera": "Wide shot looking back down the stair-corridor from ahead of the two.",
+   "action": "Dan at the LEFT and Mira at the CENTER climb a narrow ochre-lit stone stair side by side, both hands free and swinging naturally, relaxed; Mira's red cord is on her LEFT wrist. Far behind them at the RIGHT, small in the distance, a tall Silent with two round dents on its blank face and a strip of mustard-yellow lanyard at its neck slips through a closing door, half in shadow, one long arm reaching through the gap.",
+   "faces": "Dan and Mira: relaxed, a hint of warmth. Silent: blank white face.",
+   "props": "Red cord on Mira's LEFT wrist; Nad Silent's two round dents and yellow lanyard strip; closing door.",
+   "light": "Warm ochre light around the two, cold teal shadow at the door.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. Silents have smooth white faces with no eyes, nose or lips and one thin vertical teal seam. The tall Silent is the only Silent in frame; no child-sized Silent in this frame. No violence.",
+   "check": "Дэн слева и Мира в центре спокойно поднимаются; далеко сзади справа высокий Безмолвный с двумя вмятинами и жёлтой полоской проскальзывает в закрывающуюся дверь."
+  },
+  {
+   "camera": "Dark close shot, Dan's face lifted toward the light above.",
+   "action": "Dan at the LEFT, close-up, his face turned upward, lips parted, lit from above by a faint warm ochre glow; his hands are out of frame. The System window floats at the RIGHT, small, in warning style: solid vermilion frame with a dark fill. At the very TOP of the frame in the darkness, a thin shaft of warm light like light under a door.",
+   "faces": "Dan: hope turning into dread.",
+   "props": "Thin shaft of warm light above; warning-style System window.",
+   "light": "Almost entirely black; faint warm ochre from above, vermilion frame at the right.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses (tape on the hinge only); no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. The window is in warning style: solid vermilion frame, dark fill, no text, no face. No other characters, no Silents.",
+   "check": "Почти чёрный кадр: Дэн слева смотрит вверх, на лицо падает слабый тёплый свет сверху; справа окно Системы в красной рамке-предупреждении."
+  }
  ]
 }
