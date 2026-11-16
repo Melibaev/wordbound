@@ -40,13 +40,15 @@
      "type": "speech",
      "who": "dan",
      "en": "It walks! Why do we run?",
-     "ru": "Он идёт шагом! Почему мы бежим?"
+     "ru": "Он идёт шагом! Почему мы бежим?",
+     "delivery": "breathless and frightened while running, voice shaking, incredulous question"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "It is big. It is never tired.",
-     "ru": "Он большой. Он никогда не устаёт."
+     "ru": "Он большой. Он никогда не устаёт.",
+     "delivery": "clipped, breathless, flat warning, telling a cold truth while running"
     }
    ]
   },
@@ -70,13 +72,15 @@
      "type": "speech",
      "who": "dan",
      "en": "A wall! A big wall!",
-     "ru": "Стена! Большая стена!"
+     "ru": "Стена! Большая стена!",
+     "delivery": "panicked groan of despair, gasping as the corridor ends in a wall"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "We are small. The wall is big.",
-     "ru": "Мы маленькие. Стена большая."
+     "ru": "Мы маленькие. Стена большая.",
+     "delivery": "deadpan and grim, short and dry, stating the obvious with no hope"
     },
     {
      "type": "narration-ru",
@@ -104,19 +108,22 @@
      "type": "speech",
      "who": "dan",
      "en": "That is not a wall. That is a door.",
-     "ru": "Это не стена. Это дверь."
+     "ru": "Это не стена. Это дверь.",
+     "delivery": "sudden quiet focus, slow and certain, the engineer recognizing a hidden seam"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "How do you know?",
-     "ru": "Откуда ты знаешь?"
+     "ru": "Откуда ты знаешь?",
+     "delivery": "skeptical, low and curious, testing him with a raised eyebrow"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "I know walls. I know doors.",
-     "ru": "Я знаю стены. Я знаю двери."
+     "ru": "Я знаю стены. Я знаю двери.",
+     "delivery": "calm confident engineer pride, steady and a little smug under pressure"
     },
     {
      "type": "narration-ru",
@@ -144,13 +151,15 @@
      "type": "shout",
      "who": "dan",
      "en": "A key! A small key!",
-     "ru": "Ключ! Маленький ключ!"
+     "ru": "Ключ! Маленький ключ!",
+     "delivery": "excited whispered shout, thrilled relief at spotting a tiny key"
     },
     {
      "type": "system",
      "who": "system",
      "en": "That is a key. Wow.",
-     "ru": "Это ключ. Ничего себе."
+     "ru": "Это ключ. Ничего себе.",
+     "delivery": "flat bored system remark, the word wow delivered with dry sarcasm"
     },
     {
      "type": "narration-ru",
@@ -178,7 +187,8 @@
      "type": "shout",
      "who": "dan",
      "en": "Open, open, open!",
-     "ru": "Открывайся, открывайся!"
+     "ru": "Открывайся, открывайся!",
+     "delivery": "frantic rapid chant, trembling hands, desperate and breathless"
     }
    ]
   },
@@ -206,19 +216,22 @@
      "type": "speech",
      "who": "mira",
      "en": "This room is safe.",
-     "ru": "Эта комната безопасна."
+     "ru": "Эта комната безопасна.",
+     "delivery": "exhausted relief, quiet and firm, catching her breath after slamming the door"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Why is a small room safe?",
-     "ru": "Почему маленькая комната безопасна?"
+     "ru": "Почему маленькая комната безопасна?",
+     "delivery": "puzzled and still panting, asking a childlike question"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "The light is a word.",
-     "ru": "Этот свет — слово."
+     "ru": "Этот свет — слово.",
+     "delivery": "calm and plain, a short strange fact said as if it were obvious"
     }
    ]
   },
@@ -242,13 +255,15 @@
      "type": "speech",
      "who": "mira",
      "en": "Someone gives a word. The lamp burns.",
-     "ru": "Кто-то отдаёт слово. Лампа горит."
+     "ru": "Кто-то отдаёт слово. Лампа горит.",
+     "delivery": "quiet, matter of fact explanation, low and measured by the warm lamp"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Silents stay out of the light.",
-     "ru": "Безмолвные не заходят в свет."
+     "ru": "Безмолвные не заходят в свет.",
+     "delivery": "firm low statement, a simple rule of survival, almost proud"
     }
    ]
   },
@@ -272,13 +287,15 @@
      "type": "speech",
      "who": "dan",
      "en": "Thank you, Mira.",
-     "ru": "Спасибо, Мира."
+     "ru": "Спасибо, Мира.",
+     "delivery": "warm, sincere and tired, a genuine thank you after a near death"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Not now. What is your name?",
-     "ru": "Не сейчас. Как тебя зовут?"
+     "ru": "Не сейчас. Как тебя зовут?",
+     "delivery": "brisk, deadpan, brushing off gratitude to get to business"
     }
    ]
   },
@@ -302,7 +319,8 @@
      "type": "speech",
      "who": "dan",
      "en": "I am... I am...",
-     "ru": "Я... Я..."
+     "ru": "Я... Я...",
+     "delivery": "stammering, lost and scared, searching for something that is no longer there"
     },
     {
      "type": "narration-ru",
@@ -312,7 +330,8 @@
      "type": "thought",
      "who": "dan",
      "en": "My name? What is my name?",
-     "ru": "Моё имя? Как меня зовут?"
+     "ru": "Моё имя? Как меня зовут?",
+     "delivery": "tiny trembling whisper, terrified inner voice, confused and fragile"
     }
    ]
   },
@@ -336,25 +355,29 @@
      "type": "system",
      "who": "system",
      "en": "Word lost: DAN.",
-     "ru": "Слово потеряно: DAN."
+     "ru": "Слово потеряно: DAN.",
+     "delivery": "cold flat system notice, soft and final, a quiet shock"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "The Silent has your name.",
-     "ru": "Безмолвный забрал твоё имя."
+     "ru": "Безмолвный забрал твоё имя.",
+     "delivery": "blunt and low, delivering the bad news without cushioning"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "My name is gone! Give it back!",
-     "ru": "Моё имя пропало! Верни его!"
+     "ru": "Моё имя пропало! Верни его!",
+     "delivery": "anguished and desperate, voice cracking, half shouted plea"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "It never gives. No name, no gate.",
-     "ru": "Он не отдаёт. Нет имени — нет прохода в ворота."
+     "ru": "Он не отдаёт. Нет имени — нет прохода в ворота.",
+     "delivery": "cold, firm and final, a hard tower rule said with weary experience"
     }
    ]
   },
@@ -378,25 +401,29 @@
      "type": "speech",
      "who": "mira",
      "en": "Zero words. No name. You are Zero.",
-     "ru": "Ноль слов. Нет имени. Ты — Зеро."
+     "ru": "Ноль слов. Нет имени. Ты — Зеро.",
+     "delivery": "dry and deadpan with a flicker of mischief, giving him a nickname like an examiner"
     },
     {
      "type": "system",
      "who": "system",
      "en": "Zero is a good name.",
-     "ru": "Зеро — хорошее имя."
+     "ru": "Зеро — хорошее имя.",
+     "delivery": "flat and polite, an ironic compliment delivered with dry system humor"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "That is not funny.",
-     "ru": "Это не смешно."
+     "ru": "Это не смешно.",
+     "delivery": "grumpy and sulking, arms folded, wounded pride"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "A little.",
-     "ru": "Немного смешно."
+     "ru": "Немного смешно.",
+     "delivery": "tiny dry admission, the faintest hint of a smile in her voice"
     }
    ]
   },
@@ -420,19 +447,22 @@
      "type": "speech",
      "who": "dan",
      "en": "What is that on the wall?",
-     "ru": "Что это на стене?"
+     "ru": "Что это на стене?",
+     "delivery": "quiet and curious, soft wonder at a wall covered with scratched names"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Names. People wait in this room.",
-     "ru": "Имена. Люди ждут в этой комнате."
+     "ru": "Имена. Люди ждут в этой комнате.",
+     "delivery": "low and solemn, matter of fact and a little sad"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "They wait. Then they are gone.",
-     "ru": "Они ждут. Потом их нет."
+     "ru": "Они ждут. Потом их нет.",
+     "delivery": "hushed, hollow and grim, a heavy truth said very slowly"
     },
     {
      "type": "narration-ru",
@@ -464,25 +494,29 @@
      "type": "speech",
      "who": "dan",
      "en": "Why do you help me?",
-     "ru": "Зачем ты мне помогаешь?"
+     "ru": "Зачем ты мне помогаешь?",
+     "delivery": "gentle and sincere, a careful honest question in the warm lamplight"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "One day. Then I am gone. Zero is useful.",
-     "ru": "Один день. Потом меня нет. Зеро полезен."
+     "ru": "Один день. Потом меня нет. Зеро полезен.",
+     "delivery": "flat, practical and guarded, hiding feeling behind a business-like answer"
     },
     {
      "type": "system",
      "who": "system",
      "en": "Mira. Not now.",
-     "ru": "Мира. Не сейчас."
+     "ru": "Мира. Не сейчас.",
+     "delivery": "short, warning, a mild reproach in a flat system voice"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Quiet, you.",
-     "ru": "Помолчи."
+     "ru": "Помолчи.",
+     "delivery": "snappy, irritated, a sharp whisper at the System"
     }
    ]
   },
@@ -510,7 +544,8 @@
      "type": "speech",
      "who": "mira",
      "en": "Be quiet. This room is safe.",
-     "ru": "Тише. Эта комната безопасна."
+     "ru": "Тише. Эта комната безопасна.",
+     "delivery": "tense whisper, very low and urgent, listening to something at the door"
     }
    ]
   },
@@ -538,19 +573,22 @@
      "type": "speech",
      "who": "silent",
      "en": "Open the door. I am Dan.",
-     "ru": "Открой дверь. Я Дэн."
+     "ru": "Открой дверь. Я Дэн.",
+     "delivery": "eerie hollow whisper, smooth and slightly wrong, mimicking Dan's voice to lure him"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "No! That is not you! Stay in the light!",
-     "ru": "Нет! Это не ты! Оставайся на свету!"
+     "ru": "Нет! Это не ты! Оставайся на свету!",
+     "delivery": "sharp terrified whisper-shout, desperate to stop him from opening the door"
     },
     {
      "type": "thought",
      "who": "dan",
      "en": "That is my voice. That is my name.",
-     "ru": "Это мой голос. Это моё имя."
+     "ru": "Это мой голос. Это моё имя.",
+     "delivery": "dazed, aching inner voice, stunned longing for his own stolen name"
     },
     {
      "type": "narration-ru",
@@ -582,13 +620,15 @@
      "type": "speech",
      "who": "silent",
      "en": "Mira? Open the door. It is cold.",
-     "ru": "Мира? Открой дверь. Мне холодно."
+     "ru": "Мира? Открой дверь. Мне холодно.",
+     "delivery": "thin hollow child-like voice, soft and cold, imitating Mira's sister's plea"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "That is not... no.",
-     "ru": "Это не... нет."
+     "ru": "Это не... нет.",
+     "delivery": "broken whisper, her voice shaking, grief tearing through her disbelief"
     }
    ]
   }

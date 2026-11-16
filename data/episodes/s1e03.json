@@ -44,19 +44,22 @@
      "type": "speech",
      "who": "dan",
      "en": "That is not me. I stop.",
-     "ru": "Это не я. Я не открою."
+     "ru": "Это не я. Я не открою.",
+     "delivery": "shaky but resolved, catching his breath, pulling his hand back from the door"
     },
     {
      "type": "system",
      "who": "system",
      "en": "New word: STOP.",
-     "ru": "Новое слово: STOP."
+     "ru": "Новое слово: STOP.",
+     "delivery": "crisp flat system notification, neutral and exact"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Not bad, Zero.",
-     "ru": "Неплохо, Зеро."
+     "ru": "Неплохо, Зеро.",
+     "delivery": "dry and low, grudging approval, the closest thing to praise she gives"
     }
    ]
   },
@@ -84,19 +87,22 @@
      "type": "speech",
      "who": "mira",
      "en": "The light is small. Soon it is gone.",
-     "ru": "Свет слабеет. Скоро его не будет."
+     "ru": "Свет слабеет. Скоро его не будет.",
+     "delivery": "quiet, tired and practical, watching the tiny flame, warning in a low voice"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Then we go?",
-     "ru": "Тогда мы идём?"
+     "ru": "Тогда мы идём?",
+     "delivery": "hopeful and eager, a short question, ready to move"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "We go. Come here. Look.",
-     "ru": "Идём. Иди сюда. Смотри."
+     "ru": "Идём. Иди сюда. Смотри.",
+     "delivery": "brisk, low and businesslike, calling him closer to the map"
     }
    ]
   },
@@ -124,19 +130,22 @@
      "type": "speech",
      "who": "mira",
      "en": "This is the gate. The gate hears names.",
-     "ru": "Это ворота. Ворота слышат имена."
+     "ru": "Это ворота. Ворота слышат имена.",
+     "delivery": "serious and quiet, pointing at a map, patient instructor tone"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "I have no name. Can I go?",
-     "ru": "У меня нет имени. Могу я пройти?"
+     "ru": "У меня нет имени. Могу я пройти?",
+     "delivery": "uncertain and honest, a gentle self-aware question"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "I have a plan. It is a bad plan.",
-     "ru": "У меня есть план. Он плохой."
+     "ru": "У меня есть план. Он плохой.",
+     "delivery": "deadpan, flat and a little dark humor, admitting the odds"
     }
    ]
   },
@@ -164,13 +173,15 @@
      "type": "speech",
      "who": "mira",
      "en": "Take my hand. Listen and go slowly.",
-     "ru": "Возьми меня за руку. Слушай и иди медленно."
+     "ru": "Возьми меня за руку. Слушай и иди медленно.",
+     "delivery": "hushed urgent whisper, tense and focused, guiding him through a silent army"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "I can go slowly. I am very good at it.",
-     "ru": "Медленно я могу. У меня отлично получается."
+     "ru": "Медленно я могу. У меня отлично получается.",
+     "delivery": "whispered, nervous humor, steady self-mockery to calm his own fear"
     }
    ]
   },
@@ -198,13 +209,15 @@
      "type": "speech",
      "who": "dan",
      "en": "I can count ten. No, more. More!",
-     "ru": "Я вижу десять. Нет, больше. Ещё!"
+     "ru": "Я вижу десять. Нет, больше. Ещё!",
+     "delivery": "tiny awed whisper, counting in panic and then trailing off in dread"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Do not look at them. Look down.",
-     "ru": "Не смотри на них. Смотри вниз."
+     "ru": "Не смотри на них. Смотри вниз.",
+     "delivery": "sharp low whisper, urgent and controlled, an order given without moving her lips"
     }
    ]
   },
@@ -228,19 +241,22 @@
      "type": "speech",
      "who": "dan",
      "en": "Mira. I have a plan too.",
-     "ru": "Мира. У меня тоже есть план."
+     "ru": "Мира. У меня тоже есть план.",
+     "delivery": "quiet excited whisper, an idea sparking, a boyish grin hiding in the voice"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "What plan?",
-     "ru": "Какой?"
+     "ru": "Какой?",
+     "delivery": "suspicious and flat, low whisper, bracing for a bad idea"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "A stone. A far wall. Listen.",
-     "ru": "Камень. Дальняя стена. Слушай."
+     "ru": "Камень. Дальняя стена. Слушай.",
+     "delivery": "soft confident whisper, the engineer explaining a trick"
     },
     {
      "type": "narration-ru",
@@ -268,13 +284,15 @@
      "type": "speech",
      "who": "mira",
      "en": "Not bad. Not bad at all.",
-     "ru": "Неплохо. Совсем неплохо."
+     "ru": "Неплохо. Совсем неплохо.",
+     "delivery": "stunned, breathless whisper, reluctant admiration as the trick works"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "I know walls. Now I know halls.",
-     "ru": "Я знаю стены. Теперь знаю залы."
+     "ru": "Я знаю стены. Теперь знаю залы.",
+     "delivery": "quiet satisfied pride, a small smile in his voice, proud of his clever trick"
     }
    ]
   },
@@ -298,7 +316,8 @@
      "type": "speech",
      "who": "dan",
      "en": "No, no. Sorry, sorry.",
-     "ru": "Нет, нет. Простите."
+     "ru": "Нет, нет. Простите.",
+     "delivery": "panicked frantic whisper, horrified apology after a mistake"
     }
    ]
   },
@@ -326,19 +345,22 @@
      "type": "shout",
      "who": "mira",
      "en": "Stop! Stop, all of you!",
-     "ru": "Стоять! Все стоять!"
+     "ru": "Стоять! Все стоять!",
+     "delivery": "thundering commanding shout, powerful and raw, a shockwave of will"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "She can stop them!",
-     "ru": "Она может их остановить!"
+     "ru": "Она может их остановить!",
+     "delivery": "amazed, breathless, awe and relief, startled by her power"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Not for long. Take my hand!",
-     "ru": "Ненадолго. Бери руку!"
+     "ru": "Ненадолго. Бери руку!",
+     "delivery": "strained and winded, gasping urgency, pulling him onward"
     }
    ]
   },
@@ -362,13 +384,15 @@
      "type": "speech",
      "who": "mira",
      "en": "I can't. No more breath.",
-     "ru": "Не могу. Дыхания больше нет."
+     "ru": "Не могу. Дыхания больше нет.",
+     "delivery": "weak, gasping and breathless, voice running out, admitting defeat"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Now you take my hand, Mira.",
-     "ru": "Теперь ты возьми мою руку, Мира."
+     "ru": "Теперь ты возьми мою руку, Мира.",
+     "delivery": "tender determined reply, steady and warm, helping her up"
     },
     {
      "type": "narration-ru",
@@ -400,13 +424,15 @@
      "type": "speech",
      "who": "dan",
      "en": "Who is she?",
-     "ru": "Кто она?"
+     "ru": "Кто она?",
+     "delivery": "curious, gentle, looking at a faded painting, softly asking"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "No one. Go. Look at the gate.",
-     "ru": "Никто. Идём. Смотри на ворота."
+     "ru": "Никто. Идём. Смотри на ворота.",
+     "delivery": "closed off and curt, hurt hidden under a flat voice, changing the subject"
     }
    ]
   },
@@ -434,13 +460,15 @@
      "type": "shout",
      "who": "dan",
      "en": "Gate, open!",
-     "ru": "Ворота, откройтесь!"
+     "ru": "Ворота, откройтесь!",
+     "delivery": "loud hopeful shout at the huge gate, a little theatrical and desperate"
     },
     {
      "type": "system",
      "who": "system",
      "en": "The gate hears names. Not doors.",
-     "ru": "Ворота слышат имена. Не двери."
+     "ru": "Ворота слышат имена. Не двери.",
+     "delivery": "cold flat system voice, a dry correction, mild mockery"
     }
    ]
   },
@@ -468,19 +496,22 @@
      "type": "system",
      "who": "system",
      "en": "The gate wants a name. Say yours.",
-     "ru": "Воротам нужно имя. Назови своё."
+     "ru": "Воротам нужно имя. Назови своё.",
+     "delivery": "calm cold system instruction, patient and a little ominous"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "I can't. It is gone!",
-     "ru": "Не могу. Его нет!"
+     "ru": "Не могу. Его нет!",
+     "delivery": "panicked and strained, head in his hands, voice cracking with despair"
     },
     {
      "type": "shout",
      "who": "mira",
      "en": "Think! Say it, Zero!",
-     "ru": "Думай! Скажи, Зеро!"
+     "ru": "Думай! Скажи, Зеро!",
+     "delivery": "urgent forceful shout, fierce and pleading, pushing him to try"
     }
    ]
   },
@@ -512,13 +543,15 @@
      "type": "speech",
      "who": "mira",
      "en": "Listen. It comes here.",
-     "ru": "Слушай. Он идёт сюда."
+     "ru": "Слушай. Он идёт сюда.",
+     "delivery": "hushed alarmed whisper, tense, her eyes on the approaching Silent"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "That is the Silent! It has my name!",
-     "ru": "Это тот Безмолвный! У него моё имя!"
+     "ru": "Это тот Безмолвный! У него моё имя!",
+     "delivery": "shocked and breathless whisper, realization dawning, the thief of his name"
     }
    ]
   },
@@ -546,7 +579,8 @@
      "type": "speech",
      "who": "silent",
      "en": "I am Dan.",
-     "ru": "Я — Дэн."
+     "ru": "Я — Дэн.",
+     "delivery": "hollow smooth monotone, flat and eerie, stolen name spoken in a dead voice"
     },
     {
      "type": "narration-ru",
@@ -574,13 +608,15 @@
      "type": "shout",
      "who": "dan",
      "en": "That is my name!",
-     "ru": "Это моё имя!"
+     "ru": "Это моё имя!",
+     "delivery": "furious outraged shout, hurt and incredulous at seeing his name walk away"
     },
     {
      "type": "shout",
      "who": "mira",
      "en": "Come on! Go, go, go!",
-     "ru": "Давай! Бежим, бежим!"
+     "ru": "Давай! Бежим, бежим!",
+     "delivery": "sharp urgent shout, pulling him to run, adrenaline"
     }
    ]
   },
@@ -604,19 +640,22 @@
      "type": "speech",
      "who": "keeper",
      "en": "Welcome, Zero.",
-     "ru": "Добро пожаловать, Зеро."
+     "ru": "Добро пожаловать, Зеро.",
+     "delivery": "calm velvety unsettling welcome, smooth and slow, courteous with a chilling smile"
     },
     {
      "type": "speech",
      "who": "keeper",
      "en": "And welcome back, Mira.",
-     "ru": "И с возвращением, Мира."
+     "ru": "И с возвращением, Мира.",
+     "delivery": "soft knowing purr, polite and amused, a quiet barbed greeting"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Back?",
-     "ru": "Снова?"
+     "ru": "Снова?",
+     "delivery": "confused and wary, a small stunned question, glancing at Mira"
     }
    ]
   }

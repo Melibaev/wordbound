@@ -40,13 +40,15 @@
      "type": "speech",
      "who": "silent",
      "en": "Mira. Come. It is cold.",
-     "ru": "Мира. Иди сюда. Мне холодно."
+     "ru": "Мира. Иди сюда. Мне холодно.",
+     "delivery": "thin hollow child-like voice, soft and cold, pleading gently"
     },
     {
      "type": "thought",
      "who": "dan",
      "en": "She can't say the word. I don't know the word.",
-     "ru": "Она не может сказать это слово. А я его не знаю."
+     "ru": "Она не может сказать это слово. А я его не знаю.",
+     "delivery": "tense inner whisper, urgent worry, helpless frustration"
     }
    ]
   },
@@ -70,19 +72,22 @@
      "type": "shout",
      "who": "dan",
      "en": "Push! Push!",
-     "ru": "Толкайся! Ну же!"
+     "ru": "Толкайся! Ну же!",
+     "delivery": "strained effortful shout, shoving a huge door with all his weight"
     },
     {
      "type": "system",
      "who": "system",
      "en": "This door wants more. Not a word.",
-     "ru": "Этой двери нужно больше. Не слово."
+     "ru": "Этой двери нужно больше. Не слово.",
+     "delivery": "flat dry system observation, cool and unhelpful, calm and exact"
     },
     {
      "type": "system",
      "who": "system",
      "en": "Almost. Ask me later.",
-     "ru": "Почти. Спроси позже."
+     "ru": "Почти. Спроси позже.",
+     "delivery": "flat dry, evasive, quietly teasing, patient"
     }
    ]
   },
@@ -110,19 +115,22 @@
      "type": "speech",
      "who": "mira",
      "en": "They come. They are behind us.",
-     "ru": "Идут. Они у нас за спиной."
+     "ru": "Идут. Они у нас за спиной.",
+     "delivery": "breathless low warning, tight with fear, eyes on the hall entrance"
     },
     {
      "type": "shout",
      "who": "dan",
      "en": "Stop!",
-     "ru": "Стой!"
+     "ru": "Стой!",
+     "delivery": "sharp commanding shout, a sudden burst of courage"
     },
     {
      "type": "system",
      "who": "system",
      "en": "STOP is yours now. Count: two.",
-     "ru": "STOP теперь твоё. Счёт: два."
+     "ru": "STOP теперь твоё. Счёт: два.",
+     "delivery": "crisp flat system notification, neutral and precise, a slight pause"
     },
     {
      "type": "narration-ru",
@@ -154,13 +162,15 @@
      "type": "shout",
      "who": "dan",
      "en": "There is a way! Up there! Come!",
-     "ru": "Там есть проход! Вон там, наверху! Идём!"
+     "ru": "Там есть проход! Вон там, наверху! Идём!",
+     "delivery": "urgent breathless shout, pulling her toward safety, adrenaline"
     },
     {
      "type": "speech",
      "who": "silent",
      "en": "Mira. Why do you run?",
-     "ru": "Мира. Почему ты бежишь?"
+     "ru": "Мира. Почему ты бежишь?",
+     "delivery": "hollow smooth voice, soft and sad, a gentle echo behind them"
     }
    ]
   },
@@ -188,7 +198,8 @@
      "type": "speech",
      "who": "dan",
      "en": "So many stairs. Mira, are you OK?",
-     "ru": "Сколько ступенек. Мира, ты в порядке?"
+     "ru": "Сколько ступенек. Мира, ты в порядке?",
+     "delivery": "gasping whisper, kind and worried, catching his breath on the stairs"
     }
    ]
   },
@@ -215,7 +226,8 @@
     {
      "type": "narration",
      "en": "The wall says it back: OK. OK. OK.",
-     "ru": "Стена отвечает: OK. OK. OK."
+     "ru": "Стена отвечает: OK. OK. OK.",
+     "delivery": "echoing whisper, eerie calm narrator voice, each repeated word fading away"
     },
     {
      "type": "narration-ru",
@@ -225,7 +237,8 @@
      "type": "system",
      "who": "system",
      "en": "Every sound comes back here. Be quiet.",
-     "ru": "Здесь возвращается каждый звук. Тише."
+     "ru": "Здесь возвращается каждый звук. Тише.",
+     "delivery": "dry flat whisper, a quiet system warning, practical"
     }
    ]
   },
@@ -248,13 +261,15 @@
     {
      "type": "narration",
      "en": "Dan writes: No talk? Mira writes: No sound. Up. Slowly.",
-     "ru": "Мира пишет: Ни звука. Идём вверх. Медленно."
+     "ru": "Мира пишет: Ни звука. Идём вверх. Медленно.",
+     "delivery": "calm storyteller voice, quiet and gentle, narrating a silent exchange"
     },
     {
      "type": "system",
      "who": "system",
      "en": "You write. Good. Paper is quiet.",
-     "ru": "Ты пишешь. Хорошо. Бумага тихая."
+     "ru": "Ты пишешь. Хорошо. Бумага тихая.",
+     "delivery": "dry flat system voice, quiet approval, almost warm"
     }
    ]
   },
@@ -278,13 +293,15 @@
      "type": "thought",
      "who": "dan",
      "en": "There are many stairs. There is nothing under us.",
-     "ru": "Тут много ступенек. А под нами пусто."
+     "ru": "Тут много ступенек. А под нами пусто.",
+     "delivery": "weary tired inner voice, dry humor, an engineer counting stairs"
     },
     {
      "type": "system",
      "who": "system",
      "en": "There are 300 stairs. You are slow.",
-     "ru": "Тут 300 ступенек. Ты медленный."
+     "ru": "Тут 300 ступенек. Ты медленный.",
+     "delivery": "flat sarcastic system voice, dry and exact, a little smug"
     }
    ]
   },
@@ -304,7 +321,8 @@
      "type": "thought",
      "who": "dan",
      "en": "There is a thing behind us. It has my voice. Again.",
-     "ru": "За нами что-то идёт. У него мой голос. Опять."
+     "ru": "За нами что-то идёт. У него мой голос. Опять.",
+     "delivery": "tense frightened inner voice, a whispered dread, slow and uneasy"
     }
    ]
   },
@@ -336,19 +354,22 @@
      "type": "speech",
      "who": "pip",
      "en": "Hello, slow people! No sound comes back here.",
-     "ru": "Привет, медленные! Тут звук не возвращается."
+     "ru": "Привет, медленные! Тут звук не возвращается.",
+     "delivery": "cheeky fast talkative boy, bright and quick, selling with a grin, an eleven year old street trader"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "A boy? There is a boy on the stairs!",
-     "ru": "Мальчик? На лестнице мальчик!"
+     "ru": "Мальчик? На лестнице мальчик!",
+     "delivery": "stunned whisper, delighted surprise, baffled to find a child there"
     },
     {
      "type": "speech",
      "who": "pip",
      "en": "I am Pip. I sell quiet. One quiet, one word.",
-     "ru": "Я Пип. Продаю тишину. Одна тишина за одно слово."
+     "ru": "Я Пип. Продаю тишину. Одна тишина за одно слово.",
+     "delivery": "fast cocky kid, grinning, quick sales pitch with a wink"
     }
    ]
   },
@@ -372,19 +393,22 @@
      "type": "speech",
      "who": "pip",
      "en": "No words? Then give me the yellow pencil.",
-     "ru": "Тогда давай жёлтый карандаш."
+     "ru": "Тогда давай жёлтый карандаш.",
+     "delivery": "greedy, quick and sly, eyes on the pencil, a boy bargaining"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "No. Not the pencil.",
-     "ru": "Нет. Только не карандаш."
+     "ru": "Нет. Только не карандаш.",
+     "delivery": "firm and protective, a quiet stubborn refusal"
     },
     {
      "type": "thought",
      "who": "dan",
      "en": "Why not? It is just a pencil.",
-     "ru": "А почему нет? Это же просто карандаш."
+     "ru": "А почему нет? Это же просто карандаш.",
+     "delivery": "puzzled inner voice, small and a bit unsettled by his own attachment"
     }
    ]
   },
@@ -412,25 +436,29 @@
      "type": "speech",
      "who": "dan",
      "en": "I give you a secret. There is a room under the stairs.",
-     "ru": "Я дам тебе секрет. Под лестницей есть комната."
+     "ru": "Я дам тебе секрет. Под лестницей есть комната.",
+     "delivery": "calm clever voice, slow and confident, making an offer, like an engineer showing a drawing"
     },
     {
      "type": "speech",
      "who": "pip",
      "en": "There is no room. I live here. I know.",
-     "ru": "Нет там комнаты. Я тут живу. Я знаю."
+     "ru": "Нет там комнаты. Я тут живу. Я знаю.",
+     "delivery": "defensive fast kid, scoffing, proud of his territory"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "There is a door behind that stone. Look down.",
-     "ru": "Вон за тем камнем дверь. Посмотри вниз."
+     "ru": "Вон за тем камнем дверь. Посмотри вниз.",
+     "delivery": "patient and firm, almost gentle, pointing out a fact"
     },
     {
      "type": "system",
      "who": "system",
      "en": "True.",
-     "ru": "Правда."
+     "ru": "Правда.",
+     "delivery": "short dry system confirmation, flat and neutral"
     }
    ]
   },
@@ -458,25 +486,29 @@
      "type": "speech",
      "who": "pip",
      "en": "OK. A good trade. Talk under my hand.",
-     "ru": "Ладно. Хороший обмен. Говорите под моей рукой."
+     "ru": "Ладно. Хороший обмен. Говорите под моей рукой.",
+     "delivery": "cheerful fast kid, pleased with the bargain, quick friendly trader"
     },
     {
      "type": "speech",
      "who": "pip",
      "en": "I know her. That is Mira. She sells her sister.",
-     "ru": "Я её знаю. Это Мира. Она продаёт свою сестру."
+     "ru": "Я её знаю. Это Мира. Она продаёт свою сестру.",
+     "delivery": "low sly and quick, a gossipy whisper, delivering a secret"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "What does the boy say? I hear nothing.",
-     "ru": "Что говорит мальчик? Я ничего не слышу."
+     "ru": "Что говорит мальчик? Я ничего не слышу.",
+     "delivery": "tired and suspicious, low voice, puzzled, unable to hear"
     },
     {
      "type": "system",
      "who": "system",
      "en": "She does not hear that word.",
-     "ru": "Она не слышит это слово."
+     "ru": "Она не слышит это слово.",
+     "delivery": "flat cold system notice, soft and sad"
     }
    ]
   },
@@ -500,13 +532,15 @@
      "type": "speech",
      "who": "pip",
      "en": "She sells the whole word. The Keeper has it.",
-     "ru": "Она продаёт слово целиком. Оно у Хранителя."
+     "ru": "Она продаёт слово целиком. Оно у Хранителя.",
+     "delivery": "fast hushed whisper, a boy telling a shocking secret, serious for once"
     },
     {
      "type": "speech",
      "who": "pip",
      "en": "The small Silent down there is Lina.",
-     "ru": "А маленький Безмолвный там, внизу, это Лина."
+     "ru": "А маленький Безмолвный там, внизу, это Лина.",
+     "delivery": "quick quiet whisper, matter of fact, nodding toward the stair"
     },
     {
      "type": "narration-ru",
@@ -516,7 +550,8 @@
      "type": "thought",
      "who": "dan",
      "en": "Lina. The red cord. Lina is her sister.",
-     "ru": "Лина. Красная нить. Лина её сестра."
+     "ru": "Лина. Красная нить. Лина её сестра.",
+     "delivery": "stunned whispered realization, quiet awe and pain, everything clicking"
     }
    ]
   },
@@ -544,13 +579,15 @@
      "type": "system",
      "who": "system",
      "en": "Warning. Mira has two breaths.",
-     "ru": "Предупреждение. У Миры два дыхания."
+     "ru": "Предупреждение. У Миры два дыхания.",
+     "delivery": "grave flat system alarm, cold and exact, urgent"
     },
     {
      "type": "shout",
      "who": "dan",
      "en": "Mira! Sit down! Stop!",
-     "ru": "Мира! Сядь! Стой!"
+     "ru": "Мира! Сядь! Стой!",
+     "delivery": "frightened urgent shout, desperate and tender, lowering her to the step"
     }
    ]
   },
@@ -578,19 +615,22 @@
      "type": "speech",
      "who": "pip",
      "en": "Two breaths. Then no breath. Then she is a Silent.",
-     "ru": "Два дыхания. Потом ни одного. Потом она Безмолвная."
+     "ru": "Два дыхания. Потом ни одного. Потом она Безмолвная.",
+     "delivery": "fast low boy, grim for once, no cheeky grin, reciting the deadly count"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Is there help up there?",
-     "ru": "Там, наверху, есть помощь?"
+     "ru": "Там, наверху, есть помощь?",
+     "delivery": "exhausted and desperate, hoarse, pleading for a way to save her"
     },
     {
      "type": "speech",
      "who": "pip",
      "en": "There is a market up there. It is not free, Zero.",
-     "ru": "Наверху рынок. Он не бесплатный, Зеро."
+     "ru": "Наверху рынок. Он не бесплатный, Зеро.",
+     "delivery": "quick sly boy, a price-tag voice with a slight shrug, half sorry"
     }
    ]
   }

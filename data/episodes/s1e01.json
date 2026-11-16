@@ -36,7 +36,9 @@
      "type": "thought",
      "who": "dan",
      "en": "Nine calls. All Mom.",
-     "ru": "Девять звонков. И все от мамы."
+     "ru": "Девять звонков. И все от мамы.",
+     "delivery": "exhausted and guilty, almost whispering to himself at 2 AM in an empty office",
+     "tts_text": "Nine calls. <short pause> All Mom."
     }
    ]
   },
@@ -55,13 +57,16 @@
     {
      "type": "narration",
      "en": "Mom: Dan, eat something.",
-     "ru": "Мама: Дэн, поешь что-нибудь."
+     "ru": "Мама: Дэн, поешь что-нибудь.",
+     "delivery": "soft, tired and warm, like a mother's gentle text read aloud in the quiet night"
     },
     {
      "type": "thought",
      "who": "dan",
      "en": "I am sorry, Mom.",
-     "ru": "Прости, мам."
+     "ru": "Прости, мам.",
+     "delivery": "hushed, heavy with guilt, voice cracking a little on the last word",
+     "tts_text": "<sigh> I am sorry, Mom."
     },
     {
      "type": "narration-ru",
@@ -89,7 +94,8 @@
      "type": "speech",
      "who": "dan",
      "en": "I know this wall. There is no door.",
-     "ru": "Я знаю эту стену. Здесь нет двери."
+     "ru": "Я знаю эту стену. Здесь нет двери.",
+     "delivery": "low, wary and disbelieving, speaking slowly as an engineer who knows his own office walls"
     }
    ]
   },
@@ -108,7 +114,8 @@
      "type": "speech",
      "who": "dan",
      "en": "A word on a door? What is that?",
-     "ru": "Слово на двери? Что это?"
+     "ru": "Слово на двери? Что это?",
+     "delivery": "baffled whisper, leaning closer, curious and uneasy at the glowing letters"
     }
    ]
   },
@@ -132,13 +139,15 @@
      "type": "speech",
      "who": "dan",
      "en": "Who is there?",
-     "ru": "Кто там?"
+     "ru": "Кто там?",
+     "delivery": "nervous and quiet, calling out toward a strange door with a shaky voice"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Mom, wait. One minute.",
-     "ru": "Мам, подожди. Одну минуту."
+     "ru": "Мам, подожди. Одну минуту.",
+     "delivery": "hurried, apologetic, speaking into the ringing phone while distracted by the door"
     }
    ]
   },
@@ -158,13 +167,15 @@
      "type": "speech",
      "who": "dan",
      "en": "It opens by itself!",
-     "ru": "Она открывается сама!"
+     "ru": "Она открывается сама!",
+     "delivery": "startled, breathless, voice jumping up in disbelief as the door swings open"
     },
     {
      "type": "thought",
      "who": "dan",
      "en": "I am tired. This is a dream.",
-     "ru": "Я устал. Это сон."
+     "ru": "Я устал. Это сон.",
+     "delivery": "weary self-reassurance, forced calm that does not quite convince him"
     },
     {
      "type": "narration-ru",
@@ -187,7 +198,8 @@
      "type": "shout",
      "who": "dan",
      "en": "Mom, wait for me!",
-     "ru": "Мам, подожди меня!"
+     "ru": "Мам, подожди меня!",
+     "delivery": "desperate panicked shout, falling through light, reaching for his mother's call"
     }
    ]
   },
@@ -211,7 +223,8 @@
      "type": "speech",
      "who": "dan",
      "en": "What is this place?",
-     "ru": "Что это за место?"
+     "ru": "Что это за место?",
+     "delivery": "dazed, small and awed, breathless wonder mixed with fear under a giant tower"
     }
    ]
   },
@@ -235,13 +248,15 @@
      "type": "system",
      "who": "system",
      "en": "Welcome to the Tower.",
-     "ru": "Добро пожаловать в Башню."
+     "ru": "Добро пожаловать в Башню.",
+     "delivery": "bright polite game-system greeting with a faint hollow, ominous edge"
     },
     {
      "type": "system",
      "who": "system",
      "en": "You have 0 words.",
-     "ru": "У тебя 0 слов."
+     "ru": "У тебя 0 слов.",
+     "delivery": "flat cold announcement, a blunt number delivered without pity"
     },
     {
      "type": "narration-ru",
@@ -269,25 +284,29 @@
      "type": "speech",
      "who": "dan",
      "en": "Zero words? I am Dan!",
-     "ru": "Ноль слов? Я — Дэн!"
+     "ru": "Ноль слов? Я — Дэн!",
+     "delivery": "indignant and confused, tired man arguing with a floating window, comic annoyance"
     },
     {
      "type": "system",
      "who": "system",
      "en": "Words are power. You are weak.",
-     "ru": "Слова — это сила. Ты слабый."
+     "ru": "Слова — это сила. Ты слабый.",
+     "delivery": "deadpan cold verdict, matter of fact and quietly mocking"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "I am not weak! I am tired.",
-     "ru": "Я не слабый! Я устал."
+     "ru": "Я не слабый! Я устал.",
+     "delivery": "defensive and a bit petulant, stung pride under exhaustion"
     },
     {
      "type": "system",
      "who": "system",
      "en": "Tired is weak.",
-     "ru": "Усталый — значит слабый."
+     "ru": "Усталый — значит слабый.",
+     "delivery": "dry flat pronouncement, short and merciless, with a hint of mockery"
     }
    ]
   },
@@ -311,25 +330,29 @@
      "type": "speech",
      "who": "dan",
      "en": "Where is my door?",
-     "ru": "Где моя дверь?"
+     "ru": "Где моя дверь?",
+     "delivery": "worried, searching, voice rising as he looks around the empty wall"
     },
     {
      "type": "system",
      "who": "system",
      "en": "It is gone.",
-     "ru": "Её нет."
+     "ru": "Её нет.",
+     "delivery": "short cold statement, no sympathy, a single blunt fact"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Is there a way home?",
-     "ru": "Есть путь домой?"
+     "ru": "Есть путь домой?",
+     "delivery": "hopeful and fragile, asking quietly, afraid of the answer"
     },
     {
      "type": "system",
      "who": "system",
      "en": "Find the last door. Some doors go home.",
-     "ru": "Найди последнюю дверь. Некоторые двери ведут домой."
+     "ru": "Найди последнюю дверь. Некоторые двери ведут домой.",
+     "delivery": "calm mysterious system voice, ceremonial and slightly cryptic"
     }
    ]
   },
@@ -353,7 +376,8 @@
      "type": "shout",
      "who": "dan",
      "en": "Open the hatch!",
-     "ru": "Откройся, люк!"
+     "ru": "Откройся, люк!",
+     "delivery": "loud, hoarse and awkward, shouting an order at a stuck hatch, half hoping it works"
     }
    ]
   },
@@ -373,19 +397,22 @@
      "type": "speech",
      "who": "dan",
      "en": "It works!",
-     "ru": "Работает!"
+     "ru": "Работает!",
+     "delivery": "amazed, giddy and breathless, laughing in disbelief that it worked"
     },
     {
      "type": "system",
      "who": "system",
      "en": "New word: OPEN.",
-     "ru": "Новое слово: OPEN."
+     "ru": "Новое слово: OPEN.",
+     "delivery": "crisp flat system notification, precise and neutral"
     },
     {
      "type": "system",
      "who": "system",
      "en": "Count: one.",
-     "ru": "Счёт: один."
+     "ru": "Счёт: один.",
+     "delivery": "crisp flat counter readout, bored precision"
     }
    ]
   },
@@ -409,25 +436,29 @@
      "type": "speech",
      "who": "mira",
      "en": "You are loud.",
-     "ru": "Ты шумный."
+     "ru": "Ты шумный.",
+     "delivery": "deadpan, low, unimpressed, barely moving her lips, a cold warning"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Loud is dead here.",
-     "ru": "Здесь шумный — мёртвый."
+     "ru": "Здесь шумный — мёртвый.",
+     "delivery": "quiet and grim, cold matter-of-fact survival rule"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Who are you?",
-     "ru": "Кто ты?"
+     "ru": "Кто ты?",
+     "delivery": "wary and startled, suspicious, asking a stranger in the dark"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "I am Mira.",
-     "ru": "Я Мира."
+     "ru": "Я Мира.",
+     "delivery": "curt and guarded, giving her name as if it costs her something"
     }
    ]
   },
@@ -451,19 +482,22 @@
      "type": "speech",
      "who": "dan",
      "en": "Help me, please! Help me!",
-     "ru": "Помоги мне, пожалуйста! Помоги!"
+     "ru": "Помоги мне, пожалуйста! Помоги!",
+     "delivery": "pleading and desperate, hands open, voice breaking, begging a stranger for help"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Not my problem.",
-     "ru": "Не моя проблема."
+     "ru": "Не моя проблема.",
+     "delivery": "cold, dismissive and bored, turning away without looking at him"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "I am lost! Help me!",
-     "ru": "Я заблудился! Помоги!"
+     "ru": "Я заблудился! Помоги!",
+     "delivery": "panicked, raw and louder, near tears, begging a second time"
     },
     {
      "type": "narration-ru",
@@ -495,19 +529,22 @@
      "type": "speech",
      "who": "mira",
      "en": "It is a Silent.",
-     "ru": "Это Безмолвный."
+     "ru": "Это Безмолвный.",
+     "delivery": "low urgent whisper, tight with fear, naming the danger in the shadows"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Who is that? What is a Silent?",
-     "ru": "Кто это? Что такое Безмолвный?"
+     "ru": "Кто это? Что такое Безмолвный?",
+     "delivery": "frightened and confused, rapid questions with a shaky breath"
     },
     {
      "type": "shout",
      "who": "mira",
      "en": "Run, Dan! Run now!",
-     "ru": "Беги, Дэн! Беги сейчас!"
+     "ru": "Беги, Дэн! Беги сейчас!",
+     "delivery": "sharp commanding shout, urgent and breathless, giving a life-or-death order"
     }
    ]
   },
@@ -531,19 +568,22 @@
      "type": "speech",
      "who": "dan",
      "en": "I am slow! I am so tired!",
-     "ru": "Я медленный! Я так устал!"
+     "ru": "Я медленный! Я так устал!",
+     "delivery": "gasping and wheezing while sprinting, panicked and self-mocking"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "You are slow. Run, run, run!",
-     "ru": "Да, ты медленный. Беги, беги, беги!"
+     "ru": "Да, ты медленный. Беги, беги, беги!",
+     "delivery": "sharp and impatient, breathless, barking encouragement while running"
     },
     {
      "type": "system",
      "who": "system",
      "en": "You are very slow.",
-     "ru": "Ты очень медленный."
+     "ru": "Ты очень медленный.",
+     "delivery": "flat and cold, a dry judgment delivered over the chase, faintly amused"
     }
    ]
   },
@@ -567,13 +607,15 @@
      "type": "speech",
      "who": "silent",
      "en": "I am Dan.",
-     "ru": "Я — Дэн."
+     "ru": "Я — Дэн.",
+     "delivery": "hollow breathy whisper, imitating Dan's voice slightly wrong, eerie and smooth"
     },
     {
      "type": "system",
      "who": "system",
      "en": "Word lost: DAN.",
-     "ru": "Слово потеряно: DAN."
+     "ru": "Слово потеряно: DAN.",
+     "delivery": "cold final system notice, quiet and chilling, almost gentle"
     },
     {
      "type": "narration-ru",

@@ -164,8 +164,19 @@ def main():
     hashes = load(hpath) if os.path.isfile(hpath) else {}
     jobs, eps = collect(args)
 
+    # dialogue lines already voiced by Gemini (tools/audio/gen_gemini.py) are never overwritten by Kokoro
+    try:
+        import gen_gemini
+        gem = gen_gemini.current_set()
+    except Exception as e:  # no state / no gemini module: plain Kokoro run
+        gem = set()
+    if gem:
+        print("skipping %d lines voiced by Gemini" % len([1 for j in jobs if j[0] in gem]))
+
     todo = []
     for rel, text, v, s, grp in jobs:
+        if rel in gem:
+            continue
         h = hashlib.sha1(("%s|%s|%s|%s" % (text, v, s, args.bitrate)).encode()).hexdigest()[:16]
         ok = os.path.isfile(os.path.join(OUT, rel)) and hashes.get(rel) == h
         if args.force or not ok:
@@ -173,6 +184,7 @@ def main():
     print("jobs: %d, to generate: %d" % (len(jobs), len(todo)))
 
     stats = {"gen": 0, "skip": len(jobs) - len(todo)}
+    jobs = [j for j in jobs if j[0] not in gem]  # verification below is Kokoro-only
     ratios = {}
     if todo and not args.verify:
         from kokoro_onnx import Kokoro

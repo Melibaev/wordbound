@@ -44,13 +44,15 @@
      "type": "shout",
      "who": "dan",
      "en": "Help! She has two breaths!",
-     "ru": "Помогите! У неё два дыхания!"
+     "ru": "Помогите! У неё два дыхания!",
+     "delivery": "desperate hoarse shout, carrying Mira, pleading at the market gate"
     },
     {
      "type": "speech",
      "who": "pip",
      "en": "Nobody helps here. They buy. They sell.",
-     "ru": "Тут никто не помогает. Тут покупают. Тут продают."
+     "ru": "Тут никто не помогает. Тут покупают. Тут продают.",
+     "delivery": "quick, flat and cheeky, a worldly kid stating the cruel rule"
     }
    ]
   },
@@ -74,13 +76,15 @@
      "type": "speech",
      "who": "pip",
      "en": "This is the Ink Market. They sell breath.",
-     "ru": "Это Рынок Чернил. Тут продают дыхание."
+     "ru": "Это Рынок Чернил. Тут продают дыхание.",
+     "delivery": "bright quick tour-guide voice, a street kid showing off the market"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "How much is a breath?",
-     "ru": "Сколько стоит дыхание?"
+     "ru": "Сколько стоит дыхание?",
+     "delivery": "tired and anxious, quiet and practical, almost afraid to ask"
     }
    ]
   },
@@ -108,13 +112,15 @@
      "type": "speech",
      "who": "trader",
      "en": "Ten breaths, two words. Buy it. A good price.",
-     "ru": "Десять дыханий за два слова. Бери. Хорошая цена."
+     "ru": "Десять дыханий за два слова. Бери. Хорошая цена.",
+     "delivery": "booming cheerful hawker, rough and fast, selling air like a fruit"
     },
     {
      "type": "system",
      "who": "system",
      "en": "Count: two. You are poor.",
-     "ru": "Счёт: два. Ты беден."
+     "ru": "Счёт: два. Ты беден.",
+     "delivery": "flat dry system tally, a bit of mockery, deadpan"
     }
    ]
   },
@@ -142,13 +148,15 @@
      "type": "system",
      "who": "system",
      "en": "Mira has one breath.",
-     "ru": "У Миры одно дыхание."
+     "ru": "У Миры одно дыхание.",
+     "delivery": "flat cold system warning, soft and grave, a fading count"
     },
     {
      "type": "thought",
      "who": "dan",
      "en": "Think. I have two words. I need them. I have no money.",
-     "ru": "Думай. У меня два слова. Они мне нужны. Денег нет."
+     "ru": "Думай. У меня два слова. Они мне нужны. Денег нет.",
+     "delivery": "tense inner voice, rapid and desperate thinking, scraping for any idea"
     }
    ]
   },
@@ -176,13 +184,15 @@
      "type": "speech",
      "who": "dan",
      "en": "Your roof is bad. That leg is weak. I can fix it.",
-     "ru": "Твоя крыша плохая. Вот эта стойка слабая. Я могу её починить."
+     "ru": "Твоя крыша плохая. Вот эта стойка слабая. Я могу её починить.",
+     "delivery": "slow careful engineer voice, confident and calm, pointing out faults like an inspector"
     },
     {
      "type": "speech",
      "who": "trader",
      "en": "My roof is good. Go home, Zero.",
-     "ru": "Моя крыша хорошая. Иди домой, Зеро."
+     "ru": "Моя крыша хорошая. Иди домой, Зеро.",
+     "delivery": "gruff offended hawker, grumpy and dismissive, waving him off"
     }
    ]
   },
@@ -206,13 +216,15 @@
      "type": "shout",
      "who": "dan",
      "en": "How many jars?",
-     "ru": "Сколько банок?"
+     "ru": "Сколько банок?",
+     "delivery": "urgent shout over cracking wood, quick and desperate, thinking fast"
     },
     {
      "type": "shout",
      "who": "trader",
      "en": "Twenty! Too many! My money!",
-     "ru": "Двадцать! Слишком много! Мои деньги!"
+     "ru": "Двадцать! Слишком много! Мои деньги!",
+     "delivery": "panicked, outraged bellow, a stout trader watching his stock fall, almost comic"
     }
    ]
   },
@@ -236,19 +248,22 @@
      "type": "shout",
      "who": "dan",
      "en": "Stop! Push! Fix!",
-     "ru": "Стой! Толкай! Чини!"
+     "ru": "Стой! Толкай! Чини!",
+     "delivery": "straining roared effort, pushing up a collapsing beam, grunting with every word"
     },
     {
      "type": "system",
      "who": "system",
      "en": "New word: FIX. FIX is yours now. Count: three.",
-     "ru": "Новое слово: FIX. FIX теперь твоё. Счёт: три."
+     "ru": "Новое слово: FIX. FIX теперь твоё. Счёт: три.",
+     "delivery": "flat crisp system notice, crisp and neutral with a trace of surprise"
     },
     {
      "type": "system",
      "who": "system",
      "en": "Big thing, big breath. Dan has one breath.",
-     "ru": "Большая вещь — большое дыхание. У Дэна одно дыхание."
+     "ru": "Большая вещь — большое дыхание. У Дэна одно дыхание.",
+     "delivery": "grave flat system warning, calm and exact"
     }
    ]
   },
@@ -276,19 +291,22 @@
      "type": "speech",
      "who": "trader",
      "en": "Three words, and you fix my roof! But you don't ... it. One leg is still bad.",
-     "ru": "Три слова, и ты чинишь мою крышу! Но ты не ... её. Одна стойка всё ещё кривая."
+     "ru": "Три слова, и ты чинишь мою крышу! Но ты не ... её. Одна стойка всё ещё кривая.",
+     "delivery": "rough trader, grudging respect, scratching his head, puzzled and amused"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "What word? I hear nothing.",
-     "ru": "Какое слово? Я ничего не слышу."
+     "ru": "Какое слово? Я ничего не слышу.",
+     "delivery": "confused and winded, breathless, genuinely asking"
     },
     {
      "type": "system",
      "who": "system",
      "en": "Almost.",
-     "ru": "Почти."
+     "ru": "Почти.",
+     "delivery": "flat dry system hint, short and slightly teasing"
     },
     {
      "type": "narration-ru",
@@ -320,19 +338,22 @@
      "type": "speech",
      "who": "trader",
      "en": "A trade is a trade. I pay a word, not money.",
-     "ru": "Сделка есть сделка. Я плачу словом, а не деньгами."
+     "ru": "Сделка есть сделка. Я плачу словом, а не деньгами.",
+     "delivery": "warm gruff trader, a grin in the voice, ceremonial and fair"
     },
     {
      "type": "speech",
      "who": "trader",
      "en": "REST gives breath. Say it to her.",
-     "ru": "REST даёт дыхание. Скажи его ей."
+     "ru": "REST даёт дыхание. Скажи его ей.",
+     "delivery": "gentle gruff instruction, soft and kind, almost fatherly"
     },
     {
      "type": "system",
      "who": "system",
      "en": "New word: REST. REST is yours now. Count: four. Title: Roof-Fixer.",
-     "ru": "Новое слово: REST. REST теперь твоё. Счёт: четыре. Титул: Починщик крыш."
+     "ru": "Новое слово: REST. REST теперь твоё. Счёт: четыре. Титул: Починщик крыш.",
+     "delivery": "crisp flat system announcement, precise, a ceremonial hint of pride"
     }
    ]
   },
@@ -360,19 +381,22 @@
      "type": "speech",
      "who": "dan",
      "en": "Rest, Mira. Rest.",
-     "ru": "Отдыхай, Мира. Отдыхай."
+     "ru": "Отдыхай, Мира. Отдыхай.",
+     "delivery": "soft warm whisper, tender and focused, a plea to her to hold on"
     },
     {
      "type": "system",
      "who": "system",
      "en": "Mira has six breaths.",
-     "ru": "У Миры шесть дыханий."
+     "ru": "У Миры шесть дыханий.",
+     "delivery": "flat quiet system update, gentle and almost relieved"
     },
     {
      "type": "thought",
      "who": "dan",
      "en": "I give her breath. I don't lose the word. Good.",
-     "ru": "Я отдаю ей дыхание. А слово не теряю. Хорошо."
+     "ru": "Я отдаю ей дыхание. А слово не теряю. Хорошо.",
+     "delivery": "relieved quiet inner voice, hushed thanks and weary pride"
     }
    ]
   },
@@ -396,13 +420,15 @@
      "type": "speech",
      "who": "dan",
      "en": "How many apples for one word?",
-     "ru": "Сколько яблок за одно слово?"
+     "ru": "Сколько яблок за одно слово?",
+     "delivery": "friendly tired curiosity, trying to be light after the crisis"
     },
     {
      "type": "speech",
      "who": "pip",
      "en": "Two! You have four words. Eight apples! Eat something, Zero.",
-     "ru": "Два! У тебя четыре слова. Восемь яблок! Поешь что-нибудь, Зеро."
+     "ru": "Два! У тебя четыре слова. Восемь яблок! Поешь что-нибудь, Зеро.",
+     "delivery": "fast sly boy, delighted with his own math, a cheeky shop kid with a wink"
     }
    ]
   },
@@ -422,7 +448,8 @@
      "type": "speech",
      "who": "dan",
      "en": "That sound. I know that sound.",
-     "ru": "Этот звук. Я знаю этот звук."
+     "ru": "Этот звук. Я знаю этот звук.",
+     "delivery": "frozen stunned whisper, listening hard, ears pricked, a trembling catch in his voice"
     }
    ]
   },
@@ -445,13 +472,15 @@
     {
      "type": "narration",
      "en": "Mom: Dan, eat something.",
-     "ru": "Мама: Дэн, поешь что-нибудь."
+     "ru": "Мама: Дэн, поешь что-нибудь.",
+     "delivery": "soft tired warm voice, a mother's text read gently, bittersweet"
     },
     {
      "type": "shout",
      "who": "dan",
      "en": "My phone! That is my mom! How much is it?",
-     "ru": "Мой телефон! Это моя мама! Сколько он стоит?"
+     "ru": "Мой телефон! Это моя мама! Сколько он стоит?",
+     "delivery": "desperate loud shout, heart pounding, rushing to the table"
     }
    ]
   },
@@ -479,19 +508,22 @@
      "type": "speech",
      "who": "trader",
      "en": "The phone is not cheap. Twenty words. It has a voice from outside.",
-     "ru": "Телефон не дешёвый. Двадцать слов. В нём голос снаружи."
+     "ru": "Телефон не дешёвый. Двадцать слов. В нём голос снаружи.",
+     "delivery": "gruff apologetic trader, slow heavy refusal, tallying prices"
     },
     {
      "type": "speech",
      "who": "trader",
      "en": "Sorry, Zero. That man buys it. He pays much.",
-     "ru": "Прости, Зеро. Тот человек его покупает. Он платит много."
+     "ru": "Прости, Зеро. Тот человек его покупает. Он платит много.",
+     "delivery": "gruff and sorry, a regretful shrug, quietly sympathetic"
     },
     {
      "type": "system",
      "who": "system",
      "en": "Missed calls: 10.",
-     "ru": "Пропущенные звонки: 10."
+     "ru": "Пропущенные звонки: 10.",
+     "delivery": "flat cold system count, soft and sad, a measured number"
     },
     {
      "type": "narration-ru",
@@ -519,13 +551,15 @@
      "type": "shout",
      "who": "dan",
      "en": "Stop him! That is my mom!",
-     "ru": "Остановите его! Это моя мама!"
+     "ru": "Остановите его! Это моя мама!",
+     "delivery": "frantic furious shout, lunging after a thief, cracking with emotion"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "No. Think. You give me breath. Not bad, Zero.",
-     "ru": "Нет. Думай. Ты отдал мне дыхание. Неплохо, Зеро."
+     "ru": "Нет. Думай. Ты отдал мне дыхание. Неплохо, Зеро.",
+     "delivery": "weak but dry, tired humor, quiet praise from the bench, breathy"
     }
    ]
   },
@@ -553,19 +587,22 @@
      "type": "speech",
      "who": "dan",
      "en": "Who sells you my phone?",
-     "ru": "Кто продал тебе мой телефон?"
+     "ru": "Кто продал тебе мой телефон?",
+     "delivery": "quiet urgent question, tight and tense, looking at the trader"
     },
     {
      "type": "speech",
      "who": "trader",
      "en": "A little girl sells it to me. She does not talk. She sings.",
-     "ru": "Маленькая девочка. Она не говорит. Она поёт."
+     "ru": "Маленькая девочка. Она не говорит. Она поёт.",
+     "delivery": "gruff trader, puzzled and a little spooked, slowly recalling"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "A girl? What does she sing?",
-     "ru": "Девочка? Что она поёт?"
+     "ru": "Девочка? Что она поёт?",
+     "delivery": "faint weak voice, sharp curiosity cutting through exhaustion"
     }
    ]
   },
@@ -593,13 +630,15 @@
      "type": "speech",
      "who": "mira",
      "en": "I know that song. Lina sings it every night.",
-     "ru": "Я знаю эту песню. Лина поёт её каждую ночь."
+     "ru": "Я знаю эту песню. Лина поёт её каждую ночь.",
+     "delivery": "soft broken whisper, haunted and tender, a lullaby memory in her voice"
     },
     {
      "type": "system",
      "who": "system",
      "en": "The girl sings. She is near.",
-     "ru": "Девочка поёт. Она рядом."
+     "ru": "Девочка поёт. Она рядом.",
+     "delivery": "quiet flat system voice, gentle hint, a slow reveal"
     }
    ]
   }

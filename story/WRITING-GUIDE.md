@@ -125,6 +125,15 @@ python tools/story_dump.py
 
 Русский перевод (`ru`): живой разговорный, не подстрочник; Система — женский род («она»); Безмолвный — «он»; обращение «Зеро»; слова-силы в русском тексте остаются латиницей заглавными (OPEN, STOP).
 
+### Озвучка: у каждой английской реплики есть `delivery`
+
+Диалоги озвучивает Gemini TTS (`tools/audio/gen_gemini.py`), и ему нужна «режиссёрская ремарка». Для каждой реплики с `en` (speech, thought, shout, narration, system) добавь необязательные строковые поля:
+
+- `"delivery"` — 8–25 слов по-английски: *как* сказано, с учётом сцены и характера. Пример: `"exhausted, guilty, almost whispering at 2 AM in an empty office"`; Мира — `"deadpan, low, unimpressed, barely moving her lips"`; Система — `"flat cold game-system announcement with a hint of mockery"`; Безмолвный — `"hollow breathy whisper, imitating Dan's voice slightly wrong"`.
+- `"tts_text"` — по желанию: тот же текст, что в `en`, плюс метки `<sigh>`, `<laugh>`, `<short pause>`. Слова должны совпадать с `en` (валидатор проверяет); ремарки в сам текст не вставлять — читатель видит `en` на экране.
+
+Новая реплика без `delivery` даёт предупреждение валидатора и озвучивается «по умолчанию». Если поменялся `en`/`delivery`/`tts_text`, запусти `python tools/audio/gen_gemini.py` — переозвучатся только изменённые строки.
+
 ---
 
 ## 3. Правила уровня с примерами

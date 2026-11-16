@@ -40,13 +40,15 @@
      "type": "shout",
      "who": "dan",
      "en": "I can't open it! No OPEN!",
-     "ru": "Не могу открыть! У меня нет OPEN!"
+     "ru": "Не могу открыть! У меня нет OPEN!",
+     "delivery": "frantic gasping shout, panicked and out of breath, fleeing in the dark"
     },
     {
      "type": "shout",
      "who": "mira",
      "en": "How does a door move? Think!",
-     "ru": "Как двигается дверь? Думай!"
+     "ru": "Как двигается дверь? Думай!",
+     "delivery": "urgent sharp shout, fierce coaching in the middle of the chase"
     }
    ]
   },
@@ -74,13 +76,15 @@
      "type": "speech",
      "who": "dan",
      "en": "A door moves when I push it!",
-     "ru": "Дверь двигается, когда я её толкаю!"
+     "ru": "Дверь двигается, когда я её толкаю!",
+     "delivery": "sudden bright realization, breathless triumph, discovering a trick under pressure"
     },
     {
      "type": "system",
      "who": "system",
      "en": "New word: PUSH.",
-     "ru": "Новое слово: PUSH."
+     "ru": "Новое слово: PUSH.",
+     "delivery": "crisp flat system notification, neutral and exact"
     }
    ]
   },
@@ -104,13 +108,15 @@
      "type": "speech",
      "who": "dan",
      "en": "I don't need OPEN. I push!",
-     "ru": "Мне не нужен OPEN. Я толкаю!"
+     "ru": "Мне не нужен OPEN. Я толкаю!",
+     "delivery": "giddy exhausted laugh, proud and breathless, safe at last"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "You are slow. But you think.",
-     "ru": "Ты медленный. Но ты думаешь."
+     "ru": "Ты медленный. Но ты думаешь.",
+     "delivery": "dry low voice, grudging respect with exhaustion underneath"
     }
    ]
   },
@@ -134,19 +140,22 @@
      "type": "speech",
      "who": "mira",
      "en": "Eat something. You are pale.",
-     "ru": "Поешь. Ты бледный."
+     "ru": "Поешь. Ты бледный.",
+     "delivery": "quiet and practical, a rough kind of care, handing him bread"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "My mom says that!",
-     "ru": "Моя мама так говорит!"
+     "ru": "Моя мама так говорит!",
+     "delivery": "soft surprised smile, warm and a little homesick, laughing quietly"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Your mom is smart.",
-     "ru": "Твоя мама умная."
+     "ru": "Твоя мама умная.",
+     "delivery": "dry warm reply, the faintest smile, deadpan approval of his mother"
     }
    ]
   },
@@ -170,25 +179,29 @@
      "type": "speech",
      "who": "dan",
      "en": "Can I ask a question?",
-     "ru": "Можно задать вопрос?"
+     "ru": "Можно задать вопрос?",
+     "delivery": "polite and playful, boyish and hesitant, raising a hand like a schoolboy"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "You can ask. I can say no.",
-     "ru": "Спрашивай. Я могу не ответить."
+     "ru": "Спрашивай. Я могу не ответить.",
+     "delivery": "flat and sharp, deadpan permission with a warning"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Who is the Keeper?",
-     "ru": "Кто такой Хранитель?"
+     "ru": "Кто такой Хранитель?",
+     "delivery": "careful and curious, quietly probing, watching her face"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "He is a trader. He is not a friend.",
-     "ru": "Он торговец. Он не друг."
+     "ru": "Он торговец. Он не друг.",
+     "delivery": "dry and tight, low honest warning, a coldness behind the words"
     }
    ]
   },
@@ -212,25 +225,29 @@
      "type": "speech",
      "who": "dan",
      "en": "Where does the Keeper live?",
-     "ru": "Где живёт Хранитель?"
+     "ru": "Где живёт Хранитель?",
+     "delivery": "thoughtful curiosity, chewing slowly, gentle questions"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "He lives in the Hall. He wants that door open.",
-     "ru": "Он живёт в Зале. Ему нужно, чтобы та дверь открылась."
+     "ru": "Он живёт в Зале. Ему нужно, чтобы та дверь открылась.",
+     "delivery": "low and bitter, a tired fact with hard edges"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "I see my office. It is real.",
-     "ru": "Я видел свой офис. Он настоящий."
+     "ru": "Я видел свой офис. Он настоящий.",
+     "delivery": "quiet and amazed, voice small, remembering the sealed door and his office"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Then a door goes home. We find it.",
-     "ru": "Значит, есть дверь домой. Мы найдём её."
+     "ru": "Значит, есть дверь домой. Мы найдём её.",
+     "delivery": "firm quiet reassurance, steady and practical, a rare spark of hope"
     }
    ]
   },
@@ -258,25 +275,29 @@
      "type": "speech",
      "who": "dan",
      "en": "Why do you choose me?",
-     "ru": "Почему ты выбрала меня?"
+     "ru": "Почему ты выбрала меня?",
+     "delivery": "tired honest question aimed at a floating window, wary curiosity"
     },
     {
      "type": "system",
      "who": "system",
      "en": "You have 0 words. That is why.",
-     "ru": "У тебя 0 слов. Вот почему."
+     "ru": "У тебя 0 слов. Вот почему.",
+     "delivery": "flat dry system answer, blunt and detached with a hint of mockery"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "That is not an answer.",
-     "ru": "Это не ответ."
+     "ru": "Это не ответ.",
+     "delivery": "frustrated, a little cranky, deflated, flatly unsatisfied with the answer"
     },
     {
      "type": "system",
      "who": "system",
      "en": "It is a short answer. Ask me later.",
-     "ru": "Это короткий ответ. Спроси позже."
+     "ru": "Это короткий ответ. Спроси позже.",
+     "delivery": "dry flat, evasive and slightly teasing, a mysterious refusal"
     }
    ]
   },
@@ -300,25 +321,29 @@
      "type": "speech",
      "who": "mira",
      "en": "It is rude. It is always rude.",
-     "ru": "Она грубая. Она всегда грубая."
+     "ru": "Она грубая. Она всегда грубая.",
+     "delivery": "low, bitter and tired, rolling her eyes at the System"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "How long do you live here?",
-     "ru": "Как долго ты здесь живёшь?"
+     "ru": "Как долго ты здесь живёшь?",
+     "delivery": "gentle small talk, tired and sincere, trying to be kind"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Three years. I read, I climb, I wait.",
-     "ru": "Три года. Я читаю, лезу вверх, жду."
+     "ru": "Три года. Я читаю, лезу вверх, жду.",
+     "delivery": "flat quiet answer, eyes on her wrist, hiding a deep ache"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Wait for what?",
-     "ru": "Чего ждёшь?"
+     "ru": "Чего ждёшь?",
+     "delivery": "soft careful question, treading lightly on a sore subject"
     }
    ]
   },
@@ -342,13 +367,15 @@
      "type": "speech",
      "who": "dan",
      "en": "It is beautiful. I hate it.",
-     "ru": "Красиво. Я это ненавижу."
+     "ru": "Красиво. Я это ненавижу.",
+     "delivery": "hushed awe, quiet wonder mixed with dread, looking at the great tower wall"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Everyone does.",
-     "ru": "Все ненавидят."
+     "ru": "Все ненавидят.",
+     "delivery": "low tired agreement, a flat bitter truth, tinged with sadness"
     }
    ]
   },
@@ -376,13 +403,15 @@
      "type": "speech",
      "who": "dan",
      "en": "There is the door! Can you read it?",
-     "ru": "Вот дверь! Ты можешь прочесть?"
+     "ru": "Вот дверь! Ты можешь прочесть?",
+     "delivery": "hushed hopeful whisper, pointing at a door, carefully excited"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "I read it. This is the last door.",
-     "ru": "Читаю. Это последняя дверь."
+     "ru": "Читаю. Это последняя дверь.",
+     "delivery": "low and tense, steady and flat, reading a stone inscription"
     }
    ]
   },
@@ -410,19 +439,22 @@
      "type": "speech",
      "who": "mira",
      "en": "Wait. It does not see. It hears.",
-     "ru": "Подожди. Он не видит. Он слышит."
+     "ru": "Подожди. Он не видит. Он слышит.",
+     "delivery": "sharp low whisper, one finger to her lips, absolutely focused"
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "How does it hear us?",
-     "ru": "Как он нас слышит?"
+     "ru": "Как он нас слышит?",
+     "delivery": "whispered and fearful, trembling at the idea of a listening monster"
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Do not talk. Do not run. Push slowly.",
-     "ru": "Не говори. Не беги. Толкай медленно."
+     "ru": "Не говори. Не беги. Толкай медленно.",
+     "delivery": "slow low whisper, clipped rules, calm under pressure"
     }
    ]
   },
@@ -450,13 +482,15 @@
      "type": "speech",
      "who": "dan",
      "en": "I push. It is heavy.",
-     "ru": "Я толкаю. Она тяжёлая."
+     "ru": "Я толкаю. Она тяжёлая.",
+     "delivery": "strained whisper, effort in each word, pushing against a massive door"
     },
     {
      "type": "speech",
      "who": "silent",
      "en": "Mira?",
-     "ru": "Мира?"
+     "ru": "Мира?",
+     "delivery": "thin hollow whisper, soft and sad, a child-like voice calling a name"
     }
    ]
   },
@@ -484,13 +518,15 @@
      "type": "speech",
      "who": "mira",
      "en": "No.",
-     "ru": "Нет."
+     "ru": "Нет.",
+     "delivery": "tiny frozen whisper, a single word of shock and denial, voice breaking"
     },
     {
      "type": "speech",
      "who": "silent",
      "en": "Mira. It is me. Why do you run?",
-     "ru": "Мира. Это я. Почему ты бежишь?"
+     "ru": "Мира. Это я. Почему ты бежишь?",
+     "delivery": "small cold voice, hollow and child-like, quietly pleading and puzzled"
     }
    ]
   },
@@ -518,13 +554,15 @@
      "type": "speech",
      "who": "dan",
      "en": "Mira? Who is she?",
-     "ru": "Мира? Кто она?"
+     "ru": "Мира? Кто она?",
+     "delivery": "confused whisper, glancing between them, alarm rising"
     },
     {
      "type": "thought",
      "who": "dan",
      "en": "The red cord. It is like hers.",
-     "ru": "Красная нить. Такая же, как у неё."
+     "ru": "Красная нить. Такая же, как у неё.",
+     "delivery": "quiet realization, thoughts clicking together, a whispered inner discovery"
     }
    ]
   },
@@ -548,13 +586,15 @@
      "type": "speech",
      "who": "mira",
      "en": "She is my... I can't. I don't have the word.",
-     "ru": "Она моя... Не могу. У меня нет этого слова."
+     "ru": "Она моя... Не могу. У меня нет этого слова.",
+     "delivery": "broken, halting and shaken, voice cracking, unable to say a word she needs"
     },
     {
      "type": "system",
      "who": "system",
      "en": "She does not have that word.",
-     "ru": "У неё нет этого слова."
+     "ru": "У неё нет этого слова.",
+     "delivery": "flat quiet system notice, soft and sad, a cold fact"
     }
    ]
   }

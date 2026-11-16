@@ -213,5 +213,36 @@ def report(*a, **k):
     check_line_voice()
     return _report_without_voice(*a, **k)
 
+# ---- optional line fields "delivery" (TTS acting direction) and "tts_text" (spoken text with inline tags)
+def check_line_delivery():
+    story = load(os.path.join(DATA, "story.json"))
+    if not isinstance(story, dict):
+        return
+    strip = lambda s: re.sub(r"<[^>]*>", " ", s)
+    for ep in story.get("episodes", []):
+        path = os.path.join(DATA, ep.get("file", ""))
+        if not os.path.isfile(path):
+            continue
+        d = load(path)
+        for pi, p in enumerate((d or {}).get("panels", []), 1):
+            for li, ln in enumerate(p.get("lines", []), 1):
+                where = "%s panel %d line %d" % (ep.get("id"), pi, li)
+                for k in ("delivery", "tts_text"):
+                    if k in ln and (not isinstance(ln[k], str) or not ln[k].strip()):
+                        err("%s: %s must be a non-empty string" % (where, k))
+                if ln.get("type") == "narration-ru" and ("delivery" in ln or "tts_text" in ln):
+                    err("%s: narration-ru has no audio, remove delivery/tts_text" % where)
+                if isinstance(ln.get("tts_text"), str) and ln.get("en") and tokens(strip(ln["tts_text"])) != tokens(ln["en"]):
+                    err("%s: tts_text words differ from en (only tags may be added)" % where)
+                if isinstance(ln.get("delivery"), str) and not 3 <= len(ln["delivery"].split()) <= 40:
+                    warn("%s: delivery should be ~8-25 words" % where)
+                if ln.get("en") and ln.get("type") != "narration-ru" and "delivery" not in ln:
+                    warn("%s: English line without delivery (TTS will use a generic default)" % where)
+
+_report_without_delivery = report
+def report(*a, **k):
+    check_line_delivery()
+    return _report_without_delivery(*a, **k)
+
 if __name__ == "__main__":
     sys.exit(main())
