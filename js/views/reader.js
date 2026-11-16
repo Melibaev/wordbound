@@ -87,14 +87,47 @@ function placedHTML(l, pl, pi, li, newSet) {
 function fitLayer(layer) {
   if (!layer) return;
   const H = layer.clientHeight;
+  const W = layer.clientWidth;
   if (!H) return;
-  layer.querySelectorAll('.pl').forEach((el) => {
-    if (el.dataset.top == null) el.dataset.top = el.style.top;
+  const items = Array.from(layer.querySelectorAll('.pl'));
+  items.forEach((el) => {
+    if (el.dataset.top == null) {
+      el.dataset.top = el.style.top;
+      el.dataset.left = el.style.left;
+    }
     el.style.top = el.dataset.top;
-    const tail = /^down|^left|^right/.test(el.dataset.tail || '') ? 14 : 3;
-    const over = el.offsetTop + el.offsetHeight + tail - H;
-    if (over > 0) el.style.top = Math.max(2, el.offsetTop - over) + 'px';
+    el.style.left = el.dataset.left;
   });
+  const GAP = 8;
+  const placed = [];
+  for (const el of items) {
+    if (el.offsetLeft + el.offsetWidth > W - 2) el.style.left = Math.max(2, W - el.offsetWidth - 2) + 'px';
+    const h = el.offsetHeight;
+    const l = el.offsetLeft;
+    const r = l + el.offsetWidth;
+    const tail = /^down|^left|^right/.test(el.dataset.tail || '') ? 14 : 4;
+    const maxTop = H - h - tail;
+    let top = Math.min(el.offsetTop, maxTop);
+    const hit = (t) => placed.find((q) => l < q.r && r > q.l && t < q.b + GAP && t + h + GAP > q.t);
+    for (let n = 0; n < 12; n++) {
+      const q = hit(top);
+      if (!q) break;
+      top = q.b + GAP; // push down
+    }
+    if (hit(top) || top > maxTop) {
+      // no room below: try above the blocking items
+      let t2 = Math.min(el.offsetTop, maxTop);
+      for (let n = 0; n < 12; n++) {
+        const q = hit(t2);
+        if (!q) break;
+        t2 = q.t - h - GAP;
+      }
+      top = t2 >= 10 && !hit(t2) ? t2 : Math.max(10, Math.min(top, maxTop));
+    }
+    top = Math.max(10, top);
+    el.style.top = top + 'px';
+    placed.push({ l, r, t: top, b: top + h });
+  }
 }
 
 function panelHTML(p, i, ep, newSet, media) {
@@ -126,7 +159,7 @@ function panelHTML(p, i, ep, newSet, media) {
     const alt = esc(p.art || '');
     const img = `<img class="art-img" src="${esc(media.base + nn(i) + '.jpg' + media.q)}" alt="${alt}" decoding="async" loading="${i < 2 ? 'eager' : 'lazy'}" data-alt="${alt}">`;
     return `<section class="panel mood-${mood} rv has-img placed" data-i="${i}">
-<div class="art">${renderPanelArt(p, db.chars)}${img}${capsP.length ? `<div class="caps">${capsP.join('')}</div>` : ''}<div class="pl-layer">${items.join('')}</div></div>
+${capsP.length ? `<div class="caps-top">${capsP.join('')}</div>` : ''}<div class="art">${renderPanelArt(p, db.chars)}${img}<div class="pl-layer">${items.join('')}</div></div>
 </section>`;
   }
   let k = 0;
