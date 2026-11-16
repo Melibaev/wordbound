@@ -38,7 +38,13 @@
      "en": "Nine calls. All Mom.",
      "ru": "Девять звонков. И все от мамы.",
      "delivery": "exhausted and guilty, almost whispering to himself at 2 AM in an empty office",
-     "tts_text": "Nine calls. <short pause> All Mom."
+     "tts_text": "Nine calls. <short pause> All Mom.",
+     "place": {
+      "x": 0.04,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -58,7 +64,13 @@
      "type": "narration",
      "en": "Mom: Dan, eat something.",
      "ru": "Мама: Дэн, поешь что-нибудь.",
-     "delivery": "soft, tired and warm, like a mother's gentle text read aloud in the quiet night"
+     "delivery": "soft, tired and warm, like a mother's gentle text read aloud in the quiet night",
+     "place": {
+      "x": 0.03,
+      "y": 0.74,
+      "w": 0.48,
+      "tail": "none"
+     }
     },
     {
      "type": "thought",
@@ -66,7 +78,13 @@
      "en": "I am sorry, Mom.",
      "ru": "Прости, мам.",
      "delivery": "hushed, heavy with guilt, voice cracking a little on the last word",
-     "tts_text": "<sigh> I am sorry, Mom."
+     "tts_text": "<sigh> I am sorry, Mom.",
+     "place": {
+      "x": 0.03,
+      "y": 0.05,
+      "w": 0.38,
+      "tail": "none"
+     }
     },
     {
      "type": "narration-ru",
@@ -95,7 +113,13 @@
      "who": "dan",
      "en": "I know this wall. There is no door.",
      "ru": "Я знаю эту стену. Здесь нет двери.",
-     "delivery": "low, wary and disbelieving, speaking slowly as an engineer who knows his own office walls"
+     "delivery": "low, wary and disbelieving, speaking slowly as an engineer who knows his own office walls",
+     "place": {
+      "x": 0.04,
+      "y": 0.04,
+      "w": 0.52,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -115,7 +139,13 @@
      "who": "dan",
      "en": "A word on a door? What is that?",
      "ru": "Слово на двери? Что это?",
-     "delivery": "baffled whisper, leaning closer, curious and uneasy at the glowing letters"
+     "delivery": "baffled whisper, leaning closer, curious and uneasy at the glowing letters",
+     "place": {
+      "x": 0.03,
+      "y": 0.05,
+      "w": 0.46,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -140,14 +170,26 @@
      "who": "dan",
      "en": "Who is there?",
      "ru": "Кто там?",
-     "delivery": "nervous and quiet, calling out toward a strange door with a shaky voice"
+     "delivery": "nervous and quiet, calling out toward a strange door with a shaky voice",
+     "place": {
+      "x": 0.04,
+      "y": 0.04,
+      "w": 0.38,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Mom, wait. One minute.",
      "ru": "Мам, подожди. Одну минуту.",
-     "delivery": "hurried, apologetic, speaking into the ringing phone while distracted by the door"
+     "delivery": "hurried, apologetic, speaking into the ringing phone while distracted by the door",
+     "place": {
+      "x": 0.03,
+      "y": 0.8,
+      "w": 0.46,
+      "tail": "up-right"
+     }
     }
    ]
   },
@@ -168,14 +210,26 @@
      "who": "dan",
      "en": "It opens by itself!",
      "ru": "Она открывается сама!",
-     "delivery": "startled, breathless, voice jumping up in disbelief as the door swings open"
+     "delivery": "startled, breathless, voice jumping up in disbelief as the door swings open",
+     "place": {
+      "x": 0.03,
+      "y": 0.05,
+      "w": 0.4,
+      "tail": "down-right"
+     }
     },
     {
      "type": "thought",
      "who": "dan",
      "en": "I am tired. This is a dream.",
      "ru": "Я устал. Это сон.",
-     "delivery": "weary self-reassurance, forced calm that does not quite convince him"
+     "delivery": "weary self-reassurance, forced calm that does not quite convince him",
+     "place": {
+      "x": 0.62,
+      "y": 0.05,
+      "w": 0.36,
+      "tail": "down-left"
+     }
     },
     {
      "type": "narration-ru",
@@ -199,7 +253,13 @@
      "who": "dan",
      "en": "Mom, wait for me!",
      "ru": "Мам, подожди меня!",
-     "delivery": "desperate panicked shout, falling through light, reaching for his mother's call"
+     "delivery": "desperate panicked shout, falling through light, reaching for his mother's call",
+     "place": {
+      "x": 0.45,
+      "y": 0.08,
+      "w": 0.5,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -224,7 +284,13 @@
      "who": "dan",
      "en": "What is this place?",
      "ru": "Что это за место?",
-     "delivery": "dazed, small and awed, breathless wonder mixed with fear under a giant tower"
+     "delivery": "dazed, small and awed, breathless wonder mixed with fear under a giant tower",
+     "place": {
+      "x": 0.05,
+      "y": 0.74,
+      "w": 0.45,
+      "tail": "right"
+     }
     }
    ]
   },
@@ -249,14 +315,26 @@
      "who": "system",
      "en": "Welcome to the Tower.",
      "ru": "Добро пожаловать в Башню.",
-     "delivery": "bright polite game-system greeting with a faint hollow, ominous edge"
+     "delivery": "bright polite game-system greeting with a faint hollow, ominous edge",
+     "place": {
+      "x": 0.56,
+      "y": 0.5,
+      "w": 0.42,
+      "tail": "none"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "You have 0 words.",
      "ru": "У тебя 0 слов.",
-     "delivery": "flat cold announcement, a blunt number delivered without pity"
+     "delivery": "flat cold announcement, a blunt number delivered without pity",
+     "place": {
+      "x": 0.56,
+      "y": 0.68,
+      "w": 0.42,
+      "tail": "none"
+     }
     },
     {
      "type": "narration-ru",
@@ -285,28 +363,52 @@
      "who": "dan",
      "en": "Zero words? I am Dan!",
      "ru": "Ноль слов? Я — Дэн!",
-     "delivery": "indignant and confused, tired man arguing with a floating window, comic annoyance"
+     "delivery": "indignant and confused, tired man arguing with a floating window, comic annoyance",
+     "place": {
+      "x": 0.55,
+      "y": 0.02,
+      "w": 0.42,
+      "tail": "down-left"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Words are power. You are weak.",
      "ru": "Слова — это сила. Ты слабый.",
-     "delivery": "deadpan cold verdict, matter of fact and quietly mocking"
+     "delivery": "deadpan cold verdict, matter of fact and quietly mocking",
+     "place": {
+      "x": 0.04,
+      "y": 0.22,
+      "w": 0.46,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "I am not weak! I am tired.",
      "ru": "Я не слабый! Я устал.",
-     "delivery": "defensive and a bit petulant, stung pride under exhaustion"
+     "delivery": "defensive and a bit petulant, stung pride under exhaustion",
+     "place": {
+      "x": 0.04,
+      "y": 0.72,
+      "w": 0.42,
+      "tail": "right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Tired is weak.",
      "ru": "Усталый — значит слабый.",
-     "delivery": "dry flat pronouncement, short and merciless, with a hint of mockery"
+     "delivery": "dry flat pronouncement, short and merciless, with a hint of mockery",
+     "place": {
+      "x": 0.04,
+      "y": 0.47,
+      "w": 0.46,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -331,28 +433,52 @@
      "who": "dan",
      "en": "Where is my door?",
      "ru": "Где моя дверь?",
-     "delivery": "worried, searching, voice rising as he looks around the empty wall"
+     "delivery": "worried, searching, voice rising as he looks around the empty wall",
+     "place": {
+      "x": 0.03,
+      "y": 0.03,
+      "w": 0.36,
+      "tail": "down-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "It is gone.",
      "ru": "Её нет.",
-     "delivery": "short cold statement, no sympathy, a single blunt fact"
+     "delivery": "short cold statement, no sympathy, a single blunt fact",
+     "place": {
+      "x": 0.53,
+      "y": 0.08,
+      "w": 0.45,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Is there a way home?",
      "ru": "Есть путь домой?",
-     "delivery": "hopeful and fragile, asking quietly, afraid of the answer"
+     "delivery": "hopeful and fragile, asking quietly, afraid of the answer",
+     "place": {
+      "x": 0.03,
+      "y": 0.66,
+      "w": 0.4,
+      "tail": "up-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Find the last door. Some doors go home.",
      "ru": "Найди последнюю дверь. Некоторые двери ведут домой.",
-     "delivery": "calm mysterious system voice, ceremonial and slightly cryptic"
+     "delivery": "calm mysterious system voice, ceremonial and slightly cryptic",
+     "place": {
+      "x": 0.53,
+      "y": 0.46,
+      "w": 0.45,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -377,7 +503,13 @@
      "who": "dan",
      "en": "Open the hatch!",
      "ru": "Откройся, люк!",
-     "delivery": "loud, hoarse and awkward, shouting an order at a stuck hatch, half hoping it works"
+     "delivery": "loud, hoarse and awkward, shouting an order at a stuck hatch, half hoping it works",
+     "place": {
+      "x": 0.5,
+      "y": 0.14,
+      "w": 0.45,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -398,21 +530,39 @@
      "who": "dan",
      "en": "It works!",
      "ru": "Работает!",
-     "delivery": "amazed, giddy and breathless, laughing in disbelief that it worked"
+     "delivery": "amazed, giddy and breathless, laughing in disbelief that it worked",
+     "place": {
+      "x": 0.04,
+      "y": 0.04,
+      "w": 0.3,
+      "tail": "down-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "New word: OPEN.",
      "ru": "Новое слово: OPEN.",
-     "delivery": "crisp flat system notification, precise and neutral"
+     "delivery": "crisp flat system notification, precise and neutral",
+     "place": {
+      "x": 0.55,
+      "y": 0.05,
+      "w": 0.42,
+      "tail": "none"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Count: one.",
      "ru": "Счёт: один.",
-     "delivery": "crisp flat counter readout, bored precision"
+     "delivery": "crisp flat counter readout, bored precision",
+     "place": {
+      "x": 0.55,
+      "y": 0.25,
+      "w": 0.42,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -437,28 +587,52 @@
      "who": "mira",
      "en": "You are loud.",
      "ru": "Ты шумный.",
-     "delivery": "deadpan, low, unimpressed, barely moving her lips, a cold warning"
+     "delivery": "deadpan, low, unimpressed, barely moving her lips, a cold warning",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.34,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Loud is dead here.",
      "ru": "Здесь шумный — мёртвый.",
-     "delivery": "quiet and grim, cold matter-of-fact survival rule"
+     "delivery": "quiet and grim, cold matter-of-fact survival rule",
+     "place": {
+      "x": 0.02,
+      "y": 0.45,
+      "w": 0.3,
+      "tail": "right"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Who are you?",
      "ru": "Кто ты?",
-     "delivery": "wary and startled, suspicious, asking a stranger in the dark"
+     "delivery": "wary and startled, suspicious, asking a stranger in the dark",
+     "place": {
+      "x": 0.66,
+      "y": 0.02,
+      "w": 0.32,
+      "tail": "down-left"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "I am Mira.",
      "ru": "Я Мира.",
-     "delivery": "curt and guarded, giving her name as if it costs her something"
+     "delivery": "curt and guarded, giving her name as if it costs her something",
+     "place": {
+      "x": 0.02,
+      "y": 0.72,
+      "w": 0.3,
+      "tail": "right"
+     }
     }
    ]
   },
@@ -483,21 +657,39 @@
      "who": "dan",
      "en": "Help me, please! Help me!",
      "ru": "Помоги мне, пожалуйста! Помоги!",
-     "delivery": "pleading and desperate, hands open, voice breaking, begging a stranger for help"
+     "delivery": "pleading and desperate, hands open, voice breaking, begging a stranger for help",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.42,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Not my problem.",
      "ru": "Не моя проблема.",
-     "delivery": "cold, dismissive and bored, turning away without looking at him"
+     "delivery": "cold, dismissive and bored, turning away without looking at him",
+     "place": {
+      "x": 0.4,
+      "y": 0.3,
+      "w": 0.3,
+      "tail": "right"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "I am lost! Help me!",
      "ru": "Я заблудился! Помоги!",
-     "delivery": "panicked, raw and louder, near tears, begging a second time"
+     "delivery": "panicked, raw and louder, near tears, begging a second time",
+     "place": {
+      "x": 0.02,
+      "y": 0.8,
+      "w": 0.4,
+      "tail": "up-right"
+     }
     },
     {
      "type": "narration-ru",
@@ -530,21 +722,39 @@
      "who": "mira",
      "en": "It is a Silent.",
      "ru": "Это Безмолвный.",
-     "delivery": "low urgent whisper, tight with fear, naming the danger in the shadows"
+     "delivery": "low urgent whisper, tight with fear, naming the danger in the shadows",
+     "place": {
+      "x": 0.6,
+      "y": 0.4,
+      "w": 0.38,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Who is that? What is a Silent?",
      "ru": "Кто это? Что такое Безмолвный?",
-     "delivery": "frightened and confused, rapid questions with a shaky breath"
+     "delivery": "frightened and confused, rapid questions with a shaky breath",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.42,
+      "tail": "down-right"
+     }
     },
     {
      "type": "shout",
      "who": "mira",
      "en": "Run, Dan! Run now!",
      "ru": "Беги, Дэн! Беги сейчас!",
-     "delivery": "sharp commanding shout, urgent and breathless, giving a life-or-death order"
+     "delivery": "sharp commanding shout, urgent and breathless, giving a life-or-death order",
+     "place": {
+      "x": 0.52,
+      "y": 0.8,
+      "w": 0.46,
+      "tail": "up-right"
+     }
     }
    ]
   },
@@ -569,21 +779,39 @@
      "who": "dan",
      "en": "I am slow! I am so tired!",
      "ru": "Я медленный! Я так устал!",
-     "delivery": "gasping and wheezing while sprinting, panicked and self-mocking"
+     "delivery": "gasping and wheezing while sprinting, panicked and self-mocking",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.4,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "You are slow. Run, run, run!",
      "ru": "Да, ты медленный. Беги, беги, беги!",
-     "delivery": "sharp and impatient, breathless, barking encouragement while running"
+     "delivery": "sharp and impatient, breathless, barking encouragement while running",
+     "place": {
+      "x": 0.66,
+      "y": 0.55,
+      "w": 0.32,
+      "tail": "up-left"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "You are very slow.",
      "ru": "Ты очень медленный.",
-     "delivery": "flat and cold, a dry judgment delivered over the chase, faintly amused"
+     "delivery": "flat and cold, a dry judgment delivered over the chase, faintly amused",
+     "place": {
+      "x": 0.02,
+      "y": 0.8,
+      "w": 0.4,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -608,14 +836,26 @@
      "who": "silent",
      "en": "I am Dan.",
      "ru": "Я — Дэн.",
-     "delivery": "hollow breathy whisper, imitating Dan's voice slightly wrong, eerie and smooth"
+     "delivery": "hollow breathy whisper, imitating Dan's voice slightly wrong, eerie and smooth",
+     "place": {
+      "x": 0.05,
+      "y": 0.05,
+      "w": 0.4,
+      "tail": "down-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Word lost: DAN.",
      "ru": "Слово потеряно: DAN.",
-     "delivery": "cold final system notice, quiet and chilling, almost gentle"
+     "delivery": "cold final system notice, quiet and chilling, almost gentle",
+     "place": {
+      "x": 0.5,
+      "y": 0.05,
+      "w": 0.45,
+      "tail": "none"
+     }
     },
     {
      "type": "narration-ru",
