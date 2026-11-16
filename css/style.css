@@ -612,3 +612,60 @@ a.btn { text-decoration: none; }
   .tline .bub .en { font-size: 16px; }
 }
 .tbody > :nth-child(2) { --d: 0.15s; } .tbody > :nth-child(3) { --d: 0.4s; } .tbody > :nth-child(4) { --d: 0.65s; } .tbody > :nth-child(5) { --d: 0.9s; } .tbody > :nth-child(n+6) { --d: 1.1s; }
+
+/* =====================================================================================================
+   PLACED BUBBLES: lines with line.place sit over the image (all lines of the panel must have one)
+   ===================================================================================================== */
+.pl-layer { position: absolute; inset: 0; z-index: 5; container-type: inline-size; pointer-events: none; }
+.pl-layer > .pl { pointer-events: auto; }
+.pl { position: absolute; font-size: clamp(12px, 3.9cqw, 16px); line-height: 1.28; filter: drop-shadow(0 2px 3px rgba(17, 17, 17, 0.5)); }
+.pl .bub { width: 100%; grid-template-columns: 1fr auto auto; padding: 0.55em 0.4em 0.5em 0.75em; border-width: 2px; box-shadow: none; background: #fff; border-radius: 1.1em; column-gap: 1px; }
+.pl .bub .who { display: none; }
+.pl .bub .en, .pl .cap .en { font-size: 1em; font-weight: 700; line-height: 1.28; }
+.pl .spk { width: 32px; height: 32px; margin: -6px -2px -6px 0; }
+.pl .spk svg { width: 17px; height: 17px; }
+.pl .rutag { position: static; grid-column: 3; align-self: start; min-width: 26px; height: 17px; padding: 0 4px; margin: 2px 2px 0 0; font-size: 10px; line-height: 13px; }
+.pl .rutag::after { inset: -14px -8px; }
+.pl .bub .ru, .pl .cap .ru { grid-column: 1 / -1; margin: 0.4em 0 0; padding-top: 0.3em; font-size: 0.92em; }
+.pl .bub-thought { border-style: dashed; border-radius: 1.5em / 1.2em; }
+.pl .cap { width: 100%; padding: 0.45em 0.6em; font-size: 1em; box-shadow: 2px 2px 0 #111; }
+.pl .cap.cap-ru p { margin: 0; font-size: 0.95em; line-height: 1.3; }
+.pl .cap-en { grid-template-columns: 1fr auto auto; }
+.pl .cap-en .spk { display: grid; }
+.pl .bub-shout { width: 100%; display: block; }
+.pl .bub-in { padding: 1.5em 1.1em 1.3em 1.4em; grid-template-columns: 1fr auto auto; }
+.pl .bub-shout .en { font-size: 1.2em; }
+.pl .bub-shout .rutag { top: auto; right: auto; }
+.pl-sys { filter: none; }
+.pl .sysw { margin: 0; --op: 0.94; }
+.pl .sysw .sysrow .en { font-size: 0.93em; }
+.pl .sysw-body { padding-bottom: 24px; }
+/* tails (speech): toward the speaker */
+.pl .bub-speech::before, .pl .bub-speech::after { top: auto; bottom: auto; left: auto; right: auto; border: solid transparent; }
+.pl[data-tail="down-left"] .bub-speech::before { bottom: -14px; left: 14%; border-width: 14px 10px 0; border-top-color: #111; }
+.pl[data-tail="down-left"] .bub-speech::after { bottom: -9px; left: calc(14% + 3px); border-width: 10px 7px 0; border-top-color: #fff; }
+.pl[data-tail="down-right"] .bub-speech::before { bottom: -14px; right: 14%; border-width: 14px 10px 0; border-top-color: #111; }
+.pl[data-tail="down-right"] .bub-speech::after { bottom: -9px; right: calc(14% + 3px); border-width: 10px 7px 0; border-top-color: #fff; }
+.pl[data-tail="up-left"] .bub-speech::before { top: -14px; left: 14%; border-width: 0 10px 14px; border-bottom-color: #111; }
+.pl[data-tail="up-left"] .bub-speech::after { top: -9px; left: calc(14% + 3px); border-width: 0 7px 10px; border-bottom-color: #fff; }
+.pl[data-tail="up-right"] .bub-speech::before { top: -14px; right: 14%; border-width: 0 10px 14px; border-bottom-color: #111; }
+.pl[data-tail="up-right"] .bub-speech::after { top: -9px; right: calc(14% + 3px); border-width: 0 7px 10px; border-bottom-color: #fff; }
+.pl[data-tail="left"] .bub-speech::before { top: 38%; left: -14px; border-width: 9px 14px 9px 0; border-right-color: #111; }
+.pl[data-tail="left"] .bub-speech::after { top: calc(38% + 3px); left: -9px; border-width: 6px 10px 6px 0; border-right-color: #fff; }
+.pl[data-tail="right"] .bub-speech::before { top: 38%; right: -14px; border-width: 9px 0 9px 14px; border-left-color: #111; }
+.pl[data-tail="right"] .bub-speech::after { top: calc(38% + 3px); right: -9px; border-width: 6px 0 6px 10px; border-left-color: #fff; }
+.pl[data-tail="none"] .bub-speech::before, .pl[data-tail="none"] .bub-speech::after { display: none; }
+/* thought: little circles instead of a tail */
+.pl .bub-thought::before, .pl .bub-thought::after { top: auto; left: auto; right: auto; bottom: auto; background: #fff; }
+.pl .bub-thought::before { width: 12px; height: 12px; }
+.pl .bub-thought::after { width: 7px; height: 7px; }
+.pl[data-tail^="down"] .bub-thought::before, .pl[data-tail="left"] .bub-thought::before, .pl[data-tail="right"] .bub-thought::before { bottom: -16px; }
+.pl[data-tail^="down"] .bub-thought::after, .pl[data-tail="left"] .bub-thought::after, .pl[data-tail="right"] .bub-thought::after { bottom: -27px; }
+.pl[data-tail^="up"] .bub-thought::before { top: -16px; }
+.pl[data-tail^="up"] .bub-thought::after { top: -27px; }
+.pl[data-tail$="left"] .bub-thought::before, .pl[data-tail="left"] .bub-thought::before { left: 16%; }
+.pl[data-tail$="left"] .bub-thought::after, .pl[data-tail="left"] .bub-thought::after { left: 9%; }
+.pl[data-tail$="right"] .bub-thought::before, .pl[data-tail="right"] .bub-thought::before { right: 16%; }
+.pl[data-tail$="right"] .bub-thought::after, .pl[data-tail="right"] .bub-thought::after { right: 9%; }
+.pl[data-tail="none"] .bub-thought::before, .pl[data-tail="none"] .bub-thought::after { display: none; }
+.panel.placed .art { border-bottom: 0; }

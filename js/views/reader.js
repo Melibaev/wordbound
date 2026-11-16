@@ -55,6 +55,48 @@ function lineHTML(line, ep, newSet, sideOf, pi, li) {
   return `<div class="bub-wrap side-${side}"><div class="bub bub-${t}">${inner}</div></div>`;
 }
 
+// ---- speech bubbles placed over the image: line.place = { x, y, w, tail } (fractions of the image box) ----
+const TAILS = new Set(['down-left', 'down-right', 'up-left', 'up-right', 'left', 'right', 'none']);
+const fin = (v, lo, hi, d) => (typeof v === 'number' && isFinite(v) ? Math.min(hi, Math.max(lo, v)) : d);
+function placeOf(l) {
+  const p = l && l.place;
+  if (!p || typeof p !== 'object') return null;
+  const w = fin(p.w, 0.2, 0.96, 0.5);
+  return { x: fin(p.x, 0, 1 - w, 0.05), y: fin(p.y, 0, 0.97, 0.05), w, tail: TAILS.has(p.tail) ? p.tail : 'down-left' };
+}
+function placedHTML(l, pl, pi, li, newSet) {
+  const type = l.type || 'speech';
+  const style = `left:${(pl.x * 100).toFixed(2)}%;top:${(pl.y * 100).toFixed(2)}%;width:${(pl.w * 100).toFixed(2)}%`;
+  const ru = l.ru || '';
+  const ruBlock = ru ? `<p class="ru" hidden>${esc(ru)}</p>` : '';
+  const wrap = (cls, inner) => `<div class="pl ${cls}" data-tail="${pl.tail}" style="${style}">${inner}</div>`;
+  if (type === 'narration-ru') return wrap('pl-cap', `<div class="cap cap-ru"><p>${esc(ru)}</p></div>`);
+  const enHTML = `<p class="en">${tokensHTML(l.en || '', newSet)}</p>`;
+  if (type === 'system') {
+    const warn = isWarn(l.en);
+    return wrap('pl-sys', sysWindowHTML({ kind: warn ? 'warning' : 'system', title: 'SYSTEM', rows: [{ en: l.en, ru, attrs: `data-p="${pi}" data-l="${li}"`, newSet }], warn, overlay: true }));
+  }
+  const body = `${enHTML}${spk(pi, li)}${ruTag(ru)}${ruBlock}`;
+  if (type === 'narration') return wrap('pl-cap', `<div class="cap cap-en">${body}</div>`);
+  const t = BUBBLE.has(type) ? type : 'speech';
+  if (t === 'shout') return wrap('pl-shout', `<div class="bub-shout"><div class="bub-in">${body}</div></div>`);
+  return wrap('pl-' + t, `<div class="bub bub-${t}">${body}</div>`);
+}
+
+// keep every placed item inside the image box (heights are only known after layout)
+function fitLayer(layer) {
+  if (!layer) return;
+  const H = layer.clientHeight;
+  if (!H) return;
+  layer.querySelectorAll('.pl').forEach((el) => {
+    if (el.dataset.top == null) el.dataset.top = el.style.top;
+    el.style.top = el.dataset.top;
+    const tail = /^down|^left|^right/.test(el.dataset.tail || '') ? 14 : 3;
+    const over = el.offsetTop + el.offsetHeight + tail - H;
+    if (over > 0) el.style.top = Math.max(2, el.offsetTop - over) + 'px';
+  });
+}
+
 function panelHTML(p, i, ep, newSet, media) {
   const sides = {};
   let nextSide = 0;
@@ -70,6 +112,23 @@ function panelHTML(p, i, ep, newSet, media) {
     return pos === 'center' ? 'center' : sides[id];
   };
   const lines = p.lines;
+  const knownA = media.entry && (media.entry.images || []).includes(i + 1);
+  const needPlace = lines.filter((l) => l.type !== 'narration-ru');
+  if (knownA && needPlace.length && needPlace.every((l) => placeOf(l))) {
+    const capsP = [];
+    const items = [];
+    lines.forEach((l, j) => {
+      const pl = placeOf(l);
+      if (pl) items.push(placedHTML(l, pl, i, j, newSet));
+      else capsP.push(lineHTML(l, ep, newSet, sideOf, i, j));
+    });
+    const mood = ['calm', 'tense', 'action'].includes(p.mood) ? p.mood : 'calm';
+    const alt = esc(p.art || '');
+    const img = `<img class="art-img" src="${esc(media.base + nn(i) + '.jpg' + media.q)}" alt="${alt}" decoding="async" loading="${i < 2 ? 'eager' : 'lazy'}" data-alt="${alt}">`;
+    return `<section class="panel mood-${mood} rv has-img placed" data-i="${i}">
+<div class="art">${renderPanelArt(p, db.chars)}${img}${capsP.length ? `<div class="caps">${capsP.join('')}</div>` : ''}<div class="pl-layer">${items.join('')}</div></div>
+</section>`;
+  }
   let k = 0;
   const caps = [];
   while (k < lines.length && (lines[k].type === 'narration-ru' || lines[k].type === 'narration')) {
@@ -186,6 +245,7 @@ export async function readEpisode(root, ep, ctx, opts = {}) {
       const panel = img.closest('.panel');
       if (!art || art.classList.contains('img-ready')) return;
       art.classList.add('img-ready');
+      requestAnimationFrame(() => fitLayer(art.querySelector('.pl-layer')));
       panel.classList.add('has-img');
       const i = Number(panel.dataset.i);
       if (!img.alt && img.dataset.alt) img.alt = img.dataset.alt;
@@ -234,25 +294,30 @@ export async function readEpisode(root, ep, ctx, opts = {}) {
       }
     });
 
+    const fitAll = () => root.querySelectorAll('.pl-layer').forEach(fitLayer);
+    requestAnimationFrame(fitAll);
+    window.addEventListener('resize', fitAll);
     const wp = wordPop(root);
     const closePop = wp.close;
 
     const onClick = (e) => {
       const say = e.target.closest('[data-say]');
       if (say) {
-        const box = say.closest('.bub, .cap, .sysrow');
+        const box = say.closest('.bub, .bub-shout, .cap, .sysrow');
         const en = box && box.querySelector('.en');
         if (en) playLine(ep.id, Number(say.dataset.p), Number(say.dataset.l), en.textContent);
         return;
       }
       const ru = e.target.closest('[data-ru]');
       if (ru) {
-        const box = ru.closest('.bub, .cap, .sysrow');
+        const box = ru.closest('.bub, .bub-shout, .cap, .sysrow');
         const p = box && box.querySelector('.ru');
         if (p) {
           p.hidden = !p.hidden;
           ru.classList.toggle('on', !p.hidden);
           ru.setAttribute('aria-expanded', String(!p.hidden));
+          const lay = ru.closest('.pl-layer');
+          if (lay) setTimeout(() => fitLayer(lay), 0);
         }
       }
     };
@@ -264,6 +329,7 @@ export async function readEpisode(root, ep, ctx, opts = {}) {
       if (vio) vio.disconnect();
       vids.forEach((v) => v.pause());
       root.removeEventListener('click', onClick);
+      window.removeEventListener('resize', fitAll);
       wp.destroy();
       cancelPrefetch();
       stopAudio();

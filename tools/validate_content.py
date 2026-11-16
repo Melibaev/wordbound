@@ -244,5 +244,46 @@ def report(*a, **k):
     check_line_delivery()
     return _report_without_delivery(*a, **k)
 
+# ---- optional line field "place": {x,y,w,tail} bubble placed over the panel image (fractions 0..1)
+PLACE_TAILS = {"down-left", "down-right", "up-left", "up-right", "left", "right", "none"}
+def check_line_place():
+    story = load(os.path.join(DATA, "story.json"))
+    if not isinstance(story, dict):
+        return
+    num = lambda v: isinstance(v, (int, float)) and not isinstance(v, bool)
+    for ep in story.get("episodes", []):
+        path = os.path.join(DATA, ep.get("file", ""))
+        if not os.path.isfile(path):
+            continue
+        d = load(path)
+        for pi, p in enumerate((d or {}).get("panels", []), 1):
+            lines = p.get("lines", [])
+            placed = 0
+            for li, ln in enumerate(lines, 1):
+                if "place" not in ln:
+                    continue
+                placed += 1
+                where = "%s panel %d line %d" % (ep.get("id"), pi, li)
+                pl = ln["place"]
+                if not isinstance(pl, dict):
+                    err("%s: place must be an object {x,y,w,tail}" % where); continue
+                for k in ("x", "y", "w"):
+                    if not num(pl.get(k)) or not 0 <= pl[k] <= 1:
+                        err("%s: place.%s must be a number 0..1" % (where, k))
+                if num(pl.get("w")) and not 0.2 <= pl["w"] <= 0.96:
+                    err("%s: place.w must be 0.2..0.96" % where)
+                if num(pl.get("x")) and num(pl.get("w")) and pl["x"] + pl["w"] > 1.001:
+                    err("%s: place.x + place.w exceeds 1 (bubble would leave the image)" % where)
+                if "tail" in pl and pl["tail"] not in PLACE_TAILS:
+                    err("%s: place.tail must be one of %s" % (where, "/".join(sorted(PLACE_TAILS))))
+            need = [ln for ln in lines if ln.get("type") != "narration-ru"]
+            if placed and any("place" not in ln for ln in need):
+                warn("%s panel %d: only some lines have place; the panel falls back to the below-image layout" % (ep.get("id"), pi))
+
+_report_without_place = report
+def report(*a, **k):
+    check_line_place()
+    return _report_without_place(*a, **k)
+
 if __name__ == "__main__":
     sys.exit(main())

@@ -17,13 +17,28 @@ function valid(j) {
   return j && typeof j === 'object' && Array.isArray(j.trials) && j.trials.length && j.trials.every((t) => t && t.id && Array.isArray(t.steps) && t.steps.length);
 }
 
-// -> trial file or null (no file / malformed). Never throws.
+// data/trials/index.json = { "episodes": ["s1e01", ...] } lists the episodes that have a trials file
+// (keeps the console free of 404s). Whoever adds or removes data/trials/<id>.json must update it.
+let indexP = null;
+function trialIndex() {
+  if (!indexP) {
+    const b = trialsBase();
+    indexP = fetch(b === 'data/trials/' ? 'data/trials/index.json' : b.replace(/-$/, '-index.json'))
+      .then((r) => (r.ok ? r.json() : null))
+      .then((j) => (j && Array.isArray(j.episodes) ? new Set(j.episodes) : new Set()))
+      .catch(() => new Set());
+  }
+  return indexP;
+}
+
+// -> trial file or null (not listed / missing / malformed). Never throws.
 export function loadTrials(epId) {
   if (!files.has(epId)) {
     files.set(
       epId,
-      fetch(trialsBase() + epId + '.json')
-        .then((r) => (r.ok ? r.json() : null))
+      trialIndex()
+        .then((idx) => (idx.has(epId) ? fetch(trialsBase() + epId + '.json') : null))
+        .then((r) => (r && r.ok ? r.json() : null))
         .then((j) => (valid(j) ? j : null))
         .catch(() => null)
     );

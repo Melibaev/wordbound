@@ -124,7 +124,21 @@ function validQ2(q) {
 export async function loadEpisode(meta) {
   let j;
   try {
-    j = await getJSON('data/' + meta.file);
+    // dev hook: localStorage 'wb.episodeBase' = 'dev-fixtures/ep-' loads dev-fixtures/ep-<id>.json when it exists
+    let dev = null;
+    try {
+      dev = localStorage.getItem('wb.episodeBase');
+    } catch (e) {
+      /* ignore */
+    }
+    if (dev) {
+      try {
+        j = await getJSON(dev + meta.id + '.json');
+      } catch (e) {
+        j = null;
+      }
+    }
+    if (!j) j = await getJSON('data/' + meta.file);
   } catch (e) {
     j = await getJSON('data/episodes/' + meta.id + '.json');
   }
