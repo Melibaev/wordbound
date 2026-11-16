@@ -41,14 +41,26 @@
      "who": "dan",
      "en": "You are Mira.",
      "ru": "Ты — Мира.",
-     "delivery": "gentle and urgent, saying it slowly like a fact she must believe, tired and warm"
+     "delivery": "gentle and urgent, saying it slowly like a fact she must believe, tired and warm",
+     "place": {
+      "x": 0.05,
+      "y": 0.08,
+      "w": 0.32,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "I hear it. It is not mine. It is a sound.",
      "ru": "Я его слышу. Оно не моё. Это просто звук.",
-     "delivery": "hoarse hollow whisper, flat and empty, no emotion, as if the name belongs to someone else"
+     "delivery": "hoarse hollow whisper, flat and empty, no emotion, as if the name belongs to someone else",
+     "place": {
+      "x": 0.54,
+      "y": 0.1,
+      "w": 0.42,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -77,21 +89,39 @@
      "who": "dan",
      "en": "I have to go to him.",
      "ru": "Я должен пойти к нему.",
-     "delivery": "quiet and heavy, a decision made against his will, jaw tight"
+     "delivery": "quiet and heavy, a decision made against his will, jaw tight",
+     "place": {
+      "x": 0.03,
+      "y": 0.03,
+      "w": 0.36,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "You don't have to. You want to. Don't.",
      "ru": "Не должен. Ты хочешь. Не надо.",
-     "delivery": "weak raspy deadpan, flat and short, but with a tiny crack of worry underneath"
+     "delivery": "weak raspy deadpan, flat and short, but with a tiny crack of worry underneath",
+     "place": {
+      "x": 0.56,
+      "y": 0.02,
+      "w": 0.4,
+      "tail": "down-left"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Lina, stay with her.",
      "ru": "Лина, останься с ней.",
-     "delivery": "soft and kind, speaking to a child, then a last guilty glance"
+     "delivery": "soft and kind, speaking to a child, then a last guilty glance",
+     "place": {
+      "x": 0.62,
+      "y": 0.15,
+      "w": 0.35,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -116,14 +146,26 @@
      "who": "pip",
      "en": "He waits for you. He always wants a name. I tell him things.",
      "ru": "Он ждёт тебя. Ему всегда нужно имя. Я рассказываю ему всякое.",
-     "delivery": "fast cheeky patter, casual, a little too proud of himself, chewing between words"
+     "delivery": "fast cheeky patter, casual, a little too proud of himself, chewing between words",
+     "place": {
+      "x": 0.32,
+      "y": 0.02,
+      "w": 0.5,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "pip",
      "en": "Sorry. A little. He is old, but his bread is good. I am young. I need to eat!",
      "ru": "Прости. Чуть-чуть. Он старый, но хлеб у него вкусный. Я молодой. Мне надо есть!",
-     "delivery": "fast comic defensive excuse, mock-sorry, then indignant on the last line"
+     "delivery": "fast comic defensive excuse, mock-sorry, then indignant on the last line",
+     "place": {
+      "x": 0.32,
+      "y": 0.74,
+      "w": 0.65,
+      "tail": "up-right"
+     }
     }
    ]
   },
@@ -148,14 +190,26 @@
      "who": "dan",
      "en": "I need to make a plan.",
      "ru": "Мне нужно составить план.",
-     "delivery": "tired inner voice, dry and low, talking to himself"
+     "delivery": "tired inner voice, dry and low, talking to himself",
+     "place": {
+      "x": 0.5,
+      "y": 0.02,
+      "w": 0.42,
+      "tail": "down-left"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "You have 14 words and no plan.",
      "ru": "У тебя 14 слов и нет плана.",
-     "delivery": "flat dry system announcement with a hint of mockery"
+     "delivery": "flat dry system announcement with a hint of mockery",
+     "place": {
+      "x": 0.62,
+      "y": 0.26,
+      "w": 0.36,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -184,14 +238,26 @@
      "who": "keeper",
      "en": "Welcome, Dan. You want to trade now.",
      "ru": "Добро пожаловать, Дэн. Теперь ты хочешь торговать.",
-     "delivery": "calm velvety voice, slow and warm, a gentleman welcoming a guest he already owns"
+     "delivery": "calm velvety voice, slow and warm, a gentleman welcoming a guest he already owns",
+     "place": {
+      "x": 0.45,
+      "y": 0.04,
+      "w": 0.5,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "I don't want to trade. I want to know. Who are you?",
      "ru": "Я не хочу торговать. Я хочу знать. Кто ты?",
-     "delivery": "tense and steady, controlled anger, refusing to be charmed"
+     "delivery": "tense and steady, controlled anger, refusing to be charmed",
+     "place": {
+      "x": 0.03,
+      "y": 0.17,
+      "w": 0.52,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -220,14 +286,26 @@
      "who": "keeper",
      "en": "A good question. I am the first Zero.",
      "ru": "Хороший вопрос. Я — первый Зеро.",
-     "delivery": "soft pleased voice, a teacher praising a pupil, quiet and amused"
+     "delivery": "soft pleased voice, a teacher praising a pupil, quiet and amused",
+     "place": {
+      "x": 0.3,
+      "y": 0.04,
+      "w": 0.45,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "keeper",
      "en": "I come here a young man. No words. No friend. Now I am old. Forty years in this hall.",
      "ru": "Я прихожу сюда молодым. Ни слов. Ни друга. Теперь я стар. Сорок лет в этом зале.",
-     "delivery": "slow quiet reminiscence, gentle and distant, a little tired, almost tender"
+     "delivery": "slow quiet reminiscence, gentle and distant, a little tired, almost tender",
+     "place": {
+      "x": 0.3,
+      "y": 0.17,
+      "w": 0.65,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -252,14 +330,26 @@
      "who": "keeper",
      "en": "I make the rule. One word, one name. I have to live. Every year I want to go home.",
      "ru": "Я делаю правило. Одно слово — одно имя. Мне надо жить. Каждый год я хочу домой.",
-     "delivery": "soft matter-of-fact tone, then a small honest ache on the last line, never raising his voice"
+     "delivery": "soft matter-of-fact tone, then a small honest ache on the last line, never raising his voice",
+     "place": {
+      "x": 0.05,
+      "y": 0.02,
+      "w": 0.62,
+      "tail": "down-right"
+     }
     },
     {
      "type": "thought",
      "who": "dan",
      "en": "He is old. He wants what I want.",
      "ru": "Он старый. Он хочет того же, чего хочу я.",
-     "delivery": "quiet surprised inner voice, slow, almost sympathetic"
+     "delivery": "quiet surprised inner voice, slow, almost sympathetic",
+     "place": {
+      "x": 0.05,
+      "y": 0.2,
+      "w": 0.5,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -284,14 +374,26 @@
      "who": "dan",
      "en": "You have the door. You have OPEN. Go home.",
      "ru": "У тебя есть дверь. У тебя есть OPEN. Иди домой.",
-     "delivery": "urgent and blunt, practical, an engineer pointing out the obvious"
+     "delivery": "urgent and blunt, practical, an engineer pointing out the obvious",
+     "place": {
+      "x": 0.03,
+      "y": 0.03,
+      "w": 0.5,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "keeper",
      "en": "The door needs two. One remembers. One calls. Nobody calls my name. I don't remember it.",
      "ru": "Двери нужны двое. Один помнит. Другой зовёт. Моё имя никто не зовёт. И я его не помню.",
-     "delivery": "calm symmetrical phrasing, then a cold flat emptiness on the last two sentences"
+     "delivery": "calm symmetrical phrasing, then a cold flat emptiness on the last two sentences",
+     "place": {
+      "x": 0.35,
+      "y": 0.15,
+      "w": 0.62,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -324,14 +426,26 @@
      "who": "keeper",
      "en": "But your mother calls. Every hour she calls Dan.",
      "ru": "Но твоя мама звонит. Каждый час она зовёт: Дэн.",
-     "delivery": "soft and almost kind, a gentle sting, savouring the words"
+     "delivery": "soft and almost kind, a gentle sting, savouring the words",
+     "place": {
+      "x": 0.52,
+      "y": 0.27,
+      "w": 0.45,
+      "tail": "down-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Missed calls: 12.",
      "ru": "Пропущенных звонков: 12.",
-     "delivery": "flat cold system counter, neutral and quiet, no emotion"
+     "delivery": "flat cold system counter, neutral and quiet, no emotion",
+     "place": {
+      "x": 0.38,
+      "y": 0.1,
+      "w": 0.32,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -356,21 +470,39 @@
      "who": "keeper",
      "en": "I have OPEN. I need your name. Your mother calls it. With it I go home as Dan.",
      "ru": "OPEN у меня есть. Мне нужно твоё имя. Твоя мама зовёт его. С ним я иду домой как Дэн.",
-     "delivery": "slow velvety reveal, calm and pleased, each short sentence laid down like a card on a table"
+     "delivery": "slow velvety reveal, calm and pleased, each short sentence laid down like a card on a table",
+     "place": {
+      "x": 0.3,
+      "y": 0.02,
+      "w": 0.65,
+      "tail": "down-right"
+     }
     },
     {
      "type": "shout",
      "who": "dan",
      "en": "She knows her son!",
      "ru": "Она знает своего сына!",
-     "delivery": "sharp angry protest, voice cracking, fighting panic"
+     "delivery": "sharp angry protest, voice cracking, fighting panic",
+     "place": {
+      "x": 0.02,
+      "y": 0.15,
+      "w": 0.4,
+      "tail": "down-left"
+     }
     },
     {
      "type": "speech",
      "who": "keeper",
      "en": "The door makes me her son. She sees Dan. She hears Dan.",
      "ru": "Дверь сделает меня её сыном. Она видит Дэна. Она слышит Дэна.",
-     "delivery": "soft cold certainty, gentle and terrible, no triumph in the voice"
+     "delivery": "soft cold certainty, gentle and terrible, no triumph in the voice",
+     "place": {
+      "x": 0.45,
+      "y": 0.15,
+      "w": 0.52,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -395,14 +527,26 @@
      "who": "keeper",
      "en": "One way. Give me your name, whole. I give Mira her name. You stay. I go home to your mother. She is not alone. Is that bad?",
      "ru": "Первый путь. Отдай мне имя целиком. Я верну Мире её имя. Ты остаёшься. Я иду домой к твоей маме. Она не одна. Разве это плохо?",
-     "delivery": "gentle reasonable offer, almost kind, with a small cold pause before the last sentence"
+     "delivery": "gentle reasonable offer, almost kind, with a small cold pause before the last sentence",
+     "place": {
+      "x": 0.5,
+      "y": 0.02,
+      "w": 0.47,
+      "tail": "down-right"
+     }
     },
     {
      "type": "shout",
      "who": "dan",
      "en": "She is my mother!",
      "ru": "Она моя мама!",
-     "delivery": "raw cracked protest, breaking, on the edge of tears"
+     "delivery": "raw cracked protest, breaking, on the edge of tears",
+     "place": {
+      "x": 0.04,
+      "y": 0.6,
+      "w": 0.4,
+      "tail": "up-right"
+     }
     }
    ]
   },
@@ -427,14 +571,26 @@
      "who": "keeper",
      "en": "Or go home now. You leave, and you forget the Tower. You forget Mira. It is a dream. I keep her name. You have to choose.",
      "ru": "Или иди домой, сейчас. Ты уходишь — и забываешь Башню. Забываешь Миру. Это сон. Её имя остаётся у меня. Ты должен выбрать.",
-     "delivery": "calm mild final offer, a salesman closing a deal, soft and symmetrical"
+     "delivery": "calm mild final offer, a salesman closing a deal, soft and symmetrical",
+     "place": {
+      "x": 0.25,
+      "y": 0.02,
+      "w": 0.7,
+      "tail": "down-right"
+     }
     },
     {
      "type": "shout",
      "who": "dan",
      "en": "I forget Mira? No!",
      "ru": "Я забуду Миру? Нет!",
-     "delivery": "horrified disbelief rising into refusal, voice shaking"
+     "delivery": "horrified disbelief rising into refusal, voice shaking",
+     "place": {
+      "x": 0.03,
+      "y": 0.17,
+      "w": 0.4,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -463,21 +619,39 @@
      "who": "dan",
      "en": "I take the jar!",
      "ru": "Я беру банку!",
-     "delivery": "desperate sharp shout, a lunge of pure frustration"
+     "delivery": "desperate sharp shout, a lunge of pure frustration",
+     "place": {
+      "x": 0.02,
+      "y": 0.1,
+      "w": 0.3,
+      "tail": "down-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Not true. Two breaths lost.",
      "ru": "Неправда. Потеряно два вздоха.",
-     "delivery": "flat dry system judgment, cold and short"
+     "delivery": "flat dry system judgment, cold and short",
+     "place": {
+      "x": 0.32,
+      "y": 0.11,
+      "w": 0.38,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "keeper",
      "en": "You can't take, Dan. A trade is a trade. But look. OPEN.",
      "ru": "Ты не можешь взять, Дэн. Сделка есть сделка. Но смотри. OPEN.",
-     "delivery": "soft patient reproach, then a quiet knowing invitation on the last word"
+     "delivery": "soft patient reproach, then a quiet knowing invitation on the last word",
+     "place": {
+      "x": 0.25,
+      "y": 0.8,
+      "w": 0.6,
+      "tail": "up-right"
+     }
     }
    ]
   },
@@ -501,14 +675,26 @@
      "type": "narration",
      "en": "Mom: Dan? Dan, call me. Please.",
      "ru": "Мама: Дэн? Дэн, позвони мне. Пожалуйста.",
-     "delivery": "warm worried mother's voice heard through a thin phone speaker, tired and trembling, trying to stay calm"
+     "delivery": "warm worried mother's voice heard through a thin phone speaker, tired and trembling, trying to stay calm",
+     "place": {
+      "x": 0.15,
+      "y": 0.02,
+      "w": 0.7,
+      "tail": "none"
+     }
     },
     {
      "type": "shout",
      "who": "dan",
      "en": "Mom!",
      "ru": "Мама!",
-     "delivery": "broken desperate cry, choked with tears"
+     "delivery": "broken desperate cry, choked with tears",
+     "place": {
+      "x": 0.02,
+      "y": 0.2,
+      "w": 0.3,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -537,21 +723,39 @@
      "who": "dan",
      "en": "I want to go home. I need to call her. I want to remember her voice.",
      "ru": "Я хочу домой. Мне нужно ей позвонить. Я хочу помнить её голос.",
-     "delivery": "trembling honest inner voice, simple and heartfelt, nearly whispering"
+     "delivery": "trembling honest inner voice, simple and heartfelt, nearly whispering",
+     "place": {
+      "x": 0.02,
+      "y": 0.55,
+      "w": 0.42,
+      "tail": "up-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "True. True. True. Count: 31. Rank up: WORD.",
      "ru": "Правда. Правда. Правда. Счёт: 31. Новый ранг: WORD.",
-     "delivery": "flat cold game-system announcement, crisp, with a slight formal lift on the rank"
+     "delivery": "flat cold game-system announcement, crisp, with a slight formal lift on the rank",
+     "place": {
+      "x": 0.55,
+      "y": 0.28,
+      "w": 0.4,
+      "tail": "none"
+     }
     },
     {
      "type": "thought",
      "who": "dan",
      "en": "And Mira has no name because of me. I don't want to leave her.",
      "ru": "А у Миры нет имени из-за меня. Я не хочу её оставлять.",
-     "delivery": "quiet guilty inner voice, heavy, almost breaking"
+     "delivery": "quiet guilty inner voice, heavy, almost breaking",
+     "place": {
+      "x": 0.02,
+      "y": 0.8,
+      "w": 0.55,
+      "tail": "up-right"
+     }
     }
    ]
   },
@@ -580,21 +784,39 @@
      "who": "mira",
      "en": "Zero. Look at the door.",
      "ru": "Зеро. Смотри на дверь.",
-     "delivery": "hoarse thin voice, still deadpan, forcing steadiness through weakness"
+     "delivery": "hoarse thin voice, still deadpan, forcing steadiness through weakness",
+     "place": {
+      "x": 0.5,
+      "y": 0.02,
+      "w": 0.47,
+      "tail": "down-right"
+     }
     },
     {
      "type": "shout",
      "who": "dan",
      "en": "You have no name! I can't leave you.",
      "ru": "У тебя нет имени! Я не могу тебя оставить.",
-     "delivery": "anguished and cracking, torn apart"
+     "delivery": "anguished and cracking, torn apart",
+     "place": {
+      "x": 0.02,
+      "y": 0.15,
+      "w": 0.44,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "I stay. I have three years here. You are young. You have a mother.",
      "ru": "Я остаюсь. У меня здесь три года. Ты молодой. У тебя есть мама.",
-     "delivery": "quiet flat finality, no self-pity, just the numbers"
+     "delivery": "quiet flat finality, no self-pity, just the numbers",
+     "place": {
+      "x": 0.5,
+      "y": 0.15,
+      "w": 0.47,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -623,21 +845,39 @@
      "who": "keeper",
      "en": "Choose, Dan.",
      "ru": "Выбирай, Дэн.",
-     "delivery": "soft final push, quiet and gentle, never raising his voice"
+     "delivery": "soft final push, quiet and gentle, never raising his voice",
+     "place": {
+      "x": 0.02,
+      "y": 0.52,
+      "w": 0.34,
+      "tail": "up-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "You have to choose. This voice can't help.",
      "ru": "Ты должен выбрать. Этот голос не поможет.",
-     "delivery": "flat dry system line, a hint of something almost like regret under the flatness"
+     "delivery": "flat dry system line, a hint of something almost like regret under the flatness",
+     "place": {
+      "x": 0.25,
+      "y": 0.06,
+      "w": 0.5,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Zero. Go.",
      "ru": "Зеро. Иди.",
-     "delivery": "barely a whisper, hoarse and plain, the warmest thing she can say"
+     "delivery": "barely a whisper, hoarse and plain, the warmest thing she can say",
+     "place": {
+      "x": 0.66,
+      "y": 0.68,
+      "w": 0.3,
+      "tail": "up-right"
+     }
     }
    ]
   }

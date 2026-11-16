@@ -85,3 +85,10 @@ python tools/art/generate.py --episode s1e01 --panels 2 --force --model gemini-3
 
 ## Claude Code
 Навык `manhwa-art` (`.claude/skills/manhwa-art/SKILL.md`) описывает порядок работы для Claude: персонажи, утверждение, панели небольшими партиями, просмотр результата, экономия кредита.
+
+---
+
+## Скриншоты панелей читалки (проверка пузырей)
+
+`node tools/art/shot_panels.mjs s1e01 [--panels 3,5,12] [--ru] [--out папка]` — открывает настоящую читалку в headless Chrome (iPhone 390x844, x2) и сохраняет каждую панель как `.models/shots/<эпизод>/NN.png`.
+Сам поднимает временный сервер, обходит onboarding, видео скрывает; `--ru` раскрывает русские переводы в пузырях. Не требует установки пакетов (берёт playwright из flow-mcp). Эпизод занимает около 6–14 секунд.

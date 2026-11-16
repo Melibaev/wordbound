@@ -133,7 +133,7 @@ Colour rules: **vermilion = power of words** (glowing letters, the thread of bre
 
 ### 5.2 Characters
 
-**Dan** — `24-year-old East-Slavic man, 178 cm, lean and slightly hunched, tired but kind face, short messy black hair with a cowlick, dark brown eyes with faint dark circles, round black-frame glasses with a bit of tape on the hinge, light stubble. Rumpled pale-grey button-up shirt with sleeves rolled to the elbows, loosened dark-olive chinos, white sneakers, a mustard-yellow office lanyard around his neck, a yellow carpenter pencil behind his right ear.` Signature: yellow pencil + taped glasses. Palette: pale grey, olive, mustard.
+**Dan** — `24-year-old East-Slavic man, 178 cm, lean and slightly hunched, tired but kind face, short messy black hair with a cowlick, dark brown eyes with faint dark circles, round black-frame glasses, light stubble. Rumpled pale-grey button-up shirt with sleeves rolled to the elbows, loosened dark-olive chinos, white sneakers, a mustard-yellow office lanyard around his neck, a yellow carpenter pencil behind his right ear.` Signature: yellow pencil + taped glasses. Palette: pale grey, olive, mustard.
 
 **Mira** — `23-year-old woman, 168 cm, athletic and wiry, sharp narrow face, olive-tan skin, amber-gold eyes, small scar through her left eyebrow, dark-brown choppy shoulder-length hair tied in a short ponytail with loose strands. Olive-khaki canvas climbing jacket with patched elbows, long cream scarf, black fingerless gloves, ink-black cargo trousers, rust-brown boots, a worn canvas backpack with a coil of rope. A frayed vermilion cord bracelet on her left wrist.` Signature: vermilion cord bracelet. Palette: olive, cream, rust, one thread of vermilion. Expression default: dry, unimpressed, half-lidded.
 

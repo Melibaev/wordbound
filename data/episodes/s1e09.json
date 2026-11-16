@@ -41,7 +41,13 @@
      "who": "dan",
      "en": "It is a wall. But it is not a wall. It is letters.",
      "ru": "Это стена. Но это не стена. Это буквы.",
-     "delivery": "slow wondering whisper, awed and puzzled, reading a huge wall of glowing letters"
+     "delivery": "slow wondering whisper, awed and puzzled, reading a huge wall of glowing letters",
+     "place": {
+      "x": 0.04,
+      "y": 0.3,
+      "w": 0.5,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -66,21 +72,39 @@
      "who": "system",
      "en": "This is the Wall of Letters. Every lost word comes here.",
      "ru": "Это Стена Букв. Каждое потерянное слово попадает сюда.",
-     "delivery": "calm grand system narration, slow and solemn, with quiet awe"
+     "delivery": "calm grand system narration, slow and solemn, with quiet awe",
+     "place": {
+      "x": 0.58,
+      "y": 0.36,
+      "w": 0.36,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Why?",
      "ru": "Почему?",
-     "delivery": "soft curious question, simple and honest"
+     "delivery": "soft curious question, simple and honest",
+     "place": {
+      "x": 0.52,
+      "y": 0.72,
+      "w": 0.3,
+      "tail": "up-left"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Because the Tower builds with words.",
      "ru": "Потому что Башня строится из слов.",
-     "delivery": "calm flat system explanation, patient and measured"
+     "delivery": "calm flat system explanation, patient and measured",
+     "place": {
+      "x": 0.05,
+      "y": 0.03,
+      "w": 0.5,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -109,21 +133,39 @@
      "who": "dan",
      "en": "I can read it! These letters say 'I am'... and then nothing.",
      "ru": "Я могу это прочесть! Эти буквы говорят «I am»... а дальше ничего.",
-     "delivery": "excited whisper, thrilled by discovery, then trailing off, uneasy at the blank"
+     "delivery": "excited whisper, thrilled by discovery, then trailing off, uneasy at the blank",
+     "place": {
+      "x": 0.03,
+      "y": 0.03,
+      "w": 0.5,
+      "tail": "down-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "New word: READ. READ is yours now. Count: five.",
      "ru": "Новое слово: READ. READ теперь твоё. Счёт: пять.",
-     "delivery": "crisp flat system notification, neutral and exact, a faint warmth"
+     "delivery": "crisp flat system notification, neutral and exact, a faint warmth",
+     "place": {
+      "x": 0.7,
+      "y": 0.22,
+      "w": 0.28,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Five! I am a happy fool again.",
      "ru": "Пять! Я снова счастливый дурак.",
-     "delivery": "joyful giddy laugh, grinning and breathless, playfully self-mocking"
+     "delivery": "joyful giddy laugh, grinning and breathless, playfully self-mocking",
+     "place": {
+      "x": 0.03,
+      "y": 0.62,
+      "w": 0.4,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -148,14 +190,26 @@
      "who": "system",
      "en": "The Tower is not a house. The Tower is a sentence.",
      "ru": "Башня — не дом. Башня — предложение.",
-     "delivery": "slow grand revelation, grave and quiet, a vast truth spoken simply"
+     "delivery": "slow grand revelation, grave and quiet, a vast truth spoken simply",
+     "place": {
+      "x": 0.06,
+      "y": 0.06,
+      "w": 0.5,
+      "tail": "none"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "A long sentence. It has no end. It builds with words, because it can't make them.",
      "ru": "Длинное предложение. У него нет конца. Оно строится из слов, потому что не умеет делать их само.",
-     "delivery": "slow calm, awed and a little sad, an enormous sentence with no end"
+     "delivery": "slow calm, awed and a little sad, an enormous sentence with no end",
+     "place": {
+      "x": 0.6,
+      "y": 0.5,
+      "w": 0.34,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -180,14 +234,26 @@
      "who": "dan",
      "en": "And you? What are you?",
      "ru": "А ты? Кто ты?",
-     "delivery": "quiet steady question, direct and unafraid, turning to the System"
+     "delivery": "quiet steady question, direct and unafraid, turning to the System",
+     "place": {
+      "x": 0.03,
+      "y": 0.06,
+      "w": 0.4,
+      "tail": "down-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "This voice is the first word of the Tower. But this voice does not take. It learns.",
      "ru": "Этот голос — первое слово Башни. Но этот голос не берёт. Он учится.",
-     "delivery": "quiet honest system voice, softer than usual, almost humble"
+     "delivery": "quiet honest system voice, softer than usual, almost humble",
+     "place": {
+      "x": 0.6,
+      "y": 0.42,
+      "w": 0.34,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -211,7 +277,13 @@
      "type": "narration",
      "en": "The wall speaks: I am Lina. I am Dan. I am...",
      "ru": "Стена говорит: «I am Lina. I am Dan. I am...»",
-     "delivery": "hushed eerie storyteller, echoing, each word of the wall fading to nothing"
+     "delivery": "hushed eerie storyteller, echoing, each word of the wall fading to nothing",
+     "place": {
+      "x": 0.3,
+      "y": 0.06,
+      "w": 0.5,
+      "tail": "none"
+     }
     },
     {
      "type": "narration-ru",
@@ -222,7 +294,13 @@
      "who": "dan",
      "en": "It takes names, because it has no name!",
      "ru": "Она берёт имена, потому что у неё нет своего!",
-     "delivery": "startled dawning realization, quick and breathless, a sudden insight"
+     "delivery": "startled dawning realization, quick and breathless, a sudden insight",
+     "place": {
+      "x": 0.05,
+      "y": 0.25,
+      "w": 0.45,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -247,28 +325,52 @@
      "who": "dan",
      "en": "I build bridges. This bridge has no right side. They don't ... it.",
      "ru": "Я строю мосты. У этого моста нет правой стороны. Они не ... его.",
-     "delivery": "thoughtful engineer voice, quiet and fascinated, looking at an old painting"
+     "delivery": "thoughtful engineer voice, quiet and fascinated, looking at an old painting",
+     "place": {
+      "x": 0.03,
+      "y": 0.05,
+      "w": 0.5,
+      "tail": "down-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Almost.",
      "ru": "Почти.",
-     "delivery": "short dry system hint, flat and teasing"
+     "delivery": "short dry system hint, flat and teasing",
+     "place": {
+      "x": 0.63,
+      "y": 0.44,
+      "w": 0.33,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "What?",
      "ru": "Что?",
-     "delivery": "puzzled, quick, a little frustrated, wanting an actual answer"
+     "delivery": "puzzled, quick, a little frustrated, wanting an actual answer",
+     "place": {
+      "x": 0.03,
+      "y": 0.3,
+      "w": 0.3,
+      "tail": "down-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Not now. Ask me later.",
      "ru": "Не сейчас. Спроси меня позже.",
-     "delivery": "dry flat refusal, evasive and faintly amused"
+     "delivery": "dry flat refusal, evasive and faintly amused",
+     "place": {
+      "x": 0.52,
+      "y": 0.2,
+      "w": 0.42,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -297,28 +399,52 @@
      "who": "dan",
      "en": "Stop and push!",
      "ru": "Стой и толкай!",
-     "delivery": "bold effortful shout, strained, throwing everything into two words"
+     "delivery": "bold effortful shout, strained, throwing everything into two words",
+     "place": {
+      "x": 0.03,
+      "y": 0.03,
+      "w": 0.36,
+      "tail": "none"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Two words. One breath and a half. Because of AND.",
      "ru": "Два слова. Полтора дыхания. Благодаря AND.",
-     "delivery": "flat precise system accounting, dry, with a hint of approval"
+     "delivery": "flat precise system accounting, dry, with a hint of approval",
+     "place": {
+      "x": 0.6,
+      "y": 0.04,
+      "w": 0.36,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "AND is a good word!",
      "ru": "AND — хорошее слово!",
-     "delivery": "delighted, proud and cheerful, amazed by a small discovery"
+     "delivery": "delighted, proud and cheerful, amazed by a small discovery",
+     "place": {
+      "x": 0.03,
+      "y": 0.72,
+      "w": 0.35,
+      "tail": "none"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "AND is a small word. Small words are free.",
      "ru": "AND — маленькое слово. Маленькие слова бесплатны.",
-     "delivery": "dry flat system voice, a little wry, stating a generous rule"
+     "delivery": "dry flat system voice, a little wry, stating a generous rule",
+     "place": {
+      "x": 0.45,
+      "y": 0.72,
+      "w": 0.5,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -343,21 +469,39 @@
      "who": "system",
      "en": "This door hears a reason.",
      "ru": "Эта дверь слышит причину.",
-     "delivery": "calm flat system statement, solemn, patient, a riddle"
+     "delivery": "calm flat system statement, solemn, patient, a riddle",
+     "place": {
+      "x": 0.04,
+      "y": 0.04,
+      "w": 0.45,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Let me in, because I am Dan and I learn.",
      "ru": "Впусти меня, потому что я Дэн и я учусь.",
-     "delivery": "gentle sincere confidence, steady and warm, reasoning with a door"
+     "delivery": "gentle sincere confidence, steady and warm, reasoning with a door",
+     "place": {
+      "x": 0.52,
+      "y": 0.04,
+      "w": 0.44,
+      "tail": "down-left"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "True.",
      "ru": "Правда.",
-     "delivery": "short crisp system confirmation, flat, nearly warm"
+     "delivery": "short crisp system confirmation, flat, nearly warm",
+     "place": {
+      "x": 0.68,
+      "y": 0.42,
+      "w": 0.3,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -386,14 +530,26 @@
      "who": "dan",
      "en": "That is my OK! That is my voice!",
      "ru": "Это моё OK! Это мой голос!",
-     "delivery": "amazed whisper, wonder breaking into a laugh, hearing his own words returned"
+     "delivery": "amazed whisper, wonder breaking into a laugh, hearing his own words returned",
+     "place": {
+      "x": 0.03,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "The Tower learns from you. It keeps every word you say.",
      "ru": "Башня учится у тебя. Она хранит каждое твоё слово.",
-     "delivery": "calm flat system explanation, quiet and a little tender"
+     "delivery": "calm flat system explanation, quiet and a little tender",
+     "place": {
+      "x": 0.45,
+      "y": 0.78,
+      "w": 0.5,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -418,14 +574,26 @@
      "who": "dan",
      "en": "But I don't lose them.",
      "ru": "Но я их не теряю.",
-     "delivery": "soft relieved voice, tired and hopeful, sitting against the wall"
+     "delivery": "soft relieved voice, tired and hopeful, sitting against the wall",
+     "place": {
+      "x": 0.03,
+      "y": 0.06,
+      "w": 0.38,
+      "tail": "down-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "No. You speak. It learns. Nobody loses. That is new. The others buy and sell. You learn.",
      "ru": "Нет. Ты говоришь. Она учится. Никто не теряет. Это ново. Другие покупают и продают. Ты учишься.",
-     "delivery": "quiet slow system voice, gently proud, speaking in short plain sentences"
+     "delivery": "quiet slow system voice, gently proud, speaking in short plain sentences",
+     "place": {
+      "x": 0.58,
+      "y": 0.4,
+      "w": 0.38,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -450,21 +618,39 @@
      "who": "dan",
      "en": "You want your name. But I can't take it. It is in the wall.",
      "ru": "Ты хочешь своё имя. Но я не могу его взять. Оно в стене.",
-     "delivery": "tender gentle voice, kneeling, kind and sorry, speaking softly to a child"
+     "delivery": "tender gentle voice, kneeling, kind and sorry, speaking softly to a child",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.45,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "silent",
      "en": "Mira.",
      "ru": "Мира.",
-     "delivery": "thin hollow child-like voice, one soft word, sad and fragile"
+     "delivery": "thin hollow child-like voice, one soft word, sad and fragile",
+     "place": {
+      "x": 0.64,
+      "y": 0.06,
+      "w": 0.3,
+      "tail": "down-left"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "You want Mira. But I don't like her now.",
      "ru": "Ты хочешь Миру. Но она мне сейчас не нравится.",
-     "delivery": "wry honest voice, gentle and conflicted, an almost smile"
+     "delivery": "wry honest voice, gentle and conflicted, an almost smile",
+     "place": {
+      "x": 0.02,
+      "y": 0.6,
+      "w": 0.4,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -489,14 +675,26 @@
      "who": "dan",
      "en": "She uses me. But she gives me bread. She lies, and she is my first friend here.",
      "ru": "Она меня использует. Но она даёт мне хлеб. Она лжёт, и она мой первый друг здесь.",
-     "delivery": "quiet thoughtful inner voice, tired and fond, torn between anger and affection"
+     "delivery": "quiet thoughtful inner voice, tired and fond, torn between anger and affection",
+     "place": {
+      "x": 0.03,
+      "y": 0.04,
+      "w": 0.38,
+      "tail": "down-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Two true things.",
      "ru": "Две правды.",
-     "delivery": "short flat system voice, soft and wise"
+     "delivery": "short flat system voice, soft and wise",
+     "place": {
+      "x": 0.64,
+      "y": 0.4,
+      "w": 0.33,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -525,7 +723,13 @@
      "who": "dan",
      "en": "OK. We find her. Because she is alone, and I know alone.",
      "ru": "Хорошо. Мы найдём её. Потому что она одна, а я знаю, что такое одиночество.",
-     "delivery": "calm resolved voice, steady and warm, a promise made to himself"
+     "delivery": "calm resolved voice, steady and warm, a promise made to himself",
+     "place": {
+      "x": 0.06,
+      "y": 0.08,
+      "w": 0.5,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -554,14 +758,26 @@
      "who": "system",
      "en": "Warning. The sentence wants a name.",
      "ru": "Предупреждение. Предложению нужно имя.",
-     "delivery": "grave cold system alarm, slow and heavy"
+     "delivery": "grave cold system alarm, slow and heavy",
+     "place": {
+      "x": 0.64,
+      "y": 0.46,
+      "w": 0.33,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "That is my name. On the wall. Why?",
      "ru": "Это моё имя. На стене. Почему?",
-     "delivery": "stunned quiet voice, small and shaken, staring at his name on the wall"
+     "delivery": "stunned quiet voice, small and shaken, staring at his name on the wall",
+     "place": {
+      "x": 0.03,
+      "y": 0.55,
+      "w": 0.45,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -586,21 +802,39 @@
      "en": "I am Dan. I am not weak. I am tired.",
      "ru": "Я Дэн. Я не слабый. Я устал.",
      "voice": "dan",
-     "delivery": "hollow breathy whisper, Dan's own voice slightly wrong, haunting and distant, echoing from the tower"
+     "delivery": "hollow breathy whisper, Dan's own voice slightly wrong, haunting and distant, echoing from the tower",
+     "place": {
+      "x": 0.03,
+      "y": 0.03,
+      "w": 0.45,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "That is my voice. I say that on the first night.",
      "ru": "Это мой голос. Я говорю это в первую ночь.",
-     "delivery": "stunned shaky whisper, shocked recognition, goosebumps"
+     "delivery": "stunned shaky whisper, shocked recognition, goosebumps",
+     "place": {
+      "x": 0.55,
+      "y": 0.03,
+      "w": 0.42,
+      "tail": "down-left"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "It learns to speak.",
      "ru": "Она учится говорить.",
-     "delivery": "soft quiet system voice, ominous and tender, almost sad"
+     "delivery": "soft quiet system voice, ominous and tender, almost sad",
+     "place": {
+      "x": 0.7,
+      "y": 0.4,
+      "w": 0.28,
+      "tail": "none"
+     }
     }
    ]
   }

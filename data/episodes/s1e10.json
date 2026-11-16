@@ -45,14 +45,26 @@
      "who": "mira",
      "en": "You find her.",
      "ru": "Ты нашёл её.",
-     "delivery": "low quiet relief, gruff and halting, almost smiling"
+     "delivery": "low quiet relief, gruff and halting, almost smiling",
+     "place": {
+      "x": 0.58,
+      "y": 0.05,
+      "w": 0.38,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "She finds me.",
      "ru": "Это она меня нашла.",
-     "delivery": "gentle simple reply, a warm half smile, steady"
+     "delivery": "gentle simple reply, a warm half smile, steady",
+     "place": {
+      "x": 0.03,
+      "y": 0.05,
+      "w": 0.36,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -77,14 +89,26 @@
      "who": "mira",
      "en": "I am sorry, Zero.",
      "ru": "Прости, Зеро.",
-     "delivery": "quiet awkward apology, rubbing her neck, stiff and sincere, unused to saying sorry"
+     "delivery": "quiet awkward apology, rubbing her neck, stiff and sincere, unused to saying sorry",
+     "place": {
+      "x": 0.6,
+      "y": 0.03,
+      "w": 0.37,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "I don't like your plan. But I have a new plan. We make a sentence for the last door.",
      "ru": "Мне не нравится твой план. Но у меня есть новый план. Мы составим предложение для последней двери.",
-     "delivery": "calm kind firm voice, honest and forgiving, practical hope"
+     "delivery": "calm kind firm voice, honest and forgiving, practical hope",
+     "place": {
+      "x": 0.02,
+      "y": 0.13,
+      "w": 0.5,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -117,14 +141,26 @@
      "who": "system",
      "en": "Mira holds her cord. She does not hold the child.",
      "ru": "Мира держит свой шнурок. Ребёнка она не держит.",
-     "delivery": "cool flat system observation, quiet and sad, precise"
+     "delivery": "cool flat system observation, quiet and sad, precise",
+     "place": {
+      "x": 0.52,
+      "y": 0.05,
+      "w": 0.45,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "I can't. I don't know why.",
      "ru": "Я не могу. Я не знаю почему.",
-     "delivery": "low trembling voice, ashamed and confused, struggling with her own body"
+     "delivery": "low trembling voice, ashamed and confused, struggling with her own body",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.42,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -149,14 +185,26 @@
      "who": "system",
      "en": "This door is strong. PUSH is weak here.",
      "ru": "Эта дверь сильная. PUSH здесь слабое.",
-     "delivery": "flat dry system warning, plain and grave"
+     "delivery": "flat dry system warning, plain and grave",
+     "place": {
+      "x": 0.62,
+      "y": 0.08,
+      "w": 0.34,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "I can say OPEN. It does nothing. The Keeper has it.",
      "ru": "Я могу сказать OPEN. Оно ничего не делает. Оно у Хранителя.",
-     "delivery": "tired and practical, a rueful voice, stating the problem"
+     "delivery": "tired and practical, a rueful voice, stating the problem",
+     "place": {
+      "x": 0.03,
+      "y": 0.06,
+      "w": 0.55,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -181,7 +229,13 @@
      "who": "dan",
      "en": "One stone is not a wall. The Tower makes a sentence. I can make a sentence too.",
      "ru": "Один камень — ещё не стена. Башня делает предложение. Я тоже могу сделать предложение.",
-     "delivery": "slow thoughtful inner voice, a spark of an idea building, calm and warm"
+     "delivery": "slow thoughtful inner voice, a spark of an idea building, calm and warm",
+     "place": {
+      "x": 0.1,
+      "y": 0.06,
+      "w": 0.55,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -206,14 +260,26 @@
      "who": "mira",
      "en": "We buy words. They don't make a sentence. Nobody can.",
      "ru": "Мы покупаем слова. Они не делают предложение. Никто не может.",
-     "delivery": "flat tired fact, bleak and dry, years of failed hope in the voice"
+     "delivery": "flat tired fact, bleak and dry, years of failed hope in the voice",
+     "place": {
+      "x": 0.52,
+      "y": 0.02,
+      "w": 0.46,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "I learn words. Who? I. What do I do? Open. What? The door.",
      "ru": "Я учу слова. Кто? Я. Что делаю? Открываю. Что? Дверь.",
-     "delivery": "quick excited counting, bright and clear, building a sentence word by word"
+     "delivery": "quick excited counting, bright and clear, building a sentence word by word",
+     "place": {
+      "x": 0.02,
+      "y": 0.14,
+      "w": 0.5,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -234,14 +300,26 @@
      "who": "dan",
      "en": "I open the door.",
      "ru": "Я открываю дверь.",
-     "delivery": "calm confident clear voice, steady and strong, saying the sentence like a spell"
+     "delivery": "calm confident clear voice, steady and strong, saying the sentence like a spell",
+     "place": {
+      "x": 0.5,
+      "y": 0.03,
+      "w": 0.45,
+      "tail": "left"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Sentence: 4 words. True. One breath.",
      "ru": "Предложение: 4 слова. Правда. Одно дыхание.",
-     "delivery": "crisp flat system announcement, a faint ring of wonder"
+     "delivery": "crisp flat system announcement, a faint ring of wonder",
+     "place": {
+      "x": 0.45,
+      "y": 0.55,
+      "w": 0.5,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -270,21 +348,39 @@
      "who": "mira",
      "en": "One breath? For that door? You have no OPEN!",
      "ru": "Одно дыхание? За эту дверь? У тебя нет OPEN!",
-     "delivery": "stunned breathless voice, wide eyed disbelief, almost angry at the miracle"
+     "delivery": "stunned breathless voice, wide eyed disbelief, almost angry at the miracle",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.4,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "I don't need a strong word. Every door hears a true sentence.",
      "ru": "Мне не нужно сильное слово. Любая дверь слышит правдивое предложение.",
-     "delivery": "calm easy modest voice, warm with a small grin, explaining like a teacher"
+     "delivery": "calm easy modest voice, warm with a small grin, explaining like a teacher",
+     "place": {
+      "x": 0.5,
+      "y": 0.02,
+      "w": 0.47,
+      "tail": "down-left"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "A true sentence makes small words yours. DOOR is yours now. Count: six.",
      "ru": "Правдивое предложение делает маленькие слова твоими. DOOR теперь твоё. Счёт: шесть.",
-     "delivery": "crisp flat system announcement, precise, a ceremonial pride"
+     "delivery": "crisp flat system announcement, precise, a ceremonial pride",
+     "place": {
+      "x": 0.02,
+      "y": 0.14,
+      "w": 0.46,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -313,21 +409,39 @@
      "who": "dan",
      "en": "I close the door. I hold the lamp. I find the key. I see the stone. I touch the stone!",
      "ru": "Я закрываю дверь. Я держу лампу. Я нахожу ключ. Я вижу камень. Я трогаю камень!",
-     "delivery": "playful rapid joyful voice, laughing, bubbling with delight, listing actions like a game"
+     "delivery": "playful rapid joyful voice, laughing, bubbling with delight, listing actions like a game",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.34,
+      "tail": "down-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "A true sentence is strong. Count: 14.",
      "ru": "Правдивое предложение сильное. Счёт: 14.",
-     "delivery": "flat crisp system count, impressed, slightly smug"
+     "delivery": "flat crisp system count, impressed, slightly smug",
+     "place": {
+      "x": 0.36,
+      "y": 0.07,
+      "w": 0.32,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Stop. You play.",
      "ru": "Хватит. Ты играешь.",
-     "delivery": "dry amused voice, half scolding, with a smile creeping in"
+     "delivery": "dry amused voice, half scolding, with a smile creeping in",
+     "place": {
+      "x": 0.67,
+      "y": 0.2,
+      "w": 0.31,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -356,28 +470,52 @@
      "who": "mira",
      "en": "I... close... door.",
      "ru": "Я... закрыть... дверь.",
-     "delivery": "slow clumsy and serious, a beginner struggling, comic effort with long pauses"
+     "delivery": "slow clumsy and serious, a beginner struggling, comic effort with long pauses",
+     "place": {
+      "x": 0.55,
+      "y": 0.02,
+      "w": 0.42,
+      "tail": "down-left"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Not true. That is not a sentence.",
      "ru": "Неправда. Это не предложение.",
-     "delivery": "flat dry system judgment, deadpan"
+     "delivery": "flat dry system judgment, deadpan",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.4,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "The small words are free. Say 'the'. Say it with me.",
      "ru": "Маленькие слова бесплатны. Скажи «the». Скажи вместе со мной.",
-     "delivery": "patient friendly teacher voice, warm and encouraging, a little laugh"
+     "delivery": "patient friendly teacher voice, warm and encouraging, a little laugh",
+     "place": {
+      "x": 0.02,
+      "y": 0.14,
+      "w": 0.5,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "I close the door.",
      "ru": "Я закрываю дверь.",
-     "delivery": "careful proud voice, slow and clear, a small shy smile"
+     "delivery": "careful proud voice, slow and clear, a small shy smile",
+     "place": {
+      "x": 0.56,
+      "y": 0.15,
+      "w": 0.4,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -410,14 +548,26 @@
      "who": "silent",
      "en": "I am Dan.",
      "ru": "Я Дэн.",
-     "delivery": "hollow smooth monotone, flat and eerie, stolen name in a dead voice"
+     "delivery": "hollow smooth monotone, flat and eerie, stolen name in a dead voice",
+     "place": {
+      "x": 0.62,
+      "y": 0.04,
+      "w": 0.35,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "keeper",
      "en": "Welcome to the last hall. A new sentence, Zero! Every jar in my hall hears it.",
      "ru": "Добро пожаловать в последний зал. Новое предложение, Зеро! Каждая банка в моём зале его слышит.",
-     "delivery": "calm velvety unsettling voice, slow and warm, a gentleman gloating politely"
+     "delivery": "calm velvety unsettling voice, slow and warm, a gentleman gloating politely",
+     "place": {
+      "x": 0.05,
+      "y": 0.04,
+      "w": 0.52,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -442,21 +592,39 @@
      "who": "keeper",
      "en": "Forty years, and nobody makes a new sentence here. I need one more word. Your name. Give it to me.",
      "ru": "Сорок лет никто здесь не составлял новых предложений. Мне нужно ещё одно слово. Твоё имя. Отдай его мне.",
-     "delivery": "soft smooth courteous voice, patient and cold, quietly greedy, each phrase polished"
+     "delivery": "soft smooth courteous voice, patient and cold, quietly greedy, each phrase polished",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.58,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "No trade. I don't fight. I make sentences.",
      "ru": "Никакой сделки. Я не дерусь. Я составляю предложения.",
-     "delivery": "firm calm voice, quiet defiance, steady and brave"
+     "delivery": "firm calm voice, quiet defiance, steady and brave",
+     "place": {
+      "x": 0.05,
+      "y": 0.5,
+      "w": 0.45,
+      "tail": "up-left"
+     }
     },
     {
      "type": "speech",
      "who": "keeper",
      "en": "Then no trade. They take it.",
      "ru": "Тогда без сделки. Они его заберут.",
-     "delivery": "cold gentle voice, silky, final, with a faint smile"
+     "delivery": "cold gentle voice, silky, final, with a faint smile",
+     "place": {
+      "x": 0.55,
+      "y": 0.65,
+      "w": 0.4,
+      "tail": "up-right"
+     }
     }
    ]
   },
@@ -485,14 +653,26 @@
      "who": "dan",
      "en": "I stop the Silent! I close the way!",
      "ru": "Я останавливаю Безмолвного! Я закрываю путь!",
-     "delivery": "fierce determined shout, commanding, power in every word"
+     "delivery": "fierce determined shout, commanding, power in every word",
+     "place": {
+      "x": 0.02,
+      "y": 0.01,
+      "w": 0.55,
+      "tail": "down-left"
+     }
     },
     {
      "type": "shout",
      "who": "mira",
      "en": "Don't fight them all! Hold the door!",
      "ru": "Не дерись со всеми! Держи дверь!",
-     "delivery": "sharp urgent shout, fierce and decisive, giving orders in a battle"
+     "delivery": "sharp urgent shout, fierce and decisive, giving orders in a battle",
+     "place": {
+      "x": 0.3,
+      "y": 0.6,
+      "w": 0.4,
+      "tail": "left"
+     }
     }
    ]
   },
@@ -521,21 +701,39 @@
      "who": "silent",
      "en": "I am Dan. I am Dan.",
      "ru": "Я Дэн. Я Дэн.",
-     "delivery": "hollow smooth chorus, eerie and flat, a dead voice repeating itself"
+     "delivery": "hollow smooth chorus, eerie and flat, a dead voice repeating itself",
+     "place": {
+      "x": 0.55,
+      "y": 0.8,
+      "w": 0.42,
+      "tail": "up-right"
+     }
     },
     {
      "type": "shout",
      "who": "mira",
      "en": "Stop! Every one of you!",
      "ru": "Стойте! Все до одного!",
-     "delivery": "full throated roaring shout, raw and ragged, spending her last breath"
+     "delivery": "full throated roaring shout, raw and ragged, spending her last breath",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.46,
+      "tail": "down-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Mira fights with her last breath.",
      "ru": "Мира дерётся последним дыханием.",
-     "delivery": "grave soft system voice, slow and heavy, quietly mournful"
+     "delivery": "grave soft system voice, slow and heavy, quietly mournful",
+     "place": {
+      "x": 0.5,
+      "y": 0.02,
+      "w": 0.47,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -564,21 +762,39 @@
      "who": "silent",
      "en": "I am Mira.",
      "ru": "Я Мира.",
-     "delivery": "hollow breathy whisper, flat dead voice, uttering her stolen name"
+     "delivery": "hollow breathy whisper, flat dead voice, uttering her stolen name",
+     "place": {
+      "x": 0.02,
+      "y": 0.3,
+      "w": 0.32,
+      "tail": "down-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Word lost: MIRA.",
      "ru": "Слово потеряно: MIRA.",
-     "delivery": "cold quiet system notice, final and gentle, a heavy silence after"
+     "delivery": "cold quiet system notice, final and gentle, a heavy silence after",
+     "place": {
+      "x": 0.3,
+      "y": 0.1,
+      "w": 0.4,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "keeper",
      "en": "Not the name I want. But a name is a name.",
      "ru": "Не то имя, которое мне нужно. Но имя есть имя.",
-     "delivery": "silky regretful voice, calm and polite, shrugging with mild satisfaction"
+     "delivery": "silky regretful voice, calm and polite, shrugging with mild satisfaction",
+     "place": {
+      "x": 0.52,
+      "y": 0.42,
+      "w": 0.45,
+      "tail": "up-right"
+     }
     }
    ]
   },
@@ -607,28 +823,52 @@
      "who": "mira",
      "en": "I am... I am...",
      "ru": "Я... я...",
-     "delivery": "broken gasping whisper, terrified and lost, voice fading mid word"
+     "delivery": "broken gasping whisper, terrified and lost, voice fading mid word",
+     "place": {
+      "x": 0.2,
+      "y": 0.02,
+      "w": 0.36,
+      "tail": "down-left"
+     }
     },
     {
      "type": "speech",
      "who": "silent",
      "en": "Mira? Mira?",
      "ru": "Мира? Мира?",
-     "delivery": "thin hollow child-like voice, soft and puzzled, repeating a name"
+     "delivery": "thin hollow child-like voice, soft and puzzled, repeating a name",
+     "place": {
+      "x": 0.58,
+      "y": 0.02,
+      "w": 0.38,
+      "tail": "down-left"
+     }
     },
     {
      "type": "speech",
      "who": "keeper",
      "en": "Bring your name to my hall, Dan. Then she has hers.",
      "ru": "Принеси своё имя в мой зал, Дэн. И тогда у неё будет её имя.",
-     "delivery": "calm velvety unsettling voice, soft and slow, an elegant threat with a smile"
+     "delivery": "calm velvety unsettling voice, soft and slow, an elegant threat with a smile",
+     "place": {
+      "x": 0.42,
+      "y": 0.8,
+      "w": 0.55,
+      "tail": "up-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Mira is Zero now.",
      "ru": "Мира теперь Зеро.",
-     "delivery": "quiet flat system voice, final and heavy, a slow chill"
+     "delivery": "quiet flat system voice, final and heavy, a slow chill",
+     "place": {
+      "x": 0.52,
+      "y": 0.43,
+      "w": 0.45,
+      "tail": "none"
+     }
     }
    ]
   }

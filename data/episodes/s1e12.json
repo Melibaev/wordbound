@@ -37,7 +37,13 @@
      "who": "dan",
      "en": "Mom. One more minute. I come back. I am sorry. I don't go. There is a new way.",
      "ru": "Мама. Ещё одну минуту. Я вернусь. Прости. Я не ухожу. Есть новый путь.",
-     "delivery": "a broken whisper at first, exhausted and guilty, then firming into a quiet steady decision"
+     "delivery": "a broken whisper at first, exhausted and guilty, then firming into a quiet steady decision",
+     "place": {
+      "x": 0.08,
+      "y": 0.6,
+      "w": 0.6,
+      "tail": "up-right"
+     }
     }
    ]
   },
@@ -66,21 +72,39 @@
      "who": "dan",
      "en": "Listen. You are Mira. You climb. You count every breath.",
      "ru": "Слушай. Ты Мира. Ты лазишь по Башне. Ты считаешь каждый вздох.",
-     "delivery": "calm firm and gentle, speaking each fact slowly like laying stones"
+     "delivery": "calm firm and gentle, speaking each fact slowly like laying stones",
+     "place": {
+      "x": 0.03,
+      "y": 0.02,
+      "w": 0.5,
+      "tail": "down-left"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "It is a sound.",
      "ru": "Это просто звук.",
-     "delivery": "hollow flat whisper, empty and distant"
+     "delivery": "hollow flat whisper, empty and distant",
+     "place": {
+      "x": 0.58,
+      "y": 0.02,
+      "w": 0.38,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "You say 'Loud is dead'. You give me bread. You wait three years for one girl. Who are you?",
      "ru": "Ты говоришь «Шумный — мёртвый». Ты отдаёшь мне хлеб. Три года ты ждёшь одну девочку. Кто ты?",
-     "delivery": "warm and certain, rising with each true sentence, the last question almost a plea"
+     "delivery": "warm and certain, rising with each true sentence, the last question almost a plea",
+     "place": {
+      "x": 0.03,
+      "y": 0.14,
+      "w": 0.62,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -109,21 +133,39 @@
      "who": "mira",
      "en": "I am... I am Mira!",
      "ru": "Я... Я Мира!",
-     "delivery": "a hoarse breaking cry, shocked and joyful, the name erupting out of her"
+     "delivery": "a hoarse breaking cry, shocked and joyful, the name erupting out of her",
+     "place": {
+      "x": 0.62,
+      "y": 0.76,
+      "w": 0.36,
+      "tail": "up-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "True. True. True. MIRA comes back. Mira hears it. No trade.",
      "ru": "Правда. Правда. Правда. MIRA возвращается. Мира слышит. Без обмена.",
-     "delivery": "flat cold game-system announcement with a hint of mockery directed at the Keeper"
+     "delivery": "flat cold game-system announcement with a hint of mockery directed at the Keeper",
+     "place": {
+      "x": 0.31,
+      "y": 0.07,
+      "w": 0.4,
+      "tail": "none"
+     }
     },
     {
      "type": "shout",
      "who": "keeper",
      "en": "That is not a trade! Who pays?",
      "ru": "Это не сделка! Кто платит?",
-     "delivery": "the velvet cracks, a polite man outraged for the first time, sharp and astonished"
+     "delivery": "the velvet cracks, a polite man outraged for the first time, sharp and astonished",
+     "place": {
+      "x": 0.02,
+      "y": 0.76,
+      "w": 0.4,
+      "tail": "up-right"
+     }
     }
    ]
   },
@@ -152,14 +194,26 @@
      "who": "dan",
      "en": "Nobody pays. Mira, the child. Who is she?",
      "ru": "Никто не платит. Мира, девочка. Кто она?",
-     "delivery": "short calm answer to the Keeper, then a soft careful question to Mira, patient and quiet"
+     "delivery": "short calm answer to the Keeper, then a soft careful question to Mira, patient and quiet",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.5,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "She is my... I can't hear the word.",
      "ru": "Она моя... Я не слышу это слово.",
-     "delivery": "frustrated stumbling whisper, trailing off into a painful gap, stricken"
+     "delivery": "frustrated stumbling whisper, trailing off into a painful gap, stricken",
+     "place": {
+      "x": 0.52,
+      "y": 0.15,
+      "w": 0.45,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -184,21 +238,39 @@
      "who": "dan",
      "en": "I can't give you the word. But I can teach you. Lina is a girl. Lina's mother is your mother. Lina's father is your father.",
      "ru": "Я не могу дать тебе слово. Но я могу научить тебя. Лина — девочка. Мама Лины — твоя мама. Папа Лины — твой папа.",
-     "delivery": "patient friendly teacher voice, slow and clear, a small smile, pausing between each short sentence"
+     "delivery": "patient friendly teacher voice, slow and clear, a small smile, pausing between each short sentence",
+     "place": {
+      "x": 0.03,
+      "y": 0.02,
+      "w": 0.6,
+      "tail": "down-left"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "My mother is Lina's mother. The same mother. The same father.",
      "ru": "Моя мама — мама Лины. Та же мама. Тот же папа.",
-     "delivery": "slow careful repetition, testing each word, quiet wonder dawning"
+     "delivery": "slow careful repetition, testing each word, quiet wonder dawning",
+     "place": {
+      "x": 0.52,
+      "y": 0.2,
+      "w": 0.45,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "It is the same family. What does it mean?",
      "ru": "Это одна и та же семья. Что это значит?",
-     "delivery": "gentle and encouraging, leaning in, almost holding his breath"
+     "delivery": "gentle and encouraging, leaning in, almost holding his breath",
+     "place": {
+      "x": 0.04,
+      "y": 0.74,
+      "w": 0.46,
+      "tail": "up-right"
+     }
     }
    ]
   },
@@ -227,14 +299,26 @@
      "who": "mira",
      "en": "It means... we are together. She is my... sister.",
      "ru": "Это значит... мы вместе. Она моя... сестра.",
-     "delivery": "slow trembling realisation, each word pulled out of silence, the last word breaking into awe"
+     "delivery": "slow trembling realisation, each word pulled out of silence, the last word breaking into awe",
+     "place": {
+      "x": 0.55,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-left"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "New word: SISTER. SISTER is yours now.",
      "ru": "Новое слово: SISTER. SISTER теперь твоё.",
-     "delivery": "flat cold game-system announcement, almost gentle for once"
+     "delivery": "flat cold game-system announcement, almost gentle for once",
+     "place": {
+      "x": 0.55,
+      "y": 0.4,
+      "w": 0.42,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -267,7 +351,13 @@
      "who": "mira",
      "en": "I hear it! Lina. I am your sister. I am here.",
      "ru": "Я слышу! Лина. Я твоя сестра. Я здесь.",
-     "delivery": "choked tender voice, breaking with emotion, warm and soft for the first time, whispering a vow"
+     "delivery": "choked tender voice, breaking with emotion, warm and soft for the first time, whispering a vow",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.45,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
@@ -275,14 +365,26 @@
      "voice": "lina_human",
      "en": "Mira. ...Sister.",
      "ru": "Мира. ...Сестра.",
-     "delivery": "tiny thin hoarse child's voice, her own voice for the first time, cracked from three years of silence, fragile and sweet"
+     "delivery": "tiny thin hoarse child's voice, her own voice for the first time, cracked from three years of silence, fragile and sweet",
+     "place": {
+      "x": 0.55,
+      "y": 0.03,
+      "w": 0.42,
+      "tail": "down-left"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "The child has two words. They are hers.",
      "ru": "У девочки два слова. Они её.",
-     "delivery": "flat system line, quiet and almost warm"
+     "delivery": "flat system line, quiet and almost warm",
+     "place": {
+      "x": 0.3,
+      "y": 0.15,
+      "w": 0.4,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -307,14 +409,26 @@
      "who": "keeper",
      "en": "You teach her. You give, and you still have it. Then every jar here is a lie.",
      "ru": "Ты учишь её. Ты отдаёшь — и оно всё ещё у тебя. Тогда каждая банка здесь — ложь.",
-     "delivery": "soft stunned voice, the velvet gone thin, shaken to the root, almost a whisper"
+     "delivery": "soft stunned voice, the velvet gone thin, shaken to the root, almost a whisper",
+     "place": {
+      "x": 0.3,
+      "y": 0.03,
+      "w": 0.65,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "I teach. She learns. Nobody loses.",
      "ru": "Я учу. Она учится. Никто ничего не теряет.",
-     "delivery": "calm quiet and plain, no triumph, just stating the truth"
+     "delivery": "calm quiet and plain, no triumph, just stating the truth",
+     "place": {
+      "x": 0.03,
+      "y": 0.17,
+      "w": 0.45,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -339,14 +453,26 @@
      "who": "system",
      "en": "Missed calls: 12. The call ends. The door closes. The way back is gone.",
      "ru": "Пропущенных звонков: 12. Звонок обрывается. Дверь закрывается. Пути назад нет.",
-     "delivery": "flat cold system announcement, slow and weighty, each short sentence closing like a latch"
+     "delivery": "flat cold system announcement, slow and weighty, each short sentence closing like a latch",
+     "place": {
+      "x": 0.15,
+      "y": 0.03,
+      "w": 0.6,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Then I build a new way back.",
      "ru": "Тогда я построю новый путь назад.",
-     "delivery": "quiet wet-eyed resolve, steady and low, a small stubborn engineer's smile at the edge"
+     "delivery": "quiet wet-eyed resolve, steady and low, a small stubborn engineer's smile at the edge",
+     "place": {
+      "x": 0.45,
+      "y": 0.3,
+      "w": 0.5,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -379,7 +505,13 @@
      "who": "system",
      "en": "Count: 97. The last door wants a new sentence.",
      "ru": "Счёт: 97. Последняя дверь хочет нового предложения.",
-     "delivery": "flat dry system announcement, matter-of-fact, quiet"
+     "delivery": "flat dry system announcement, matter-of-fact, quiet",
+     "place": {
+      "x": 0.2,
+      "y": 0.03,
+      "w": 0.6,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -408,14 +540,26 @@
      "who": "dan",
      "en": "Together. Say it with me. I am Dan,",
      "ru": "Вместе. Скажи со мной. Я Дэн,",
-     "delivery": "steady rallying voice, calm and warm, leading a choir, the start of a vow"
+     "delivery": "steady rallying voice, calm and warm, leading a choir, the start of a vow",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.38,
+      "tail": "down-left"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "and I am Mira,",
      "ru": "и я Мира,",
-     "delivery": "firm clear voice, proud, no longer hollow, speaking her own name like a flag"
+     "delivery": "firm clear voice, proud, no longer hollow, speaking her own name like a flag",
+     "place": {
+      "x": 0.42,
+      "y": 0.02,
+      "w": 0.36,
+      "tail": "down-left"
+     }
     },
     {
      "type": "speech",
@@ -423,14 +567,26 @@
      "voice": "lina_human",
      "en": "Sister.",
      "ru": "Сестра.",
-     "delivery": "tiny thin child's voice, hoarse and clear, one word offered with all her strength"
+     "delivery": "tiny thin child's voice, hoarse and clear, one word offered with all her strength",
+     "place": {
+      "x": 0.72,
+      "y": 0.48,
+      "w": 0.26,
+      "tail": "left"
+     }
     },
     {
      "type": "shout",
      "who": "dan",
      "en": "and we open this door together, because we go up.",
      "ru": "и мы вместе открываем эту дверь, потому что мы идём вверх.",
-     "delivery": "ringing triumphant shout of three voices as one, bright and full, a climb to victory"
+     "delivery": "ringing triumphant shout of three voices as one, bright and full, a climb to victory",
+     "place": {
+      "x": 0.06,
+      "y": 0.68,
+      "w": 0.88,
+      "tail": "up-right"
+     }
     }
    ]
   },
@@ -455,7 +611,13 @@
      "who": "system",
      "en": "Sentence: 18 words. True. Count: one hundred. Rank up: PHRASE. Class: BUILDER. Title: Teacher of One.",
      "ru": "Предложение: 18 слов. Правда. Счёт: сто. Новый ранг: PHRASE. Класс: BUILDER. Титул: Учитель одного.",
-     "delivery": "flat cold game-system announcement, crisp, each formula landing like a stamp, one hint of ceremony"
+     "delivery": "flat cold game-system announcement, crisp, each formula landing like a stamp, one hint of ceremony",
+     "place": {
+      "x": 0.03,
+      "y": 0.3,
+      "w": 0.5,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -480,28 +642,52 @@
      "who": "dan",
      "en": "One hundred words. One hundred! Now answer. Why me?",
      "ru": "Сто слов. Сто! Теперь ответь. Почему я?",
-     "delivery": "tired excited and a little cheeky, half laughing, then suddenly serious on the last question"
+     "delivery": "tired excited and a little cheeky, half laughing, then suddenly serious on the last question",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.4,
+      "tail": "down-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Answer: because you have zero words and you learn every word, and the others only buy and take, and the Tower wants to learn too.",
      "ru": "Ответ: потому что у тебя ноль слов и ты учишь каждое слово, а другие только покупают и берут, и Башня тоже хочет учиться.",
-     "delivery": "flat dry system voice, slower and fuller than ever before, carefully building a long sentence like a first attempt"
+     "delivery": "flat dry system voice, slower and fuller than ever before, carefully building a long sentence like a first attempt",
+     "place": {
+      "x": 0.52,
+      "y": 0.5,
+      "w": 0.46,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "That is a long sentence.",
      "ru": "Это длинное предложение.",
-     "delivery": "dry surprised understatement, wry amused, shaking his head"
+     "delivery": "dry surprised understatement, wry amused, shaking his head",
+     "place": {
+      "x": 0.02,
+      "y": 0.2,
+      "w": 0.4,
+      "tail": "down-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "It is the first. Don't tell Mira.",
      "ru": "Это первое. Не говори Мире.",
-     "delivery": "flat deadpan with a hidden hint of pride and mischief"
+     "delivery": "flat deadpan with a hidden hint of pride and mischief",
+     "place": {
+      "x": 0.5,
+      "y": 0.8,
+      "w": 0.46,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -526,21 +712,39 @@
      "who": "system",
      "en": "And because you are here again.",
      "ru": "И потому что ты здесь снова.",
-     "delivery": "flat quiet system voice, slower than before, a heavy pause before the last word"
+     "delivery": "flat quiet system voice, slower than before, a heavy pause before the last word",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Again? What does 'again' mean?",
      "ru": "Снова? Что значит «снова»?",
-     "delivery": "uneasy puzzled voice, the first chill of fear under the curiosity"
+     "delivery": "uneasy puzzled voice, the first chill of fear under the curiosity",
+     "place": {
+      "x": 0.5,
+      "y": 0.68,
+      "w": 0.46,
+      "tail": "up-left"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Ask me when you have 300 words. It is a long answer.",
      "ru": "Спроси, когда у тебя будет 300 слов. Это длинный ответ.",
-     "delivery": "flat dry deflection, a slight softening on the last sentence"
+     "delivery": "flat dry deflection, a slight softening on the last sentence",
+     "place": {
+      "x": 0.6,
+      "y": 0.2,
+      "w": 0.38,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -569,14 +773,26 @@
      "who": "mira",
      "en": "Thank you, Dan. ...Zero.",
      "ru": "Спасибо, Дэн. ...Зеро.",
-     "delivery": "low and awkward, a rare soft thank-you, then slipping back into deadpan with the old nickname"
+     "delivery": "low and awkward, a rare soft thank-you, then slipping back into deadpan with the old nickname",
+     "place": {
+      "x": 0.45,
+      "y": 0.72,
+      "w": 0.5,
+      "tail": "up-left"
+     }
     },
     {
      "type": "speech",
      "who": "silent",
      "en": "I am Dan.",
      "ru": "Я Дэн.",
-     "delivery": "hollow smooth monotone, flat and eerie, imitating Dan's voice slightly wrong from far behind"
+     "delivery": "hollow smooth monotone, flat and eerie, imitating Dan's voice slightly wrong from far behind",
+     "place": {
+      "x": 0.4,
+      "y": 0.04,
+      "w": 0.34,
+      "tail": "right"
+     }
     }
    ]
   },
@@ -600,27 +816,51 @@
      "type": "narration",
      "en": "A voice from up there: Dan, eat something.",
      "ru": "Голос сверху: Дэн, поешь что-нибудь.",
-     "delivery": "warm gentle motherly voice, slightly echoing from far above, familiar and tender"
+     "delivery": "warm gentle motherly voice, slightly echoing from far above, familiar and tender",
+     "place": {
+      "x": 0.35,
+      "y": 0.02,
+      "w": 0.6,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Mom?",
      "ru": "Мама?",
-     "delivery": "a whisper full of hope and disbelief, breaking"
+     "delivery": "a whisper full of hope and disbelief, breaking",
+     "place": {
+      "x": 0.55,
+      "y": 0.15,
+      "w": 0.3,
+      "tail": "down-left"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "That is not your mother. That is the Tower. It has your mother's voice.",
      "ru": "Это не твоя мама. Это Башня. У неё голос твоей мамы.",
-     "delivery": "flat cold warning voice, slow and grave, no mockery now"
+     "delivery": "flat cold warning voice, slow and grave, no mockery now",
+     "place": {
+      "x": 0.5,
+      "y": 0.38,
+      "w": 0.47,
+      "tail": "none"
+     }
     },
     {
      "type": "narration",
      "en": "The voice: Come up, Dan. Mom waits, because you learn.",
      "ru": "Голос: Поднимайся, Дэн. Мама ждёт, потому что ты учишься.",
-     "delivery": "the same warm motherly voice but slightly too even and too perfect, eerie, speaking Dan's own grammar back to him"
+     "delivery": "the same warm motherly voice but slightly too even and too perfect, eerie, speaking Dan's own grammar back to him",
+     "place": {
+      "x": 0.1,
+      "y": 0.8,
+      "w": 0.8,
+      "tail": "none"
+     }
     }
    ]
   }

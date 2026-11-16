@@ -41,14 +41,26 @@
      "who": "dan",
      "en": "So many words!",
      "ru": "Сколько слов!",
-     "delivery": "awed whisper, wide eyed wonder, drinking in a library of glowing jars"
+     "delivery": "awed whisper, wide eyed wonder, drinking in a library of glowing jars",
+     "place": {
+      "x": 0.03,
+      "y": 0.52,
+      "w": 0.36,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Do not touch the jars.",
      "ru": "Не трогай банки.",
-     "delivery": "low flat warning, clipped and tense, eyes scanning the room"
+     "delivery": "low flat warning, clipped and tense, eyes scanning the room",
+     "place": {
+      "x": 0.6,
+      "y": 0.52,
+      "w": 0.36,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -73,14 +85,26 @@
      "who": "dan",
      "en": "He says welcome back. You know this place.",
      "ru": "Он сказал «с возвращением». Ты знаешь это место.",
-     "delivery": "suspicious, low and pointed, a quiet accusation"
+     "delivery": "suspicious, low and pointed, a quiet accusation",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.46,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "I know it. I don't like it.",
      "ru": "Знаю. Мне оно не нравится.",
-     "delivery": "tight, bitter and reluctant, jaw set, hating the place"
+     "delivery": "tight, bitter and reluctant, jaw set, hating the place",
+     "place": {
+      "x": 0.5,
+      "y": 0.03,
+      "w": 0.46,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -113,14 +137,26 @@
      "who": "keeper",
      "en": "I know you, Zero. I have your name.",
      "ru": "Я знаю тебя, Зеро. Твоё имя у меня.",
-     "delivery": "calm velvety unsettling voice, soft and slow, courteous like an old teacher who owns you"
+     "delivery": "calm velvety unsettling voice, soft and slow, courteous like an old teacher who owns you",
+     "place": {
+      "x": 0.03,
+      "y": 0.04,
+      "w": 0.46,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Don't talk to him, Zero.",
      "ru": "Не говори с ним, Зеро.",
-     "delivery": "sharp low whisper, tense and protective, urgent warning"
+     "delivery": "sharp low whisper, tense and protective, urgent warning",
+     "place": {
+      "x": 0.52,
+      "y": 0.17,
+      "w": 0.44,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -145,21 +181,39 @@
      "who": "keeper",
      "en": "A Silent brings me names. I sell them back.",
      "ru": "Безмолвные приносят мне имена. Я продаю их обратно.",
-     "delivery": "smooth polite salesman voice, unhurried and quietly menacing"
+     "delivery": "smooth polite salesman voice, unhurried and quietly menacing",
+     "place": {
+      "x": 0.2,
+      "y": 0.02,
+      "w": 0.4,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Give it to me!",
      "ru": "Отдай!",
-     "delivery": "urgent, demanding and desperate, reaching out for his name"
+     "delivery": "urgent, demanding and desperate, reaching out for his name",
+     "place": {
+      "x": 0.03,
+      "y": 0.86,
+      "w": 0.36,
+      "tail": "up-right"
+     }
     },
     {
      "type": "speech",
      "who": "keeper",
      "en": "I don't give. I trade names for words.",
      "ru": "Я не отдаю. Я меняю имена на слова.",
-     "delivery": "gentle unmoved refusal, courteous and cold, savoring each symmetrical phrase"
+     "delivery": "gentle unmoved refusal, courteous and cold, savoring each symmetrical phrase",
+     "place": {
+      "x": 0.45,
+      "y": 0.82,
+      "w": 0.5,
+      "tail": "up-left"
+     }
     }
    ]
   },
@@ -188,21 +242,39 @@
      "who": "keeper",
      "en": "A trade is a trade. One word, one name. That is the price.",
      "ru": "Обмен есть обмен. Слово за имя. Такова цена.",
-     "delivery": "smiling silky formal pronouncement, every word weighed like a contract"
+     "delivery": "smiling silky formal pronouncement, every word weighed like a contract",
+     "place": {
+      "x": 0.2,
+      "y": 0.04,
+      "w": 0.6,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "What word do you want?",
      "ru": "Какое слово тебе нужно?",
-     "delivery": "wary and tight, voice small but steady, asking the price"
+     "delivery": "wary and tight, voice small but steady, asking the price",
+     "place": {
+      "x": 0.03,
+      "y": 0.2,
+      "w": 0.38,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "keeper",
      "en": "You have one word. OPEN. I want it.",
      "ru": "У тебя одно слово. OPEN. Оно мне нужно.",
-     "delivery": "soft hungry politeness, a smile in the voice, relishing his only word"
+     "delivery": "soft hungry politeness, a smile in the voice, relishing his only word",
+     "place": {
+      "x": 0.5,
+      "y": 0.2,
+      "w": 0.46,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -231,21 +303,39 @@
      "who": "system",
      "en": "Warning. OPEN is your only word.",
      "ru": "Предупреждение. OPEN — твоё единственное слово.",
-     "delivery": "grave cold system warning, slow and heavy, a stern alarm"
+     "delivery": "grave cold system warning, slow and heavy, a stern alarm",
+     "place": {
+      "x": 0.31,
+      "y": 0.5,
+      "w": 0.4,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "I need it. I need my name too.",
      "ru": "Оно мне нужно. Имя мне тоже нужно.",
-     "delivery": "torn and strained, a trapped man arguing with himself aloud"
+     "delivery": "torn and strained, a trapped man arguing with himself aloud",
+     "place": {
+      "x": 0.03,
+      "y": 0.03,
+      "w": 0.45,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Think, Zero! A name is just a word.",
      "ru": "Думай, Зеро! Имя — всего лишь слово.",
-     "delivery": "sharp urgent whisper, pushing him to think under pressure"
+     "delivery": "sharp urgent whisper, pushing him to think under pressure",
+     "place": {
+      "x": 0.5,
+      "y": 0.03,
+      "w": 0.47,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -270,14 +360,26 @@
      "who": "dan",
      "en": "SISTER? What is SISTER?",
      "ru": "SISTER? Что такое SISTER?",
-     "delivery": "puzzled wonder, reading a strange glowing jar, curious and slightly lost"
+     "delivery": "puzzled wonder, reading a strange glowing jar, curious and slightly lost",
+     "place": {
+      "x": 0.45,
+      "y": 0.03,
+      "w": 0.5,
+      "tail": "down-left"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "I hear nothing. Put it down.",
      "ru": "Я ничего не слышу. Поставь на место.",
-     "delivery": "confused and tense, flat low voice, telling him to stop, unaware"
+     "delivery": "confused and tense, flat low voice, telling him to stop, unaware",
+     "place": {
+      "x": 0.45,
+      "y": 0.15,
+      "w": 0.5,
+      "tail": "down-right"
+     }
     },
     {
      "type": "narration-ru",
@@ -288,7 +390,13 @@
      "who": "system",
      "en": "She does not hear that word.",
      "ru": "Она не слышит это слово.",
-     "delivery": "soft flat notice, quiet and slightly sad, a cold fact"
+     "delivery": "soft flat notice, quiet and slightly sad, a cold fact",
+     "place": {
+      "x": 0.03,
+      "y": 0.8,
+      "w": 0.42,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -317,28 +425,52 @@
      "who": "keeper",
      "en": "Mira knows the price. Ask her.",
      "ru": "Мира знает цену. Спроси её.",
-     "delivery": "sly smooth tease, courteous with a barbed smile, dangling a secret"
+     "delivery": "sly smooth tease, courteous with a barbed smile, dangling a secret",
+     "place": {
+      "x": 0.04,
+      "y": 0.04,
+      "w": 0.46,
+      "tail": "right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Don't say a word, Keeper!",
      "ru": "Ни слова, Хранитель!",
-     "delivery": "angry strained warning, low fury aimed at the Keeper"
+     "delivery": "angry strained warning, low fury aimed at the Keeper",
+     "place": {
+      "x": 0.28,
+      "y": 0.19,
+      "w": 0.34,
+      "tail": "right"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "What price?",
      "ru": "Какую цену?",
-     "delivery": "confused, suspicious and quiet, looking from one to the other"
+     "delivery": "confused, suspicious and quiet, looking from one to the other",
+     "place": {
+      "x": 0.04,
+      "y": 0.55,
+      "w": 0.3,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Nothing. I don't want to talk.",
      "ru": "Ничего. Я не хочу говорить.",
-     "delivery": "stiff and evasive, a flat lie told through clenched teeth"
+     "delivery": "stiff and evasive, a flat lie told through clenched teeth",
+     "place": {
+      "x": 0.5,
+      "y": 0.8,
+      "w": 0.46,
+      "tail": "up-left"
+     }
     }
    ]
   },
@@ -363,7 +495,13 @@
      "who": "dan",
      "en": "I don't think so. A name is me.",
      "ru": "Не думаю. Имя — это я.",
-     "delivery": "quiet thoughtful inner voice, gentle certainty after a memory of his mother"
+     "delivery": "quiet thoughtful inner voice, gentle certainty after a memory of his mother",
+     "place": {
+      "x": 0.5,
+      "y": 0.22,
+      "w": 0.46,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -392,14 +530,26 @@
      "who": "dan",
      "en": "OK. Take OPEN. Give me my name.",
      "ru": "Ладно. Забирай OPEN. Верни моё имя.",
-     "delivery": "resolved and trembling, swallowing fear, deciding to pay the price"
+     "delivery": "resolved and trembling, swallowing fear, deciding to pay the price",
+     "place": {
+      "x": 0.03,
+      "y": 0.04,
+      "w": 0.46,
+      "tail": "down-right"
+     }
     },
     {
      "type": "shout",
      "who": "mira",
      "en": "Zero, no!",
      "ru": "Зеро, нет!",
-     "delivery": "desperate sharp shout, horrified, lunging to stop him"
+     "delivery": "desperate sharp shout, horrified, lunging to stop him",
+     "place": {
+      "x": 0.52,
+      "y": 0.05,
+      "w": 0.42,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -424,7 +574,13 @@
      "who": "system",
      "en": "Word lost: OPEN.",
      "ru": "Слово потеряно: OPEN.",
-     "delivery": "cold flat system notice, brief and brutal, a tiny pause before the word"
+     "delivery": "cold flat system notice, brief and brutal, a tiny pause before the word",
+     "place": {
+      "x": 0.52,
+      "y": 0.62,
+      "w": 0.44,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -453,14 +609,26 @@
      "who": "keeper",
      "en": "Now say it. Say your name.",
      "ru": "Теперь скажи. Назови своё имя.",
-     "delivery": "soft smooth invitation, gentle and ceremonial, almost kind"
+     "delivery": "soft smooth invitation, gentle and ceremonial, almost kind",
+     "place": {
+      "x": 0.55,
+      "y": 0.03,
+      "w": 0.44,
+      "tail": "down-right"
+     }
     },
     {
      "type": "shout",
      "who": "dan",
      "en": "I am Dan! I have my name!",
      "ru": "Я Дэн! У меня есть имя!",
-     "delivery": "overjoyed, breathless, shouting his name with pure relief and laughter"
+     "delivery": "overjoyed, breathless, shouting his name with pure relief and laughter",
+     "place": {
+      "x": 0.05,
+      "y": 0.82,
+      "w": 0.5,
+      "tail": "up-right"
+     }
     },
     {
      "type": "narration-ru",
@@ -489,21 +657,39 @@
      "who": "mira",
      "en": "You have your name. You have no OPEN.",
      "ru": "У тебя есть имя. У тебя нет OPEN.",
-     "delivery": "dry and deadpan, tired sarcasm with a hidden softness"
+     "delivery": "dry and deadpan, tired sarcasm with a hidden softness",
+     "place": {
+      "x": 0.5,
+      "y": 0.02,
+      "w": 0.46,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "I know. I am a happy fool.",
      "ru": "Знаю. Я счастливый дурак.",
-     "delivery": "goofy cheerful self-mockery, happy and slightly dazed"
+     "delivery": "goofy cheerful self-mockery, happy and slightly dazed",
+     "place": {
+      "x": 0.03,
+      "y": 0.03,
+      "w": 0.4,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "You are a fool, Zero.",
      "ru": "Ты дурак, Зеро.",
-     "delivery": "flat and dry, affectionate exasperation barely hidden"
+     "delivery": "flat and dry, affectionate exasperation barely hidden",
+     "place": {
+      "x": 0.4,
+      "y": 0.14,
+      "w": 0.4,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -532,7 +718,13 @@
      "who": "dan",
      "en": "That is my office! That is my phone!",
      "ru": "Это мой офис! Это мой телефон!",
-     "delivery": "stunned furious shout, voice cracking, seeing his world through a sealed door"
+     "delivery": "stunned furious shout, voice cracking, seeing his world through a sealed door",
+     "place": {
+      "x": 0.03,
+      "y": 0.04,
+      "w": 0.5,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -561,21 +753,39 @@
      "who": "dan",
      "en": "Open it! Open the door!",
      "ru": "Открой! Открой дверь!",
-     "delivery": "frantic desperate shout, slamming at the closing door"
+     "delivery": "frantic desperate shout, slamming at the closing door",
+     "place": {
+      "x": 0.03,
+      "y": 0.03,
+      "w": 0.46,
+      "tail": "down-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "You don't have that word.",
      "ru": "У тебя нет этого слова.",
-     "delivery": "cold flat system voice, dry and slightly mocking"
+     "delivery": "cold flat system voice, dry and slightly mocking",
+     "place": {
+      "x": 0.52,
+      "y": 0.03,
+      "w": 0.44,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "keeper",
      "en": "Not yet. I need one more word.",
      "ru": "Пока нет. Мне нужно ещё одно слово.",
-     "delivery": "calm and silky, polite finality, a smile in the voice, unhurried"
+     "delivery": "calm and silky, polite finality, a smile in the voice, unhurried",
+     "place": {
+      "x": 0.55,
+      "y": 0.2,
+      "w": 0.4,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -608,7 +818,13 @@
      "who": "keeper",
      "en": "Run, Dan. They hear your name.",
      "ru": "Беги, Дэн. Они слышат твоё имя.",
-     "delivery": "soft silky warning, strangely gentle, a polite push into danger"
+     "delivery": "soft silky warning, strangely gentle, a polite push into danger",
+     "place": {
+      "x": 0.05,
+      "y": 0.06,
+      "w": 0.46,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -637,21 +853,39 @@
      "who": "dan",
      "en": "I have a name. I have legs!",
      "ru": "У меня есть имя. И есть ноги!",
-     "delivery": "panicked, breathless humor, running for his life, half laughing in fear"
+     "delivery": "panicked, breathless humor, running for his life, half laughing in fear",
+     "place": {
+      "x": 0.02,
+      "y": 0.27,
+      "w": 0.28,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "You have no OPEN! Think!",
      "ru": "У тебя нет OPEN! Думай!",
-     "delivery": "sharp urgent bark, panicked and fierce, running at full speed"
+     "delivery": "sharp urgent bark, panicked and fierce, running at full speed",
+     "place": {
+      "x": 0.72,
+      "y": 0.08,
+      "w": 0.26,
+      "tail": "down-left"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Count: zero. Again.",
      "ru": "Счёт: ноль. Снова.",
-     "delivery": "flat cold counter readout, bored precision with a hint of sarcasm"
+     "delivery": "flat cold counter readout, bored precision with a hint of sarcasm",
+     "place": {
+      "x": 0.34,
+      "y": 0.14,
+      "w": 0.3,
+      "tail": "none"
+     }
     }
    ]
   }

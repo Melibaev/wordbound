@@ -40,14 +40,26 @@
      "who": "dan",
      "en": "Lina is your sister, Mira.",
      "ru": "Лина — твоя сестра, Мира.",
-     "delivery": "quiet certainty, gently confronting her, the dawn of understanding in his voice"
+     "delivery": "quiet certainty, gently confronting her, the dawn of understanding in his voice",
+     "place": {
+      "x": 0.02,
+      "y": 0.05,
+      "w": 0.42,
+      "tail": "down-left"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "I hear nothing. But yes.",
      "ru": "Я ничего не слышу. Но да.",
-     "delivery": "low flat voice, wary admission, hiding pain"
+     "delivery": "low flat voice, wary admission, hiding pain",
+     "place": {
+      "x": 0.5,
+      "y": 0.08,
+      "w": 0.46,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -76,7 +88,13 @@
      "who": "mira",
      "en": "I tell you the true story. It is not good.",
      "ru": "Я расскажу тебе правдивую историю. Она нехорошая.",
-     "delivery": "low steady voice, heavy and honest, preparing to tell a painful story"
+     "delivery": "low steady voice, heavy and honest, preparing to tell a painful story",
+     "place": {
+      "x": 0.6,
+      "y": 0.08,
+      "w": 0.36,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -101,14 +119,26 @@
      "who": "mira",
      "en": "Lina and me. Our mother is gone. Our father is gone.",
      "ru": "Мы с Линой. Нашей мамы нет. Нашего папы нет.",
-     "delivery": "soft low memory voice, tired and wistful, a sad story told in a warm kitchen"
+     "delivery": "soft low memory voice, tired and wistful, a sad story told in a warm kitchen",
+     "place": {
+      "x": 0.06,
+      "y": 0.03,
+      "w": 0.46,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "She is my family. I am her family.",
      "ru": "Она моя семья. Я её семья.",
-     "delivery": "gentle quiet fierce love, a small proud whisper, her voice softer than ever"
+     "delivery": "gentle quiet fierce love, a small proud whisper, her voice softer than ever",
+     "place": {
+      "x": 0.52,
+      "y": 0.03,
+      "w": 0.43,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -133,7 +163,13 @@
      "who": "mira",
      "en": "A door comes. Lina opens it. She is a child. She loves doors.",
      "ru": "Приходит дверь. Лина открывает её. Она ребёнок. Она любит двери.",
-     "delivery": "quiet warm sad voice, fond memory fading into dread, almost smiling"
+     "delivery": "quiet warm sad voice, fond memory fading into dread, almost smiling",
+     "place": {
+      "x": 0.06,
+      "y": 0.08,
+      "w": 0.38,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -158,7 +194,13 @@
      "who": "mira",
      "en": "A child sings. She loves songs. She is loud. I say: be quiet.",
      "ru": "Ребёнок поёт. Она любит песни. Она громкая. Я говорю: тише.",
-     "delivery": "low regretful voice, smiling faintly then grim, remembering a hard sentence"
+     "delivery": "low regretful voice, smiling faintly then grim, remembering a hard sentence",
+     "place": {
+      "x": 0.06,
+      "y": 0.04,
+      "w": 0.5,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -187,7 +229,13 @@
      "who": "mira",
      "en": "They come. I have no breath. They take the child. They take all her words.",
      "ru": "Они идут. У меня нет дыхания. Они забирают ребёнка. Они забирают все её слова.",
-     "delivery": "sharp trembling voice, quick and horrified, memory of loss, controlled grief"
+     "delivery": "sharp trembling voice, quick and horrified, memory of loss, controlled grief",
+     "place": {
+      "x": 0.03,
+      "y": 0.03,
+      "w": 0.5,
+      "tail": "down-right"
+     }
     },
     {
      "type": "narration-ru",
@@ -198,7 +246,13 @@
      "who": "mira",
      "en": "Then I am alone.",
      "ru": "И я остаюсь одна.",
-     "delivery": "small hollow voice, flat and numb, the loneliness of the story's end"
+     "delivery": "small hollow voice, flat and numb, the loneliness of the story's end",
+     "place": {
+      "x": 0.03,
+      "y": 0.8,
+      "w": 0.3,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -223,14 +277,26 @@
      "who": "dan",
      "en": "And the Keeper?",
      "ru": "А Хранитель?",
-     "delivery": "quiet careful question, soft and sympathetic"
+     "delivery": "quiet careful question, soft and sympathetic",
+     "place": {
+      "x": 0.06,
+      "y": 0.05,
+      "w": 0.36,
+      "tail": "down-left"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "I go to him. He has a map to the last door. It is not free.",
      "ru": "Я иду к нему. У него есть карта к последней двери. Она не бесплатная.",
-     "delivery": "low bitter, controlled voice, a hard trade remembered"
+     "delivery": "low bitter, controlled voice, a hard trade remembered",
+     "place": {
+      "x": 0.52,
+      "y": 0.06,
+      "w": 0.45,
+      "tail": "down-right"
+     }
     }
    ]
   },
@@ -259,14 +325,26 @@
      "who": "keeper",
      "en": "One word, whole. I give you the map.",
      "ru": "Одно слово, целиком. Я даю тебе карту.",
-     "delivery": "calm velvety unsettling voice, silky and slow, a generous smile hiding a trap"
+     "delivery": "calm velvety unsettling voice, silky and slow, a generous smile hiding a trap",
+     "place": {
+      "x": 0.06,
+      "y": 0.05,
+      "w": 0.5,
+      "tail": "down-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Word lost: ...",
      "ru": "Слово потеряно: ...",
-     "delivery": "cold flat system notice, whispered, ominous trailing off"
+     "delivery": "cold flat system notice, whispered, ominous trailing off",
+     "place": {
+      "x": 0.68,
+      "y": 0.4,
+      "w": 0.3,
+      "tail": "none"
+     }
     },
     {
      "type": "narration-ru",
@@ -299,21 +377,39 @@
      "who": "mira",
      "en": "Lina waits at the last door. It needs a sentence.",
      "ru": "Лина ждёт у последней двери. Ей нужно предложение.",
-     "delivery": "quiet honest voice, serious and steady, no longer hiding"
+     "delivery": "quiet honest voice, serious and steady, no longer hiding",
+     "place": {
+      "x": 0.02,
+      "y": 0.64,
+      "w": 0.42,
+      "tail": "up-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Nobody here can make one. We buy words and use them one by one.",
      "ru": "Здесь никто не может его составить. Мы покупаем слова и используем их по одному.",
-     "delivery": "low tired explanation, dry and bleak, a little bitter"
+     "delivery": "low tired explanation, dry and bleak, a little bitter",
+     "place": {
+      "x": 0.5,
+      "y": 0.64,
+      "w": 0.46,
+      "tail": "up-left"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "True.",
      "ru": "Правда.",
-     "delivery": "short dry system confirmation, flat and cool"
+     "delivery": "short dry system confirmation, flat and cool",
+     "place": {
+      "x": 0.3,
+      "y": 0.06,
+      "w": 0.4,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -338,21 +434,39 @@
      "who": "mira",
      "en": "The Keeper tells me: wait for a Zero. A Zero learns his words. He can open that door.",
      "ru": "Хранитель говорит мне: жди Зеро. Зеро учит свои слова. Он может открыть ту дверь.",
-     "delivery": "low flat voice, quoting the Keeper's words slowly, with a bitter edge"
+     "delivery": "low flat voice, quoting the Keeper's words slowly, with a bitter edge",
+     "place": {
+      "x": 0.5,
+      "y": 0.02,
+      "w": 0.47,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "So you wait for me.",
      "ru": "Значит, ты ждала меня.",
-     "delivery": "stunned quiet voice, hurt rising under calm, a slow sad realization"
+     "delivery": "stunned quiet voice, hurt rising under calm, a slow sad realization",
+     "place": {
+      "x": 0.02,
+      "y": 0.74,
+      "w": 0.38,
+      "tail": "up-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "I wait three years. I don't tell you. That is a lie too.",
      "ru": "Я жду три года. Я не говорю тебе. Это тоже ложь.",
-     "delivery": "honest low voice, ashamed but steady, voice heavy with guilt"
+     "delivery": "honest low voice, ashamed but steady, voice heavy with guilt",
+     "place": {
+      "x": 0.5,
+      "y": 0.72,
+      "w": 0.47,
+      "tail": "up-left"
+     }
     }
    ]
   },
@@ -377,28 +491,52 @@
      "who": "dan",
      "en": "You don't help me. You use me.",
      "ru": "Ты мне не помогаешь. Ты меня используешь.",
-     "delivery": "hurt and angry, rising voice, shaking with betrayal"
+     "delivery": "hurt and angry, rising voice, shaking with betrayal",
+     "place": {
+      "x": 0.02,
+      "y": 0.4,
+      "w": 0.4,
+      "tail": "up-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Yes. I use you. Lina is my family.",
      "ru": "Да. Я использую тебя. Лина — моя семья.",
-     "delivery": "hard honest voice, steady, refusing to look away, pain in each word"
+     "delivery": "hard honest voice, steady, refusing to look away, pain in each word",
+     "place": {
+      "x": 0.5,
+      "y": 0.03,
+      "w": 0.46,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "One day. Then I am gone. Zero is useful.",
      "ru": "Один день. Потом я уйду. Зеро полезен.",
-     "delivery": "bitter echo, quoting her old words back at her, voice breaking"
+     "delivery": "bitter echo, quoting her old words back at her, voice breaking",
+     "place": {
+      "x": 0.5,
+      "y": 0.17,
+      "w": 0.46,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "It is true. I don't lie to you now.",
      "ru": "Это правда. Сейчас я тебе не вру.",
-     "delivery": "quiet raw honesty, tired and sorry, softer than ever"
+     "delivery": "quiet raw honesty, tired and sorry, softer than ever",
+     "place": {
+      "x": 0.02,
+      "y": 0.78,
+      "w": 0.42,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -427,28 +565,52 @@
      "who": "dan",
      "en": "My name! My OPEN! You know his price!",
      "ru": "Моё имя! Моё OPEN! Ты знала его цену!",
-     "delivery": "furious ragged shout, anguished, pouring out everything he has bottled up"
+     "delivery": "furious ragged shout, anguished, pouring out everything he has bottled up",
+     "place": {
+      "x": 0.02,
+      "y": 0.53,
+      "w": 0.46,
+      "tail": "none"
+     }
     },
     {
      "type": "shout",
      "who": "mira",
      "en": "I tell you: don't talk to him! He is bad for us!",
      "ru": "Я говорила: не говори с ним! Он плох для нас!",
-     "delivery": "sharp frightened shout, fierce and cracking, trying to hold on"
+     "delivery": "sharp frightened shout, fierce and cracking, trying to hold on",
+     "place": {
+      "x": 0.5,
+      "y": 0.53,
+      "w": 0.47,
+      "tail": "none"
+     }
     },
     {
      "type": "shout",
      "who": "dan",
      "en": "My mom calls me! You lie! I am not your key!",
      "ru": "Мне звонит мама! Ты лжёшь! Я не твой ключ!",
-     "delivery": "broken furious shout, tears in his voice, angry and heartsick"
+     "delivery": "broken furious shout, tears in his voice, angry and heartsick",
+     "place": {
+      "x": 0.02,
+      "y": 0.75,
+      "w": 0.95,
+      "tail": "none"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Quiet. They hear you.",
      "ru": "Тише. Они слышат вас.",
-     "delivery": "cold flat system warning, low and urgent"
+     "delivery": "cold flat system warning, low and urgent",
+     "place": {
+      "x": 0.37,
+      "y": 0.1,
+      "w": 0.36,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -473,21 +635,39 @@
      "who": "dan",
      "en": "I am not your friend. Find your door alone.",
      "ru": "Я тебе не друг. Ищи свою дверь одна.",
-     "delivery": "cold tight voice, flat anger masking hurt, walking away"
+     "delivery": "cold tight voice, flat anger masking hurt, walking away",
+     "place": {
+      "x": 0.05,
+      "y": 0.03,
+      "w": 0.45,
+      "tail": "down-right"
+     }
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "Zero. Wait.",
      "ru": "Зеро. Подожди.",
-     "delivery": "faint strained plea, small and helpless, almost a whisper"
+     "delivery": "faint strained plea, small and helpless, almost a whisper",
+     "place": {
+      "x": 0.55,
+      "y": 0.03,
+      "w": 0.35,
+      "tail": "down-right"
+     }
     },
     {
      "type": "thought",
      "who": "mira",
      "en": "He is not my friend. He is my key. Then why can't I run?",
      "ru": "Он мне не друг. Он мой ключ. Тогда почему я не могу бежать?",
-     "delivery": "small shaky inner voice, confused ache, hardly believing her own feelings"
+     "delivery": "small shaky inner voice, confused ache, hardly believing her own feelings",
+     "place": {
+      "x": 0.03,
+      "y": 0.38,
+      "w": 0.4,
+      "tail": "none"
+     }
     },
     {
      "type": "narration-ru",
@@ -516,28 +696,52 @@
      "who": "system",
      "en": "You are alone. That is a bad plan.",
      "ru": "Ты один. Это плохой план.",
-     "delivery": "flat dry system observation, quiet and a touch teasing"
+     "delivery": "flat dry system observation, quiet and a touch teasing",
+     "place": {
+      "x": 0.3,
+      "y": 0.03,
+      "w": 0.46,
+      "tail": "none"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "True. Her plan is bad too. A friend does not use a friend.",
      "ru": "Верно. Её план тоже плохой. Друг не использует друга.",
-     "delivery": "tired low voice, a bitter small laugh, honest and thoughtful"
+     "delivery": "tired low voice, a bitter small laugh, honest and thoughtful",
+     "place": {
+      "x": 0.3,
+      "y": 0.17,
+      "w": 0.46,
+      "tail": "down-left"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Missed calls: 11.",
      "ru": "Пропущенные звонки: 11.",
-     "delivery": "flat quiet system count, sad and soft"
+     "delivery": "flat quiet system count, sad and soft",
+     "place": {
+      "x": 0.6,
+      "y": 0.36,
+      "w": 0.33,
+      "tail": "none"
+     }
     },
     {
      "type": "thought",
      "who": "dan",
      "en": "Mom. I love you. I never say it to you.",
      "ru": "Мама. Я люблю тебя. Я никогда тебе этого не говорю.",
-     "delivery": "tender broken inner whisper, a quiet confession, voice shaking with love"
+     "delivery": "tender broken inner whisper, a quiet confession, voice shaking with love",
+     "place": {
+      "x": 0.5,
+      "y": 0.66,
+      "w": 0.45,
+      "tail": "none"
+     }
     }
    ]
   },
@@ -562,21 +766,39 @@
      "who": "silent",
      "en": "Come.",
      "ru": "Иди.",
-     "delivery": "thin hollow child-like voice, soft and small, a single gentle word"
+     "delivery": "thin hollow child-like voice, soft and small, a single gentle word",
+     "place": {
+      "x": 0.5,
+      "y": 0.03,
+      "w": 0.3,
+      "tail": "down-left"
+     }
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "Lina? I am not Mira. Mira is there.",
      "ru": "Лина? Я не Мира. Мира там.",
-     "delivery": "gentle surprised whisper, cautious and kind, speaking to a child"
+     "delivery": "gentle surprised whisper, cautious and kind, speaking to a child",
+     "place": {
+      "x": 0.5,
+      "y": 0.17,
+      "w": 0.45,
+      "tail": "left"
+     }
     },
     {
      "type": "speech",
      "who": "silent",
      "en": "Come. You.",
      "ru": "Иди. Ты.",
-     "delivery": "thin hollow child-like voice, soft and insistent, small hand reaching out"
+     "delivery": "thin hollow child-like voice, soft and insistent, small hand reaching out",
+     "place": {
+      "x": 0.55,
+      "y": 0.31,
+      "w": 0.35,
+      "tail": "down-left"
+     }
     }
    ]
   },
@@ -605,14 +827,26 @@
      "who": "silent",
      "en": "Look.",
      "ru": "Смотри.",
-     "delivery": "hushed hollow whisper, eerie and quiet, drawing him into the dark"
+     "delivery": "hushed hollow whisper, eerie and quiet, drawing him into the dark",
+     "place": {
+      "x": 0.1,
+      "y": 0.08,
+      "w": 0.3,
+      "tail": "down-right"
+     }
     },
     {
      "type": "system",
      "who": "system",
      "en": "Warning. This place is not on her map.",
      "ru": "Предупреждение. Этого места нет на её карте.",
-     "delivery": "grave cold system alarm, hushed and ominous"
+     "delivery": "grave cold system alarm, hushed and ominous",
+     "place": {
+      "x": 0.7,
+      "y": 0.4,
+      "w": 0.28,
+      "tail": "none"
+     }
     },
     {
      "type": "narration-ru",
