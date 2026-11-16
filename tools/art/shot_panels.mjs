@@ -1,5 +1,5 @@
 // Screenshots real reader panels as on iPhone. See tools/art/README.md.
-// Usage: node tools/art/shot_panels.mjs <episodeId> [--panels 3,5] [--ru] [--out dir]
+// Usage: node tools/art/shot_panels.mjs <episodeId> [--panels 3,5] [--ru] [--ru-index N] [--out dir]
 import { createRequire } from 'node:module';
 import http from 'node:http';
 import fs from 'node:fs';
@@ -11,11 +11,12 @@ const { chromium } = require('C:/Users/Laptop/flow-mcp/node_modules/playwright-c
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 
 const argv = process.argv.slice(2);
-const ep = argv.find((a) => !a.startsWith('--') && argv[argv.indexOf(a) - 1] !== '--panels' && argv[argv.indexOf(a) - 1] !== '--out');
+const ep = argv.find((a) => !a.startsWith('--') && argv[argv.indexOf(a) - 1] !== '--panels' && argv[argv.indexOf(a) - 1] !== '--out' && argv[argv.indexOf(a) - 1] !== '--ru-index');
 const opt = (n) => { const i = argv.indexOf(n); return i >= 0 ? argv[i + 1] : null; };
-if (!ep) { console.error('usage: node tools/art/shot_panels.mjs <episodeId> [--panels 3,5] [--ru] [--out dir]'); process.exit(2); }
+if (!ep) { console.error('usage: node tools/art/shot_panels.mjs <episodeId> [--panels 3,5] [--ru] [--ru-index N] [--out dir]'); process.exit(2); }
 const only = opt('--panels') ? new Set(opt('--panels').split(',').map(Number)) : null;
 const ru = argv.includes('--ru');
+const ruIndex = Number(opt('--ru-index') || 0);
 const outDir = path.resolve(opt('--out') || path.join(ROOT, '.models', 'shots', ep));
 fs.mkdirSync(outDir, { recursive: true });
 
@@ -52,7 +53,7 @@ try {
   const n = await panels.count();
   await page.addStyleTag({ content: 'video{display:none !important}' });
   // --ru: per panel, open the translation of the first bubble (placed panels show a popover; others expand inline)
-  if (ru) await page.evaluate(() => document.querySelectorAll('section.panel').forEach((s) => { const b = s.querySelector('[data-ru]'); if (b) b.click(); }));
+  if (ru) await page.evaluate((idx) => document.querySelectorAll('section.panel').forEach((s) => { const b = s.querySelectorAll('[data-ru]')[idx]; if (b) b.click(); }), ruIndex);
   // scroll through to trigger lazy images
   for (let i = 0; i < n; i++) { await panels.nth(i).scrollIntoViewIfNeeded(); await page.waitForTimeout(150); }
   await page.waitForLoadState('networkidle').catch(() => {});

@@ -435,10 +435,10 @@
      "ru": "Где моя дверь?",
      "delivery": "worried, searching, voice rising as he looks around the empty wall",
      "place": {
-      "x": 0.24,
-      "y": 0.2,
+      "x": 0.2,
+      "y": 0.17,
       "w": 0.36,
-      "tail": "down-left"
+      "tail": "down-right"
      }
     },
     {
@@ -461,10 +461,10 @@
      "ru": "Есть путь домой?",
      "delivery": "hopeful and fragile, asking quietly, afraid of the answer",
      "place": {
-      "x": 0.24,
-      "y": 0.31,
+      "x": 0.2,
+      "y": 0.29,
       "w": 0.34,
-      "tail": "down-left"
+      "tail": "down-right"
      }
     },
     {
@@ -493,7 +493,7 @@
      "pos": "left"
     }
    ],
-   "art": "Wide shot of a narrow soot-brown stone corridor lined with torn paper pages bearing only faint abstract marks, cold teal darkness at its far end. Dan stands in the foreground on the LEFT clutching his mustard lanyard with both hands. On the RIGHT, low in the stone wall at knee-to-hip height, a small square rusted iron hatch about one metre wide, with rivets around its frame and a round iron ring handle; clearly a small hatch, not a door; its iron surface is plain rust with no shadows of people. Tiny dust shaking from the ceiling. The picture fills the whole frame edge to edge with stone wall and floor.",
+   "art": "Wide shot of a narrow soot-brown stone corridor lined with torn paper pages bearing only faint abstract marks, cold teal darkness at its far end. Dan crouches on the RIGHT beside a small square rusted iron hatch set low in the stone wall at knee-to-hip height (about one metre wide, rivets around its frame, heavy hinges, a round iron ring handle; clearly a small hatch, not a door); like an engineer he runs two fingers along the hinge and rivets, studying them closely, his mustard lanyard hanging from his neck, a yellow pencil behind his right ear. The left half of the frame is the empty corridor receding into teal darkness. Tiny dust shaking from the ceiling. The picture fills the whole frame edge to edge with stone wall and floor; the glowing marks on the walls are abstract swirls of vermilion light, not any real writing.",
    "lines": [
     {
      "type": "narration-ru",
@@ -506,10 +506,10 @@
      "ru": "Откройся, люк!",
      "delivery": "loud, hoarse and awkward, shouting an order at a stuck hatch, half hoping it works",
      "place": {
-      "x": 0.38,
-      "y": 0.04,
-      "w": 0.55,
-      "tail": "down-left"
+      "x": 0.03,
+      "y": 0.3,
+      "w": 0.52,
+      "tail": "down-right"
      }
     }
    ]
@@ -875,7 +875,7 @@
  ],
  "grammarNote": {
   "title": "Глагол to be: am / is / are",
-  "body": "В английском нельзя пропустить глагол: «Я Дэн» — это «I am Dan». Для «я» ставим am, для «ты» (а ещё «мы», «они») — are, а для «он / она / оно / это» — is. Вопрос получается перестановкой: «Who are you?». Отрицание — просто not после глагола: «I am not weak». Слово, которое нужно назвать как слово, пишем ЗАГЛАВНЫМИ: OPEN.",
+  "body": "В английском нельзя пропустить глагол: «Я Дэн» — это «I am Dan». Для «я» ставим am, для «ты» (а ещё «мы», «они») — are, а для «он / она / оно / это» — is. Вопрос получается перестановкой: «Who are you?». Отрицание — просто not после глагола: «I am not weak». Слово, которое нужно назвать как слово, пишем ЗАГЛАВНЫМИ: OPEN. После he / she / it глагол получает -s: «It goes home» (оно идёт домой), а с I / you / we / they — без -s: «We go», «I go». We — «мы».",
   "examples": [
    {
     "en": "I am Dan.",
@@ -886,8 +886,8 @@
     "ru": "Ты слабый."
    },
    {
-    "en": "This is a door.",
-    "ru": "Это дверь."
+    "en": "It goes home.",
+    "ru": "Она ведёт домой."
    }
   ]
  },

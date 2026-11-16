@@ -151,15 +151,42 @@ function toggleRuPop(pl, btn) {
   const pop = document.createElement('div');
   pop.className = 'pl-ru';
   pop.setAttribute('role', 'note');
-  const wd = Math.min(W - 8, Math.max(pl.offsetWidth, W * 0.55));
-  pop.style.width = wd + 'px';
-  pop.style.left = Math.max(4, Math.min(pl.offsetLeft, W - wd - 4)) + 'px';
   pop.textContent = src.textContent;
   layer.appendChild(pop);
-  const h = pop.offsetHeight;
-  let top = pl.offsetTop + pl.offsetHeight + 8;
-  if (top + h > H - 4) top = pl.offsetTop - h - 8;
-  pop.style.top = Math.max(4, top) + 'px';
+  const G = 8;
+  const bx = pl.offsetLeft, by = pl.offsetTop, bw = pl.offsetWidth, bh = pl.offsetHeight;
+  const others = [...layer.querySelectorAll('.pl')].filter((n) => n !== pl).map((n) => ({ l: n.offsetLeft, t: n.offsetTop, r: n.offsetLeft + n.offsetWidth, b: n.offsetTop + n.offsetHeight }));
+  const clamp = (v, lo, hi) => Math.max(lo, Math.min(v, hi));
+  const widths = [Math.min(W - 8, Math.max(bw, W * 0.55))];
+  if (bw < widths[0] - 2) widths.push(Math.max(bw, 90));
+  const side = Math.max(90, Math.min(bw, W * 0.4));
+  let best = null;
+  const tryAt = (wd, kind) => {
+    pop.style.width = wd + 'px';
+    const h = pop.offsetHeight;
+    let l, t;
+    if (kind === 'below' || kind === 'above') {
+      l = clamp(bx, 4, W - wd - 4);
+      t = kind === 'below' ? by + bh + G : by - h - G;
+    } else {
+      l = kind === 'right' ? bx + bw + G : bx - wd - G;
+      t = by;
+    }
+    if (l < 4 || l + wd > W - 4) return;
+    t = clamp(t, 4, Math.max(4, H - h - 4));
+    let ov = 0;
+    for (const o of others) ov += Math.max(0, Math.min(l + wd, o.r) - Math.max(l, o.l)) * Math.max(0, Math.min(t + h, o.b) - Math.max(t, o.t));
+    ov += 0.6 * Math.max(0, Math.min(l + wd, bx + bw) - Math.max(l, bx)) * Math.max(0, Math.min(t + h, by + bh) - Math.max(t, by));
+    const dist = Math.abs(t + h / 2 - (by + bh / 2)) + Math.abs(l + wd / 2 - (bx + bw / 2));
+    const score = ov * 1000 + dist + (wd < widths[0] ? 20 : 0);
+    if (!best || score < best.score) best = { score, l, t, wd };
+  };
+  widths.forEach((wd) => { tryAt(wd, 'below'); tryAt(wd, 'above'); });
+  if (bw < W * 0.55) { tryAt(side, 'right'); tryAt(side, 'left'); }
+  if (!best) { const wd = widths[0]; pop.style.width = wd + 'px'; best = { l: clamp(bx, 4, W - wd - 4), t: clamp(by + bh + G, 4, Math.max(4, H - pop.offsetHeight - 4)), wd }; }
+  pop.style.width = best.wd + 'px';
+  pop.style.left = best.l + 'px';
+  pop.style.top = best.t + 'px';
   btn.classList.add('on');
   btn.setAttribute('aria-expanded', 'true');
 }
