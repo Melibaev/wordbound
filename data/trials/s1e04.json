@@ -171,7 +171,7 @@
       "ru": "Имя: DAN. Оно твоё."
      },
      "prompt": {
-      "en": "Say it in English.",
+      "en": "In English.",
       "ru": "Дэн говорит, и голос — его собственный: «Я Дэн»."
      },
      "answer": "I am Dan",
@@ -400,7 +400,7 @@
       "ru": "У слова здесь есть…"
      },
      "prompt": {
-      "en": "Say it in English.",
+      "en": "In English.",
       "ru": "Напиши одно слово: «цена»."
      },
      "answer": "price",
@@ -626,7 +626,7 @@
       "ru": "Ты это знаешь. Скажи. Только не имя."
      },
      "prompt": {
-      "en": "Say it in English.",
+      "en": "In English.",
       "ru": "Дэн шепчет: «Я не знаю»."
      },
      "answer": "I don't know",

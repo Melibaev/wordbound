@@ -158,7 +158,7 @@
       "ru": "Мира отошла. Темно."
      },
      "prompt": {
-      "en": "Say it in English.",
+      "en": "In English.",
       "ru": "Дэн зовёт Миру: «Иди сюда!»"
      },
      "answer": "Come here",
@@ -568,7 +568,7 @@
       "ru": "Со мной можно говорить, Зеро."
      },
      "prompt": {
-      "en": "Say it in English.",
+      "en": "In English.",
       "ru": "Дэн спрашивает голос: «Кто вы?»"
      },
      "answer": "Who are you",

@@ -61,7 +61,7 @@
 
 | С серии | `prompt.en` | `prompt.ru` (пример) |
 |---|---|---|
-| s1e01 | `What is it?` · `Who is it?` · `Find the right word.` · `Find the words.` · `Put the words in place.` · `Say it in English.` · `What is it in English?` · `Mira says...` | «Что шепчет Мира?» · «Собери ответ Дэна…» · «Напиши, что крикнет Дэн…» |
+| s1e01 | `What is it?` · `Who is it?` · `Find the right word.` · `Find the words.` · `Put the words in place.` · `In English.` · `What is it in English?` · `Mira says...` | «Что шепчет Мира?» · «Собери ответ Дэна…» · «Напиши, что крикнет Дэн…» |
 | s1e02 | `Which voice is Dan?` | «Какой голос — настоящий Дэн?» |
 | s1e03 | `Listen.` | «Послушай и выбери.» |
 | s1e10 | `Make the sentence.` · `What is the right sentence?` | «Собери предложение-силу…» |
@@ -133,7 +133,7 @@
    - шёпот «Loud is dead here.».
 2. **Doors in the Dark / Двери в темноте.**
    - `match` слов на дверях;
-   - «Some doors ___ home.»;
+   - «It ___ home.» (goes);
    - на слух last/lost;
    - `Open the hatch`;
    - вопрос «Where is my door».

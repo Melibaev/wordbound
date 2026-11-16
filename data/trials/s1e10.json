@@ -133,7 +133,7 @@
       "ru": "Я Дэн. Я Дэн."
      },
      "prompt": {
-      "en": "Say it in English.",
+      "en": "Write it in English.",
       "ru": "Напиши предложение-силу: «Я закрываю дверь»."
      },
      "answer": "I close the door",
@@ -401,7 +401,7 @@
       "ru": "Там. Маленькая комната. Лампа."
      },
      "prompt": {
-      "en": "Say it in English.",
+      "en": "Write it in English.",
       "ru": "Напиши предложение-силу: «Я нахожу лампу»."
      },
      "answer": "I find the lamp",
@@ -602,7 +602,7 @@
       "ru": "Мира сражается последним дыханием."
      },
      "prompt": {
-      "en": "Say it in English.",
+      "en": "Write it in English.",
       "ru": "Одно слово: «последний»."
      },
      "answer": "last",

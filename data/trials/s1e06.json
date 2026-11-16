@@ -406,7 +406,7 @@
       "ru": "Что я продаю? Скажи."
      },
      "prompt": {
-      "en": "Say it in English.",
+      "en": "Write it in English.",
       "ru": "Пип продаёт тишину. Напиши одно слово: «тихий, тишина»."
      },
      "answer": "quiet",
@@ -540,7 +540,7 @@
       "ru": "За тобой Безмолвный! Вот он!"
      },
      "prompt": {
-      "en": "Say it in English.",
+      "en": "Write it in English.",
       "ru": "Дэн говорит слово-силу: «Стоп!»"
      },
      "answer": "stop",

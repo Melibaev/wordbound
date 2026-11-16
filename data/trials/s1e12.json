@@ -205,7 +205,7 @@
       "ru": "Лина — это… Миры."
      },
      "prompt": {
-      "en": "Say it in English.",
+      "en": "Write it in English.",
       "ru": "Напиши слово, которое Мира наконец слышит: «сестра»."
      },
      "answer": "sister",
@@ -427,7 +427,7 @@
       "ru": "Титул: Учитель одного."
      },
      "prompt": {
-      "en": "Say it in English.",
+      "en": "Write it in English.",
       "ru": "Одно слово: «учить, обучать»."
      },
      "answer": "teach",
@@ -664,7 +664,7 @@
       "ru": "Наверх, Зеро. Медленно. У тебя это хорошо выходит."
      },
      "prompt": {
-      "en": "Say it in English.",
+      "en": "Write it in English.",
       "ru": "Напиши: «Мы идём наверх»."
      },
      "answer": "We go up",

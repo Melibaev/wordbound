@@ -1033,7 +1033,7 @@
    "camera": "Dark close-up on Dan's face, slightly low angle.",
    "action": "Dan's face fills the LEFT of the frame, eyes wide behind his round glasses, lips parted, frozen. A faint vermilion rim light touches his cheek and the edge of his glasses from the right and behind. Deep black everywhere else. A small System window with a solid vermilion frame sits at the RIGHT edge.",
    "faces": "Dan: stunned, hearing his own voice come from the dark.",
-   "props": "Round glasses with tape on the hinge; yellow pencil behind his right ear; small warning System window.",
+   "props": "Round glasses; yellow pencil behind his right ear; small warning System window.",
    "light": "Almost black frame, thin vermilion rim light only.",
    "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No teal, no other characters.",
    "check": "Тёмный кадр: лицо Дэна слева, потрясённого собственным голосом из тьмы; справа маленькое окно Системы с красной рамкой."
@@ -1098,7 +1098,7 @@
    "camera": "Straight-on medium shot, bright and clean, slightly low angle.",
    "action": "Dan at the CENTER stands calm and upright, his right hand extended toward a great black iron door on the far side of the frame. A steady straight horizontal row of four glowing vermilion abstract glyph shapes travels from his mouth to the door, evenly spaced. The door swings quietly inward, white light spilling out; the frame is overexposed white with a faint vermilion crack of light.",
    "faces": "Dan: calm, focused, a small astonished smile.",
-   "props": "Row of four vermilion abstract glyph shapes; opening iron door; round glasses with tape on the hinge.",
+   "props": "Row of four vermilion abstract glyph shapes; opening iron door; round glasses.",
    "light": "Overexposed white with a thin vermilion crack of light.",
    "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. The four shapes must not be readable letters. Dan wears only round black glasses; no bandage or tape on his face. No other characters.",
    "check": "Дэн один в центре, ровная красная строка из четырёх знаков идёт от его рта к двери, дверь тихо открывается."
@@ -1345,7 +1345,7 @@
    "camera": "Tight close-up, Dan's face and the edge of the door, shallow depth.",
    "action": "Dan at the CENTER, in profile turning away from the light: his RIGHT hand rests on the edge of an open door at the right edge of the frame, his LEFT hand hangs at his side as a closed fist. A thin slit of cold green-grey light from the door falls across his face and glasses; the background behind him is dark amber.",
    "faces": "Dan: eyes shut, brow pinched, wet cheeks, resolved.",
-   "props": "Open door edge with a slit of cold office light; round black glasses with tape on the hinge only.",
+   "props": "Open door edge with a slit of cold office light; round black glasses.",
    "light": "Cold green-grey slit on one side of his face, warm amber dark on the other.",
    "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. No other characters in frame.",
    "check": "Крупно: рука Дэна на краю двери, свет офиса на лице, глаза закрыты, он отворачивается от света."

@@ -405,7 +405,7 @@
       "ru": "Эту дверь открывает одно слово. Маленькое."
      },
      "prompt": {
-      "en": "Say it in English.",
+      "en": "Write it in English.",
       "ru": "Одно слово: «потому что»."
      },
      "answer": "because",

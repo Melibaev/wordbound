@@ -651,7 +651,7 @@
       "ru": "Туда. Песня. Идём!"
      },
      "prompt": {
-      "en": "Say it in English.",
+      "en": "Write it in English.",
       "ru": "Одно слово: «песня»."
      },
      "answer": "song",

@@ -636,6 +636,10 @@ a.btn { text-decoration: none; }
 .pl .bub-in { padding: 1.5em 1.1em 1.3em 1.4em; grid-template-columns: 1fr auto auto; }
 .pl .bub-shout .en { font-size: 1.2em; }
 .pl .bub-shout .rutag { top: auto; right: auto; }
+.pl-layer > .pl-ru { position: absolute; z-index: 9; pointer-events: auto; box-sizing: border-box; padding: 0.5em 0.7em; background: #F4F0E6; color: #111; border: 2px solid #111; border-radius: 0.6em; box-shadow: 2px 3px 0 rgba(17, 17, 17, 0.8); font-size: clamp(12px, 3.8cqw, 15px); line-height: 1.3; font-weight: 600; font-style: italic; }
+.pl-layer > .pl-ru::before { content: ""; display: block; border-top: 2px dotted currentColor; margin: -0.1em 0 0.35em; opacity: 0.55; }
+@media (prefers-reduced-motion: no-preference) { .pl-layer > .pl-ru { animation: plru-in 0.14s ease-out; } }
+@keyframes plru-in { from { opacity: 0; transform: translateY(-3px); } }
 .pl-sys { filter: none; }
 .pl .sysw { margin: 0; --op: 0.94; }
 .pl .sysw .sysrow .en { font-size: 0.93em; }

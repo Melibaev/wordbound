@@ -830,9 +830,9 @@
      "ru": "Она учится говорить.",
      "delivery": "soft quiet system voice, ominous and tender, almost sad",
      "place": {
-      "x": 0.7,
-      "y": 0.4,
-      "w": 0.28,
+      "x": 0.6,
+      "y": 0.44,
+      "w": 0.38,
       "tail": "none"
      }
     }

@@ -44,12 +44,15 @@ try {
     try { localStorage.setItem('wordbound.state', JSON.stringify({ v: 1, onboarded: true })); } catch (e) {}
   });
   const page = await ctx.newPage();
+  page.on('console', (m) => { if (m.type() === 'error') console.log('console error:', m.text()); });
+  page.on('pageerror', (e) => console.log('page error:', e.message));
   await page.goto(`http://127.0.0.1:${port}/index.html#/read/${ep}`);
   await page.waitForSelector('section.panel', { timeout: 20000 });
   const panels = page.locator('section.panel');
   const n = await panels.count();
   await page.addStyleTag({ content: 'video{display:none !important}' });
-  if (ru) await page.evaluate(() => document.querySelectorAll('[data-ru]').forEach((b) => b.click()));
+  // --ru: per panel, open the translation of the first bubble (placed panels show a popover; others expand inline)
+  if (ru) await page.evaluate(() => document.querySelectorAll('section.panel').forEach((s) => { const b = s.querySelector('[data-ru]'); if (b) b.click(); }));
   // scroll through to trigger lazy images
   for (let i = 0; i < n; i++) { await panels.nth(i).scrollIntoViewIfNeeded(); await page.waitForTimeout(150); }
   await page.waitForLoadState('networkidle').catch(() => {});

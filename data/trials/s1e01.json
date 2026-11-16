@@ -33,6 +33,16 @@
      },
      {
       "who": "dan",
+      "en": "I am... I am... Who am I?",
+      "ru": "Я… Я… Кто я?"
+     },
+     {
+      "who": "mira",
+      "en": "Not now. Run.",
+      "ru": "Не сейчас. Беги."
+     },
+     {
+      "who": "dan",
       "en": "I am so tired.",
       "ru": "Я так устал."
      }
@@ -102,13 +112,13 @@
     {
      "type": "choose",
      "story": {
-      "who": "mira",
-      "en": "The Silent is slow too. Run.",
-      "ru": "Безмолвный тоже медленный. Беги."
+      "who": "dan",
+      "en": "The Silent! It is here! Mira...",
+      "ru": "Безмолвный! Он здесь! Мира…"
      },
      "prompt": {
       "en": "What is it in English?",
-      "ru": "«Помогите мне!» — как это по-английски?"
+      "ru": "Дэн зовёт Миру: «Помоги мне!» — как это по-английски?"
      },
      "options": [
       "Help me!",
@@ -163,7 +173,7 @@
       "ru": "Там дверь. У тебя есть слово."
      },
      "prompt": {
-      "en": "Say it in English.",
+      "en": "In English.",
       "ru": "Дэн говорит своё слово-силу: «Открой!» Напиши его."
      },
      "answer": "open",
@@ -250,8 +260,8 @@
        "ru": "ЗАДАНИЕ: Найди путь."
       },
       {
-       "en": "Some doors go home.",
-       "ru": "Некоторые двери ведут домой."
+       "en": "The last door goes home.",
+       "ru": "Последняя дверь ведёт домой."
       }
      ]
     },
@@ -320,22 +330,22 @@
       "en": "Find the right word.",
       "ru": "Выбери нужное слово."
      },
-     "sentence": "Some doors ___ home.",
+     "sentence": "It ___ home.",
      "options": [
-      "go",
-      "is",
-      "am"
+      "goes",
+      "am",
+      "are"
      ],
      "answer": 0,
      "success": {
       "who": "dan",
-      "en": "Some doors go home. My door too.",
-      "ru": "Некоторые двери ведут домой. Моя тоже."
+      "en": "The last door. It goes home.",
+      "ru": "Последняя дверь. Она ведёт домой."
      },
      "fail": {
       "who": "system",
-      "en": "Some doors go home.",
-      "ru": "Некоторые двери ведут домой."
+      "en": "It goes home.",
+      "ru": "Она ведёт домой."
      }
     },
     {
@@ -405,7 +415,7 @@
       "ru": "Тот люк. Живо!"
      },
      "prompt": {
-      "en": "Say it in English.",
+      "en": "In English.",
       "ru": "Напиши, что крикнет Дэн: «Открой люк!»"
      },
      "answer": "Open the hatch",
@@ -598,7 +608,7 @@
       "ru": "На стене что-то есть…"
      },
      "prompt": {
-      "en": "Say it in English.",
+      "en": "In English.",
       "ru": "Дэн шепчет: «Что это?»"
      },
      "answer": "What is that",
@@ -687,8 +697,8 @@
        "ru": "Безмолвный далеко. Но он не исчез."
       },
       {
-       "en": "Count: one.",
-       "ru": "Счёт: один."
+       "en": "Word lost: DAN.",
+       "ru": "Слово потеряно: DAN. Имени у Дэна больше нет."
       }
      ]
     },

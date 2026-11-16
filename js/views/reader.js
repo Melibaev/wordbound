@@ -130,6 +130,40 @@ function fitLayer(layer) {
   }
 }
 
+// RU translation of a placed bubble: a popover in the layer, never inside the bubble (bubbles must not resize/move)
+function closeRuPop(layer) {
+  if (!layer) return;
+  layer.querySelectorAll('.pl-ru').forEach((n) => n.remove());
+  layer.querySelectorAll('.pl [data-ru].on').forEach((b) => {
+    b.classList.remove('on');
+    b.setAttribute('aria-expanded', 'false');
+  });
+}
+function toggleRuPop(pl, btn) {
+  const layer = pl.parentNode;
+  const wasOpen = btn.classList.contains('on');
+  closeRuPop(layer);
+  if (wasOpen) return;
+  const src = pl.querySelector('.ru');
+  if (!src) return;
+  const W = layer.clientWidth;
+  const H = layer.clientHeight;
+  const pop = document.createElement('div');
+  pop.className = 'pl-ru';
+  pop.setAttribute('role', 'note');
+  const wd = Math.min(W - 8, Math.max(pl.offsetWidth, W * 0.55));
+  pop.style.width = wd + 'px';
+  pop.style.left = Math.max(4, Math.min(pl.offsetLeft, W - wd - 4)) + 'px';
+  pop.textContent = src.textContent;
+  layer.appendChild(pop);
+  const h = pop.offsetHeight;
+  let top = pl.offsetTop + pl.offsetHeight + 8;
+  if (top + h > H - 4) top = pl.offsetTop - h - 8;
+  pop.style.top = Math.max(4, top) + 'px';
+  btn.classList.add('on');
+  btn.setAttribute('aria-expanded', 'true');
+}
+
 function panelHTML(p, i, ep, newSet, media) {
   const sides = {};
   let nextSide = 0;
@@ -341,7 +375,11 @@ export async function readEpisode(root, ep, ctx, opts = {}) {
         if (en) playLine(ep.id, Number(say.dataset.p), Number(say.dataset.l), en.textContent);
         return;
       }
+      const popClick = e.target.closest('.pl-ru');
+      if (popClick) { closeRuPop(popClick.parentNode); return; }
       const ru = e.target.closest('[data-ru]');
+      const plEl = ru && ru.closest('.pl');
+      if (plEl) { toggleRuPop(plEl, ru); return; }
       if (ru) {
         const box = ru.closest('.bub, .bub-shout, .cap, .sysrow');
         const p = box && box.querySelector('.ru');
