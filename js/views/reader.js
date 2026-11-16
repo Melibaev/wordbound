@@ -2,7 +2,7 @@
 import * as store from '../store.js';
 import { db, loadEpisode, tokenize, sortedEpisodes } from '../data.js';
 import { renderPanelArt } from '../art.js';
-import { playLine, prefetchEpisode, stopAudio } from '../audio.js';
+import { playLine, playScene, prefetchEpisode, stopAudio } from '../audio.js';
 import { esc, reduceMotion } from '../util.js';
 import { icon, errorBox } from '../ui.js';
 import { tokensHTML, sysWindowHTML, isWarn } from '../sysmsg.js';
@@ -359,6 +359,13 @@ export async function readEpisode(root, ep, ctx, opts = {}) {
         img.after(v);
         vids.add(v);
         vio.observe(v);
+        const sb = document.createElement('button');
+        sb.type = 'button';
+        sb.className = 'vid-say';
+        sb.dataset.scene = String(i);
+        sb.setAttribute('aria-label', 'Озвучить сцену');
+        sb.innerHTML = icon('speaker');
+        art.appendChild(sb);
       }
     };
     root.querySelectorAll('.panel').forEach((panel) => {
@@ -395,6 +402,14 @@ export async function readEpisode(root, ep, ctx, opts = {}) {
     const closePop = wp.close;
 
     const onClick = (e) => {
+      const scn = e.target.closest('.vid-say');
+      if (scn) {
+        const art = scn.closest('.art');
+        const v = art && art.querySelector('video.art-video');
+        if (v) { try { v.currentTime = 0; const pr = v.play(); if (pr && pr.catch) pr.catch(() => {}); } catch (err) { /* ignore */ } }
+        playScene(ep.id, Number(scn.dataset.scene));
+        return;
+      }
       const say = e.target.closest('[data-say]');
       if (say) {
         const box = say.closest('.bub, .bub-shout, .cap, .sysrow');

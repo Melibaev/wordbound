@@ -163,6 +163,9 @@ function playFile(rel, kind, fallbackText, ttsOpts) {
 export const playLine = (epId, panelIdx, lineIdx, fallbackText) =>
   playFile(`${epId}/${nn(panelIdx + 1)}-${nn(lineIdx + 1)}.mp3`, 'episodes:' + epId, fallbackText);
 
+// Voiced scene for a panel with a video: audio/<ep>/NN-scene.mp3 (all spoken lines in order). Plays over the silent video.
+export const playScene = (epId, panelIdx) => playFile(`${epId}/${nn(panelIdx + 1)}-scene.mp3`, 'episodes:' + epId, null);
+
 // Trial audio: audio/trials/<episode>/<hash>.mp3, hash = FNV-1a 64 over UTF-8 of `voice|delivery|text` (16 hex chars).
 // tools/audio/gen_trials_audio.py implements the identical function.
 export function trialHash(voice, delivery, text) {

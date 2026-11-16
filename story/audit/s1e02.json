@@ -1,0 +1,227 @@
+[
+ {
+  "panel": 1,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Lanterns on both walls carry readable Korean Hangul glyphs; papers on walls are covered in dense text lines.",
+  "fix": "Redraw lanterns with abstract glowing vermilion marks (no real letters) and blank/abstract-scribble papers."
+ },
+ {
+  "panel": 1,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "The Silent in the corridor has a visible face with eyes, nose, brows and mouth and long dark hair (looks like a person).",
+  "fix": "Redraw the Silent with smooth white featureless face, only one thin vertical teal seam."
+ },
+ {
+  "panel": 1,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Dan's shirt is cream/white, no mustard lanyard or yellow pencil visible; Mira's gloves have red bands on both wrists (cord must be only on LEFT wrist).",
+  "fix": "Grey shirt, mustard lanyard, pencil behind right ear; red cord left wrist only."
+ },
+ {
+  "panel": 2,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Papers on the walls have squiggly handwriting-like lines (near-readable); heavy teal fog on the ceiling although no Silent is present.",
+  "fix": "Blank/abstract papers; keep teal only as a thin hint behind the Silent or switch to dark grey."
+ },
+ {
+  "panel": 2,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Text says a blank dead end wall; the stone block reads as a rough boulder, not a hidden door wall, and Dan's shirt is cream (not grey), no lanyard/pencil visible from behind.",
+  "fix": "Flat grey stone wall with a faint seam; grey shirt, mustard lanyard cord visible at neck."
+ },
+ {
+  "panel": 3,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "White tape/plaster on the left hinge of Dan's glasses (tape on glasses is forbidden).",
+  "fix": "Redraw glasses plain round black with no tape; also fix the art prompt that says 'taped glasses'."
+ },
+ {
+  "panel": 3,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Inset blueprint wall panel is drawn pale-cream with a dark brick block - reads as a pasted rectangle covering Dan's shirt/lanyard; seam, hinges and keyhole are clear.",
+  "fix": "Keep, or shrink inset with a margin so it does not cover the body."
+ },
+ {
+  "panel": 4,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Large blurred cream bands fill about 30% at the top and 20% at the bottom of the panel (grey/cream strips).",
+  "fix": "Regenerate full-bleed in tall format; extend the corridor floor/wall into the empty bands."
+ },
+ {
+  "panel": 4,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Mira only shown as boots; Dan's hand lies flat on the floor, not reaching toward the key.",
+  "fix": "Dan's fingers closing on the key."
+ },
+ {
+  "panel": 5,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Background is flat empty cream with no corridor; the door is a wooden cabinet-like door frame, not 'small low door in the wall'. Mira's near hand has a dark band, cord colour not clearly red.",
+  "fix": "Draw the dusty wall around the small low door; red cord on Mira's left wrist."
+ },
+ {
+  "panel": 5,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Silent shadow on the left is solid teal (teal outside the Silent body).",
+  "fix": "Dark grey shadow with a thin teal rim."
+ },
+ {
+  "panel": 6,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Walls covered in readable names (Mark, Namvi, Howar, Nuchat, Dorik etc.).",
+  "fix": "Replace with abstract scratch marks/tally strokes, no Latin letters."
+ },
+ {
+  "panel": 6,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Cream strip along the bottom edge; room is not round; door is a normal-size wooden door with a light switch (text: small door, tiny round room); lamp is a hanging oil lantern.",
+  "fix": "Crop/extend bottom; small low round door; no light switch; keep lamp identical in 6-8, 13."
+ },
+ {
+  "panel": 7,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Lamp is a kerosene lantern while p8 and p14 show an electric shade lamp; Mira's cord is a multi-strand wrap over the glove.",
+  "fix": "Pick one lamp design for the whole episode."
+ },
+ {
+  "panel": 8,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan has a bandage on his forehead and a wrap on his forearm.",
+  "fix": "Remove all bandages; Dan's head and arms clean."
+ },
+ {
+  "panel": 8,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Wall covered in readable names (Dollinah, Navia, Mathel, Kamen, Milya...) plus a doodle.",
+  "fix": "Abstract scratches only."
+ },
+ {
+  "panel": 8,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Lamp is an electric bulb in a shade (not the vermilion-heart lamp), Mira's hair/jacket differ (cropped green jacket, black hair, no gloves), Dan's trousers are dark grey instead of olive.",
+  "fix": "Same lantern with vermilion flame heart; Mira in standard olive jacket with fingerless gloves."
+ },
+ {
+  "panel": 9,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "A bandage patch sits on Dan's forehead above the glasses.",
+  "fix": "Remove the patch."
+ },
+ {
+  "panel": 9,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Red thread of breath starts at Mira's mouth, not Dan's lips as in the text; visible ear has no yellow pencil behind it.",
+  "fix": "Thread leaves Dan's mouth; pencil behind his right ear."
+ },
+ {
+  "panel": 10,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Top 45% of the image is an empty flat ochre band (looks like a missing image); lamp is a small oil lamp on a shelf, door is a steel hatch in the wall (not the wooden door from panel 6).",
+  "fix": "Full-height composition; same door and same hanging lamp as panels 6-7."
+ },
+ {
+  "panel": 11,
+  "severity": "cosmetic",
+  "kind": "art",
+  "problem": "Upper 20% is empty curved ceiling; Dan's pencil not visible.",
+  "fix": "Crop ceiling or lower the camera."
+ },
+ {
+  "panel": 12,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Wall carvings are readable Latin letters/names (XIIA, MIRA, KIGO, NIRA, TATEE, KAIIA).",
+  "fix": "Scratch only abstract strokes, no letters."
+ },
+ {
+  "panel": 12,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Mira's wrist bracelet is a dark brown/black double loop, not the red cord; upper hand (Dan's) has a plaster-like band wrapped on the thumb.",
+  "fix": "Red frayed cord on Mira's left wrist; remove the thumb wrap."
+ },
+ {
+  "panel": 12,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Top ~33% of the panel is an empty blank ochre band.",
+  "fix": "Full-frame wall close-up."
+ },
+ {
+  "panel": 13,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "A plaster/bandage patch on Dan's cheek; walls carry readable names and dates (Nary, Nirgat, Jasam, Hunshora 09.02.2026, Mira).",
+  "fix": "Clean cheek; replace names/dates with abstract scratches."
+ },
+ {
+  "panel": 13,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Cream strip along the bottom edge; Mira looks toward Dan, not away to the lamp as in text (seen from behind, no cord visible).",
+  "fix": "Crop strip; Mira in profile looking at the lamp."
+ },
+ {
+  "panel": 14,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "Dan wears a black zip jacket and has plasters on both cheeks.",
+  "fix": "Grey shirt, mustard lanyard, clean face."
+ },
+ {
+  "panel": 14,
+  "severity": "hard",
+  "kind": "art",
+  "problem": "The woman is not Mira: long light-brown ponytail, grey scarf, grey sweater, blue eyes, no gloves, no red cord.",
+  "fix": "Mira: short dark messy ponytail, amber eyes, olive jacket, cream scarf, fingerless gloves, red cord left wrist."
+ },
+ {
+  "panel": 14,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "The 'small door' is drawn as a floor hatch with a teal pool of light in the foreground; teal appears without the Silent.",
+  "fix": "Draw the small door at floor level with a thin teal-grey line under it."
+ },
+ {
+  "panel": 15,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Room looks different (cool cream walls, round steel riveted door) than panels 5-13 (ochre, wooden/steel hatch door); teal glow under the door is a large pool.",
+  "fix": "Reuse the established small door and ochre walls; thin teal line only."
+ },
+ {
+  "panel": 16,
+  "severity": "visible",
+  "kind": "art",
+  "problem": "Mira is drawn with long straight black hair, grey skin and no ponytail (looks like another person); top ~38% of the frame is empty black.",
+  "fix": "Mira's messy ponytail and warm skin; fill or crop the black band."
+ },
+ {
+  "videos": {
+   "panel01": "redo",
+   "panel05": "redo",
+   "panel16": "good"
+  },
+  "notes": "Video 01: same composition but inherits Hangul lanterns and the Silent's face (redo after still is fixed); first frame has a cream band at the top. Video 05: composition drifts into a close-up of Dan's and Mira's hands that merge into one blob amid sparks, door goes missing. Video 16: stable, only slight zoom, no rule broken (valid only if the still stays). Story: the key is found by luck (no setup), the Silent knocks without any fear built before; the system line 'That is a key. Wow.' is a bit flat, but cold humour works; the door design changes in 5/6/10/14/15 so 'the' door is not recognisable, which weakens the final temptation scene; names-on-wall idea is great but should be shown without legible letters."
+ }
+]

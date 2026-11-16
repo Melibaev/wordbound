@@ -39,7 +39,7 @@ try {
   browser = await chromium.launch(exe ? { executablePath: exe, headless: true } : { channel: 'chrome', headless: true });
   const ctx = await browser.newContext({
     viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true,
-    serviceWorkers: 'block', reducedMotion: 'reduce',
+    serviceWorkers: 'block', reducedMotion: process.argv.includes('--motion') ? 'no-preference' : 'reduce',
   });
   await ctx.addInitScript(() => {
     try { localStorage.setItem('wordbound.state', JSON.stringify({ v: 1, onboarded: true })); } catch (e) {}
@@ -51,7 +51,7 @@ try {
   await page.waitForSelector('section.panel', { timeout: 20000 });
   const panels = page.locator('section.panel');
   const n = await panels.count();
-  await page.addStyleTag({ content: 'video{display:none !important}' });
+  if (!process.argv.includes('--motion')) await page.addStyleTag({ content: 'video{display:none !important}' });
   // --ru: per panel, open the translation of the first bubble (placed panels show a popover; others expand inline)
   if (ru) await page.evaluate((idx) => document.querySelectorAll('section.panel').forEach((s) => { const b = s.querySelectorAll('[data-ru]')[idx]; if (b) b.click(); }), ruIndex);
   // scroll through to trigger lazy images
