@@ -244,7 +244,7 @@ def cmd_publish(a):
         rc, out = run(["git", "status", "--short"])
         print("dry-run: %d changed paths; would commit with trailer and push" % len(out.strip().splitlines()))
         return 0
-    rc, out = run(["git", "add", "-A", "--", ".", ":!.models"])
+    rc, out = run(["git", "add", "-A"])
     if rc:
         print(out[-300:])
         return 1
