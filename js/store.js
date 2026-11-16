@@ -16,6 +16,7 @@ export function defaults() {
     placement: null, // { level, skills, date, skipped }
     words: {}, // id -> { due, interval, ease, reps, lapses, relearn, skip, added }
     episodes: {}, // id -> { done, date, score, total }
+    trials: {}, // trialId -> { passed, date, best, attempts, prog:{ i, lives, correct } }
     days: [], // studied day keys, never reset
     settings: { theme: 'auto', rate: 0.9, voice: '', speech: 'normal', hintDismissed: false },
   };
@@ -28,6 +29,7 @@ export function migrate(input) {
   const s = { ...d, ...input, settings: { ...d.settings, ...(input.settings || {}) } };
   if (!s.words || typeof s.words !== 'object' || Array.isArray(s.words)) s.words = {};
   if (!s.episodes || typeof s.episodes !== 'object' || Array.isArray(s.episodes)) s.episodes = {};
+  if (!s.trials || typeof s.trials !== 'object' || Array.isArray(s.trials)) s.trials = {};
   if (!Array.isArray(s.days)) s.days = [];
   // let ver = input.v || 0; if (ver < 2) { ... } — future migrations go here.
   s.v = SCHEMA;
@@ -145,6 +147,17 @@ export function setPlacement(p) {
 export function recordEpisode(id, info) {
   get().episodes[id] = { done: true, date: dayKey(), ...info };
   save();
+}
+
+export function trialRec(id) {
+  return get().trials[id] || null;
+}
+
+export function setTrialRec(id, patch) {
+  const s = get();
+  s.trials[id] = { ...(s.trials[id] || {}), ...patch };
+  save();
+  return s.trials[id];
 }
 
 export { parseDay };

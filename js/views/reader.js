@@ -2,9 +2,11 @@
 import * as store from '../store.js';
 import { db, loadEpisode, tokenize, sortedEpisodes } from '../data.js';
 import { renderPanelArt } from '../art.js';
-import { playLine, playWord, prefetchEpisode, stopAudio } from '../audio.js';
-import { esc, reduceMotion, toast } from '../util.js';
+import { playLine, prefetchEpisode, stopAudio } from '../audio.js';
+import { esc, reduceMotion } from '../util.js';
 import { icon, errorBox } from '../ui.js';
+import { tokensHTML, sysWindowHTML, isWarn } from '../sysmsg.js';
+import { wordPop } from '../wordpop.js';
 
 const BUBBLE = new Set(['speech', 'thought', 'shout']);
 
@@ -21,16 +23,6 @@ function loadManifest() {
   return manifestP;
 }
 const nn = (i) => String(i + 1).padStart(2, '0');
-
-function tokensHTML(text, newSet) {
-  return tokenize(text)
-    .map((t) => {
-      if (!t.w) return esc(t.t);
-      const nw = newSet.has(t.w.id) ? ' nw' : '';
-      return `<span class="w${nw}" data-w="${esc(t.w.id)}">${esc(t.t)}</span>`;
-    })
-    .join('');
-}
 
 function ruTag(ru) {
   if (!ru) return '';
@@ -51,9 +43,6 @@ function lineHTML(line, ep, newSet, sideOf, pi, li) {
   const enHTML = `<p class="en">${tokensHTML(en, newSet)}</p>`;
   if (type === 'narration') {
     return `<div class="cap cap-en">${enHTML}${spk(pi, li)}${ruTag(ru)}${ruBlock}</div>`;
-  }
-  if (type === 'system') {
-    return `<div class="sys"><div class="sys-tag">[ СИСТЕМА ]</div>${enHTML}${spk(pi, li)}${ruTag(ru)}${ruBlock}</div>`;
   }
   const t = BUBBLE.has(type) ? type : 'speech';
   const ch = line.who ? db.chars.get(line.who) : null;
@@ -87,7 +76,26 @@ function panelHTML(p, i, ep, newSet, media) {
     caps.push(lineHTML(lines[k], ep, newSet, sideOf, i, k));
     k++;
   }
-  const rest = lines.slice(k).map((l, j) => lineHTML(l, ep, newSet, sideOf, i, k + j)).join('');
+  const known0 = media.entry && (media.entry.images || []).includes(i + 1);
+  const overlay = [];
+  const restParts = [];
+  let grp = null;
+  lines.slice(k).forEach((l, j) => {
+    if (l.type === 'system' && l.en) {
+      const warn = isWarn(l.en);
+      if (!grp || grp.warn !== warn) {
+        grp = { warn, rows: [] };
+        (known0 ? overlay : restParts).push(grp);
+      }
+      grp.rows.push({ en: l.en, ru: l.ru, attrs: `data-p="${i}" data-l="${k + j}"`, newSet });
+      return;
+    }
+    grp = null;
+    restParts.push(lineHTML(l, ep, newSet, sideOf, i, k + j));
+  });
+  const winOf = (g, ov) => sysWindowHTML({ kind: g.warn ? 'warning' : 'system', title: 'SYSTEM', rows: g.rows, warn: g.warn, overlay: ov });
+  const rest = restParts.map((x) => (typeof x === 'string' ? x : winOf(x, false))).join('');
+  const sysOver = overlay.length ? `<div class="sys-over${caps.length ? ' low' : ''}">${overlay.map((g) => winOf(g, true)).join('')}</div>` : '';
   const mood = ['calm', 'tense', 'action'].includes(p.mood) ? p.mood : 'calm';
   const known = media.entry && (media.entry.images || []).includes(i + 1);
   const alt = esc(p.art || '');
@@ -95,7 +103,7 @@ function panelHTML(p, i, ep, newSet, media) {
     ? `<img class="art-img" src="${esc(media.base + nn(i) + '.jpg' + media.q)}" alt="${alt}" decoding="async" loading="${i < 2 ? 'eager' : 'lazy'}" data-alt="${alt}">`
     : '';
   return `<section class="panel mood-${mood} rv${known ? ' has-img' : ''}" data-i="${i}">
-<div class="art">${renderPanelArt(p, db.chars)}${img}${caps.length ? `<div class="caps">${caps.join('')}</div>` : ''}</div>
+<div class="art">${renderPanelArt(p, db.chars)}${img}${sysOver}${caps.length ? `<div class="caps">${caps.join('')}</div>` : ''}</div>
 ${rest ? `<div class="lines">${rest}</div>` : ''}
 </section>`;
 }
@@ -226,73 +234,20 @@ export async function readEpisode(root, ep, ctx, opts = {}) {
       }
     });
 
-    // ---- popover ----
-    let pop = null;
-    function closePop() {
-      if (pop) {
-        pop.remove();
-        pop = null;
-      }
-    }
-    function showPop(el, w) {
-      closePop();
-      const rec = store.getRec(w.id);
-      pop = document.createElement('div');
-      pop.className = 'pop';
-      const tok = el.textContent;
-      const same = tok.toLowerCase() === String(w.w).toLowerCase();
-      pop.innerHTML = `<div class="pop-top"><b class="pop-w">${esc(same ? w.w : tok)}</b>${same ? '' : `<span class="muted"> → ${esc(w.w)}</span>`}
-<button class="icon-btn small" data-pspk aria-label="Озвучить слово">${icon('speaker')}</button></div>
-${db.pron[w.id] ? `<div class="pop-ipa muted">/${esc(db.pron[w.id])}/</div>` : ''}<div class="pop-ru">${esc(w.ru)}</div>
-<div class="pop-meta muted">${esc([w.pos, w.lvl].filter(Boolean).join(' · '))}</div>
-<button class="btn small ${rec ? 'on' : ''}" data-padd>${rec ? 'В моих словах ✓' : '+ В мои слова'}</button>`;
-      document.body.appendChild(pop);
-      const r = el.getBoundingClientRect();
-      const pw = pop.offsetWidth;
-      const ph = pop.offsetHeight;
-      const left = Math.min(Math.max(8, r.left + r.width / 2 - pw / 2), window.innerWidth - pw - 8);
-      let top = r.bottom + 10;
-      if (top + ph > window.innerHeight - 8) top = r.top - ph - 10;
-      pop.style.left = left + 'px';
-      pop.style.top = Math.max(8, top) + 'px';
-      pop.querySelector('[data-pspk]').addEventListener('click', () => playWord(w.id, w.w, tok));
-      const add = pop.querySelector('[data-padd]');
-      add.addEventListener('click', () => {
-        if (store.getRec(w.id)) {
-          store.removeWord(w.id);
-          add.textContent = '+ В мои слова';
-          add.classList.remove('on');
-        } else {
-          store.addWord(w.id);
-          add.textContent = 'В моих словах ✓';
-          add.classList.add('on');
-          toast('Слово добавлено');
-        }
-      });
-    }
+    const wp = wordPop(root);
+    const closePop = wp.close;
 
-    const onDown = (e) => {
-      if (pop && !pop.contains(e.target) && !e.target.closest('.w')) closePop();
-    };
-    document.addEventListener('pointerdown', onDown, true);
-
-    root.addEventListener('click', (e) => {
-      const wEl = e.target.closest('.w');
-      if (wEl) {
-        const w = db.byId.get(wEl.dataset.w);
-        if (w) showPop(wEl, w);
-        return;
-      }
+    const onClick = (e) => {
       const say = e.target.closest('[data-say]');
       if (say) {
-        const box = say.closest('.bub, .cap, .sys');
+        const box = say.closest('.bub, .cap, .sysrow');
         const en = box && box.querySelector('.en');
         if (en) playLine(ep.id, Number(say.dataset.p), Number(say.dataset.l), en.textContent);
         return;
       }
       const ru = e.target.closest('[data-ru]');
       if (ru) {
-        const box = ru.closest('.bub, .cap, .sys');
+        const box = ru.closest('.bub, .cap, .sysrow');
         const p = box && box.querySelector('.ru');
         if (p) {
           p.hidden = !p.hidden;
@@ -300,15 +255,16 @@ ${db.pron[w.id] ? `<div class="pop-ipa muted">/${esc(db.pron[w.id])}/</div>` : '
           ru.setAttribute('aria-expanded', String(!p.hidden));
         }
       }
-    });
+    };
+    root.addEventListener('click', onClick);
 
     const cleanup = () => {
       window.removeEventListener('scroll', onScroll);
-      document.removeEventListener('pointerdown', onDown, true);
       if (io) io.disconnect();
       if (vio) vio.disconnect();
       vids.forEach((v) => v.pause());
-      closePop();
+      root.removeEventListener('click', onClick);
+      wp.destroy();
       cancelPrefetch();
       stopAudio();
     };

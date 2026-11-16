@@ -1,5 +1,5 @@
 // WORDBOUND service worker: network-first with cache fallback; background prefetch of episodes.
-const CACHE = 'wordbound-v4';
+const CACHE = 'wordbound-v5';
 const MEDIA = 'wordbound-media-v1';
 const MEDIA_MAX = 150;
 const AUDIO = 'wordbound-audio-v1';
@@ -31,6 +31,10 @@ const SHELL = [
   'js/views/quiz.js',
   'js/views/review.js',
   'js/views/episodes.js',
+  'js/views/trial.js',
+  'js/trials.js',
+  'js/sysmsg.js',
+  'js/wordpop.js',
   'js/views/words.js',
   'js/views/settings.js',
   'icons/icon-192.png',
@@ -75,6 +79,7 @@ async function prefetchData(storyRes) {
     const cache = await caches.open(CACHE);
     const rels = ['data/words.json', 'data/placement.json', 'data/pron.json', 'audio/index.json'];
     for (const ep of story.episodes || []) if (ep && ep.file) rels.push('data/' + ep.file);
+    for (const ep of story.episodes || []) if (ep && ep.id) rels.push('data/trials/' + ep.id + '.json'); // optional: missing ones are skipped
     for (const rel of rels) {
       const url = new URL(rel, self.registration.scope).href;
       try {

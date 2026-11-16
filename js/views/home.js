@@ -3,6 +3,7 @@ import { db, nextEpisode } from '../data.js';
 import { estimate, computeLevel } from '../levels.js';
 import { isDue } from '../srs.js';
 import { esc, dayKey, weekKeys, plural } from '../util.js';
+import { blockerFor } from '../trials.js';
 import { icon, bar, installHint, isIOS, isStandalone } from '../ui.js';
 
 const DAYS = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
@@ -19,6 +20,7 @@ export async function mount(root) {
   const lv = computeLevel(estimate(s, db.byId));
   const due = dueIds().length;
   const next = nextEpisode(s);
+  const block = next ? await blockerFor(next) : null;
   const today = dayKey();
   const set = new Set(s.days);
   const wk = weekKeys();
@@ -37,7 +39,8 @@ export async function mount(root) {
   let cta = 'Начать';
   const parts = [];
   if (due) parts.push(`${due} ${plural(due, ['повторение', 'повторения', 'повторений'])}`);
-  if (next) parts.push(`эпизод ${next.n}`);
+  if (block) parts.push(`испытания эпизода ${block.ep.n}`);
+  else if (next) parts.push(`эпизод ${next.n}`);
   const sub = parts.length ? parts.join(' + ') : 'Пока нечего делать';
   const canStart = due > 0 || !!next;
 
@@ -46,6 +49,11 @@ export async function mount(root) {
     nextCard = `<div class="card err"><p>Не удалось загрузить эпизоды. Проверь соединение и открой приложение снова.</p></div>`;
   } else if (!next) {
     nextCard = `<div class="card ep-card"><div class="stamp">КОНЕЦ?</div><h3>Все эпизоды прочитаны</h3><p class="muted">Новые главы скоро появятся.</p></div>`;
+  } else if (block) {
+    nextCard = `<a class="card ep-card locked" href="#/trial/${encodeURIComponent(block.ep.id)}">
+<div class="ep-num lockn">🔒 E${String(next.n).padStart(2, '0')}</div>
+<div class="ep-body"><small class="muted">ЗАПЕРТО · ${esc(next.level || '')}</small>
+<h3>${esc(next.title)}</h3><p class="lockmsg">Пройди испытания эпизода ${block.ep.n}</p><span class="btn small go-trials"><span>К испытаниям</span></span></div></a>`;
   } else {
     nextCard = `<a class="card ep-card" href="#/session/${encodeURIComponent(next.id)}">
 <div class="ep-num">S${next.season}·E${String(next.n).padStart(2, '0')}</div>
@@ -79,7 +87,7 @@ ${nextCard}
 </div>`;
 
   const go = root.querySelector('#go');
-  if (go) go.addEventListener('click', () => (location.hash = '#/session'));
+  if (go) go.addEventListener('click', () => (location.hash = block && !due ? '#/trial/' + encodeURIComponent(block.ep.id) : '#/session'));
   const hint = root.querySelector('[data-hint-close]');
   if (hint)
     hint.addEventListener('click', () => {

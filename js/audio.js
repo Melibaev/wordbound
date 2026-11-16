@@ -103,7 +103,11 @@ function playFile(rel, kind, fallbackText, ttsOpts) {
   const tts = () => (fallbackText ? speak(fallbackText, { rate: ttsRate(), ...(ttsOpts || {}) }) : Promise.resolve(false));
   if (index === false) return tts();
   if (index) {
-    const ok = kind.startsWith('episodes:') ? index.episodes && index.episodes[kind.slice(9)] : index[kind];
+    const ok = kind.startsWith('episodes:')
+      ? index.episodes && index.episodes[kind.slice(9)]
+      : kind.startsWith('trials:')
+        ? index.trials && index.trials[kind.slice(7)]
+        : index[kind];
     if (!ok) return tts();
   }
   const a = getEl();
@@ -158,6 +162,20 @@ function playFile(rel, kind, fallbackText, ttsOpts) {
 
 export const playLine = (epId, panelIdx, lineIdx, fallbackText) =>
   playFile(`${epId}/${nn(panelIdx + 1)}-${nn(lineIdx + 1)}.mp3`, 'episodes:' + epId, fallbackText);
+
+// Trial audio: audio/trials/<episode>/<hash>.mp3, hash = FNV-1a 64 over UTF-8 of `voice|delivery|text` (16 hex chars).
+// tools/audio/gen_trials_audio.py implements the identical function.
+export function trialHash(voice, delivery, text) {
+  const bytes = new TextEncoder().encode(`${voice || ''}|${delivery || ''}|${text || ''}`);
+  let h = 0xcbf29ce484222325n;
+  for (const b of bytes) {
+    h ^= BigInt(b);
+    h = (h * 0x100000001b3n) & 0xffffffffffffffffn;
+  }
+  return h.toString(16).padStart(16, '0');
+}
+export const playTrial = (epId, voice, delivery, text) =>
+  playFile(`trials/${epId}/${trialHash(voice, delivery, text)}.mp3`, 'trials:' + epId, text);
 
 // form: optional tapped (inflected) token; when it differs from the headword its own file is used.
 export function playWord(wordId, fallbackText, form) {

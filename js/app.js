@@ -11,10 +11,11 @@ import * as placement from './views/placement.js';
 import * as session from './views/session.js';
 import * as reader from './views/reader.js';
 import * as episodes from './views/episodes.js';
+import * as trial from './views/trial.js';
 import * as words from './views/words.js';
 import * as settings from './views/settings.js';
 
-const routes = { '': home, home, onboarding, placement, session, read: reader, episodes, words, settings };
+const routes = { '': home, home, onboarding, placement, session, read: reader, trial, episodes, words, settings };
 const root = document.getElementById('app');
 let current = null;
 let token = 0;

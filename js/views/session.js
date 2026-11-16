@@ -10,6 +10,7 @@ import { runIntro } from './intro.js';
 import { readEpisode } from './reader.js';
 import { runQuiz } from './quiz.js';
 import { weekKeys } from '../util.js';
+import { loadTrials, trialsDone, blockerFor } from '../trials.js';
 
 const CAP = 30;
 const CAP_AWAY = 15;
@@ -103,6 +104,8 @@ ${ex ? `<ul class="gex">${ex}</ul>` : ''}</article>
 
   const after = curLevel();
   const nextMeta = episodeAfter(ep.id);
+  const tfile = await loadTrials(ep.id);
+  const pending = !!tfile && !trialsDone(tfile);
   const wkDone = weekKeys().filter((k) => st.days.includes(k)).length;
   const gained = after.est - before.est;
   const act = await showScreen(
@@ -118,12 +121,15 @@ ${ex ? `<ul class="gex">${ex}</ul>` : ''}</article>
 <div class="card"><div class="lv-row"><span class="lv-mini">${esc(after.level)}</span>${bar(after.progress * 100)}<small class="muted">${gained > 0 ? '+' + gained : ''}</small></div>
 <p class="muted">${after.next ? `До ${esc(after.next)}: ещё ${after.toNext} ${plural(after.toNext, ['слово', 'слова', 'слов'])}.` : 'Максимальный уровень!'}
 Неделя: ${wkDone}/${WEEK_GOAL} ${wkDone >= WEEK_GOAL ? '— цель выполнена!' : 'дней.'}</p></div>
-<div class="teaser"><span class="stamp">СКОРО</span> ${nextMeta ? 'Следующий эпизод завтра.' : 'Новые эпизоды скоро появятся.'}</div>
-<button class="btn primary big" data-act="home"><span>Готово</span></button>
-${nextMeta ? '<button class="btn" data-act="next">Читать дальше сейчас</button>' : ''}
+${pending ? `<div class="teaser"><span class="stamp">ИСПЫТАНИЯ</span> Следующая глава откроется, когда пройдёшь испытания этого эпизода.</div>
+<button class="btn primary big" data-act="trial"><span>К испытаниям</span></button>
+<button class="btn" data-act="home">Позже</button>` : `${nextMeta ? '' : '<div class="teaser"><span class="stamp">СКОРО</span> Новые эпизоды скоро появятся.</div>'}
+${nextMeta ? '<button class="btn primary big" data-act="next"><span>Следующая глава</span></button>' : ''}
+<button class="btn${nextMeta ? '' : ' primary big'}" data-act="home">${nextMeta ? 'Готово на сегодня' : '<span>Готово</span>'}</button>`}
 </div>`
   );
   if (!ctx.alive) return null;
+  if (act === 'trial') return { trial: ep.id };
   return act === 'next' ? { next: nextMeta } : 'home';
 }
 
@@ -140,6 +146,18 @@ export async function mount(root, ctx) {
     const r = await reviewPhase(root, ctx);
     if (!ctx.alive || r === null) return;
     meta = nextEpisode(store.get());
+    const blk0 = await blockerFor(meta);
+    if (blk0) {
+      await showScreen(
+        root,
+        `<div class="screen center-screen"><div class="stamp tilt">ЗАПЕРТО</div><h1>Глава закрыта</h1>
+<p>Пройди испытания эпизода ${blk0.ep.n}, чтобы читать дальше.</p>
+<button class="btn primary big" data-act="go"><span>К испытаниям</span></button><button class="btn" data-act="home">Домой</button></div>`
+      ).then((a) => {
+        if (ctx.alive) location.hash = a === 'go' ? '#/trial/' + encodeURIComponent(blk0.ep.id) : '#/';
+      });
+      return;
+    }
     if (!r.skipped) {
       const act = await showScreen(
         root,
@@ -164,9 +182,19 @@ ${meta ? `<button class="btn primary big" data-act="ep"><span>Читать эп�
     return;
   }
   while (meta) {
+    const blk = await blockerFor(meta);
+    if (!ctx.alive) return;
+    if (blk) {
+      location.hash = '#/trial/' + encodeURIComponent(blk.ep.id);
+      return;
+    }
     const r = await episodePhase(root, ctx, meta);
     if (!ctx.alive || !r) return;
     if (r === 'home') break;
+    if (r.trial) {
+      location.hash = '#/trial/' + encodeURIComponent(r.trial);
+      return;
+    }
     meta = r.next;
   }
   location.hash = '#/';
