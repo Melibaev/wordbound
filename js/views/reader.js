@@ -277,56 +277,26 @@ function panelHTML(p, i, ep, newSet, media) {
   };
   const lines = p.lines || [];
   const frames = systemFrames(lines, i, newSet);
-  const narrGap = (chunks) => (chunks.length ? `<section class="narr-gap rv">${chunks.join('')}</section>` : '');
   const knownA = media.entry && (media.entry.images || []).includes(i + 1);
-  const kept = [];
-  lines.forEach((l, j) => {
-    if (!l || l.type === 'system') return;
-    kept.push({ l, j });
-  });
-  const placeables = kept.filter(({ l }) => l.type !== 'narration-ru');
   const mood = ['calm', 'tense', 'action'].includes(p.mood) ? p.mood : 'calm';
   const alt = esc(p.art || '');
   const img = knownA
     ? `<img class="art-img" src="${esc(media.base + nn(i) + '.jpg' + media.q)}" alt="${alt}" decoding="async" loading="${i < 2 ? 'eager' : 'lazy'}" data-alt="${alt}">`
     : '';
-  const artOpen = `<div class="art">${renderPanelArt(p, db.chars)}${img}`;
-  if (knownA && placeables.length && placeables.every(({ l }) => placeOf(l))) {
-    const capsP = [];
-    const narr = [];
-    const items = [];
-    kept.forEach(({ l, j }) => {
-      const html = l.type === 'narration-ru' || !placeOf(l)
-        ? lineHTML(l, ep, newSet, sideOf, i, j)
-        : '';
-      if (l.type === 'narration-ru') narr.push(html);
-      else if (placeOf(l)) items.push(placedHTML(l, placeOf(l), i, j, newSet));
-      else capsP.push(html);
-    });
-    return `<section class="panel mood-${mood} rv has-img placed" data-i="${i}">
-${capsP.length ? `<div class="caps-top">${capsP.join('')}</div>` : ''}${artOpen}<div class="pl-layer">${items.join('')}</div></div>
-</section>${narrGap(narr)}${frames}`;
-  }
-  let k = 0;
-  const caps = [];
   const narr = [];
-  while (k < lines.length && lines[k] && (lines[k].type === 'narration-ru' || lines[k].type === 'narration')) {
-    const html = lineHTML(lines[k], ep, newSet, sideOf, i, k);
-    if (lines[k].type === 'narration-ru') narr.push(html);
-    else caps.push(html);
-    k++;
-  }
-  const rest = [];
-  for (; k < lines.length; k++) {
-    if (!lines[k] || lines[k].type === 'system') continue;
-    if (lines[k].type === 'narration-ru') narr.push(lineHTML(lines[k], ep, newSet, sideOf, i, k));
-    else rest.push(lineHTML(lines[k], ep, newSet, sideOf, i, k));
-  }
-  const restHTML = rest.join('');
-  return `<section class="panel mood-${mood} rv${knownA ? ' has-img' : ''}" data-i="${i}">
-${artOpen}${caps.length ? `<div class="caps">${caps.join('')}</div>` : ''}</div>
-${restHTML ? `<div class="lines">${restHTML}</div>` : ''}
-</section>${narrGap(narr)}${frames}`;
+  const placed = [];
+  const loose = [];
+  lines.forEach((l, j) => {
+    if (!l || l.type === 'system') return;
+    if (l.type === 'narration-ru') narr.push(lineHTML(l, ep, newSet, sideOf, i, j));
+    else if (knownA && placeOf(l)) placed.push(placedHTML(l, placeOf(l), i, j, newSet));
+    else loose.push(lineHTML(l, ep, newSet, sideOf, i, j));
+  });
+  const gap = narr.length ? `<section class="narr-gap rv">${narr.join('')}</section>` : '';
+  const talk = loose.length ? `<section class="talk rv">${loose.join('')}</section>` : '';
+  return `<section class="panel mood-${mood} rv${knownA ? ' has-img' : ''}${placed.length ? ' placed' : ''}" data-i="${i}">
+<div class="art">${renderPanelArt(p, db.chars)}${img}${placed.length ? `<div class="pl-layer">${placed.join('')}</div>` : ''}</div>
+</section>${gap}${talk}${frames}`;
 }
 
 // Resolves when the user taps the final button.
