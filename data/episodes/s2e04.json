@@ -161,9 +161,9 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "Thank you for the soup. It is very hot. I eat a lot of soup.",
-     "ru": "Спасибо за суп. Он очень горячий. Я ем много супа.",
-     "delivery": "reading aloud carefully, proud and a little shy",
+     "en": "Thank you for the soups, it are very hot and I eat many soup.",
+     "ru": "Спасибо за супы, он очень горячий, и я ем много супа. (С ошибками!)",
+     "delivery": "reading aloud slowly, proud and a little shy, stumbling on the wrong words",
      "place": {
       "x": 0.02,
       "y": 0.14,
@@ -174,8 +174,8 @@
     {
      "type": "speech",
      "who": "thorn",
-     "en": "Now it is correct. That is the lesson.",
-     "ru": "Теперь правильно. В этом и урок.",
+     "en": "Now it is correct. That is the lesson: thank you for the soup. It is very hot. I eat a lot of soup.",
+     "ru": "Теперь правильно. В этом урок: спасибо за суп. Он очень горячий. Я ем много супа.",
      "delivery": "crisp precise voice of a very old teacher, calm and dry, never raised",
      "place": {
       "x": 0.4,

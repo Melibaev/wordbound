@@ -224,7 +224,7 @@
      {
       "who": "soup",
       "en": "I am ready at six. Always.",
-      "ru": "Я готова в шесть. Всегда."
+      "ru": "Я готов в шесть. Всегда."
      }
     ]
    },
@@ -318,12 +318,12 @@
      "success": {
       "who": "soup",
       "en": "Late. A little. Sorry.",
-      "ru": "Опоздала. Чуть-чуть. Прости."
+      "ru": "Опоздал. Чуть-чуть. Прости."
      },
      "fail": {
       "who": "mira",
-      "en": "The bridge closes. She is late.",
-      "ru": "Мост закрывается. Она опоздала."
+      "en": "The bridge closes. He is late.",
+      "ru": "Мост закрывается. Он опоздал."
      }
     },
     {
@@ -388,12 +388,12 @@
      "type": "type",
      "story": {
       "who": "soup",
-      "en": "When am I ready? Say it.",
-      "ru": "Когда я готова? Скажи."
+      "en": "When am I ready? Write it.",
+      "ru": "Когда я готов? Напиши."
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши: «Суп готова в шесть»."
+      "ru": "Напиши: «Суп готов в шесть»."
      },
      "answer": "Soup is ready at six",
      "success": {
@@ -423,7 +423,7 @@
      {
       "who": "soup",
       "en": "I am ready. A little late. Ready.",
-      "ru": "Я готова. Чуть опоздала. Готова."
+      "ru": "Я готов. Чуть опоздал. Готов."
      }
     ]
    }

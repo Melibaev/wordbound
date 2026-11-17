@@ -29,8 +29,8 @@
      },
      {
       "who": "dan",
-      "en": "Could I? Would I? I try.",
-      "ru": "Могу ли я? Хотел бы я? Пробую."
+      "en": "Could I? I try.",
+      "ru": "Можно мне? Пробую."
      }
     ]
    },
@@ -387,8 +387,8 @@
      "type": "type",
      "story": {
       "who": "mira",
-      "en": "Say what you like. Short.",
-      "ru": "Скажи, что ты любишь. Коротко."
+      "en": "Write what you like. Short.",
+      "ru": "Напиши, что ты любишь. Коротко."
      },
      "prompt": {
       "en": "Write it in English.",
@@ -465,8 +465,8 @@
      "type": "fill",
      "story": {
       "who": "clerk",
-      "en": "Would you like ___ sign?",
-      "ru": "Хотите подписать?"
+      "en": "A pen. A paper. A name.",
+      "ru": "Ручка. Бумага. Имя."
      },
      "prompt": {
       "en": "Find the right word.",
@@ -580,17 +580,14 @@
      "type": "type",
      "story": {
       "who": "mira",
-      "en": "Say what you hate. For me.",
-      "ru": "Скажи, что ты ненавидишь. Для меня."
+      "en": "Write what you hate. For me.",
+      "ru": "Напиши, что ты ненавидишь. Для меня."
      },
      "prompt": {
       "en": "Write it in English.",
       "ru": "Напиши: «Я ненавижу таскать»."
      },
      "answer": "I hate carrying",
-     "accept": [
-      "i hate carry"
-     ],
      "success": {
       "who": "mira",
       "en": "Same. I hate it.",

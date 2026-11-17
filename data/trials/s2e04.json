@@ -127,8 +127,8 @@
      "type": "type",
      "story": {
       "who": "mira",
-      "en": "The scarf is mine. Say it.",
-      "ru": "Шарф мой. Скажи."
+      "en": "The scarf is mine. Write it.",
+      "ru": "Шарф мой. Напиши."
      },
      "prompt": {
       "en": "Write it in English.",
@@ -582,8 +582,8 @@
      "type": "type",
      "story": {
       "who": "mira",
-      "en": "How long? Say it.",
-      "ru": "Сколько? Скажи."
+      "en": "How long? Write it.",
+      "ru": "Сколько? Напиши."
      },
      "prompt": {
       "en": "Write it in English.",

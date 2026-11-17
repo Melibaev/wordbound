@@ -167,8 +167,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I am running! This is my fast!",
-     "ru": "Я бегу! Это моя максимальная скорость!",
+     "en": "I am running! I am running fast!",
+     "ru": "Я бегу! Я бегу быстро!",
      "delivery": "breathless, panicked and self-mocking, gasping between words",
      "place": {
       "x": 0.02,
@@ -180,8 +180,8 @@
     {
      "type": "speech",
      "who": "mira",
-     "en": "I am carrying Lina. Your fast is slow, Zero.",
-     "ru": "Я несу Лину. А твоё «быстро» — это медленно, Зеро.",
+     "en": "I am carrying Lina. And you are slow, Zero.",
+     "ru": "Я несу Лину. А ты медленный, Зеро.",
      "delivery": "deadpan, low, unimpressed, running without losing her flat tone",
      "place": {
       "x": 0.55,
@@ -667,13 +667,9 @@
     {
      "id": "mira",
      "pos": "right"
-    },
-    {
-     "id": "silent",
-     "pos": "center"
     }
    ],
-   "art": "Extreme dynamic wide shot: a cable-lift gondola full of passengers has slipped its brake and slides down its brass wire above the plaza, rope swinging, passengers clutching the rail. In the foreground Mira at the right leaps toward the wire with her arms stretched, rope coil flying, while Dan at the left points up with his whole arm. Citizens scatter below; the small Silent Lina in her scarf bundle clings to Mira's backpack.",
+   "art": "Extreme dynamic wide shot: a cable-lift gondola full of passengers has slipped its brake and slides down its brass wire above the plaza, rope swinging, passengers clutching the rail. In the foreground Mira at the right leaps toward the wire with her arms stretched, rope coil flying, while Dan at the left points up with his whole arm. Citizens scatter below.",
    "lines": [
     {
      "type": "shout",
@@ -712,19 +708,6 @@
       "y": 0.52,
       "w": 0.34,
       "tail": "right"
-     }
-    },
-    {
-     "type": "speech",
-     "who": "silent",
-     "en": "Mira. Careful.",
-     "ru": "Мира. Осторожно.",
-     "delivery": "small, thin and worried, a child-like whisper",
-     "place": {
-      "x": 0.42,
-      "y": 0.88,
-      "w": 0.3,
-      "tail": "none"
      }
     }
    ]
@@ -845,7 +828,7 @@
  ],
  "grammarNote": {
   "title": "Present Continuous: что происходит прямо сейчас",
-  "body": "Чтобы сказать, что человек делает что-то ПРЯМО СЕЙЧАС, нужны три части: am / is / are + глагол с -ing. I am running (я бегу). He is running. They are watching us. Короткие формы: I'm, he's, they're. Запомни: running — одна n превратилась в две, selling — просто добавили -ing. Сегодня только утверждения: «Он бежит», «Она продаёт». Вопросы и «не» будут в следующей главе.",
+  "body": "Чтобы сказать, что человек делает что-то ПРЯМО СЕЙЧАС, нужны три части: am / is / are + глагол с -ing. I am running (я бегу). He is running. They are watching us. Короткие формы: I'm, he's, they're. Запомни: running — одна n превратилась в две, selling — просто добавили -ing. Сегодня только утверждения: «Он бежит», «Она продаёт». Вопросы и «не» будут в следующей главе. Осторожно: старик в главе говорит «Houses move. Every year it moves» — это Present Simple, привычка и правило (всегда, каждый год). А «moving» — прямо сейчас.",
   "examples": [
    {
     "en": "He is running.",

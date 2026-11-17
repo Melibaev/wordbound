@@ -2719,8 +2719,8 @@ This — то, что рядом («это»), that — то, что подал�
 - **art:** Dynamic diagonal action shot: the light stair burns away behind the heroes step by step, shedding gold embers, as Dan sprints up at the left, arms pumping, glasses nearly sliding off. Mira at the right runs just behind carrying the small Silent Lina in both arms, her red cord on her left wrist. The gap of nothing yawns below their heels.
 - **Реплики:**
   - `system / system` — **EN:** Warning. The stair is burning down. — **RU:** Внимание. Лестница сгорает.
-  - `speech / dan` — **EN:** I am running! This is my fast! — **RU:** Я бегу! Это моя максимальная скорость!
-  - `speech / mira` — **EN:** I am carrying Lina. Your fast is slow, Zero. — **RU:** Я несу Лину. А твоё «быстро» — это медленно, Зеро.
+  - `speech / dan` — **EN:** I am running! I am running fast! — **RU:** Я бегу! Я бегу быстро!
+  - `speech / mira` — **EN:** I am carrying Lina. And you are slow, Zero. — **RU:** Я несу Лину. А ты медленный, Зеро.
 
 #### Панель 05
 
@@ -2813,13 +2813,12 @@ This — то, что рядом («это»), that — то, что подал�
 #### Панель 14
 
 - **bg:** `street` | **mood:** `action` | **sfx:** `HOLD!`
-- **cast:** dan (left), mira (right), silent (center)
-- **art:** Extreme dynamic wide shot: a cable-lift gondola full of passengers has slipped its brake and slides down its brass wire above the plaza, rope swinging, passengers clutching the rail. In the foreground Mira at the right leaps toward the wire with her arms stretched, rope coil flying, while Dan at the left points up with his whole arm. Citizens scatter below; the small Silent Lina in her scarf bundle clings to Mira's backpack.
+- **cast:** dan (left), mira (right)
+- **art:** Extreme dynamic wide shot: a cable-lift gondola full of passengers has slipped its brake and slides down its brass wire above the plaza, rope swinging, passengers clutching the rail. In the foreground Mira at the right leaps toward the wire with her arms stretched, rope coil flying, while Dan at the left points up with his whole arm. Citizens scatter below.
 - **Реплики:**
   - `shout / citizen` — **EN:** The lift is falling! It is carrying forty people! — **RU:** Лифт падает! В нём сорок человек!
   - `speech / dan` — **EN:** Mira! He is pulling the wrong rope! — **RU:** Мира! Он тянет не ту верёвку!
   - `shout / mira` — **EN:** HOLD! — **RU:** ДЕРЖИ!
-  - `speech / silent` — **EN:** Mira. Careful. — **RU:** Мира. Осторожно.
 
 #### Панель 15
 
@@ -2843,7 +2842,7 @@ This — то, что рядом («это»), that — то, что подал�
 
 ### Грамматика: Present Continuous: что происходит прямо сейчас
 
-Чтобы сказать, что человек делает что-то ПРЯМО СЕЙЧАС, нужны три части: am / is / are + глагол с -ing. I am running (я бегу). He is running. They are watching us. Короткие формы: I'm, he's, they're. Запомни: running — одна n превратилась в две, selling — просто добавили -ing. Сегодня только утверждения: «Он бежит», «Она продаёт». Вопросы и «не» будут в следующей главе.
+Чтобы сказать, что человек делает что-то ПРЯМО СЕЙЧАС, нужны три части: am / is / are + глагол с -ing. I am running (я бегу). He is running. They are watching us. Короткие формы: I'm, he's, they're. Запомни: running — одна n превратилась в две, selling — просто добавили -ing. Сегодня только утверждения: «Он бежит», «Она продаёт». Вопросы и «не» будут в следующей главе. Осторожно: старик в главе говорит «Houses move. Every year it moves» — это Present Simple, привычка и правило (всегда, каждый год). А «moving» — прямо сейчас.
 
 - He is running. — Он бежит.
 - She is selling. — Она продаёт.
@@ -3042,7 +3041,7 @@ This — то, что рядом («это»), that — то, что подал�
 
 ### Грамматика: Present Continuous: вопросы и «не» + Rule и Now
 
-Вопрос: переставь be вперёд. You are doing it. → What are you doing? Is he looking at me? «Не»: добавь not после be. I am not running. He is not looking at me. А теперь главное: привычка и «сейчас». Present Simple (always, never, every day) — это привычка, правило: He always attacks first. Present Continuous — то, что происходит в эту секунду: He is not attacking. He is looking at the crowd. Дэн побеждает не тем, что знает о Руке вообще, а тем, что видит в данный момент.
+Вопрос: переставь be вперёд. You are doing it. → What are you doing? Is he looking at me? «Не»: добавь not после be. I am not running. He is not looking at me. А теперь главное: привычка и «сейчас». Present Simple (always, never, every day) — это привычка, правило: He always attacks first. Present Continuous — то, что происходит в эту секунду: He is not attacking. He is looking at the crowd. Дэн побеждает не тем, что знает о Руке вообще, а тем, что видит в данный момент. Новые слова главы: cheap — дешёвый, rich — богатый, poor — бедный; the auditor's son — сын аудитора (Рук). Badge — значок, coat — пальто.
 
 - He always attacks first. — Он всегда бьёт первым.
 - He is not looking at me. — Он не смотрит на меня.
@@ -3194,12 +3193,12 @@ This — то, что рядом («это»), that — то, что подал�
 
 #### Панель 12
 
-- **bg:** `room` | **mood:** `tense` | **sfx:** `—`
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
 - **cast:** soup (center), dan (left)
 - **art:** Medium shot after the fix: the fan above turns lazily and the smoke drains upward into a clear shaft of lamp light. Dan at the left, covered in soot, holds the last screw between two fingers, shrugs and flicks it carelessly over his shoulder; it pings off the iron pot. Soup at the centre looks at him gently, ladle lowered, with a long thoughtful gaze.
 - **Реплики:**
-  - `speech / soup` — **EN:** The fan is turning. The kitchen is warm again. But you don't ... things, do you? — **RU:** Вытяжка крутится. На кухне снова тепло. Но ты ведь не ... вещи, да?
-  - `narration-ru` — **RU:** Одно слово Супа прошуршало, как мятая бумага. Дэн услышал только пустоту. Последний винт так и остался валяться на полу.
+  - `speech / soup` — **EN:** The fan is turning. The kitchen is warm again. But you don't keep things, do you? — **RU:** Вытяжка крутится. На кухне снова тепло. Но ты ведь не хранишь вещи, да?
+  - `narration-ru` — **RU:** Дэн только пожал плечами. Последний винт так и остался валяться на полу — он не удержал даже его.
   - `system / system` — **EN:** Almost. — **RU:** Почти.
 
 #### Панель 13
@@ -3211,6 +3210,7 @@ This — то, что рядом («это»), that — то, что подал�
   - `thought / dan` — **EN:** Thank you for the soups, it are very hot and I eat many soup. — **RU:** Спасибо за супы, он очень горячий, и я ем много супа.
   - `speech / pip` — **EN:** Nice pencil. How much? — **RU:** Хороший карандаш. Сколько?
   - `system / system` — **EN:** Keep the pencil. — **RU:** Оставь карандаш.
+  - `narration-ru` — **RU:** Дэн пишет «спасибо» как умеет. В этой фразе три ошибки: soups, it are и many soup. Это НЕ образец — завтра их отметят красным.
 
 #### Панель 14
 
@@ -3219,7 +3219,8 @@ This — то, что рядом («это»), that — то, что подал�
 - **art:** Morning-light shot of the stone wall: Dan's pencil words are a messy scribble with three bright slashes and circles of fresh vermilion ink around three of the scribbles, the ink still glistening. Dan at the left stares at it with a toast in his hand; Mira at the right leans in beside him with a raised eyebrow, scarf over her shoulder.
 - **Реплики:**
   - `speech / dan` — **EN:** Somebody is writing on my wall! In red! — **RU:** Кто-то пишет на моей стене! Красным!
-  - `speech / mira` — **EN:** Three red marks. Three mistakes. — **RU:** Три красные пометки. Три ошибки.
+  - `speech / mira` — **EN:** Three red marks. Three mistakes: soups, it are, many soup. — **RU:** Три красные пометки. Три ошибки: soups, it are, many soup.
+  - `speech / dan` — **EN:** It IS hot. A lot of soup. OK, OK. I know. — **RU:** Оно ЖЕ горячее. Много супа. Ладно, ладно. Знаю.
 
 #### Панель 15
 
@@ -3241,7 +3242,7 @@ This — то, что рядом («это»), that — то, что подал�
 
 ### Грамматика: some / any / a lot of: сколько чего
 
-Some — «немного», в утверждениях: There is some soup. There are some eggs. Any — в вопросах и отрицаниях: Is there any bread? There isn't any salt. A lot of — «много» (и в утверждениях, и в вопросах): There is a lot of soup. Слова бывают исчисляемые (an egg, two eggs: there ARE some eggs) и неисчисляемые (soup, bread, salt: there IS some soup — множественного числа у них нет). Дэн использует это как силу: «There is a lot of soup in the pot. There isn't any in you» — и Measure показывает, сколько чего на самом деле.
+Some — «немного», в утверждениях: There is some soup. There are some eggs. Any — в вопросах и отрицаниях: Is there any bread? There isn't any salt. A lot of — «много» (и в утверждениях, и в вопросах): There is a lot of soup. Слова бывают исчисляемые (an egg, two eggs: there ARE some eggs) и неисчисляемые (soup, bread, salt: there IS some soup — множественного числа у них нет). Дэн использует это как силу: «There is a lot of soup in the pot. There isn't any in you» — и Measure показывает, сколько чего на самом деле. Внимание: фраза Дэна на стене «Thank you for the soups, it are very hot and I eat many soup» — НАМЕРЕННО неверная (три ошибки). Правильно: Thank you for the soup. It is very hot. I eat a lot of soup. Не бери её за образец.
 
 - There is some soup. — Есть немного супа.
 - Is there any bread? — Есть хлеб?
@@ -3311,8 +3312,8 @@ Some — «немного», в утверждениях: There is some soup. Th
 - **art:** Dynamic close dramatic shot, low angle, swirling glowing effect, deep blacks and vermilion light. Thorn's pen at the CENTRE flicks through the air; the three mistaken scribbles lift off the wall as vermilion glow-shapes and rearrange themselves into neat abstract lines. Dan at the LEFT leans back with his mouth open, both hands up, a bowl rattling.
 - **Реплики:**
   - `speech / thorn` — **EN:** Three mistakes. Read it, Dan. Slowly. — **RU:** Три ошибки. Читай, Дэн. Медленно.
-  - `speech / dan` — **EN:** Thank you for the soup. It is very hot. I eat a lot of soup. — **RU:** Спасибо за суп. Он очень горячий. Я ем много супа.
-  - `speech / thorn` — **EN:** Now it is correct. That is the lesson. — **RU:** Теперь правильно. В этом и урок.
+  - `speech / dan` — **EN:** Thank you for the soups, it are very hot and I eat many soup. — **RU:** Спасибо за супы, он очень горячий, и я ем много супа. (С ошибками!)
+  - `speech / thorn` — **EN:** Now it is correct. That is the lesson: thank you for the soup. It is very hot. I eat a lot of soup. — **RU:** Теперь правильно. В этом урок: спасибо за суп. Он очень горячий. Я ем много супа.
 
 #### Панель 04
 
@@ -3589,7 +3590,7 @@ Some — «немного», в утверждениях: There is some soup. Th
 - **Реплики:**
   - `speech / clerk` — **EN:** Name? — **RU:** Имя?
   - `speech / dan` — **EN:** Dan. I would like to enter the Proof, please. — **RU:** Дэн. Я бы хотел участвовать в Proof, пожалуйста.
-  - `speech / clerk` — **EN:** Sign here. Minimum count: 150. You have it. Barely. — **RU:** Подпиши здесь. Минимум: 150. У тебя есть. Едва.
+  - `speech / clerk` — **EN:** Sign here. You need a count of 150. You have it. Just. — **RU:** Подпиши здесь. Нужен счёт 150. У тебя есть. Едва.
   - `system / system` — **EN:** Count: 150. — **RU:** Счёт: 150.
 
 #### Панель 12
@@ -3611,7 +3612,7 @@ Some — «немного», в утверждениях: There is some soup. Th
 - **Реплики:**
   - `speech / dan` — **EN:** Could I see the list of teams, please? — **RU:** Можно мне посмотреть список команд, пожалуйста?
   - `speech / clerk` — **EN:** Polite. Hm. Sign it, if you want. — **RU:** Вежливый. Хм. Подпиши, если хочешь.
-  - `system / system` — **EN:** Entrants. Team: Marl, A. Sponsor: the Ledger. — **RU:** Участники. Команда: Марл, А. Спонсор: Ledger.
+  - `system / system` — **EN:** Names. Team: Marl, A. Money: the Ledger. — **RU:** Имена. Команда: Марл, А. Деньги: Ledger.
 
 #### Панель 14
 

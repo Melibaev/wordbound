@@ -526,11 +526,11 @@
       "en": "Find the right word.",
       "ru": "Выбери нужное слово."
      },
-     "sentence": "I ___ wearing a coat. I am wearing a lanyard.",
+     "sentence": "I am ___ wearing a coat. I am wearing a lanyard.",
      "options": [
-      "am not",
-      "is not",
-      "are not"
+      "not",
+      "never",
+      "now"
      ],
      "answer": 0,
      "success": {
@@ -539,9 +539,9 @@
       "ru": "Правда."
      },
      "fail": {
-      "who": "system",
-      "en": "Am not. Not 'is not'.",
-      "ru": "I am not. Не «I is not»."
+      "who": "mira",
+      "en": "I am NOT wearing a coat.",
+      "ru": "I am NOT wearing a coat."
      }
     },
     {
@@ -579,17 +579,17 @@
      "type": "build",
      "story": {
       "who": "dan",
-      "en": "What is he doing with it?",
-      "ru": "Что он с ним делает?"
+      "en": "That is my mother's phone! What is he doing?",
+      "ru": "Это телефон моей мамы! Что он делает?"
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери вопрос Дэна: «Что он делает с моим телефоном?»"
+      "ru": "Собери вопрос Дэна: «Что ты делаешь?»"
      },
-     "answer": "What is he doing with my phone",
+     "answer": "What are you doing",
      "distractors": [
       "does",
-      "are"
+      "is"
      ],
      "success": {
       "who": "system",
@@ -598,8 +598,8 @@
      },
      "fail": {
       "who": "system",
-      "en": "What is he doing. Is after what.",
-      "ru": "What is he doing. Is — после what."
+      "en": "What are you doing. Are after what.",
+      "ru": "What are you doing. Are — после what."
      }
     },
     {

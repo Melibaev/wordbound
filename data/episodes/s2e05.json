@@ -599,8 +599,8 @@
     {
      "type": "speech",
      "who": "clerk",
-     "en": "Sign here. Minimum count: 150. You have it. Barely.",
-     "ru": "Подпиши здесь. Минимум: 150. У тебя есть. Едва.",
+     "en": "Sign here. You need a count of 150. You have it. Just.",
+     "ru": "Подпиши здесь. Нужен счёт 150. У тебя есть. Едва.",
      "delivery": "bored nasal clerk voice, flat politeness that has seen everything",
      "place": {
       "x": 0.5,
@@ -730,8 +730,8 @@
     {
      "type": "system",
      "who": "system",
-     "en": "Entrants. Team: Marl, A. Sponsor: the Ledger.",
-     "ru": "Участники. Команда: Марл, А. Спонсор: Ledger.",
+     "en": "Names. Team: Marl, A. Money: the Ledger.",
+     "ru": "Имена. Команда: Марл, А. Деньги: Ledger.",
      "delivery": "flat cold game-system announcement with a dry hint of mockery",
      "place": {
       "x": 0.4,
