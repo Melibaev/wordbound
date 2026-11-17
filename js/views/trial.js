@@ -38,7 +38,7 @@ function lineHTML(l, cls = '') {
   if (!l || !l.en) return '';
   const who = l.who || '';
   if (who === 'system') {
-    return `<div class="tline ${cls}">${sysWindowHTML({ kind: 'system', title: 'SYSTEM', rows: [{ en: l.en, ru: l.ru, attrs: `data-v="system" data-d="${esc(l.delivery || '')}"` }] })}</div>`;
+    return `<div class="tline sys-frame ${cls}">${sysWindowHTML({ kind: 'system', title: 'SYSTEM', rows: [{ en: l.en, ru: l.ru, attrs: `data-v="system" data-d="${esc(l.delivery || '')}"` }] })}</div>`;
   }
   const nm = charName(who);
   const tag = nm ? `<div class="ctag c-${esc(who)}"><span class="av">${esc(nm.slice(0, 1))}</span>${esc(nm)}</div>` : '';
@@ -51,11 +51,12 @@ function lineHTML(l, cls = '') {
 function winHTML(w, fallbackKind) {
   if (!w || !Array.isArray(w.lines) || !w.lines.length) return '';
   const kind = w.kind || fallbackKind || 'system';
-  return sysWindowHTML({
+  return `<div class="sys-frame">${sysWindowHTML({
     kind,
     title: w.title || undefined,
+    warn: kind === 'warning',
     rows: w.lines.map((l) => ({ en: l.en, ru: l.ru, attrs: 'data-v="system" data-d=""' })),
-  });
+  })}</div>`;
 }
 
 function promptHTML(p) {
@@ -408,7 +409,7 @@ async function runTrial(root, ctx, env) {
         root,
         `<div class="trial fail">${head(ep, trial, 0, (i / steps.length) * 100, env.exit)}<div class="tbody">
 <div class="stamp big-stamp no">ПРОВАЛ</div>
-${sysWindowHTML({ kind: 'warning', title: 'WARNING', rows: [{ en: 'Trial failed.', ru: 'Испытание провалено.', attrs: 'data-v="system" data-d=""' }] })}
+<div class="sys-frame">${sysWindowHTML({ kind: 'warning', title: 'WARNING', warn: true, rows: [{ en: 'Trial failed.', ru: 'Испытание провалено.', attrs: 'data-v="system" data-d=""' }] })}</div>
 <p class="center muted">Верных ответов: <b>${correct}</b> из ${steps.length}. Нужно не меньше ${need}. Попробуй ещё раз: слова никуда не денутся.</p>
 <button class="btn primary big" data-act="again"><span>Заново</span></button>
 <a class="btn" href="${esc(env.exit)}">К списку испытаний</a></div></div>`

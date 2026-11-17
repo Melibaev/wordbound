@@ -18,7 +18,16 @@ export function defaults() {
     episodes: {}, // id -> { done, date, score, total }
     trials: {}, // trialId -> { passed, date, best, attempts, prog:{ i, lives, correct } }
     days: [], // studied day keys, never reset
-    settings: { theme: 'auto', rate: 0.9, voice: '', speech: 'normal', hintDismissed: false },
+    settings: {
+      theme: 'auto',
+      rate: 0.9,
+      voice: '',
+      speech: 'normal',
+      hintDismissed: false,
+      read: 'learn',
+      learnWay: 'ru-en',
+      learnGrain: 'sentence',
+    },
   };
 }
 

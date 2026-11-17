@@ -8,7 +8,12 @@ import { icon } from './ui.js';
 // Delegates clicks on `.w[data-w]` inside root. Returns { close, destroy }.
 export function wordPop(root) {
   let pop = null;
+  let anchor = null;
   function close() {
+    if (anchor) {
+      anchor.classList.remove('on');
+      anchor = null;
+    }
     if (pop) {
       pop.remove();
       pop = null;
@@ -16,6 +21,8 @@ export function wordPop(root) {
   }
   function show(el, w) {
     close();
+    anchor = el;
+    el.classList.add('on');
     const rec = store.getRec(w.id);
     pop = document.createElement('div');
     pop.className = 'pop';
@@ -28,13 +35,18 @@ ${db.pron[w.id] ? `<div class="pop-ipa muted">/${esc(db.pron[w.id])}/</div>` : '
 <button class="btn small ${rec ? 'on' : ''}" data-padd>${rec ? 'В моих словах ✓' : '+ В мои слова'}</button>`;
     document.body.appendChild(pop);
     const r = el.getBoundingClientRect();
+    const margin = 8;
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
     const pw = pop.offsetWidth;
     const ph = pop.offsetHeight;
-    const left = Math.min(Math.max(8, r.left + r.width / 2 - pw / 2), window.innerWidth - pw - 8);
+    const left = Math.max(margin, Math.min(r.left + r.width / 2 - pw / 2, vw - pw - margin));
     let top = r.bottom + 10;
-    if (top + ph > window.innerHeight - 8) top = r.top - ph - 10;
+    if (top + ph > vh - margin) top = r.top - ph - 10;
+    if (top < margin) top = margin;
+    if (top + ph > vh - margin) top = Math.max(margin, vh - ph - margin);
     pop.style.left = left + 'px';
-    pop.style.top = Math.max(8, top) + 'px';
+    pop.style.top = top + 'px';
     pop.querySelector('[data-pspk]').addEventListener('click', () => playWord(w.id, w.w, tok));
     const add = pop.querySelector('[data-padd]');
     add.addEventListener('click', () => {

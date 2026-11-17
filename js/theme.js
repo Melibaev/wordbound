@@ -14,7 +14,7 @@ export function applyTheme() {
     }
   }
   const m = document.querySelector('meta[name="theme-color"]');
-  if (m) m.setAttribute('content', dark ? '#111111' : '#F4F0E6');
+  if (m) m.setAttribute('content', dark ? '#0C0B0A' : '#F4F0E6');
 }
 
 try {

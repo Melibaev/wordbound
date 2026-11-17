@@ -5,8 +5,10 @@ import { renderPanelArt } from '../art.js';
 import { playLine, playScene, prefetchEpisode, stopAudio } from '../audio.js';
 import { esc, reduceMotion } from '../util.js';
 import { icon, errorBox } from '../ui.js';
-import { tokensHTML, sysWindowHTML, isWarn } from '../sysmsg.js';
+import { tokensHTML, sysWindowHTML, sysKind } from '../sysmsg.js';
 import { wordPop } from '../wordpop.js';
+import { applyTheme } from '../theme.js';
+import { readPrefs, showHTML, narrationBitsHTML, flipEl } from '../readmode.js';
 
 const BUBBLE = new Set(['speech', 'thought', 'shout']);
 
@@ -34,13 +36,14 @@ function spk(pi, li) {
 
 function lineHTML(line, ep, newSet, sideOf, pi, li) {
   const type = line.type || 'speech';
+  if (type === 'system') return '';
   if (type === 'narration-ru') {
-    return `<div class="cap cap-ru"><p>${esc(line.ru || '')}</p></div>`;
+    return `<div class="cap cap-ru">${narrationBitsHTML(line, readPrefs())}</div>`;
   }
   const en = line.en || '';
   const ru = line.ru || '';
   const ruBlock = ru ? `<p class="ru" hidden>${esc(ru)}</p>` : '';
-  const enHTML = `<p class="en">${tokensHTML(en, newSet)}</p>`;
+  const enHTML = showHTML(en, ru, readPrefs(), newSet);
   if (type === 'narration') {
     return `<div class="cap cap-en">${enHTML}${spk(pi, li)}${ruTag(ru)}${ruBlock}</div>`;
   }
@@ -70,12 +73,9 @@ function placedHTML(l, pl, pi, li, newSet) {
   const ru = l.ru || '';
   const ruBlock = ru ? `<p class="ru" hidden>${esc(ru)}</p>` : '';
   const wrap = (cls, inner) => `<div class="pl ${cls}" data-tail="${pl.tail}" style="${style}">${inner}</div>`;
-  if (type === 'narration-ru') return wrap('pl-cap', `<div class="cap cap-ru"><p>${esc(ru)}</p></div>`);
-  const enHTML = `<p class="en">${tokensHTML(l.en || '', newSet)}</p>`;
-  if (type === 'system') {
-    const warn = isWarn(l.en);
-    return wrap('pl-sys', sysWindowHTML({ kind: warn ? 'warning' : 'system', title: 'SYSTEM', rows: [{ en: l.en, ru, attrs: `data-p="${pi}" data-l="${li}"`, newSet }], warn, overlay: true }));
-  }
+  if (type === 'system') return '';
+  if (type === 'narration-ru') return wrap('pl-cap', `<div class="cap cap-ru">${narrationBitsHTML(l, readPrefs())}</div>`);
+  const enHTML = showHTML(l.en || '', ru, readPrefs(), newSet);
   const body = `${enHTML}${spk(pi, li)}${ruTag(ru)}${ruBlock}`;
   if (type === 'narration') return wrap('pl-cap', `<div class="cap cap-en">${body}</div>`);
   const t = BUBBLE.has(type) ? type : 'speech';
@@ -191,6 +191,76 @@ function toggleRuPop(pl, btn) {
   btn.setAttribute('aria-expanded', 'true');
 }
 
+// RU for a bubble that is not placed on the art. Fixed popover: the bubble itself does not grow.
+let flowRu = null;
+function closeFlowRu() {
+  if (flowRu) {
+    flowRu.remove();
+    flowRu = null;
+  }
+  document.querySelectorAll('[data-ru].on').forEach((b) => {
+    if (b.closest('.pl')) return;
+    b.classList.remove('on');
+    b.setAttribute('aria-expanded', 'false');
+  });
+}
+function toggleFlowRu(box, btn) {
+  const was = btn.classList.contains('on');
+  closeFlowRu();
+  if (was) return;
+  const src = box && box.querySelector('.ru');
+  if (!src || !src.textContent.trim()) return;
+  const pop = document.createElement('div');
+  pop.className = 'flow-ru';
+  pop.setAttribute('role', 'note');
+  pop.textContent = src.textContent;
+  document.body.appendChild(pop);
+  flowRu = pop;
+  const r = box.getBoundingClientRect();
+  const margin = 8;
+  const vw = window.innerWidth;
+  const vh = window.innerHeight;
+  const wd = Math.min(360, vw - margin * 2, Math.max(r.width, Math.min(200, vw - margin * 2)));
+  pop.style.width = wd + 'px';
+  const ph = pop.offsetHeight;
+  let left = r.left;
+  if (left + wd > vw - margin) left = vw - wd - margin;
+  if (left < margin) left = margin;
+  let top = r.bottom + margin;
+  if (top + ph > vh - margin) top = r.top - ph - margin;
+  if (top < margin) top = margin;
+  if (top + ph > vh - margin) top = Math.max(margin, vh - ph - margin);
+  pop.style.left = left + 'px';
+  pop.style.top = top + 'px';
+  btn.classList.add('on');
+  btn.setAttribute('aria-expanded', 'true');
+}
+
+function paintReaderBar() {
+  const m = document.querySelector('meta[name="theme-color"]');
+  if (m) m.setAttribute('content', document.documentElement.dataset.theme === 'light' ? '#F4F0E6' : '#0C0B0A');
+}
+
+// System lines leave the picture. Consecutive lines of one kind share one frame under that panel.
+function systemFrames(lines, pi, newSet) {
+  const groups = [];
+  let prev = false;
+  lines.forEach((l, j) => {
+    if (!l || l.type !== 'system' || !l.en) {
+      prev = false;
+      return;
+    }
+    const kind = sysKind(l.en);
+    const row = { en: l.en, ru: l.ru || '', attrs: `data-p="${pi}" data-l="${j}"`, newSet };
+    if (prev && groups[groups.length - 1].kind === kind) groups[groups.length - 1].rows.push(row);
+    else groups.push({ kind, rows: [row] });
+    prev = true;
+  });
+  return groups
+    .map((g) => `<section class="sys-frame rv">${sysWindowHTML({ kind: g.kind, rows: g.rows, warn: g.kind === 'warning' })}</section>`)
+    .join('');
+}
+
 function panelHTML(p, i, ep, newSet, media) {
   const sides = {};
   let nextSide = 0;
@@ -205,60 +275,58 @@ function panelHTML(p, i, ep, newSet, media) {
     if (!(id in sides)) sides[id] = nextSide++ % 2 ? 'right' : 'left';
     return pos === 'center' ? 'center' : sides[id];
   };
-  const lines = p.lines;
+  const lines = p.lines || [];
+  const frames = systemFrames(lines, i, newSet);
+  const narrGap = (chunks) => (chunks.length ? `<section class="narr-gap rv">${chunks.join('')}</section>` : '');
   const knownA = media.entry && (media.entry.images || []).includes(i + 1);
-  const needPlace = lines.filter((l) => l.type !== 'narration-ru');
-  if (knownA && needPlace.length && needPlace.every((l) => placeOf(l))) {
+  const kept = [];
+  lines.forEach((l, j) => {
+    if (!l || l.type === 'system') return;
+    kept.push({ l, j });
+  });
+  const placeables = kept.filter(({ l }) => l.type !== 'narration-ru');
+  const mood = ['calm', 'tense', 'action'].includes(p.mood) ? p.mood : 'calm';
+  const alt = esc(p.art || '');
+  const img = knownA
+    ? `<img class="art-img" src="${esc(media.base + nn(i) + '.jpg' + media.q)}" alt="${alt}" decoding="async" loading="${i < 2 ? 'eager' : 'lazy'}" data-alt="${alt}">`
+    : '';
+  const artOpen = `<div class="art">${renderPanelArt(p, db.chars)}${img}`;
+  if (knownA && placeables.length && placeables.every(({ l }) => placeOf(l))) {
     const capsP = [];
+    const narr = [];
     const items = [];
-    lines.forEach((l, j) => {
-      const pl = placeOf(l);
-      if (pl) items.push(placedHTML(l, pl, i, j, newSet));
-      else capsP.push(lineHTML(l, ep, newSet, sideOf, i, j));
+    kept.forEach(({ l, j }) => {
+      const html = l.type === 'narration-ru' || !placeOf(l)
+        ? lineHTML(l, ep, newSet, sideOf, i, j)
+        : '';
+      if (l.type === 'narration-ru') narr.push(html);
+      else if (placeOf(l)) items.push(placedHTML(l, placeOf(l), i, j, newSet));
+      else capsP.push(html);
     });
-    const mood = ['calm', 'tense', 'action'].includes(p.mood) ? p.mood : 'calm';
-    const alt = esc(p.art || '');
-    const img = `<img class="art-img" src="${esc(media.base + nn(i) + '.jpg' + media.q)}" alt="${alt}" decoding="async" loading="${i < 2 ? 'eager' : 'lazy'}" data-alt="${alt}">`;
     return `<section class="panel mood-${mood} rv has-img placed" data-i="${i}">
-${capsP.length ? `<div class="caps-top">${capsP.join('')}</div>` : ''}<div class="art">${renderPanelArt(p, db.chars)}${img}<div class="pl-layer">${items.join('')}</div></div>
-</section>`;
+${capsP.length ? `<div class="caps-top">${capsP.join('')}</div>` : ''}${artOpen}<div class="pl-layer">${items.join('')}</div></div>
+</section>${narrGap(narr)}${frames}`;
   }
   let k = 0;
   const caps = [];
-  while (k < lines.length && (lines[k].type === 'narration-ru' || lines[k].type === 'narration')) {
-    caps.push(lineHTML(lines[k], ep, newSet, sideOf, i, k));
+  const narr = [];
+  while (k < lines.length && lines[k] && (lines[k].type === 'narration-ru' || lines[k].type === 'narration')) {
+    const html = lineHTML(lines[k], ep, newSet, sideOf, i, k);
+    if (lines[k].type === 'narration-ru') narr.push(html);
+    else caps.push(html);
     k++;
   }
-  const known0 = media.entry && (media.entry.images || []).includes(i + 1);
-  const overlay = [];
-  const restParts = [];
-  let grp = null;
-  lines.slice(k).forEach((l, j) => {
-    if (l.type === 'system' && l.en) {
-      const warn = isWarn(l.en);
-      if (!grp || grp.warn !== warn) {
-        grp = { warn, rows: [] };
-        (known0 ? overlay : restParts).push(grp);
-      }
-      grp.rows.push({ en: l.en, ru: l.ru, attrs: `data-p="${i}" data-l="${k + j}"`, newSet });
-      return;
-    }
-    grp = null;
-    restParts.push(lineHTML(l, ep, newSet, sideOf, i, k + j));
-  });
-  const winOf = (g, ov) => sysWindowHTML({ kind: g.warn ? 'warning' : 'system', title: 'SYSTEM', rows: g.rows, warn: g.warn, overlay: ov });
-  const rest = restParts.map((x) => (typeof x === 'string' ? x : winOf(x, false))).join('');
-  const sysOver = overlay.length ? `<div class="sys-over${caps.length ? ' low' : ''}">${overlay.map((g) => winOf(g, true)).join('')}</div>` : '';
-  const mood = ['calm', 'tense', 'action'].includes(p.mood) ? p.mood : 'calm';
-  const known = media.entry && (media.entry.images || []).includes(i + 1);
-  const alt = esc(p.art || '');
-  const img = known
-    ? `<img class="art-img" src="${esc(media.base + nn(i) + '.jpg' + media.q)}" alt="${alt}" decoding="async" loading="${i < 2 ? 'eager' : 'lazy'}" data-alt="${alt}">`
-    : '';
-  return `<section class="panel mood-${mood} rv${known ? ' has-img' : ''}" data-i="${i}">
-<div class="art">${renderPanelArt(p, db.chars)}${img}${sysOver}${caps.length ? `<div class="caps">${caps.join('')}</div>` : ''}</div>
-${rest ? `<div class="lines">${rest}</div>` : ''}
-</section>`;
+  const rest = [];
+  for (; k < lines.length; k++) {
+    if (!lines[k] || lines[k].type === 'system') continue;
+    if (lines[k].type === 'narration-ru') narr.push(lineHTML(lines[k], ep, newSet, sideOf, i, k));
+    else rest.push(lineHTML(lines[k], ep, newSet, sideOf, i, k));
+  }
+  const restHTML = rest.join('');
+  return `<section class="panel mood-${mood} rv${knownA ? ' has-img' : ''}" data-i="${i}">
+${artOpen}${caps.length ? `<div class="caps">${caps.join('')}</div>` : ''}</div>
+${restHTML ? `<div class="lines">${restHTML}</div>` : ''}
+</section>${narrGap(narr)}${frames}`;
 }
 
 // Resolves when the user taps the final button.
@@ -293,6 +361,8 @@ export async function readEpisode(root, ep, ctx, opts = {}) {
         const max = document.documentElement.scrollHeight - window.innerHeight;
         prog.style.width = (max > 0 ? Math.min(100, (window.scrollY / max) * 100) : 100) + '%';
         closePop();
+        closeFlowRu();
+        root.querySelectorAll('.pl-layer').forEach(closeRuPop);
       });
     };
     window.addEventListener('scroll', onScroll, { passive: true });
@@ -395,13 +465,37 @@ export async function readEpisode(root, ep, ctx, opts = {}) {
       }
     });
 
-    const fitAll = () => root.querySelectorAll('.pl-layer').forEach(fitLayer);
-    requestAnimationFrame(fitAll);
-    window.addEventListener('resize', fitAll);
     const wp = wordPop(root);
     const closePop = wp.close;
+    const fitAll = () => {
+      closeFlowRu();
+      wp.close();
+      root.querySelectorAll('.pl-layer').forEach((layer) => {
+        closeRuPop(layer);
+        fitLayer(layer);
+      });
+    };
+    requestAnimationFrame(fitAll);
+    window.addEventListener('resize', fitAll);
+    paintReaderBar();
 
     const onClick = (e) => {
+      const chip = e.target.closest('.mix, .bit');
+      if (chip && chip.dataset.flip != null) {
+        flipEl(chip);
+        return;
+      }
+      const line = e.target.closest('[data-flip-line]');
+      if (line && !e.target.closest('.w, .mix, .spk, .rutag')) {
+        flipEl(line);
+        return;
+      }
+      if (e.target.closest('.flow-ru')) { closeFlowRu(); return; }
+      if (e.target.closest('.w')) {
+        closeFlowRu();
+        root.querySelectorAll('.pl-layer').forEach(closeRuPop);
+        return;
+      }
       const scn = e.target.closest('.vid-say');
       if (scn) {
         const art = scn.closest('.art');
@@ -414,25 +508,46 @@ export async function readEpisode(root, ep, ctx, opts = {}) {
       if (say) {
         const box = say.closest('.bub, .bub-shout, .cap, .sysrow');
         const en = box && box.querySelector('.en');
-        if (en) playLine(ep.id, Number(say.dataset.p), Number(say.dataset.l), en.textContent);
+        if (en) playLine(ep.id, Number(say.dataset.p), Number(say.dataset.l), en.dataset.sayEn || en.dataset.en || en.textContent);
         return;
       }
       const popClick = e.target.closest('.pl-ru');
       if (popClick) { closeRuPop(popClick.parentNode); return; }
       const ru = e.target.closest('[data-ru]');
-      const plEl = ru && ru.closest('.pl');
-      if (plEl) { toggleRuPop(plEl, ru); return; }
       if (ru) {
-        const box = ru.closest('.bub, .bub-shout, .cap, .sysrow');
-        const p = box && box.querySelector('.ru');
-        if (p) {
-          p.hidden = !p.hidden;
-          ru.classList.toggle('on', !p.hidden);
-          ru.setAttribute('aria-expanded', String(!p.hidden));
-          const lay = ru.closest('.pl-layer');
-          if (lay) setTimeout(() => fitLayer(lay), 0);
+        const sys = ru.closest('.sysrow');
+        if (sys) {
+          closeFlowRu();
+          wp.close();
+          const p = sys.querySelector('.ru');
+          if (!p) return;
+          const show = p.hasAttribute('hidden');
+          root.querySelectorAll('.sysrow .ru').forEach((el) => { if (el !== p) el.hidden = true; });
+          root.querySelectorAll('.sysrow [data-ru]').forEach((b) => {
+            if (b === ru) return;
+            b.classList.remove('on');
+            b.setAttribute('aria-expanded', 'false');
+          });
+          p.hidden = !show;
+          ru.classList.toggle('on', show);
+          ru.setAttribute('aria-expanded', show ? 'true' : 'false');
+          return;
         }
+        const plEl = ru.closest('.pl');
+        if (plEl) {
+          closeFlowRu();
+          wp.close();
+          toggleRuPop(plEl, ru);
+          return;
+        }
+        const box = ru.closest('.bub, .bub-shout, .cap, .sysrow');
+        root.querySelectorAll('.pl-layer').forEach(closeRuPop);
+        wp.close();
+        if (box) toggleFlowRu(box, ru);
+        return;
       }
+      closeFlowRu();
+      root.querySelectorAll('.pl-layer').forEach(closeRuPop);
     };
     root.addEventListener('click', onClick);
 
@@ -443,7 +558,9 @@ export async function readEpisode(root, ep, ctx, opts = {}) {
       vids.forEach((v) => v.pause());
       root.removeEventListener('click', onClick);
       window.removeEventListener('resize', fitAll);
+      closeFlowRu();
       wp.destroy();
+      applyTheme();
       cancelPrefetch();
       stopAudio();
     };

@@ -19,6 +19,12 @@ export async function mount(root, ctx) {
   };
 
   root.innerHTML = `<div class="screen settings">${topbar('Настройки')}
+<section class="card"><h2>Как читать</h2>
+<p class="muted">Чтение — весь текст на одном языке. Обучение — с твоего уровня: короткие фразы на английском, остальное на русском. Нажал фразу или слово — увидел перевод.</p>
+<div class="seg" id="read">${[['learn', 'Обучение'], ['en', 'English'], ['ru', 'Русский']].map(([k, l]) => `<button class="${(set.read || 'learn') === k ? 'on' : ''}" data-r="${k}">${l}</button>`).join('')}</div>
+<div class="seg" id="way" style="margin-top:8px">${[['ru-en', 'С русского'], ['en-ru', 'С английского']].map(([k, l]) => `<button class="${(set.learnWay || 'ru-en') === k ? 'on' : ''}" data-w="${k}">${l}</button>`).join('')}</div>
+<div class="seg" id="grain" style="margin-top:8px">${[['sentence', 'Фразы'], ['word', 'Слова']].map(([k, l]) => `<button class="${(set.learnGrain || 'sentence') === k ? 'on' : ''}" data-g="${k}">${l}</button>`).join('')}</div>
+</section>
 <section class="card"><h2>Тема</h2>
 <div class="seg" id="theme">${themes.map(([k, l]) => `<button class="${set.theme === k ? 'on' : ''}" data-t="${k}">${l}</button>`).join('')}</div></section>
 <section class="card"><h2>Озвучка</h2>
@@ -43,6 +49,19 @@ ${
 <p class="muted center">WORDBOUND · версия 1</p></div>`;
 
   const q = (id) => root.querySelector(id);
+
+  const seg = (id, key, attr) => {
+    q(id).addEventListener('click', (e) => {
+      const b = e.target.closest('[' + attr + ']');
+      if (!b) return;
+      set[key] = b.getAttribute(attr);
+      store.save();
+      q(id).querySelectorAll('button').forEach((x) => x.classList.toggle('on', x === b));
+    });
+  };
+  seg('#read', 'read', 'data-r');
+  seg('#way', 'learnWay', 'data-w');
+  seg('#grain', 'learnGrain', 'data-g');
 
   q('#theme').addEventListener('click', (e) => {
     const b = e.target.closest('[data-t]');

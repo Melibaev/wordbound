@@ -1,5 +1,5 @@
 // WORDBOUND service worker: network-first with cache fallback; background prefetch of episodes.
-const CACHE = 'wordbound-v12';
+const CACHE = 'wordbound-v17';
 const MEDIA = 'wordbound-media-v1';
 const MEDIA_MAX = 150;
 const AUDIO = 'wordbound-audio-v1';
@@ -16,6 +16,7 @@ const SHELL = [
   'js/store.js',
   'js/srs.js',
   'js/levels.js',
+  'js/readmode.js',
   'js/theme.js',
   'js/tts.js',
   'js/audio.js',

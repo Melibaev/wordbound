@@ -16,14 +16,22 @@ export function tokensHTML(text, newSet) {
 export const isWarn = (text) => /^\s*(warning|word lost|not true)/i.test(String(text || ''));
 
 const KINDS = {
-  system: { title: 'SYSTEM', stamp: 'OFFICIAL' },
-  quest: { title: 'QUEST', stamp: 'ACCEPTED' },
-  status: { title: 'STATUS', stamp: 'LOGGED' },
-  warning: { title: 'WARNING', stamp: 'DANGER' },
-  reward: { title: 'REWARD', stamp: 'CLAIMED' },
+  system: { title: 'SYSTEM' },
+  quest: { title: 'QUEST' },
+  status: { title: 'STATUS' },
+  warning: { title: 'WARNING' },
+  reward: { title: 'REWARD' },
 };
-const TILTS = [-1.1, 0.8, -0.6, 1.0];
-let seq = 0;
+
+// Episode lines have no kind field. Trials pass kind themselves.
+export function sysKind(text) {
+  const t = String(text || '');
+  if (isWarn(t)) return 'warning';
+  if (/^\s*(quest|mission)\b/i.test(t)) return 'quest';
+  if (/^\s*(reward|bonus)\b/i.test(t)) return 'reward';
+  if (/^\s*status\b/i.test(t)) return 'status';
+  return 'system';
+}
 
 export function sysRowHTML({ en, ru, attrs = '', newSet = null }) {
   const rt = ru
@@ -32,17 +40,12 @@ export function sysRowHTML({ en, ru, attrs = '', newSet = null }) {
   return `<div class="sysrow"><p class="en">${tokensHTML(en, newSet)}</p><button class="spk" data-say ${attrs} aria-label="Озвучить">${icon('speaker')}</button>${rt}${ru ? `<p class="ru" hidden>${esc(ru)}</p>` : ''}</div>`;
 }
 
-// rows: [{ en, ru, attrs, newSet }]. kind: system|quest|status|warning|reward. overlay: absolutely placed over panel art.
-export function sysWindowHTML({ kind = 'system', title, rows, warn, overlay = false, tilt }) {
+// One chrome everywhere. kind: system|quest|status|warning|reward.
+// overlay and tilt are ignored: the window is a flat full-width frame, never a sticker.
+export function sysWindowHTML({ kind = 'system', title, rows, warn }) {
   const k = KINDS[kind] ? kind : 'system';
-  const isW = warn != null ? warn : k === 'warning';
+  const isW = warn != null ? !!warn : k === 'warning';
   const t = String(title || KINDS[k].title).toUpperCase();
-  const tl = tilt != null ? tilt : TILTS[seq++ % TILTS.length];
-  const stamp = isW ? 'WARNING' : KINDS[k].stamp;
-  return `<div class="sysw k-${k}${isW ? ' warn' : ''}${overlay ? ' overlay' : ''}" style="--tilt:${tl}deg" role="group" aria-label="${esc(t)}">
-<div class="sysw-a"><div class="sysw-b"><div class="sysw-c"><div class="sysw-d">
-<div class="sysw-bar"><b>[ ${esc(t)} ]</b><span class="sysw-ctl" aria-hidden="true"><i></i><i></i><i></i></span></div>
-<div class="sysw-body">${rows.map(sysRowHTML).join('')}</div>
-<span class="sysw-stamp" aria-hidden="true">${esc(stamp)}</span>
-</div></div></div></div></div>`;
+  const body = (Array.isArray(rows) ? rows : []).map(sysRowHTML).join('');
+  return `<div class="sysw k-${k}${isW ? ' warn' : ''}" role="group" aria-label="${esc(t)}"><p class="sysw-lab">${esc(t)}</p><div class="sysw-body">${body}</div></div>`;
 }
