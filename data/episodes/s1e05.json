@@ -34,7 +34,24 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Шаги Безмолвных — отовсюду. Мира дёргает Дэна за рукав. Вот боковая дверь — а слова «открыть» у Дэна больше нет."
+     "ru": "Шаги Безмолвных — отовсюду. Мира дёргает Дэна за рукав. Вот боковая дверь — а слова «открыть» у Дэна больше нет.",
+     "bits": [
+      {
+       "ru": "Шаги Безмолвных — отовсюду.",
+       "en": "Silent footsteps — from everywhere.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Мира дёргает Дэна за рукав.",
+       "en": "Mira pulls Dan by the sleeve.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Вот боковая дверь — а слова «открыть» у Дэна больше нет.",
+       "en": "Here is a side door — but Dan no longer has the word open.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "shout",
@@ -232,8 +249,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "Can I ask a question?",
-     "ru": "Можно задать вопрос?",
+     "en": "Can I ask?",
+     "ru": "Можно спросить?",
      "delivery": "polite and playful, boyish and hesitant, raising a hand like a schoolboy",
      "place": {
       "x": 0.03,
@@ -303,7 +320,7 @@
      "type": "speech",
      "who": "dan",
      "en": "Where does the Keeper live?",
-     "ru": "Где живёт Хранитель?",
+     "ru": "Хранитель где живёт вообще?",
      "delivery": "thoughtful curiosity, chewing slowly, gentle questions",
      "place": {
       "x": 0.03,
@@ -328,8 +345,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I see my office. It is real.",
-     "ru": "Я видел свой офис. Он настоящий.",
+     "en": "My office. It is real.",
+     "ru": "Мой офис. Он настоящий.",
      "delivery": "quiet and amazed, voice small, remembering the sealed door and his office",
      "place": {
       "x": 0.03,
@@ -341,8 +358,8 @@
     {
      "type": "speech",
      "who": "mira",
-     "en": "Then a door goes home. We find it.",
-     "ru": "Значит, есть дверь домой. Мы найдём её.",
+     "en": "A door goes home. We find it.",
+     "ru": "Дверь домой есть. Найдём.",
      "delivery": "firm quiet reassurance, steady and practical, a rare spark of hope",
      "place": {
       "x": 0.45,
@@ -459,8 +476,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "How long do you live here?",
-     "ru": "Как долго ты здесь живёшь?",
+     "en": "How long? You live here?",
+     "ru": "Сколько уже? Ты тут живёшь?",
      "delivery": "gentle small talk, tired and sincere, trying to be kind",
      "place": {
       "x": 0.03,
@@ -559,13 +576,35 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Последний зал этажа. Холодный камень, эхо шагов. В глубине — высокая чёрная дверь. Перед ней стоит Безмолвный и не шевелится."
+     "ru": "Последний зал этажа. Холодный камень, эхо шагов. В глубине — высокая чёрная дверь. Перед ней стоит Безмолвный и не шевелится.",
+     "bits": [
+      {
+       "ru": "Последний зал этажа.",
+       "en": "The last hall of the floor.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Холодный камень, эхо шагов.",
+       "en": "Cold stone, echo of steps.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "В глубине — высокая чёрная дверь.",
+       "en": "In the back — a tall black door.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Перед ней стоит Безмолвный и не шевелится.",
+       "en": "In front of it a Silent stands and does not move.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
      "who": "dan",
-     "en": "There is the door! Can you read it?",
-     "ru": "Вот дверь! Ты можешь прочесть?",
+     "en": "The last door. Can you read it?",
+     "ru": "Последняя дверь. Прочтёшь?",
      "delivery": "hushed hopeful whisper, pointing at a door, carefully excited",
      "place": {
       "x": 0.04,
@@ -577,8 +616,8 @@
     {
      "type": "speech",
      "who": "mira",
-     "en": "I read it. This is the last door.",
-     "ru": "Читаю. Это последняя дверь.",
+     "en": "I read it. Last door.",
+     "ru": "Читаю. Последняя.",
      "delivery": "low and tense, steady and flat, reading a stone inscription",
      "place": {
       "x": 0.45,
@@ -625,8 +664,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "How does it hear us?",
-     "ru": "Как он нас слышит?",
+     "en": "How does it hear?",
+     "ru": "Как он слышит?",
      "delivery": "whispered and fearful, trembling at the idea of a listening monster",
      "place": {
       "x": 0.48,
@@ -673,8 +712,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I push. It is heavy.",
-     "ru": "Я толкаю. Она тяжёлая.",
+     "en": "I push. Heavy.",
+     "ru": "Толкаю. Тяжёлая.",
      "delivery": "strained whisper, effort in each word, pushing against a massive door",
      "place": {
       "x": 0.03,
@@ -716,7 +755,19 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Голос тонкий, детский. Мира замирает, будто её ударили."
+     "ru": "Голос тонкий, детский. Мира замирает, будто её ударили.",
+     "bits": [
+      {
+       "ru": "Голос тонкий, детский.",
+       "en": "A thin child's voice.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Мира замирает, будто её ударили.",
+       "en": "Mira freezes, as if someone hit her.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -808,7 +859,24 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Мира роняет рюкзак. Она открывает рот — и закрывает. Слово, которое она ищет, она отдала давно."
+     "ru": "Мира роняет рюкзак. Она открывает рот — и закрывает. Слово, которое она ищет, она отдала давно.",
+     "bits": [
+      {
+       "ru": "Мира роняет рюкзак.",
+       "en": "Mira drops her backpack.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Она открывает рот — и закрывает.",
+       "en": "She opens her mouth — and shuts it.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Слово, которое она ищет, она отдала давно.",
+       "en": "The word she wants, she gave away long ago.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",

@@ -38,7 +38,24 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Дэн отдёргивает руку. Это его первое решение в Башне — и он принял его сам. За дверью всё стихает."
+     "ru": "Дэн отдёргивает руку. Это его первое решение в Башне — и он принял его сам. За дверью всё стихает.",
+     "bits": [
+      {
+       "ru": "Дэн отдёргивает руку.",
+       "en": "Dan pulls his hand back.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Это его первое решение в Башне — и он принял его сам.",
+       "en": "This is his first choice in the Tower — and he made it alone.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "За дверью всё стихает.",
+       "en": "Behind the door everything goes quiet.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -99,13 +116,30 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Лампа догорает. Слово, которое в ней жило, выгорает. Скоро в комнате не останется света."
+     "ru": "Лампа догорает. Слово, которое в ней жило, выгорает. Скоро в комнате не останется света.",
+     "bits": [
+      {
+       "ru": "Лампа догорает.",
+       "en": "The lamp is dying.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Слово, которое в ней жило, выгорает.",
+       "en": "The word that lived in it burns out.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Скоро в комнате не останется света.",
+       "en": "Soon the room will have no light.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "The light is small. Soon it is gone.",
-     "ru": "Свет слабеет. Скоро его не будет.",
+     "en": "Small light. Soon it is gone.",
+     "ru": "Свет почти мёртвый. Скоро его не будет.",
      "delivery": "quiet, tired and practical, watching the tiny flame, warning in a low voice",
      "place": {
       "x": 0.6,
@@ -160,13 +194,40 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Мира расстилает на полу потрёпанную карту. Этаж огромен. В конце пути — Ворота, а за ними Зал Слов, где, возможно, лежит имя Дэна."
+     "ru": "Мира кидает на пол потрёпанную карту. Этаж огромный. В конце — Ворота. За ними Зал Слов. Там, может, лежит имя Дэна.",
+     "bits": [
+      {
+       "ru": "Мира кидает на пол потрёпанную карту.",
+       "en": "Mira drops a worn map on the floor.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Этаж огромный.",
+       "en": "The floor is huge.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "В конце — Ворота.",
+       "en": "At the end — the Gate.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "За ними Зал Слов.",
+       "en": "Behind it is the Hall of Words.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Там, может, лежит имя Дэна.",
+       "en": "Maybe Dan's name lies there.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "speech",
      "who": "mira",
      "en": "This is the gate. The gate hears names.",
-     "ru": "Это ворота. Ворота слышат имена.",
+     "ru": "Ворота. Они слышат имена.",
      "delivery": "serious and quiet, pointing at a map, patient instructor tone",
      "place": {
       "x": 0.03,
@@ -179,7 +240,7 @@
      "type": "speech",
      "who": "dan",
      "en": "I have no name. Can I go?",
-     "ru": "У меня нет имени. Могу я пройти?",
+     "ru": "Имени нет. Мне вообще можно?",
      "delivery": "uncertain and honest, a gentle self-aware question",
      "place": {
       "x": 0.02,
@@ -221,7 +282,29 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Зал Слушающих. Десятки Безмолвных стоят вдоль стен. Они слепы. Но они слышат, как падает пылинка."
+     "ru": "Зал Слушающих. Десятки Безмолвных стоят вдоль стен. Они слепы. Но они слышат, как падает пылинка.",
+     "bits": [
+      {
+       "ru": "Зал Слушающих.",
+       "en": "The Hall of Listeners.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Десятки Безмолвных стоят вдоль стен.",
+       "en": "Dozens of Silent stand along the walls.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Они слепы.",
+       "en": "They are blind.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Но они слышат, как падает пылинка.",
+       "en": "But they hear a speck of dust fall.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -274,8 +357,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I can count ten. No, more. More!",
-     "ru": "Я вижу десять. Нет, больше. Ещё!",
+     "en": "Ten. No. More. More!",
+     "ru": "Десять. Нет. Больше. Ещё!",
      "delivery": "tiny awed whisper, counting in panic and then trailing off in dread",
      "place": {
       "x": 0.5,
@@ -356,7 +439,24 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Они слепы. Значит, их можно обмануть звуком. Дэн замахивается и бросает камень в дальний угол."
+     "ru": "Они слепы. Значит, их можно обмануть звуком. Дэн замахивается и бросает камень в дальний угол.",
+     "bits": [
+      {
+       "ru": "Они слепы.",
+       "en": "They are blind.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Значит, их можно обмануть звуком.",
+       "en": "So sound can trick them.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Дэн замахивается и бросает камень в дальний угол.",
+       "en": "Dan swings and throws a stone into the far corner.",
+       "lvl": "A2"
+      }
+     ]
     }
    ]
   },
@@ -472,7 +572,7 @@
      "type": "speech",
      "who": "dan",
      "en": "She can stop them!",
-     "ru": "Она может их остановить!",
+     "ru": "Она их стопает?!",
      "delivery": "amazed, breathless, awe and relief, startled by her power",
      "place": {
       "x": 0.02,
@@ -528,8 +628,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "Now you take my hand, Mira.",
-     "ru": "Теперь ты возьми мою руку, Мира.",
+     "en": "My hand. Take it, Mira.",
+     "ru": "Моя рука. Бери, Мира.",
      "delivery": "tender determined reply, steady and warm, helping her up",
      "place": {
       "x": 0.5,
@@ -540,7 +640,14 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Впервые за всю ночь Дэн тянет Миру, а не она его."
+     "ru": "Впервые за всю ночь Дэн тянет Миру, а не она его.",
+     "bits": [
+      {
+       "ru": "Впервые за всю ночь Дэн тянет Миру, а не она его.",
+       "en": "For the first time tonight Dan pulls Mira, not she him.",
+       "lvl": "A2"
+      }
+     ]
     }
    ]
   },
@@ -562,7 +669,29 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "У выхода из зала — старая фреска. Две девочки держатся за руки. У одной на запястье красная нить. У Миры на запястье такая же."
+     "ru": "У выхода из зала — старая фреска. Две девочки держатся за руки. У одной на запястье красная нить. У Миры на запястье такая же.",
+     "bits": [
+      {
+       "ru": "У выхода из зала — старая фреска.",
+       "en": "By the hall exit — an old mural.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Две девочки держатся за руки.",
+       "en": "Two girls hold hands.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "У одной на запястье красная нить.",
+       "en": "One has a red cord on her wrist.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "У Миры на запястье такая же.",
+       "en": "Mira has the same on her wrist.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -610,7 +739,29 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Ворота. Каменные, высотой с дом. Ни ручки, ни замка. Только строка над аркой."
+     "ru": "Ворота. Каменные, высотой с дом. Ни ручки, ни замка. Только строка над аркой.",
+     "bits": [
+      {
+       "ru": "Ворота.",
+       "en": "The Gate.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Каменные, высотой с дом.",
+       "en": "Stone, as tall as a house.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Ни ручки, ни замка.",
+       "en": "No handle, no lock.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Только строка над аркой.",
+       "en": "Only a line above the arch.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "shout",
@@ -723,13 +874,35 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Позади — шаги. Не толпа. Один. Он идёт спокойно, как тот, кто знает дорогу."
+     "ru": "Позади — шаги. Не толпа. Один. Он идёт спокойно, как тот, кто знает дорогу.",
+     "bits": [
+      {
+       "ru": "Позади — шаги.",
+       "en": "Footsteps behind.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Не толпа.",
+       "en": "Not a crowd.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Один.",
+       "en": "One person.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Он идёт спокойно, как тот, кто знает дорогу.",
+       "en": "He walks calmly, like someone who knows the way.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "Listen. It comes here.",
-     "ru": "Слушай. Он идёт сюда.",
+     "en": "Listen. It comes.",
+     "ru": "Слышишь. Идёт.",
      "delivery": "hushed alarmed whisper, tense, her eyes on the approaching Silent",
      "place": {
       "x": 0.55,
@@ -788,7 +961,24 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Ворота вздрагивают. Они слышат имя. Украденное имя, сказанное чужим ртом."
+     "ru": "Ворота вздрагивают. Они слышат имя. Украденное имя, сказанное чужим ртом.",
+     "bits": [
+      {
+       "ru": "Ворота вздрагивают.",
+       "en": "The Gate shudders.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Они слышат имя.",
+       "en": "They hear a name.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Украденное имя, сказанное чужим ртом.",
+       "en": "A stolen name, said by a stranger's mouth.",
+       "lvl": "A2"
+      }
+     ]
     }
    ]
   },
@@ -850,7 +1040,29 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Грохот. Темнота. И тихий довольный голос. Кто-то ждал их здесь."
+     "ru": "Грохот. Темнота. И тихий довольный голос. Кто-то ждал их здесь.",
+     "bits": [
+      {
+       "ru": "Грохот.",
+       "en": "A crash.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Темнота.",
+       "en": "Darkness.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "И тихий довольный голос.",
+       "en": "And a quiet pleased voice.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Кто-то ждал их здесь.",
+       "en": "Someone was waiting for them here.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "speech",

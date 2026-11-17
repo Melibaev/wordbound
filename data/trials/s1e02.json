@@ -42,8 +42,8 @@
       "ru": "Эта лампа здесь, у меня. А та стена — далеко."
      },
      "prompt": {
-      "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "en": "Find the word.",
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "___ lamp is here, with me.",
      "options": [
@@ -71,8 +71,8 @@
       "ru": "А там, на дальней стене?"
      },
      "prompt": {
-      "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "en": "Find the word.",
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "___ is a name. Far, on the wall.",
      "options": [
@@ -96,12 +96,12 @@
      "type": "match",
      "story": {
       "who": "dan",
-      "en": "A key, a lamp, a wall. Small words.",
-      "ru": "Ключ, лампа, стена. Простые слова."
+      "en": "A key, a lamp, a wall. Know them.",
+      "ru": "Ключ, лампа, стена. Знай их."
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Соедини слово и перевод."
+      "ru": "Четыре метки. Сопоставь."
      },
      "pairs": [
       [
@@ -140,8 +140,8 @@
       "ru": "Кто-то отдаёт слово. Лампа горит."
      },
      "prompt": {
-      "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "en": "Find the word.",
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "___ light is a word.",
      "options": [
@@ -170,7 +170,7 @@
      },
      "prompt": {
       "en": "Mira says...",
-      "ru": "Что ответит Мира?"
+      "ru": "Мира. Два-три слова. Что она скажет?"
      },
      "options": [
       "Silents stay out of the light.",
@@ -198,7 +198,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери ответ Миры: «Здесь ждут люди»."
+      "ru": "Имена на стене. Собери: «Здесь ждут люди»."
      },
      "answer": "People wait in this room",
      "distractors": [
@@ -285,7 +285,7 @@
      },
      "prompt": {
       "en": "What is it?",
-      "ru": "Что ты слышишь? Выбери."
+      "ru": "Что несёт голос?"
      },
      "audio_text": "Open the door.",
      "voice": "silent",
@@ -316,7 +316,7 @@
      },
      "prompt": {
       "en": "Which voice is Dan?",
-      "ru": "Послушай оба голоса. Какой — настоящий Дэн?"
+      "ru": "Два голоса. Один — ловушка. Какой — Дэн?"
      },
      "clips": [
       {
@@ -355,7 +355,7 @@
      },
      "prompt": {
       "en": "Mira says...",
-      "ru": "Что скажет Мира?"
+      "ru": "Мира. Два-три слова. Что она скажет?"
      },
      "options": [
       "That is not you.",
@@ -383,7 +383,7 @@
      },
      "prompt": {
       "en": "What is it?",
-      "ru": "Что говорит Система? Послушай."
+      "ru": "Окно Системы. Что оно несёт?"
      },
      "audio_text": "It is out there. It is never tired.",
      "voice": "system",
@@ -414,7 +414,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери, что говорит Мира: «Стой в свете!»"
+      "ru": "Свет — единственная стена. Собери: «Стой в свете»."
      },
      "answer": "Stay in the light",
      "distractors": [
@@ -497,7 +497,7 @@
      },
      "prompt": {
       "en": "What is it?",
-      "ru": "Что ты слышишь? Выбери."
+      "ru": "Что несёт голос?"
      },
      "audio_text": "It is cold.",
      "voice": "silent",
@@ -528,7 +528,7 @@
      },
      "prompt": {
       "en": "What is it in English?",
-      "ru": "«Мира знает этот голос» — как это сказать?"
+      "ru": "Мира белеет. Какая фраза: «Мира знает этот голос»?"
      },
      "options": [
       "Mira knows that voice.",
@@ -555,8 +555,8 @@
       "ru": "Мира. Дверь."
      },
      "prompt": {
-      "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "en": "Find the word.",
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "That is ___ Silent with a little voice.",
      "options": [
@@ -585,7 +585,7 @@
      },
      "prompt": {
       "en": "In English.",
-      "ru": "Напиши имя, которое дала Дэну Мира: Зеро."
+      "ru": "Имени нет. Мира даёт новое. Напиши его."
      },
      "answer": "Zero",
      "accept": [
@@ -612,7 +612,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери, что думает Дэн: «Это не человек»."
+      "ru": "Лицо без лица. Собери: «Это не человек»."
      },
      "answer": "That is not a person",
      "distractors": [

@@ -47,8 +47,8 @@
       "ru": "Столько ступеней. Мира, сядь."
      },
      "prompt": {
-      "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "en": "Find the word.",
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "There ___ many stairs.",
      "options": [
@@ -77,7 +77,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Голос. Что он сказал?"
      },
      "audio_text": "There are 300 stairs. You are slow.",
      "voice": "system",
@@ -90,7 +90,7 @@
      "answer": 0,
      "success": {
       "who": "dan",
-      "en": "300. Good. Very good.",
+      "en": "300. Yes.",
       "ru": "300. Прекрасно. Просто прекрасно."
      },
      "fail": {
@@ -108,7 +108,7 @@
      },
      "prompt": {
       "en": "Pip says...",
-      "ru": "Что отвечает Пип?"
+      "ru": "Пип считает цену. Что он скажет?"
      },
      "options": [
       "It is up there.",
@@ -136,7 +136,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери, что пишет Дэн в записке: «Под нами ничего нет»."
+      "ru": "Эхо лестницы. Записка. Собери: «Под нами ничего нет»."
      },
      "answer": "There is nothing under us",
      "distractors": [
@@ -158,12 +158,12 @@
      "type": "match",
      "story": {
       "who": "pip",
-      "en": "Up, down, under, behind. Four words, four apples.",
+      "en": "Up, down, under, behind. Four words. Four apples.",
       "ru": "Вверх, вниз, под, за. Четыре слова — четыре яблока."
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Соедини слово и перевод."
+      "ru": "Четыре метки. Сопоставь."
      },
      "pairs": [
       [
@@ -180,7 +180,7 @@
       ],
       [
        "behind",
-       "позади"
+       "за"
       ]
      ],
      "success": {
@@ -202,8 +202,8 @@
       "ru": "За нами снова что-то есть."
      },
      "prompt": {
-      "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "en": "Find the word.",
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "There ___ a Silent behind us.",
      "options": [
@@ -292,7 +292,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Голос. Что он сказал?"
      },
      "audio_text": "Give me the yellow pencil.",
      "voice": "pip",
@@ -323,10 +323,10 @@
      },
      "prompt": {
       "en": "Dan says...",
-      "ru": "Что ответит Дэн?"
+      "ru": "Ход Дэна. Что он скажет?"
      },
      "options": [
-      "I don't know. Not the pencil.",
+      "No. Not the pencil.",
       "Yes. Take the pencil.",
       "There is a pencil."
      ],
@@ -350,8 +350,8 @@
       "ru": "Я дам тебе секрет."
      },
      "prompt": {
-      "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "en": "Find the word.",
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "There is a room ___ the stairs.",
      "options": [
@@ -380,7 +380,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери, что спрашивает Дэн: «Там, наверху, есть помощь?»"
+      "ru": "Пип торгуется. Собери: «Там, наверху, есть помощь?»"
      },
      "answer": "Is there help up there",
      "distractors": [
@@ -407,7 +407,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Пип продаёт тишину. Напиши одно слово: «тихий, тишина»."
+      "ru": "Пип продаёт тишину. Напиши товар."
      },
      "answer": "quiet",
      "success": {
@@ -482,7 +482,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Голос. Что он сказал?"
      },
      "audio_text": "Mira has two breaths.",
      "voice": "system",
@@ -513,7 +513,7 @@
      },
      "prompt": {
       "en": "What is it?",
-      "ru": "Что это значит?"
+      "ru": "Два дыхания. Что это значит?"
      },
      "options": [
       "Mira can be a Silent.",
@@ -541,7 +541,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Дэн говорит слово-силу: «Стоп!»"
+      "ru": "Слово-сила. Напиши его."
      },
      "answer": "stop",
      "success": {
@@ -563,8 +563,8 @@
       "ru": "Я в порядке."
      },
      "prompt": {
-      "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "en": "Find the word.",
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "Sit ___, Mira. Stop.",
      "options": [
@@ -593,7 +593,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери ответ Пипа: «Там, наверху, рынок»."
+      "ru": "Пип указывает вверх. Собери: «Там, наверху, рынок»."
      },
      "answer": "There is a market up there",
      "distractors": [

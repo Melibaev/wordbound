@@ -9,7 +9,9 @@
   "s1e07": true,
   "s1e08": true,
   "s1e09": true,
-  "s1e10": true
+  "s1e10": true,
+  "s2e07": true,
+  "s2e08": true
  },
  "placement": true,
  "trials": {
@@ -32,6 +34,6 @@
   "s2e05": true,
   "s2e06": true
  },
- "version": 46,
+ "version": 56,
  "words": true
 }

@@ -1,5 +1,5 @@
 // How a line is shown: full English, full Russian, or a mix that grows with the placement level.
-import { db } from './data.js';
+import { db, findWord, shortRu } from './data.js';
 import { rank, placementRank } from './levels.js';
 import * as store from './store.js';
 import { tokensHTML } from './sysmsg.js';
@@ -31,6 +31,10 @@ export function englishPrimary(en, p) {
   return n > 0 && n <= cap;
 }
 
+export function otherLang(en, ru, p) {
+  return englishPrimary(en, p) ? String(ru || '') : String(en || '');
+}
+
 function bitPrimary(bit, p) {
   if (!bit.en) return false;
   if (p.mode === 'en') return true;
@@ -44,17 +48,26 @@ function escRe(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
+function glossList(w) {
+  return String(w.ru || '')
+    .split(';')
+    .map((s) => s.trim())
+    .filter((g) => g.length >= 4);
+}
+
 // Russian sentence with a few known words swapped to English. Short glosses are skipped.
 function mixIntoRussian(ru, p) {
   if (p.mode !== 'learn' || p.grain !== 'word' || p.way !== 'ru-en') return null;
   const hits = [];
   db.byId.forEach((w) => {
-    const g = String(w.ru || '').trim();
-    if (g.length < 4 || rank(w.lvl) > p.rank) return;
-    const re = new RegExp('(^|[^А-Яа-яЁёA-Za-z])(' + escRe(g) + ')(?=$|[^А-Яа-яЁёA-Za-z])', 'i');
-    const m = re.exec(ru);
-    if (!m) return;
-    hits.push({ i: m.index + m[1].length, n: m[2].length, en: w.w, ru: m[2] });
+    if (rank(w.lvl) > p.rank) return;
+    for (const g of glossList(w)) {
+      const re = new RegExp('(^|[^А-Яа-яЁёA-Za-z])(' + escRe(g) + ')(?=$|[^А-Яа-яЁёA-Za-z])', 'i');
+      const m = re.exec(ru);
+      if (!m) continue;
+      hits.push({ i: m.index + m[1].length, n: m[2].length, en: w.w, ru: m[2] });
+      break;
+    }
   });
   hits.sort((a, b) => a.i - b.i || b.n - a.n);
   const take = [];
@@ -89,10 +102,11 @@ function mixIntoEnglish(en, p, newSet) {
       parts.push(esc(m[2]));
       continue;
     }
-    const rec = db.byId.get(word.toLowerCase());
-    if (rec && rank(rec.lvl) > p.rank && rec.ru && swapped < 4) {
+    const rec = findWord(word);
+    const g = rec ? shortRu(rec.ru) : '';
+    if (rec && rank(rec.lvl) > p.rank && g.length >= 4 && swapped < 4) {
       swapped++;
-      parts.push(`<span class="mix" data-flip data-cur="ru" data-en="${esc(word)}" data-ru="${esc(rec.ru)}">${esc(rec.ru)}</span>`);
+      parts.push(`<span class="mix" data-flip data-cur="ru" data-en="${esc(word)}" data-ru="${esc(g)}">${esc(g)}</span>`);
     } else {
       parts.push(tokensHTML(word, newSet));
     }
@@ -110,23 +124,40 @@ export function showHTML(en, ru, p, newSet) {
 export function narrationBitsHTML(line, p) {
   const bits = Array.isArray(line.bits) && line.bits.length ? line.bits : null;
   if (!bits) return `<p>${esc(line.ru || '')}</p>`;
-  return bits
+  const html = bits
     .map((b) => {
       if (!b || !b.ru) return '';
-      if (!b.en || p.mode === 'ru') return `<span class="bit">${esc(b.ru)}</span>`;
-      if (p.mode === 'en') {
-        return `<span class="bit" data-flip data-cur="en" data-en="${esc(b.en)}" data-ru="${esc(b.ru)}">${esc(b.en)}</span>`;
-      }
-      const showEn = bitPrimary(b, p);
+      if (!b.en) return `<span class="bit">${esc(b.ru)}</span>`;
+      let showEn;
+      if (p.mode === 'en') showEn = true;
+      else if (p.mode === 'ru') showEn = false;
+      else showEn = bitPrimary(b, p);
       const cur = showEn ? 'en' : 'ru';
       return `<span class="bit" data-flip data-cur="${cur}" data-en="${esc(b.en)}" data-ru="${esc(b.ru)}">${esc(showEn ? b.en : b.ru)}</span>`;
     })
-    .join(' ');
+    .filter(Boolean)
+    .join('');
+  return `<p>${html}</p>`;
 }
 
 export function flipEl(el) {
   if (!el || el.dataset.en == null) return;
   const toEn = el.dataset.cur !== 'en';
   el.dataset.cur = toEn ? 'en' : 'ru';
-  el.textContent = toEn ? el.dataset.en : el.dataset.ru;
+  if (el.hasAttribute('data-flip-line')) {
+    el.innerHTML = toEn ? tokensHTML(el.dataset.en) : esc(el.dataset.ru || '');
+  } else {
+    el.textContent = toEn ? el.dataset.en : el.dataset.ru;
+  }
+}
+
+export function altText(box) {
+  if (!box) return '';
+  const line = box.querySelector('[data-flip-line]');
+  if (line) {
+    const t = line.dataset.cur === 'en' ? line.dataset.ru : line.dataset.en;
+    if (t) return t;
+  }
+  const ru = box.querySelector('.ru');
+  return ru && ru.textContent ? ru.textContent : '';
 }

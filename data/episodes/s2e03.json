@@ -195,7 +195,19 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Gutter — щель под городом, между двумя колоннами. Здесь живут Unwritten: те, кого Index не записал ни на одну строку."
+     "ru": "Gutter — щель под городом, между двумя колоннами. Здесь живут Unwritten: те, кого Index не записал ни на одну строку.",
+     "bits": [
+      {
+       "ru": "Gutter — щель под городом, между двумя колоннами.",
+       "en": "Gutter is a crack under the city, between two columns.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Здесь живут Unwritten: те, кого Index не записал ни на одну строку.",
+       "en": "The Unwritten live here: people the Index never wrote on any line.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -483,7 +495,19 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Над кухней горит лампа. Суп отдал ей своё слово «голод» — и теперь она горит за него, а он никогда не хочет есть."
+     "ru": "Над кухней горит лампа. Суп отдал ей своё слово «голод» — и теперь она горит за него, а он никогда не хочет есть.",
+     "bits": [
+      {
+       "ru": "Над кухней горит лампа.",
+       "en": "A lamp burns over the kitchen.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Суп отдал ей своё слово «голод» — и теперь она горит за него, а он никогда не хочет есть.",
+       "en": "Soup gave it his word hunger — and now it burns for him, and he never wants to eat.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -514,8 +538,8 @@
     {
      "type": "system",
      "who": "system",
-     "en": "True. Measure. Say how much. Say it true.",
-     "ru": "Правда. Measure. Говори, сколько. Говори правду.",
+     "en": "True. Measure. How much. True.",
+     "ru": "Правда. Measure. Сколько. Правда.",
      "delivery": "flat cold game-system announcement with a hint of mockery",
      "place": {
       "x": 0.3,
@@ -602,9 +626,9 @@
     {
      "type": "speech",
      "who": "soup",
-     "en": "I am holding. You are cutting. We are cooking.",
-     "ru": "Я держу. Ты режешь. Мы готовим.",
-     "delivery": "slow deep gentle voice of a very big man speaking softly, with long calm pauses",
+     "en": "I am holding. You are cutting. Good.",
+     "ru": "Я держу. Ты режешь. Хорошо.",
+     "delivery": "slow deep gentle voice of a very big man, long calm pauses",
      "place": {
       "x": 0.4,
       "y": 0.8,
@@ -633,9 +657,9 @@
     {
      "type": "speech",
      "who": "soup",
-     "en": "The fan is turning. The kitchen is warm again. But you don't keep things, do you?",
-     "ru": "Вытяжка крутится. На кухне снова тепло. Но ты ведь не хранишь вещи, да?",
-     "delivery": "slow deep gentle voice of a very big man speaking softly, with long calm pauses",
+     "en": "The fan is turning. The kitchen is warm again. You don't keep things.",
+     "ru": "Вытяжка крутится. На кухне снова тепло. Ты вещи не хранишь.",
+     "delivery": "slow deep gentle voice of a very big man, long calm pauses, no question in it",
      "place": {
       "x": 0.5,
       "y": 0.02,
@@ -645,7 +669,19 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Дэн только пожал плечами. Последний винт так и остался валяться на полу — он не удержал даже его."
+     "ru": "Дэн только пожал плечами. Последний винт так и остался валяться на полу — он не удержал даже его.",
+     "bits": [
+      {
+       "ru": "Дэн только пожал плечами.",
+       "en": "Dan only shrugged.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Последний винт так и остался валяться на полу — он не удержал даже его.",
+       "en": "The last screw stayed on the floor — he could not even hold that.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "system",
@@ -719,7 +755,24 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Дэн пишет «спасибо» как умеет. В этой фразе три ошибки: soups, it are и many soup. Это НЕ образец — завтра их отметят красным."
+     "ru": "Дэн пишет «спасибо» как умеет. В этой фразе три ошибки: soups, it are и many soup. Это НЕ образец — завтра их отметят красным.",
+     "bits": [
+      {
+       "ru": "Дэн пишет «спасибо» как умеет.",
+       "en": "Dan writes thank you the best he can.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "В этой фразе три ошибки: soups, it are и many soup.",
+       "en": "This phrase has three mistakes: soups, it are, and many soup.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Это НЕ образец — завтра их отметят красным.",
+       "en": "This is NOT a model — tomorrow they will mark them in red.",
+       "lvl": "A2"
+      }
+     ]
     }
    ]
   },
@@ -755,9 +808,9 @@
     {
      "type": "speech",
      "who": "mira",
-     "en": "Three red marks. Three mistakes: soups, it are, many soup.",
-     "ru": "Три красные пометки. Три ошибки: soups, it are, many soup.",
-     "delivery": "deadpan low, delighted in a very small way",
+     "en": "Three red marks. soups. it are. many soup. Nice, Zero.",
+     "ru": "Три красные пометки. soups. it are. many soup. Красиво, Зеро.",
+     "delivery": "deadpan low, a small mean delight",
      "place": {
       "x": 0.45,
       "y": 0.14,
@@ -808,9 +861,9 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I am warm, I am full, and I am a Phrase again.",
-     "ru": "Мне тепло, я сыт, и я снова Phrase.",
-     "delivery": "happy dazed laugh, light and fresh, relief after a very long bad day",
+     "en": "I am warm. I am full. Phrase again.",
+     "ru": "Мне тепло. Я сыт. Снова Phrase.",
+     "delivery": "happy dazed laugh, light, relief after a long bad day",
      "place": {
       "x": 0.66,
       "y": 0.39,

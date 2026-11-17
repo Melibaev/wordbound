@@ -48,7 +48,7 @@
      },
      "prompt": {
       "en": "What does it mean?",
-      "ru": "Какое слово Дэн объясняет?"
+      "ru": "Define. Какое слово он держит?"
      },
      "options": [
       "sister",
@@ -77,7 +77,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "Lina is ___ sister.",
      "options": [
@@ -106,7 +106,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Голос. Что он сказал?"
      },
      "audio_text": "Lina. I am your sister. I am here.",
      "voice": "mira",
@@ -137,7 +137,7 @@
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Соедини слово и перевод."
+      "ru": "Четыре метки. Сопоставь."
      },
      "pairs": [
       [
@@ -177,7 +177,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "It ___ we are together.",
      "options": [
@@ -193,8 +193,8 @@
      },
      "fail": {
       "who": "system",
-      "en": "It means. Not 'it mean'.",
-      "ru": "It means. Не «it mean»."
+      "en": "It means we are together.",
+      "ru": "It means. -s на месте."
      }
     },
     {
@@ -206,7 +206,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши слово, которое Мира наконец слышит: «сестра»."
+      "ru": "Мира ждёт это слово. Напиши его."
      },
      "answer": "sister",
      "accept": [
@@ -285,7 +285,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Голос. Что он сказал?"
      },
      "audio_text": "You give, and you still have it.",
      "voice": "keeper",
@@ -316,7 +316,7 @@
      },
      "prompt": {
       "en": "What does it mean?",
-      "ru": "Какое объяснение верное?"
+      "ru": "Какое значение верное?"
      },
      "options": [
       "Two or more people, one way.",
@@ -344,7 +344,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "I teach. She ___. Nobody loses.",
      "options": [
@@ -360,8 +360,8 @@
      },
      "fail": {
       "who": "system",
-      "en": "She learns. Not 'she learn'.",
-      "ru": "She learns. Не «she learn»."
+      "en": "She learns. From you.",
+      "ru": "She learns. Учится — с -s."
      }
     },
     {
@@ -373,7 +373,7 @@
      },
      "prompt": {
       "en": "What does it mean?",
-      "ru": "Какое объяснение верное?"
+      "ru": "Какое значение верное?"
      },
      "options": [
       "Ten and ten and ten... ten times ten.",
@@ -401,7 +401,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери ответ Дэна: «Никто не платит»."
+      "ru": "Урок без цены. Собери: «Никто не платит»."
      },
      "answer": "Nobody pays for it",
      "distractors": [
@@ -428,7 +428,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Одно слово: «учить, обучать»."
+      "ru": "Титул на кону. Одно слово — учить."
      },
      "answer": "teach",
      "success": {
@@ -511,7 +511,7 @@
      },
      "prompt": {
       "en": "Which voice is Dan?",
-      "ru": "Какой голос — настоящий Дэн?"
+      "ru": "Два «I am Dan». Какой — настоящий?"
      },
      "clips": [
       {
@@ -550,7 +550,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Голос. Что он сказал?"
      },
      "audio_text": "Come up, Dan. Mom waits, because you learn.",
      "voice": "narration",
@@ -581,7 +581,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "The Tower has your ___ voice.",
      "options": [
@@ -610,7 +610,7 @@
      },
      "prompt": {
       "en": "Make the sentence.",
-      "ru": "Собери начало предложения в 18 слов: «Я Дэн, и мы открываем эту дверь вместе»."
+      "ru": "Последняя дверь Этажа. Собери: «Я Дэн, и мы открываем эту дверь вместе»."
      },
      "answer": "I am Dan and we open this door together",
      "distractors": [
@@ -637,7 +637,7 @@
      },
      "prompt": {
       "en": "What is the answer?",
-      "ru": "Что ответила Система?"
+      "ru": "Система отвечает. Что она сказала?"
      },
      "options": [
       "Because you learn every word.",
@@ -660,12 +660,12 @@
      "type": "type",
      "story": {
       "who": "mira",
-      "en": "Up, Zero. Slowly. You are very good at it.",
-      "ru": "Наверх, Зеро. Медленно. У тебя это хорошо выходит."
+      "en": "Up, Zero. Slowly. You are good at it.",
+      "ru": "Наверх, Зеро. Медленно. У тебя это выходит."
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши: «Мы идём наверх»."
+      "ru": "Свет сверху. Напиши путь."
      },
      "answer": "We go up",
      "accept": [
@@ -690,11 +690,11 @@
      "title": "REWARD",
      "lines": [
       {
-       "en": "Floor of Names: behind you.",
+       "en": "Names: behind you.",
        "ru": "Этаж Имён: позади."
       },
       {
-       "en": "Next floor: up.",
+       "en": "Next: up.",
        "ru": "Следующий этаж: наверху."
       },
       {

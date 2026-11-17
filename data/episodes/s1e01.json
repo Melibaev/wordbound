@@ -30,7 +30,29 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "02:07 ночи. Сегодня у мамы день рождения. Дэн обещал позвонить вечером. Он сидит над чужим чертежом, а телефон показывает девять пропущенных."
+     "ru": "02:07 ночи. Сегодня у мамы день рождения. Дэн обещал позвонить вечером. Он сидит над чужим чертежом, а телефон показывает девять пропущенных.",
+     "bits": [
+      {
+       "ru": "02:07 ночи.",
+       "en": "It is night.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Сегодня у мамы день рождения.",
+       "en": "Today is Mom's birthday.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Дэн обещал позвонить вечером.",
+       "en": "Dan promised to call tonight.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Он сидит над чужим чертежом, а телефон показывает девять пропущенных.",
+       "en": "He sits over a stranger's drawing, and his phone shows nine missed calls.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "thought",
@@ -88,7 +110,24 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Она даже не сердится — и от этого хуже. Дэн чертит чужие здания. Его собственный мост лежит в ящике с шестнадцати лет."
+     "ru": "Она даже не сердится — и от этого хуже. Дэн чертит чужие здания. Его собственный мост лежит в ящике с шестнадцати лет.",
+     "bits": [
+      {
+       "ru": "Она даже не сердится — и от этого хуже.",
+       "en": "She is not even angry — and that hurts more.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Дэн чертит чужие здания.",
+       "en": "Dan draws other people's buildings.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Его собственный мост лежит в ящике с шестнадцати лет.",
+       "en": "His own bridge sits in a drawer since he was sixteen.",
+       "lvl": "A2"
+      }
+     ]
     }
    ]
   },
@@ -106,13 +145,30 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Три года Дэн знает эту стену. Он сам чертил этот этаж. Двери здесь быть не может."
+     "ru": "Три года Дэн знает эту стену. Он сам чертил этот этаж. Двери здесь быть не может.",
+     "bits": [
+      {
+       "ru": "Три года Дэн знает эту стену.",
+       "en": "Dan has known this wall for three years.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Он сам чертил этот этаж.",
+       "en": "He drew this floor himself.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Двери здесь быть не может.",
+       "en": "There cannot be a door here.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "I know this wall. There is no door.",
-     "ru": "Я знаю эту стену. Здесь нет двери.",
+     "ru": "Я эту стену знаю наизусть. Двери тут нет.",
      "delivery": "low, wary and disbelieving, speaking slowly as an engineer who knows his own office walls",
      "place": {
       "x": 0.03,
@@ -132,13 +188,30 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "На ручке горит красное слово. Дэн читает его — «OPEN». Оно слабо пульсирует, будто дышит."
+     "ru": "На ручке горит красное слово. Дэн читает его — «OPEN». Оно слабо пульсирует, будто дышит.",
+     "bits": [
+      {
+       "ru": "На ручке горит красное слово.",
+       "en": "A red word burns on the handle.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Дэн читает его — «OPEN».",
+       "en": "Dan reads it — OPEN.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Оно слабо пульсирует, будто дышит.",
+       "en": "It pulses softly, like breath.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
      "who": "dan",
-     "en": "A word on a door? What is that?",
-     "ru": "Слово на двери? Что это?",
+     "en": "A word on a door? What?",
+     "ru": "Слово. На двери. Это что?",
      "delivery": "baffled whisper, leaning closer, curious and uneasy at the glowing letters",
      "place": {
       "x": 0.55,
@@ -163,7 +236,29 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Стук. Изнутри. Три раза, ровно. Телефон в руке звонит в такт."
+     "ru": "Стук. Изнутри. Три раза, ровно. Телефон в руке звонит в такт.",
+     "bits": [
+      {
+       "ru": "Стук.",
+       "en": "A knock.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Изнутри.",
+       "en": "From inside.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Три раза, ровно.",
+       "en": "Three times, even.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Телефон в руке звонит в такт.",
+       "en": "The phone in his hand rings with it.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -233,7 +328,24 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Он знает, что туда нельзя. Он идёт. За дверью — свет, а здесь у него только остывший кофе."
+     "ru": "Он знает, что туда нельзя. Он идёт. За дверью — свет, а здесь у него только остывший кофе.",
+     "bits": [
+      {
+       "ru": "Он знает, что туда нельзя.",
+       "en": "He knows he must not go.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Он идёт.",
+       "en": "He goes.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "За дверью — свет, а здесь у него только остывший кофе.",
+       "en": "Behind the door is light, and here he has only cold coffee.",
+       "lvl": "A2"
+      }
+     ]
     }
    ]
   },
@@ -246,7 +358,24 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Свет. Пол уходит из-под ног. Телефон выскальзывает из руки и летит вниз, в белизну."
+     "ru": "Свет. Пол уходит из-под ног. Телефон выскальзывает из руки и летит вниз, в белизну.",
+     "bits": [
+      {
+       "ru": "Свет.",
+       "en": "Light.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Пол уходит из-под ног.",
+       "en": "The floor falls away.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Телефон выскальзывает из руки и летит вниз, в белизну.",
+       "en": "The phone slips from his hand and falls into the white.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "shout",
@@ -277,13 +406,40 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Дэн лежит на холодных плитах. Над ним — Башня, она уходит выше облаков. Вверх плывут красные огоньки. Это не огни. Это слова."
+     "ru": "Дэн лежит на холодных плитах. Над ним — Башня, она уходит выше облаков. Вверх плывут красные огоньки. Это не огни. Это слова.",
+     "bits": [
+      {
+       "ru": "Дэн лежит на холодных плитах.",
+       "en": "Dan lies on cold stone.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Над ним — Башня, она уходит выше облаков.",
+       "en": "Above him the Tower rises past the clouds.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Вверх плывут красные огоньки.",
+       "en": "Red lights float up.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Это не огни.",
+       "en": "These are not lights.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Это слова.",
+       "en": "These are words.",
+       "lvl": "A0"
+      }
+     ]
     },
     {
      "type": "speech",
      "who": "dan",
      "en": "What is this place?",
-     "ru": "Что это за место?",
+     "ru": "Это что за место, серьёзно?",
      "delivery": "dazed, small and awed, breathless wonder mixed with fear under a giant tower",
      "place": {
       "x": 0.03,
@@ -338,7 +494,29 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Башня переводит Дэну — но только короткими фразами. Чем больше слов он освоит, тем длиннее будут фразы. Но слово здесь — не просто звук. Освоенное слово даёт силу."
+     "ru": "Окно висит в воздухе, как в игре. Ноль слов. Для Дэна это приговор: ты пустой. А слово здесь бьёт сильнее кулака.",
+     "bits": [
+      {
+       "ru": "Окно висит в воздухе, как в игре.",
+       "en": "A window hangs in the air, like in a game.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Ноль слов.",
+       "en": "Zero words.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Для Дэна это приговор: ты пустой.",
+       "en": "For Dan this means: you are empty.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "А слово здесь бьёт сильнее кулака.",
+       "en": "And a word here hits harder than a fist.",
+       "lvl": "A2"
+      }
+     ]
     }
    ]
   },
@@ -457,8 +635,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "Is there a way home?",
-     "ru": "Есть путь домой?",
+     "en": "A way home?",
+     "ru": "Домой есть дорога?",
      "delivery": "hopeful and fragile, asking quietly, afraid of the answer",
      "place": {
       "x": 0.2,
@@ -497,7 +675,29 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Площадь кончается коридором. В темноте скребутся чьи-то когти. Рядом в стене — ржавый люк. Дэн замечает заклёпки и петли: люк точно открывается."
+     "ru": "Площадь кончается коридором. В темноте скребутся чьи-то когти. Рядом в стене — ржавый люк. Дэн замечает заклёпки и петли: люк точно открывается.",
+     "bits": [
+      {
+       "ru": "Площадь кончается коридором.",
+       "en": "The square ends in a corridor.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "В темноте скребутся чьи-то когти.",
+       "en": "In the dark, claws scrape.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Рядом в стене — ржавый люк.",
+       "en": "Nearby in the wall is a rusty hatch.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Дэн замечает заклёпки и петли: люк точно открывается.",
+       "en": "Dan sees the rivets and hinges: the hatch will open.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "shout",
@@ -567,7 +767,34 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Count — это счёт: сколько слов у Дэна. Было ноль. Теперь одно — OPEN."
+     "ru": "Счёт, как в игре. Было ноль. Теперь одно — OPEN. Мало. Но уже не ноль.",
+     "bits": [
+      {
+       "ru": "Счёт, как в игре.",
+       "en": "A score, like in a game.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Было ноль.",
+       "en": "It was zero.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Теперь одно — OPEN.",
+       "en": "Now it is one — OPEN.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Мало.",
+       "en": "Not much.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Но уже не ноль.",
+       "en": "But not zero anymore.",
+       "lvl": "A1"
+      }
+     ]
     }
    ]
   },
@@ -660,8 +887,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "Help me, please! Help me!",
-     "ru": "Помоги мне, пожалуйста! Помоги!",
+     "en": "Help me! Please, help!",
+     "ru": "Помоги! Ну пожалуйста, помоги!",
      "delivery": "pleading and desperate, hands open, voice breaking, begging a stranger for help",
      "place": {
       "x": 0.02,
@@ -686,8 +913,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I am lost! Help me!",
-     "ru": "Я заблудился! Помоги!",
+     "en": "I am lost. Help!",
+     "ru": "Я тут потерялся. Помоги!",
      "delivery": "panicked, raw and louder, near tears, begging a second time",
      "place": {
       "x": 0.02,
@@ -698,7 +925,24 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Мира смотрит не на Дэна. Она смотрит ему за спину. Тень на полу растёт."
+     "ru": "Мира смотрит не на Дэна. Она смотрит ему за спину. Тень на полу растёт.",
+     "bits": [
+      {
+       "ru": "Мира смотрит не на Дэна.",
+       "en": "Mira is not looking at Dan.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Она смотрит ему за спину.",
+       "en": "She looks behind him.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Тень на полу растёт.",
+       "en": "A shadow on the floor grows.",
+       "lvl": "A1"
+      }
+     ]
     }
    ]
   },
@@ -738,8 +982,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "Who is that? What is a Silent?",
-     "ru": "Кто это? Что такое Безмолвный?",
+     "en": "Who is that? A Silent? What?",
+     "ru": "Это кто? Безмолвный? Что?",
      "delivery": "frightened and confused, rapid questions with a shaky breath",
      "place": {
       "x": 0.02,
@@ -786,8 +1030,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I am slow! I am so tired!",
-     "ru": "Я медленный! Я так устал!",
+     "en": "I am slow. So tired!",
+     "ru": "Я медленный. Сейчас свалюсь.",
      "delivery": "gasping and wheezing while sprinting, panicked and self-mocking",
      "place": {
       "x": 0.02,
@@ -838,7 +1082,29 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Дэн падает. Дыхания нет. Безмолвные берут слова у тех, кто выдохся. Существо наклоняется — вместо рта у него щель."
+     "ru": "Дэн падает. Дыхания нет. Безмолвные берут слова у тех, кто выдохся. Существо наклоняется — вместо рта у него щель.",
+     "bits": [
+      {
+       "ru": "Дэн падает.",
+       "en": "Dan falls.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Дыхания нет.",
+       "en": "No breath left.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Безмолвные берут слова у тех, кто выдохся.",
+       "en": "The Silent take words from those who run out of breath.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Существо наклоняется — вместо рта у него щель.",
+       "en": "The creature leans in — it has a slit instead of a mouth.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -868,7 +1134,24 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Дэн открывает рот. Имени там больше нет. А у существа — его голос."
+     "ru": "Дэн открывает рот. Имени там больше нет. А у существа — его голос.",
+     "bits": [
+      {
+       "ru": "Дэн открывает рот.",
+       "en": "Dan opens his mouth.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Имени там больше нет.",
+       "en": "His name is gone.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "А у существа — его голос.",
+       "en": "And the creature has his voice.",
+       "lvl": "A1"
+      }
+     ]
     }
    ]
   }

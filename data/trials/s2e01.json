@@ -76,7 +76,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "A man is ___ a house!",
      "options": [
@@ -92,8 +92,8 @@
      },
      "fail": {
       "who": "system",
-      "en": "Is carrying. Not 'is carry'.",
-      "ru": "Is carrying. Не «is carry»."
+      "en": "Is carrying. Now.",
+      "ru": "Is carrying. Дом едет — сейчас."
      }
     },
     {
@@ -105,7 +105,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Голос. Что он сказал?"
      },
      "audio_text": "People are watching us.",
      "voice": "mira",
@@ -131,12 +131,12 @@
      "type": "match",
      "story": {
       "who": "mira",
-      "en": "Four words for this place.",
-      "ru": "Четыре слова про это место."
+      "en": "Words of this street. Know them.",
+      "ru": "Слова этой улицы. Знай их."
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Соедини слово и перевод."
+      "ru": "Четыре метки. Сопоставь."
      },
      "pairs": [
       [
@@ -176,7 +176,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери фразу Дэна: «Я смотрю на того человека»."
+      "ru": "Дэн говорит. Собери: «Я смотрю на того человека»."
      },
      "answer": "I am watching that man",
      "distractors": [
@@ -203,7 +203,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши про Лину: «Она стоит»."
+      "ru": "Сейчас. Напиши про Лину: «Она стоит»."
      },
      "answer": "She is standing",
      "success": {
@@ -281,7 +281,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Голос. Что он сказал?"
      },
      "audio_text": "Nobody is looking at the bottom.",
      "voice": "mira",
@@ -312,7 +312,7 @@
      },
      "prompt": {
       "en": "What is the answer?",
-      "ru": "Что отвечает Дэн?"
+      "ru": "Ход Дэна. Что он скажет?"
      },
      "options": [
       "I am standing at the bottom.",
@@ -340,7 +340,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "The people ___ looking at the board.",
      "options": [
@@ -356,8 +356,8 @@
      },
      "fail": {
       "who": "system",
-      "en": "People are. Not 'people is'.",
-      "ru": "People are. Не «people is»."
+      "en": "People are looking.",
+      "ru": "People are looking. Все смотрят."
      }
     },
     {
@@ -369,7 +369,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери фразу: «Лифт несёт сорок человек»."
+      "ru": "Фраза на кону. Собери фразу: «Лифт несёт сорок человек»."
      },
      "answer": "The lift is carrying forty people",
      "distractors": [
@@ -406,8 +406,8 @@
      },
      "fail": {
       "who": "mira",
-      "en": "HOLD. Write it down.",
-      "ru": "HOLD. Запиши."
+      "en": "HOLD. Or the lift falls.",
+      "ru": "HOLD. Без этого лифт падает."
      }
     }
    ],
@@ -475,7 +475,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Голос. Что он сказал?"
      },
      "audio_text": "The Ledger is paying five hundred words for Zero!",
      "voice": "narration",
@@ -488,7 +488,7 @@
      "answer": 0,
      "success": {
       "who": "mira",
-      "en": "Five hundred. That is a lot.",
+      "en": "Five hundred. Too many.",
       "ru": "Пятьсот. Это много."
      },
      "fail": {
@@ -506,7 +506,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "I ___ standing very still.",
      "options": [
@@ -522,8 +522,8 @@
      },
      "fail": {
       "who": "system",
-      "en": "Am. Not 'is'.",
-      "ru": "I am. Не «I is»."
+      "en": "Am. Quiet.",
+      "ru": "Am. Тише — живёшь."
      }
     },
     {
@@ -563,7 +563,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери фразу: «Все смотрят на меня»."
+      "ru": "Фраза на кону. Собери фразу: «Все смотрят на меня»."
      },
      "answer": "Everyone is looking at me",
      "distractors": [
@@ -600,8 +600,8 @@
      },
      "fail": {
       "who": "mira",
-      "en": "I am walking. Say it right.",
-      "ru": "I am walking. Скажи правильно."
+      "en": "I am walking. A hat.",
+      "ru": "I am walking. Шляпа. Идём."
      },
      "accept": [
       "i am walking slowly",

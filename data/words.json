@@ -2638,7 +2638,7 @@
  {
   "id": "let",
   "w": "let",
-  "ru": "позволять; давайте",
+  "ru": "позволять; отпускать (let go)",
   "pos": "v",
   "lvl": "A1",
   "forms": [
@@ -5935,7 +5935,7 @@
  {
   "id": "lot",
   "w": "lot",
-  "ru": "«a lot of» — много",
+  "ru": "много (a lot of); лот — вещь на торгах",
   "pos": "n",
   "lvl": "A1",
   "forms": [
@@ -6628,7 +6628,7 @@
  {
   "id": "past",
   "w": "past",
-  "ru": "после (half past)",
+  "ru": "после (half past); прошлое",
   "pos": "prep",
   "lvl": "A1",
   "forms": [],
@@ -6706,5 +6706,355 @@
   "forms": [],
   "ex": "That is Nad.",
   "exRu": "Это Nad."
+ },
+ {
+  "id": "carefully",
+  "w": "carefully",
+  "ru": "осторожно",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Step carefully.",
+  "exRu": "Ступай осторожно."
+ },
+ {
+  "id": "quickly",
+  "w": "quickly",
+  "ru": "быстро",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Pull quickly.",
+  "exRu": "Тяни быстро."
+ },
+ {
+  "id": "step",
+  "w": "step",
+  "ru": "шаг; шагать",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": ["steps"],
+  "ex": "First, one step.",
+  "exRu": "Сначала один шаг."
+ },
+ {
+  "id": "finally",
+  "w": "finally",
+  "ru": "наконец",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Finally, we pull.",
+  "exRu": "Наконец мы тянем."
+ },
+ {
+  "id": "page",
+  "w": "page",
+  "ru": "страница",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": ["pages"],
+  "ex": "The page is moving.",
+  "exRu": "Страница движется."
+ },
+ {
+  "id": "guilty",
+  "w": "guilty",
+  "ru": "виновный",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "He is not guilty.",
+  "exRu": "Он не виновен."
+ },
+ {
+  "id": "witness",
+  "w": "witness",
+  "ru": "свидетель",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": ["witnesses"],
+  "ex": "I was a witness.",
+  "exRu": "Я был свидетелем."
+ },
+ {
+  "id": "steal",
+  "w": "steal",
+  "ru": "красть",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": ["steals", "stealing"],
+  "ex": "I do not steal.",
+  "exRu": "Я не краду."
+ },
+ {
+  "id": "court",
+  "w": "court",
+  "ru": "суд",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The court is full.",
+  "exRu": "Суд полон."
+ },
+ {
+  "id": "asleep",
+  "w": "asleep",
+  "ru": "спящий",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "We were asleep.",
+  "exRu": "Мы спали."
+ },
+ {
+  "id": "clue",
+  "w": "clue",
+  "ru": "улика",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": ["clues"],
+  "ex": "There was a clue.",
+  "exRu": "Там была улика."
+ },
+ {
+  "id": "wet",
+  "w": "wet",
+  "ru": "мокрый",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "The floor is wet.",
+  "exRu": "Пол мокрый."
+ },
+ {
+  "id": "footprint",
+  "w": "footprint",
+  "ru": "след ноги",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": ["footprints"],
+  "ex": "There were footprints.",
+  "exRu": "Там были следы."
+ },
+ {
+  "id": "strange",
+  "w": "strange",
+  "ru": "странный",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "That mark is strange.",
+  "exRu": "Эта метка странная."
+ },
+ {
+  "id": "happen",
+  "w": "happen",
+  "ru": "случаться",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": ["happens", "happened"],
+  "ex": "It happened yesterday.",
+  "exRu": "Это случилось вчера."
+ },
+ {
+  "id": "own",
+  "w": "own",
+  "ru": "владеть",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": ["owns", "owned"],
+  "ex": "She owned the name.",
+  "exRu": "Имя принадлежало ей."
+ },
+ {
+  "id": "visit",
+  "w": "visit",
+  "ru": "навещать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": ["visits", "visited"],
+  "ex": "She visited him.",
+  "exRu": "Она навестила его."
+ },
+ {
+  "id": "drop",
+  "w": "drop",
+  "ru": "ронять; капля",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": ["drops", "dropped"],
+  "ex": "A teal drop.",
+  "exRu": "Бирюзовая капля."
+ },
+ {
+  "id": "pick",
+  "w": "pick",
+  "ru": "подбирать",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": ["picks", "picked"],
+  "ex": "She picked it up.",
+  "exRu": "Она подняла это."
+ },
+ {
+  "id": "offer",
+  "w": "offer",
+  "ru": "предложение",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": ["offers"],
+  "ex": "The offer is a trap.",
+  "exRu": "Предложение — ловушка."
+ },
+ {
+  "id": "contract",
+  "w": "contract",
+  "ru": "контракт",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": ["contracts"],
+  "ex": "Sign the contract.",
+  "exRu": "Подпиши контракт."
+ },
+ {
+  "id": "agree",
+  "w": "agree",
+  "ru": "соглашаться",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": ["agrees", "agreed"],
+  "ex": "I do not agree.",
+  "exRu": "Я не согласен."
+ },
+ {
+  "id": "refuse",
+  "w": "refuse",
+  "ru": "отказывать; отказ",
+  "pos": "v",
+  "lvl": "A1",
+  "forms": ["refuses", "refused"],
+  "ex": "He refused.",
+  "exRu": "Он отказался."
+ },
+ {
+  "id": "promise",
+  "w": "promise",
+  "ru": "обещание",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": ["promises"],
+  "ex": "A promise is not a door.",
+  "exRu": "Обещание — не дверь."
+ },
+ {
+  "id": "trap",
+  "w": "trap",
+  "ru": "ловушка",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": ["traps"],
+  "ex": "The auction is a trap.",
+  "exRu": "Аукцион — ловушка."
+ },
+ {
+  "id": "brave",
+  "w": "brave",
+  "ru": "храбрый",
+  "pos": "adj",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "She is brave.",
+  "exRu": "Она храбрая."
+ },
+ {
+  "id": "clause",
+  "w": "clause",
+  "ru": "клауза (ранг)",
+  "pos": "n",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Rank up: clause.",
+  "exRu": "Новый ранг: clause."
+ },
+ {
+  "id": "nineteen",
+  "w": "nineteen",
+  "ru": "девятнадцать",
+  "pos": "num",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "You were nineteen.",
+  "exRu": "Тебе было девятнадцать."
+ },
+ {
+  "id": "ago",
+  "w": "ago",
+  "ru": "тому назад",
+  "pos": "adv",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Five years ago.",
+  "exRu": "Пять лет назад."
+ },
+ {
+  "id": "dash",
+  "w": "Dash",
+  "ru": "Дэш (сержант Line)",
+  "pos": "name",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Dash is here.",
+  "exRu": "Дэш здесь."
+ },
+ {
+  "id": "period",
+  "w": "Period",
+  "ru": "Период (судья Line)",
+  "pos": "name",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Not guilty. Period.",
+  "exRu": "Не виновен. Точка."
+ },
+ {
+  "id": "odessa",
+  "w": "Odessa",
+  "ru": "Одесса Марл, аудитор",
+  "pos": "name",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Odessa is waiting.",
+  "exRu": "Одесса ждёт."
+ },
+ {
+  "id": "bell",
+  "w": "Bell",
+  "ru": "Белл (девочка); колокольчик",
+  "pos": "name",
+  "lvl": "A1",
+  "forms": ["bells"],
+  "ex": "I like bells.",
+  "exRu": "Мне нравятся колокольчики."
+ },
+ {
+  "id": "tally",
+  "w": "Tally",
+  "ru": "Тэлли (главарь воров)",
+  "pos": "name",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Tally has the jars.",
+  "exRu": "У Тэлли банки."
+ },
+ {
+  "id": "ansel",
+  "w": "Ansel",
+  "ru": "Ансель (имя Рука)",
+  "pos": "name",
+  "lvl": "A1",
+  "forms": [],
+  "ex": "Sit, Ansel.",
+  "exRu": "Сядь, Ансель."
  }
 ]

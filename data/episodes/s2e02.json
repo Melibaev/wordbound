@@ -65,8 +65,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I am not running. I am standing very well.",
-     "ru": "Я не бегу. Я очень хорошо стою.",
+     "en": "I am not running. I am standing. See? Very well.",
+     "ru": "Я не бегу. Я стою. Видишь? Очень хорошо.",
      "delivery": "stiff, high-pitched with nerves, a joke squeaking out of fear",
      "place": {
       "x": 0.03,
@@ -96,8 +96,8 @@
     {
      "type": "shout",
      "who": "citizen",
-     "en": "It is Ruk Marl, the auditor's son! He is rich! He is wearing forty words on his coat!",
-     "ru": "Это Рук Марл, сын аудитора! Он богат! На его пальто сорок слов!",
+     "en": "Ruk Marl! The auditor's son! He is rich. He is wearing forty words on that coat!",
+     "ru": "Рук Марл! Сын аудитора! Богат. На пальто сорок слов!",
      "delivery": "awed gossipy shout of a bystander, breathless",
      "place": {
       "x": 0.02,
@@ -196,7 +196,24 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Привычка и «сейчас» — разные вещи. «Always» — это привычка человека. А «now» — то, что он делает в эту секунду."
+     "ru": "Привычка и «сейчас» — разные вещи. «Always» — это привычка человека. А «now» — то, что он делает в эту секунду.",
+     "bits": [
+      {
+       "ru": "Привычка и «сейчас» — разные вещи.",
+       "en": "A habit and right now are different things.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "«Always» — это привычка человека.",
+       "en": "Always is a person's habit.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "А «now» — то, что он делает в эту секунду.",
+       "en": "And now is what he does in this second.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -244,7 +261,19 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Линия на помосте сдвигается в сторону того, чьё слово тяжелее. Кто окажется за краем — проиграл."
+     "ru": "Линия на помосте сдвигается в сторону того, чьё слово тяжелее. Кто окажется за краем — проиграл.",
+     "bits": [
+      {
+       "ru": "Линия на помосте сдвигается в сторону того, чьё слово тяжелее.",
+       "en": "The line on the platform shifts toward the one whose word is heavier.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Кто окажется за краем — проиграл.",
+       "en": "Whoever goes past the edge has lost.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -262,9 +291,9 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I am betting PUSH. Heavy wins? This is a market, not a duel.",
-     "ru": "Я ставлю PUSH. Тяжёлое побеждает? Это рынок, а не дуэль.",
-     "delivery": "dry and under-the-breath, an engineer's complaint at the rules",
+     "en": "I am betting PUSH. Heavy wins. This is a market, not a duel.",
+     "ru": "Я ставлю PUSH. Тяжёлое побеждает. Это рынок, не дуэль.",
+     "delivery": "dry, under-the-breath, an engineer who hates these rules",
      "place": {
       "x": 0.5,
       "y": 0.84,
@@ -555,7 +584,19 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Слово не умирает — оно просто переходит в чужую книгу. Дэн больше не может толкать."
+     "ru": "Слово не умирает — оно просто переходит в чужую книгу. Дэн больше не может толкать.",
+     "bits": [
+      {
+       "ru": "Слово не умирает — оно просто переходит в чужую книгу.",
+       "en": "A word does not die — it just moves into someone else's book.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Дэн больше не может толкать.",
+       "en": "Dan cannot push anymore.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -617,8 +658,8 @@
     {
      "type": "shout",
      "who": "citizen",
-     "en": "His badge is going out! He is a poor little Word now! Everyone is laughing!",
-     "ru": "Его значок гаснет! Он теперь бедный маленький Word! Все смеются!",
+     "en": "His badge is going out! Poor little Word! Everyone is laughing!",
+     "ru": "Его значок гаснет! Бедный маленький Word! Все ржут!",
      "delivery": "cruel delighted shout of a crowd member, laughing between words",
      "place": {
       "x": 0.03,

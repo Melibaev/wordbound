@@ -38,7 +38,19 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Стена за спиной всё ещё шепчет голосом Дэна. Мира пришла на этот голос — и остановилась в трёх шагах от маленькой Безмолвной."
+     "ru": "Стена за спиной всё ещё шепчет голосом Дэна. Мира пришла на этот голос — и остановилась в трёх шагах от маленькой Безмолвной.",
+     "bits": [
+      {
+       "ru": "Стена за спиной всё ещё шепчет голосом Дэна.",
+       "en": "The wall behind him still whispers in Dan's voice.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Мира пришла на этот голос — и остановилась в трёх шагах от маленькой Безмолвной.",
+       "en": "Mira came for that voice — and stopped three steps from the small Silent.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -100,8 +112,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I don't like your plan. But I have a new plan. We make a sentence for the last door.",
-     "ru": "Мне не нравится твой план. Но у меня есть новый план. Мы составим предложение для последней двери.",
+     "en": "I don't like your plan. But listen. A new plan. We make a sentence for the last door.",
+     "ru": "Твой план мне не нравится. Но слушай. Новый план. Предложение для последней двери.",
      "delivery": "calm kind firm voice, honest and forgiving, practical hope",
      "place": {
       "x": 0.02,
@@ -134,7 +146,19 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Мира не может подойти. Проданное слово оставляет Дыру: её ноги сами обходят всё, что это слово называло."
+     "ru": "Мира не может подойти. Проданное слово оставляет Дыру: её ноги сами обходят всё, что это слово называло.",
+     "bits": [
+      {
+       "ru": "Мира не может подойти.",
+       "en": "Mira cannot come closer.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Проданное слово оставляет Дыру: её ноги сами обходят всё, что это слово называло.",
+       "en": "A sold word leaves a Hole: her feet walk around everything that word once named.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "system",
@@ -196,8 +220,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I can say OPEN. It does nothing. The Keeper has it.",
-     "ru": "Я могу сказать OPEN. Оно ничего не делает. Оно у Хранителя.",
+     "en": "I can say OPEN. Nothing. The Keeper has it.",
+     "ru": "Могу сказать OPEN. Ноль. Оно у Хранителя.",
      "delivery": "tired and practical, a rueful voice, stating the problem",
      "place": {
       "x": 0.03,
@@ -222,13 +246,30 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Слово — это камень. Но стену держат не камни, а кладка. Инженер в Дэне наконец поднимает голову."
+     "ru": "Слово — это камень. Но стену держат не камни, а кладка. Инженер в Дэне наконец поднимает голову.",
+     "bits": [
+      {
+       "ru": "Слово — это камень.",
+       "en": "A word is stone.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Но стену держат не камни, а кладка.",
+       "en": "But the wall holds by the brickwork, not the stones.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Инженер в Дэне наконец поднимает голову.",
+       "en": "The engineer in Dan finally lifts his head.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "thought",
      "who": "dan",
-     "en": "One stone is not a wall. The Tower makes a sentence. I can make a sentence too.",
-     "ru": "Один камень — ещё не стена. Башня делает предложение. Я тоже могу сделать предложение.",
+     "en": "One stone is not a wall. The Tower makes a sentence. I can make one too.",
+     "ru": "Один камень — ещё не стена. Башня делает предложение. Я тоже могу.",
      "delivery": "slow thoughtful inner voice, a spark of an idea building, calm and warm",
      "place": {
       "x": 0.1,
@@ -271,9 +312,9 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I learn words. Who? I. What do I do? Open. What? The door.",
-     "ru": "Я учу слова. Кто? Я. Что делаю? Открываю. Что? Дверь.",
-     "delivery": "quick excited counting, bright and clear, building a sentence word by word",
+     "en": "Who? I. What do I do? I open. What? The door.",
+     "ru": "Кто? Я. Что я делаю? Открываю. Что? Дверь.",
+     "delivery": "quick excited voice, bright, snapping a sentence into place like a skill",
      "place": {
       "x": 0.02,
       "y": 0.14,
@@ -359,9 +400,9 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I don't need a strong word. Every door hears a true sentence.",
-     "ru": "Мне не нужно сильное слово. Любая дверь слышит правдивое предложение.",
-     "delivery": "calm easy modest voice, warm with a small grin, explaining like a teacher",
+     "en": "A strong word? No. Every door hears a true sentence.",
+     "ru": "Сильное слово? Нет. Правдивое предложение слышит любая дверь.",
+     "delivery": "calm cocky voice, a small grin, a rule he just found, no lecture",
      "place": {
       "x": 0.5,
       "y": 0.02,
@@ -494,9 +535,9 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "The small words are free. Say 'the'. Say it with me.",
-     "ru": "Маленькие слова бесплатны. Скажи «the». Скажи вместе со мной.",
-     "delivery": "patient friendly teacher voice, warm and encouraging, a little laugh",
+     "en": "Small words are free. Say 'the'. With me. Now.",
+     "ru": "Мелкие слова бесплатные. Скажи the. Со мной. Давай.",
+     "delivery": "warm low voice, a grin, coaching one small word, not a classroom",
      "place": {
       "x": 0.02,
       "y": 0.14,
@@ -541,7 +582,24 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Лампы в последнем зале сметены. Хранитель стоит — впервые не в кресле. За ним неподвижной шеренгой стоят Безмолвные."
+     "ru": "Лампы в последнем зале сметены. Хранитель стоит — впервые не в кресле. За ним неподвижной шеренгой стоят Безмолвные.",
+     "bits": [
+      {
+       "ru": "Лампы в последнем зале сметены.",
+       "en": "The lamps in the last hall are gone.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Хранитель стоит — впервые не в кресле.",
+       "en": "The Keeper stands — not in his chair for the first time.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "За ним неподвижной шеренгой стоят Безмолвные.",
+       "en": "Behind him the Silent stand in a still line.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "speech",

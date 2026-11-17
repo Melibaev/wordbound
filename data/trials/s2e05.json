@@ -44,7 +44,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Голос. Что он сказал?"
      },
      "audio_text": "Would you like some soup?",
      "voice": "narration",
@@ -75,7 +75,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "___ you like some soup?",
      "options": [
@@ -104,7 +104,7 @@
      },
      "prompt": {
       "en": "What is the right sentence?",
-      "ru": "Какая фраза верная?"
+      "ru": "Какая фраза сработает?"
      },
      "options": [
       "Could I have a pass, please?",
@@ -132,7 +132,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери фразу: «Я бы хотел большую миску»."
+      "ru": "Фраза на кону. Собери фразу: «Я бы хотел большую миску»."
      },
      "answer": "I would like a big bowl",
      "distractors": [
@@ -265,7 +265,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "Pip ___ money.",
      "options": [
@@ -281,8 +281,8 @@
      },
      "fail": {
       "who": "system",
-      "en": "Pip LOVES. Not 'Pip love'.",
-      "ru": "Pip LOVES. Не «Pip love»."
+      "en": "Pip loves a good price.",
+      "ru": "Pip loves a good price. Всегда."
      }
     },
     {
@@ -294,7 +294,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Голос. Что он сказал?"
      },
      "audio_text": "Repair the water lift. Pay forty.",
      "voice": "system",
@@ -320,12 +320,12 @@
      "type": "match",
      "story": {
       "who": "mira",
-      "en": "Four words for the lift.",
-      "ru": "Четыре слова про лифт."
+      "en": "Words of the lift. Know them.",
+      "ru": "Слова лифта. Знай их."
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Соедини слово и перевод."
+      "ru": "Четыре метки. Сопоставь."
      },
      "pairs": [
       [
@@ -365,7 +365,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери фразу: «Можно мне посмотреть на лифт, пожалуйста?»"
+      "ru": "Фраза на кону. Собери фразу: «Можно мне посмотреть на лифт, пожалуйста?»"
      },
      "answer": "Could I see the lift please",
      "distractors": [
@@ -392,7 +392,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши: «Я люблю чинить»."
+      "ru": "На кону фраза. Напиши: «Я люблю чинить»."
      },
      "answer": "I like repairing",
      "accept": [
@@ -470,7 +470,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "Would you like ___ sign?",
      "options": [
@@ -499,7 +499,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Голос. Что он сказал?"
      },
      "audio_text": "Sign here, please.",
      "voice": "narration",
@@ -530,11 +530,11 @@
      },
      "prompt": {
       "en": "What is the right sentence?",
-      "ru": "Какая фраза верная?"
+      "ru": "Какая фраза сработает?"
      },
      "options": [
       "Could I see the list, please?",
-      "Show me the list.",
+      "Read the list.",
       "I see the list."
      ],
      "answer": 0,
@@ -558,7 +558,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери фразу: «Я хотел бы войти, пожалуйста»."
+      "ru": "Фраза на кону. Собери фразу: «Я хотел бы войти, пожалуйста»."
      },
      "answer": "I would like to enter please",
      "distractors": [
@@ -585,7 +585,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши: «Я ненавижу таскать»."
+      "ru": "На кону фраза. Напиши: «Я ненавижу таскать»."
      },
      "answer": "I hate carrying",
      "success": {

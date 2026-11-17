@@ -30,7 +30,19 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Внизу, в Зале Слов, дверь домой закрылась. Хранитель остался в своём кресле."
+     "ru": "Внизу, в Зале Слов, дверь домой закрылась. Хранитель остался в своём кресле.",
+     "bits": [
+      {
+       "ru": "Внизу, в Зале Слов, дверь домой закрылась.",
+       "en": "Below, in the Hall of Words, the door home shut.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Хранитель остался в своём кресле.",
+       "en": "The Keeper stayed in his chair.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -110,9 +122,9 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "It is using her voice. It is learning me, word by word.",
-     "ru": "Оно использует её голос. Оно учится на мне, слово за словом.",
-     "delivery": "low, shaken and thoughtful, an engineer working out a horrible mechanism aloud",
+     "en": "It is using her voice. Word by word. It is learning me.",
+     "ru": "Это её голос. Слово за словом. Оно учится на мне.",
+     "delivery": "low, shaken, an engineer naming a trap, almost to himself",
      "place": {
       "x": 0.38,
       "y": 0.1,
@@ -167,9 +179,9 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I am running! I am running fast!",
-     "ru": "Я бегу! Я бегу быстро!",
-     "delivery": "breathless, panicked and self-mocking, gasping between words",
+     "en": "I am running! Fast as I can!",
+     "ru": "Я бегу! Так быстро, как могу!",
+     "delivery": "breathless, panicked, a gasp of a joke at his own speed",
      "place": {
       "x": 0.02,
       "y": 0.11,
@@ -206,7 +218,19 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Безмолвные не ступают на свет. Этот ползёт под ним, по тени ступеней, — и догоняет."
+     "ru": "Безмолвные не ступают на свет. Этот ползёт под ним, по тени ступеней, — и догоняет.",
+     "bits": [
+      {
+       "ru": "Безмолвные не ступают на свет.",
+       "en": "The Silent do not step on light.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Этот ползёт под ним, по тени ступеней, — и догоняет.",
+       "en": "This one crawls under it, along the step shadows — and catches up.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -303,9 +327,9 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I am watching that man. He is running.",
-     "ru": "Я смотрю на того человека. Он бежит.",
-     "delivery": "quiet, astonished, saying it almost to himself",
+     "en": "Look. That man is running. I am watching him.",
+     "ru": "Смотри. Он бежит. Я это вижу.",
+     "delivery": "quiet, astonished, pointing, almost to himself",
      "place": {
       "x": 0.02,
       "y": 0.03,
@@ -315,13 +339,20 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Дэн просто говорит правду о том, что люди делают прямо сейчас — и над ними вспыхивает это действие."
+     "ru": "Дэн просто говорит правду о том, что люди делают прямо сейчас — и над ними вспыхивает это действие.",
+     "bits": [
+      {
+       "ru": "Дэн просто говорит правду о том, что люди делают прямо сейчас — и над ними вспыхивает это действие.",
+       "en": "Dan just speaks the truth about what people do right now — and that action flashes over them.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "system",
      "who": "system",
-     "en": "True. Now-sight. Say what they are doing.",
-     "ru": "Правда. Now-sight. Говори, что они делают.",
+     "en": "True. Now-sight. Keep talking.",
+     "ru": "Правда. Now-sight. Говори дальше.",
      "delivery": "flat cold game-system announcement with a hint of mockery",
      "place": {
       "x": 0.62,
@@ -351,9 +382,9 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "He is running. She is selling in her shop. A man is carrying a house!",
-     "ru": "Он бежит. Она продаёт в своей лавке. Человек несёт дом!",
-     "delivery": "thrilled and rapid, delighted like a kid with a new toy, words tumbling out",
+     "en": "He is running! She is selling in her shop! That man is carrying a house!",
+     "ru": "Он бежит! Она продаёт в лавке! Тот мужик дом несёт!",
+     "delivery": "thrilled, rapid, delighted, words tumbling out",
      "place": {
       "x": 0.02,
       "y": 0.02,
@@ -398,14 +429,26 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "В Марджине Безмолвных усыпляют на месте. Лина прячется под шарфом Миры."
+     "ru": "В Марджине Безмолвных усыпляют на месте. Лина прячется под шарфом Миры.",
+     "bits": [
+      {
+       "ru": "В Марджине Безмолвных усыпляют на месте.",
+       "en": "In the Margin the Silent are put to sleep on the spot.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Лина прячется под шарфом Миры.",
+       "en": "Lina hides under Mira's scarf.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "speech",
      "who": "citizen",
-     "en": "Your little friend is standing very still in the street.",
-     "ru": "Ваша маленькая подруга стоит очень неподвижно посреди улицы.",
-     "delivery": "curious and slightly suspicious, a nosy neighbour",
+     "en": "Your little friend is standing still. In the street. Why?",
+     "ru": "Ваша мелкая стоит. Посреди улицы. Почему?",
+     "delivery": "curious, nosy, a neighbour who wants an answer",
      "place": {
       "x": 0.4,
       "y": 0.01,

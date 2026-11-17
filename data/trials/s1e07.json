@@ -43,8 +43,8 @@
       "ru": "Яблоки. Одно, два, три…"
      },
      "prompt": {
-      "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "en": "Find the word.",
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "How ___ apples for one word?",
      "options": [
@@ -73,7 +73,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай. Сколько яблок? Напиши числом или словом."
+      "ru": "Цена Пипа. Сколько яблок? Числом или словом."
      },
      "audio_text": "Four words? Eight apples!",
      "voice": "pip",
@@ -103,8 +103,8 @@
       "ru": "А хлеб? Деньги, слова…"
      },
      "prompt": {
-      "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "en": "Find the word.",
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "How ___ is the bread?",
      "options": [
@@ -133,7 +133,7 @@
      },
      "prompt": {
       "en": "Dan says...",
-      "ru": "Что ответит Дэн? Он знает цену: одно слово — два яблока."
+      "ru": "Пип ждёт. Цена: одно слово — два яблока. Что скажет Дэн?"
      },
      "options": [
       "Ten apples? Five words.",
@@ -161,7 +161,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери вопрос Дэна: «Сколько стоит хлеб?»"
+      "ru": "Голод. Собери: «Сколько стоит хлеб?»"
      },
      "answer": "How much is the bread",
      "distractors": [
@@ -188,7 +188,7 @@
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Соедини слово и перевод."
+      "ru": "Четыре метки. Сопоставь."
      },
      "pairs": [
       [
@@ -288,7 +288,7 @@
      },
      "prompt": {
       "en": "Find the numbers.",
-      "ru": "Соедини число и цифру."
+      "ru": "Числа на прилавке. Сопоставь."
      },
      "pairs": [
       [
@@ -328,7 +328,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Голос. Что он сказал?"
      },
      "audio_text": "Twenty jars! Too many!",
      "voice": "trader",
@@ -358,8 +358,8 @@
       "ru": "Одна банка, две банки…"
      },
      "prompt": {
-      "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "en": "Find the word.",
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "Ten breaths, two ___.",
      "options": [
@@ -388,7 +388,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Голос. Что он сказал?"
      },
      "audio_text": "Three apples, one jar.",
      "voice": "trader",
@@ -419,7 +419,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери вопрос Дэна: «Сколько у тебя банок?»"
+      "ru": "Прилавок. Собери: «Сколько у тебя банок?»"
      },
      "answer": "How many jars do you have",
      "distractors": [
@@ -446,7 +446,7 @@
      },
      "prompt": {
       "en": "What is it?",
-      "ru": "Что значит окно Системы?"
+      "ru": "Окно Системы. Что оно говорит?"
      },
      "options": [
       "Mom calls. Ten times.",
@@ -534,7 +534,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Голос. Что он сказал?"
      },
      "audio_text": "A little girl sells it to me. She does not talk. She sings.",
      "voice": "trader",
@@ -565,7 +565,7 @@
      },
      "prompt": {
       "en": "The trader says...",
-      "ru": "Что отвечает торговец?"
+      "ru": "Торговец. Что он ответит?"
      },
      "options": [
       "A little girl.",
@@ -592,8 +592,8 @@
       "ru": "Каждую ночь. Каждую ночь, Зеро."
      },
      "prompt": {
-      "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "en": "Find the word.",
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "Lina ___ it every night.",
      "options": [
@@ -610,7 +610,7 @@
      "fail": {
       "who": "mira",
       "en": "Lina sings. Not 'Lina sing'.",
-      "ru": "Lina sings. Не «Lina sing»."
+      "ru": "Lina sings. Каждую ночь."
      }
     },
     {
@@ -622,7 +622,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери, что говорит Система: «Девочка поёт. Она рядом»."
+      "ru": "Песня зовёт. Собери: «Девочка поёт. Она рядом»."
      },
      "answer": "The girl sings and she is near",
      "distractors": [
@@ -652,7 +652,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Одно слово: «песня»."
+      "ru": "Голос без слов. Одно слово — песня."
      },
      "answer": "song",
      "accept": [
@@ -679,7 +679,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Голос. Что он сказал?"
      },
      "audio_text": "The song stops.",
      "voice": "system",

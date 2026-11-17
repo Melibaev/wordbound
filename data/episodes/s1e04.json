@@ -34,7 +34,24 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Круглый зал. Полки уходят под купол. В каждой банке — светящееся слово, как светлячок."
+     "ru": "Круглый зал. Полки уходят под купол. В каждой банке — светящееся слово, как светлячок.",
+     "bits": [
+      {
+       "ru": "Круглый зал.",
+       "en": "A round hall.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Полки уходят под купол.",
+       "en": "Shelves rise up to the dome.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "В каждой банке — светящееся слово, как светлячок.",
+       "en": "In each jar — a glowing word, like a firefly.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -83,8 +100,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "He says welcome back. You know this place.",
-     "ru": "Он сказал «с возвращением». Ты знаешь это место.",
+     "en": "Welcome back, he says. You know this place.",
+     "ru": "«С возвращением», говорит. Ты это место знаешь.",
      "delivery": "suspicious, low and pointed, a quiet accusation",
      "place": {
       "x": 0.02,
@@ -130,7 +147,24 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "В центре, в высоком кресле, сидит Хранитель. Лица не видно — только улыбку. За его спиной тяжёлая дверь, вся в красных печатях."
+     "ru": "В центре, в высоком кресле, сидит Хранитель. Лица не видно — только улыбку. За его спиной тяжёлая дверь, вся в красных печатях.",
+     "bits": [
+      {
+       "ru": "В центре, в высоком кресле, сидит Хранитель.",
+       "en": "In the center, in a tall chair, sits the Keeper.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Лица не видно — только улыбку.",
+       "en": "You cannot see his face — only a smile.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "За его спиной тяжёлая дверь, вся в красных печатях.",
+       "en": "Behind him is a heavy door, covered in red seals.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -193,7 +227,7 @@
      "type": "speech",
      "who": "dan",
      "en": "Give it to me!",
-     "ru": "Отдай!",
+     "ru": "Отдай уже!",
      "delivery": "urgent, demanding and desperate, reaching out for his name",
      "place": {
       "x": 0.03,
@@ -253,8 +287,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "What word do you want?",
-     "ru": "Какое слово тебе нужно?",
+     "en": "What word? What do you want?",
+     "ru": "Какое слово? Что ты хочешь?",
      "delivery": "wary and tight, voice small but steady, asking the price",
      "place": {
       "x": 0.03,
@@ -314,8 +348,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I need it. I need my name too.",
-     "ru": "Оно мне нужно. Имя мне тоже нужно.",
+     "en": "I need OPEN. I need my name too.",
+     "ru": "Мне нужен OPEN. И имя тоже.",
      "delivery": "torn and strained, a trapped man arguing with himself aloud",
      "place": {
       "x": 0.03,
@@ -383,7 +417,24 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Дэн произносит слово с банки вслух. Мира слышит только шорох. Лицо у неё каменеет."
+     "ru": "Дэн произносит слово с банки вслух. Мира слышит только шорох. Лицо у неё каменеет.",
+     "bits": [
+      {
+       "ru": "Дэн произносит слово с банки вслух.",
+       "en": "Dan says the word from the jar out loud.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Мира слышит только шорох.",
+       "en": "Mira hears only a rustle.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Лицо у неё каменеет.",
+       "en": "Her face turns to stone.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "system",
@@ -488,13 +539,35 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Дэн смотрит на светящиеся слова. Он вспоминает маму: как она выбирала ему имя, как выводила его на тетрадях. Девять звонков. Девять раз она произнесла это имя."
+     "ru": "Дэн смотрит на светящиеся слова. Он вспоминает маму: как она выбирала ему имя, как выводила его на тетрадях. Девять звонков. Девять раз она произнесла это имя.",
+     "bits": [
+      {
+       "ru": "Дэн смотрит на светящиеся слова.",
+       "en": "Dan looks at the glowing words.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Он вспоминает маму: как она выбирала ему имя, как выводила его на тетрадях.",
+       "en": "He remembers Mom: how she chose his name, how she wrote it in notebooks.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Девять звонков.",
+       "en": "Nine calls.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Девять раз она произнесла это имя.",
+       "en": "Nine times she said that name.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "thought",
      "who": "dan",
      "en": "I don't think so. A name is me.",
-     "ru": "Не думаю. Имя — это я.",
+     "ru": "Нет. Имя — это я.",
      "delivery": "quiet thoughtful inner voice, gentle certainty after a memory of his mother",
      "place": {
       "x": 0.56,
@@ -567,7 +640,24 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Слово вырывается из груди Дэна, как дыхание на морозе. Светящейся нитью оно летит к Хранителю. Внутри пусто — будто выдернули ключ."
+     "ru": "Слово вырывается из груди Дэна, как дыхание на морозе. Светящейся нитью оно летит к Хранителю. Внутри пусто — будто выдернули ключ.",
+     "bits": [
+      {
+       "ru": "Слово вырывается из груди Дэна, как дыхание на морозе.",
+       "en": "The word tears from Dan's chest, like breath in frost.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Светящейся нитью оно летит к Хранителю.",
+       "en": "As a glowing thread it flies to the Keeper.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Внутри пусто — будто выдернули ключ.",
+       "en": "Inside it is empty — as if someone pulled out a key.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "system",
@@ -632,7 +722,14 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Имя возвращается — тёплое, родное, как старая куртка."
+     "ru": "Имя возвращается — тёплое, родное, как старая куртка.",
+     "bits": [
+      {
+       "ru": "Имя возвращается — тёплое, родное, как старая куртка.",
+       "en": "The name comes back — warm, familiar, like an old jacket.",
+       "lvl": "A2"
+      }
+     ]
     }
    ]
   },
@@ -711,7 +808,44 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Хранитель встаёт. Он произносит OPEN — слово Дэна, теперь его слово. Печати на двери трескаются. В щели — офис Дэна. Его стол. Его кружка. Звонящий телефон."
+     "ru": "Хранитель встаёт. Он произносит OPEN — слово Дэна, теперь его слово. Печати на двери трескаются. В щели — офис Дэна. Его стол. Его кружка. Звонящий телефон.",
+     "bits": [
+      {
+       "ru": "Хранитель встаёт.",
+       "en": "The Keeper stands up.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Он произносит OPEN — слово Дэна, теперь его слово.",
+       "en": "He says OPEN — Dan's word, now his word.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Печати на двери трескаются.",
+       "en": "The seals on the door crack.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "В щели — офис Дэна.",
+       "en": "In the gap — Dan's office.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Его стол.",
+       "en": "His desk.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Его кружка.",
+       "en": "His mug.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Звонящий телефон.",
+       "en": "A ringing phone.",
+       "lvl": "A0"
+      }
+     ]
     },
     {
      "type": "shout",
@@ -811,7 +945,24 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Полки гаснут одна за другой. В темноте — тысячи тихих шагов. Дэн выкрикнул своё имя на весь зал, а Безмолвные слышат имена издалека."
+     "ru": "Полки гаснут одна за другой. В темноте — тысячи тихих шагов. Дэн выкрикнул своё имя на весь зал, а Безмолвные слышат имена издалека.",
+     "bits": [
+      {
+       "ru": "Полки гаснут одна за другой.",
+       "en": "The shelves go dark one by one.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "В темноте — тысячи тихих шагов.",
+       "en": "In the dark — thousands of quiet steps.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Дэн выкрикнул своё имя на весь зал, а Безмолвные слышат имена издалека.",
+       "en": "Dan shouted his name across the hall, and the Silent hear names from far away.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",

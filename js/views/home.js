@@ -2,11 +2,11 @@ import * as store from '../store.js';
 import { db, nextEpisode } from '../data.js';
 import { estimate, computeLevel } from '../levels.js';
 import { isDue } from '../srs.js';
-import { esc, dayKey, weekKeys, plural } from '../util.js';
+import { esc, plural } from '../util.js';
 import { blockerFor } from '../trials.js';
-import { icon, bar, installHint, isIOS, isStandalone } from '../ui.js';
+import { icon, installHint, isIOS, isStandalone } from '../ui.js';
 
-const DAYS = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
+// session.js still reads the weekly target; the home screen no longer shows the diary.
 export const WEEK_GOAL = 5;
 
 export function dueIds() {
@@ -15,75 +15,95 @@ export function dueIds() {
   return Object.keys(s.words).filter((id) => isDue(s.words[id], now) && db.byId.has(id));
 }
 
-export async function mount(root) {
+function chapterCode(ep) {
+  return `S${ep.season} · ${String(ep.n).padStart(2, '0')}`;
+}
+
+function fallbackMark(text) {
+  const word = text.length > 3 ? ' is-word' : '';
+  return `<span class="cover-fallback" aria-hidden="true"><span class="cover-num${word}">${esc(text)}</span><span class="cover-brand">WORDBOUND</span></span>`;
+}
+
+function coverFor(ep) {
+  const late = new Promise((res) => setTimeout(() => res(null), 2000));
+  const got = fetch('art/manifest.json')
+    .then((r) => (r.ok ? r.json() : null))
+    .catch(() => null);
+  return Promise.race([got, late]).then((m) => {
+    const entry = m && m[ep.id];
+    const imgs = entry && Array.isArray(entry.images) ? entry.images : [];
+    let n = 0;
+    for (const x of imgs) if (Number.isInteger(x) && x > 0 && (!n || x < n)) n = x;
+    if (!n) return '';
+    const q = entry.v != null && entry.v !== '' ? `?v=${encodeURIComponent(entry.v)}` : '';
+    return `art/${encodeURIComponent(ep.id)}/${String(n).padStart(2, '0')}.jpg${q}`;
+  });
+}
+
+function posterHTML(href, visual, kicker, title, ru) {
+  const copy = `<span class="cover-copy"><span class="cover-kicker">${esc(kicker)}</span><h1 class="cover-title">${esc(title)}</h1>${ru ? `<span class="cover-ru">${esc(ru)}</span>` : ''}</span>`;
+  const inner = `${visual}${copy}`;
+  return href ? `<a class="cover-link" href="${href}">${inner}</a>` : `<div class="cover-link">${inner}</div>`;
+}
+
+export async function mount(root, ctx) {
   const s = store.get();
   const lv = computeLevel(estimate(s, db.byId));
   const due = dueIds().length;
   const next = nextEpisode(s);
   const block = next ? await blockerFor(next) : null;
-  const today = dayKey();
-  const set = new Set(s.days);
-  const wk = weekKeys();
-  const wkDone = wk.filter((k) => set.has(k)).length;
+  if (ctx && ctx.alive === false) return;
   const learned = Object.keys(s.words).length;
   const showHint = isIOS() && !isStandalone() && !s.settings.hintDismissed;
-
-  const dots = wk
-    .map((k, i) => {
-      const done = set.has(k);
-      const cls = `wd${done ? ' done' : ''}${k === today ? ' today' : ''}${k > today ? ' future' : ''}`;
-      return `<div class="${cls}"><span class="dot">${done ? icon('check') : ''}</span><small>${DAYS[i]}</small></div>`;
-    })
-    .join('');
-
-  let cta = 'Начать';
-  const parts = [];
-  if (due) parts.push(`${due} ${plural(due, ['повторение', 'повторения', 'повторений'])}`);
-  if (block) parts.push(`испытания эпизода ${block.ep.n}`);
-  else if (next) parts.push(`эпизод ${next.n}`);
-  const sub = parts.length ? parts.join(' + ') : 'Пока нечего делать';
   const canStart = due > 0 || !!next;
 
-  let nextCard;
+  let cta = 'Читать';
+  if (block && !due) cta = 'К испытаниям';
+  else if (!next && due) cta = 'Повторить';
+
+  let poster;
   if (!db.story) {
-    nextCard = `<div class="card err"><p>Не удалось загрузить эпизоды. Проверь соединение и открой приложение снова.</p></div>`;
+    poster = posterHTML(
+      '',
+      `<span class="cover-visual">${fallbackMark('ОШИБКА')}</span>`,
+      'Лента',
+      'Главы не загрузились',
+      'Проверь соединение и открой приложение снова.'
+    );
   } else if (!next) {
-    nextCard = `<div class="card ep-card"><div class="stamp">КОНЕЦ?</div><h3>Все эпизоды прочитаны</h3><p class="muted">Новые главы скоро появятся.</p></div>`;
+    poster = posterHTML('', `<span class="cover-visual">${fallbackMark('КОНЕЦ')}</span>`, 'Лента', 'Все главы прочитаны', 'Новые появятся здесь.');
   } else if (block) {
-    nextCard = `<a class="card ep-card locked" href="#/trial/${encodeURIComponent(block.ep.id)}">
-<div class="ep-num lockn">🔒 E${String(next.n).padStart(2, '0')}</div>
-<div class="ep-body"><small class="muted">ЗАПЕРТО · ${esc(next.level || '')}</small>
-<h3>${esc(next.title)}</h3><p class="lockmsg">Пройди испытания эпизода ${block.ep.n}</p><span class="btn small go-trials"><span>К испытаниям</span></span></div></a>`;
+    const href = `#/trial/${encodeURIComponent(block.ep.id)}`;
+    const visual = `<span class="cover-visual" data-ep="${esc(next.id)}">${fallbackMark(String(next.n).padStart(2, '0'))}<span class="cover-lock">Заперто · испытания ${block.ep.n}</span></span>`;
+    poster = posterHTML(href, visual, chapterCode(next), next.title, next.titleRu || '');
   } else {
-    nextCard = `<a class="card ep-card" href="#/session/${encodeURIComponent(next.id)}">
-<div class="ep-num">S${next.season}·E${String(next.n).padStart(2, '0')}</div>
-<div class="ep-body"><small class="muted">СЛЕДУЮЩИЙ ЭПИЗОД · ${esc(next.level || '')}</small>
-<h3>${esc(next.title)}</h3><p class="muted">${esc(next.titleRu || '')}</p></div></a>`;
+    const href = `#/session/${encodeURIComponent(next.id)}`;
+    const visual = `<span class="cover-visual" data-ep="${esc(next.id)}">${fallbackMark(String(next.n).padStart(2, '0'))}</span>`;
+    poster = posterHTML(href, visual, chapterCode(next), next.title, next.titleRu || '');
   }
 
+  const dueLine = due
+    ? `<a class="home-line" href="#/session"><span>${due} ${plural(due, ['слово', 'слова', 'слов'])} к повторению</span></a>`
+    : '';
+  const trialLine = block
+    ? `<a class="home-line" href="#/trial/${encodeURIComponent(block.ep.id)}"><span>Испытания эпизода ${block.ep.n}</span></a>`
+    : '';
+  const goBtn = canStart ? `<button class="btn primary big" id="go" type="button"><span>${cta}</span></button>` : '';
+
   root.innerHTML = `<div class="screen home">
-<header class="home-head"><div class="logo">WORD<b>BOUND</b></div><a class="icon-btn" href="#/settings" aria-label="Настройки">${icon('gear')}</a></header>
+<header class="home-bar"><div class="logo">WORD<b>BOUND</b></div><span class="home-rank" aria-label="Ранг ${esc(lv.level)}">${esc(lv.level)}</span><a class="icon-btn" href="#/settings" aria-label="Настройки">${icon('gear')}</a></header>
 ${showHint ? installHint() : ''}
-<section class="card level-card">
-  <div class="lv-badge" aria-label="Уровень ${esc(lv.level)}"><span>${esc(lv.level)}</span></div>
-  <div class="lv-info">
-    <div class="lv-row"><b>${lv.est}</b> <span class="muted">${plural(lv.est, ['слово', 'слова', 'слов'])} в запасе</span></div>
-    ${bar(lv.progress * 100)}
-    <small class="muted">${lv.next ? `до ${esc(lv.next)}: ещё ${lv.toNext} ${plural(lv.toNext, ['слово', 'слова', 'слов'])}` : 'Максимальный уровень!'}</small>
-  </div>
-</section>
-<section class="card week-card">
-  <div class="wk-top"><h2>Неделя</h2><span class="stamp tilt">${wkDone}/${WEEK_GOAL}</span></div>
-  <div class="week">${dots}</div>
-  <div class="wk-foot"><span>Всего дней с историей: <b>${s.days.length}</b></span><span>Серия: <b>${store.streak()}</b></span></div>
-</section>
-<button class="btn primary big" id="go" ${canStart ? '' : 'disabled'}><span>${cta}</span><small>${esc(sub)}</small></button>
-${nextCard}
-<nav class="tiles">
-  <a class="tile" href="#/episodes">${icon('list')}<span>Эпизоды</span></a>
-  <a class="tile" href="#/words">${icon('book')}<span>Мои слова</span><em>${learned}</em></a>
-  <a class="tile" href="#/settings">${icon('gear')}<span>Настройки</span></a>
+${poster}
+<div class="home-dock">
+${trialLine}
+${dueLine}
+${goBtn ? `<div class="home-actions">${goBtn}</div>` : ''}
+<nav class="home-nav">
+  <a href="#/episodes">${icon('list')}<span>Эпизоды</span></a>
+  <a href="#/words">${icon('book')}<span>Мои слова</span><b>${learned}</b></a>
+  <a href="#/settings">${icon('gear')}<span>Настройки</span></a>
 </nav>
+</div>
 </div>`;
 
   const go = root.querySelector('#go');
@@ -95,4 +115,19 @@ ${nextCard}
       store.save();
       root.querySelector('[data-hint]').remove();
     });
+
+  if (!next) return;
+  const src = await coverFor(next);
+  if (!src || (ctx && ctx.alive === false)) return;
+  const visual = Array.from(root.querySelectorAll('.cover-visual')).find((el) => el.getAttribute('data-ep') === next.id);
+  if (!visual) return;
+  const img = document.createElement('img');
+  img.className = 'cover-art';
+  img.alt = '';
+  img.decoding = 'async';
+  img.addEventListener('error', () => img.remove());
+  const lock = visual.querySelector('.cover-lock');
+  if (lock) visual.insertBefore(img, lock);
+  else visual.appendChild(img);
+  img.src = src;
 }

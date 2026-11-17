@@ -34,7 +34,24 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Погоня продолжается. Безмолвный не бежит — он идёт. И не отстаёт ни на шаг."
+     "ru": "Погоня продолжается. Безмолвный не бежит — он идёт. И не отстаёт ни на шаг.",
+     "bits": [
+      {
+       "ru": "Погоня продолжается.",
+       "en": "The chase goes on.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Безмолвный не бежит — он идёт.",
+       "en": "The Silent does not run — he walks.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "И не отстаёт ни на шаг.",
+       "en": "And he does not fall behind.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -84,7 +101,7 @@
      "type": "speech",
      "who": "dan",
      "en": "A wall! A big wall!",
-     "ru": "Стена! Большая стена!",
+     "ru": "Стена. Большущая стена.",
      "delivery": "panicked groan of despair, gasping as the corridor ends in a wall",
      "place": {
       "x": 0.04,
@@ -96,8 +113,8 @@
     {
      "type": "speech",
      "who": "mira",
-     "en": "We are small. The wall is big.",
-     "ru": "Мы маленькие. Стена большая.",
+     "en": "We are small. Big wall.",
+     "ru": "Мы мелкие. Стена — нет.",
      "delivery": "deadpan and grim, short and dry, stating the obvious with no hope",
      "place": {
       "x": 0.48,
@@ -108,7 +125,29 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Тупик. Позади — ни звука, только тяжёлая, густая тишина. Безмолвные не топают. Они просто приближаются."
+     "ru": "Тупик. Позади — ни звука, только тяжёлая, густая тишина. Безмолвные не топают. Они просто приближаются.",
+     "bits": [
+      {
+       "ru": "Тупик.",
+       "en": "A dead end.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Позади — ни звука, только тяжёлая, густая тишина.",
+       "en": "Behind them — no sound, only heavy thick silence.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Безмолвные не топают.",
+       "en": "The Silent do not stomp.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Они просто приближаются.",
+       "en": "They just come closer.",
+       "lvl": "A1"
+      }
+     ]
     }
    ]
   },
@@ -169,7 +208,19 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Три года он рисовал стены и двери на чужих чертежах. Наконец-то это пригодилось."
+     "ru": "Три года он рисовал стены и двери на чужих чертежах. Наконец-то это пригодилось.",
+     "bits": [
+      {
+       "ru": "Три года он рисовал стены и двери на чужих чертежах.",
+       "en": "For three years he drew walls and doors on other people's plans.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Наконец-то это пригодилось.",
+       "en": "At last it helps.",
+       "lvl": "A1"
+      }
+     ]
     }
    ]
   },
@@ -192,8 +243,8 @@
     {
      "type": "shout",
      "who": "dan",
-     "en": "A key! A small key!",
-     "ru": "Ключ! Маленький ключ!",
+     "en": "A key! Small key!",
+     "ru": "Ключ! Маленький!",
      "delivery": "excited whispered shout, thrilled relief at spotting a tiny key",
      "place": {
       "x": 0.03,
@@ -217,7 +268,14 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Кто-то уронил его здесь — и не вернулся за ним."
+     "ru": "Кто-то уронил его здесь — и не вернулся за ним.",
+     "bits": [
+      {
+       "ru": "Кто-то уронил его здесь — и не вернулся за ним.",
+       "en": "Someone dropped it here — and never came back.",
+       "lvl": "A2"
+      }
+     ]
     }
    ]
   },
@@ -270,13 +328,35 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Дверца захлопывается. Тихо. Тепло. Под потолком горит лампа с красным сердечком пламени."
+     "ru": "Дверца захлопывается. Тихо. Тепло. Под потолком горит лампа с красным сердечком пламени.",
+     "bits": [
+      {
+       "ru": "Дверца захлопывается.",
+       "en": "The hatch shuts.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Тихо.",
+       "en": "It is quiet.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Тепло.",
+       "en": "It is warm.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Под потолком горит лампа с красным сердечком пламени.",
+       "en": "Under the ceiling a lamp burns with a red heart of flame.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
      "who": "mira",
-     "en": "This room is safe.",
-     "ru": "Эта комната безопасна.",
+     "en": "Safe. Stay.",
+     "ru": "Безопасно. Оставайся.",
      "delivery": "exhausted relief, quiet and firm, catching her breath after slamming the door",
      "place": {
       "x": 0.02,
@@ -288,8 +368,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "Why is a small room safe?",
-     "ru": "Почему маленькая комната безопасна?",
+     "en": "A small room. Why is it safe?",
+     "ru": "Маленькая комната — и безопасна? Почему?",
      "delivery": "puzzled and still panting, asking a childlike question",
      "place": {
       "x": 0.55,
@@ -332,8 +412,8 @@
     {
      "type": "speech",
      "who": "mira",
-     "en": "Someone gives a word. The lamp burns.",
-     "ru": "Кто-то отдаёт слово. Лампа горит.",
+     "en": "A word goes in. The lamp burns.",
+     "ru": "Кинул слово — лампа горит.",
      "delivery": "quiet, matter of fact explanation, low and measured by the warm lamp",
      "place": {
       "x": 0.03,
@@ -432,7 +512,24 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Он открывает рот. Слово не приходит. Там, где было имя, — пустое место."
+     "ru": "Он открывает рот. Слово не приходит. Там, где было имя, — пустое место.",
+     "bits": [
+      {
+       "ru": "Он открывает рот.",
+       "en": "He opens his mouth.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Слово не приходит.",
+       "en": "No word comes.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Там, где было имя, — пустое место.",
+       "en": "Where his name was — an empty place.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "thought",
@@ -608,8 +705,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "What is that on the wall?",
-     "ru": "Что это на стене?",
+     "en": "That on the wall. What is it?",
+     "ru": "Это что на стене?",
      "delivery": "quiet and curious, soft wonder at a wall covered with scratched names",
      "place": {
       "x": 0.03,
@@ -622,7 +719,7 @@
      "type": "speech",
      "who": "mira",
      "en": "Names. People wait in this room.",
-     "ru": "Имена. Люди ждут в этой комнате.",
+     "ru": "Имена. Тут люди сидят и ждут.",
      "delivery": "low and solemn, matter of fact and a little sad",
      "place": {
       "x": 0.5,
@@ -646,7 +743,24 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Мира проводит пальцем под одной из надписей и быстро убирает руку. Дэн замечает. Но молчит."
+     "ru": "Мира проводит пальцем под одной из надписей и быстро убирает руку. Дэн замечает. Но молчит.",
+     "bits": [
+      {
+       "ru": "Мира проводит пальцем под одной из надписей и быстро убирает руку.",
+       "en": "Mira runs a finger under one line and pulls her hand away fast.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Дэн замечает.",
+       "en": "Dan notices.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Но молчит.",
+       "en": "But he stays quiet.",
+       "lvl": "A1"
+      }
+     ]
     }
    ]
   },
@@ -673,8 +787,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "Why do you help me?",
-     "ru": "Зачем ты мне помогаешь?",
+     "en": "Why help me?",
+     "ru": "Зачем помогаешь?",
      "delivery": "gentle and sincere, a careful honest question in the warm lamplight",
      "place": {
       "x": 0.03,
@@ -742,7 +856,29 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Снаружи стучат. Ровно. Терпеливо. Так стучат те, кому некуда спешить."
+     "ru": "Снаружи стучат. Ровно. Терпеливо. Так стучат те, кому некуда спешить.",
+     "bits": [
+      {
+       "ru": "Снаружи стучат.",
+       "en": "Someone knocks outside.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Ровно.",
+       "en": "Even knocks.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Терпеливо.",
+       "en": "Patient knocks.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Так стучат те, кому некуда спешить.",
+       "en": "That is how people knock when they are in no hurry.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -820,7 +956,24 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Дэн смотрит на ручку. Он так хочет вернуть себе имя — хоть так. Рука сама тянется вперёд."
+     "ru": "Дэн смотрит на ручку. Он так хочет вернуть себе имя — хоть так. Рука сама тянется вперёд.",
+     "bits": [
+      {
+       "ru": "Дэн смотрит на ручку.",
+       "en": "Dan looks at the handle.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Он так хочет вернуть себе имя — хоть так.",
+       "en": "He wants his name back so badly — even this way.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Рука сама тянется вперёд.",
+       "en": "His hand reaches forward on its own.",
+       "lvl": "A1"
+      }
+     ]
     }
    ]
   },
@@ -842,7 +995,24 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "И вдруг голос за дверью меняется. Теперь это голос ребёнка. Мира знает, чей он."
+     "ru": "И вдруг голос за дверью меняется. Теперь это голос ребёнка. Мира знает, чей он.",
+     "bits": [
+      {
+       "ru": "И вдруг голос за дверью меняется.",
+       "en": "And suddenly the voice behind the door changes.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Теперь это голос ребёнка.",
+       "en": "Now it is a child's voice.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Мира знает, чей он.",
+       "en": "Mira knows whose it is.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "speech",

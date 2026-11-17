@@ -38,14 +38,31 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Утро. На стене три красные пометки — а в дверях маленькая седая женщина. Красного на ней нет, только капля туши на кончике ручки."
+     "ru": "Утро. На стене три красные пометки — а в дверях маленькая седая женщина. Красного на ней нет, только капля туши на кончике ручки.",
+     "bits": [
+      {
+       "ru": "Утро.",
+       "en": "Morning.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "На стене три красные пометки — а в дверях маленькая седая женщина.",
+       "en": "Three red marks are on the wall — and a small grey-haired woman stands in the door.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Красного на ней нет, только капля туши на кончике ручки.",
+       "en": "There is no red on her, only a drop of ink on the tip of her pen.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
      "who": "thorn",
-     "en": "Good morning. I am Miss Thorn, a teacher. I hate mistakes.",
-     "ru": "Доброе утро. Я мисс Торн, учительница. Я ненавижу ошибки.",
-     "delivery": "crisp precise voice of a very old teacher, calm and dry, never raised",
+     "en": "Good morning. Miss Thorn. A teacher. I hate mistakes.",
+     "ru": "Доброе утро. Мисс Торн. Учитель. Ненавижу ошибки.",
+     "delivery": "crisp precise old-teacher voice, calm and dry, never raised",
      "place": {
       "x": 0.03,
       "y": 0.03,
@@ -174,9 +191,9 @@
     {
      "type": "speech",
      "who": "thorn",
-     "en": "Now it is correct. That is the lesson: thank you for the soup. It is very hot. I eat a lot of soup.",
-     "ru": "Теперь правильно. В этом урок: спасибо за суп. Он очень горячий. Я ем много супа.",
-     "delivery": "crisp precise voice of a very old teacher, calm and dry, never raised",
+     "en": "Now it is correct. The lesson, dear. Thank you for the soup. It is very hot. I eat a lot of soup.",
+     "ru": "Теперь правильно. Урок, дорогой. Спасибо за суп. Он очень горячий. Я ем много супа.",
+     "delivery": "crisp precise old-teacher voice, calm and dry, never raised",
      "place": {
       "x": 0.4,
       "y": 0.87,
@@ -296,9 +313,9 @@
     {
      "type": "speech",
      "who": "thorn",
-     "en": "Lesson one. Whose, mine, yours.",
-     "ru": "Урок первый. Чей, мой, твой.",
-     "delivery": "crisp precise voice of a very old teacher, calm and dry, never raised",
+     "en": "Lesson one, dear. Whose. Mine. Yours.",
+     "ru": "Урок первый, дорогой. Чей. Мой. Твой.",
+     "delivery": "crisp precise old-teacher voice, calm and dry, never raised",
      "place": {
       "x": 0.4,
       "y": 0.78,
@@ -563,9 +580,9 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I am running! I am following a thread!",
-     "ru": "Я бегу! Я иду за нитью!",
-     "delivery": "breathless, panicked and self-mocking",
+     "en": "I am running! The thread is going!",
+     "ru": "Я бегу! Нить уходит!",
+     "delivery": "breathless, panicked, self-mocking",
      "place": {
       "x": 0.6,
       "y": 0.05,
@@ -619,7 +636,19 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Слово «щит» у старика стёрлось. Оно уже давно висит на чёрном пальто Рука — и старик не может его даже назвать."
+     "ru": "Слово «щит» у старика стёрлось. Оно уже давно висит на чёрном пальто Рука — и старик не может его даже назвать.",
+     "bits": [
+      {
+       "ru": "Слово «щит» у старика стёрлось.",
+       "en": "The old man's word shield is gone.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Оно уже давно висит на чёрном пальто Рука — и старик не может его даже назвать.",
+       "en": "It has hung on Rook's black coat for a long time — and the old man cannot even name it.",
+       "lvl": "A2"
+      }
+     ]
     }
    ]
   },
@@ -703,9 +732,9 @@
     {
      "type": "speech",
      "who": "thorn",
-     "en": "The coat is Ruk's. The words belong to others. Lesson two.",
-     "ru": "Пальто — Рука. Слова принадлежат другим. Урок второй.",
-     "delivery": "crisp precise voice of a very old teacher, calm and dry, never raised",
+     "en": "The coat is Ruk's. The words belong to others. Sit, dear. Lesson two.",
+     "ru": "Пальто — Рука. Слова принадлежат другим. Сядь. Урок второй.",
+     "delivery": "crisp precise old-teacher voice, calm, dry, a quiet command",
      "place": {
       "x": 0.02,
       "y": 0.18,

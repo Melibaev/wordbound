@@ -58,7 +58,7 @@
      },
      "prompt": {
       "en": "What is it?",
-      "ru": "Что ты слышишь? Выбери."
+      "ru": "Что несёт голос?"
      },
      "audio_text": "You are very slow.",
      "voice": "system",
@@ -88,8 +88,8 @@
       "ru": "Я не слабый! Я…"
      },
      "prompt": {
-      "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "en": "Find the word.",
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "I ___ tired.",
      "options": [
@@ -106,7 +106,7 @@
      "fail": {
       "who": "mira",
       "en": "I am. You are. It is.",
-      "ru": "I am. You are. It is. Запомни."
+      "ru": "I am. You are. It is. Без ошибки."
      }
     },
     {
@@ -118,7 +118,7 @@
      },
      "prompt": {
       "en": "What is it in English?",
-      "ru": "Дэн зовёт Миру: «Помоги мне!» — как это по-английски?"
+      "ru": "Дэн зовёт Миру. Какая фраза сработает: «Помоги мне!»"
      },
      "options": [
       "Help me!",
@@ -147,7 +147,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери ответ Дэна: «Я не слабый»."
+      "ru": "Система давит. Ответ Дэна — собери: «Я не слабый»."
      },
      "answer": "I am not weak",
      "distractors": [
@@ -174,7 +174,7 @@
      },
      "prompt": {
       "en": "In English.",
-      "ru": "Дэн говорит своё слово-силу: «Открой!» Напиши его."
+      "ru": "Дверь. Слово-сила. Напиши его."
      },
      "answer": "open",
      "success": {
@@ -197,7 +197,7 @@
      },
      "prompt": {
       "en": "What is it?",
-      "ru": "Что шепчет Мира?"
+      "ru": "Мира — два слова. Что она шепчет?"
      },
      "audio_text": "Loud is dead here.",
      "voice": "mira",
@@ -288,7 +288,7 @@
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Соедини слово и перевод."
+      "ru": "Четыре метки. Сопоставь."
      },
      "pairs": [
       [
@@ -327,8 +327,8 @@
       "ru": "Найди последнюю дверь."
      },
      "prompt": {
-      "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "en": "Find the word.",
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "It ___ home.",
      "options": [
@@ -357,7 +357,7 @@
      },
      "prompt": {
       "en": "Mira says...",
-      "ru": "Что ответит Мира?"
+      "ru": "Мира. Два-три слова. Что она скажет?"
      },
      "options": [
       "I am Mira.",
@@ -385,7 +385,7 @@
      },
      "prompt": {
       "en": "What is it?",
-      "ru": "Что ты слышишь? Выбери."
+      "ru": "Что несёт голос?"
      },
      "audio_text": "Find the last door.",
      "voice": "system",
@@ -416,7 +416,7 @@
      },
      "prompt": {
       "en": "In English.",
-      "ru": "Напиши, что крикнет Дэн: «Открой люк!»"
+      "ru": "Люк. Дэн кричит силу. Напиши фразу."
      },
      "answer": "Open the hatch",
      "accept": [
@@ -443,7 +443,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери вопрос Дэна: «Где моя дверь?»"
+      "ru": "Дэн теряет дом. Собери: «Где моя дверь?»"
      },
      "answer": "Where is my door",
      "distractors": [
@@ -521,7 +521,7 @@
      },
      "prompt": {
       "en": "Who is it?",
-      "ru": "Кто это говорит?"
+      "ru": "Чужой голос. Кто это?"
      },
      "audio_text": "I am lost. Help me.",
      "voice": "silent",
@@ -552,7 +552,7 @@
      },
      "prompt": {
       "en": "What is it in English?",
-      "ru": "«Он не устаёт» — как это по-английски?"
+      "ru": "Безмолвный не останавливается. Какая фраза: «Он не устаёт»?"
      },
      "options": [
       "It is not tired.",
@@ -579,8 +579,8 @@
       "ru": "Ты и я. Медленные."
      },
      "prompt": {
-      "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "en": "Find the word.",
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "We ___ slow.",
      "options": [
@@ -609,7 +609,7 @@
      },
      "prompt": {
       "en": "In English.",
-      "ru": "Дэн шепчет: «Что это?»"
+      "ru": "Тень на стене. Дэн шепчет вопрос. Напиши его."
      },
      "answer": "What is that",
      "accept": [
@@ -639,7 +639,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери ответ Миры: «Это Безмолвный»."
+      "ru": "Мира называет тварь. Собери: «Это Безмолвный»."
      },
      "answer": "It is a Silent",
      "distractors": [
@@ -666,7 +666,7 @@
      },
      "prompt": {
       "en": "What is it in English?",
-      "ru": "Что Мира велит делать Дэну?"
+      "ru": "Приказ Миры. Что делать?"
      },
      "options": [
       "Run",

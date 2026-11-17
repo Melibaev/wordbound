@@ -38,7 +38,19 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Пятёрка собрана: Дэн, Мира, Пип, Суп — он закрыл кухню и взял котёл с собой — и Лина в капюшоне. Остаётся научиться жить по часам."
+     "ru": "Пятёрка собрана: Дэн, Мира, Пип, Суп — он закрыл кухню и взял котёл с собой — и Лина в капюшоне. Остаётся научиться жить по часам.",
+     "bits": [
+      {
+       "ru": "Пятёрка собрана: Дэн, Мира, Пип, Суп — он закрыл кухню и взял котёл с собой — и Лина в капюшоне.",
+       "en": "The five are together: Dan, Mira, Pip, Soup — he closed the kitchen and took the pot — and Lina in a hood.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Остаётся научиться жить по часам.",
+       "en": "They still must learn to live by the clock.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -113,9 +125,9 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "Today is Monday. Friday is four days away. We are ready.",
-     "ru": "Сегодня понедельник. До пятницы четыре дня. Мы готовы.",
-     "delivery": "too optimistic, trying to believe it himself",
+     "en": "Today is Monday. Friday is four days away. We are so ready.",
+     "ru": "Сегодня понедельник. До пятницы четыре дня. Мы так готовы.",
+     "delivery": "too optimistic, a joke, trying to believe it himself",
      "place": {
       "x": 0.02,
       "y": 0.14,
@@ -126,8 +138,8 @@
     {
      "type": "speech",
      "who": "pip",
-     "en": "The clock says nine. I am early. Early is when I sell.",
-     "ru": "Часы показывают девять. Я рано. Рано — это когда я продаю.",
+     "en": "The clock says nine. I am early. Early is money.",
+     "ru": "Часы показывают девять. Я рано. Рано — это деньги.",
      "delivery": "fast cheeky, rubbing his hands at the thought of profit",
      "place": {
       "x": 0.45,
@@ -282,7 +294,19 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Мост закрывается строго по часам — ни на секунду позже. Команда уже на середине."
+     "ru": "Мост закрывается строго по часам — ни на секунду позже. Команда уже на середине.",
+     "bits": [
+      {
+       "ru": "Мост закрывается строго по часам — ни на секунду позже.",
+       "en": "The bridge closes strictly on time — not one second late.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Команда уже на середине.",
+       "en": "The team is already halfway across.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "system",
@@ -560,7 +584,7 @@
      "type": "speech",
      "who": "dan",
      "en": "I am here. I am sleeping. Mostly.",
-     "ru": "Я здесь. Я сплю. Почти.",
+     "ru": "Я здесь. Я сплю. В основном.",
      "delivery": "groggy, confused, squinting without his glasses",
      "place": {
       "x": 0.45,
@@ -725,8 +749,8 @@
     {
      "type": "speech",
      "who": "citizen",
-     "en": "Seven hour jars are gone. The door heard a name.",
-     "ru": "Семь банок часов пропали. Дверь слышала имя.",
+     "en": "Seven hour jars are gone. The door heard his name.",
+     "ru": "Семь банок часов пропали. Дверь слышала его имя.",
      "delivery": "shaky, loud, an honest man outraged",
      "place": {
       "x": 0.2,
@@ -738,8 +762,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "Today we begin at eight. I am here!",
-     "ru": "Сегодня мы начинаем в восемь. Я здесь!",
+     "en": "Today we begin at eight. I am here. Look at me!",
+     "ru": "Сегодня начинаем в восемь. Я здесь. Смотрите!",
      "delivery": "urgent, hands up, desperate for sense",
      "place": {
       "x": 0.58,
@@ -793,7 +817,7 @@
  ],
  "grammarNote": {
   "title": "at / on / in: время и расписание",
-  "body": "At — точное время: at six, at nine, at half past seven. On — день: on Monday, on Friday. In — часть суток или период: in the morning, in four days. Для расписаний английский использует простое настоящее: The Proof begins on Friday. The bridge opens at ten. Half past seven — половина восьмого, quarter to eight — без четверти восемь. Слова today (сегодня) и tomorrow (завтра) стоят без предлога.",
+  "body": "At — точное время: at six, at nine, at half past seven. On — день: on Monday, on Friday. In — часть суток или период: in the morning, in four days. Для расписаний английский использует простое настоящее: The Proof begins on Friday. The bridge opens at ten. Half past seven — половина восьмого, quarter to eight — без четверти восемь. Слова today (сегодня) и tomorrow (завтра) стоят без предлога. Mostly значит «в основном, почти»: I am sleeping. Mostly.",
   "examples": [
    {
     "en": "The Proof begins on Friday at nine.",

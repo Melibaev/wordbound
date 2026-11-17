@@ -8,7 +8,7 @@ import { icon, errorBox } from '../ui.js';
 import { tokensHTML, sysWindowHTML, sysKind } from '../sysmsg.js';
 import { wordPop } from '../wordpop.js';
 import { applyTheme } from '../theme.js';
-import { readPrefs, showHTML, narrationBitsHTML, flipEl } from '../readmode.js';
+import { readPrefs, showHTML, narrationBitsHTML, flipEl, otherLang, altText } from '../readmode.js';
 
 const BUBBLE = new Set(['speech', 'thought', 'shout']);
 
@@ -36,22 +36,24 @@ function spk(pi, li) {
 
 function lineHTML(line, ep, newSet, sideOf, pi, li) {
   const type = line.type || 'speech';
+  const prefs = readPrefs();
   if (type === 'system') return '';
   if (type === 'narration-ru') {
-    return `<div class="cap cap-ru">${narrationBitsHTML(line, readPrefs())}</div>`;
+    return `<div class="cap cap-ru">${narrationBitsHTML(line, prefs)}</div>`;
   }
   const en = line.en || '';
   const ru = line.ru || '';
-  const ruBlock = ru ? `<p class="ru" hidden>${esc(ru)}</p>` : '';
-  const enHTML = showHTML(en, ru, readPrefs(), newSet);
+  const other = otherLang(en, ru, prefs);
+  const ruBlock = other ? `<p class="ru" hidden>${esc(other)}</p>` : '';
+  const enHTML = showHTML(en, ru, prefs, newSet);
   if (type === 'narration') {
-    return `<div class="cap cap-en">${enHTML}${spk(pi, li)}${ruTag(ru)}${ruBlock}</div>`;
+    return `<div class="cap cap-en">${enHTML}${spk(pi, li)}${ruTag(other)}${ruBlock}</div>`;
   }
   const t = BUBBLE.has(type) ? type : 'speech';
   const ch = line.who ? db.chars.get(line.who) : null;
   const who = line.who ? `<div class="who">${esc(ch ? ch.name : line.who)}</div>` : '';
   const side = sideOf(line.who);
-  const inner = `${who}${enHTML}${spk(pi, li)}${ruTag(ru)}${ruBlock}`;
+  const inner = `${who}${enHTML}${spk(pi, li)}${ruTag(other)}${ruBlock}`;
   if (t === 'shout') {
     return `<div class="bub-wrap shout side-${side}"><div class="bub bub-shout"><div class="bub-in">${inner}</div></div></div>`;
   }
@@ -69,14 +71,16 @@ function placeOf(l) {
 }
 function placedHTML(l, pl, pi, li, newSet) {
   const type = l.type || 'speech';
+  const prefs = readPrefs();
   const style = `left:${(pl.x * 100).toFixed(2)}%;top:${(pl.y * 100).toFixed(2)}%;width:${(pl.w * 100).toFixed(2)}%`;
   const ru = l.ru || '';
-  const ruBlock = ru ? `<p class="ru" hidden>${esc(ru)}</p>` : '';
+  const other = otherLang(l.en || '', ru, prefs);
+  const ruBlock = other ? `<p class="ru" hidden>${esc(other)}</p>` : '';
   const wrap = (cls, inner) => `<div class="pl ${cls}" data-tail="${pl.tail}" style="${style}">${inner}</div>`;
   if (type === 'system') return '';
-  if (type === 'narration-ru') return wrap('pl-cap', `<div class="cap cap-ru">${narrationBitsHTML(l, readPrefs())}</div>`);
-  const enHTML = showHTML(l.en || '', ru, readPrefs(), newSet);
-  const body = `${enHTML}${spk(pi, li)}${ruTag(ru)}${ruBlock}`;
+  if (type === 'narration-ru') return wrap('pl-cap', `<div class="cap cap-ru">${narrationBitsHTML(l, prefs)}</div>`);
+  const enHTML = showHTML(l.en || '', ru, prefs, newSet);
+  const body = `${enHTML}${spk(pi, li)}${ruTag(other)}${ruBlock}`;
   if (type === 'narration') return wrap('pl-cap', `<div class="cap cap-en">${body}</div>`);
   const t = BUBBLE.has(type) ? type : 'speech';
   if (t === 'shout') return wrap('pl-shout', `<div class="bub-shout"><div class="bub-in">${body}</div></div>`);
@@ -144,14 +148,14 @@ function toggleRuPop(pl, btn) {
   const wasOpen = btn.classList.contains('on');
   closeRuPop(layer);
   if (wasOpen) return;
-  const src = pl.querySelector('.ru');
-  if (!src) return;
+  const text = altText(pl);
+  if (!text.trim()) return;
   const W = layer.clientWidth;
   const H = layer.clientHeight;
   const pop = document.createElement('div');
   pop.className = 'pl-ru';
   pop.setAttribute('role', 'note');
-  pop.textContent = src.textContent;
+  pop.textContent = text;
   layer.appendChild(pop);
   const G = 8;
   const bx = pl.offsetLeft, by = pl.offsetTop, bw = pl.offsetWidth, bh = pl.offsetHeight;
@@ -208,12 +212,12 @@ function toggleFlowRu(box, btn) {
   const was = btn.classList.contains('on');
   closeFlowRu();
   if (was) return;
-  const src = box && box.querySelector('.ru');
-  if (!src || !src.textContent.trim()) return;
+  const text = altText(box);
+  if (!text.trim()) return;
   const pop = document.createElement('div');
   pop.className = 'flow-ru';
   pop.setAttribute('role', 'note');
-  pop.textContent = src.textContent;
+  pop.textContent = text;
   document.body.appendChild(pop);
   flowRu = pop;
   const r = box.getBoundingClientRect();
@@ -251,7 +255,8 @@ function systemFrames(lines, pi, newSet) {
       return;
     }
     const kind = sysKind(l.en);
-    const row = { en: l.en, ru: l.ru || '', attrs: `data-p="${pi}" data-l="${j}"`, newSet };
+    const prefs = readPrefs();
+    const row = { en: l.en, ru: l.ru || '', attrs: `data-p="${pi}" data-l="${j}"`, newSet, inner: showHTML(l.en, l.ru || '', prefs, newSet), other: otherLang(l.en, l.ru || '', prefs) };
     if (prev && groups[groups.length - 1].kind === kind) groups[groups.length - 1].rows.push(row);
     else groups.push({ kind, rows: [row] });
     prev = true;
@@ -456,7 +461,13 @@ export async function readEpisode(root, ep, ctx, opts = {}) {
         return;
       }
       const line = e.target.closest('[data-flip-line]');
-      if (line && !e.target.closest('.w, .mix, .spk, .rutag')) {
+      if (line && !e.target.closest('.w, .mix, .spk, .rutag, .sysrow')) {
+        const pl = line.closest('.pl');
+        if (pl) {
+          const btn = pl.querySelector('[data-ru]');
+          if (btn) toggleRuPop(pl, btn);
+          return;
+        }
         flipEl(line);
         return;
       }
@@ -492,6 +503,8 @@ export async function readEpisode(root, ep, ctx, opts = {}) {
           const p = sys.querySelector('.ru');
           if (!p) return;
           const show = p.hasAttribute('hidden');
+          const next = altText(sys);
+          if (next) p.textContent = next;
           root.querySelectorAll('.sysrow .ru').forEach((el) => { if (el !== p) el.hidden = true; });
           root.querySelectorAll('.sysrow [data-ru]').forEach((b) => {
             if (b === ru) return;

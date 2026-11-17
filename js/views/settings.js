@@ -54,7 +54,9 @@ ${
     q(id).addEventListener('click', (e) => {
       const b = e.target.closest('[' + attr + ']');
       if (!b) return;
-      set[key] = b.getAttribute(attr);
+      const st = store.get();
+      if (!st.settings) st.settings = {};
+      st.settings[key] = b.getAttribute(attr);
       store.save();
       q(id).querySelectorAll('button').forEach((x) => x.classList.toggle('on', x === b));
     });

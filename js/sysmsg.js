@@ -33,11 +33,13 @@ export function sysKind(text) {
   return 'system';
 }
 
-export function sysRowHTML({ en, ru, attrs = '', newSet = null }) {
-  const rt = ru
+export function sysRowHTML({ en, ru, attrs = '', newSet = null, inner = null, other = null }) {
+  const trans = other != null ? other : ru;
+  const rt = trans
     ? `<button class="rutag" data-ru aria-label="Показать перевод" aria-expanded="false">RU</button>`
     : '';
-  return `<div class="sysrow"><p class="en">${tokensHTML(en, newSet)}</p><button class="spk" data-say ${attrs} aria-label="Озвучить">${icon('speaker')}</button>${rt}${ru ? `<p class="ru" hidden>${esc(ru)}</p>` : ''}</div>`;
+  const body = inner != null ? inner : `<p class="en">${tokensHTML(en, newSet)}</p>`;
+  return `<div class="sysrow">${body}<button class="spk" data-say ${attrs} aria-label="Озвучить">${icon('speaker')}</button>${rt}${trans ? `<p class="ru" hidden>${esc(trans)}</p>` : ''}</div>`;
 }
 
 // One chrome everywhere. kind: system|quest|status|warning|reward.

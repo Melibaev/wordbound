@@ -34,7 +34,24 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Безмолвные не входят в свет лампы. Дэн принёс Миру в ближайшую комнату. У неё нет ни дыхания, ни имени."
+     "ru": "Безмолвные не входят в свет лампы. Дэн принёс Миру в ближайшую комнату. У неё нет ни дыхания, ни имени.",
+     "bits": [
+      {
+       "ru": "Безмолвные не входят в свет лампы.",
+       "en": "The Silent do not enter the lamp light.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Дэн принёс Миру в ближайшую комнату.",
+       "en": "Dan carried Mira into the nearest room.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "У неё нет ни дыхания, ни имени.",
+       "en": "She has no breath and no name.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -52,8 +69,8 @@
     {
      "type": "speech",
      "who": "mira",
-     "en": "I hear it. It is not mine. It is a sound.",
-     "ru": "Я его слышу. Оно не моё. Это просто звук.",
+     "en": "I hear it. Not mine. A sound. Nothing.",
+     "ru": "Слышу. Не моё. Звук. И всё.",
      "delivery": "hoarse hollow whisper, flat and empty, no emotion, as if the name belongs to someone else",
      "place": {
       "x": 0.54,
@@ -87,8 +104,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I have to go to him.",
-     "ru": "Я должен пойти к нему.",
+     "en": "I have to go to him. Now.",
+     "ru": "Я должен к нему. Сейчас.",
      "delivery": "quiet and heavy, a decision made against his will, jaw tight",
      "place": {
       "x": 0.03,
@@ -188,8 +205,8 @@
     {
      "type": "thought",
      "who": "dan",
-     "en": "I need to make a plan.",
-     "ru": "Мне нужно составить план.",
+     "en": "I need to make a plan. Think, Dan.",
+     "ru": "Надо собрать план. Думай, Дэн.",
      "delivery": "tired inner voice, dry and low, talking to himself",
      "place": {
       "x": 0.5,
@@ -231,7 +248,19 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Зал Слов наполовину тёмный: лампы на полках гаснут одна за другой. На подлокотнике кресла стоит банка с одной красной искрой — это имя Миры."
+     "ru": "Зал Слов наполовину тёмный: лампы на полках гаснут одна за другой. На подлокотнике кресла стоит банка с одной красной искрой — это имя Миры.",
+     "bits": [
+      {
+       "ru": "Зал Слов наполовину тёмный: лампы на полках гаснут одна за другой.",
+       "en": "The Hall of Words is half dark: lamps on the shelves die one by one.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "На подлокотнике кресла стоит банка с одной красной искрой — это имя Миры.",
+       "en": "On the chair arm sits a jar with one red spark — Mira's name.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -279,7 +308,14 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Хранитель рассказывает о прошлом в настоящем времени: на Этаже Имён другого времени нет."
+     "ru": "Хранитель рассказывает о прошлом в настоящем времени: на Этаже Имён другого времени нет.",
+     "bits": [
+      {
+       "ru": "Хранитель рассказывает о прошлом в настоящем времени: на Этаже Имён другого времени нет.",
+       "en": "The Keeper talks about the past in present tense: on the Floor of Names there is no other time.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -419,7 +455,14 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "За печатями глухо звонит телефон."
+     "ru": "За печатями глухо звонит телефон.",
+     "bits": [
+      {
+       "ru": "За печатями глухо звонит телефон.",
+       "en": "Behind the seals a phone rings, dull and far.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -468,8 +511,8 @@
     {
      "type": "speech",
      "who": "keeper",
-     "en": "I have OPEN. I need your name. Your mother calls it. With it I go home as Dan.",
-     "ru": "OPEN у меня есть. Мне нужно твоё имя. Твоя мама зовёт его. С ним я иду домой как Дэн.",
+     "en": "I have OPEN. I need your name. Your mother calls Dan. Then I go home as Dan.",
+     "ru": "OPEN у меня. Нужно твоё имя. Мама зовёт: Дэн. И я иду домой как Дэн.",
      "delivery": "slow velvety reveal, calm and pleased, each short sentence laid down like a card on a table",
      "place": {
       "x": 0.3,
@@ -716,7 +759,19 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Правдивое «хочу» и «нужно» связывает слова. Дэн знает много простых слов — и сразу много из них становятся его."
+     "ru": "Правдивое «хочу» и «нужно» связывает слова. Дэн знает много простых слов — и сразу много из них становятся его.",
+     "bits": [
+      {
+       "ru": "Правдивое «хочу» и «нужно» связывает слова.",
+       "en": "A true want and a true need bind words together.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Дэн знает много простых слов — и сразу много из них становятся его.",
+       "en": "Dan knows many simple words — and many of them become his at once.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "thought",

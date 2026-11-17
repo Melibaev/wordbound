@@ -100,6 +100,16 @@ def main():
                 if t == "narration-ru":
                     nru += 1
                     if "en" in ln: err("%s line %d: narration-ru has en" % (where, li))
+                    bits = ln.get("bits")
+                    if bits is not None:
+                        if not isinstance(bits, list) or not bits:
+                            err("%s line %d: bits must be a non-empty list" % (where, li))
+                        else:
+                            for bi, b in enumerate(bits, 1):
+                                if not isinstance(b, dict) or not b.get("ru") or not b.get("en"):
+                                    err("%s line %d bit %d: need ru and en" % (where, li, bi))
+                                elif b.get("lvl") not in ("A0", "A1", "A2", "B1", "B2", "C1"):
+                                    err("%s line %d bit %d: bad lvl" % (where, li, bi))
                     continue
                 nen += 1
                 if "who" in ln and ln["who"] not in chars: err("%s line %d: unknown who %r" % (where, li, ln["who"]))

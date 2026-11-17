@@ -38,7 +38,24 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "До аукциона семь дней. Войти туда можно за триста слов — или выиграть Proof, городское испытание. Но на Proof нужен пропуск Ledger."
+     "ru": "До аукциона семь дней. Войти туда можно за триста слов — или выиграть Proof, городское испытание. Но на Proof нужен пропуск Ledger.",
+     "bits": [
+      {
+       "ru": "До аукциона семь дней.",
+       "en": "Seven days to the auction.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Войти туда можно за триста слов — или выиграть Proof, городское испытание.",
+       "en": "You can enter for three hundred words — or win Proof, a city trial.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Но на Proof нужен пропуск Ledger.",
+       "en": "But Proof needs a Ledger pass.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -336,8 +353,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I am repairing a lift. The lift is moving. I hate this.",
-     "ru": "Я чиню лифт. Лифт едет. Я это ненавижу.",
+     "en": "The lift is moving. I am repairing it. I hate this job.",
+     "ru": "Лифт едет. Я его чиню. Ненавижу эту работу.",
      "delivery": "shouting over the wind, panicked and self-mocking",
      "place": {
       "x": 0.02,
@@ -493,7 +510,24 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Три дня Дэн чинит всё, что скрипит: лифт, мостик, насос, печь. Каждый ремонт — слово. Счёт растёт."
+     "ru": "Три дня Дэн чинит всё, что скрипит: лифт, мостик, насос, печь. Каждый ремонт — слово. Счёт растёт.",
+     "bits": [
+      {
+       "ru": "Три дня Дэн чинит всё, что скрипит: лифт, мостик, насос, печь.",
+       "en": "For three days Dan fixes everything that squeaks: the lift, the bridge, the pump, the stove.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Каждый ремонт — слово.",
+       "en": "Each repair is a word.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Счёт растёт.",
+       "en": "The count grows.",
+       "lvl": "A0"
+      }
+     ]
     },
     {
      "type": "system",
@@ -542,8 +576,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "Thank you, Hob. I enjoy a good lift.",
-     "ru": "Спасибо, Хоб. Мне нравится хороший лифт.",
+     "en": "Thank you, Hob. I like this job.",
+     "ru": "Спасибо, Хоб. Мне такая работа нравится.",
      "delivery": "warm, a bit tired, a real smile",
      "place": {
       "x": 0.55,
@@ -642,7 +676,29 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "За спиной клерка — прейскурант Ledger. «Callers» — голоса из-за пределов Башни. «Returns» — возвращения домой. Мамин голос — тоже товар."
+     "ru": "За спиной клерка — прейскурант Ledger. «Callers» — голоса из-за пределов Башни. «Returns» — возвращения домой. Мамин голос — тоже товар.",
+     "bits": [
+      {
+       "ru": "За спиной клерка — прейскурант Ledger.",
+       "en": "Behind the clerk hangs the Ledger price list.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "«Callers» — голоса из-за пределов Башни.",
+       "en": "Callers are voices from beyond the Tower.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "«Returns» — возвращения домой.",
+       "en": "Returns are ways home.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Мамин голос — тоже товар.",
+       "en": "Mom's voice is also goods.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "system",
@@ -660,8 +716,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "Callers? Voices from outside? That is Mom!",
-     "ru": "Callers? Голоса снаружи? Это же мама!",
+     "en": "Callers. Voices from outside. That is Mom.",
+     "ru": "Callers. Голоса снаружи. Это мама.",
      "delivery": "stunned, then rising anger, almost shouting",
      "place": {
       "x": 0.02,
@@ -717,8 +773,8 @@
     {
      "type": "speech",
      "who": "clerk",
-     "en": "Polite. Hm. Sign it, if you want.",
-     "ru": "Вежливый. Хм. Подпиши, если хочешь.",
+     "en": "Polite. Hm. Sign it. Or not.",
+     "ru": "Вежливый. Хм. Подпиши. Или нет.",
      "delivery": "bored nasal clerk voice, flat politeness that has seen everything",
      "place": {
       "x": 0.55,

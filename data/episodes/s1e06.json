@@ -34,7 +34,24 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Мира не двигается. Перед ней тот, кого она искала три года. И она не может сделать ни шага навстречу."
+     "ru": "Мира не двигается. Перед ней тот, кого она искала три года. И она не может сделать ни шага навстречу.",
+     "bits": [
+      {
+       "ru": "Мира не двигается.",
+       "en": "Mira does not move.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Перед ней тот, кого она искала три года.",
+       "en": "In front of her is the one she sought for three years.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "И она не может сделать ни шага навстречу.",
+       "en": "And she cannot take one step toward him.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -52,8 +69,8 @@
     {
      "type": "thought",
      "who": "dan",
-     "en": "She can't say the word. I don't know the word.",
-     "ru": "Она не может сказать это слово. А я его не знаю.",
+     "en": "She can't say it. I don't know that word.",
+     "ru": "Она это слово не скажет. А я его не знаю.",
      "delivery": "tense inner whisper, urgent worry, helpless frustration",
      "place": {
       "x": 0.03,
@@ -182,7 +199,24 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Слово бьёт, как отдача. В глазах темнеет. Но ближний Безмолвный застыл с поднятой ногой."
+     "ru": "Слово бьёт, как отдача. В глазах темнеет. Но ближний Безмолвный застыл с поднятой ногой.",
+     "bits": [
+      {
+       "ru": "Слово бьёт, как отдача.",
+       "en": "The word hits like recoil.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "В глазах темнеет.",
+       "en": "His vision goes dark.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Но ближний Безмолвный застыл с поднятой ногой.",
+       "en": "But the nearest Silent freezes with one foot raised.",
+       "lvl": "A2"
+      }
+     ]
     }
    ]
   },
@@ -252,13 +286,35 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Лестница эха. Узкие ступени вьются вверх по стене огромной шахты. Стены из бумаги. Перил нет."
+     "ru": "Лестница эха. Узкие ступени вьются вверх по стене огромной шахты. Стены из бумаги. Перил нет.",
+     "bits": [
+      {
+       "ru": "Лестница эха.",
+       "en": "The echo stair.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Узкие ступени вьются вверх по стене огромной шахты.",
+       "en": "Narrow steps wind up the wall of a huge shaft.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Стены из бумаги.",
+       "en": "The walls are paper.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Перил нет.",
+       "en": "No rail.",
+       "lvl": "A0"
+      }
+     ]
     },
     {
      "type": "speech",
      "who": "dan",
-     "en": "So many stairs. Mira, are you OK?",
-     "ru": "Сколько ступенек. Мира, ты в порядке?",
+     "en": "So many stairs. Mira, you OK?",
+     "ru": "Ступенек тьма. Мира, ты как?",
      "delivery": "gasping whisper, kind and worried, catching his breath on the stairs",
      "place": {
       "x": 0.03,
@@ -303,7 +359,19 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Здесь каждое сказанное слово возвращается. И у эха вырастают руки."
+     "ru": "Здесь каждое сказанное слово возвращается. И у эха вырастают руки.",
+     "bits": [
+      {
+       "ru": "Здесь каждое сказанное слово возвращается.",
+       "en": "Here every spoken word comes back.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "И у эха вырастают руки.",
+       "en": "And the echo grows hands.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "system",
@@ -456,7 +524,19 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Вокруг мальчишки звук не возвращается. У него есть слово: QUIET."
+     "ru": "Вокруг мальчишки звук не возвращается. У него есть слово: QUIET.",
+     "bits": [
+      {
+       "ru": "Вокруг мальчишки звук не возвращается.",
+       "en": "Around the boy, sound does not return.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "У него есть слово: QUIET.",
+       "en": "He has a word: QUIET.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -475,7 +555,7 @@
      "type": "speech",
      "who": "dan",
      "en": "A boy? There is a boy on the stairs!",
-     "ru": "Мальчик? На лестнице мальчик!",
+     "ru": "Мальчик? На лестнице — мальчик?",
      "delivery": "stunned whisper, delighted surprise, baffled to find a child there",
      "place": {
       "x": 0.03,
@@ -748,7 +828,24 @@
     },
     {
      "type": "narration-ru",
-     "ru": "Царапина на стене. Фреска. Красная нить. Дэн наконец знает слово, которого нет у Миры."
+     "ru": "Красная нить. Маленькая Безмолвная внизу. Дэн наконец знает слово, которого нет у Миры.",
+     "bits": [
+      {
+       "ru": "Красная нить.",
+       "en": "A red cord.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Маленькая Безмолвная внизу.",
+       "en": "A small Silent girl below.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Дэн наконец знает слово, которого нет у Миры.",
+       "en": "Dan finally knows a word Mira does not have.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "thought",
@@ -850,7 +947,7 @@
      "type": "speech",
      "who": "dan",
      "en": "Is there help up there?",
-     "ru": "Там, наверху, есть помощь?",
+     "ru": "Наверху есть хоть какая-то помощь?",
      "delivery": "exhausted and desperate, hoarse, pleading for a way to save her",
      "place": {
       "x": 0.02,

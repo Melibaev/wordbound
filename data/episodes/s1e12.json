@@ -30,13 +30,25 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Рука Дэна лежит на краю двери домой, свет офиса падает ему на лицо. Он оборачивается."
+     "ru": "Рука Дэна лежит на краю двери домой, свет офиса падает ему на лицо. Он оборачивается.",
+     "bits": [
+      {
+       "ru": "Рука Дэна лежит на краю двери домой, свет офиса падает ему на лицо.",
+       "en": "Dan's hand rests on the edge of the door home; office light falls on his face.",
+       "lvl": "A2"
+      },
+      {
+       "ru": "Он оборачивается.",
+       "en": "He turns around.",
+       "lvl": "A0"
+      }
+     ]
     },
     {
      "type": "speech",
      "who": "dan",
-     "en": "Mom. One more minute. I come back. I am sorry. I don't go. There is a new way.",
-     "ru": "Мама. Ещё одну минуту. Я вернусь. Прости. Я не ухожу. Есть новый путь.",
+     "en": "Mom. One more minute. Sorry. I come back. I don't go. There is a new way.",
+     "ru": "Мама. Ещё минута. Прости. Я вернусь. Я не ухожу. Есть другой путь.",
      "delivery": "a broken whisper at first, exhausted and guilty, then firming into a quiet steady decision",
      "place": {
       "x": 0.08,
@@ -65,7 +77,19 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Имя нельзя купить, но его можно назвать. Три правдивых предложения о человеке — и имя находит дорогу к тому, кто его потерял."
+     "ru": "Имя нельзя купить, но его можно назвать. Три правдивых предложения о человеке — и имя находит дорогу к тому, кто его потерял.",
+     "bits": [
+      {
+       "ru": "Имя нельзя купить, но его можно назвать.",
+       "en": "You cannot buy a name, but you can say it.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Три правдивых предложения о человеке — и имя находит дорогу к тому, кто его потерял.",
+       "en": "Three true sentences about a person — and the name finds its way to the one who lost it.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -236,9 +260,9 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "I can't give you the word. But I can teach you. Lina is a girl. Lina's mother is your mother. Lina's father is your father.",
-     "ru": "Я не могу дать тебе слово. Но я могу научить тебя. Лина — девочка. Мама Лины — твоя мама. Папа Лины — твой папа.",
-     "delivery": "patient friendly teacher voice, slow and clear, a small smile, pausing between each short sentence",
+     "en": "I can't give you the word. But I can teach you. One. Lina is a girl. Two. Lina's mother is your mother. Three. Lina's father is your father.",
+     "ru": "Слово не отдам. Но научить могу. Раз: Лина — девочка. Два: мама Лины — твоя мама. Три: папа Лины — твой папа.",
+     "delivery": "urgent low voice, counting on three fingers, kind and sharp, not a classroom",
      "place": {
       "x": 0.03,
       "y": 0.0,
@@ -262,8 +286,8 @@
     {
      "type": "speech",
      "who": "dan",
-     "en": "It is the same family. What does it mean?",
-     "ru": "Это одна и та же семья. Что это значит?",
+     "en": "The same family. What does it mean?",
+     "ru": "Та же семья. И что это значит?",
      "delivery": "gentle and encouraging, leaning in, almost holding his breath",
      "place": {
       "x": 0.04,
@@ -292,7 +316,19 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Слова нет. Но смысл — вот он, целый, и никто не может его купить."
+     "ru": "Слова нет. Но смысл — вот он, целый, и никто не может его купить.",
+     "bits": [
+      {
+       "ru": "Слова нет.",
+       "en": "There is no word.",
+       "lvl": "A0"
+      },
+      {
+       "ru": "Но смысл — вот он, целый, и никто не может его купить.",
+       "en": "But the meaning is here, whole, and no one can buy it.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -344,7 +380,19 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Это не чужой голос. Это её собственный — тонкий, охрипший от трёх лет молчания."
+     "ru": "Это не чужой голос. Это её собственный — тонкий, охрипший от трёх лет молчания.",
+     "bits": [
+      {
+       "ru": "Это не чужой голос.",
+       "en": "This is not a stranger's voice.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Это её собственный — тонкий, охрипший от трёх лет молчания.",
+       "en": "It is her own — thin, rough from three years of silence.",
+       "lvl": "A2"
+      }
+     ]
     },
     {
      "type": "speech",
@@ -498,7 +546,24 @@
    "lines": [
     {
      "type": "narration-ru",
-     "ru": "Дэн научил Миру — и ничего не потерял. Каждое слово, которое он объяснил, стало прочнее. Впереди последняя дверь этажа."
+     "ru": "Дэн научил Миру — и ничего не потерял. Каждое слово, которое он объяснил, стало прочнее. Впереди последняя дверь этажа.",
+     "bits": [
+      {
+       "ru": "Дэн научил Миру — и ничего не потерял.",
+       "en": "Dan taught Mira — and lost nothing.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Каждое слово, которое он объяснил, стало прочнее.",
+       "en": "Every word he explained grew stronger.",
+       "lvl": "A1"
+      },
+      {
+       "ru": "Впереди последняя дверь этажа.",
+       "en": "Ahead is the last door of the floor.",
+       "lvl": "A1"
+      }
+     ]
     },
     {
      "type": "system",

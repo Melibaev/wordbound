@@ -43,7 +43,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери приказ Миры: «Возьми меня за руку»."
+      "ru": "Темно. Мира тянет. Собери: «Возьми меня за руку»."
      },
      "answer": "Take my hand",
      "distractors": [
@@ -70,7 +70,7 @@
      },
      "prompt": {
       "en": "What is it?",
-      "ru": "Что ты слышишь? Выбери."
+      "ru": "Что несёт голос?"
      },
      "audio_text": "Look down. Go slowly.",
      "voice": "mira",
@@ -100,8 +100,8 @@
       "ru": "Медленно, Зеро."
      },
      "prompt": {
-      "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "en": "Find the word.",
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "I ___ go slowly. I am very good at it.",
      "options": [
@@ -112,8 +112,8 @@
      "answer": 0,
      "success": {
       "who": "mira",
-      "en": "Very good. For a slow man.",
-      "ru": "Очень хорошо. Для медленного."
+      "en": "Not bad. For a slow man.",
+      "ru": "Неплохо. Для медленного."
      },
      "fail": {
       "who": "mira",
@@ -130,7 +130,7 @@
      },
      "prompt": {
       "en": "What is it in English?",
-      "ru": "«Не смотри на них» — как это по-английски?"
+      "ru": "Глаза на стене. Какая фраза: «Не смотри на них»?"
      },
      "options": [
       "Do not look at them.",
@@ -159,7 +159,7 @@
      },
      "prompt": {
       "en": "In English.",
-      "ru": "Дэн зовёт Миру: «Иди сюда!»"
+      "ru": "Мира далеко. Дэн зовёт. Напиши зов."
      },
      "answer": "Come here",
      "accept": [
@@ -246,8 +246,8 @@
       "ru": "Мира? Ты такая бледная."
      },
      "prompt": {
-      "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "en": "Find the word.",
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "Mira ___ stop them. Not now.",
      "options": [
@@ -276,7 +276,7 @@
      },
      "prompt": {
       "en": "What is it?",
-      "ru": "Что шепчет Мира? Напиши."
+      "ru": "Дыхание кончается. Что шепчет Мира?"
      },
      "audio_text": "No more breath.",
      "voice": "mira",
@@ -305,7 +305,7 @@
      },
      "prompt": {
       "en": "Mira says...",
-      "ru": "Что ответит Мира?"
+      "ru": "Мира. Два-три слова. Что она скажет?"
      },
      "options": [
       "You can go. Slowly.",
@@ -328,12 +328,12 @@
      "type": "match",
      "story": {
       "who": "dan",
-      "en": "Can, take, come, look. Small words. Big power.",
-      "ru": "Can, take, come, look. Маленькие слова. Большая сила."
+      "en": "Can, take, come, look. Small. Big power.",
+      "ru": "Can, take, come, look. Короткие. Большая сила."
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Соедини слово и перевод."
+      "ru": "Четыре метки. Сопоставь."
      },
      "pairs": [
       [
@@ -373,7 +373,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери ответ Дэна: «Я могу открыть дверь»."
+      "ru": "Одно слово — одна дверь. Собери: «Я могу открыть дверь»."
      },
      "answer": "I can open the door",
      "distractors": [
@@ -400,7 +400,7 @@
      },
      "prompt": {
       "en": "Dan says: I can't...",
-      "ru": "Чего Дэн НЕ может? Он говорит: «Я не могу…»"
+      "ru": "Воротам нужно имя. Чего Дэн не может?"
      },
      "options": [
       "say my name.",
@@ -481,7 +481,7 @@
      },
      "prompt": {
       "en": "What is it?",
-      "ru": "Что ты слышишь? Выбери."
+      "ru": "Что несёт голос?"
      },
      "audio_text": "Come here, Zero. Take my hand.",
      "voice": "keeper",
@@ -512,7 +512,7 @@
      },
      "prompt": {
       "en": "Dan can't...",
-      "ru": "Что Дэну сейчас НЕЛЬЗЯ делать?"
+      "ru": "Голос из темноты. Что Дэну нельзя?"
      },
      "options": [
       "talk",
@@ -539,8 +539,8 @@
       "ru": "Иди. Мой свет хороший."
      },
      "prompt": {
-      "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "en": "Find the word.",
+      "ru": "Пропуск. Закрой его."
      },
      "sentence": "___ my hand, Zero. Not that hand.",
      "options": [
@@ -556,8 +556,8 @@
      },
      "fail": {
       "who": "mira",
-      "en": "Take. Not takes. Take my hand.",
-      "ru": "Take, не takes. Возьми мою руку."
+      "en": "Take my hand, Zero. My hand.",
+      "ru": "Take my hand. Мою руку, Зеро."
      }
     },
     {
@@ -569,7 +569,7 @@
      },
      "prompt": {
       "en": "In English.",
-      "ru": "Дэн спрашивает голос: «Кто вы?»"
+      "ru": "Бархатный голос. Дэн спрашивает. Напиши вопрос."
      },
      "answer": "Who are you",
      "accept": [
@@ -596,7 +596,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери шёпот Миры: «Не говори с этим голосом»."
+      "ru": "Мира шепчет запрет. Собери: «Не говори с этим голосом»."
      },
      "answer": "Do not talk to that voice",
      "distractors": [
@@ -623,7 +623,7 @@
      },
      "prompt": {
       "en": "What is it?",
-      "ru": "Что ты слышишь? Выбери."
+      "ru": "Что несёт голос?"
      },
      "audio_text": "And welcome back, Mira.",
      "voice": "keeper",
