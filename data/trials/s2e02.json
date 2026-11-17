@@ -1,0 +1,658 @@
+{
+ "episode": "s2e02",
+ "unlocks": "s2e03",
+ "title": "The Auditor's Son",
+ "titleRu": "Сын аудитора",
+ "trials": [
+  {
+   "id": "s2e02-t1",
+   "title": "Is He Winning?",
+   "titleRu": "Он выигрывает?",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "status",
+     "title": "STATUS",
+     "lines": [
+      {
+       "en": "Count: 99. Rank: WORD.",
+       "ru": "Счёт: 99. Ранг: WORD."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Alive. Poor. Move. Ask what he is doing.",
+      "ru": "Живой. Бедный. Иди. Спрашивай, что он делает."
+     },
+     {
+      "who": "dan",
+      "en": "Ask? I am not winning today.",
+      "ru": "Спрашивать? Сегодня я ничего не выигрываю."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "choose",
+     "story": {
+      "who": "mira",
+      "en": "Ask it right, Zero.",
+      "ru": "Спрашивай правильно, Зеро."
+     },
+     "prompt": {
+      "en": "What is the right sentence?",
+      "ru": "Какая фраза верная?"
+     },
+     "options": [
+      "Is he winning?",
+      "He is winning?",
+      "Does he winning?"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Is he winning. Yes. Right.",
+      "ru": "Is he winning. Да. Верно."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Is first. Is he winning?",
+      "ru": "Is — первым. Is he winning?"
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "They are laughing. What am I doing?",
+      "ru": "Они смеются. А что делаю я?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "What ___ you doing, Zero?",
+     "options": [
+      "are",
+      "is",
+      "do"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Thinking. Slowly.",
+      "ru": "Думаешь. Медленно."
+     },
+     "fail": {
+      "who": "system",
+      "en": "What are you doing. Are first.",
+      "ru": "What are you doing. Are — первым."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "mira",
+      "en": "Listen to the street.",
+      "ru": "Слушай улицу."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "What is he doing now?",
+     "voice": "mira",
+     "delivery": "dry low voice, quick whisper, alert",
+     "options": [
+      "What is he doing now?",
+      "What does he do?",
+      "What is she doing now?"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Now. Not always. Now.",
+      "ru": "Сейчас. Не всегда. Сейчас."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "What is he doing NOW.",
+      "ru": "What is he doing NOW."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "They are laughing. At me.",
+      "ru": "Они смеются. Надо мной."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери вопрос Дэна: «Вы смеётесь надо мной?»"
+     },
+     "answer": "Are you laughing at me",
+     "distractors": [
+      "do",
+      "is"
+     ],
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Are you laughing. Are first.",
+      "ru": "Are you laughing. Are — первым."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "dan",
+      "en": "I am not losing. I am... thinking.",
+      "ru": "Я не проигрываю. Я… думаю."
+     },
+     "prompt": {
+      "en": "Write it in English.",
+      "ru": "Напиши: «Я не проигрываю»."
+     },
+     "answer": "I am not losing",
+     "success": {
+      "who": "mira",
+      "en": "You are losing. But you are alive.",
+      "ru": "Ты проигрываешь. Но ты жив."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "I am not losing. Am not.",
+      "ru": "I am not losing. Am not."
+     },
+     "accept": [
+      "i'm not losing"
+     ]
+    },
+    {
+     "type": "match",
+     "story": {
+      "who": "mira",
+      "en": "Four words from the Line.",
+      "ru": "Четыре слова от Линии."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Соедини слово и перевод."
+     },
+     "pairs": [
+      [
+       "win",
+       "выигрывать"
+      ],
+      [
+       "rich",
+       "богатый"
+      ],
+      [
+       "poor",
+       "бедный"
+      ],
+      [
+       "laugh",
+       "смеяться"
+      ]
+     ],
+     "success": {
+      "who": "mira",
+      "en": "Good.",
+      "ru": "Хорошо."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Poor and slow. Again.",
+      "ru": "Бедный и медленный. Ещё раз."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Count: 99. Rank: WORD.",
+       "ru": "Счёт: 99. Ранг: WORD."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Poor is a start. Rich is not.",
+      "ru": "Бедный — это начало. Богатый — ловушка."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2e02-t2",
+   "title": "Always, Never, Now",
+   "titleRu": "Всегда, никогда, сейчас",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Say what is true now.",
+       "ru": "ЗАДАНИЕ: Скажи, что правда сейчас."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Ruk always attacks first. He never waits.",
+      "ru": "Рук всегда атакует первым. Он никогда не ждёт."
+     },
+     {
+      "who": "dan",
+      "en": "Always. Never. And now?",
+      "ru": "Всегда. Никогда. А сейчас?"
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "He is looking at the crowd.",
+      "ru": "Он смотрит на толпу."
+     },
+     "prompt": {
+      "en": "What is the answer?",
+      "ru": "Что правда сейчас?"
+     },
+     "options": [
+      "He is looking at the crowd now.",
+      "He always looks at the crowd.",
+      "He never looks at me."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True. Now-sight.",
+      "ru": "Правда. Now-sight."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Now. Not always.",
+      "ru": "Сейчас. Не всегда."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "mira",
+      "en": "Think about the man. What does he do?",
+      "ru": "Подумай о нём. Что он делает?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "Ruk ___ waits. He attacks first.",
+     "options": [
+      "never",
+      "now",
+      "is"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Never. Yes.",
+      "ru": "Никогда. Да."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Never waits. Never.",
+      "ru": "Никогда не ждёт. Никогда."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "He is not looking at me.",
+      "ru": "Он не смотрит на меня."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "He is not looking at me ___.",
+     "options": [
+      "now",
+      "always",
+      "never"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Now. It is about now.",
+      "ru": "Now. Речь о «сейчас»."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "system",
+      "en": "The System speaks.",
+      "ru": "Говорит Система."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "He is not looking at me now.",
+     "voice": "system",
+     "delivery": "flat dry machine voice, exact, no feeling",
+     "options": [
+      "He is not looking at me now.",
+      "He is never looking at me.",
+      "He always looks at me."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Now-sight. OK.",
+      "ru": "Now-sight. Ясно."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Not always. Now.",
+      "ru": "Не всегда. Сейчас."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "mira",
+      "en": "Say the old rule about Ruk.",
+      "ru": "Скажи старое правило про Рука."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери фразу: «Он всегда атакует первым»."
+     },
+     "answer": "He always attacks first",
+     "distractors": [
+      "attack",
+      "never"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "Always. Yes.",
+      "ru": "Всегда. Да."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "He always attacks first.",
+      "ru": "He always attacks first."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "dan",
+      "en": "And he never...?",
+      "ru": "А он никогда…?"
+     },
+     "prompt": {
+      "en": "Write it in English.",
+      "ru": "Напиши слово: «никогда»."
+     },
+     "answer": "never",
+     "success": {
+      "who": "mira",
+      "en": "Never waits. Remember it.",
+      "ru": "Никогда не ждёт. Запомни."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Never.",
+      "ru": "Never."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Heavy words win. Cheap words lose.",
+       "ru": "Тяжёлые слова побеждают. Дешёвые проигрывают."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Always and never are old. Now is new.",
+      "ru": "Всегда и никогда — старое. Сейчас — новое."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2e02-t3",
+   "title": "The Coat of Words",
+   "titleRu": "Пальто из слов",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "warning",
+     "title": "WARNING",
+     "lines": [
+      {
+       "en": "Warning. The crowd is laughing.",
+       "ru": "Предупреждение. Толпа смеётся."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Look at his coat. Forty words. All cheap.",
+      "ru": "Смотри на его пальто. Сорок слов. Все дешёвые."
+     },
+     {
+      "who": "dan",
+      "en": "I am looking. I hate it.",
+      "ru": "Я смотрю. Ненавижу его."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "Ruk has a coat. I have a lanyard.",
+      "ru": "У Рука пальто. У меня шнурок."
+     },
+     "prompt": {
+      "en": "What is he wearing?",
+      "ru": "Что он носит?"
+     },
+     "options": [
+      "He is wearing a coat of words.",
+      "He is wearing a lanyard.",
+      "He is wearing my hat."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "A coat of words. Yes.",
+      "ru": "Пальто из слов. Да."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "A coat. Forty words on it.",
+      "ru": "Пальто. На нём сорок слов."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "And me?",
+      "ru": "А я?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "I ___ wearing a coat. I am wearing a lanyard.",
+     "options": [
+      "am not",
+      "is not",
+      "are not"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Am not. Not 'is not'.",
+      "ru": "I am not. Не «I is not»."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "narration",
+      "en": "Ruk speaks. He is looking at your phone.",
+      "ru": "Рук говорит. Он смотрит на твой телефон."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Is this your phone? Cheap.",
+     "voice": "narration",
+     "delivery": "cold bored rich boy, lazy contempt, sneering",
+     "options": [
+      "Is this your phone?",
+      "Is this his phone?",
+      "Is that your phone?"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "That is my mother's phone!",
+      "ru": "Это телефон моей мамы!"
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Your phone. He said your.",
+      "ru": "Твой телефон. Он сказал твой."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "What is he doing with it?",
+      "ru": "Что он с ним делает?"
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери вопрос Дэна: «Что он делает с моим телефоном?»"
+     },
+     "answer": "What is he doing with my phone",
+     "distractors": [
+      "does",
+      "are"
+     ],
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "What is he doing. Is after what.",
+      "ru": "What is he doing. Is — после what."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "mira",
+      "en": "Say it. Strong. Not loud.",
+      "ru": "Скажи. Сильно. Не громко."
+     },
+     "prompt": {
+      "en": "Write it in English.",
+      "ru": "Напиши: «Это мой телефон»."
+     },
+     "answer": "That is my phone",
+     "success": {
+      "who": "mira",
+      "en": "Yes. Yours.",
+      "ru": "Да. Твой."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "That is my phone. Mine.",
+      "ru": "That is my phone. Мой."
+     },
+     "accept": [
+      "this is my phone"
+     ]
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Missed calls: 14.",
+       "ru": "Пропущенных звонков: 14."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "I am not eating. I am not winning. OK.",
+      "ru": "Я не ем. Я не выигрываю. Ладно."
+     },
+     {
+      "who": "mira",
+      "en": "Come. Not in the street.",
+      "ru": "Идём. Не по улице."
+     }
+    ]
+   }
+  }
+ ]
+}

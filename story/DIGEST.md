@@ -120,3 +120,53 @@ Rank scale: Blank 0 (Br10) / Letter 1 (Br10) / Word 25 (Br15) / Phrase 100 (Br25
 - Yellow pencil remembers two boys -> S3E6.
 - Pip: informer; real name "Pip is a sound" -> S3E5; joins Kitchen S2E3.
 - Who built Tower -> S8E6–E8, S9E11 (grew from Keeper's phrase).
+
+## s2e01 Margin (16p, A1, Count 100, MC 13)
+- Prologue: Keeper alone in the Hall, eyes hidden, jar OPEN in hand: "I am staying. I am waiting." / "Everyone comes back, Dan. I am keeping OPEN safe."
+- Tower voice "Dan, eat something" still from above; System "Missed calls: 13." Dan: "It is using her voice. It is learning me." Stair of light burns away behind them; Nad hangs UNDER the steps in shadow (Silent will not enter light), says "I am tired."
+- Margin = vertical city on shelf-ledges of the Tower's inner wall; houses like lines, cable lifts, hanging shops. Floor 2 "Deeds". Silents are put to sleep on the spot in Margin -> Lina hidden under Mira's cream scarf ("She is a hat").
+- Now-sight: true present-continuous statement about a person makes their action flash over them as a vermilion afterimage.
+- Index board in the central plaza (ten storeys); Dan appears on the very last row: "#40112. DAN. PHRASE. Count: one hundred. Title: Lowest on the Index." First line of the board is EMPTY ("It is waiting"). Old man with a long brush: "The top moves, boy. Every year it moves. Today the bottom is moving, too."
+- Cable-lift gondola loses its brake over the plaza; Dan sees the operator pulling the wrong rope; Mira's HOLD (3 breaths) pins the wire, lift stops. Whole street watching.
+- Cliffhanger (voice/crowd): herald of the Ledger: "The Ledger is paying five hundred words for Zero, who teaches lost words!" Mira: "They are looking at you, Zero."
+- State: Count 100 (PHRASE), Breath Dan 25, Mira spent 3. MC 13. Dan has NO phone. Lina hidden under scarf; Nad inside Margin (hidden).
+- New chars: herald (tall thin, funnel hat, brass horn), oldman at the Index (bent, milky eye, long brush), citizen (crowd).
+## s2e02 The Auditor's Son (16p, A1, Count 99, MC 14)
+- Starts the second the herald finishes: crowd closes in; Dan: "I am not running. I am standing very well."
+- Ruk Marl (26, "the auditor's son", rich, ~40 bought badge-words on a black coat, heavy ledger, speaks single heavy words, never "please/sorry") holds Dan's mother's cracked phone: "Is this your phone? Cheap." / "Bet for it." He is NOT turning Dan in for the Ledger's reward; he wants to beat him in public.
+- Duel on a plank platform over the drop; the Line (chalk-line) judges: "Heavy words win." Mira's Rule: "Ruk always attacks first. He never waits." Dan's Now-sight: "He is not looking at me. He is looking at the crowd." Dan's PUSH moves the Line once ("The Zero is winning!"), then Ruk's SHIELD and CRUSH press it back. Dan slides off the platform; Mira holds his left wrist.
+- Dan loses the bet: Ruk's ledger tears PUSH out of his chest. "Word lost: PUSH." (Dan can no longer PUSH.) "Count: 99. Rank: WORD." The rank tag on his lanyard goes grey in front of the whole city (the Index board is slow and still says PHRASE).
+- Ruk: "I am winning. I am keeping it. Cheap man." Mira: "He is rich. That coat is full of words he buys." Dan: "He is wearing a coat of words. I am wearing a lanyard."
+- Cliffhanger (number): from Ruk's phone, mother: "Mom: Dan? Are you eating?" Dan: "Mom..." System: "Missed calls: 14."
+- State: Count 99 (WORD, Br15), words: STOP, FIX, REST, READ, AND, DOOR... (no PUSH). MC 14. Dan has NO phone (Ruk has it). Mira has name, Lina under scarf.
+- New chars: ruk (see visual.json), crowd citizens.
+## s2e03 Soup (16p, A1, Count 112, MC 14)
+- Starts at the second after "Missed calls: 14." Reward hunters (masked, black coats, lanterns) hunt Dan over the roofs. Pip surfaces from a drain: "I have a free way down. Today it is." (first free thing from Pip; informer for the Keeper, but now helps). Thieves' stair (iron rungs/rope ladders) down a crack; Pip uses QUIET for free to hide Lina's hum.
+- The Gutter: crack between two huge columns under Margin, lanterns on wires, tents; home of the Unwritten (people not on the Index). Pip: "Nobody looks down here."
+- Soup (52, 205 cm, bald, braided beard, apron, ladle in belt) cooks for everybody, takes no words; never eats: lamp over his kitchen burns on his own given-away word HUNGRY (hollow gauge in his chest). "Sit. Taste. There is some soup. I cook. You eat." No bread, no salt, some eggs, a lot of soup.
+- Lina (Silent) holds a bowl: "Warm." SHARE becomes Dan's ("SHARE is yours now"). Pip: "Share? That is a bad word."
+- Measure power: true some/any/a lot of statements show gauges. "There is a lot of soup in this kitchen. There isn't any in you." Dan fixes the dead fan (cuts the old belt), flicks away the LAST screw. Soup: "You don't ... things, do you?" (Dan hears nothing: unheard FINISH). System: "Almost."
+- Night: Dan writes thanks with his yellow pencil on the wall ("Thank you for the soups, it are very hot and I eat many soup."). Pip: "Nice pencil. How much?" System: "Keep the pencil." Morning: three red marks around three mistakes.
+- System: "Count: 112. Rank: PHRASE. The Index is slow." (Index board still shows the old line; updates at the Proof, S2E7.)
+- Cliffhanger (arrival): in the kitchen door, Miss Thorn (72, bun with bone hairpin, red pen, nothing red on her clothes): "Three mistakes in one sentence, dear." / "Shall we begin?"
+- State: Count 112 (PHRASE), words: STOP, FIX, REST, READ, AND, DOOR, SHARE (no PUSH). MC 14. Phone with Ruk. Dan still has the yellow pencil. Group: Dan, Mira, Lina (under scarf), Pip (helping), in Soup's kitchen.
+- New chars: soup, thorn, hunter (see visual.json).
+## s2e04 The Red Pen (16p, A1, Count 124, MC 14)
+- Morning after s2e03: Miss Thorn (ex-No.3 of the Index, teaches the Unwritten free) corrects Dan's thank-you note on Soup's wall. 's / whose / mine / yours / belong. Thorn: "I hate mistakes." Her pen "belongs to me, I do not sell it" (Pip tries to buy it).
+- TRACE (Dan): true question "Whose X is this?" with Thorn's pen-nib touching -> thin vermilion thread from a thing/word to its owner; first test on the yellow pencil. Mira's scarf bundle: Lina says "Mine." (thorn: "The hat talks.")
+- Ruk + hunters come down into the Gutter. Dan: "Whose shield is that?" -> thread from Ruk's SHIELD badge runs along rope walkways to the OLD MAN (the Index sweeper, lives in the Gutter, "Nobody writes me") who cannot say the word "shield" any more (narration). Ruk: "Mine. All of it. Everything on this coat is mine." Old man: "The shield belongs to me!" Thorn's CORRECTION (red slash) marks the false sentence: System "Not true. Correction." -> SHIELD cracks. Ruk retreats, one badge dark. Thorn: "I have my reasons, dear. Next sentence."
+- Count 112 -> 120 (TRACE) -> 124. Dan still has no PUSH, no phone (Ruk). Thorn wears dove-grey, nothing red but the ink.
+- Cliffhanger: hunters nail an auction sheet on a column; System: "Auction. Lot seven: a child's name. Seven days." Dan Traces it: thread goes to the scarf bundle. "The thread ends at Lina." Mira: "Seven days."
+- New: no new character ids (thorn, ruk, hunter, oldman reused).
+## s2e05 I Would Like a Name (14p, A1, Count 150, MC 14)
+- Thorn model phrase: "Could I have a pass, please?" PLEASE = Soft Key ("It opens." - politeness opens people and stuck things). Hob (new: gruff lift-keeper of the Gutter's water lift) lets Dan in after "Could I see the lift, please?" Dan repairs the moving lift on its roof over the drop; Mira (holds his belt) hates saying please, says it to a jammed gate: gate flies out of its frame ("Too much"). Lina echoes "Please." Montage: three days of repairs, Count 142.
+- Hob pays + gives a pass for the Ledger counter. Clerk (new, Ledger counter hall): "Sign here. Minimum count: 150. You have it. Barely." Count 150.
+- Price list behind the clerk (System): "Callers: 50 words. Returns: 600 words." Narration: Callers = voices from outside the Tower, mother's voice is merchandise (Dan realises Ruk's/ledger's use of his phone). 
+- Cliffhanger: Entrants list: "Team: Marl, A. Sponsor: the Ledger." Clerk: "You need a team of five." Dan: "I have two." (Marl, A. is NOT Ruk.)
+- New chars: hob, clerk.
+## s2e06 The Clock District (14p, A1, Count 165, MC 14)
+- Team of five: Dan, Mira, Pip (lies: "I am eighteen"), Soup (closes his kitchen, carries the pot), Lina under a hood ("The fifth is shy. She does not talk."). Clock District: giant clock faces, bridges that open/close by the clock. The Proof begins on Friday at nine, teams meet at eight (System). Today is Monday.
+- Training on the bridge fails (Pip early, Soup late, Mira HOLDs). Thorn: "Time is a sentence, dear. At six, on Monday, in the morning." Count 165.
+- The Clock gate "remembers visitors until tomorrow": Dan said his name there. At 3 a.m. NAD (tall Silent, Dan's voice) stands at the hour vault door: "I am Dan." -> "Name heard: Dan. The hour vault opens." He steals seven amber hour jars. Pip: "That is not Dan. That is Nad." Rooftop chase; Nad slips into a bridge shadow, one jar cracks (golden light). Nad lines: "I am Dan. I am not weak. I am tired."
+- Cliffhanger: dawn, watchman: "It is him. He says his name every time." System: "Warning. Dan is wanted."
+- Missed calls stays 14. New chars: none (citizen = gate warden/watchman).

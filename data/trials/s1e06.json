@@ -250,7 +250,7 @@
   },
   {
    "id": "s1e06-t2",
-   "title": "Pay the Boy",
+   "title": "Give the Boy",
    "titleRu": "Пошлина Пипа",
    "pass": 0.8,
    "lives": 3,
@@ -260,7 +260,7 @@
      "title": "QUEST",
      "lines": [
       {
-       "en": "QUEST: Pay the boy.",
+       "en": "QUEST: Give the boy.",
        "ru": "ЗАДАНИЕ: Заплати мальчишке."
       },
       {

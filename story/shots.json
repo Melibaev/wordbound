@@ -1485,5 +1485,845 @@
    "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms. The System window is blank cream paper with a double vermilion border and a round seal, tilted 2-3 degrees, no text, no face. The window is in warning style: solid vermilion frame, dark fill, no text, no face. No other characters, no Silents.",
    "check": "Почти чёрный кадр: Дэн слева смотрит вверх, на лицо падает слабый тёплый свет сверху; справа окно Системы в красной рамке-предупреждении."
   }
+ ],
+ "s2e01": [
+  {
+   "camera": "Very wide low-angle, vertical composition, the Hall seen from the floor; the Keeper tiny and exact at the centre.",
+   "action": "Keeper sits upright in the high-backed chair, hood hiding his eyes, his ink-stained RIGHT hand cupping a small glass jar that holds a thin vermilion spark. The tall wax-sealed door behind the chair stands shut, its wax seals glowing dull.",
+   "faces": "Keeper: only a calm small smile visible below the nose; eyes NEVER visible.",
+   "props": "Small jar with a vermilion spark (OPEN), high chair, dim shelves of jars, sealed door.",
+   "light": "Dim amber jar-light, flickering low; a single vermilion spark rim-lights his fingers; deep blacks, hard cel shadows.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No Dan, no Mira, no Silents in frame. No eyes visible on the Keeper.",
+   "check": "Хранитель один в кресле, глаз не видно; в руке банка с красной искрой; запечатанная дверь закрыта; вокруг тёмный зал."
+  },
+  {
+   "camera": "Extreme close-up from slightly below, a slight Dutch tilt.",
+   "action": "The Keeper's lower face with its calm small smile fills the frame; his ink-stained fingers hold the glowing jar right in front of his chin. A thin vermilion glow climbs the folds of his sleeve.",
+   "faces": "Keeper: calm small smile, hood swallowing the upper half of the face in black; eyes NEVER visible.",
+   "props": "Glass jar with vermilion spark, ochre thread script on the sleeve (abstract).",
+   "light": "Vermilion glow from the jar on the chin, warm amber background, deep blacks.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No eyes visible. No other characters.",
+   "check": "Крупно нижняя часть лица Хранителя с улыбкой и банка у подбородка; верхняя половина лица в чёрной тени, глаз нет."
+  },
+  {
+   "camera": "Tall vertical shot looking up a stair of light, slightly low angle.",
+   "action": "Dan at the LEFT stands on a step, head tilted back, face lit gold from above, listening. Mira one step higher at the RIGHT looks back down at him, her red cord on her LEFT wrist. Between them the small Silent Lina stands one step up holding the hem of Mira's jacket with her small hand, a frayed red cord on her LEFT wrist.",
+   "faces": "Dan: shaken, eyes up. Mira: guarded, sharp. Lina: smooth white face with no eyes, nose or lips and a single thin vertical teal seam.",
+   "props": "Stair of pure warm light hanging in a black void, ochre pinprick far above.",
+   "light": "Warm gold light from above on faces, deep black void below, rim light.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No Nad in this frame. Lina has no eyes, no nose, no lips; only the teal seam.",
+   "check": "Дэн слева смотрит вверх, Мира справа выше, смотрит на него; между ними маленькая Безмолвная Лина без глаз держит край куртки Миры; красный шнурок на левом запястье Миры."
+  },
+  {
+   "camera": "Dynamic diagonal wide shot, camera behind and below the runners, the burning stair filling the lower frame.",
+   "action": "The light steps burn away behind the heroes shedding gold embers. Dan at the LEFT sprints up the stair, arms pumping, glasses slipping. Mira at the RIGHT runs close behind carrying the small Silent Lina in both arms (Mira's two arms hold Lina; her red cord is on her LEFT wrist). Nothing but black void below their heels.",
+   "faces": "Dan: panicked, mouth open. Mira: gritted teeth. Lina: faceless, white, seam only.",
+   "props": "Burning stair, embers, void.",
+   "light": "Gold fire-light from below on their legs, high contrast, motion blur on the embers, hard shadows.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No Nad visible in this frame. Mira carries only Lina; no backpack tangling with Dan.",
+   "check": "Дэн бежит слева вверх по горящей лестнице, Мира справа несёт Лину обеими руками; ступени сгорают за ними; внизу пустота."
+  },
+  {
+   "camera": "Eerie low-angle shot from below the stair looking up at the underside; the stair is a bright glowing line at the top of the frame.",
+   "action": "A tall pale Silent hangs beneath the steps in shadow, one long page-like hand (five thin fingers) hooked over a step edge, its other arm out of sight below. Its smooth white face has two round dents like thumbprints and a thin vertical teal seam; a strip of mustard-yellow lanyard is knotted at its neck. The light stair above is a line it does not touch.",
+   "faces": "Nad: smooth paper-white face, TWO ROUND DENTS, NO eyes, NO nose, NO lips, one vertical teal seam.",
+   "props": "Mustard-yellow lanyard scrap at the neck; underside of the glowing stair.",
+   "light": "Cold teal-grey shadow on the Silent, a hard bright gold line of light above, deep blacks.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Nothing else in frame. The Silent never stands in the light.",
+   "check": "Высокий бледный Безмолвный висит под ступенями в тени, одна рука цепляется за край; на лице две круглые вмятины и бирюзовый шов; обрывок горчичного шнурка на шее; глаз и рта нет."
+  },
+  {
+   "camera": "Grand wide establishing shot from the stair's end, slightly high angle, vertical depth.",
+   "action": "Dan at the LEFT stands at the ledge with his mouth open, looking up at the city. Mira at the RIGHT gestures him onward with her RIGHT hand. The small Silent Lina is half hidden behind Mira's leg.",
+   "faces": "Dan: wonder. Mira: dry, impatient. Lina: faceless, white, seam only.",
+   "props": "Vertical city of shelf-houses, rope bridges, cable lifts, hanging shops, thousands of ochre lamps rising into the dark.",
+   "light": "Warm ochre lamplight everywhere against dark ash walls, a sliver of daylight far above, glowing atmosphere.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No readable signs. No Nad.",
+   "check": "Огромный вертикальный город на стене: дома-полки, мосты, канатные лифты, подвесные лавки; Дэн слева с открытым ртом, Мира справа показывает идти."
+  },
+  {
+   "camera": "Low-angle medium shot on a busy shelf street, crowd blur behind.",
+   "action": "Dan at the LEFT looks at a running man at the RIGHT; above the man a translucent vermilion afterimage of his running body flares for an instant, like a burst of speed lines. Dan's RIGHT hand is half raised, pointing.",
+   "faces": "Dan: astonished. Running man: hurried, ordinary face.",
+   "props": "Vermilion afterimage glow; hanging shop baskets behind.",
+   "light": "Warm ochre lamp light; the vermilion afterimage glows hard against it.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No Silent Lina or Mira in this frame. The afterimage has no text.",
+   "check": "Дэн слева показывает на бегущего человека справа; над ним на миг вспыхивает красный силуэт его бега."
+  },
+  {
+   "camera": "Fast dynamic shot from behind Dan's shoulder, wide lens, the crowd in front.",
+   "action": "Dan at the LEFT sweeps his RIGHT arm across the crowd; vermilion afterimages flare over three people: a running man, a woman selling from a hanging shop-basket, a man carrying a whole tiny house on his back like a snail. Mira at the RIGHT grabs Dan's sleeve with her RIGHT hand, her LEFT wrist showing the red cord.",
+   "faces": "Dan: thrilled grin. Mira: hissing, alarmed.",
+   "props": "Tiny house on a man's back; hanging shop-basket; three vermilion afterimages.",
+   "light": "Warm lamps, bursts of vermilion light, motion blur.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No Lina in frame. No hand tangled: Mira's hand grips only the sleeve.",
+   "check": "Три красных силуэта действий над прохожими: бег, торговля, человек несёт домик на спине; Мира хватает Дэна за рукав."
+  },
+  {
+   "camera": "Medium comic two-and-a-half shot, eye level.",
+   "action": "Mira's long cream scarf is wrapped over the small Silent Lina so she looks like a short bundle with a hat-shaped lump on top; only a tiny hand with a frayed red cord on the LEFT wrist peeks out. A citizen at the RIGHT squints at the lump. Dan at the LEFT raises one open hand in a helpful gesture. Mira in the CENTRE keeps a flat face.",
+   "faces": "Dan: earnest. Mira: poker face. Citizen: puzzled.",
+   "props": "Cream scarf bundle, red cord peeking.",
+   "light": "Warm ochre lamp light, soft cel shadows.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Lina's face is fully covered by the scarf; no eyes visible anywhere on her.",
+   "check": "Под шарфом Миры комок с лохматой «шапкой»; торчит рука с красным шнурком; горожанин справа щурится; Дэн слева помогает жестом."
+  },
+  {
+   "camera": "Huge wide low-angle shot of the plaza, the board dominating the frame.",
+   "action": "An immense ash-black board rises ten storeys up the shelf-wall, covered in thousands of thin horizontal rows of abstract glowing marks, top rows bright, bottom rows dim. Dan at the LEFT and Mira at the RIGHT are small figures in the foreground, seen from behind, looking up.",
+   "faces": "Faces not visible.",
+   "props": "The Index board, tiny crowds beneath it.",
+   "light": "Cold grey board glow above, warm lamps below, deep depth.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. The marks on the board are abstract strokes only, no letters, no digits.",
+   "check": "Гигантская чёрно-серая доска с тысячами светящихся строк-чёрточек (без букв); внизу спинами Дэн и Мира."
+  },
+  {
+   "camera": "Tight dramatic shot on the very bottom edge of the board, slight Dutch tilt.",
+   "action": "A fresh row of vermilion strokes is scratching itself into the ash-black board by an invisible hand, with sparks. Dan stands in profile at the LEFT foreground, glasses reflecting the glow, shoulders sinking. Out-of-focus onlookers glance sideways at him.",
+   "faces": "Dan: resigned, quietly stunned.",
+   "props": "Fresh glowing abstract strokes (no letters).",
+   "light": "Hard vermilion glow on his glasses and cheek, dark surroundings.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Strokes are NOT letters or digits. No System window inside the frame (it is added by the app).",
+   "check": "Внизу доски сам собой выжигается красный ряд знаков (не буквы); Дэн слева в профиль, очки отражают свет."
+  },
+  {
+   "camera": "Comic low-angle medium shot.",
+   "action": "A citizen at the LEFT cups his LEFT hand to his mouth and calls to the crowd, pointing at Dan with his RIGHT hand. Dan in the CENTRE shrugs with raised palms and a crooked half-smile. Mira at the RIGHT turns her head to look at him flatly.",
+   "faces": "Dan: wry. Mira: flat stare. Citizen: showman grin.",
+   "props": "A few amused faces turned behind.",
+   "light": "Warm lamp light, soft cel shadows.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No readable signs.",
+   "check": "Горожанин слева кричит толпе и показывает на Дэна; Дэн в центре пожимает плечами; Мира справа смотрит на него плоским взглядом."
+  },
+  {
+   "camera": "Quiet atmospheric medium shot, eye level, shallow depth.",
+   "action": "The bent old man at the RIGHT brushes grey dust from the lowest row of the board with a huge long-handled brush, one milky eye and one sharp black eye. Dan at the LEFT leans toward him, head tilted. Dust motes drift between them.",
+   "faces": "Old man: calm knowing half-smile. Dan: curious.",
+   "props": "Long brush, small grey bucket, board rising behind.",
+   "light": "Soft ochre lantern light with floating dust, calm.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. The old man's blind eye is milky white, the other eye sharp.",
+   "check": "Старик справа с огромной метлой, один глаз молочный; Дэн слева наклонился к нему; пыль в свете лампы."
+  },
+  {
+   "camera": "Extreme dynamic wide shot, slightly high angle, strong diagonal of the brass wire.",
+   "action": "A cable-lift gondola of passengers slides down its brass wire above the plaza with its rope swinging. In the foreground Mira at the RIGHT leaps toward the wire with both arms stretched and her rope coil flying; Dan at the LEFT points up with his RIGHT arm; small bundle Lina clings to Mira's backpack. Citizens scatter below.",
+   "faces": "Mira: fierce focus. Dan: urgent. Passengers: frightened adults only.",
+   "props": "Gondola, brass wire, swinging rope, rope coil, scarf bundle with a red cord peeking.",
+   "light": "Warm gold lamp light with motion blur, hard shadows, dramatic perspective.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No children among the passengers. No falling injuries shown. Mira's hands are free of anyone else's.",
+   "check": "Кабина лифта скользит вниз по тросу; Мира справа прыгает к тросу, Дэн слева показывает вверх; внизу разбегается толпа."
+  },
+  {
+   "camera": "Dynamic low shot from beneath, wire running diagonally across the frame.",
+   "action": "Mira hangs from the brass wire by both hands, glowing vermilion rivets of the word pinning the wire to the gondola frame; the lift has stopped in mid-air a body-length above the roofs. Dan at the LEFT stands with his mouth open. A tiny tall striped figure with a huge brass horn appears on a high balcony far behind.",
+   "faces": "Mira: gritted teeth, strain. Dan: awed.",
+   "props": "Brass wire, vermilion rivet-glow, gondola, tiny balcony herald.",
+   "light": "Hot vermilion glow on Mira's face, warm lamps, deep blacks.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No glyphs or letters in the glow, only abstract light rivets.",
+   "check": "Мира висит на тросе, красное свечение фиксирует трос, лифт остановился; Дэн слева в шоке; вдали на балконе тонкая фигура с рупором."
+  },
+  {
+   "camera": "Very dark dramatic low-angle shot from inside the crowd.",
+   "action": "The thin herald stands on a high balcony as a black silhouette against a small ring of ochre light, raising his huge brass horn. In the foreground a sea of pale faces turns upward and then toward the viewer; at the RIGHT Mira's tense profile glances sideways at Dan, who is off-frame.",
+   "faces": "Herald: only silhouette and chalk-white face. Mira: tense.",
+   "props": "Brass horn, funnel hat, lanterns, dozens of pale faces.",
+   "light": "Near-black with one ring of ochre light on the herald, rim lights on faces.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Herald's pin is an abstract shape, no letters. No Silent visible.",
+   "check": "Тёмный кадр: на балконе чёрный силуэт глашатая с рупором; внизу море бледных лиц, обращённых к зрителю; справа профиль Миры."
+  }
+ ],
+ "s2e02": [
+  {
+   "camera": "Tense medium shot at eye level in the crowded plaza, shallow depth.",
+   "action": "A citizen at the CENTRE points a trembling finger straight at Dan with a greedy grin. Dan at the LEFT stands stiff with hands pressed to his sides. Mira at the RIGHT watches the crowd, her red cord on her LEFT wrist; the scarf bundle (Lina) is hidden behind her, only the scarf visible.",
+   "faces": "Dan: stiff, nervous half-smile. Mira: guarded. Citizen: greedy grin.",
+   "props": "Index board behind, a ring of faces closing in.",
+   "light": "Warm ochre lamp light, cold grey glow from the board; rim light on faces.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No weapons drawn. Lina's face is completely hidden under the scarf.",
+   "check": "Горожанин в центре тычет пальцем в Дэна; Дэн слева застыл, Мира справа следит за толпой; шарф-комок за её спиной."
+  },
+  {
+   "camera": "Dramatic low-angle shot, deep perspective down a gap in the crowd.",
+   "action": "The crowd splits like a curtain. Ruk Marl strides through the gap in the CENTRE, long black coat covered in brass rank badges, a heavy ledger under his LEFT arm, one white-gloved RIGHT hand raised to clear the way. A citizen at the LEFT shrinks back pointing at the coat.",
+   "faces": "Ruk: bored contempt, chin raised, ash-white hair with one strand over the left eye. Citizen: awed.",
+   "props": "Brass badges on the coat (abstract shapes), ledger book, white gloves.",
+   "light": "Cold white backlight behind Ruk, warm lamps on the crowd, hard cel shadows.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Badges are abstract shapes, no letters. Ruk never smiles broadly.",
+   "check": "Рук в чёрном пальто с рядами латунных значков идёт сквозь расступившуюся толпу, под левой рукой гроссбух; горожанин слева в страхе показывает на пальто."
+  },
+  {
+   "camera": "Tight over-the-shoulder shot past Dan's left ear, shallow depth.",
+   "action": "In Ruk's white-gloved hand at the RIGHT a battered phone with a cracked screen glows a faint cold light, trembling with a silent ring; he holds it between two fingers like something dirty. Dan at the LEFT stares at it with raw hunger, glasses catching the glow.",
+   "faces": "Dan: desperate, wide eyes. Ruk: looking down his nose.",
+   "props": "Cracked-screen phone (screen shows only an abstract glow, no text), white gloves.",
+   "light": "Cold phone glow on Dan's glasses and Ruk's gloves, warm lamps behind.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Phone screen has NO text or numbers, only a pale glow. Dan keeps his hands at his sides.",
+   "check": "Рук справа держит двумя пальцами потрескавшийся телефон с бледным свечением; Дэн слева смотрит на него с голодом."
+  },
+  {
+   "camera": "Close two-shot, heads together, crowd blurred behind.",
+   "action": "Mira at the RIGHT whispers into Dan's ear, her red cord visible on her LEFT wrist. Dan at the LEFT listens with his eyes on Ruk's distant silhouette, brows pulling together.",
+   "faces": "Dan: thinking. Mira: intense.",
+   "props": "Blurred crowd, a far figure of Ruk.",
+   "light": "Warm ochre lamp light on their faces, cold grey behind.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No hand contact between them.",
+   "check": "Мира справа шепчет Дэну на ухо, красный шнурок на её левом запястье; Дэн слева задумчиво смотрит вдаль на Рука."
+  },
+  {
+   "camera": "Wide dramatic shot from the gallery's height, strong perspective, deep drop below.",
+   "action": "A narrow plank platform juts from the shelf-wall over the vertical drop, a straight glowing chalk-line across its middle. Dan stands at the LEFT end and Ruk at the RIGHT end, both in profile facing each other; crowds packed on galleries and ropes above and behind.",
+   "faces": "Dan: nervous but stubborn. Ruk: bored.",
+   "props": "Chalk-line, planks, rope rails, galleries full of onlookers.",
+   "light": "Warm lamp light on the planks, deep bottomless dark below, rim lights.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. The chalk-line is a plain glowing line, no markings or text. No Mira on the platform.",
+   "check": "Узкая платформа над пропастью с прочерченной светящейся линией; Дэн на левом конце, Рук на правом, толпа на галереях."
+  },
+  {
+   "camera": "Tense standoff shot, low angle at the Line, Mira in the foreground.",
+   "action": "Dan crouches slightly at the LEFT with one open hand ready. Ruk at the RIGHT stands perfectly still with his chin raised, looking up past Dan at the crowd. Mira at the near edge in the CENTRE foreground grips a rope rail with both hands and shouts, her red cord on her LEFT wrist.",
+   "faces": "Dan: sharp, focused. Ruk: bored, looking away. Mira: shouting.",
+   "props": "Chalk-line, rope rail, the crowd above.",
+   "light": "Warm gold light, deep shadow below, hard cel shadows.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Ruk must be looking at the crowd, NOT at Dan.",
+   "check": "Дэн слева в боевой стойке, Рук справа неподвижен и смотрит вверх на толпу; Мира на переднем плане держится за верёвку и кричит."
+  },
+  {
+   "camera": "Explosive action shot, wide lens, camera low on the planks.",
+   "action": "Dan lunges across the platform from the LEFT with his whole body behind a vermilion shove, RIGHT arm thrust forward, a huge arc of vermilion force rippling out of his palm toward Ruk at the RIGHT. The chalk-line surges one step toward Ruk's side, spraying pale sparks. Ruk's coat flares back; he is surprised.",
+   "faces": "Dan: fierce effort. Ruk: eyebrows up, mouth closed.",
+   "props": "Vermilion force arc (abstract, no glyphs), chalk-line sparks.",
+   "light": "Hot vermilion glow from Dan's hand, motion blur, hard cel shadows, dynamic diagonal.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No text or glyphs in the glow. Dan's glasses stay on.",
+   "check": "Дэн слева в прыжке толкает красной волной в сторону Рука; Линия сдвигается к стороне Рука; Рук удивлён."
+  },
+  {
+   "camera": "Hard dynamic shot, Ruk framed large at the RIGHT, Dan thrown back at the LEFT.",
+   "action": "Ruk raises two fingers of one white-gloved hand; a huge round plate of brass-and-vermilion light snaps open in front of him like a shield and Dan's force splashes on it in a flower of sparks. Dan is thrown back a step at the LEFT, arms flung wide; the chalk-line slides back toward his side. Laughing faces in the galleries behind.",
+   "faces": "Ruk: bored half-smile. Dan: shocked, mouth open.",
+   "props": "Round shield of light (abstract rings, no letters), sparks.",
+   "light": "Brass-and-vermilion glow on Ruk, bright spark burst, deep shadows.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. The shield has no glyphs or text.",
+   "check": "Рук двумя пальцами раскрывает круглый щит из света, красная волна Дэна разбивается об него; Дэна отбросило влево."
+  },
+  {
+   "camera": "Crushing-pressure shot from a slight high angle, planks bending.",
+   "action": "Ruk at the RIGHT presses his palm flat toward the ground; a vast downward wave of brass-and-vermilion weight bends the planks. Dan at the LEFT is driven onto one knee, both arms braced over his head, glasses sliding down his nose, cracks racing along the platform. The chalk-line has slid all the way to Dan's end.",
+   "faces": "Dan: strain, teeth bared. Ruk: calm, cold.",
+   "props": "Bending planks, cracks, pressure wave rings.",
+   "light": "Heavy vermilion-brass glow from above pressing down, dust and splinters, hard shadows.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No text or glyphs. Dan's face has only round glasses.",
+   "check": "Рук справа прижимает ладонь вниз; тяжесть гнёт доски; Дэн слева на колене, прикрывает голову; Линия у его края."
+  },
+  {
+   "camera": "Dramatic vertical action shot from below the platform edge, looking up.",
+   "action": "The platform tilts and cracks and Dan hangs off its edge in the open drop by one arm, sneakers kicking over darkness. Mira at the RIGHT lies flat on the planks with her RIGHT hand clamped around Dan's LEFT wrist and her LEFT hand locked around a rope rail, red cord on her LEFT wrist. Dust and splinters fall past the camera.",
+   "faces": "Dan: terror. Mira: gritted teeth.",
+   "props": "Cracked planks, rope rail, bottomless dark below.",
+   "light": "Warm lamp light from above, cold black void below, motion blur on falling debris.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No Lina and no children in this frame. Exactly two clear hand grips: Mira's right hand on Dan's left wrist, her left hand on the rope, no tangle.",
+   "check": "Дэн висит над пропастью, Мира лежит на досках и держит его правой рукой за левое запястье, левой — верёвку; обломки падают вниз."
+  },
+  {
+   "camera": "Striking dynamic shot, Ruk centred, the ribbon of light sweeping across the frame.",
+   "action": "Ruk opens his heavy ledger flat on his raised LEFT forearm and the vermilion letters of PUSH rip out of Dan's chest as a long glowing ribbon streaming across the frame into the blank page of the book, which drinks them with a pulse of light. Dan at the LEFT, hauled half back onto the platform, arches in pain.",
+   "faces": "Ruk: bored, almost disgusted. Dan: pained, eyes shut.",
+   "props": "Open ledger with a blank cream page, ribbon of vermilion abstract shapes.",
+   "light": "Vermilion ribbon glow on both faces, deep blacks around, rim light.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. The ribbon is made of abstract light shapes, no readable letters. No Mira and no Lina in frame.",
+   "check": "Рук раскрыл гроссбух на предплечье; красная лента слова вырывается из груди Дэна и втекает в чистую страницу; Дэн слева кривится."
+  },
+  {
+   "camera": "Close shot on Dan's chest, shallow depth, slight high angle.",
+   "action": "The small brass rank tag on Dan's mustard lanyard, glowing warm ochre, flickers and goes cold ash-grey with a thin puff of smoke. Dan at the LEFT looks down at it, shocked and out of breath, one hand half raised. A laughing citizen at the RIGHT points at him, mouth wide open.",
+   "faces": "Dan: stunned. Citizen: cruel laughing.",
+   "props": "Brass tag on the lanyard (blank), thin smoke.",
+   "light": "Ochre tag glow dying to grey, warm lamps beyond.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. The tag is blank metal, no digits or letters.",
+   "check": "Латунная бирка на шнурке Дэна гаснет и становится серой, идёт дымок; Дэн слева смотрит на неё; горожанин справа хохочет."
+  },
+  {
+   "camera": "Over-the-shoulder shot from behind Dan, Ruk walking away.",
+   "action": "Ruk walks away from the camera at the RIGHT, long coat flaring, the cracked phone dangling from two gloved fingers, its screen pulsing a faint cold light. Dan at the LEFT, on one knee, reaches after him with one open hand, glasses crooked, a thread of smoke still drifting off his chest.",
+   "faces": "Dan: hoarse desperation. Ruk: back mostly to camera, head turned a little.",
+   "props": "Phone with a faint cold glow, torn smoke thread.",
+   "light": "Warm lamps behind Ruk giving a rim light, cold phone glow, deep shadows.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Phone screen has no text. Dan has only one arm extended.",
+   "check": "Рук уходит вправо с телефоном в двух пальцах; Дэн слева на колене тянется к нему рукой."
+  },
+  {
+   "camera": "Quiet low-contrast medium two-shot at the foot of the shelf-wall.",
+   "action": "Dan sits on a crate at the LEFT with elbows on knees and a crooked defeated half-smile, glasses pushed up on his forehead. Mira at the RIGHT sits beside him with her scarf pulled tight, face turned away, her LEFT wrist with the red cord resting on her knee.",
+   "faces": "Dan: tired, wry. Mira: unreadable, looking away.",
+   "props": "Wooden crate, scarf, coil of rope.",
+   "light": "Soft low ochre lamp light, long shadows, calm.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No Lina visible. No other people.",
+   "check": "Дэн слева сидит на ящике с кривой улыбкой, очки сдвинуты на лоб; Мира справа рядом отвернулась."
+  },
+  {
+   "camera": "Medium shot toward a far gallery, seen over Dan's and Mira's shoulders, high angle.",
+   "action": "Ruk, small and straight, climbs a rope stair toward the high rows of the Index, black coat and brass badges glinting. Dan at the LEFT and Mira at the RIGHT watch him go with narrowed eyes; Dan's mustard lanyard hangs plain and dull on his chest.",
+   "faces": "Dan and Mira: narrowed eyes, seen mostly from behind.",
+   "props": "Rope stair, Index board glow, Ruk's coat.",
+   "light": "Cold board glow far ahead, warm lamps on foreground figures.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No readable marks on the board.",
+   "check": "Рук вдалеке поднимается по верёвочной лестнице к верхним рядам Индекса; Дэн слева и Мира справа смотрят ему вслед."
+  },
+  {
+   "camera": "Very dark close shot from slightly below on Dan's face.",
+   "action": "Dan at the CENTRE in near-black darkness, lit only by a cold pale glow from off-frame LEFT as if from a far phone screen: eyes wide behind round glasses, mouth open, lanyard tag dull on his chest. At the very edge of the frame a tiny pale rectangle of light pulses once.",
+   "faces": "Dan: stunned, wet-eyed.",
+   "props": "Tiny pale light rectangle (distant phone), lanyard tag.",
+   "light": "Cold pale rim light from the left only, everything else black.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No other characters. No text on the distant phone light.",
+   "check": "Тёмный кадр: лицо Дэна освещено холодным светом слева, как от далёкого экрана; глаза широко открыты."
+  }
+ ],
+ "s2e03": [
+  {
+   "camera": "Low-angle shot at the floor of a narrow shelf-alley at dusk, wide lens.",
+   "action": "Pip's head and shoulders pop out of a drain grate in the floor at the CENTRE, cap askew, grinning. Dan at the LEFT crouches over him with his mouth open. Mira at the RIGHT keeps the scarf bundle behind her leg and glares at Pip, red cord on her LEFT wrist. Far above on the roof ledges two silhouettes with lantern beams sweep the alley.",
+   "faces": "Pip: cheeky grin. Dan: startled. Mira: cold glare.",
+   "props": "Drain grate, lantern beams, scarf bundle (Lina) with a tiny red cord peeking.",
+   "light": "Ash-grey dusk walls with warm ochre lamps, long hard lantern beams cutting down from the roofs.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Pip stands or rises out of the grate; nobody is hurt. Lina is a covered bundle, no face visible.",
+   "check": "Из решётки в полу торчит голова Пипа в кепке; Дэн слева присел, Мира справа смотрит на него хмуро; на крышах лучи фонарей охотников."
+  },
+  {
+   "camera": "Dynamic vertical shot straight down a narrow crack, strong vertigo perspective.",
+   "action": "Iron rungs and rope ladders zig-zag down a crack in the wall into the dark. Dan at the CENTRE clings to a rung with both hands, one foot dangling, glasses crooked, eyes shut. Pip at the LEFT below him scrambles down like a monkey. Mira at the RIGHT above him descends with calm professional speed, a scarf bundle tied to her back. Dust drifts down from the gap far overhead.",
+   "faces": "Dan: terrified, eyes shut. Pip: gleeful. Mira: calm.",
+   "props": "Rungs, rope ladders, narrow crack, dust.",
+   "light": "Warm lamp glow from below on faces, dark above, dust in light shafts.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No falling or injury. Everyone keeps both hands on the rungs.",
+   "check": "Узкая щель в стене с железными скобами и верёвочными лестницами; Дэн в центре зажмурился, Пип внизу, Мира выше."
+  },
+  {
+   "camera": "Tense shot looking up from inside the crack, shallow depth.",
+   "action": "At the top of the frame two black-coated hunters lean over the gap with narrow lantern beams sweeping down the wall, one beam passing just beside Dan's cheek. In the foreground Dan at the CENTRE, Pip at the LEFT and Mira press flat against the wall in the dark; Pip's finger is at his lips; the scarf bundle hums faintly.",
+   "faces": "Hunters: masked, hard eyes. Dan, Pip: frozen. ",
+   "props": "Lantern beams, black coats, masks.",
+   "light": "Narrow bright beams in deep darkness, hard shadows, rim light.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Hunters carry no drawn weapons. Pip is not near any violence or injury.",
+   "check": "Охотники в масках наверху светят фонарями вниз; Дэн, Пип и Мира прижались к стене в темноте; Пип держит палец у губ."
+  },
+  {
+   "camera": "Grand wide reveal from the bottom of the stair, slightly high angle.",
+   "action": "A canyon-like crack a few paces wide between two colossal stone columns rising out of sight, strung with hundreds of small warm lanterns on wires, patched cloth tents, steam from pots, rope walkways, quiet people in doorways. Pip at the CENTRE spreads both arms like a host; Dan at the LEFT and Mira at the RIGHT step off the last rung in awe.",
+   "faces": "Pip: proud host. Dan: awed. Mira: wary.",
+   "props": "Columns, wire lanterns, tents, steam.",
+   "light": "Warm ochre lantern glow, soft steam, deep shadows between columns.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No readable signs. Unwritten people drawn plain, no Silents.",
+   "check": "Каньон между двумя колоннами с сотнями фонарей, палатками, паром; Пип в центре раскинул руки; Дэн слева и Мира справа спрыгивают с лестницы."
+  },
+  {
+   "camera": "Warm cosy medium shot across the long table.",
+   "action": "Soup, a huge soft bald man with a braided beard, apron and a ladle through his belt, stands at the CENTRE behind a big steaming pot, ducking under a hanging brass lamp whose flame is vermilion. Dan at the LEFT and Mira at the RIGHT stand awkwardly at the table, empty bowls in front of them.",
+   "faces": "Soup: gentle sleepy calm. Dan: embarrassed. Mira: wary.",
+   "props": "Steaming pot, ladle, vermilion lamp, bowls.",
+   "light": "Warm ochre kitchen light, steam highlights, vermilion lamp glow on his bald head.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Soup's hands are on the pot and ladle only. No text on any jar.",
+   "check": "Огромный лысый бородатый Суп в центре за дымящимся котлом, над ним лампа с красным пламенем; Дэн слева и Мира справа за столом."
+  },
+  {
+   "camera": "Comic medium shot over the table, slight low angle on Soup.",
+   "action": "Dan at the LEFT leans over an empty bowl with a pleading face, holding up two fingers. Soup at the right of CENTRE, vast and unhurried, points with his ladle to bare hooks, an empty bread basket, an empty salt jar and a small basket of three eggs. A steaming pot dominates the foreground.",
+   "faces": "Dan: hopeful. Soup: patient.",
+   "props": "Empty bread basket, empty salt jar, three eggs, pot.",
+   "light": "Warm ochre light with steam.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No Mira in this frame. No text on jars.",
+   "check": "Дэн слева умоляет над пустой миской; Суп ковшом показывает на пустую корзину для хлеба, пустую солонку и три яйца."
+  },
+  {
+   "camera": "Quiet intimate shot at the table, shallow depth.",
+   "action": "Dan at the LEFT lifts a steaming bowl in both hands, eyes closed, face soft in the steam. At the CENTRE the small Silent Lina, scarf pushed back, holds a small bowl in both of her white hands, her faceless head tilted toward it (no eyes, nose, lips; one thin vertical teal seam). Mira at the RIGHT watches them with a rare softening at the corner of her mouth, red cord on her LEFT wrist.",
+   "faces": "Dan: closed eyes, tender. Mira: soft. Lina: faceless.",
+   "props": "Two bowls with steam, Lina's tiny hands, red cord on Lina's LEFT wrist.",
+   "light": "Warm ochre lamp and steam glow, soft cel shadows.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Lina has no eyes, nose or lips. She does not eat; she only holds the bowl. No Nad.",
+   "check": "Дэн слева поднимает миску с паром, Лина в центре держит маленькую миску белыми ручками, Мира справа смотрит мягче обычного."
+  },
+  {
+   "camera": "Comic medium shot, eye level.",
+   "action": "Pip at the LEFT stands on a stool holding up two chipped bowls with an eager greedy grin and one hand held out to bargain. Soup at the RIGHT looks down at him from his great height with sleepy gentle eyes, the ladle hanging in his hand. Steam rises between them.",
+   "faces": "Pip: greedy cheeky grin. Soup: sleepy and gentle.",
+   "props": "Two chipped bowls, ladle, stool, brass bell on Pip's neck.",
+   "light": "Warm ochre lamp light, steam.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No Dan and no Mira in this frame.",
+   "check": "Пип слева на табуретке с двумя мисками торгуется; Суп справа смотрит на него сверху вниз, ковш опущен."
+  },
+  {
+   "camera": "Dramatic medium shot with a low angle on Soup.",
+   "action": "Dan at the LEFT holds one hand up, glowing faintly vermilion, looking at Soup. Over Soup's chest a ghostly vermilion gauge-ring shows a hollow empty circle where it should be full. Soup at the CENTRE stares down at his own hands. Above his head the brass lamp burns with a strong vermilion flame. Mira at the RIGHT stands back, watching.",
+   "faces": "Dan: careful, sad. Soup: absent, sad. Mira: watching.",
+   "props": "Vermilion gauge ring (abstract, no marks), brass lamp with a vermilion flame.",
+   "light": "Vermilion glow from Dan's hand and the lamp on a warm ochre room; hard rim light.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. The gauge ring is an abstract hollow circle, no digits or letters.",
+   "check": "Над грудью Суп видна пустая красная окружность-«шкала»; над его головой лампа с красным пламенем; Дэн слева поднял светящуюся руку."
+  },
+  {
+   "camera": "Hard-lit wide shot of the kitchen choking in grey smoke, slightly high angle.",
+   "action": "The fan above the stove has stopped, its dark mouth coughing smoke; a row of the Unwritten at the long table cough with cloths over their mouths. Soup at the LEFT stands helplessly under the smoke with his ladle drooping. Dan at the CENTRE looks up at the dead fan with a sudden calm spark, pushing up his glasses with one finger.",
+   "faces": "Soup: sad helpless. Dan: calm spark.",
+   "props": "Dead fan, smoke, cloths over mouths.",
+   "light": "Grey smoke with warm ochre light shafts, harsh contrast.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No injuries; people only cough. No children among the coughing people.",
+   "check": "Кухня в дыму, вытяжка над плитой не крутится; Суп слева растерян; Дэн в центре смотрит вверх на вытяжку."
+  },
+  {
+   "camera": "Dynamic upside-down angle inside the fan shaft, extreme perspective.",
+   "action": "Dan is wedged head-up in the sooty duct, one foot braced on a pipe, one hand holding a small knife against a frayed leather belt, the other steadying a bolt, steam hissing past his face. Far below at the LEFT, Soup's huge hand holds a lantern up toward him like a lighthouse. Sparks and soot fly; a fan blade is half turning.",
+   "faces": "Dan: fierce concentration, tongue between teeth.",
+   "props": "Small knife, frayed belt, bolt, fan blade, lantern.",
+   "light": "Hot orange lantern glow from below, steam, sparks, deep soot-black shadows.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No readable marks. Dan has no tape or bandage. Only two hands on Dan (one knife, one bolt).",
+   "check": "Дэн внутри закопчённой трубы, одной рукой режет ремень ножом, другой держит болт; снизу рука Супа с фонарём."
+  },
+  {
+   "camera": "Medium shot with a warm light shaft after the fix.",
+   "action": "The fan above turns lazily and smoke drains upward into a clear shaft of lamp light. Dan at the LEFT, covered in soot, holds the last screw between two fingers, shrugs and flicks it over his shoulder; it pings off the iron pot. Soup at the CENTRE looks at him gently with a long thoughtful gaze, ladle lowered.",
+   "faces": "Dan: sooty, careless shrug. Soup: gentle thoughtful.",
+   "props": "Last screw mid-flick, iron pot, turning fan.",
+   "light": "Warm clear light shaft cutting the thinning smoke, ochre glow.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Do not draw any text. Soup's eyes show kindness, no anger.",
+   "check": "Вытяжка крутится, дым уходит; Дэн слева в саже небрежно отбрасывает последний винт; Суп в центре смотрит на него задумчиво."
+  },
+  {
+   "camera": "Quiet night shot, low light, intimate.",
+   "action": "Only the vermilion lamp burns. Dan at the LEFT sits on the floor and writes with his yellow pencil on a patched stone wall covered with other people's old scratched marks (abstract scribbles). Pip at the RIGHT crouches in the dark with shining sly eyes, staring at the pencil, one hand just starting to reach.",
+   "faces": "Dan: tired and careful. Pip: greedy-sly.",
+   "props": "Yellow pencil, wall of old scratches (abstract), small vermilion lamp.",
+   "light": "Low vermilion lamp glow only, long soft shadows, warm black.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. The scribbles on the wall are abstract strokes, not letters. Pip's hand does not touch the pencil.",
+   "check": "Ночью Дэн сидит и пишет жёлтым карандашом на стене с чужими царапинами; справа в темноте Пип пялится на карандаш."
+  },
+  {
+   "camera": "Morning-light medium shot of the wall with two figures.",
+   "action": "Dan's pencil words are a messy scribble with three bright slashes and circles of fresh vermilion ink around three of the scribbles, the ink still glistening. Dan at the LEFT holds a piece of toast and stares; Mira at the RIGHT leans in with a raised eyebrow, scarf over her shoulder, red cord on her LEFT wrist.",
+   "faces": "Dan: outraged, mouth full. Mira: amused.",
+   "props": "Wall with three fresh red circles and slashes (abstract), toast.",
+   "light": "Soft gold morning lamp light, glistening red ink highlights.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. The marks on the wall are abstract, no readable letters.",
+   "check": "На стене три свежих красных пометки вокруг каракуль Дэна; Дэн слева с тостом, Мира справа поднимает бровь."
+  },
+  {
+   "camera": "Warm bright medium shot, slightly low angle.",
+   "action": "Dan at the CENTRE holds a bowl up in both hands, grinning in wonder, steam rising; a floating cream paper System window with a vermilion double border hovers beside his head. Behind him the repaired fan turns in a sunbeam of lamp light and the Unwritten eat quietly at the long table.",
+   "faces": "Dan: happy dazed grin.",
+   "props": "Bowl, System window (blank), fan turning.",
+   "light": "Bright warm morning ochre light, soft steam glow.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. System window is blank inside, no digits or letters.",
+   "check": "Дэн в центре с миской в руках счастливо улыбается; рядом окно Системы; за ним вертится починенная вытяжка."
+  },
+  {
+   "camera": "Very dark dramatic low-angle shot at the kitchen end.",
+   "action": "In a doorway full of pale morning light stands the small upright silhouette of Miss Thorn at the CENTRE: tight bun, cane on her forearm, a slim pen held between two fingers like a baton, a single bead of vermilion ink glowing at its nib. Her shadow falls long across the floor toward the camera. Everything else is black.",
+   "faces": "Face mostly in shadow; a glint on her half-moon spectacles.",
+   "props": "Pen with a vermilion ink bead, cane, bun with a bone hairpin.",
+   "light": "Pale backlight from the door, only the pen nib glows red, deep black everywhere else.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. NOTHING RED on her clothes or body except the ink bead. No Dan or Mira in frame.",
+   "check": "Тёмный кадр: в дверном проёме силуэт маленькой седой женщины с пучком и ручкой, на кончике ручки красная капля; одежда не красная."
+  }
+ ],
+ "s2e04": [
+  {
+   "camera": "Low-angle wide shot from inside the kitchen looking at the doorway, strong rim light from the morning door, hard cel shadows.",
+   "action": "Miss Thorn stands small and upright in the doorway at the CENTRE, cane hooked on her LEFT forearm, the slim pen held like a baton, a bead of vermilion ink at its nib. Dan at the LEFT with a half-eaten bowl, glasses crooked, staring. Soup at the RIGHT stirring the huge pot, unbothered. On the wall behind Dan three vermilion circles around scribbled marks.",
+   "faces": "Thorn: patient, dry. Dan: stunned. Soup: calm.",
+   "props": "Doorway, three red circles on the wall as abstract scribbles, pot, bowl.",
+   "light": "Cold morning light behind Thorn, warm lamp glow on Dan.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Her clothes are dove-grey, nothing red on her except the ink bead.",
+   "check": "Маленькая седая учительница в дверях, ручка с красной каплей; Дэн слева ошарашен, Суп справа у котла; на стене три красных кружка. Одежда Торн не красная."
+  },
+  {
+   "camera": "Comic medium over-the-shoulder shot from behind Thorn, wide lens, sharp cel shadows.",
+   "action": "Thorn at the CENTRE foreground (back three-quarter) points the pen at the wall. Dan at the LEFT scratches his head with his RIGHT hand, a bowl in his left. Soup at the RIGHT pats the wall proudly with one big hand.",
+   "faces": "Dan: sheepish. Soup: proud. Thorn: unreadable.",
+   "props": "Wall with three red circles, bowl, ladle.",
+   "light": "Warm ochre lamp, soft steam.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Торн спиной на переднем плане указывает ручкой на стену; Дэн слева смущён, Суп справа гладит стену ладонью."
+  },
+  {
+   "camera": "Dynamic close dramatic shot, low angle, swirling glowing effect, deep blacks and vermilion light.",
+   "action": "Thorn's pen at the CENTRE flicks through the air; the three mistaken scribbles lift off the wall as vermilion glow-shapes and rearrange themselves into neat abstract lines. Dan at the LEFT leans back with his mouth open, both hands up, a bowl rattling.",
+   "faces": "Thorn: serene. Dan: amazed.",
+   "props": "Pen with glowing nib, floating glow-shapes, no letters.",
+   "light": "Vermilion glow on faces, dark room, hard shadows.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Glow shapes are abstract strokes, not letters.",
+   "check": "Торн в центре взмахом ручки поднимает три красные пометки со стены, они перестраиваются в ровный узор; Дэн слева отпрянул. Никаких читаемых букв."
+  },
+  {
+   "camera": "Comic medium shot, slight low angle, wide lens.",
+   "action": "Pip at the LEFT hugs his oversized cap on his head with both hands, grinning nervously. Thorn at the CENTRE holds her pen out of Pip's reach, eyebrow raised. Mira at the RIGHT leans against the table, arms crossed, red cord on her LEFT wrist, almost smiling.",
+   "faces": "Pip: cheeky then caught. Thorn: dry. Mira: amused.",
+   "props": "Cap, pen, table.",
+   "light": "Warm ochre lamp.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Пип слева прижимает кепку обеими руками, Торн в центре держит ручку подальше, Мира справа скрестила руки."
+  },
+  {
+   "camera": "Tense two-sided shot, eye level, Mira sharply lit from the side.",
+   "action": "Mira at the LEFT steps forward, one hand on the scarf bundle at her side, cord on her LEFT wrist. Thorn at the CENTRE calm, pen lowered. Dan at the RIGHT raises his hand like a student.",
+   "faces": "Mira: suspicious. Thorn: serene. Dan: sheepish.",
+   "props": "Scarf bundle, pen.",
+   "light": "Side light, warm and cold contrast.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Мира слева подозрительно шагнула вперёд, Торн в центре спокойна, Дэн справа поднял руку как ученик."
+  },
+  {
+   "camera": "Close two-shot over the table, shallow depth, glowing detail effect.",
+   "action": "Thorn at the RIGHT touches the nib of her pen to the yellow pencil that Dan holds in his RIGHT hand at the LEFT. A thin vermilion thread springs from the pencil and loops back to Dan's ear, glowing. Dan stares at it cross-eyed, glasses reflecting red.",
+   "faces": "Dan: wonder. Thorn: patient.",
+   "props": "Yellow pencil, pen nib, glowing thread.",
+   "light": "Vermilion glow lighting the faces from below.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Нить красного света тянется от жёлтого карандаша в руке Дэна к его уху; Торн касается карандаша кончиком ручки."
+  },
+  {
+   "camera": "Comic medium shot, slightly high angle, wide lens.",
+   "action": "Mira at the LEFT holds out her scarf; Thorn at the CENTRE lightly points her pen at the bundle under it. On the RIGHT the small scarf-covered shape of Lina (a bundle with only a tiny red cord peeking, no face) sits on the bench. A thin red thread runs from the pen to the bundle.",
+   "faces": "Mira: flat. Thorn: amused. Lina: covered bundle, no face visible.",
+   "props": "Scarf, bundle, thread.",
+   "light": "Warm lamp.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Мира слева держит шарф, Торн указывает на укрытый свёрток справа (Лина, лица не видно), красная нить тянется к нему."
+  },
+  {
+   "camera": "Dramatic low-angle wide shot from the floor of the canyon, extreme perspective upward, hard rim light and deep blacks.",
+   "action": "Ropes drop from the crack high above; two masked hunters slide down them at the LEFT, lanterns swinging. Ruk Marl at the CENTRE lands with a smooth step in the middle of the Gutter lane, ledger under his LEFT arm, brass badges glowing vermilion. Gutter people scatter between tents.",
+   "faces": "Ruk: bored contempt. Hunter: grim.",
+   "props": "Ropes, lanterns, tents, ledger.",
+   "light": "Lantern beams cutting through steam, warm ochre vs black.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No injuries; the hunters slide on ropes under control.",
+   "check": "Охотники скатываются по верёвкам слева, Рук в центре приземляется в переулке Gutter; жители разбегаются."
+  },
+  {
+   "camera": "Tense frontal shot, dutch angle, long shadows.",
+   "action": "Dan at the LEFT steps into the lane with his RIGHT hand raised, empty. Ruk at the RIGHT stands behind a shimmering brass pane of light (his SHIELD) with a thin smile. From one brass badge on Ruk's chest a vermilion thread springs and shoots away down the lane. Mira behind Dan, hand on his shoulder.",
+   "faces": "Dan: nervous but sharp. Ruk: smug.",
+   "props": "Brass shield glow, red thread, badge.",
+   "light": "Vermilion thread lighting a dark lane.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Дэн слева, Рук справа за латунным щитом света; от значка на груди Рука красная нить уходит по переулку."
+  },
+  {
+   "camera": "Dynamic chase shot, wide lens from the front, speed lines, motion blur at the edges, rope walkways crossing in depth.",
+   "action": "Dan at the CENTRE sprints across a swinging rope walkway, arms pumping, eyes on a glowing vermilion thread floating ahead. Pip at the LEFT leaps ahead on another walkway. Mira at the RIGHT runs on the rail with perfect balance. Behind them, a hunter swings a weighted rope.",
+   "faces": "Dan: panicked. Pip: gleeful. Mira: focused.",
+   "props": "Rope walkways, glowing thread, weighted rope.",
+   "light": "Lantern glow, vermilion thread as light source.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Nobody falls; everyone has both feet on the walkways.",
+   "check": "Погоня по верёвочным мосткам за светящейся нитью: Дэн в центре, Пип слева, Мира справа, сзади охотник с грузом."
+  },
+  {
+   "camera": "Quiet low-key medium shot, eye level, thread glowing as the only light.",
+   "action": "In a hollow under the columns the old man (the Index sweeper, long brush leaning on the wall) sits at the RIGHT beside a cold kettle. The red thread ends at his empty RIGHT hand, wrapped around his finger. Dan at the LEFT kneels, out of breath, glasses fogged.",
+   "faces": "Old man: calm, riddling. Dan: curious.",
+   "props": "Kettle, brush, thread end.",
+   "light": "Only the vermilion thread and one lantern.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Нить кончается на пальце старика-подметальщика справа; Дэн слева на коленях, тяжело дышит."
+  },
+  {
+   "camera": "Dramatic dutch-angle action shot from below, a glowing brass wall of light fills the frame, hard shadows.",
+   "action": "Ruk at the CENTRE stands on a rope bridge above, one hand open, a huge brass SHIELD of light blazing in front of him, hunters beside him. Below at the LEFT Dan shields the old man at the RIGHT with an arm, the red thread tight between the old man's finger and Ruk's coat, glowing.",
+   "faces": "Ruk: furious calm. Dan: determined. Old man: wide-eyed.",
+   "props": "Brass shield glow, tight red thread.",
+   "light": "Brass and vermilion glare against black.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No one is hurt; the thread is tight like a rope.",
+   "check": "Рук в центре на мостике, перед ним огромный латунный щит света; внизу Дэн слева прикрывает старика справа; натянутая красная нить."
+  },
+  {
+   "camera": "Extreme dramatic low angle, cinematic cel-shaded freeze frame, deep blacks, vermilion glow, cracked glass effect.",
+   "action": "Thorn at the CENTRE foreground slashes the pen across the air in one line; the brass shield pane at the RIGHT in front of Ruk splits in a spider web of cracks, brass shards flying. Ruk recoils half a step, one hand lifted. Thorn's clothes stay dove-grey.",
+   "faces": "Thorn: cold and elegant. Ruk: shocked.",
+   "props": "Cracking shield pane, shards, vermilion slash.",
+   "light": "Vermilion slash lighting Thorn from the front.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Shards are abstract brass fragments, no letters.",
+   "check": "Торн в центре росчерком ручки раскалывает щит света перед Руком справа; осколки; Рук отшатнулся. Одежда Торн серая."
+  },
+  {
+   "camera": "Wide tense shot of the lane, eye level, lanterns of watching Gutter people in the background.",
+   "action": "Ruk at the LEFT turns away stiffly, jaw tight, one brass badge on his coat gone dark; the hunters back off. Thorn at the CENTRE lowers her pen. Dan at the RIGHT, panting, holds the old man by the elbow. Gutter people watch silently from tent doors.",
+   "faces": "Ruk: humiliated, hiding it. Thorn: calm. Dan: shaken.",
+   "props": "Dark badge, lanterns, tents.",
+   "light": "Ochre lanterns, long shadows.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Рук слева отворачивается, один значок на пальто потух; Торн в центре, Дэн справа держит старика; люди смотрят из палаток."
+  },
+  {
+   "camera": "Over-the-shoulder shot of a column wall, a sheet pinned to the stone, eye level.",
+   "action": "A hunter hammers a sheet of paper onto a stone column in the background as he leaves; the sheet carries only abstract ornament and blank lines, no letters. Mira at the LEFT stares at it, hand on the scarf bundle at her side. Dan at the RIGHT turns his head.",
+   "faces": "Mira: hard. Dan: uneasy.",
+   "props": "Paper sheet pinned to column, hammer.",
+   "light": "Lantern light, long shadows.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. The sheet has blank lines and ornament only.",
+   "check": "Охотник уходит, прибив лист к колонне; Мира слева смотрит на лист, Дэн справа оборачивается. На листе нет читаемых букв."
+  },
+  {
+   "camera": "Very dark close shot, dramatic low light, the thread is the only light.",
+   "action": "A red thread leaps from the pinned sheet and crosses the whole frame to the scarf bundle at the RIGHT, where a tiny red cord peeks out. Mira at the LEFT, half in shadow, looks at the bundle, eyes wide. The bundle hums. No face visible on the bundle.",
+   "faces": "Mira: frozen, afraid.",
+   "props": "Red thread, scarf bundle.",
+   "light": "Only vermilion thread light on black.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Красная нить пересекает кадр от листа к свёртку-Лине справа; Мира слева замерла в тени."
+  }
+ ],
+ "s2e05": [
+  {
+   "camera": "Warm medium shot across the kitchen table, slight low angle, wide lens, hard cel shadows.",
+   "action": "Mira at the LEFT stands with her palms flat on the table, red cord on her LEFT wrist, scowling at the table. Soup at the CENTRE holds out a steaming bowl in both big hands. Dan at the RIGHT reaches for it eagerly with his RIGHT hand, hair a mess, glasses slipping.",
+   "faces": "Mira: tense. Soup: gentle. Dan: hungry.",
+   "props": "Steaming bowl, table, scarf bundle on the bench.",
+   "light": "Warm ochre lamp, steam.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Мира слева опёрлась ладонями о стол, Суп в центре протягивает миску, Дэн справа тянется за ней."
+  },
+  {
+   "camera": "Comic medium shot, eye level, Thorn small but dominating the frame, wide lens.",
+   "action": "Thorn at the CENTRE holds her pen like a pointer and rests her LEFT hand on her cane. Dan at the LEFT copies her pose, trying to look polite and stiff. Pip at the RIGHT slouches on a bench with his cap over one eye, grinning.",
+   "faces": "Thorn: dry. Dan: trying hard. Pip: smug.",
+   "props": "Pen, cane, bench.",
+   "light": "Warm lamp.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Торн в центре с ручкой-указкой, Дэн слева неловко копирует осанку, Пип справа развалился на скамье."
+  },
+  {
+   "camera": "Wide shot of the Gutter market lane, slightly high angle, strings of lanterns, crowd of Unwritten in the background.",
+   "action": "A big wall of the lane is covered with paper slips pinned in rows, abstract blank slips only. Dan at the LEFT reads them with his head tilted, a finger at the slips; Pip at the RIGHT hops on a crate beside him pointing at one slip with both hands.",
+   "faces": "Dan: thoughtful. Pip: greedy glee.",
+   "props": "Wall of blank paper slips, crate, lanterns.",
+   "light": "Ochre lanterns, steam.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Дэн слева читает доску заказов, Пип справа на ящике показывает на одну бумажку. Бумажки без читаемого текста."
+  },
+  {
+   "camera": "Dramatic low-angle shot at the iron gate of the lift station, strong rim light, hard shadows, dutch tilt.",
+   "action": "Hob at the CENTRE blocks the gate with a heavy wrench held across his chest in both hands. Dan at the LEFT leans forward politely, both hands open and empty. Mira at the RIGHT watches with arms crossed. The gate bars glow faintly vermilion where Dan speaks.",
+   "faces": "Hob: grumpy. Dan: polite. Mira: unimpressed.",
+   "props": "Iron gate, wrench, faint vermilion glow on the bars.",
+   "light": "Gate bars in hard shadow, warm lamp behind Hob.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. The gate stays upright and whole.",
+   "check": "Хоб в центре перегородил ворота гаечным ключом; Дэн слева вежливо с пустыми руками; Мира справа скрестила руки; прутья ворот слабо светятся красным."
+  },
+  {
+   "camera": "Dynamic wide shot inside the lift station, deep perspective, giant spinning drums, speed blur, hard cel shadows.",
+   "action": "A huge cable drum spins in the middle of the stone hall, a wooden car flashes up the shaft in the background. Hob at the LEFT points at it, shouting over the noise, his RIGHT hand on a lever. Dan at the RIGHT watches with wide eyes, pencil behind his RIGHT ear, rolling up his sleeves.",
+   "faces": "Hob: shouting. Dan: excited and appalled.",
+   "props": "Giant drum, cable, wooden car, lever.",
+   "light": "Warm lamp glow, dust shafts.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Nobody is near the spinning drum.",
+   "check": "Огромный барабан и кабель, кабина мелькает в шахте; Хоб слева кричит, Дэн справа закатывает рукава."
+  },
+  {
+   "camera": "Vertigo shot from above and beside, extreme depth of the dark inner wall of the Tower, wind lines, cable crossing the frame diagonally.",
+   "action": "A wooden lift car hangs from a thick cable above a huge drop. Dan at the CENTRE kneels on the car roof, both hands on a pulley with a wrench, glasses crooked, hair blown. Mira at the RIGHT hangs from the side rail with her LEFT hand (red cord) and holds Dan's belt with her RIGHT hand.",
+   "faces": "Dan: terrified, focused. Mira: calm.",
+   "props": "Lift car, pulley, wrench, cable, wind lines.",
+   "light": "Far lamps of Margin as bokeh, cold wind-lit rim.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Nobody falls; both are firmly attached.",
+   "check": "Дэн на крыше кабины над пропастью чинит блок, Мира справа держит его за ремень. Обе руки у каждого видны."
+  },
+  {
+   "camera": "Dynamic close action shot, tilted horizon, speed lines, glowing vermilion burst.",
+   "action": "A rusty iron gate on the platform edge is jammed shut in front of the car. Dan at the LEFT still crouched on the roof with both hands full of the pulley, shouting. Mira at the RIGHT, one boot on the rail, snarls at the gate; the gate bars buckle and light up vermilion, the whole gate panel popping out of its frame in a burst of sparks.",
+   "faces": "Dan: urgent. Mira: furious, forcing herself to be polite.",
+   "props": "Jammed gate, sparks, buckling bars.",
+   "light": "Vermilion burst lighting both faces, deep blacks.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No people under the flying gate panel.",
+   "check": "Мира справа рычит на застрявшие ворота, створка вылетает из рамы в вспышке красных искр; Дэн слева на крыше кабины."
+  },
+  {
+   "camera": "Comic medium shot at the Gutter cistern as water pours into it, eye level, wide lens.",
+   "action": "Water pours from a pipe into a stone cistern behind them. Mira at the LEFT wipes her face with one hand, soaked, glaring. Pip at the CENTRE bounces on his toes, delighted. At the RIGHT the small scarf bundle of Lina sits on a barrel with only the tiny red cord showing, no face visible.",
+   "faces": "Mira: grim. Pip: gleeful. Lina: bundle only.",
+   "props": "Cistern, water stream, barrel, scarf bundle.",
+   "light": "Warm lantern light on wet stone.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Мира слева мокрая и мрачная, Пип в центре прыгает от радости, справа свёрток-Лина на бочке. Лица Лины не видно."
+  },
+  {
+   "camera": "Montage split-panel feeling, four quick vignettes in one dynamic composition with diagonal dividers, bright dynamic angles.",
+   "action": "Dan at the CENTRE works at speed in four small inset scenes around him: tightening a pulley, hammering a rope-bridge plank, rewiring a pump, kicking a stove hatch shut. In each he holds a tool in both hands. Gold sparks and tiny vermilion glow-shapes rise from every fix.",
+   "faces": "Dan: tired and happy.",
+   "props": "Tools, pulley, plank, pump, stove, sparks.",
+   "light": "Warm ochre sparks, hard shadows.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Each inset shows exactly two hands, no tangling.",
+   "check": "Монтаж: Дэн в четырёх мини-сценах чинит блок, мостик, насос, печь; искры; на каждом кадре у него по две руки с инструментом."
+  },
+  {
+   "camera": "Warm medium shot, eye level, golden lamp light on the water running in the lane.",
+   "action": "Water runs freely through the Gutter lane behind them. Hob at the LEFT presses a small round token and a few coins into Dan's open RIGHT hand with his LEFT hand, gruff and almost smiling. Dan at the RIGHT bows a little.",
+   "faces": "Hob: softened. Dan: grateful.",
+   "props": "Token, coins, water channel.",
+   "light": "Golden lamp light.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Хоб слева вкладывает Дэну в руку жетон и монеты, позади течёт вода; Дэн справа кланяется."
+  },
+  {
+   "camera": "Low wide shot of the Ledger counter hall, giant high desk towering over Dan, severe symmetry, hard shadows.",
+   "action": "The clerk at the CENTRE sits behind a very high desk, huge round spectacles, rubber-stamp ring on his finger, looking down. Dan at the LEFT stands on tiptoes holding the token up in his RIGHT hand. A queue of grey people behind him.",
+   "faces": "Clerk: bored. Dan: hopeful.",
+   "props": "High desk, stamp ring, token, queue.",
+   "light": "Cold high windows, brass lamps.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Клерк в центре за высоким столом смотрит сверху вниз; Дэн слева на цыпочках показывает жетон; позади очередь."
+  },
+  {
+   "camera": "Tense shot from behind the desk looking at the heroes, tilted frame, glowing System window floating in the air.",
+   "action": "A cream System window with a vermilion double border floats in the air between Dan at the LEFT and Mira at the RIGHT; both stare at it. Behind them the clerk's wall shows two blank placards (abstract smudged shapes only). Dan's jaw drops; Mira's hand lands on his shoulder.",
+   "faces": "Dan: shocked. Mira: alert.",
+   "props": "System window (blank abstract), blank placards.",
+   "light": "Cold light and vermilion window glow.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No letters on the placards or the window.",
+   "check": "Окно Системы между Дэном и Мирой; позади клерка две пустые таблички; Дэн потрясён, Мира кладёт руку ему на плечо."
+  },
+  {
+   "camera": "Quiet medium shot, eye level, the clerk leaning down slightly.",
+   "action": "Dan at the LEFT takes a long breath, shoulders down, and holds both hands open on the desk. The clerk at the CENTRE leans toward him, eyebrows slightly raised, slides a long blank scroll across the desk with one inky hand.",
+   "faces": "Dan: controlled. Clerk: surprised.",
+   "props": "Long blank scroll, desk.",
+   "light": "Cold light, one brass lamp.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Дэн слева глубоко вздохнул и вежливо положил руки на стол; клерк в центре наклонился и подвинул длинный пустой свиток."
+  },
+  {
+   "camera": "Very dark close shot, the clerk's big spectacles reflecting a single lamp, Dan half in shadow.",
+   "action": "The clerk at the LEFT, his spectacles reflecting the lamp, a stamp ring raised. Dan at the RIGHT, only half-lit, holds two fingers up in front of him, frozen. Behind them the silhouette of the queue.",
+   "faces": "Clerk: faintly smiling. Dan: frozen.",
+   "props": "Spectacles reflection, stamp ring, two raised fingers.",
+   "light": "Single lamp on black.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Тёмный кадр: очки клерка отражают лампу; Дэн справа показывает два пальца."
+  }
+ ],
+ "s2e06": [
+  {
+   "camera": "Warm wide shot of the kitchen at dawn, group portrait feeling, slight low angle, hard cel shadows and rim light from the door.",
+   "action": "Dan at the LEFT counts on his fingers with his RIGHT hand, glasses crooked, proud. Pip at the CENTRE stands on a stool with his chest out and his cap high. Mira at the RIGHT points flatly at Pip with her LEFT hand (red cord). Behind them Soup packs a huge pot onto his back, and a small hooded figure (Lina, hood up, no face visible) sits on the bench.",
+   "faces": "Dan: proud. Pip: cocky. Mira: flat.",
+   "props": "Huge pot on Soup's back, hooded small figure, stool.",
+   "light": "Warm ochre lamp and pale dawn light from the door.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Дэн слева считает на пальцах, Пип на табурете задрал нос, Мира справа указывает на него; позади Суп навьючивает котёл, на скамье маленькая фигурка в капюшоне без видимого лица."
+  },
+  {
+   "camera": "Epic wide establishing shot, extreme depth, dutch angle, giant clock faces everywhere on tall stacked walls, hard cel shadows and vermilion-tinted dawn.",
+   "action": "The Clock District: stacked tower walls covered with enormous clock faces of brass and stone, no numerals, only abstract tick marks; gears turn in the walls, bridges swing on chains. Dan at the LEFT and Pip at the RIGHT stand tiny at the bottom, looking up with open mouths. A cream System window hovers beside them.",
+   "faces": "Dan: awed. Pip: calculating.",
+   "props": "Giant clock faces without numerals, gears, bridges, System window.",
+   "light": "Dawn light through gears, brass glints.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Clock faces carry no numerals or letters, only blank tick marks.",
+   "check": "Огромные часовые циферблаты на башнях без цифр, шестерни, мосты на цепях; Дэн слева и Пип справа внизу задрали головы; рядом окно Системы."
+  },
+  {
+   "camera": "Frontal comic medium shot at the district gate, wide lens, symmetrical composition, slight low angle.",
+   "action": "A stern gate warden (a citizen in a brass-buttoned coat and tall cap, a pocket watch in his hand) stands at the CENTRE in front of a huge iron clock gate. Dan at the LEFT leans toward him politely, hands visible. Mira at the RIGHT hides the hooded small figure of Lina behind her with her LEFT arm.",
+   "faces": "Warden: strict. Dan: polite. Mira: guarded.",
+   "props": "Brass pocket watch, gate, hooded small figure.",
+   "light": "Cold light with warm brass reflections.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Строгий привратник в центре с карманными часами; Дэн слева вежлив; Мира справа заслоняет маленькую фигурку в капюшоне."
+  },
+  {
+   "camera": "Dynamic wide action shot from below, a long rope-and-plank bridge between two clock towers, speed lines, giant clock face in the background, tilted horizon.",
+   "action": "A plank bridge rocks between two towers above a deep drop. Pip at the LEFT is already sprinting across far ahead with his arms out like wings. Dan at the CENTRE runs mid-bridge with both hands on the rope rails. Soup at the RIGHT, huge and slow, has just stepped onto the first plank, the pot on his back, calm as ever.",
+   "faces": "Pip: gleeful. Dan: stressed. Soup: calm.",
+   "props": "Plank bridge, rope rails, big clock face behind.",
+   "light": "Dawn light through the clock face, long shadows.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Nobody falls; everyone is on the planks or holding the rope.",
+   "check": "Мост из досок между двумя башнями: Пип слева уже далеко, Дэн в центре держится за канаты, Суп справа с котлом только вступил на мост."
+  },
+  {
+   "camera": "Extreme dynamic shot, bridge halves rising like jaws, speed blur, strong diagonals, vermilion flare from Mira's word.",
+   "action": "The two halves of the plank bridge tilt upward like a drawbridge closing, a gap widening in the middle. Dan at the LEFT clings to a rope rail with both hands, shouting. Soup at the CENTRE is stuck on the slope with the pot on his back, one hand on the plank. Mira at the RIGHT holds a rope with her LEFT hand (red cord) and her RIGHT hand raised, a vermilion flare glowing around the rope as it stops the bridge from rising further.",
+   "faces": "Dan: shouting. Soup: calm. Mira: strained.",
+   "props": "Rising bridge halves, ropes, vermilion flare.",
+   "light": "Hard vermilion flare light, deep blacks under the bridge.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. No falling; the bridge is held still at an angle.",
+   "check": "Половинки моста поднимаются, как створки; Дэн слева кричит, Суп в центре застрял на склоне, Мира справа удерживает канат красной вспышкой HOLD."
+  },
+  {
+   "camera": "Quiet comic medium shot, eye level, wide lens, Thorn small and precise.",
+   "action": "Dan at the LEFT sits soaked and dripping on a stone step, glasses fogged, a coil of rope around his shoulders. Thorn at the CENTRE stands in front of a huge clock face, pen raised like a pointer, perfectly dry and calm. At the far edge, Soup and Pip sit tangled in rope, Pip's cap on Soup's head.",
+   "faces": "Thorn: dry. Dan: defeated.",
+   "props": "Pen, clock face, rope tangle, cap on Soup.",
+   "light": "Soft morning light.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Дэн слева мокрый на ступеньке, Торн в центре сухая и спокойная перед часами; вдали Суп и Пип запутались в верёвке."
+  },
+  {
+   "camera": "Comic medium shot around a small attic table with a clock ticking loudly, eye level.",
+   "action": "Dan at the LEFT leans over a table with a stub of pencil in his RIGHT hand, drawing a sketchy plan on blank paper. Mira at the CENTRE leans back with arms crossed, shaking her head. Soup at the RIGHT sits on an oversized crate with the pot in his lap, eyes half closed.",
+   "faces": "Dan: bossy. Mira: sceptical. Soup: sleepy.",
+   "props": "Table, pencil, attic clock, pot.",
+   "light": "Warm lamp.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Дэн слева рисует план, Мира в центре качает головой, Суп справа дремлет с котлом на коленях."
+  },
+  {
+   "camera": "Quiet dark shot, wide lens, a night attic with small sleeping shapes, a clock face glowing in the window.",
+   "action": "Night attic: Dan at the LEFT lies on a mattress staring at the ceiling, glasses on the floor beside him. Mira at the RIGHT sits against the wall with her knees up, one eye open, the small hooded shape of Lina asleep against her arm. Soup and Pip sleep in the background.",
+   "faces": "Dan: awake. Mira: watchful.",
+   "props": "Mattress, glasses on floor, clock window.",
+   "light": "Moonlit clock glow in the window, deep blacks.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Ночь на чердаке: Дэн слева на матрасе смотрит в потолок; Мира справа сидит у стены, Лина в капюшоне спит у неё на руке."
+  },
+  {
+   "camera": "Eerie low-angle shot at night in a lamp-lit courtyard, giant dark clock face looming above, a heavy round vault door ahead, deep blacks and teal rim light.",
+   "action": "A tall gaunt Silent stands at the CENTRE before a huge round vault door with a brass ring. Nad: a tall gaunt Silent with a smooth matte white face, no eyes, nose or lips, two round dents where Dan's glasses would sit, a single vertical teal seam, a stub of a torn mustard lanyard on the neck. Its long fingers rest against the door. A thin stripe of light from the door slit falls on the floor; the Silent stays in the shadow beside it.",
+   "faces": "Nad: faceless, patient.",
+   "props": "Round vault door, brass ring, courtyard.",
+   "light": "Cold moon light, teal rim light only on the Silent, deep blacks.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Nad stays in shadow, not inside lamp light.",
+   "check": "Высокий безликий Безмолвный (Nad, две круглые вмятины на лице, обрывок горчичного шнурка на шее) у круглой двери хранилища ночью."
+  },
+  {
+   "camera": "Tight close two-shot in the dark attic, tilted frame, only a sliver of window light.",
+   "action": "Pip at the LEFT sits bolt upright on his mattress with his cap crooked and a finger pointing at the window. Dan at the RIGHT lies half under a blanket with one eye open, glasses missing. Outside in the window frame a distant tall silhouette on the roofs.",
+   "faces": "Pip: alarmed. Dan: groggy.",
+   "props": "Window with silhouette, blanket.",
+   "light": "Thin cold light through the window, deep blacks.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Пип слева сидит на матрасе и показывает на окно; Дэн справа полусонный; за окном высокий силуэт на крыше."
+  },
+  {
+   "camera": "Dynamic night chase shot across slanted rooftops, extreme perspective, speed lines, giant clock face behind, tilted horizon.",
+   "action": "On the slanted roofs a tall faceless Silent at the RIGHT sprints away with an armful of glowing amber jars. Nad: a tall gaunt Silent with a smooth matte white face, no eyes, nose or lips, two round dents where Dan's glasses would sit, a single vertical teal seam, a stub of a torn mustard lanyard on the neck. Mira at the CENTRE leaps a gap in mid-air, red cord on her LEFT wrist. Dan at the LEFT runs behind in his socks, glasses on, one arm out, panting.",
+   "faces": "Mira: fierce. Dan: furious and breathless. Nad: faceless.",
+   "props": "Roofs, amber glowing jars, clock face.",
+   "light": "Amber light from the jars, teal rim on Nad, deep blacks.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. Nobody falls; the Silent stays out of lamp light.",
+   "check": "Погоня по крышам ночью: Безмолвный справа бежит с янтарными банками, Мира в центре прыгает через щель, Дэн слева в носках."
+  },
+  {
+   "camera": "Dramatic freeze-frame shot from below, shattered amber glow, deep shadow under a bridge, shards of light.",
+   "action": "At the edge of a roof, Dan at the LEFT and Mira at the RIGHT stop short, staring into a black gap under a bridge where the tall Silent is melting into the shadow. One amber jar lies cracked on the roof between them, golden light spilling out as a glowing puddle. Mira's LEFT hand holds Dan's sleeve.",
+   "faces": "Dan: shocked. Mira: grim.",
+   "props": "Cracked amber jar, golden puddle of light, black bridge shadow.",
+   "light": "Golden spill and teal darkness.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands. The jar is cracked, nothing is graphic.",
+   "check": "Дэн и Мира замерли на краю крыши; Безмолвный тает в тени под мостом; между ними треснувшая янтарная банка, золотой свет растекается."
+  },
+  {
+   "camera": "Wide tense shot at dawn in the courtyard before the open vault, a crowd gathering, eye level, long shadows.",
+   "action": "The round vault door stands open behind them. A watchman (citizen, cap and lantern) at the LEFT points a shaking finger straight at Dan at the CENTRE, who holds up both hands with his mouth open. Mira at the RIGHT steps half in front of him. A crowd of grey townspeople watches from behind.",
+   "faces": "Watchman: accusing. Dan: stunned. Mira: protective.",
+   "props": "Open vault door, lantern, crowd.",
+   "light": "Cold dawn light, long shadows.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Рассвет у открытого хранилища; сторож слева указывает на Дэна в центре; Мира справа шагнула вперёд; сзади толпа."
+  },
+  {
+   "camera": "Very dark close shot, a lone red-bordered System window, Dan's face lit only by it.",
+   "action": "Black frame. A cream System window with a solid red inverted frame glows in the centre of the dark; Dan at the CENTRE in half-profile, lit only by it, glasses reflecting the window, mouth slightly open.",
+   "faces": "Dan: frozen, afraid.",
+   "props": "System window (blank).",
+   "light": "Only the red window light on black.",
+   "avoid": "No readable text, letters, numerals or words anywhere; every glyph is an abstract unreadable shape, not a real alphabet. Dan wears only round black glasses; no bandage or tape on his face. No extra arms or hands; each person has exactly two arms and two hands.",
+   "check": "Чёрный кадр: красное окно Системы-предупреждения освещает лицо Дэна."
+  }
  ]
 }

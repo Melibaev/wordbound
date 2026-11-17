@@ -1,0 +1,906 @@
+{
+ "id": "s2e01",
+ "title": "Margin",
+ "titleRu": "Поля",
+ "level": "A1",
+ "newWords": [
+  "city",
+  "street",
+  "house",
+  "people",
+  "move",
+  "watch",
+  "stand",
+  "carry",
+  "shop",
+  "board"
+ ],
+ "panels": [
+  {
+   "bg": "hall",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "keeper",
+     "pos": "center"
+    }
+   ],
+   "art": "Very wide low-angle shot of the Hall of Words in its last hour: the dome and jar-lined walls rise into darkness. The Keeper sits tiny and upright in the high chair at the centre, hood hiding his eyes, a small jar with a vermilion spark cupped in his ink-stained hand. The tall wax-sealed door behind him is shut.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Внизу, в Зале Слов, дверь домой закрылась. Хранитель остался в своём кресле."
+    },
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "I am staying. I am waiting.",
+     "ru": "Я остаюсь. Я жду.",
+     "delivery": "soft courteous patient voice, smiling in the dark, speaking to an empty hall as if to an old friend",
+     "place": {
+      "x": 0.25,
+      "y": 0.04,
+      "w": 0.5,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "keeper",
+     "pos": "center"
+    }
+   ],
+   "art": "Tight dramatic close-up from slightly below: the Keeper's calm small smile and ink-stained fingers holding the glowing jar OPEN right in front of his chin. His hood swallows the upper half of his face in black. A thin vermilion glow climbs the folds of his sleeve.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "keeper",
+     "en": "Everyone comes back, Dan. I am keeping OPEN safe.",
+     "ru": "Все возвращаются, Дэн. Я берегу OPEN.",
+     "delivery": "gentle, almost tender, a salesman perfectly sure that the customer will return",
+     "place": {
+      "x": 0.1,
+      "y": 0.03,
+      "w": 0.7,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "silent",
+     "pos": "center"
+    }
+   ],
+   "art": "Tall vertical shot up a stair of pure warm light hanging in a black void. Dan stops on a step at the left, head tilted back, face lit gold from above, listening to something far overhead. Mira one step higher at the right looks back down at him; the small Silent Lina stands between them holding the hem of Mira's jacket, a frayed red cord on her left wrist.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Missed calls: 13.",
+     "ru": "Пропущенные звонки: 13.",
+     "delivery": "flat cold game-system announcement, quietly ominous",
+     "place": {
+      "x": 0.25,
+      "y": 0.01,
+      "w": 0.5,
+      "tail": "none"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "It is using her voice. It is learning me, word by word.",
+     "ru": "Оно использует её голос. Оно учится на мне, слово за словом.",
+     "delivery": "low, shaken and thoughtful, an engineer working out a horrible mechanism aloud",
+     "place": {
+      "x": 0.38,
+      "y": 0.1,
+      "w": 0.27,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Then give it nothing. Climb.",
+     "ru": "Тогда не давай ему ничего. Лезь.",
+     "delivery": "deadpan, low and blunt, a short order with a hint of care under it",
+     "place": {
+      "x": 0.5,
+      "y": 0.84,
+      "w": 0.46,
+      "tail": "up-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "action",
+   "sfx": "CRACK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Dynamic diagonal action shot: the light stair burns away behind the heroes step by step, shedding gold embers, as Dan sprints up at the left, arms pumping, glasses nearly sliding off. Mira at the right runs just behind carrying the small Silent Lina in both arms, her red cord on her left wrist. The gap of nothing yawns below their heels.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Warning. The stair is burning down.",
+     "ru": "Внимание. Лестница сгорает.",
+     "delivery": "flat cold warning voice, urgent",
+     "place": {
+      "x": 0.05,
+      "y": 0.01,
+      "w": 0.55,
+      "tail": "none"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am running! This is my fast!",
+     "ru": "Я бегу! Это моя максимальная скорость!",
+     "delivery": "breathless, panicked and self-mocking, gasping between words",
+     "place": {
+      "x": 0.02,
+      "y": 0.11,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I am carrying Lina. Your fast is slow, Zero.",
+     "ru": "Я несу Лину. А твоё «быстро» — это медленно, Зеро.",
+     "delivery": "deadpan, low, unimpressed, running without losing her flat tone",
+     "place": {
+      "x": 0.55,
+      "y": 0.2,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "silent",
+     "pos": "center"
+    }
+   ],
+   "art": "Eerie shot from below the stair: the underside of the glowing steps is a ceiling of shadow, and a tall pale Silent hangs beneath it, one long page-like hand hooked over a step edge. Its smooth white face has two round dents and a thin vertical teal seam; a strip of mustard-yellow lanyard is knotted at its neck. The glowing steps above it make a bright line it will not enter.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Безмолвные не ступают на свет. Этот ползёт под ним, по тени ступеней, — и догоняет."
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "I am tired.",
+     "ru": "Я устал.",
+     "delivery": "hollow breathy whisper imitating Dan's tired voice slightly wrong, flat and eerie",
+     "place": {
+      "x": 0.04,
+      "y": 0.5,
+      "w": 0.4,
+      "tail": "right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "silent",
+     "pos": "center"
+    }
+   ],
+   "art": "Grand wide establishing shot from the end of the stair: a vertical city built on ledges of the Tower's inner wall, houses stacked like lines on a page, rope bridges, canvas awnings, cable lifts crossing the open drop, shops hanging from ropes, thousands of ochre lamps rising into the dark. Dan at the left stares up with his mouth open; Mira at the right gestures him on; the small Silent Lina is half hidden behind Mira's leg.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Wow. A city on a wall! Houses on shelves, and a shop on a rope!",
+     "ru": "Ого. Город на стене! Дома на полках и лавка на верёвке!",
+     "delivery": "stunned and delighted, an engineer's wonder, voice cracking upward",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.5,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Margin is a city. Walk. Look at nothing.",
+     "ru": "Марджин — это город. Иди. Ни на что не смотри.",
+     "delivery": "deadpan, low, practical, a rule repeated by someone who has done this before",
+     "place": {
+      "x": 0.6,
+      "y": 0.17,
+      "w": 0.38,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "New floor: Deeds. City: Margin.",
+     "ru": "Новый этаж: Дела. Город: Марджин.",
+     "delivery": "flat cold game-system announcement with a hint of mockery",
+     "place": {
+      "x": 0.32,
+      "y": 0.88,
+      "w": 0.38,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "citizen",
+     "pos": "right"
+    }
+   ],
+   "art": "Low-angle shot of a busy Margin street on a shelf-ledge. Dan at the left looks at a running man at the right; above the man a translucent vermilion afterimage of his running body flares for an instant, as if the street itself repeated what Dan said. Crowd blur behind.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am watching that man. He is running.",
+     "ru": "Я смотрю на того человека. Он бежит.",
+     "delivery": "quiet, astonished, saying it almost to himself",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.3,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Дэн просто говорит правду о том, что люди делают прямо сейчас — и над ними вспыхивает это действие."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "True. Now-sight. Say what they are doing.",
+     "ru": "Правда. Now-sight. Говори, что они делают.",
+     "delivery": "flat cold game-system announcement with a hint of mockery",
+     "place": {
+      "x": 0.62,
+      "y": 0.05,
+      "w": 0.36,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Rapid dynamic shot from behind Dan's shoulder: he sweeps one arm across the crowd while vermilion afterimages flash over many people at once, a running man, a woman selling from a hanging shop-basket, a man carrying a whole tiny house on his back like a snail. Mira at the right grabs Dan's sleeve with her right hand and hisses.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "He is running. She is selling in her shop. A man is carrying a house!",
+     "ru": "Он бежит. Она продаёт в своей лавке. Человек несёт дом!",
+     "delivery": "thrilled and rapid, delighted like a kid with a new toy, words tumbling out",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Quiet, Zero. People are watching. This street has ears.",
+     "ru": "Тише, Зеро. Люди смотрят. У этой улицы есть уши.",
+     "delivery": "hissed deadpan whisper, low and tense, glancing sideways",
+     "place": {
+      "x": 0.62,
+      "y": 0.3,
+      "w": 0.36,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "citizen",
+     "pos": "right"
+    }
+   ],
+   "art": "Medium comic shot: Mira's long cream scarf is wrapped over the small Silent Lina so that she looks like a short bundle with a hat-shaped lump on top, only a tiny hand with a frayed red cord peeking out. A citizen at the right squints at the lump; Dan at the left raises his hand in a helpful engineer's gesture; Mira in the centre keeps a perfectly flat face.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "В Марджине Безмолвных усыпляют на месте. Лина прячется под шарфом Миры."
+    },
+    {
+     "type": "speech",
+     "who": "citizen",
+     "en": "Your little friend is standing very still in the street.",
+     "ru": "Ваша маленькая подруга стоит очень неподвижно посреди улицы.",
+     "delivery": "curious and slightly suspicious, a nosy neighbour",
+     "place": {
+      "x": 0.4,
+      "y": 0.01,
+      "w": 0.56,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "She is shy.",
+     "ru": "Она стесняется.",
+     "delivery": "deadpan, flat and instant, a lie delivered without blinking",
+     "place": {
+      "x": 0.36,
+      "y": 0.13,
+      "w": 0.3,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "She is a hat. A very quiet hat.",
+     "ru": "Она шляпа. Очень тихая шляпа.",
+     "delivery": "helpful, earnest and totally wrong, trying to rescue the lie and making it worse",
+     "place": {
+      "x": 0.02,
+      "y": 0.24,
+      "w": 0.32,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Huge wide low-angle shot of the central plaza: an immense ash-black board rises ten storeys up the shelf-wall, covered in thousands of thin horizontal rows of abstract glowing marks (no letters), the top rows bright, the bottom rows dim; tiny crowds stand beneath it staring upward. Dan and Mira are small figures in the foreground, seen from behind, looking up.",
+   "lines": [
+    {
+     "type": "narration",
+     "en": "The Index. Every name in this city is standing on this board.",
+     "ru": "Индекс. Каждое имя этого города стоит на этой доске.",
+     "delivery": "neutral storyteller, hushed and awed, describing a grand sight",
+     "place": {
+      "x": 0.1,
+      "y": 0.0,
+      "w": 0.8,
+      "tail": "none"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Look at the top of the board. Nobody looks at the bottom.",
+     "ru": "Смотри на верх доски. На низ никто не смотрит.",
+     "delivery": "dry, low, a hard fact stated flatly",
+     "place": {
+      "x": 0.62,
+      "y": 0.12,
+      "w": 0.36,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    }
+   ],
+   "art": "Tight dramatic shot on the very last row at the bottom edge of the Index board: a fresh line of vermilion marks is scratching itself into the ash-black surface by an invisible hand, glowing, with sparks. Dan stands at the left foreground in profile, glasses reflecting the new glow, shoulders sinking. Faces of onlookers glance sideways at him.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "#40112. DAN. PHRASE. Count: one hundred.",
+     "ru": "№40112. DAN. PHRASE. Счёт: сто.",
+     "delivery": "flat cold game-system announcement with a hint of mockery",
+     "place": {
+      "x": 0.35,
+      "y": 0.02,
+      "w": 0.6,
+      "tail": "none"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Title: Lowest on the Index.",
+     "ru": "Титул: Самый нижний в Индексе.",
+     "delivery": "flat cold game-system announcement with a hint of mockery",
+     "place": {
+      "x": 0.35,
+      "y": 0.09,
+      "w": 0.6,
+      "tail": "none"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am last. Of course I am last.",
+     "ru": "Я последний. Ну конечно, я последний.",
+     "delivery": "dry, resigned and self-mocking, a quiet exhale of a joke",
+     "place": {
+      "x": 0.5,
+      "y": 0.62,
+      "w": 0.45,
+      "tail": "up-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "citizen",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Comic low-angle medium shot: a citizen at the left cups a hand to his mouth and calls to the crowd, pointing at Dan; a few amused faces turn behind. Dan in the centre shrugs with a crooked half-smile and raised palms; Mira at the right turns her head toward him with a flat stare.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "citizen",
+     "en": "Look, people! A hundred words, and the last line!",
+     "ru": "Смотрите, люди! Сто слов — и последняя строка!",
+     "delivery": "loud cheerful mockery of a market-square showman, playing to the crowd",
+     "place": {
+      "x": 0.02,
+      "y": 0.06,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am standing at the bottom. I know floors.",
+     "ru": "Я стою на дне. Я знаю этажи.",
+     "delivery": "dry and unbothered, an engineer's joke at his own expense",
+     "place": {
+      "x": 0.35,
+      "y": 0.35,
+      "w": 0.32,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Don't be proud of it.",
+     "ru": "Не гордись этим.",
+     "delivery": "deadpan, low, a flat warning",
+     "place": {
+      "x": 0.66,
+      "y": 0.37,
+      "w": 0.3,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "oldman",
+     "pos": "right"
+    }
+   ],
+   "art": "Quiet atmospheric shot at the foot of the Index board: the bent old man with his huge sweeping brush stands at the right, one milky eye and one sharp black eye, brushing grey dust from the lowest row. Dan at the left leans toward him with his head tilted. Dust and ochre lantern light drift between them; the vast board rises behind into darkness.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "oldman",
+     "en": "Houses move. Shops move. The top moves. Every year it moves.",
+     "ru": "Дома двигаются. Лавки двигаются. Верх двигается. Каждый год двигается.",
+     "delivery": "slow, raspy and calm, an old man telling a riddle he has told many times",
+     "place": {
+      "x": 0.45,
+      "y": 0.02,
+      "w": 0.5,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "And the first line on the board? It is empty.",
+     "ru": "А первая строка на доске? Она пустая.",
+     "delivery": "curious and low, noticing the oddness aloud",
+     "place": {
+      "x": 0.02,
+      "y": 0.2,
+      "w": 0.4,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "oldman",
+     "en": "It is waiting. Today the bottom is moving, too.",
+     "ru": "Она ждёт. А сегодня двигается и низ.",
+     "delivery": "slow, raspy and quietly ominous, with a faint knowing smile",
+     "place": {
+      "x": 0.55,
+      "y": 0.33,
+      "w": 0.4,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "action",
+   "sfx": "HOLD!",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    },
+    {
+     "id": "silent",
+     "pos": "center"
+    }
+   ],
+   "art": "Extreme dynamic wide shot: a cable-lift gondola full of passengers has slipped its brake and slides down its brass wire above the plaza, rope swinging, passengers clutching the rail. In the foreground Mira at the right leaps toward the wire with her arms stretched, rope coil flying, while Dan at the left points up with his whole arm. Citizens scatter below; the small Silent Lina in her scarf bundle clings to Mira's backpack.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "citizen",
+     "en": "The lift is falling! It is carrying forty people!",
+     "ru": "Лифт падает! В нём сорок человек!",
+     "delivery": "panicked shout of a man pointing up, voice cracking",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.5,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Mira! He is pulling the wrong rope!",
+     "ru": "Мира! Он тянет не ту верёвку!",
+     "delivery": "urgent and sharp, an engineer seeing the fault in a second",
+     "place": {
+      "x": 0.02,
+      "y": 0.3,
+      "w": 0.38,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "shout",
+     "who": "mira",
+     "en": "HOLD!",
+     "ru": "ДЕРЖИ!",
+     "delivery": "a hard, explosive command shouted mid-leap",
+     "place": {
+      "x": 0.4,
+      "y": 0.52,
+      "w": 0.34,
+      "tail": "right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "Mira. Careful.",
+     "ru": "Мира. Осторожно.",
+     "delivery": "small, thin and worried, a child-like whisper",
+     "place": {
+      "x": 0.42,
+      "y": 0.88,
+      "w": 0.3,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "left"
+    }
+   ],
+   "art": "Dynamic low shot: Mira hangs from the brass wire by both hands, red letters of the word HOLD like glowing vermilion rivets pinning the wire to the gondola frame, the lift stopped in mid-air a body-length above the roofs. Below, the whole street looks up. Dan at the left stands with open mouth. A tall striped figure with a huge brass horn appears on a high balcony far behind, tiny and dark.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Word: HOLD. The lift is holding.",
+     "ru": "Слово: HOLD. Лифт держится.",
+     "delivery": "flat cold game-system announcement with a hint of mockery",
+     "place": {
+      "x": 0.05,
+      "y": 0.02,
+      "w": 0.45,
+      "tail": "none"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Three breaths. Write that down, Zero.",
+     "ru": "Три дыхания. Запиши это, Зеро.",
+     "delivery": "pained, gritted-teeth deadpan, hanging by her hands",
+     "place": {
+      "x": 0.05,
+      "y": 0.27,
+      "w": 0.36,
+      "tail": "right"
+     }
+    },
+    {
+     "type": "narration",
+     "en": "All the people in the street are watching.",
+     "ru": "Все люди на улице смотрят.",
+     "delivery": "quiet storyteller, a held breath before a blow",
+     "place": {
+      "x": 0.4,
+      "y": 0.88,
+      "w": 0.55,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "herald",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Very dark dramatic low-angle shot from inside the crowd: the thin herald stands on a high balcony, a black silhouette against a small ring of ochre lantern light, raising his huge brass horn. In the foreground a sea of pale faces turns upward and then toward the viewer, and at the right Mira's tense profile glances at Dan, who is off-frame.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "herald",
+     "en": "Hear this! The Ledger is paying five hundred words for Zero!",
+     "ru": "Слушайте! Ledger платит пятьсот слов за Зеро!",
+     "delivery": "booming theatrical proclamation through a brass horn, grand and ceremonial",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.4,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "shout",
+     "who": "herald",
+     "en": "Zero, who teaches lost words!",
+     "ru": "За Зеро, который учит потерянные слова!",
+     "delivery": "booming theatrical proclamation, drawing out the last words for effect",
+     "place": {
+      "x": 0.02,
+      "y": 0.45,
+      "w": 0.45,
+      "tail": "up-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "They are looking at you, Zero.",
+     "ru": "Они смотрят на тебя, Зеро.",
+     "delivery": "very low, flat and tight, a warning without moving her lips",
+     "place": {
+      "x": 0.02,
+      "y": 0.6,
+      "w": 0.5,
+      "tail": "right"
+     }
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "Present Continuous: что происходит прямо сейчас",
+  "body": "Чтобы сказать, что человек делает что-то ПРЯМО СЕЙЧАС, нужны три части: am / is / are + глагол с -ing. I am running (я бегу). He is running. They are watching us. Короткие формы: I'm, he's, they're. Запомни: running — одна n превратилась в две, selling — просто добавили -ing. Сегодня только утверждения: «Он бежит», «Она продаёт». Вопросы и «не» будут в следующей главе.",
+  "examples": [
+   {
+    "en": "He is running.",
+    "ru": "Он бежит."
+   },
+   {
+    "en": "She is selling.",
+    "ru": "Она продаёт."
+   },
+   {
+    "en": "People are watching.",
+    "ru": "Люди смотрят."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Что происходит, когда Дэн говорит правду о том, что люди делают сейчас?",
+   "options": [
+    "Открывается дверь",
+    "Над людьми вспыхивает их действие (Now-sight)",
+    "Мира получает силу",
+    "Лампа гаснет"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Как Мира прячет Лину в городе?",
+   "options": [
+    "В рюкзаке",
+    "За дверью",
+    "Под своим шарфом, как шляпу",
+    "Среди толпы"
+   ],
+   "answer": 2
+  },
+  {
+   "q": "Что написано про Дэна в последней строке доски Index?",
+   "options": [
+    "Он Phrase, 100, титул «Самый нижний в Индексе»",
+    "Он Zero и хозяин города",
+    "Он на первой строке",
+    "Его имени на доске нет"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Что объявляет глашатай в конце?",
+   "options": [
+    "Праздник на площади",
+    "Лифт сломан",
+    "Закрытие города",
+    "Ledger платит 500 слов за Зеро, который учит потерянные слова"
+   ],
+   "answer": 3
+  }
+ ]
+}

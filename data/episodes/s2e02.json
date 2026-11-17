@@ -1,0 +1,890 @@
+{
+ "id": "s2e02",
+ "title": "The Auditor's Son",
+ "titleRu": "Сын аудитора",
+ "level": "A1",
+ "newWords": [
+  "win",
+  "lost",
+  "bet",
+  "laugh",
+  "cheap",
+  "rich",
+  "poor",
+  "wear",
+  "coat",
+  "phone"
+ ],
+ "panels": [
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "citizen",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Tense medium shot in the plaza under the Index board: the whole crowd has turned toward Dan and a ring of faces is closing in. A citizen at the centre points straight at Dan with a trembling finger and a greedy grin. Dan at the left stands very stiff with his hands pressed to his sides; Mira at the right keeps her eyes moving over the crowd, the scarf bundle hidden behind her.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "citizen",
+     "en": "Five hundred words! He is standing right there!",
+     "ru": "Пятьсот слов! Вон он стоит!",
+     "delivery": "loud greedy shout of a man who just smelled money, pointing",
+     "place": {
+      "x": 0.28,
+      "y": 0.02,
+      "w": 0.48,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Don't run. Everyone is looking.",
+     "ru": "Не беги. Все смотрят.",
+     "delivery": "deadpan, low and tight, an order out of the side of her mouth",
+     "place": {
+      "x": 0.5,
+      "y": 0.13,
+      "w": 0.45,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am not running. I am standing very well.",
+     "ru": "Я не бегу. Я очень хорошо стою.",
+     "delivery": "stiff, high-pitched with nerves, a joke squeaking out of fear",
+     "place": {
+      "x": 0.03,
+      "y": 0.24,
+      "w": 0.45,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "ruk",
+     "pos": "center"
+    },
+    {
+     "id": "citizen",
+     "pos": "left"
+    }
+   ],
+   "art": "Dramatic low-angle shot as the crowd splits like a curtain: Ruk Marl strides through the gap in his long black coat covered in brass rank badges, a heavy ledger under one arm, one white-gloved hand lifted for people to clear the way. A citizen at the left shrinks back and points at the coat. Strong perspective, a cold white light behind Ruk.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "citizen",
+     "en": "It is Ruk Marl, the auditor's son! He is rich! He is wearing forty words on his coat!",
+     "ru": "Это Рук Марл, сын аудитора! Он богат! На его пальто сорок слов!",
+     "delivery": "awed gossipy shout of a bystander, breathless",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.6,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "Move.",
+     "ru": "С дороги.",
+     "delivery": "one cold heavy word, bored and absolute, no heat at all",
+     "place": {
+      "x": 0.62,
+      "y": 0.22,
+      "w": 0.3,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "ruk",
+     "pos": "right"
+    },
+    {
+     "id": "dan",
+     "pos": "left"
+    }
+   ],
+   "art": "Tight over-the-shoulder shot past Dan's left ear: in Ruk's white-gloved hand, a battered phone with a cracked screen glows a faint cold light and trembles with an unheard ring. Ruk at the right holds it up between two fingers like something dirty, looking down his nose. Dan at the left stares at it with raw hunger, glasses catching the screen glow.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "Is this your phone? Cheap.",
+     "ru": "Это твой телефон? Дёшево.",
+     "delivery": "bored, cold and contemptuous, each word weighed like a price",
+     "place": {
+      "x": 0.5,
+      "y": 0.03,
+      "w": 0.45,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Yes! That is my mother's phone! Give it to me!",
+     "ru": "Да! Это телефон моей мамы! Отдай!",
+     "delivery": "desperate and raw, voice cracking, lunging with the words",
+     "place": {
+      "x": 0.02,
+      "y": 0.6,
+      "w": 0.4,
+      "tail": "right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "Bet for it.",
+     "ru": "Поставь на кон.",
+     "delivery": "short flat challenge, a price offered with a thin smile",
+     "place": {
+      "x": 0.55,
+      "y": 0.84,
+      "w": 0.4,
+      "tail": "up-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Close two-shot, heads together, as the crowd noise blurs behind them. Mira at the right whispers urgently into Dan's ear, her red cord visible on her left wrist; Dan at the left listens with his eyes fixed on Ruk's distant silhouette and his brows pulling together as an idea starts to form.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Привычка и «сейчас» — разные вещи. «Always» — это привычка человека. А «now» — то, что он делает в эту секунду."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Ruk is rich. You are poor. He always attacks first. He never waits.",
+     "ru": "Рук богат. Ты беден. Он всегда бьёт первым. Он никогда не ждёт.",
+     "delivery": "deadpan low whisper, hard facts one after another",
+     "place": {
+      "x": 0.36,
+      "y": 0.01,
+      "w": 0.62,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Always. Never. And now? What is he doing now?",
+     "ru": "Всегда. Никогда. А сейчас? Что он делает сейчас?",
+     "delivery": "thoughtful and slow, working out a trick, the last question almost to himself",
+     "place": {
+      "x": 0.02,
+      "y": 0.16,
+      "w": 0.5,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "tower-exterior",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "ruk",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide dramatic shot of a narrow plank platform jutting out of the shelf-wall over the open vertical drop of Margin, a straight glowing chalk-line drawn across its middle. Dan stands at the left end, Ruk at the right end, both in profile facing each other, the crowd packed on the galleries and ropes above and behind like an audience in a theatre. Deep bottomless dark below.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Линия на помосте сдвигается в сторону того, чьё слово тяжелее. Кто окажется за краем — проиграл."
+    },
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "The Line judges the bet. Heavy words win.",
+     "ru": "Линия судит ставку. Тяжёлые слова побеждают.",
+     "delivery": "cold, bored and absolute, announcing a rule everyone already knows",
+     "place": {
+      "x": 0.52,
+      "y": 0.72,
+      "w": 0.45,
+      "tail": "up-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am betting PUSH. Heavy wins? This is a market, not a duel.",
+     "ru": "Я ставлю PUSH. Тяжёлое побеждает? Это рынок, а не дуэль.",
+     "delivery": "dry and under-the-breath, an engineer's complaint at the rules",
+     "place": {
+      "x": 0.5,
+      "y": 0.84,
+      "w": 0.46,
+      "tail": "left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "tower-exterior",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "ruk",
+     "pos": "right"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    }
+   ],
+   "art": "Tense standoff shot at the Line: Dan crouched slightly at the left, one open hand ready; Ruk at the right stands perfectly still with his chin raised, looking up past Dan at the crowd on the galleries. Mira, at the platform's near edge in the centre foreground, grips a rope rail with both hands, shouting at Dan.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "mira",
+     "en": "What are you doing, Zero? He always attacks first!",
+     "ru": "Что ты делаешь, Зеро? Он всегда бьёт первым!",
+     "delivery": "sharp anxious shout from the edge of the platform",
+     "place": {
+      "x": 0.02,
+      "y": 0.0,
+      "w": 0.82,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Not now. He is not looking at me. He is looking at the crowd.",
+     "ru": "Не сейчас. Он не смотрит на меня. Он смотрит на толпу.",
+     "delivery": "low, very calm and certain, almost a whisper, eyes locked on Ruk",
+     "place": {
+      "x": 0.02,
+      "y": 0.66,
+      "w": 0.5,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "True. Now-sight.",
+     "ru": "Правда. Now-sight.",
+     "delivery": "flat cold game-system announcement with a hint of mockery",
+     "place": {
+      "x": 0.02,
+      "y": 0.88,
+      "w": 0.45,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "tower-exterior",
+   "mood": "action",
+   "sfx": "PUSH!",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "ruk",
+     "pos": "right"
+    }
+   ],
+   "art": "Explosive action shot: Dan lunges across the platform with his whole body behind a glowing vermilion shove, his right arm thrust forward and a huge arc of vermilion force rippling out of his palm toward Ruk. The chalk-line itself surges and slides one step toward Ruk's side, spraying pale sparks. Ruk's coat flares back and his chin finally drops, surprised.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "PUSH! I am pushing the Line!",
+     "ru": "PUSH! Я двигаю Линию!",
+     "delivery": "a hard breathless battle cry, full of effort and a spark of triumph",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.46,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "True. The Line is moving.",
+     "ru": "Правда. Линия движется.",
+     "delivery": "flat cold game-system announcement with a hint of mockery",
+     "place": {
+      "x": 0.52,
+      "y": 0.02,
+      "w": 0.46,
+      "tail": "none"
+     }
+    },
+    {
+     "type": "shout",
+     "who": "citizen",
+     "en": "The Zero is winning!",
+     "ru": "Зеро побеждает!",
+     "delivery": "a gasping roar of surprise from the galleries",
+     "place": {
+      "x": 0.5,
+      "y": 0.82,
+      "w": 0.46,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "tower-exterior",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "ruk",
+     "pos": "right"
+    },
+    {
+     "id": "dan",
+     "pos": "left"
+    }
+   ],
+   "art": "Hard shot of Ruk raising just two fingers of one white-gloved hand: a huge round plate of brass-and-vermilion light snaps open in front of him like a shield and Dan's vermilion force splashes against it in a flower of sparks. Dan at the left is thrown back a step, arms flung wide, the chalk-line sliding back toward his side. Rows of laughing faces in the galleries behind.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "SHIELD.",
+     "ru": "SHIELD.",
+     "delivery": "one cold heavy word, almost bored, a door closing",
+     "place": {
+      "x": 0.55,
+      "y": 0.02,
+      "w": 0.4,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am not losing! I am... thinking.",
+     "ru": "Я не проигрываю! Я... думаю.",
+     "delivery": "winded and defensive, a bad joke wheezing out between breaths",
+     "place": {
+      "x": 0.02,
+      "y": 0.14,
+      "w": 0.45,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "tower-exterior",
+   "mood": "action",
+   "sfx": "CRUSH",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "ruk",
+     "pos": "right"
+    }
+   ],
+   "art": "Crushing-pressure shot: Ruk with his palm pressed flat toward the ground, a vast downward wave of brass-and-vermilion weight bending the planks; Dan at the left is driven onto one knee, his arms braced over his head, glasses sliding down his nose, cracks racing along the platform. The chalk-line has slid right across to Dan's end.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "CRUSH.",
+     "ru": "CRUSH.",
+     "delivery": "one cold heavy word, quiet and merciless",
+     "place": {
+      "x": 0.05,
+      "y": 0.02,
+      "w": 0.3,
+      "tail": "right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am pushing! I am... not... losing!",
+     "ru": "Я давлю! Я... не... проигрываю!",
+     "delivery": "strained gasping voice, forcing words out under crushing weight",
+     "place": {
+      "x": 0.02,
+      "y": 0.12,
+      "w": 0.5,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Warning. The Line is moving to Dan's side.",
+     "ru": "Внимание. Линия двигается на сторону Дэна.",
+     "delivery": "flat cold warning voice, urgent and unmocking",
+     "place": {
+      "x": 0.55,
+      "y": 0.72,
+      "w": 0.43,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "tower-exterior",
+   "mood": "action",
+   "sfx": "CRACK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Dramatic vertical action shot: the platform tilts and cracks, and Dan slides off its edge, hanging in the open drop by his arm with his sneakers kicking over darkness. Mira at the right lies flat on the planks, her right hand clamped around Dan's left wrist, her left hand locked around a rope rail, red cord on her left wrist. Dust and splinters fall past the camera into the deep.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "Mira! I am falling!",
+     "ru": "Мира! Я падаю!",
+     "delivery": "high pitched panicked shout, voice cracking",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.42,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "shout",
+     "who": "mira",
+     "en": "Hold on, Zero!",
+     "ru": "Держись, Зеро!",
+     "delivery": "hard straining shout, teeth clenched",
+     "place": {
+      "x": 0.52,
+      "y": 0.04,
+      "w": 0.44,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "tower-exterior",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "ruk",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "left"
+    }
+   ],
+   "art": "Striking shot: Ruk opens his heavy ledger flat on one raised forearm and the vermilion letters of PUSH are ripped out of Dan's chest as a long glowing ribbon, streaming across the frame into the blank page of the book, which drinks them up with a pulse of light. Dan, hauled half back onto the platform, arches in pain at the left. Ruk's face is bored, almost disgusted.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Слово не умирает — оно просто переходит в чужую книгу. Дэн больше не может толкать."
+    },
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "Cheap.",
+     "ru": "Дёшево.",
+     "delivery": "one flat cold word, a verdict, without even looking down",
+     "place": {
+      "x": 0.55,
+      "y": 0.03,
+      "w": 0.3,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Word lost: PUSH.",
+     "ru": "Слово потеряно: PUSH.",
+     "delivery": "flat cold game-system announcement with a hint of mockery",
+     "place": {
+      "x": 0.55,
+      "y": 0.88,
+      "w": 0.42,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "citizen",
+     "pos": "right"
+    }
+   ],
+   "art": "Close shot on Dan's chest: the small brass rank tag on his mustard lanyard, glowing warm ochre, flickers and goes cold ash-grey with a thin puff of smoke. Dan at the left looks down at it, shocked and out of breath, one hand half raised to his chest. A laughing citizen at the right points a finger at him, mouth wide open.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Count: 99. Rank: WORD.",
+     "ru": "Счёт: 99. Ранг: WORD.",
+     "delivery": "flat cold game-system announcement with a hint of mockery",
+     "place": {
+      "x": 0.03,
+      "y": 0.01,
+      "w": 0.45,
+      "tail": "none"
+     }
+    },
+    {
+     "type": "shout",
+     "who": "citizen",
+     "en": "His badge is going out! He is a poor little Word now! Everyone is laughing!",
+     "ru": "Его значок гаснет! Он теперь бедный маленький Word! Все смеются!",
+     "delivery": "cruel delighted shout of a crowd member, laughing between words",
+     "place": {
+      "x": 0.03,
+      "y": 0.1,
+      "w": 0.93,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "ruk",
+     "pos": "right"
+    }
+   ],
+   "art": "Over-the-shoulder shot: Ruk walks away from the camera at the right, his long coat flaring, the cracked phone dangling from two gloved fingers, its screen pulsing with a faint cold light. Dan at the left, on one knee, reaches after him with one open hand, glasses crooked, a stream of smoke from the torn word still drifting off his chest.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "That is my mother's phone! What are you doing?",
+     "ru": "Это телефон моей мамы! Что ты делаешь?",
+     "delivery": "hoarse and desperate, reaching after him, voice breaking",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.5,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "I am winning. I am keeping it. Cheap man.",
+     "ru": "Я побеждаю. Я его оставляю себе. Дешёвый человек.",
+     "delivery": "cold flat contempt, not even turning his head",
+     "place": {
+      "x": 0.55,
+      "y": 0.14,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Quiet low-contrast shot at the foot of the shelf-wall: Dan sits on a crate with his elbows on his knees and a crooked defeated half-smile, glasses pushed up on his forehead; Mira at the right sits beside him with her scarf pulled tight and her face turned away, one hand resting on her rope coil. The crowd has drifted away, only lamps and distant chatter.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "One day as a Phrase. One day!",
+     "ru": "Один день в ранге Phrase. Один день!",
+     "delivery": "wry and tired, a laugh without joy, shaking his head",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.5,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "You are alive. You are poor. That is a start.",
+     "ru": "Ты жив. Ты беден. Это начало.",
+     "delivery": "low, flat and quietly kind, her version of comfort",
+     "place": {
+      "x": 0.5,
+      "y": 0.14,
+      "w": 0.46,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Everyone is laughing. I am laughing, too. A little.",
+     "ru": "Все смеются. Я тоже смеюсь. Чуть-чуть.",
+     "delivery": "small tired laugh, honest and self-mocking",
+     "place": {
+      "x": 0.02,
+      "y": 0.25,
+      "w": 0.52,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Medium shot up toward a far gallery, seen over Dan's and Mira's shoulders: Ruk, small and straight, climbs a rope stair toward the high rows of the Index, his black coat and brass badges glinting in the lamplight. Dan at the left and Mira at the right watch him go with narrowed eyes; Dan's mustard lanyard hangs plain and dull on his chest.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "He is rich. That coat is full of words he buys.",
+     "ru": "Он богат. Это пальто полно слов, которые он покупает.",
+     "delivery": "dry, low and thoughtful, a grim observation",
+     "place": {
+      "x": 0.45,
+      "y": 0.03,
+      "w": 0.5,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "He is wearing a coat of words. I am wearing a lanyard.",
+     "ru": "Он носит пальто из слов. Я ношу шнурок.",
+     "delivery": "wry and tired, a joke with a sting in it",
+     "place": {
+      "x": 0.02,
+      "y": 0.17,
+      "w": 0.55,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "center"
+    }
+   ],
+   "art": "Very dark close shot on Dan's face from slightly below, lit only by a cold pale glow from off-frame left, as if from a far phone screen: his eyes are wide behind the round glasses, mouth open, the lanyard tag dull on his chest. Everything else is black. At the very edge of the frame a tiny pale rectangle of light pulses once.",
+   "lines": [
+    {
+     "type": "narration",
+     "en": "Mom: Dan? Are you eating?",
+     "ru": "Мама: Дэн? Ты ешь?",
+     "delivery": "warm worried motherly voice through a small tinny phone speaker, real and close, tender",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.36,
+      "tail": "none"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Mom...",
+     "ru": "Мама...",
+     "delivery": "a whisper that breaks in the middle, hope and grief together",
+     "place": {
+      "x": 0.68,
+      "y": 0.6,
+      "w": 0.3,
+      "tail": "up-left"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Missed calls: 14.",
+     "ru": "Пропущенные звонки: 14.",
+     "delivery": "flat cold game-system announcement, quietly ominous",
+     "place": {
+      "x": 0.02,
+      "y": 0.88,
+      "w": 0.4,
+      "tail": "none"
+     }
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "Present Continuous: вопросы и «не» + Rule и Now",
+  "body": "Вопрос: переставь be вперёд. You are doing it. → What are you doing? Is he looking at me? «Не»: добавь not после be. I am not running. He is not looking at me. А теперь главное: привычка и «сейчас». Present Simple (always, never, every day) — это привычка, правило: He always attacks first. Present Continuous — то, что происходит в эту секунду: He is not attacking. He is looking at the crowd. Дэн побеждает не тем, что знает о Руке вообще, а тем, что видит в данный момент.",
+  "examples": [
+   {
+    "en": "He always attacks first.",
+    "ru": "Он всегда бьёт первым."
+   },
+   {
+    "en": "He is not looking at me.",
+    "ru": "Он не смотрит на меня."
+   },
+   {
+    "en": "What are you doing?",
+    "ru": "Что ты делаешь?"
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Что Мира говорит о Руке до дуэли?",
+   "options": [
+    "Он всегда бьёт первым и никогда не ждёт",
+    "Он боится толпы",
+    "Он добрый и честный",
+    "Он ничего не покупает"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "На что смотрит Рук в начале дуэли, по словам Дэна?",
+   "options": [
+    "На Дэна",
+    "На телефон",
+    "На толпу",
+    "На Линию"
+   ],
+   "answer": 2
+  },
+  {
+   "q": "Что Дэн теряет в проигранной ставке?",
+   "options": [
+    "Очки",
+    "Шнурок",
+    "Карандаш",
+    "Слово PUSH"
+   ],
+   "answer": 3
+  },
+  {
+   "q": "Что происходит со значком Дэна, когда его Count падает до 99?",
+   "options": [
+    "Он вспыхивает ярче",
+    "Он гаснет, и Rank становится WORD",
+    "Он взрывается",
+    "Он переходит к Руку"
+   ],
+   "answer": 1
+  }
+ ]
+}

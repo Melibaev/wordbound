@@ -24,8 +24,14 @@
   "s1e09": true,
   "s1e10": true,
   "s1e11": true,
-  "s1e12": true
+  "s1e12": true,
+  "s2e01": true,
+  "s2e02": true,
+  "s2e03": true,
+  "s2e04": true,
+  "s2e05": true,
+  "s2e06": true
  },
- "version": 16,
+ "version": 35,
  "words": true
 }

@@ -1,0 +1,627 @@
+{
+ "episode": "s2e05",
+ "unlocks": "s2e06",
+ "title": "I Would Like a Name",
+ "titleRu": "Я бы хотел имя",
+ "trials": [
+  {
+   "id": "s2e05-t1",
+   "title": "Be Polite",
+   "titleRu": "Будь вежлив",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Ask. Be polite.",
+       "ru": "ЗАДАНИЕ: Проси. Будь вежлив."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "thorn",
+      "en": "Polite, dear. Say please.",
+      "ru": "Вежливо, дорогой. Скажи please."
+     },
+     {
+      "who": "dan",
+      "en": "Could I? Would I? I try.",
+      "ru": "Могу ли я? Хотел бы я? Пробую."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "soup",
+      "en": "Sit. Eat. I cook for you.",
+      "ru": "Садись. Ешь. Я варю для тебя."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Would you like some soup?",
+     "voice": "narration",
+     "delivery": "tired gentle old cook, soft, a little proud",
+     "options": [
+      "Would you like some soup?",
+      "Do you like soup?",
+      "Would you like some bread?"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Some soup. Yes, please.",
+      "ru": "Немного супа. Да, пожалуйста."
+     },
+     "fail": {
+      "who": "soup",
+      "en": "Would you like some soup?",
+      "ru": "Хочешь супа?"
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "thorn",
+      "en": "Say it with a polite word.",
+      "ru": "Скажи вежливым словом."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "___ you like some soup?",
+     "options": [
+      "Would",
+      "Do",
+      "Are"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "thorn",
+      "en": "Would. Yes.",
+      "ru": "Would. Да."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Would you LIKE. Polite.",
+      "ru": "Would you LIKE. Вежливо."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "thorn",
+      "en": "Which one is polite?",
+      "ru": "Какое вежливое?"
+     },
+     "prompt": {
+      "en": "What is the right sentence?",
+      "ru": "Какая фраза верная?"
+     },
+     "options": [
+      "Could I have a pass, please?",
+      "Give me a pass.",
+      "I have a pass."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "thorn",
+      "en": "Polite. Good, dear.",
+      "ru": "Вежливо. Хорошо, дорогой."
+     },
+     "fail": {
+      "who": "thorn",
+      "en": "'Could' and 'please', dear.",
+      "ru": "«Could» и «please», дорогой."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "A very big bowl.",
+      "ru": "Очень большую миску."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери фразу: «Я бы хотел большую миску»."
+     },
+     "answer": "I would like a big bowl",
+     "distractors": [
+      "likes",
+      "am"
+     ],
+     "success": {
+      "who": "soup",
+      "en": "A big bowl. Yes.",
+      "ru": "Большую миску. Да."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "I would like a big bowl.",
+      "ru": "I would like a big bowl."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "thorn",
+      "en": "Now the pass. Ask it right.",
+      "ru": "Теперь пропуск. Проси правильно."
+     },
+     "prompt": {
+      "en": "Write it in English.",
+      "ru": "Напиши: «Можно мне пропуск, пожалуйста?»"
+     },
+     "answer": "Could I have a pass, please",
+     "accept": [
+      "could i have a pass please"
+     ],
+     "success": {
+      "who": "pip",
+      "en": "That sounds expensive. I love it.",
+      "ru": "Звучит дорого. Обожаю."
+     },
+     "fail": {
+      "who": "thorn",
+      "en": "Could I have a pass, please.",
+      "ru": "Could I have a pass, please."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Please is a key. It is soft.",
+       "ru": "Please — это ключ. Он мягкий."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "pip",
+      "en": "Say please. Say it again. Please is cheap.",
+      "ru": "Скажи please. Скажи ещё раз. Please — дёшево."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2e05-t2",
+   "title": "The Water Lift",
+   "titleRu": "Водяной лифт",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Choose a job.",
+       "ru": "ЗАДАНИЕ: Выбери работу."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "pip",
+      "en": "Take the lift job! I love money!",
+      "ru": "Бери работу с лифтом! Я люблю деньги!"
+     },
+     {
+      "who": "dan",
+      "en": "I hate carrying. I like repairing.",
+      "ru": "Ненавижу таскать. Люблю чинить."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "choose",
+     "story": {
+      "who": "mira",
+      "en": "What does Dan like?",
+      "ru": "Что любит Дэн?"
+     },
+     "prompt": {
+      "en": "What is the answer?",
+      "ru": "Что любит Дэн?"
+     },
+     "options": [
+      "He likes repairing.",
+      "He likes carrying.",
+      "He hates repairing."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Repairing. Yes.",
+      "ru": "Чинить. Да."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "I hate carrying.",
+      "ru": "Ненавижу таскать."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "Pip loves one thing.",
+      "ru": "Пип любит одно."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "Pip ___ money.",
+     "options": [
+      "loves",
+      "love",
+      "loving"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "pip",
+      "en": "Money. Yes!",
+      "ru": "Деньги. Да!"
+     },
+     "fail": {
+      "who": "system",
+      "en": "Pip LOVES. Not 'Pip love'.",
+      "ru": "Pip LOVES. Не «Pip love»."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "narration",
+      "en": "Говорит Доска работ.",
+      "ru": "Говорит Доска работ."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Repair the water lift. Pay forty.",
+     "voice": "system",
+     "delivery": "flat dry machine voice, exact, no feeling",
+     "options": [
+      "Repair the water lift. Pay forty.",
+      "Carry the sacks. Pay two.",
+      "Repair the water lift. Pay four."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Repair the lift. Pay forty.",
+      "ru": "Починить лифт. Плата сорок."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Repair the lift.",
+      "ru": "Repair the lift."
+     }
+    },
+    {
+     "type": "match",
+     "story": {
+      "who": "mira",
+      "en": "Four words for the lift.",
+      "ru": "Четыре слова про лифт."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Соедини слово и перевод."
+     },
+     "pairs": [
+      [
+       "lift",
+       "подъёмник"
+      ],
+      [
+       "repair",
+       "чинить"
+      ],
+      [
+       "job",
+       "работа"
+      ],
+      [
+       "sign",
+       "подписывать"
+      ]
+     ],
+     "success": {
+      "who": "mira",
+      "en": "Good. Go up.",
+      "ru": "Хорошо. Иди наверх."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Slow, Zero. Again.",
+      "ru": "Медленно, Зеро. Ещё раз."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "Hob does not like a rude boy.",
+      "ru": "Хоб не любит грубых мальчишек."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери фразу: «Можно мне посмотреть на лифт, пожалуйста?»"
+     },
+     "answer": "Could I see the lift please",
+     "distractors": [
+      "would",
+      "like"
+     ],
+     "success": {
+      "who": "hob",
+      "en": "...Hm. Polite. Come.",
+      "ru": "...Хм. Вежливый. Иди."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Could I see the lift, please.",
+      "ru": "Could I see the lift, please."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "mira",
+      "en": "Say what you like. Short.",
+      "ru": "Скажи, что ты любишь. Коротко."
+     },
+     "prompt": {
+      "en": "Write it in English.",
+      "ru": "Напиши: «Я люблю чинить»."
+     },
+     "answer": "I like repairing",
+     "accept": [
+      "i love repairing"
+     ],
+     "success": {
+      "who": "hob",
+      "en": "Good job.",
+      "ru": "Хорошая работа."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "I like repairing.",
+      "ru": "I like repairing."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "A lift moves water. Water moves the Gutter.",
+       "ru": "Лифт качает воду. Вода питает Канаву."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "hob",
+      "en": "Nobody touches my lift. You can.",
+      "ru": "Никто не трогает мой лифт. Ты можешь."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2e05-t3",
+   "title": "Sign Here",
+   "titleRu": "Подпиши здесь",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Enter the Proof.",
+       "ru": "ЗАДАНИЕ: Войди в Испытание."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "clerk",
+      "en": "Name?",
+      "ru": "Имя?"
+     },
+     {
+      "who": "dan",
+      "en": "Dan. I would like to enter the Proof.",
+      "ru": "Дэн. Я хотел бы войти в Proof."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "fill",
+     "story": {
+      "who": "clerk",
+      "en": "Would you like ___ sign?",
+      "ru": "Хотите подписать?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "Would you like ___ sign?",
+     "options": [
+      "to",
+      "for",
+      "at"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "clerk",
+      "en": "To sign. Yes.",
+      "ru": "Подписать. Да."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Would you like TO sign.",
+      "ru": "Would you like TO sign."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "clerk",
+      "en": "Pen. Paper. Fast.",
+      "ru": "Ручка. Бумага. Быстро."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Sign here, please.",
+     "voice": "narration",
+     "delivery": "bored dry clerk, no eye contact, flat",
+     "options": [
+      "Sign here, please.",
+      "Sit here, please.",
+      "Sign it later, please."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Sign here. OK.",
+      "ru": "Подпиши здесь. Ясно."
+     },
+     "fail": {
+      "who": "clerk",
+      "en": "Sign here. Here.",
+      "ru": "Подпиши здесь. Здесь."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "I want to see the list.",
+      "ru": "Я хочу увидеть список."
+     },
+     "prompt": {
+      "en": "What is the right sentence?",
+      "ru": "Какая фраза верная?"
+     },
+     "options": [
+      "Could I see the list, please?",
+      "Show me the list.",
+      "I see the list."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "clerk",
+      "en": "Polite. Hm.",
+      "ru": "Вежливо. Хм."
+     },
+     "fail": {
+      "who": "thorn",
+      "en": "'Could' and 'please', dear.",
+      "ru": "«Could» и «please», дорогой."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "Say it for the clerk.",
+      "ru": "Скажи клерку."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери фразу: «Я хотел бы войти, пожалуйста»."
+     },
+     "answer": "I would like to enter please",
+     "distractors": [
+      "could",
+      "hate"
+     ],
+     "success": {
+      "who": "clerk",
+      "en": "Hm. Polite.",
+      "ru": "Хм. Вежливый."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "I would like to enter, please.",
+      "ru": "I would like to enter, please."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "mira",
+      "en": "Say what you hate. For me.",
+      "ru": "Скажи, что ты ненавидишь. Для меня."
+     },
+     "prompt": {
+      "en": "Write it in English.",
+      "ru": "Напиши: «Я ненавижу таскать»."
+     },
+     "answer": "I hate carrying",
+     "accept": [
+      "i hate carry"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "Same. I hate it.",
+      "ru": "Так же. Я тоже."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "I hate carrying.",
+      "ru": "I hate carrying."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Every name on the list has a hand.",
+       "ru": "За каждым именем в списке — рука."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Go. Ask them. Be polite.",
+      "ru": "Иди. Попроси их. Будь вежлив."
+     }
+    ]
+   }
+  }
+ ]
+}

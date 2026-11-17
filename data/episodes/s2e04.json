@@ -1,0 +1,928 @@
+{
+ "id": "s2e04",
+ "title": "The Red Pen",
+ "titleRu": "Красная ручка",
+ "level": "A1",
+ "newWords": [
+  "teacher",
+  "lesson",
+  "mistake",
+  "correct",
+  "pen",
+  "mine",
+  "yours",
+  "whose",
+  "belong",
+  "thread"
+ ],
+ "panels": [
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "thorn",
+     "pos": "center"
+    },
+    {
+     "id": "soup",
+     "pos": "right"
+    }
+   ],
+   "art": "Low-angle wide shot from inside the kitchen looking at the doorway, strong rim light from the morning door, hard cel shadows. Miss Thorn stands small and upright in the doorway at the CENTRE, cane hooked on her LEFT forearm, the slim pen held like a baton, a bead of vermilion ink at its nib. Dan at the LEFT with a half-eaten bowl, glasses crooked, staring. Soup at the RIGHT stirring the huge pot, unbothered. On the wall behind Dan three vermilion circles around scribbled marks.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Утро. На стене три красные пометки — а в дверях маленькая седая женщина. Красного на ней нет, только капля туши на кончике ручки."
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Good morning. I am Miss Thorn, a teacher. I hate mistakes.",
+     "ru": "Доброе утро. Я мисс Торн, учительница. Я ненавижу ошибки.",
+     "delivery": "crisp precise voice of a very old teacher, calm and dry, never raised",
+     "place": {
+      "x": 0.03,
+      "y": 0.03,
+      "w": 0.4,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Whose wall is this, dear?",
+     "ru": "Чья это стена, дорогой?",
+     "delivery": "sweetly firm, a quiet command wrapped in politeness",
+     "place": {
+      "x": 0.6,
+      "y": 0.03,
+      "w": 0.37,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "thorn",
+     "pos": "center"
+    },
+    {
+     "id": "soup",
+     "pos": "right"
+    }
+   ],
+   "art": "Comic medium over-the-shoulder shot from behind Thorn, wide lens, sharp cel shadows. Thorn at the CENTRE foreground (back three-quarter) points the pen at the wall. Dan at the LEFT scratches his head with his RIGHT hand, a bowl in his left. Soup at the RIGHT pats the wall proudly with one big hand.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "It is Soup's wall.",
+     "ru": "Это стена Супа.",
+     "delivery": "dutiful, like a pupil called to the board",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.3,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Correct. And whose writing is that? Yours?",
+     "ru": "Верно. А чьё это письмо? Твоё?",
+     "delivery": "crisp precise voice of a very old teacher, calm and dry, never raised",
+     "place": {
+      "x": 0.36,
+      "y": 0.03,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "It is mine. Three mistakes, I know.",
+     "ru": "Моё. Три ошибки, знаю.",
+     "delivery": "embarrassed, small voice, shy",
+     "place": {
+      "x": 0.22,
+      "y": 0.9,
+      "w": 0.5,
+      "tail": "up-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "action",
+   "sfx": "SWISH",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "thorn",
+     "pos": "center"
+    }
+   ],
+   "art": "Dynamic close dramatic shot, low angle, swirling glowing effect, deep blacks and vermilion light. Thorn's pen at the CENTRE flicks through the air; the three mistaken scribbles lift off the wall as vermilion glow-shapes and rearrange themselves into neat abstract lines. Dan at the LEFT leans back with his mouth open, both hands up, a bowl rattling.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Three mistakes. Read it, Dan. Slowly.",
+     "ru": "Три ошибки. Читай, Дэн. Медленно.",
+     "delivery": "crisp precise voice of a very old teacher, calm and dry, never raised",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.34,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Thank you for the soup. It is very hot. I eat a lot of soup.",
+     "ru": "Спасибо за суп. Он очень горячий. Я ем много супа.",
+     "delivery": "reading aloud carefully, proud and a little shy",
+     "place": {
+      "x": 0.02,
+      "y": 0.14,
+      "w": 0.36,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Now it is correct. That is the lesson.",
+     "ru": "Теперь правильно. В этом и урок.",
+     "delivery": "crisp precise voice of a very old teacher, calm and dry, never raised",
+     "place": {
+      "x": 0.4,
+      "y": 0.87,
+      "w": 0.55,
+      "tail": "up-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "pip",
+     "pos": "left"
+    },
+    {
+     "id": "thorn",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Comic medium shot, slight low angle, wide lens. Pip at the LEFT hugs his oversized cap on his head with both hands, grinning nervously. Thorn at the CENTRE holds her pen out of Pip's reach, eyebrow raised. Mira at the RIGHT leans against the table, arms crossed, red cord on her LEFT wrist, almost smiling.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Whose cap is this?",
+     "ru": "Чья это кепка?",
+     "delivery": "crisp precise voice of a very old teacher, calm and dry, never raised",
+     "place": {
+      "x": 0.3,
+      "y": 0.03,
+      "w": 0.36,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "It is mine. Pip's cap! Pip's coat! Pip's pen?",
+     "ru": "Она моя. Кепка Пипа! Пальто Пипа! Ручка Пипа?",
+     "delivery": "fast and cheeky, trying his luck at the end",
+     "place": {
+      "x": 0.02,
+      "y": 0.14,
+      "w": 0.42,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "That pen belongs to me, dear. I do not sell it.",
+     "ru": "Эта ручка принадлежит мне, дорогой. Я её не продаю.",
+     "delivery": "calm, dry, final",
+     "place": {
+      "x": 0.5,
+      "y": 0.17,
+      "w": 0.46,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "left"
+    },
+    {
+     "id": "thorn",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Tense two-sided shot, eye level, Mira sharply lit from the side. Mira at the LEFT steps forward, one hand on the scarf bundle at her side, cord on her LEFT wrist. Thorn at the CENTRE calm, pen lowered. Dan at the RIGHT raises his hand like a student.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Why are you here, teacher?",
+     "ru": "Зачем вы здесь, учительница?",
+     "delivery": "deadpan, low, suspicious",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.36,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "The Gutter says a Zero teaches words. A teacher goes where words are.",
+     "ru": "В Gutter говорят, что Зеро учит словам. Учитель идёт туда, где слова.",
+     "delivery": "crisp precise voice of a very old teacher, calm and dry, never raised",
+     "place": {
+      "x": 0.42,
+      "y": 0.03,
+      "w": 0.56,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Lesson one. Whose, mine, yours.",
+     "ru": "Урок первый. Чей, мой, твой.",
+     "delivery": "crisp precise voice of a very old teacher, calm and dry, never raised",
+     "place": {
+      "x": 0.4,
+      "y": 0.78,
+      "w": 0.3,
+      "tail": "up-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "thorn",
+     "pos": "right"
+    }
+   ],
+   "art": "Close two-shot over the table, shallow depth, glowing detail effect. Thorn at the RIGHT touches the nib of her pen to the yellow pencil that Dan holds in his RIGHT hand at the LEFT. A thin vermilion thread springs from the pencil and loops back to Dan's ear, glowing. Dan stares at it cross-eyed, glasses reflecting red.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Say it true. Whose pencil is this?",
+     "ru": "Скажи правду. Чей это карандаш?",
+     "delivery": "crisp precise voice of a very old teacher, calm and dry, never raised",
+     "place": {
+      "x": 0.45,
+      "y": 0.02,
+      "w": 0.52,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "It is mine. The pen makes a red thread!",
+     "ru": "Он мой. Ручка рисует красную нить!",
+     "delivery": "amazed, whispering, staring at the glowing red thread",
+     "place": {
+      "x": 0.02,
+      "y": 0.1,
+      "w": 0.4,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "The pencil is yours. The thread goes home.",
+     "ru": "Карандаш твой. Нить идёт домой.",
+     "delivery": "crisp precise voice of a very old teacher, calm and dry, never raised",
+     "place": {
+      "x": 0.5,
+      "y": 0.11,
+      "w": 0.46,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "TRACE is yours now. Count: 120.",
+     "ru": "TRACE теперь твой. Счёт: 120.",
+     "delivery": "flat cold game-system announcement with a dry hint of mockery",
+     "place": {
+      "x": 0.2,
+      "y": 0.88,
+      "w": 0.6,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "left"
+    },
+    {
+     "id": "thorn",
+     "pos": "center"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "Comic medium shot, slightly high angle, wide lens. Mira at the LEFT holds out her scarf; Thorn at the CENTRE lightly points her pen at the bundle under it. On the RIGHT the small scarf-covered shape of Lina (a bundle with only a tiny red cord peeking, no face) sits on the bench. A thin red thread runs from the pen to the bundle.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Whose scarf is that? And whose hat hums?",
+     "ru": "Чей это шарф? И чья шляпа гудит?",
+     "delivery": "crisp precise voice of a very old teacher, calm and dry, never raised",
+     "place": {
+      "x": 0.3,
+      "y": 0.03,
+      "w": 0.45,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Mine. The scarf and the hat.",
+     "ru": "Мой. И шляпа тоже моя.",
+     "delivery": "deadpan, fast, hiding something",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.27,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "Mine.",
+     "ru": "Моя.",
+     "delivery": "tiny soft echo voice, shy",
+     "place": {
+      "x": 0.68,
+      "y": 0.86,
+      "w": 0.22,
+      "tail": "up-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "action",
+   "sfx": "THUD",
+   "cast": [
+    {
+     "id": "hunter",
+     "pos": "left"
+    },
+    {
+     "id": "ruk",
+     "pos": "center"
+    }
+   ],
+   "art": "Dramatic low-angle wide shot from the floor of the canyon, extreme perspective upward, hard rim light and deep blacks. Ropes drop from the crack high above; two masked hunters slide down them at the LEFT, lanterns swinging. Ruk Marl at the CENTRE lands with a smooth step in the middle of the Gutter lane, ledger under his LEFT arm, brass badges glowing vermilion. Gutter people scatter between tents.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "Zero. Come out. Bet again.",
+     "ru": "Зеро. Выходи. Ставь снова.",
+     "delivery": "single heavy words, bored and cold",
+     "place": {
+      "x": 0.04,
+      "y": 0.04,
+      "w": 0.5,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "ruk",
+     "pos": "right"
+    }
+   ],
+   "art": "Tense frontal shot, dutch angle, long shadows. Dan at the LEFT steps into the lane with his RIGHT hand raised, empty. Ruk at the RIGHT stands behind a shimmering brass pane of light (his SHIELD) with a thin smile. From one brass badge on Ruk's chest a vermilion thread springs and shoots away down the lane. Mira behind Dan, hand on his shoulder.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Whose shield is that?",
+     "ru": "Чей это щит?",
+     "delivery": "quiet, careful, like asking a real question",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "Mine. Cheap.",
+     "ru": "Мой. Дёшево.",
+     "delivery": "dry contempt, chin raised, single heavy words",
+     "place": {
+      "x": 0.6,
+      "y": 0.06,
+      "w": 0.37,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "True. Trace.",
+     "ru": "Верно. След.",
+     "delivery": "flat cold game-system announcement with a dry hint of mockery",
+     "place": {
+      "x": 0.15,
+      "y": 0.9,
+      "w": 0.5,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "action",
+   "sfx": "WHOOSH",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "pip",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Dynamic chase shot, wide lens from the front, speed lines, motion blur at the edges, rope walkways crossing in depth. Dan at the CENTRE sprints across a swinging rope walkway, arms pumping, eyes on a glowing vermilion thread floating ahead. Pip at the LEFT leaps ahead on another walkway. Mira at the RIGHT runs on the rail with perfect balance. Behind them, a hunter swings a weighted rope.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "The thread goes left! Left!",
+     "ru": "Нить идёт влево! Влево!",
+     "delivery": "fast, thrilled, running like it is a game",
+     "place": {
+      "x": 0.03,
+      "y": 0.04,
+      "w": 0.34,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am running! I am following a thread!",
+     "ru": "Я бегу! Я иду за нитью!",
+     "delivery": "breathless, panicked and self-mocking",
+     "place": {
+      "x": 0.6,
+      "y": 0.05,
+      "w": 0.37,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "oldman",
+     "pos": "right"
+    }
+   ],
+   "art": "Quiet low-key medium shot, eye level, thread glowing as the only light. In a hollow under the columns the old man (the Index sweeper, long brush leaning on the wall) sits at the RIGHT beside a cold kettle. The red thread ends at his empty RIGHT hand, wrapped around his finger. Dan at the LEFT kneels, out of breath, glasses fogged.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Old man from the board! Is the shield yours?",
+     "ru": "Старик от доски! Щит твой?",
+     "delivery": "gentle, surprised, kneeling down carefully",
+     "place": {
+      "x": 0.05,
+      "y": 0.04,
+      "w": 0.5,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "oldman",
+     "en": "It is mine. It is my... my...",
+     "ru": "Он мой. Это моё... моё...",
+     "delivery": "an old man searching for a word that will not come",
+     "place": {
+      "x": 0.55,
+      "y": 0.28,
+      "w": 0.4,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Слово «щит» у старика стёрлось. Оно уже давно висит на чёрном пальто Рука — и старик не может его даже назвать."
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "action",
+   "sfx": "CLANG",
+   "cast": [
+    {
+     "id": "ruk",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "oldman",
+     "pos": "right"
+    }
+   ],
+   "art": "Dramatic dutch-angle action shot from below, a glowing brass wall of light fills the frame, hard shadows. Ruk at the CENTRE stands on a rope bridge above, one hand open, a huge brass SHIELD of light blazing in front of him, hunters beside him. Below at the LEFT Dan shields the old man at the RIGHT with an arm, the red thread tight between the old man's finger and Ruk's coat, glowing.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "Mine. All of it. Everything on this coat is mine.",
+     "ru": "Моё. Всё. Всё на этом пальто моё.",
+     "delivery": "single heavy words, loud, cold fury",
+     "place": {
+      "x": 0.05,
+      "y": 0.03,
+      "w": 0.5,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "oldman",
+     "en": "The shield belongs to me!",
+     "ru": "Щит принадлежит мне!",
+     "delivery": "trembling but firm, the first time he says it",
+     "place": {
+      "x": 0.62,
+      "y": 0.14,
+      "w": 0.35,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "action",
+   "sfx": "CRACK",
+   "cast": [
+    {
+     "id": "thorn",
+     "pos": "center"
+    },
+    {
+     "id": "ruk",
+     "pos": "right"
+    }
+   ],
+   "art": "Extreme dramatic low angle, cinematic cel-shaded freeze frame, deep blacks, vermilion glow, cracked glass effect. Thorn at the CENTRE foreground slashes the pen across the air in one line; the brass shield pane at the RIGHT in front of Ruk splits in a spider web of cracks, brass shards flying. Ruk recoils half a step, one hand lifted. Thorn's clothes stay dove-grey.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Not true. Correction.",
+     "ru": "Неправда. Исправление.",
+     "delivery": "flat cold game-system announcement with a dry hint of mockery",
+     "place": {
+      "x": 0.2,
+      "y": 0.03,
+      "w": 0.5,
+      "tail": "none"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "The coat is Ruk's. The words belong to others. Lesson two.",
+     "ru": "Пальто — Рука. Слова принадлежат другим. Урок второй.",
+     "delivery": "crisp precise voice of a very old teacher, calm and dry, never raised",
+     "place": {
+      "x": 0.02,
+      "y": 0.18,
+      "w": 0.36,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "ruk",
+     "pos": "left"
+    },
+    {
+     "id": "thorn",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide tense shot of the lane, eye level, lanterns of watching Gutter people in the background. Ruk at the LEFT turns away stiffly, jaw tight, one brass badge on his coat gone dark; the hunters back off. Thorn at the CENTRE lowers her pen. Dan at the RIGHT, panting, holds the old man by the elbow. Gutter people watch silently from tent doors.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Miss Thorn, why are you not at the top?",
+     "ru": "Мисс Торн, почему вы не наверху?",
+     "delivery": "genuinely curious, a little too bold for a guest",
+     "place": {
+      "x": 0.55,
+      "y": 0.12,
+      "w": 0.4,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "I have my reasons, dear. Next sentence.",
+     "ru": "У меня свои причины, дорогой. Следующая фраза.",
+     "delivery": "crisp precise voice of a very old teacher, calm and dry, never raised",
+     "place": {
+      "x": 0.3,
+      "y": 0.3,
+      "w": 0.36,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Count: 124.",
+     "ru": "Счёт: 124.",
+     "delivery": "flat cold game-system announcement with a dry hint of mockery",
+     "place": {
+      "x": 0.38,
+      "y": 0.92,
+      "w": 0.3,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": "BANG",
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Over-the-shoulder shot of a column wall, a sheet pinned to the stone, eye level. A hunter hammers a sheet of paper onto a stone column in the background as he leaves; the sheet carries only abstract ornament and blank lines, no letters. Mira at the LEFT stares at it, hand on the scarf bundle at her side. Dan at the RIGHT turns his head.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Auction. Lot seven: a child's name. Seven days.",
+     "ru": "Аукцион. Лот семь: имя ребёнка. Семь дней.",
+     "delivery": "flat cold game-system announcement with a dry hint of mockery",
+     "place": {
+      "x": 0.52,
+      "y": 0.03,
+      "w": 0.46,
+      "tail": "none"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Whose name is this?",
+     "ru": "Чьё это имя?",
+     "delivery": "quiet, afraid of the answer",
+     "place": {
+      "x": 0.45,
+      "y": 0.28,
+      "w": 0.32,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "left"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "Very dark close shot, dramatic low light, the thread is the only light. A red thread leaps from the pinned sheet and crosses the whole frame to the scarf bundle at the RIGHT, where a tiny red cord peeks out. Mira at the LEFT, half in shadow, looks at the bundle, eyes wide. The bundle hums. No face visible on the bundle.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "The thread ends at Lina.",
+     "ru": "Нить кончается у Лины.",
+     "delivery": "flat cold game-system announcement with a dry hint of mockery",
+     "place": {
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.6,
+      "tail": "none"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Seven days.",
+     "ru": "Семь дней.",
+     "delivery": "barely audible, flat, cracking at the end",
+     "place": {
+      "x": 0.55,
+      "y": 0.17,
+      "w": 0.35,
+      "tail": "down-left"
+     }
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "'s и whose: чей? мой, твой",
+  "body": "'s показывает хозяина: Soup's wall — стена Супа, Dan's pencil — карандаш Дэна. Whose... ? значит «чей?»: Whose cap is this? Ответ: It is mine (мой) или It is yours (твой). Mine и yours стоят отдельно, без существительного: The pencil is mine. Глагол belong to значит «принадлежать»: It belongs to me. Не путай whose [хуз] и who's [хуз] = who is: звучат одинаково, пишутся по-разному. В мире Башни Trace работает так: правдиво спроси, чьё слово, — и красная нить приведёт к хозяину.",
+  "examples": [
+   {
+    "en": "It is Soup's wall.",
+    "ru": "Это стена Супа."
+   },
+   {
+    "en": "Whose cap is this?",
+    "ru": "Чья это кепка?"
+   },
+   {
+    "en": "It belongs to me, dear.",
+    "ru": "Она принадлежит мне, дорогой."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Что нашла красная ручка мисс Торн в благодарности Дэна на стене?",
+   "options": [
+    "Три ошибки в его благодарности",
+    "Секретную дверь",
+    "Чужой почерк Руха",
+    "Карту Gutter"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "К кому привела нить от щита Рука?",
+   "options": [
+    "К Пипу",
+    "К старику, подметающему доску",
+    "К Мире",
+    "К Супу"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Что сделала мисс Торн с фразой Рука «Everything on this coat is mine»?",
+   "options": [
+    "Объяснила её Руку",
+    "Прочитала вслух",
+    "Сломала как неправду, и щит треснул",
+    "Записала на стену"
+   ],
+   "answer": 2
+  },
+  {
+   "q": "Чьё имя показала нить с афиши аукциона?",
+   "options": [
+    "Пипа",
+    "Лины",
+    "Супа",
+    "Дэна"
+   ],
+   "answer": 1
+  }
+ ]
+}

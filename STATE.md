@@ -1,6 +1,6 @@
 # STATE — where WORDBOUND stands (update at the end of every work block)
 
-_Last update: 2026-11-17_
+_Last update: 2026-11-17 (night, S2 first half)_
 
 ## Done
 - **Season 1 complete:** s1e01–s1e12 written (story by Fable foundation → Sonnet writers), illustrated in Google Flow (old soft style, Nano Banana 2.1), expressive Chatterbox voice-over for all dialogue (Whisper-checked), 1–3 looping videos per episode, published.
@@ -24,7 +24,21 @@ _Last update: 2026-11-17_
 - **flow-mcp (`C:\Users\Laptop\flow-mcp`) fixed by Opus 5.5** (report `story/audit/flow-speed.md`): fresh-tile detection by grid position, retry downloads instead of redrawing, honest "rendering" counter + 75 s start watchdog, Save click, video pipeline (`FLOW_MCP_PIPELINE=1`: all videos in one call). Start the core with `bash tools/start_flow_core.sh` (short pauses, pipeline on). The Flow Chrome window needs the user's VPN extension (Flow is geo-blocked: `unsupported-country` otherwise).
 - **Remote status page:** `tools/status_server.py` + `tools/status_tunnel.sh` (self-healing ssh tunnel via localhost.run; current host published to git branch `status-url`; entry page `status.html#k=<key>` on GitHub Pages). Stop them when not needed.
 
-## Next (in order)
+## Block 4 (2026-11-17 night) — Season 2 first half s2e01–s2e06 produced
+- **Plan:** `story/S2-PLAN-A.md` (overrides seasons-2-4.md for E1–E6): Keeper epilogue + "mom" voice from Tower in E1, Nad slips in, rank fix (Count 112 -> "The Index is slow"; board updates at the Proof, E7), MC 12 -> 13 (E1) -> 14 (E2), word order per curriculum, readable text only via System/narration.
+- **Written (Sonnet agents):** s2e01 Margin, s2e02 The Auditor's Son, s2e03 Soup, s2e04 The Red Pen, s2e05 I Would Like a Name, s2e06 The Clock District (14–16 panels each), trials for all six (3x ~16 steps), voice-over (Chatterbox), `place` bubbles (screenshot-verified), art in style **v1** (16/16/16/16/14/14 panels), 1 video each (+scene audio, big clips compressed). New characters in visual.json: ruk, soup, thorn, herald, oldman, citizen, hunter, clerk, hob, odessa.
+- **New v1 references:** `~/flow-mcp-out/_cast/{DanV,MiraV,SilentV,KeeperV,PipV,LinaV,RukV,ThorneV,SoupV,OdessaV}.jpeg`, attached as files (`flow_batch.py: CAST_V/_ref_image`; do not register as Flow characters — flaky). **Mira redesigned on the owner's request**: old face, curvier figure, crop top + short jacket (visual.json `mira`). Lina (14) is never to be sexualised.
+- **Old trial text fixed** because S2 introduces words: stand/poor/yours/mine/job/pay/today replaced in s1e01–s1e08 trials (audio of changed lines regenerated).
+- **flow-mcp patches:** waitForURL `commit` + direct `/character` fallback in character creation (src/flow.ts). Core restarted with `bash tools/start_flow_core.sh`.
+- **Process lessons** are in CLAUDE.md ("Как делать серию быстро"). Defects list: `story/audit/s2-defects.md`.
+- **Known leftovers:** some art defects may remain (see reader reviews `story/reviews/s2e0*.md`); s2e06 trials `unlocks` = 's3e01' until s2e07 exists (change it when s2e07 is added); s2e06 p14 may still have black bars; Flow agent batches fail ~35% on first try.
+
+## Next (updated)
+1. Apply reader fixes for s2e01–06 (scores in story/reviews), then write s2e07–s2e12 (midpoint = s2e07 "The Proof"), same pipeline; fix s2e06 `unlocks`.
+2. Fix list from the s1 reviews (still open): s1e06, s1e12 items; reader pass on the other s1 episodes.
+3. Trials: "watch & understand" task type.
+
+## Old Next (before block 4)
 1. **Fix list from the two reviews** (cheap first): s1e06 p14 pencil behind LEFT ear + diagonal stripes on lenses, p2 red-cream triangle under the System window, p4 shout text sizes; Mira's cord on RIGHT wrist in s1e12 p4,7,11 (+extra in p3) — the image model confuses left/right; s1e12 p11/p16 letter-like glyphs, p10/p15 too teal; s1e12 p2–8 static talking heads; Keeper's fate after p8; trial hint "18 words" vs 9-word answer (s1e12 t3); System line s1e12 13-02 too long for A1.
 2. Run the same reader pass on the other 9 episodes (s1e02–05, 07–11) and fix to ≥ 9.
 3. **Trials: "watch & understand" task type** (listen to the scene audio over the video, answer).

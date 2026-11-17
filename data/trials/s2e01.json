@@ -1,0 +1,638 @@
+{
+ "episode": "s2e01",
+ "unlocks": "s2e02",
+ "title": "Margin",
+ "titleRu": "Марджин",
+ "trials": [
+  {
+   "id": "s2e01-t1",
+   "title": "Say What They Do",
+   "titleRu": "Скажи, что они делают",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Say what they are doing.",
+       "ru": "ЗАДАНИЕ: Скажи, что они делают сейчас."
+      },
+      {
+       "en": "Walk. Look at nothing.",
+       "ru": "Иди. Ни на что не смотри."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Hat down. Walk, Zero. Say it slow.",
+      "ru": "Шляпа вниз. Иди, Зеро. Говори тихо."
+     },
+     {
+      "who": "dan",
+      "en": "OK. I am walking. I am looking at all of it.",
+      "ru": "Ладно. Я иду. Я смотрю на всё."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "A man is on the rope. He is pulling it.",
+      "ru": "Человек на верёвке. Он тянет её."
+     },
+     "prompt": {
+      "en": "What is he doing?",
+      "ru": "Что он делает сейчас?"
+     },
+     "options": [
+      "He is pulling the rope.",
+      "He is pull the rope.",
+      "He pulling the rope."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "True. Now say it slow.",
+      "ru": "Верно. Теперь скажи без шума."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "He is pulling. Not 'he pull'.",
+      "ru": "Он тянет. is + -ing."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "Look! A house is on the move!",
+      "ru": "Смотри! Дом куда-то едет!"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "A man is ___ a house!",
+     "options": [
+      "carrying",
+      "carry",
+      "carries"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Is carrying. Not 'is carry'.",
+      "ru": "Is carrying. Не «is carry»."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "mira",
+      "en": "Shh. Listen to the street.",
+      "ru": "Тсс. Слушай улицу."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "People are watching us.",
+     "voice": "mira",
+     "delivery": "low whisper, tense, almost no voice, looking around",
+     "options": [
+      "People are watching us.",
+      "People are walking us.",
+      "People are waiting here."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Yes. Quiet.",
+      "ru": "Да. Тихо."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "They are watching. Not walking.",
+      "ru": "Они смотрят. Не идут."
+     }
+    },
+    {
+     "type": "match",
+     "story": {
+      "who": "mira",
+      "en": "Four words for this place.",
+      "ru": "Четыре слова про это место."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Соедини слово и перевод."
+     },
+     "pairs": [
+      [
+       "city",
+       "город"
+      ],
+      [
+       "street",
+       "улица"
+      ],
+      [
+       "shop",
+       "магазин"
+      ],
+      [
+       "board",
+       "доска"
+      ]
+     ],
+     "success": {
+      "who": "mira",
+      "en": "Good. You know the street now.",
+      "ru": "Хорошо. Теперь ты знаешь улицу."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Slow, Zero. Slow.",
+      "ru": "Медленно, Зеро. Медленно."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "That man is running. Why?",
+      "ru": "Тот человек бежит. Почему?"
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери фразу Дэна: «Я смотрю на того человека»."
+     },
+     "answer": "I am watching that man",
+     "distractors": [
+      "watch",
+      "is"
+     ],
+     "success": {
+      "who": "system",
+      "en": "True. Now-sight.",
+      "ru": "Правда. Now-sight."
+     },
+     "fail": {
+      "who": "system",
+      "en": "True. Now-sight.",
+      "ru": "I am watching. am + -ing."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "dan",
+      "en": "And Lina? She is not moving.",
+      "ru": "А Лина? Она не двигается."
+     },
+     "prompt": {
+      "en": "Write it in English.",
+      "ru": "Напиши про Лину: «Она стоит»."
+     },
+     "answer": "She is standing",
+     "success": {
+      "who": "mira",
+      "en": "Yes. A very quiet hat.",
+      "ru": "Да. Очень тихая шляпа."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "She is standing. Not sitting.",
+      "ru": "Она стоит. Не сидит."
+     },
+     "accept": [
+      "she is standing still"
+     ]
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Margin is a city. Every street has ears.",
+       "ru": "Марджин — город. У каждой улицы есть уши."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Good. Nobody is looking at a hat.",
+      "ru": "Хорошо. На шляпу никто не смотрит."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2e01-t2",
+   "title": "The Board",
+   "titleRu": "Доска",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Read the board.",
+       "ru": "ЗАДАНИЕ: Прочитай доску."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Look at the top of the board. Nobody looks at the bottom.",
+      "ru": "Смотри на верх доски. На низ никто не смотрит."
+     },
+     {
+      "who": "dan",
+      "en": "I know. I am standing at the bottom.",
+      "ru": "Знаю. Я стою внизу."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "mira",
+      "en": "Say it back to me.",
+      "ru": "Повтори мне."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Nobody is looking at the bottom.",
+     "voice": "mira",
+     "delivery": "dry low voice, quiet, almost bored",
+     "options": [
+      "Nobody is looking at the bottom.",
+      "Nobody is looking at the top.",
+      "Everyone is looking at the bottom."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "True. They are all looking up.",
+      "ru": "Верно. Все смотрят вверх."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Bottom. Nobody. Listen again.",
+      "ru": "Низ. Никто. Послушай ещё."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "mira",
+      "en": "Where are you standing, Zero?",
+      "ru": "Где ты стоишь, Зеро?"
+     },
+     "prompt": {
+      "en": "What is the answer?",
+      "ru": "Что отвечает Дэн?"
+     },
+     "options": [
+      "I am standing at the bottom.",
+      "I am standing at the top.",
+      "I am sitting at home."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Last. But alive.",
+      "ru": "Последний. Но живой."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "The bottom. Of course.",
+      "ru": "Внизу. Конечно."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "Everyone in the street is looking.",
+      "ru": "Все на улице смотрят."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "The people ___ looking at the board.",
+     "options": [
+      "are",
+      "is",
+      "am"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "People are. Not 'people is'.",
+      "ru": "People are. Не «people is»."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "oldman",
+      "en": "Look. The lift. It is moving.",
+      "ru": "А, лифт. Посмотри на него."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери фразу: «Лифт несёт сорок человек»."
+     },
+     "answer": "The lift is carrying forty people",
+     "distractors": [
+      "carry",
+      "are"
+     ],
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "The lift is carrying. Not 'is carry'.",
+      "ru": "The lift is carrying. is + -ing."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "mira",
+      "en": "Three breaths. What is my word?",
+      "ru": "Три вздоха. Какое у меня слово?"
+     },
+     "prompt": {
+      "en": "Write it in English.",
+      "ru": "Напиши слово-силу, которым Мира держит лифт: «держи»."
+     },
+     "answer": "hold",
+     "success": {
+      "who": "system",
+      "en": "Word: HOLD. The lift is holding.",
+      "ru": "Слово: HOLD. Лифт держится."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "HOLD. Write it down.",
+      "ru": "HOLD. Запиши."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "The first line of the board is empty.",
+       "ru": "Первая строка доски пуста."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Empty. It is waiting for somebody.",
+      "ru": "Пусто. Она кого-то ждёт."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2e01-t3",
+   "title": "A Hundred Words",
+   "titleRu": "Сто слов",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "status",
+     "title": "STATUS",
+     "lines": [
+      {
+       "en": "Count: one hundred.",
+       "ru": "Счёт: сто."
+      },
+      {
+       "en": "Missed calls: 13.",
+       "ru": "Пропущенных звонков: 13."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "They are all looking at you, Zero.",
+      "ru": "Все смотрят на тебя, Зеро."
+     },
+     {
+      "who": "dan",
+      "en": "I am not Zero. I am a hat. Two hats.",
+      "ru": "Я не Зеро. Я шляпа. Две шляпы."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "narration",
+      "en": "A voice is calling in the street.",
+      "ru": "Голос зовёт на улице."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "The Ledger is paying five hundred words for Zero!",
+     "voice": "narration",
+     "delivery": "loud proud herald voice shouting in a crowded street, echoing",
+     "options": [
+      "The Ledger is paying five hundred words for Zero.",
+      "The Ledger is paying five words for Zero.",
+      "The Ledger is paying five hundred words for Dan."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Five hundred. That is a lot.",
+      "ru": "Пятьсот. Это много."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Five hundred words. For you.",
+      "ru": "Пятьсот слов. За тебя."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "I am very, very quiet.",
+      "ru": "Я очень, очень спокоен."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "I ___ standing very still.",
+     "options": [
+      "am",
+      "is",
+      "are"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Am. Not 'is'.",
+      "ru": "I am. Не «I is»."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "mira",
+      "en": "And Lina? What is she doing?",
+      "ru": "А Лина? Что она делает?"
+     },
+     "prompt": {
+      "en": "What is she doing?",
+      "ru": "Что делает Лина?"
+     },
+     "options": [
+      "She is standing very still.",
+      "She is running in the street.",
+      "She is selling a hat."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "A very quiet hat.",
+      "ru": "Очень тихая шляпа."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "She is standing. Not running.",
+      "ru": "Она стоит. Не бежит."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "They are watching me. All of them.",
+      "ru": "Они смотрят на меня. Все."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери фразу: «Все смотрят на меня»."
+     },
+     "answer": "Everyone is looking at me",
+     "distractors": [
+      "look",
+      "are"
+     ],
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Everyone is looking. Not 'everyone look'.",
+      "ru": "Everyone is looking. is + -ing."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "mira",
+      "en": "Now, Zero. Do not run. What are you doing?",
+      "ru": "Теперь, Зеро. Не беги. Что ты делаешь?"
+     },
+     "prompt": {
+      "en": "Write it in English.",
+      "ru": "Напиши ответ Дэна: «Я иду»."
+     },
+     "answer": "I am walking",
+     "success": {
+      "who": "mira",
+      "en": "Good. A hat. Walking.",
+      "ru": "Хорошо. Шляпа. Идёт."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "I am walking. Say it right.",
+      "ru": "I am walking. Скажи правильно."
+     },
+     "accept": [
+      "i am walking slowly",
+      "i'm walking"
+     ]
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Zero has a price. Five hundred words.",
+       "ru": "Зеро стоит пятьсот слов."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Five hundred words. For me. Nice.",
+      "ru": "Пятьсот слов. За меня. Приятно."
+     },
+     {
+      "who": "mira",
+      "en": "Not nice. Walk.",
+      "ru": "Не приятно. Иди."
+     }
+    ]
+   }
+  }
+ ]
+}

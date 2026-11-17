@@ -1,0 +1,603 @@
+{
+ "episode": "s2e03",
+ "unlocks": "s2e04",
+ "title": "Soup",
+ "titleRu": "Суп",
+ "trials": [
+  {
+   "id": "s2e03-t1",
+   "title": "Some Soup",
+   "titleRu": "Немного супа",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Share the soup.",
+       "ru": "ЗАДАНИЕ: Раздели суп."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "soup",
+      "en": "Sit. Taste. I cook. You eat.",
+      "ru": "Сядь. Попробуй. Я варю. Ты ешь."
+     },
+     {
+      "who": "dan",
+      "en": "There is some soup. And we have no words.",
+      "ru": "Есть немного супа. А слов у нас нет."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "Look in the pot.",
+      "ru": "Загляни в кастрюлю."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "There is ___ soup in the pot.",
+     "options": [
+      "some",
+      "any",
+      "an"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "soup",
+      "en": "Some. Yes. Eat.",
+      "ru": "Немного. Да. Ешь."
+     },
+     "fail": {
+      "who": "system",
+      "en": "There is SOME soup. Yes.",
+      "ru": "There is SOME soup. Да."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "Is there any bread?",
+      "ru": "Есть хлеб?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "There isn't ___ bread.",
+     "options": [
+      "any",
+      "some",
+      "a"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "soup",
+      "en": "No bread. Sorry.",
+      "ru": "Хлеба нет. Прости."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Isn't ANY. Not 'isn't some'.",
+      "ru": "Isn't ANY. Не «isn't some»."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "soup",
+      "en": "Look in the other pot.",
+      "ru": "Загляни в другую кастрюлю."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "There are some eggs.",
+     "voice": "narration",
+     "delivery": "tired gentle old cook, soft, a little proud",
+     "options": [
+      "There are some eggs.",
+      "There aren't any eggs.",
+      "There is some egg."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Eggs. Good.",
+      "ru": "Яйца. Хорошо."
+     },
+     "fail": {
+      "who": "soup",
+      "en": "Some eggs. Yes.",
+      "ru": "Немного яиц. Да."
+     }
+    },
+    {
+     "type": "match",
+     "story": {
+      "who": "mira",
+      "en": "Four words for this kitchen.",
+      "ru": "Четыре слова про эту кухню."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Соедини слово и перевод."
+     },
+     "pairs": [
+      [
+       "kitchen",
+       "кухня"
+      ],
+      [
+       "bowl",
+       "миска"
+      ],
+      [
+       "soup",
+       "суп"
+      ],
+      [
+       "hungry",
+       "голодный"
+      ]
+     ],
+     "success": {
+      "who": "mira",
+      "en": "Good. Now eat.",
+      "ru": "Хорошо. Теперь ешь."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Slow, Zero. Again.",
+      "ru": "Медленно, Зеро. Ещё раз."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "dan",
+      "en": "There is soup. Not a little. A lot.",
+      "ru": "Суп есть. Не мало. Много."
+     },
+     "prompt": {
+      "en": "Write it in English.",
+      "ru": "Напиши: «Здесь много супа»."
+     },
+     "answer": "There is a lot of soup",
+     "success": {
+      "who": "soup",
+      "en": "A lot. Yes. Share it.",
+      "ru": "Много. Да. Делись."
+     },
+     "fail": {
+      "who": "soup",
+      "en": "A lot of soup. Of.",
+      "ru": "A lot of soup. Of."
+     },
+     "accept": [
+      "there is lots of soup"
+     ]
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "In the Gutter, everyone shares.",
+       "ru": "В Канаве все делятся."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Share your bowl, Zero. She is hungry.",
+      "ru": "Поделись миской, Зеро. Она голодна."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2e03-t2",
+   "title": "Measure",
+   "titleRu": "Мера",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Measure. Say it true.",
+       "ru": "ЗАДАНИЕ: Измерь. Скажи правду."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "soup",
+      "en": "Say how much. Say it true.",
+      "ru": "Скажи, сколько. Скажи правду."
+     },
+     {
+      "who": "dan",
+      "en": "A lot of soup. Not any bread. OK.",
+      "ru": "Много супа. Хлеба нет. Ладно."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "choose",
+     "story": {
+      "who": "soup",
+      "en": "Look at the pot. How much soup?",
+      "ru": "Посмотри на кастрюлю. Сколько супа?"
+     },
+     "prompt": {
+      "en": "What is the answer?",
+      "ru": "Что правда?"
+     },
+     "options": [
+      "There is a lot of soup.",
+      "There isn't any soup.",
+      "There are some soups."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "soup",
+      "en": "A lot. The pot is full.",
+      "ru": "Много. Кастрюля полная."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "A lot of what?",
+      "ru": "Много чего?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "There is a lot ___ soup.",
+     "options": [
+      "of",
+      "some",
+      "any"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "A lot OF soup.",
+      "ru": "A lot OF soup."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "I have a question.",
+      "ru": "У меня вопрос."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери вопрос Дэна: «Есть ли тут хлеб?»"
+     },
+     "answer": "Is there any bread",
+     "distractors": [
+      "some",
+      "are"
+     ],
+     "success": {
+      "who": "soup",
+      "en": "No bread. Sorry.",
+      "ru": "Хлеба нет. Прости."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Is there any. Any in a question.",
+      "ru": "Is there any. Any — в вопросе."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "soup",
+      "en": "And salt? Say how much.",
+      "ru": "А соль? Скажи, сколько."
+     },
+     "prompt": {
+      "en": "Write it in English.",
+      "ru": "Напиши: «немного соли»."
+     },
+     "answer": "some salt",
+     "success": {
+      "who": "soup",
+      "en": "Some salt. A little.",
+      "ru": "Немного соли. Чуть-чуть."
+     },
+     "fail": {
+      "who": "soup",
+      "en": "Some salt.",
+      "ru": "Some salt."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "narration",
+      "en": "The System speaks.",
+      "ru": "Говорит Система."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Say how much. Say it true.",
+     "voice": "system",
+     "delivery": "flat dry machine voice, exact, no feeling",
+     "options": [
+      "Say how much. Say it true.",
+      "Say how many. Say it true.",
+      "Say how much. Say it now."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Much. Not many.",
+      "ru": "Much. Не many."
+     },
+     "fail": {
+      "who": "system",
+      "en": "How much. True.",
+      "ru": "How much. Правда."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "The pot is full. The kitchen is warm.",
+       "ru": "Кастрюля полная. На кухне тепло."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "soup",
+      "en": "Eat. Eat. There is a lot.",
+      "ru": "Ешь. Ешь. Здесь много."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2e03-t3",
+   "title": "The Red Marks",
+   "titleRu": "Красные пометки",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "warning",
+     "title": "WARNING",
+     "lines": [
+      {
+       "en": "Three red marks. They are not gone.",
+       "ru": "Три красные пометки. Они не исчезли."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "Three marks. Three mistakes. Read them, Zero.",
+      "ru": "Три пометки. Три ошибки. Прочти их, Зеро."
+     },
+     {
+      "who": "dan",
+      "en": "My sentence. The soup. Again.",
+      "ru": "Моя фраза. Про суп. Снова."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "mira",
+      "en": "Say it right. Listen first.",
+      "ru": "Скажи правильно. Сначала послушай."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "There is a lot of warm soup in the pot.",
+     "voice": "mira",
+     "delivery": "dry low voice, patient, almost kind",
+     "options": [
+      "There is a lot of warm soup in the pot.",
+      "There is a lot of hot soup in the pot.",
+      "There isn't any soup in the pot."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Warm. OK.",
+      "ru": "Тёплый. Ясно."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "A lot of warm soup.",
+      "ru": "Много тёплого супа."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "Is there any salt?",
+      "ru": "Есть соль?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Выбери нужное слово."
+     },
+     "sentence": "Is there ___ salt? No, there isn't.",
+     "options": [
+      "any",
+      "some",
+      "a lot"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Is there ANY. In a question.",
+      "ru": "Is there ANY. В вопросе."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "mira",
+      "en": "Which is right?",
+      "ru": "Какое верное?"
+     },
+     "prompt": {
+      "en": "What is the right sentence?",
+      "ru": "Какая фраза верная?"
+     },
+     "options": [
+      "There are some bowls.",
+      "There is some bowls.",
+      "There are any bowls."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Some bowls. Yes.",
+      "ru": "Несколько мисок. Да."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Many bowls. There are.",
+      "ru": "Миски. Множественное. There are."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "Say it for the cook.",
+      "ru": "Скажи про повара."
+     },
+     "prompt": {
+      "en": "Put the words in place.",
+      "ru": "Собери фразу: «Он варит много супа»."
+     },
+     "answer": "He is cooking a lot of soup",
+     "distractors": [
+      "cook",
+      "many"
+     ],
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "system",
+      "en": "He is cooking a lot of soup.",
+      "ru": "He is cooking a lot of soup."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "dan",
+      "en": "And the salt?",
+      "ru": "А соль?"
+     },
+     "prompt": {
+      "en": "Write it in English.",
+      "ru": "Напиши: «Здесь нет соли»."
+     },
+     "answer": "There isn't any salt",
+     "success": {
+      "who": "mira",
+      "en": "No mark. Good.",
+      "ru": "Без пометки. Хорошо."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "There isn't any salt. Any.",
+      "ru": "There isn't any salt. Any."
+     },
+     "accept": [
+      "there is not any salt"
+     ]
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "The Index is slow. Count: 112.",
+       "ru": "Индекс медленный. Счёт: 112."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Three marks. I am not hungry. A little hungry.",
+      "ru": "Три пометки. Я не боюсь. Чуть-чуть боюсь."
+     },
+     {
+      "who": "mira",
+      "en": "Somebody is writing. Watch, Zero.",
+      "ru": "Кто-то пишет. Будь готов, Зеро."
+     }
+    ]
+   }
+  }
+ ]
+}

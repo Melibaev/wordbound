@@ -2673,6 +2673,1171 @@ This — то, что рядом («это»), that — то, что подал�
 
 ---
 
+## Эпизод 1 (s2e01): Margin — Поля
+
+- **Уровень:** A1
+- **Панелей:** 16
+- **newWords:** city, street, house, people, move, watch, stand, carry, shop, board
+
+### Синопсис
+
+Серия начинается в ту же секунду: внизу, в пустом зале, Хранитель говорит «Я остаюсь» и бережёт OPEN, а наверху голос «мамы» зовёт Дэна — это Башня копирует голос, но счётчик Missed calls уже 13. Лестница света сгорает у героев под ногами, и за ними под ступенями ползёт Nad. Наверху открывается Margin — вертикальный город на стене, где дома стоят как строки. Дэн говорит правду о том, что люди делают прямо сейчас, и над ними вспыхивают их действия: Now-sight. Лину приходится прятать под шарфом Миры, а на доске Index Дэн оказывается на самой последней строке: Phrase, 100, «Lowest on the Index». Когда Дэн и Мира останавливают падающий лифт, площадь замирает, и глашатай Ledger объявляет награду в пятьсот слов за Зеро, который учит потерянные слова.
+
+### Сценарий по панелям
+
+#### Панель 01
+
+- **bg:** `hall` | **mood:** `calm` | **sfx:** `—`
+- **cast:** keeper (center)
+- **art:** Very wide low-angle shot of the Hall of Words in its last hour: the dome and jar-lined walls rise into darkness. The Keeper sits tiny and upright in the high chair at the centre, hood hiding his eyes, a small jar with a vermilion spark cupped in his ink-stained hand. The tall wax-sealed door behind him is shut.
+- **Реплики:**
+  - `narration-ru` — **RU:** Внизу, в Зале Слов, дверь домой закрылась. Хранитель остался в своём кресле.
+  - `speech / keeper` — **EN:** I am staying. I am waiting. — **RU:** Я остаюсь. Я жду.
+
+#### Панель 02
+
+- **bg:** `hall` | **mood:** `tense` | **sfx:** `—`
+- **cast:** keeper (center)
+- **art:** Tight dramatic close-up from slightly below: the Keeper's calm small smile and ink-stained fingers holding the glowing jar OPEN right in front of his chin. His hood swallows the upper half of his face in black. A thin vermilion glow climbs the folds of his sleeve.
+- **Реплики:**
+  - `speech / keeper` — **EN:** Everyone comes back, Dan. I am keeping OPEN safe. — **RU:** Все возвращаются, Дэн. Я берегу OPEN.
+
+#### Панель 03
+
+- **bg:** `sky` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), mira (right), silent (center)
+- **art:** Tall vertical shot up a stair of pure warm light hanging in a black void. Dan stops on a step at the left, head tilted back, face lit gold from above, listening to something far overhead. Mira one step higher at the right looks back down at him; the small Silent Lina stands between them holding the hem of Mira's jacket, a frayed red cord on her left wrist.
+- **Реплики:**
+  - `system / system` — **EN:** Missed calls: 13. — **RU:** Пропущенные звонки: 13.
+  - `speech / dan` — **EN:** It is using her voice. It is learning me, word by word. — **RU:** Оно использует её голос. Оно учится на мне, слово за словом.
+  - `speech / mira` — **EN:** Then give it nothing. Climb. — **RU:** Тогда не давай ему ничего. Лезь.
+
+#### Панель 04
+
+- **bg:** `sky` | **mood:** `action` | **sfx:** `CRACK`
+- **cast:** dan (left), mira (right)
+- **art:** Dynamic diagonal action shot: the light stair burns away behind the heroes step by step, shedding gold embers, as Dan sprints up at the left, arms pumping, glasses nearly sliding off. Mira at the right runs just behind carrying the small Silent Lina in both arms, her red cord on her left wrist. The gap of nothing yawns below their heels.
+- **Реплики:**
+  - `system / system` — **EN:** Warning. The stair is burning down. — **RU:** Внимание. Лестница сгорает.
+  - `speech / dan` — **EN:** I am running! This is my fast! — **RU:** Я бегу! Это моя максимальная скорость!
+  - `speech / mira` — **EN:** I am carrying Lina. Your fast is slow, Zero. — **RU:** Я несу Лину. А твоё «быстро» — это медленно, Зеро.
+
+#### Панель 05
+
+- **bg:** `sky` | **mood:** `tense` | **sfx:** `—`
+- **cast:** silent (center)
+- **art:** Eerie shot from below the stair: the underside of the glowing steps is a ceiling of shadow, and a tall pale Silent hangs beneath it, one long page-like hand hooked over a step edge. Its smooth white face has two round dents and a thin vertical teal seam; a strip of mustard-yellow lanyard is knotted at its neck. The glowing steps above it make a bright line it will not enter.
+- **Реплики:**
+  - `narration-ru` — **RU:** Безмолвные не ступают на свет. Этот ползёт под ним, по тени ступеней, — и догоняет.
+  - `speech / silent` — **EN:** I am tired. — **RU:** Я устал.
+
+#### Панель 06
+
+- **bg:** `street` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (right), silent (center)
+- **art:** Grand wide establishing shot from the end of the stair: a vertical city built on ledges of the Tower's inner wall, houses stacked like lines on a page, rope bridges, canvas awnings, cable lifts crossing the open drop, shops hanging from ropes, thousands of ochre lamps rising into the dark. Dan at the left stares up with his mouth open; Mira at the right gestures him on; the small Silent Lina is half hidden behind Mira's leg.
+- **Реплики:**
+  - `speech / dan` — **EN:** Wow. A city on a wall! Houses on shelves, and a shop on a rope! — **RU:** Ого. Город на стене! Дома на полках и лавка на верёвке!
+  - `speech / mira` — **EN:** Margin is a city. Walk. Look at nothing. — **RU:** Марджин — это город. Иди. Ни на что не смотри.
+  - `system / system` — **EN:** New floor: Deeds. City: Margin. — **RU:** Новый этаж: Дела. Город: Марджин.
+
+#### Панель 07
+
+- **bg:** `street` | **mood:** `action` | **sfx:** `—`
+- **cast:** dan (left), citizen (right)
+- **art:** Low-angle shot of a busy Margin street on a shelf-ledge. Dan at the left looks at a running man at the right; above the man a translucent vermilion afterimage of his running body flares for an instant, as if the street itself repeated what Dan said. Crowd blur behind.
+- **Реплики:**
+  - `speech / dan` — **EN:** I am watching that man. He is running. — **RU:** Я смотрю на того человека. Он бежит.
+  - `narration-ru` — **RU:** Дэн просто говорит правду о том, что люди делают прямо сейчас — и над ними вспыхивает это действие.
+  - `system / system` — **EN:** True. Now-sight. Say what they are doing. — **RU:** Правда. Now-sight. Говори, что они делают.
+
+#### Панель 08
+
+- **bg:** `street` | **mood:** `action` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Rapid dynamic shot from behind Dan's shoulder: he sweeps one arm across the crowd while vermilion afterimages flash over many people at once, a running man, a woman selling from a hanging shop-basket, a man carrying a whole tiny house on his back like a snail. Mira at the right grabs Dan's sleeve with her right hand and hisses.
+- **Реплики:**
+  - `speech / dan` — **EN:** He is running. She is selling in her shop. A man is carrying a house! — **RU:** Он бежит. Она продаёт в своей лавке. Человек несёт дом!
+  - `speech / mira` — **EN:** Quiet, Zero. People are watching. This street has ears. — **RU:** Тише, Зеро. Люди смотрят. У этой улицы есть уши.
+
+#### Панель 09
+
+- **bg:** `street` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (center), citizen (right)
+- **art:** Medium comic shot: Mira's long cream scarf is wrapped over the small Silent Lina so that she looks like a short bundle with a hat-shaped lump on top, only a tiny hand with a frayed red cord peeking out. A citizen at the right squints at the lump; Dan at the left raises his hand in a helpful engineer's gesture; Mira in the centre keeps a perfectly flat face.
+- **Реплики:**
+  - `narration-ru` — **RU:** В Марджине Безмолвных усыпляют на месте. Лина прячется под шарфом Миры.
+  - `speech / citizen` — **EN:** Your little friend is standing very still in the street. — **RU:** Ваша маленькая подруга стоит очень неподвижно посреди улицы.
+  - `speech / mira` — **EN:** She is shy. — **RU:** Она стесняется.
+  - `speech / dan` — **EN:** She is a hat. A very quiet hat. — **RU:** Она шляпа. Очень тихая шляпа.
+
+#### Панель 10
+
+- **bg:** `street` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Huge wide low-angle shot of the central plaza: an immense ash-black board rises ten storeys up the shelf-wall, covered in thousands of thin horizontal rows of abstract glowing marks (no letters), the top rows bright, the bottom rows dim; tiny crowds stand beneath it staring upward. Dan and Mira are small figures in the foreground, seen from behind, looking up.
+- **Реплики:**
+  - `narration` — **EN:** The Index. Every name in this city is standing on this board. — **RU:** Индекс. Каждое имя этого города стоит на этой доске.
+  - `speech / mira` — **EN:** Look at the top of the board. Nobody looks at the bottom. — **RU:** Смотри на верх доски. На низ никто не смотрит.
+
+#### Панель 11
+
+- **bg:** `street` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left)
+- **art:** Tight dramatic shot on the very last row at the bottom edge of the Index board: a fresh line of vermilion marks is scratching itself into the ash-black surface by an invisible hand, glowing, with sparks. Dan stands at the left foreground in profile, glasses reflecting the new glow, shoulders sinking. Faces of onlookers glance sideways at him.
+- **Реплики:**
+  - `system / system` — **EN:** #40112. DAN. PHRASE. Count: one hundred. — **RU:** №40112. DAN. PHRASE. Счёт: сто.
+  - `system / system` — **EN:** Title: Lowest on the Index. — **RU:** Титул: Самый нижний в Индексе.
+  - `speech / dan` — **EN:** I am last. Of course I am last. — **RU:** Я последний. Ну конечно, я последний.
+
+#### Панель 12
+
+- **bg:** `street` | **mood:** `calm` | **sfx:** `—`
+- **cast:** citizen (left), dan (center), mira (right)
+- **art:** Comic low-angle medium shot: a citizen at the left cups a hand to his mouth and calls to the crowd, pointing at Dan; a few amused faces turn behind. Dan in the centre shrugs with a crooked half-smile and raised palms; Mira at the right turns her head toward him with a flat stare.
+- **Реплики:**
+  - `shout / citizen` — **EN:** Look, people! A hundred words, and the last line! — **RU:** Смотрите, люди! Сто слов — и последняя строка!
+  - `speech / dan` — **EN:** I am standing at the bottom. I know floors. — **RU:** Я стою на дне. Я знаю этажи.
+  - `speech / mira` — **EN:** Don't be proud of it. — **RU:** Не гордись этим.
+
+#### Панель 13
+
+- **bg:** `street` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), oldman (right)
+- **art:** Quiet atmospheric shot at the foot of the Index board: the bent old man with his huge sweeping brush stands at the right, one milky eye and one sharp black eye, brushing grey dust from the lowest row. Dan at the left leans toward him with his head tilted. Dust and ochre lantern light drift between them; the vast board rises behind into darkness.
+- **Реплики:**
+  - `speech / oldman` — **EN:** Houses move. Shops move. The top moves. Every year it moves. — **RU:** Дома двигаются. Лавки двигаются. Верх двигается. Каждый год двигается.
+  - `speech / dan` — **EN:** And the first line on the board? It is empty. — **RU:** А первая строка на доске? Она пустая.
+  - `speech / oldman` — **EN:** It is waiting. Today the bottom is moving, too. — **RU:** Она ждёт. А сегодня двигается и низ.
+
+#### Панель 14
+
+- **bg:** `street` | **mood:** `action` | **sfx:** `HOLD!`
+- **cast:** dan (left), mira (right), silent (center)
+- **art:** Extreme dynamic wide shot: a cable-lift gondola full of passengers has slipped its brake and slides down its brass wire above the plaza, rope swinging, passengers clutching the rail. In the foreground Mira at the right leaps toward the wire with her arms stretched, rope coil flying, while Dan at the left points up with his whole arm. Citizens scatter below; the small Silent Lina in her scarf bundle clings to Mira's backpack.
+- **Реплики:**
+  - `shout / citizen` — **EN:** The lift is falling! It is carrying forty people! — **RU:** Лифт падает! В нём сорок человек!
+  - `speech / dan` — **EN:** Mira! He is pulling the wrong rope! — **RU:** Мира! Он тянет не ту верёвку!
+  - `shout / mira` — **EN:** HOLD! — **RU:** ДЕРЖИ!
+  - `speech / silent` — **EN:** Mira. Careful. — **RU:** Мира. Осторожно.
+
+#### Панель 15
+
+- **bg:** `street` | **mood:** `action` | **sfx:** `—`
+- **cast:** mira (center), dan (left)
+- **art:** Dynamic low shot: Mira hangs from the brass wire by both hands, red letters of the word HOLD like glowing vermilion rivets pinning the wire to the gondola frame, the lift stopped in mid-air a body-length above the roofs. Below, the whole street looks up. Dan at the left stands with open mouth. A tall striped figure with a huge brass horn appears on a high balcony far behind, tiny and dark.
+- **Реплики:**
+  - `system / system` — **EN:** Word: HOLD. The lift is holding. — **RU:** Слово: HOLD. Лифт держится.
+  - `speech / mira` — **EN:** Three breaths. Write that down, Zero. — **RU:** Три дыхания. Запиши это, Зеро.
+  - `narration` — **EN:** All the people in the street are watching. — **RU:** Все люди на улице смотрят.
+
+#### Панель 16
+
+- **bg:** `black` | **mood:** `tense` | **sfx:** `—`
+- **cast:** herald (center), mira (right)
+- **art:** Very dark dramatic low-angle shot from inside the crowd: the thin herald stands on a high balcony, a black silhouette against a small ring of ochre lantern light, raising his huge brass horn. In the foreground a sea of pale faces turns upward and then toward the viewer, and at the right Mira's tense profile glances at Dan, who is off-frame.
+- **Реплики:**
+  - `shout / herald` — **EN:** Hear this! The Ledger is paying five hundred words for Zero! — **RU:** Слушайте! Ledger платит пятьсот слов за Зеро!
+  - `shout / herald` — **EN:** Zero, who teaches lost words! — **RU:** За Зеро, который учит потерянные слова!
+  - `speech / mira` — **EN:** They are looking at you, Zero. — **RU:** Они смотрят на тебя, Зеро.
+
+### Грамматика: Present Continuous: что происходит прямо сейчас
+
+Чтобы сказать, что человек делает что-то ПРЯМО СЕЙЧАС, нужны три части: am / is / are + глагол с -ing. I am running (я бегу). He is running. They are watching us. Короткие формы: I'm, he's, they're. Запомни: running — одна n превратилась в две, selling — просто добавили -ing. Сегодня только утверждения: «Он бежит», «Она продаёт». Вопросы и «не» будут в следующей главе.
+
+- He is running. — Он бежит.
+- She is selling. — Она продаёт.
+- People are watching. — Люди смотрят.
+
+### Квиз
+
+1. Что происходит, когда Дэн говорит правду о том, что люди делают сейчас?
+   - Открывается дверь
+   - Над людьми вспыхивает их действие (Now-sight) **(верно)**
+   - Мира получает силу
+   - Лампа гаснет
+2. Как Мира прячет Лину в городе?
+   - В рюкзаке
+   - За дверью
+   - Под своим шарфом, как шляпу **(верно)**
+   - Среди толпы
+3. Что написано про Дэна в последней строке доски Index?
+   - Он Phrase, 100, титул «Самый нижний в Индексе» **(верно)**
+   - Он Zero и хозяин города
+   - Он на первой строке
+   - Его имени на доске нет
+4. Что объявляет глашатай в конце?
+   - Праздник на площади
+   - Лифт сломан
+   - Закрытие города
+   - Ledger платит 500 слов за Зеро, который учит потерянные слова **(верно)**
+
+---
+
+## Эпизод 2 (s2e02): The Auditor's Son — Сын аудитора
+
+- **Уровень:** A1
+- **Панелей:** 16
+- **newWords:** win, lost, bet, laugh, cheap, rich, poor, wear, coat, phone
+
+### Синопсис
+
+Площадь смотрит на Дэна, и сквозь толпу проходит Рук Марл, сын аудитора, в чёрном пальто с рядами купленных слов. В руке у него мамин телефон Дэна. Рук не сдаёт Дэна за награду — он хочет выиграть сам, при всех. Мира предупреждает: Рук всегда бьёт первым. Но Дэн видит, что он делает прямо сейчас: Рук не смотрит на Дэна, он смотрит на толпу. Первый PUSH Дэна двигает Линию, но тяжёлые SHIELD и CRUSH давят его лёгкие фразы. Дэн проигрывает ставку, Рук вырывает PUSH в свой гроссбух («Cheap.»), счёт падает до 99, и значок Phrase гаснет при всём городе. Рук уходит с телефоном, а из динамика мамин голос спрашивает: «Dan? Are you eating?» Система: «Missed calls: 14.»
+
+### Сценарий по панелям
+
+#### Панель 01
+
+- **bg:** `street` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), citizen (center), mira (right)
+- **art:** Tense medium shot in the plaza under the Index board: the whole crowd has turned toward Dan and a ring of faces is closing in. A citizen at the centre points straight at Dan with a trembling finger and a greedy grin. Dan at the left stands very stiff with his hands pressed to his sides; Mira at the right keeps her eyes moving over the crowd, the scarf bundle hidden behind her.
+- **Реплики:**
+  - `shout / citizen` — **EN:** Five hundred words! He is standing right there! — **RU:** Пятьсот слов! Вон он стоит!
+  - `speech / mira` — **EN:** Don't run. Everyone is looking. — **RU:** Не беги. Все смотрят.
+  - `speech / dan` — **EN:** I am not running. I am standing very well. — **RU:** Я не бегу. Я очень хорошо стою.
+
+#### Панель 02
+
+- **bg:** `street` | **mood:** `tense` | **sfx:** `—`
+- **cast:** ruk (center), citizen (left)
+- **art:** Dramatic low-angle shot as the crowd splits like a curtain: Ruk Marl strides through the gap in his long black coat covered in brass rank badges, a heavy ledger under one arm, one white-gloved hand lifted for people to clear the way. A citizen at the left shrinks back and points at the coat. Strong perspective, a cold white light behind Ruk.
+- **Реплики:**
+  - `shout / citizen` — **EN:** It is Ruk Marl, the auditor's son! He is rich! He is wearing forty words on his coat! — **RU:** Это Рук Марл, сын аудитора! Он богат! На его пальто сорок слов!
+  - `speech / ruk` — **EN:** Move. — **RU:** С дороги.
+
+#### Панель 03
+
+- **bg:** `street` | **mood:** `tense` | **sfx:** `—`
+- **cast:** ruk (right), dan (left)
+- **art:** Tight over-the-shoulder shot past Dan's left ear: in Ruk's white-gloved hand, a battered phone with a cracked screen glows a faint cold light and trembles with an unheard ring. Ruk at the right holds it up between two fingers like something dirty, looking down his nose. Dan at the left stares at it with raw hunger, glasses catching the screen glow.
+- **Реплики:**
+  - `speech / ruk` — **EN:** Is this your phone? Cheap. — **RU:** Это твой телефон? Дёшево.
+  - `speech / dan` — **EN:** Yes! That is my mother's phone! Give it to me! — **RU:** Да! Это телефон моей мамы! Отдай!
+  - `speech / ruk` — **EN:** Bet for it. — **RU:** Поставь на кон.
+
+#### Панель 04
+
+- **bg:** `street` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Close two-shot, heads together, as the crowd noise blurs behind them. Mira at the right whispers urgently into Dan's ear, her red cord visible on her left wrist; Dan at the left listens with his eyes fixed on Ruk's distant silhouette and his brows pulling together as an idea starts to form.
+- **Реплики:**
+  - `narration-ru` — **RU:** Привычка и «сейчас» — разные вещи. «Always» — это привычка человека. А «now» — то, что он делает в эту секунду.
+  - `speech / mira` — **EN:** Ruk is rich. You are poor. He always attacks first. He never waits. — **RU:** Рук богат. Ты беден. Он всегда бьёт первым. Он никогда не ждёт.
+  - `speech / dan` — **EN:** Always. Never. And now? What is he doing now? — **RU:** Всегда. Никогда. А сейчас? Что он делает сейчас?
+
+#### Панель 05
+
+- **bg:** `tower-exterior` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), ruk (right)
+- **art:** Wide dramatic shot of a narrow plank platform jutting out of the shelf-wall over the open vertical drop of Margin, a straight glowing chalk-line drawn across its middle. Dan stands at the left end, Ruk at the right end, both in profile facing each other, the crowd packed on the galleries and ropes above and behind like an audience in a theatre. Deep bottomless dark below.
+- **Реплики:**
+  - `narration-ru` — **RU:** Линия на помосте сдвигается в сторону того, чьё слово тяжелее. Кто окажется за краем — проиграл.
+  - `speech / ruk` — **EN:** The Line judges the bet. Heavy words win. — **RU:** Линия судит ставку. Тяжёлые слова побеждают.
+  - `speech / dan` — **EN:** I am betting PUSH. Heavy wins? This is a market, not a duel. — **RU:** Я ставлю PUSH. Тяжёлое побеждает? Это рынок, а не дуэль.
+
+#### Панель 06
+
+- **bg:** `tower-exterior` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), ruk (right), mira (center)
+- **art:** Tense standoff shot at the Line: Dan crouched slightly at the left, one open hand ready; Ruk at the right stands perfectly still with his chin raised, looking up past Dan at the crowd on the galleries. Mira, at the platform's near edge in the centre foreground, grips a rope rail with both hands, shouting at Dan.
+- **Реплики:**
+  - `shout / mira` — **EN:** What are you doing, Zero? He always attacks first! — **RU:** Что ты делаешь, Зеро? Он всегда бьёт первым!
+  - `speech / dan` — **EN:** Not now. He is not looking at me. He is looking at the crowd. — **RU:** Не сейчас. Он не смотрит на меня. Он смотрит на толпу.
+  - `system / system` — **EN:** True. Now-sight. — **RU:** Правда. Now-sight.
+
+#### Панель 07
+
+- **bg:** `tower-exterior` | **mood:** `action` | **sfx:** `PUSH!`
+- **cast:** dan (left), ruk (right)
+- **art:** Explosive action shot: Dan lunges across the platform with his whole body behind a glowing vermilion shove, his right arm thrust forward and a huge arc of vermilion force rippling out of his palm toward Ruk. The chalk-line itself surges and slides one step toward Ruk's side, spraying pale sparks. Ruk's coat flares back and his chin finally drops, surprised.
+- **Реплики:**
+  - `shout / dan` — **EN:** PUSH! I am pushing the Line! — **RU:** PUSH! Я двигаю Линию!
+  - `system / system` — **EN:** True. The Line is moving. — **RU:** Правда. Линия движется.
+  - `shout / citizen` — **EN:** The Zero is winning! — **RU:** Зеро побеждает!
+
+#### Панель 08
+
+- **bg:** `tower-exterior` | **mood:** `action` | **sfx:** `—`
+- **cast:** ruk (right), dan (left)
+- **art:** Hard shot of Ruk raising just two fingers of one white-gloved hand: a huge round plate of brass-and-vermilion light snaps open in front of him like a shield and Dan's vermilion force splashes against it in a flower of sparks. Dan at the left is thrown back a step, arms flung wide, the chalk-line sliding back toward his side. Rows of laughing faces in the galleries behind.
+- **Реплики:**
+  - `speech / ruk` — **EN:** SHIELD. — **RU:** SHIELD.
+  - `speech / dan` — **EN:** I am not losing! I am... thinking. — **RU:** Я не проигрываю! Я... думаю.
+
+#### Панель 09
+
+- **bg:** `tower-exterior` | **mood:** `action` | **sfx:** `CRUSH`
+- **cast:** dan (left), ruk (right)
+- **art:** Crushing-pressure shot: Ruk with his palm pressed flat toward the ground, a vast downward wave of brass-and-vermilion weight bending the planks; Dan at the left is driven onto one knee, his arms braced over his head, glasses sliding down his nose, cracks racing along the platform. The chalk-line has slid right across to Dan's end.
+- **Реплики:**
+  - `speech / ruk` — **EN:** CRUSH. — **RU:** CRUSH.
+  - `speech / dan` — **EN:** I am pushing! I am... not... losing! — **RU:** Я давлю! Я... не... проигрываю!
+  - `system / system` — **EN:** Warning. The Line is moving to Dan's side. — **RU:** Внимание. Линия двигается на сторону Дэна.
+
+#### Панель 10
+
+- **bg:** `tower-exterior` | **mood:** `action` | **sfx:** `CRACK`
+- **cast:** dan (left), mira (right)
+- **art:** Dramatic vertical action shot: the platform tilts and cracks, and Dan slides off its edge, hanging in the open drop by his arm with his sneakers kicking over darkness. Mira at the right lies flat on the planks, her right hand clamped around Dan's left wrist, her left hand locked around a rope rail, red cord on her left wrist. Dust and splinters fall past the camera into the deep.
+- **Реплики:**
+  - `shout / dan` — **EN:** Mira! I am falling! — **RU:** Мира! Я падаю!
+  - `shout / mira` — **EN:** Hold on, Zero! — **RU:** Держись, Зеро!
+
+#### Панель 11
+
+- **bg:** `tower-exterior` | **mood:** `action` | **sfx:** `—`
+- **cast:** ruk (center), dan (left)
+- **art:** Striking shot: Ruk opens his heavy ledger flat on one raised forearm and the vermilion letters of PUSH are ripped out of Dan's chest as a long glowing ribbon, streaming across the frame into the blank page of the book, which drinks them up with a pulse of light. Dan, hauled half back onto the platform, arches in pain at the left. Ruk's face is bored, almost disgusted.
+- **Реплики:**
+  - `narration-ru` — **RU:** Слово не умирает — оно просто переходит в чужую книгу. Дэн больше не может толкать.
+  - `speech / ruk` — **EN:** Cheap. — **RU:** Дёшево.
+  - `system / system` — **EN:** Word lost: PUSH. — **RU:** Слово потеряно: PUSH.
+
+#### Панель 12
+
+- **bg:** `street` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), citizen (right)
+- **art:** Close shot on Dan's chest: the small brass rank tag on his mustard lanyard, glowing warm ochre, flickers and goes cold ash-grey with a thin puff of smoke. Dan at the left looks down at it, shocked and out of breath, one hand half raised to his chest. A laughing citizen at the right points a finger at him, mouth wide open.
+- **Реплики:**
+  - `system / system` — **EN:** Count: 99. Rank: WORD. — **RU:** Счёт: 99. Ранг: WORD.
+  - `shout / citizen` — **EN:** His badge is going out! He is a poor little Word now! Everyone is laughing! — **RU:** Его значок гаснет! Он теперь бедный маленький Word! Все смеются!
+
+#### Панель 13
+
+- **bg:** `street` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), ruk (right)
+- **art:** Over-the-shoulder shot: Ruk walks away from the camera at the right, his long coat flaring, the cracked phone dangling from two gloved fingers, its screen pulsing with a faint cold light. Dan at the left, on one knee, reaches after him with one open hand, glasses crooked, a stream of smoke from the torn word still drifting off his chest.
+- **Реплики:**
+  - `speech / dan` — **EN:** That is my mother's phone! What are you doing? — **RU:** Это телефон моей мамы! Что ты делаешь?
+  - `speech / ruk` — **EN:** I am winning. I am keeping it. Cheap man. — **RU:** Я побеждаю. Я его оставляю себе. Дешёвый человек.
+
+#### Панель 14
+
+- **bg:** `street` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Quiet low-contrast shot at the foot of the shelf-wall: Dan sits on a crate with his elbows on his knees and a crooked defeated half-smile, glasses pushed up on his forehead; Mira at the right sits beside him with her scarf pulled tight and her face turned away, one hand resting on her rope coil. The crowd has drifted away, only lamps and distant chatter.
+- **Реплики:**
+  - `speech / dan` — **EN:** One day as a Phrase. One day! — **RU:** Один день в ранге Phrase. Один день!
+  - `speech / mira` — **EN:** You are alive. You are poor. That is a start. — **RU:** Ты жив. Ты беден. Это начало.
+  - `speech / dan` — **EN:** Everyone is laughing. I am laughing, too. A little. — **RU:** Все смеются. Я тоже смеюсь. Чуть-чуть.
+
+#### Панель 15
+
+- **bg:** `street` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Medium shot up toward a far gallery, seen over Dan's and Mira's shoulders: Ruk, small and straight, climbs a rope stair toward the high rows of the Index, his black coat and brass badges glinting in the lamplight. Dan at the left and Mira at the right watch him go with narrowed eyes; Dan's mustard lanyard hangs plain and dull on his chest.
+- **Реплики:**
+  - `speech / mira` — **EN:** He is rich. That coat is full of words he buys. — **RU:** Он богат. Это пальто полно слов, которые он покупает.
+  - `speech / dan` — **EN:** He is wearing a coat of words. I am wearing a lanyard. — **RU:** Он носит пальто из слов. Я ношу шнурок.
+
+#### Панель 16
+
+- **bg:** `black` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (center)
+- **art:** Very dark close shot on Dan's face from slightly below, lit only by a cold pale glow from off-frame left, as if from a far phone screen: his eyes are wide behind the round glasses, mouth open, the lanyard tag dull on his chest. Everything else is black. At the very edge of the frame a tiny pale rectangle of light pulses once.
+- **Реплики:**
+  - `narration` — **EN:** Mom: Dan? Are you eating? — **RU:** Мама: Дэн? Ты ешь?
+  - `speech / dan` — **EN:** Mom... — **RU:** Мама...
+  - `system / system` — **EN:** Missed calls: 14. — **RU:** Пропущенные звонки: 14.
+
+### Грамматика: Present Continuous: вопросы и «не» + Rule и Now
+
+Вопрос: переставь be вперёд. You are doing it. → What are you doing? Is he looking at me? «Не»: добавь not после be. I am not running. He is not looking at me. А теперь главное: привычка и «сейчас». Present Simple (always, never, every day) — это привычка, правило: He always attacks first. Present Continuous — то, что происходит в эту секунду: He is not attacking. He is looking at the crowd. Дэн побеждает не тем, что знает о Руке вообще, а тем, что видит в данный момент.
+
+- He always attacks first. — Он всегда бьёт первым.
+- He is not looking at me. — Он не смотрит на меня.
+- What are you doing? — Что ты делаешь?
+
+### Квиз
+
+1. Что Мира говорит о Руке до дуэли?
+   - Он всегда бьёт первым и никогда не ждёт **(верно)**
+   - Он боится толпы
+   - Он добрый и честный
+   - Он ничего не покупает
+2. На что смотрит Рук в начале дуэли, по словам Дэна?
+   - На Дэна
+   - На телефон
+   - На толпу **(верно)**
+   - На Линию
+3. Что Дэн теряет в проигранной ставке?
+   - Очки
+   - Шнурок
+   - Карандаш
+   - Слово PUSH **(верно)**
+4. Что происходит со значком Дэна, когда его Count падает до 99?
+   - Он вспыхивает ярче
+   - Он гаснет, и Rank становится WORD **(верно)**
+   - Он взрывается
+   - Он переходит к Руку
+
+---
+
+## Эпизод 3 (s2e03): Soup — Суп
+
+- **Уровень:** A1
+- **Панелей:** 16
+- **newWords:** soup, cook, hungry, hot, bowl, share, kitchen, warm, cut, taste
+
+### Синопсис
+
+Награда за голову висит над Дэном, охотники ходят по крышам, и Пип предлагает бесплатный путь вниз — «только сегодня». Они спускаются по воровской лестнице в Gutter, щель под городом, где живут Unwritten. На кухне огромный тихий Суп кормит всех, у кого нет слов: «Sit. Taste. I cook. You eat». Хлеба и соли нет, но супа очень много — так Дэн учит some, any и a lot of, и Measure показывает, сколько чего на самом деле: в Супе нет голода, его слово горит лампой над кухней. Дэн чинит ему вытяжку, но, как всегда, бросает последний винт; Суп говорит: «You don't ... things, do you?» — и слово шуршит, как бумага. Ночью Дэн пишет благодарность на стене, а утром три ошибки в ней обведены красной ручкой. Счёт 112, Rank: PHRASE, «Index is slow». В дверях стоит седая женщина с красной ручкой: «Three mistakes in one sentence, dear. Shall we begin?»
+
+### Сценарий по панелям
+
+#### Панель 01
+
+- **bg:** `street` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), pip (center), mira (right)
+- **art:** Low-angle shot in a narrow shelf-alley at dusk: Pip's head and shoulders pop out of a drain grate in the floor at the centre, cap askew, grinning. Dan at the left crouches over him with his mouth open; Mira at the right keeps the scarf bundle behind her leg and glares at Pip. Far above on the rooftop ledges two silhouettes with lantern beams sweep the alley.
+- **Реплики:**
+  - `speech / pip` — **EN:** Psst! Hunters are on the roofs. I have a free way down. — **RU:** Псст! Охотники на крышах. У меня есть бесплатный путь вниз.
+  - `speech / mira` — **EN:** Pip. Nothing is free with you. — **RU:** Пип. С тобой ничего не бывает бесплатно.
+  - `speech / pip` — **EN:** Today it is. Come. Fast. — **RU:** Сегодня бывает. Идёмте. Быстро.
+
+#### Панель 02
+
+- **bg:** `dungeon` | **mood:** `action` | **sfx:** `—`
+- **cast:** dan (center), pip (left), mira (right)
+- **art:** Dynamic vertical shot straight down a narrow crack in the wall: iron rungs and rope ladders zig-zag down into the dark, a thieves' stair. Dan at the centre clings to a rung with both hands and one foot dangling, glasses crooked, eyes shut; Pip at the left below him scrambles down like a monkey; Mira at the right above him descends with calm professional speed, the scarf bundle tied on her back. Dust falls from the gap far overhead.
+- **Реплики:**
+  - `speech / dan` — **EN:** I am climbing down. I hate climbing down. — **RU:** Я лезу вниз. Я ненавижу лезть вниз.
+
+#### Панель 03
+
+- **bg:** `dungeon` | **mood:** `tense` | **sfx:** `—`
+- **cast:** pip (left), hunter (right), dan (center)
+- **art:** Tense shot looking up from the crack: at the top, two black-coated hunters lean over the gap with narrow lantern beams sweeping down the wall, one beam passing just beside Dan's cheek. In the foreground Dan, Pip and Mira press flat against the wall in the dark, Pip's lips pressed together, one finger at his mouth. A faint hum from the scarf bundle on Mira's back.
+- **Реплики:**
+  - `speech / hunter` — **EN:** I hear a song down there. — **RU:** Я слышу песню там внизу.
+  - `speech / pip` — **EN:** QUIET. Free today. — **RU:** QUIET. Сегодня бесплатно.
+  - `speech / hunter` — **EN:** Nothing. Only wind. — **RU:** Ничего. Только ветер.
+
+#### Панель 04
+
+- **bg:** `dungeon` | **mood:** `calm` | **sfx:** `—`
+- **cast:** pip (center), dan (left), mira (right)
+- **art:** Grand wide reveal from the bottom of the stair: a canyon-like crack, a few paces wide, between two colossal stone columns that rise out of sight, strung with hundreds of small warm lanterns on wires, patched cloth tents, steam from pots, rope walkways, quiet people sitting in doorways. Pip at the centre spreads both arms like a host; Dan at the left and Mira at the right step off the last rung in awe.
+- **Реплики:**
+  - `narration-ru` — **RU:** Gutter — щель под городом, между двумя колоннами. Здесь живут Unwritten: те, кого Index не записал ни на одну строку.
+  - `speech / pip` — **EN:** The Gutter. Nobody looks down here. — **RU:** Gutter. Сюда никто не смотрит.
+  - `speech / dan` — **EN:** It is a city under the city. — **RU:** Это город под городом.
+
+#### Панель 05
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), soup (center), mira (right)
+- **art:** Warm, cosy medium shot in a long low vaulted kitchen: Soup, a huge soft bald man with braided beard, an apron and a ladle through his belt, stands behind a big steaming pot, one ladle in his massive hand, ducking under a hanging lamp whose flame is vermilion. Dan at the left and Mira at the right stand awkwardly at the table, bowls waiting in front of them.
+- **Реплики:**
+  - `speech / dan` — **EN:** We have no words to pay. — **RU:** У нас нет слов, чтобы заплатить.
+  - `speech / soup` — **EN:** Sit. Taste. There is some soup. I cook. You eat. — **RU:** Садись. Попробуй. Есть немного супа. Я готовлю. Ты ешь.
+
+#### Панель 06
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), soup (center)
+- **art:** Comic medium shot over the table: Dan at the left leans forward over an empty bowl with a pleading face, holding up two open fingers; Soup at the right of centre, vast and unhurried, points with his ladle to a shelf of bare hooks, an empty bread basket and an empty salt jar, and a small basket with three eggs. A steaming pot dominates the foreground.
+- **Реплики:**
+  - `speech / dan` — **EN:** Is there any bread? Is there any salt? — **RU:** Есть хлеб? Есть соль?
+  - `speech / soup` — **EN:** There isn't any bread. There isn't any salt. There are some eggs. — **RU:** Хлеба нет. Соли нет. Есть немного яиц.
+  - `speech / dan` — **EN:** So there is a lot of soup. Of course. — **RU:** Значит, супа очень много. Ну конечно.
+
+#### Панель 07
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), silent (center), mira (right)
+- **art:** Quiet intimate shot at the table: Dan at the left lifts a steaming bowl in both hands, eyes closed, face soft in the warm steam. At the centre the small Silent Lina, her scarf pushed back, sits with a small bowl held in both of her white hands, her faceless head tilted toward it. Mira at the right watches them, a rare softening at the corner of her mouth, red cord on her left wrist.
+- **Реплики:**
+  - `speech / dan` — **EN:** It is hot. This bowl tastes like home. — **RU:** Горячий. Эта миска на вкус как дом.
+  - `speech / mira` — **EN:** Share your bowl with her, Zero. She is hungry. — **RU:** Поделись миской с ней, Зеро. Она голодна.
+  - `speech / silent` — **EN:** Warm. — **RU:** Тепло.
+  - `system / system` — **EN:** SHARE is yours now. — **RU:** SHARE теперь твоё.
+
+#### Панель 08
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** pip (left), soup (right)
+- **art:** Comic medium shot: Pip at the left stands on a stool holding up two chipped bowls with an eager greedy grin and a hand held out, ready to bargain; Soup at the right looks down at him from his great height with sleepy gentle eyes, the ladle hanging in his hand. Steam rises between them.
+- **Реплики:**
+  - `speech / pip` — **EN:** He cooks all night in this kitchen. Two bowls. How many words? — **RU:** Он готовит всю ночь на этой кухне. Две миски. Сколько слов?
+  - `speech / soup` — **EN:** None. Everyone shares here. — **RU:** Нисколько. Здесь все делятся.
+  - `speech / pip` — **EN:** Share? That is a bad word. — **RU:** Делиться? Это плохое слово.
+
+#### Панель 09
+
+- **bg:** `room` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), soup (center), mira (right)
+- **art:** Dramatic medium shot: Dan at the left, one hand raised and glowing with faint vermilion, looks at Soup. Over Soup's chest a ghostly vermilion gauge ring shows a hollow empty circle where it should be full. Soup at the centre stares down at his own hands. Above his head the brass lamp burns with a strong vermilion flame. Mira at the right stands back, watching.
+- **Реплики:**
+  - `narration-ru` — **RU:** Над кухней горит лампа. Суп отдал ей своё слово «голод» — и теперь она горит за него, а он никогда не хочет есть.
+  - `speech / dan` — **EN:** There is a lot of soup in this kitchen. There isn't any in you. — **RU:** В этой кухне много супа. А в тебе его нет.
+  - `speech / soup` — **EN:** I cook. I am not hungry. I am never hungry. — **RU:** Я готовлю. Я не голоден. Я никогда не голоден.
+  - `system / system` — **EN:** True. Measure. Say how much. Say it true. — **RU:** Правда. Measure. Говори, сколько. Говори правду.
+
+#### Панель 10
+
+- **bg:** `room` | **mood:** `tense` | **sfx:** `—`
+- **cast:** soup (left), dan (center)
+- **art:** Hard-lit shot of the kitchen choking with grey smoke: the fan above the stove has stopped turning, its dark mouth coughing smoke, and a row of the Unwritten at the long table are coughing with cloths over their mouths. Soup at the left stands helplessly under the smoke with his ladle drooping; Dan at the centre looks up at the dead fan with a sudden calm spark, pushing up his glasses.
+- **Реплики:**
+  - `speech / soup` — **EN:** The fan is dead. The soup tastes of smoke. — **RU:** Вытяжка мертва. Суп пахнет дымом.
+  - `speech / dan` — **EN:** I know fans. I can cut the old belt and fix it. — **RU:** Я знаю вытяжки. Я могу срезать старый ремень и починить.
+
+#### Панель 11
+
+- **bg:** `room` | **mood:** `action` | **sfx:** `CLANG`
+- **cast:** dan (center), soup (left)
+- **art:** Dynamic upside-down shot inside the fan shaft: Dan wedged head-up in the sooty duct, one foot braced on a pipe, one hand holding a small knife against a frayed leather belt, the other steadying a bolt, steam hissing past his face. Far below at the left, Soup's huge hand holds a lantern up toward him like a lighthouse. Sparks, soot, a fan blade half turning.
+- **Реплики:**
+  - `speech / dan` — **EN:** Hold the lamp, Soup. I am cutting the old belt. The pipe is hot! — **RU:** Держи лампу, Суп. Я срезаю старый ремень. Труба горячая!
+  - `speech / soup` — **EN:** I am holding. You are cutting. We are cooking. — **RU:** Я держу. Ты режешь. Мы готовим.
+
+#### Панель 12
+
+- **bg:** `room` | **mood:** `tense` | **sfx:** `—`
+- **cast:** soup (center), dan (left)
+- **art:** Medium shot after the fix: the fan above turns lazily and the smoke drains upward into a clear shaft of lamp light. Dan at the left, covered in soot, holds the last screw between two fingers, shrugs and flicks it carelessly over his shoulder; it pings off the iron pot. Soup at the centre looks at him gently, ladle lowered, with a long thoughtful gaze.
+- **Реплики:**
+  - `speech / soup` — **EN:** The fan is turning. The kitchen is warm again. But you don't ... things, do you? — **RU:** Вытяжка крутится. На кухне снова тепло. Но ты ведь не ... вещи, да?
+  - `narration-ru` — **RU:** Одно слово Супа прошуршало, как мятая бумага. Дэн услышал только пустоту. Последний винт так и остался валяться на полу.
+  - `system / system` — **EN:** Almost. — **RU:** Почти.
+
+#### Панель 13
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), pip (right)
+- **art:** Quiet night shot in the sleeping kitchen: only the vermilion lamp burns. Dan at the left, sitting on the floor, writes with his yellow pencil on a patched stone wall covered with other people's old scratched thank-yous. Pip at the right crouches in the dark with sly shining eyes, staring at the pencil with a hand almost reaching.
+- **Реплики:**
+  - `thought / dan` — **EN:** Thank you for the soups, it are very hot and I eat many soup. — **RU:** Спасибо за супы, он очень горячий, и я ем много супа.
+  - `speech / pip` — **EN:** Nice pencil. How much? — **RU:** Хороший карандаш. Сколько?
+  - `system / system` — **EN:** Keep the pencil. — **RU:** Оставь карандаш.
+
+#### Панель 14
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Morning-light shot of the stone wall: Dan's pencil words are a messy scribble with three bright slashes and circles of fresh vermilion ink around three of the scribbles, the ink still glistening. Dan at the left stares at it with a toast in his hand; Mira at the right leans in beside him with a raised eyebrow, scarf over her shoulder.
+- **Реплики:**
+  - `speech / dan` — **EN:** Somebody is writing on my wall! In red! — **RU:** Кто-то пишет на моей стене! Красным!
+  - `speech / mira` — **EN:** Three red marks. Three mistakes. — **RU:** Три красные пометки. Три ошибки.
+
+#### Панель 15
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (center)
+- **art:** Warm bright morning shot: Dan in the kitchen holds a bowl up in both hands, grinning in wonder, steam rising, a floating cream paper System window with a vermilion double border beside his head. Behind him the repaired fan turns in a sunbeam of lamp light and the Unwritten eat quietly at the long table.
+- **Реплики:**
+  - `system / system` — **EN:** Count: 112. Rank: PHRASE. The Index is slow. — **RU:** Счёт: 112. Ранг: PHRASE. Индекс медленный.
+  - `speech / dan` — **EN:** I am warm, I am full, and I am a Phrase again. — **RU:** Мне тепло, я сыт, и я снова Phrase.
+
+#### Панель 16
+
+- **bg:** `black` | **mood:** `tense` | **sfx:** `—`
+- **cast:** thorn (center)
+- **art:** Very dark dramatic shot: a doorway at the end of the kitchen filled with pale morning light, and in it the small upright silhouette of Miss Thorn, a tight bun, a cane on her forearm, a slim pen held between two fingers like a baton with a single bead of vermilion ink glowing at its nib. Everything else is black; the shadow of the pen falls long across the floor toward the camera.
+- **Реплики:**
+  - `speech / thorn` — **EN:** Three mistakes in one sentence, dear. — **RU:** Три ошибки в одном предложении, дорогой.
+  - `speech / thorn` — **EN:** Shall we begin? — **RU:** Начнём?
+
+### Грамматика: some / any / a lot of: сколько чего
+
+Some — «немного», в утверждениях: There is some soup. There are some eggs. Any — в вопросах и отрицаниях: Is there any bread? There isn't any salt. A lot of — «много» (и в утверждениях, и в вопросах): There is a lot of soup. Слова бывают исчисляемые (an egg, two eggs: there ARE some eggs) и неисчисляемые (soup, bread, salt: there IS some soup — множественного числа у них нет). Дэн использует это как силу: «There is a lot of soup in the pot. There isn't any in you» — и Measure показывает, сколько чего на самом деле.
+
+- There is some soup. — Есть немного супа.
+- Is there any bread? — Есть хлеб?
+- There isn't any salt. — Соли нет.
+
+### Квиз
+
+1. Куда Пип приводит героев, спасая от охотников?
+   - В Gutter, щель под городом **(верно)**
+   - В контору Ledger
+   - К двери Этажа
+   - Назад в Зал Слов
+2. Что говорит Суп про хлеб и соль?
+   - Хлеба много
+   - Хлеба и соли нет, есть яйца и суп **(верно)**
+   - Хлеб и соль только за слова
+   - Соль есть, хлеба нет
+3. Почему Суп никогда не голоден?
+   - Он ест ночью
+   - Суп невкусный
+   - Он отдал слово «голод» лампе над кухней **(верно)**
+   - Он не любит есть
+4. Что происходит наутро со стеной, где Дэн написал благодарность?
+   - Стену стёрли
+   - Её закрасили
+   - Её забрал Пип
+   - Три ошибки обведены красной ручкой **(верно)**
+
+---
+
+## Эпизод 4 (s2e04): The Red Pen — Красная ручка
+
+- **Уровень:** A1
+- **Панелей:** 16
+- **newWords:** teacher, lesson, mistake, correct, pen, mine, yours, whose, belong, thread
+
+### Синопсис
+
+Утро после кухни Супа: в дверях мисс Торн, бывшая №3 Index, учит Ненаписанных бесплатно. Она исправляет три ошибки Дэна и учит 's и whose: «Whose wall is this?» — «It is Soup's wall». Дэн получает TRACE: правдивый вопрос о хозяине слова протягивает красную нить. Нить от щита Рука ведёт по мосткам Gutter к старику-подметальщику, у которого щит когда-то отняли. Рук объявляет всё своим — и Торн своим «Correction» ломает ложную фразу вместе со щитом. Потом Мира просит проследить афишу аукциона: нить от лота «имя ребёнка» приводит к Лине. Count 124.
+
+### Сценарий по панелям
+
+#### Панель 01
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), thorn (center), soup (right)
+- **art:** Low-angle wide shot from inside the kitchen looking at the doorway, strong rim light from the morning door, hard cel shadows. Miss Thorn stands small and upright in the doorway at the CENTRE, cane hooked on her LEFT forearm, the slim pen held like a baton, a bead of vermilion ink at its nib. Dan at the LEFT with a half-eaten bowl, glasses crooked, staring. Soup at the RIGHT stirring the huge pot, unbothered. On the wall behind Dan three vermilion circles around scribbled marks.
+- **Реплики:**
+  - `narration-ru` — **RU:** Утро. На стене три красные пометки — а в дверях маленькая седая женщина. Красного на ней нет, только капля туши на кончике ручки.
+  - `speech / thorn` — **EN:** Good morning. I am Miss Thorn, a teacher. I hate mistakes. — **RU:** Доброе утро. Я мисс Торн, учительница. Я ненавижу ошибки.
+  - `speech / thorn` — **EN:** Whose wall is this, dear? — **RU:** Чья это стена, дорогой?
+
+#### Панель 02
+
+- **bg:** `room` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), thorn (center), soup (right)
+- **art:** Comic medium over-the-shoulder shot from behind Thorn, wide lens, sharp cel shadows. Thorn at the CENTRE foreground (back three-quarter) points the pen at the wall. Dan at the LEFT scratches his head with his RIGHT hand, a bowl in his left. Soup at the RIGHT pats the wall proudly with one big hand.
+- **Реплики:**
+  - `speech / dan` — **EN:** It is Soup's wall. — **RU:** Это стена Супа.
+  - `speech / thorn` — **EN:** Correct. And whose writing is that? Yours? — **RU:** Верно. А чьё это письмо? Твоё?
+  - `speech / dan` — **EN:** It is mine. Three mistakes, I know. — **RU:** Моё. Три ошибки, знаю.
+
+#### Панель 03
+
+- **bg:** `room` | **mood:** `action` | **sfx:** `SWISH`
+- **cast:** dan (left), thorn (center)
+- **art:** Dynamic close dramatic shot, low angle, swirling glowing effect, deep blacks and vermilion light. Thorn's pen at the CENTRE flicks through the air; the three mistaken scribbles lift off the wall as vermilion glow-shapes and rearrange themselves into neat abstract lines. Dan at the LEFT leans back with his mouth open, both hands up, a bowl rattling.
+- **Реплики:**
+  - `speech / thorn` — **EN:** Three mistakes. Read it, Dan. Slowly. — **RU:** Три ошибки. Читай, Дэн. Медленно.
+  - `speech / dan` — **EN:** Thank you for the soup. It is very hot. I eat a lot of soup. — **RU:** Спасибо за суп. Он очень горячий. Я ем много супа.
+  - `speech / thorn` — **EN:** Now it is correct. That is the lesson. — **RU:** Теперь правильно. В этом и урок.
+
+#### Панель 04
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** pip (left), thorn (center), mira (right)
+- **art:** Comic medium shot, slight low angle, wide lens. Pip at the LEFT hugs his oversized cap on his head with both hands, grinning nervously. Thorn at the CENTRE holds her pen out of Pip's reach, eyebrow raised. Mira at the RIGHT leans against the table, arms crossed, red cord on her LEFT wrist, almost smiling.
+- **Реплики:**
+  - `speech / thorn` — **EN:** Whose cap is this? — **RU:** Чья это кепка?
+  - `speech / pip` — **EN:** It is mine. Pip's cap! Pip's coat! Pip's pen? — **RU:** Она моя. Кепка Пипа! Пальто Пипа! Ручка Пипа?
+  - `speech / thorn` — **EN:** That pen belongs to me, dear. I do not sell it. — **RU:** Эта ручка принадлежит мне, дорогой. Я её не продаю.
+
+#### Панель 05
+
+- **bg:** `room` | **mood:** `tense` | **sfx:** `—`
+- **cast:** mira (left), thorn (center), dan (right)
+- **art:** Tense two-sided shot, eye level, Mira sharply lit from the side. Mira at the LEFT steps forward, one hand on the scarf bundle at her side, cord on her LEFT wrist. Thorn at the CENTRE calm, pen lowered. Dan at the RIGHT raises his hand like a student.
+- **Реплики:**
+  - `speech / mira` — **EN:** Why are you here, teacher? — **RU:** Зачем вы здесь, учительница?
+  - `speech / thorn` — **EN:** The Gutter says a Zero teaches words. A teacher goes where words are. — **RU:** В Gutter говорят, что Зеро учит словам. Учитель идёт туда, где слова.
+  - `speech / thorn` — **EN:** Lesson one. Whose, mine, yours. — **RU:** Урок первый. Чей, мой, твой.
+
+#### Панель 06
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), thorn (right)
+- **art:** Close two-shot over the table, shallow depth, glowing detail effect. Thorn at the RIGHT touches the nib of her pen to the yellow pencil that Dan holds in his RIGHT hand at the LEFT. A thin vermilion thread springs from the pencil and loops back to Dan's ear, glowing. Dan stares at it cross-eyed, glasses reflecting red.
+- **Реплики:**
+  - `speech / thorn` — **EN:** Say it true. Whose pencil is this? — **RU:** Скажи правду. Чей это карандаш?
+  - `speech / dan` — **EN:** It is mine. The pen makes a red thread! — **RU:** Он мой. Ручка рисует красную нить!
+  - `speech / thorn` — **EN:** The pencil is yours. The thread goes home. — **RU:** Карандаш твой. Нить идёт домой.
+  - `system / system` — **EN:** TRACE is yours now. Count: 120. — **RU:** TRACE теперь твой. Счёт: 120.
+
+#### Панель 07
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** mira (left), thorn (center), silent (right)
+- **art:** Comic medium shot, slightly high angle, wide lens. Mira at the LEFT holds out her scarf; Thorn at the CENTRE lightly points her pen at the bundle under it. On the RIGHT the small scarf-covered shape of Lina (a bundle with only a tiny red cord peeking, no face) sits on the bench. A thin red thread runs from the pen to the bundle.
+- **Реплики:**
+  - `speech / thorn` — **EN:** Whose scarf is that? And whose hat hums? — **RU:** Чей это шарф? И чья шляпа гудит?
+  - `speech / mira` — **EN:** Mine. The scarf and the hat. — **RU:** Мой. И шляпа тоже моя.
+  - `speech / silent` — **EN:** Mine. — **RU:** Моя.
+
+#### Панель 08
+
+- **bg:** `dungeon` | **mood:** `action` | **sfx:** `THUD`
+- **cast:** hunter (left), ruk (center)
+- **art:** Dramatic low-angle wide shot from the floor of the canyon, extreme perspective upward, hard rim light and deep blacks. Ropes drop from the crack high above; two masked hunters slide down them at the LEFT, lanterns swinging. Ruk Marl at the CENTRE lands with a smooth step in the middle of the Gutter lane, ledger under his LEFT arm, brass badges glowing vermilion. Gutter people scatter between tents.
+- **Реплики:**
+  - `speech / ruk` — **EN:** Zero. Come out. Bet again. — **RU:** Зеро. Выходи. Ставь снова.
+
+#### Панель 09
+
+- **bg:** `dungeon` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (left), ruk (right)
+- **art:** Tense frontal shot, dutch angle, long shadows. Dan at the LEFT steps into the lane with his RIGHT hand raised, empty. Ruk at the RIGHT stands behind a shimmering brass pane of light (his SHIELD) with a thin smile. From one brass badge on Ruk's chest a vermilion thread springs and shoots away down the lane. Mira behind Dan, hand on his shoulder.
+- **Реплики:**
+  - `speech / dan` — **EN:** Whose shield is that? — **RU:** Чей это щит?
+  - `speech / ruk` — **EN:** Mine. Cheap. — **RU:** Мой. Дёшево.
+  - `system / system` — **EN:** True. Trace. — **RU:** Верно. След.
+
+#### Панель 10
+
+- **bg:** `dungeon` | **mood:** `action` | **sfx:** `WHOOSH`
+- **cast:** dan (center), pip (left), mira (right)
+- **art:** Dynamic chase shot, wide lens from the front, speed lines, motion blur at the edges, rope walkways crossing in depth. Dan at the CENTRE sprints across a swinging rope walkway, arms pumping, eyes on a glowing vermilion thread floating ahead. Pip at the LEFT leaps ahead on another walkway. Mira at the RIGHT runs on the rail with perfect balance. Behind them, a hunter swings a weighted rope.
+- **Реплики:**
+  - `speech / pip` — **EN:** The thread goes left! Left! — **RU:** Нить идёт влево! Влево!
+  - `speech / dan` — **EN:** I am running! I am following a thread! — **RU:** Я бегу! Я иду за нитью!
+
+#### Панель 11
+
+- **bg:** `dungeon` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), oldman (right)
+- **art:** Quiet low-key medium shot, eye level, thread glowing as the only light. In a hollow under the columns the old man (the Index sweeper, long brush leaning on the wall) sits at the RIGHT beside a cold kettle. The red thread ends at his empty RIGHT hand, wrapped around his finger. Dan at the LEFT kneels, out of breath, glasses fogged.
+- **Реплики:**
+  - `speech / dan` — **EN:** Old man from the board! Is the shield yours? — **RU:** Старик от доски! Щит твой?
+  - `speech / oldman` — **EN:** It is mine. It is my... my... — **RU:** Он мой. Это моё... моё...
+  - `narration-ru` — **RU:** Слово «щит» у старика стёрлось. Оно уже давно висит на чёрном пальто Рука — и старик не может его даже назвать.
+
+#### Панель 12
+
+- **bg:** `dungeon` | **mood:** `action` | **sfx:** `CLANG`
+- **cast:** ruk (center), dan (left), oldman (right)
+- **art:** Dramatic dutch-angle action shot from below, a glowing brass wall of light fills the frame, hard shadows. Ruk at the CENTRE stands on a rope bridge above, one hand open, a huge brass SHIELD of light blazing in front of him, hunters beside him. Below at the LEFT Dan shields the old man at the RIGHT with an arm, the red thread tight between the old man's finger and Ruk's coat, glowing.
+- **Реплики:**
+  - `speech / ruk` — **EN:** Mine. All of it. Everything on this coat is mine. — **RU:** Моё. Всё. Всё на этом пальто моё.
+  - `speech / oldman` — **EN:** The shield belongs to me! — **RU:** Щит принадлежит мне!
+
+#### Панель 13
+
+- **bg:** `dungeon` | **mood:** `action` | **sfx:** `CRACK`
+- **cast:** thorn (center), ruk (right)
+- **art:** Extreme dramatic low angle, cinematic cel-shaded freeze frame, deep blacks, vermilion glow, cracked glass effect. Thorn at the CENTRE foreground slashes the pen across the air in one line; the brass shield pane at the RIGHT in front of Ruk splits in a spider web of cracks, brass shards flying. Ruk recoils half a step, one hand lifted. Thorn's clothes stay dove-grey.
+- **Реплики:**
+  - `system / system` — **EN:** Not true. Correction. — **RU:** Неправда. Исправление.
+  - `speech / thorn` — **EN:** The coat is Ruk's. The words belong to others. Lesson two. — **RU:** Пальто — Рука. Слова принадлежат другим. Урок второй.
+
+#### Панель 14
+
+- **bg:** `dungeon` | **mood:** `tense` | **sfx:** `—`
+- **cast:** ruk (left), thorn (center), dan (right)
+- **art:** Wide tense shot of the lane, eye level, lanterns of watching Gutter people in the background. Ruk at the LEFT turns away stiffly, jaw tight, one brass badge on his coat gone dark; the hunters back off. Thorn at the CENTRE lowers her pen. Dan at the RIGHT, panting, holds the old man by the elbow. Gutter people watch silently from tent doors.
+- **Реплики:**
+  - `speech / dan` — **EN:** Miss Thorn, why are you not at the top? — **RU:** Мисс Торн, почему вы не наверху?
+  - `speech / thorn` — **EN:** I have my reasons, dear. Next sentence. — **RU:** У меня свои причины, дорогой. Следующая фраза.
+  - `system / system` — **EN:** Count: 124. — **RU:** Счёт: 124.
+
+#### Панель 15
+
+- **bg:** `dungeon` | **mood:** `tense` | **sfx:** `BANG`
+- **cast:** mira (left), dan (right)
+- **art:** Over-the-shoulder shot of a column wall, a sheet pinned to the stone, eye level. A hunter hammers a sheet of paper onto a stone column in the background as he leaves; the sheet carries only abstract ornament and blank lines, no letters. Mira at the LEFT stares at it, hand on the scarf bundle at her side. Dan at the RIGHT turns his head.
+- **Реплики:**
+  - `system / system` — **EN:** Auction. Lot seven: a child's name. Seven days. — **RU:** Аукцион. Лот семь: имя ребёнка. Семь дней.
+  - `speech / dan` — **EN:** Whose name is this? — **RU:** Чьё это имя?
+
+#### Панель 16
+
+- **bg:** `black` | **mood:** `tense` | **sfx:** `—`
+- **cast:** mira (left), silent (right)
+- **art:** Very dark close shot, dramatic low light, the thread is the only light. A red thread leaps from the pinned sheet and crosses the whole frame to the scarf bundle at the RIGHT, where a tiny red cord peeks out. Mira at the LEFT, half in shadow, looks at the bundle, eyes wide. The bundle hums. No face visible on the bundle.
+- **Реплики:**
+  - `system / system` — **EN:** The thread ends at Lina. — **RU:** Нить кончается у Лины.
+  - `speech / mira` — **EN:** Seven days. — **RU:** Семь дней.
+
+### Грамматика: 's и whose: чей? мой, твой
+
+'s показывает хозяина: Soup's wall — стена Супа, Dan's pencil — карандаш Дэна. Whose... ? значит «чей?»: Whose cap is this? Ответ: It is mine (мой) или It is yours (твой). Mine и yours стоят отдельно, без существительного: The pencil is mine. Глагол belong to значит «принадлежать»: It belongs to me. Не путай whose [хуз] и who's [хуз] = who is: звучат одинаково, пишутся по-разному. В мире Башни Trace работает так: правдиво спроси, чьё слово, — и красная нить приведёт к хозяину.
+
+- It is Soup's wall. — Это стена Супа.
+- Whose cap is this? — Чья это кепка?
+- It belongs to me, dear. — Она принадлежит мне, дорогой.
+
+### Квиз
+
+1. Что нашла красная ручка мисс Торн в благодарности Дэна на стене?
+   - Три ошибки в его благодарности **(верно)**
+   - Секретную дверь
+   - Чужой почерк Руха
+   - Карту Gutter
+2. К кому привела нить от щита Рука?
+   - К Пипу
+   - К старику, подметающему доску **(верно)**
+   - К Мире
+   - К Супу
+3. Что сделала мисс Торн с фразой Рука «Everything on this coat is mine»?
+   - Объяснила её Руку
+   - Прочитала вслух
+   - Сломала как неправду, и щит треснул **(верно)**
+   - Записала на стену
+4. Чьё имя показала нить с афиши аукциона?
+   - Пипа
+   - Лины **(верно)**
+   - Супа
+   - Дэна
+
+---
+
+## Эпизод 5 (s2e05): I Would Like a Name — Мне, пожалуйста, имя
+
+- **Уровень:** A1
+- **Панелей:** 14
+- **newWords:** job, pay, lift, repair, polite, sign, would, could, team, pass
+
+### Синопсис
+
+Семь дней до аукциона. Мисс Торн учит вежливой просьбе: «Could I have a pass, please?» — и Дэн получает PLEASE, Soft Key: вежливость открывает людей. Хоб, угрюмый хранитель водяного лифта, пускает Дэна, и тот чинит лифт на ходу над пропастью, а Мира ненавидит, но говорит «please» и срывает ворота с петель. Три дня ремонтов — Count растёт. В конторе Ledger Дэн видит прейскурант «Callers / Returns» — голоса извне продаются, мамин тоже. В списке участников Proof — «Marl, A.», спонсор Ledger. Клерк: нужна команда из пяти. У Дэна двое. Count 150.
+
+### Сценарий по панелям
+
+#### Панель 01
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** mira (left), soup (center), dan (right)
+- **art:** Warm medium shot across the kitchen table, slight low angle, wide lens, hard cel shadows. Mira at the LEFT stands with her palms flat on the table, red cord on her LEFT wrist, scowling at the table. Soup at the CENTRE holds out a steaming bowl in both big hands. Dan at the RIGHT reaches for it eagerly with his RIGHT hand, hair a mess, glasses slipping.
+- **Реплики:**
+  - `narration-ru` — **RU:** До аукциона семь дней. Войти туда можно за триста слов — или выиграть Proof, городское испытание. Но на Proof нужен пропуск Ledger.
+  - `speech / mira` — **EN:** Seven days. We need a pass. We need a team. — **RU:** Семь дней. Нужен пропуск. Нужна команда.
+  - `speech / soup` — **EN:** Would you like some soup, Dan? — **RU:** Хочешь супа, Дэн?
+  - `speech / dan` — **EN:** Yes, please. I would like a very big bowl. — **RU:** Да, пожалуйста. Я бы хотел очень большую миску.
+
+#### Панель 02
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), thorn (center), pip (right)
+- **art:** Comic medium shot, eye level, Thorn small but dominating the frame, wide lens. Thorn at the CENTRE holds her pen like a pointer and rests her LEFT hand on her cane. Dan at the LEFT copies her pose, trying to look polite and stiff. Pip at the RIGHT slouches on a bench with his cap over one eye, grinning.
+- **Реплики:**
+  - `speech / thorn` — **EN:** Be polite, dear. Say, 'Could I have a pass, please?' — **RU:** Будь вежлив, дорогой. Скажи: «Можно мне пропуск, пожалуйста?»
+  - `speech / dan` — **EN:** Could I have a pass, please? — **RU:** Можно мне пропуск, пожалуйста?
+  - `speech / pip` — **EN:** That sounds expensive. I love it. — **RU:** Звучит дорого. Обожаю.
+
+#### Панель 03
+
+- **bg:** `street` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), pip (right)
+- **art:** Wide shot of the Gutter market lane, slightly high angle, strings of lanterns, crowd of Unwritten in the background. A big wall of the lane is covered with paper slips pinned in rows, abstract blank slips only. Dan at the LEFT reads them with his head tilted, a finger at the slips; Pip at the RIGHT hops on a crate beside him pointing at one slip with both hands.
+- **Реплики:**
+  - `system / system` — **EN:** Jobs. Carry sacks: pay two. Repair the water lift: pay forty. — **RU:** Работа. Таскать мешки: плата два. Починить водяной лифт: плата сорок.
+  - `speech / dan` — **EN:** I hate carrying. I like repairing. — **RU:** Ненавижу таскать. Люблю чинить.
+  - `speech / pip` — **EN:** I love money. Take the lift job! — **RU:** Обожаю деньги. Берись за лифт!
+
+#### Панель 04
+
+- **bg:** `gate` | **mood:** `tense` | **sfx:** `CLICK`
+- **cast:** dan (left), hob (center), mira (right)
+- **art:** Dramatic low-angle shot at the iron gate of the lift station, strong rim light, hard shadows, dutch tilt. Hob at the CENTRE blocks the gate with a heavy wrench held across his chest in both hands. Dan at the LEFT leans forward politely, both hands open and empty. Mira at the RIGHT watches with arms crossed. The gate bars glow faintly vermilion where Dan speaks.
+- **Реплики:**
+  - `speech / hob` — **EN:** No. Nobody touches my lift. Go away. — **RU:** Нет. Никто не трогает мой лифт. Уходите.
+  - `speech / dan` — **EN:** Could I see the lift, please? — **RU:** Можно мне посмотреть лифт, пожалуйста?
+  - `speech / hob` — **EN:** ...Hm. A polite boy. Nobody says please here. Come. — **RU:** ...Хм. Вежливый мальчик. Здесь никто не говорит «пожалуйста». Заходи.
+  - `system / system` — **EN:** PLEASE is yours now. Soft Key. Count: 131. — **RU:** PLEASE теперь твой. Мягкий ключ. Счёт: 131.
+
+#### Панель 05
+
+- **bg:** `dungeon` | **mood:** `action` | **sfx:** `WHIRR`
+- **cast:** hob (left), dan (right)
+- **art:** Dynamic wide shot inside the lift station, deep perspective, giant spinning drums, speed blur, hard cel shadows. A huge cable drum spins in the middle of the stone hall, a wooden car flashes up the shaft in the background. Hob at the LEFT points at it, shouting over the noise, his RIGHT hand on a lever. Dan at the RIGHT watches with wide eyes, pencil behind his RIGHT ear, rolling up his sleeves.
+- **Реплики:**
+  - `shout / hob` — **EN:** The lift cannot stop! No lift, no water, no Gutter! — **RU:** Лифт не может остановиться! Нет лифта — нет воды — нет Gutter!
+  - `speech / dan` — **EN:** So I repair it while it moves. Of course. — **RU:** Значит, я чиню его на ходу. Конечно.
+
+#### Панель 06
+
+- **bg:** `sky` | **mood:** `action` | **sfx:** `WHOOSH`
+- **cast:** dan (center), mira (right)
+- **art:** Vertigo shot from above and beside, extreme depth of the dark inner wall of the Tower, wind lines, cable crossing the frame diagonally. A wooden lift car hangs from a thick cable above a huge drop. Dan at the CENTRE kneels on the car roof, both hands on a pulley with a wrench, glasses crooked, hair blown. Mira at the RIGHT hangs from the side rail with her LEFT hand (red cord) and holds Dan's belt with her RIGHT hand.
+- **Реплики:**
+  - `speech / dan` — **EN:** I am repairing a lift. The lift is moving. I hate this. — **RU:** Я чиню лифт. Лифт едет. Я это ненавижу.
+  - `speech / mira` — **EN:** I am holding your belt. Do not look down. — **RU:** Я держу твой ремень. Не смотри вниз.
+
+#### Панель 07
+
+- **bg:** `sky` | **mood:** `action` | **sfx:** `BANG`
+- **cast:** dan (left), mira (right)
+- **art:** Dynamic close action shot, tilted horizon, speed lines, glowing vermilion burst. A rusty iron gate on the platform edge is jammed shut in front of the car. Dan at the LEFT still crouched on the roof with both hands full of the pulley, shouting. Mira at the RIGHT, one boot on the rail, snarls at the gate; the gate bars buckle and light up vermilion, the whole gate panel popping out of its frame in a burst of sparks.
+- **Реплики:**
+  - `shout / dan` — **EN:** The gate is stuck! Say please, Mira! — **RU:** Ворота застряли! Скажи «пожалуйста», Мира!
+  - `speech / mira` — **EN:** I hate saying please. ...Please. Open. — **RU:** Ненавижу говорить «пожалуйста». ...Пожалуйста. Откройся.
+  - `system / system` — **EN:** Soft Key. The gate opens. Too much. — **RU:** Мягкий ключ. Ворота открыты. Слишком.
+
+#### Панель 08
+
+- **bg:** `street` | **mood:** `calm` | **sfx:** `—`
+- **cast:** mira (left), pip (center), silent (right)
+- **art:** Comic medium shot at the Gutter cistern as water pours into it, eye level, wide lens. Water pours from a pipe into a stone cistern behind them. Mira at the LEFT wipes her face with one hand, soaked, glaring. Pip at the CENTRE bounces on his toes, delighted. At the RIGHT the small scarf bundle of Lina sits on a barrel with only the tiny red cord showing, no face visible.
+- **Реплики:**
+  - `speech / mira` — **EN:** Never again. — **RU:** Больше никогда.
+  - `speech / pip` — **EN:** Please is expensive. I love it. — **RU:** «Пожалуйста» — дорого. Обожаю.
+  - `speech / silent` — **EN:** Please. — **RU:** Пожалуйста.
+
+#### Панель 09
+
+- **bg:** `street` | **mood:** `action` | **sfx:** `CLANG`
+- **cast:** dan (center)
+- **art:** Montage split-panel feeling, four quick vignettes in one dynamic composition with diagonal dividers, bright dynamic angles. Dan at the CENTRE works at speed in four small inset scenes around him: tightening a pulley, hammering a rope-bridge plank, rewiring a pump, kicking a stove hatch shut. In each he holds a tool in both hands. Gold sparks and tiny vermilion glow-shapes rise from every fix.
+- **Реплики:**
+  - `narration-ru` — **RU:** Три дня Дэн чинит всё, что скрипит: лифт, мостик, насос, печь. Каждый ремонт — слово. Счёт растёт.
+  - `system / system` — **EN:** Count: 142. — **RU:** Счёт: 142.
+
+#### Панель 10
+
+- **bg:** `street` | **mood:** `calm` | **sfx:** `—`
+- **cast:** hob (left), dan (right)
+- **art:** Warm medium shot, eye level, golden lamp light on the water running in the lane. Water runs freely through the Gutter lane behind them. Hob at the LEFT presses a small round token and a few coins into Dan's open RIGHT hand with his LEFT hand, gruff and almost smiling. Dan at the RIGHT bows a little.
+- **Реплики:**
+  - `speech / hob` — **EN:** Good job! Here is your pay. And a pass for the counter. — **RU:** Отличная работа! Вот плата. И пропуск к стойке.
+  - `speech / dan` — **EN:** Thank you, Hob. I enjoy a good lift. — **RU:** Спасибо, Хоб. Мне нравится хороший лифт.
+
+#### Панель 11
+
+- **bg:** `hall` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), clerk (center)
+- **art:** Low wide shot of the Ledger counter hall, giant high desk towering over Dan, severe symmetry, hard shadows. The clerk at the CENTRE sits behind a very high desk, huge round spectacles, rubber-stamp ring on his finger, looking down. Dan at the LEFT stands on tiptoes holding the token up in his RIGHT hand. A queue of grey people behind him.
+- **Реплики:**
+  - `speech / clerk` — **EN:** Name? — **RU:** Имя?
+  - `speech / dan` — **EN:** Dan. I would like to enter the Proof, please. — **RU:** Дэн. Я бы хотел участвовать в Proof, пожалуйста.
+  - `speech / clerk` — **EN:** Sign here. Minimum count: 150. You have it. Barely. — **RU:** Подпиши здесь. Минимум: 150. У тебя есть. Едва.
+  - `system / system` — **EN:** Count: 150. — **RU:** Счёт: 150.
+
+#### Панель 12
+
+- **bg:** `hall` | **mood:** `tense` | **sfx:** `THUD`
+- **cast:** dan (left), mira (right)
+- **art:** Tense shot from behind the desk looking at the heroes, tilted frame, glowing System window floating in the air. A cream System window with a vermilion double border floats in the air between Dan at the LEFT and Mira at the RIGHT; both stare at it. Behind them the clerk's wall shows two blank placards (abstract smudged shapes only). Dan's jaw drops; Mira's hand lands on his shoulder.
+- **Реплики:**
+  - `narration-ru` — **RU:** За спиной клерка — прейскурант Ledger. «Callers» — голоса из-за пределов Башни. «Returns» — возвращения домой. Мамин голос — тоже товар.
+  - `system / system` — **EN:** Price list. Callers: 50 words. Returns: 600 words. — **RU:** Прейскурант. Callers: 50 слов. Returns: 600 слов.
+  - `speech / dan` — **EN:** Callers? Voices from outside? That is Mom! — **RU:** Callers? Голоса снаружи? Это же мама!
+  - `speech / mira` — **EN:** They sell your phone, Zero. — **RU:** Они продают твой телефон, Зеро.
+
+#### Панель 13
+
+- **bg:** `hall` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), clerk (center)
+- **art:** Quiet medium shot, eye level, the clerk leaning down slightly. Dan at the LEFT takes a long breath, shoulders down, and holds both hands open on the desk. The clerk at the CENTRE leans toward him, eyebrows slightly raised, slides a long blank scroll across the desk with one inky hand.
+- **Реплики:**
+  - `speech / dan` — **EN:** Could I see the list of teams, please? — **RU:** Можно мне посмотреть список команд, пожалуйста?
+  - `speech / clerk` — **EN:** Polite. Hm. Sign it, if you want. — **RU:** Вежливый. Хм. Подпиши, если хочешь.
+  - `system / system` — **EN:** Entrants. Team: Marl, A. Sponsor: the Ledger. — **RU:** Участники. Команда: Марл, А. Спонсор: Ledger.
+
+#### Панель 14
+
+- **bg:** `black` | **mood:** `tense` | **sfx:** `—`
+- **cast:** clerk (left), dan (right)
+- **art:** Very dark close shot, the clerk's big spectacles reflecting a single lamp, Dan half in shadow. The clerk at the LEFT, his spectacles reflecting the lamp, a stamp ring raised. Dan at the RIGHT, only half-lit, holds two fingers up in front of him, frozen. Behind them the silhouette of the queue.
+- **Реплики:**
+  - `speech / clerk` — **EN:** Would you like to sign? You need a team of five. — **RU:** Хотите записаться? Нужна команда из пяти.
+  - `speech / dan` — **EN:** I have two. — **RU:** У меня двое.
+
+### Грамматика: would like, like/love/hate + -ing, could … please
+
+I would like … — вежливое «я бы хотел»: I would like some soup. Would you like some soup? — «Хотите супа?» Просьба: Could I see the lift, please? — «Можно мне посмотреть лифт?» (could звучит вежливее, чем can). После like, love, hate глагол получает -ing: I like repairing. I hate carrying. Слово please открывает людей — это сила Soft Key. Вежливость в Башне работает как ключ.
+
+- I would like a very big bowl. — Я бы хотел очень большую миску.
+- I hate carrying. I like repairing. — Ненавижу таскать. Люблю чинить.
+- Could I see the lift, please? — Можно мне посмотреть лифт, пожалуйста?
+
+### Квиз
+
+1. Как Дэн убедил Хоба показать лифт?
+   - Заплатил словами
+   - Вежливо попросил с «please» **(верно)**
+   - Починил замок
+   - Пригрозил
+2. Что сделала Мира, когда ворота застряли?
+   - Выбила их ногой
+   - Сказала «Please», хотя ненавидит это слово **(верно)**
+   - Позвала Хоба
+   - Спрыгнула
+3. Что Дэн понял, увидев прейскурант Ledger?
+   - Что Callers — голоса из-за Башни, в том числе мамин **(верно)**
+   - Что Returns бесплатны
+   - Что пропуск стоит 600
+   - Что клерк его знает
+4. Что нужно, чтобы записаться на Proof?
+   - Пропуск и 600 слов
+   - Команда из пяти **(верно)**
+   - Спонсор — Ruk
+   - Победа в дуэли
+
+---
+
+## Эпизод 6 (s2e06): The Clock District — Часовой квартал
+
+- **Уровень:** A1
+- **Панелей:** 14
+- **newWords:** clock, hour, late, early, today, tomorrow, begin, ready, meet, friday
+
+### Синопсис
+
+Команда из пяти собрана: Дэн, Мира, Пип, Суп (он закрыл кухню и взял котёл) и Лина в капюшоне — «она стесняется». В Часовом квартале всё по расписанию: Proof начинается в пятницу в девять, команды собираются в восемь. Первая тренировка на мосту, который открывается ровно в десять, проваливается: Пип слишком рано, Суп опаздывает, мост закрывается. Мисс Торн учит at/on/in. Ночью на крышах Nad голосом Дэна («I am Dan») открывает дверь хранилища часов — ворота помнят имя Дэна — и уносит семь банок; Пип первым узнаёт: «That is not Dan. That is Nad». На рассвете сторож указывает на Дэна: «He says his name every time». Система: Дэн в розыске. Count 165.
+
+### Сценарий по панелям
+
+#### Панель 01
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), pip (center), mira (right)
+- **art:** Warm wide shot of the kitchen at dawn, group portrait feeling, slight low angle, hard cel shadows and rim light from the door. Dan at the LEFT counts on his fingers with his RIGHT hand, glasses crooked, proud. Pip at the CENTRE stands on a stool with his chest out and his cap high. Mira at the RIGHT points flatly at Pip with her LEFT hand (red cord). Behind them Soup packs a huge pot onto his back, and a small hooded figure (Lina, hood up, no face visible) sits on the bench.
+- **Реплики:**
+  - `narration-ru` — **RU:** Пятёрка собрана: Дэн, Мира, Пип, Суп — он закрыл кухню и взял котёл с собой — и Лина в капюшоне. Остаётся научиться жить по часам.
+  - `speech / dan` — **EN:** Five people. A team! Mira, Pip, Soup, Lina, and me. — **RU:** Пять человек. Команда! Мира, Пип, Суп, Лина и я.
+  - `speech / pip` — **EN:** I am eighteen. Write it on the list. — **RU:** Мне восемнадцать. Запиши в список.
+  - `speech / mira` — **EN:** You are eleven, Pip. — **RU:** Тебе одиннадцать, Пип.
+
+#### Панель 02
+
+- **bg:** `street` | **mood:** `tense` | **sfx:** `TICK`
+- **cast:** dan (left), pip (right)
+- **art:** Epic wide establishing shot, extreme depth, dutch angle, giant clock faces everywhere on tall stacked walls, hard cel shadows and vermilion-tinted dawn. The Clock District: stacked tower walls covered with enormous clock faces of brass and stone, no numerals, only abstract tick marks; gears turn in the walls, bridges swing on chains. Dan at the LEFT and Pip at the RIGHT stand tiny at the bottom, looking up with open mouths. A cream System window hovers beside them.
+- **Реплики:**
+  - `system / system` — **EN:** The Proof begins on Friday at nine. Teams meet at eight. — **RU:** Proof начинается в пятницу в девять. Команды собираются в восемь.
+  - `speech / dan` — **EN:** Today is Monday. Friday is four days away. We are ready. — **RU:** Сегодня понедельник. До пятницы четыре дня. Мы готовы.
+  - `speech / pip` — **EN:** The clock says nine. I am early. Early is when I sell. — **RU:** Часы показывают девять. Я рано. Рано — это когда я продаю.
+
+#### Панель 03
+
+- **bg:** `street` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), citizen (center), mira (right)
+- **art:** Frontal comic medium shot at the district gate, wide lens, symmetrical composition, slight low angle. A stern gate warden (a citizen in a brass-buttoned coat and tall cap, a pocket watch in his hand) stands at the CENTRE in front of a huge iron clock gate. Dan at the LEFT leans toward him politely, hands visible. Mira at the RIGHT hides the hooded small figure of Lina behind her with her LEFT arm.
+- **Реплики:**
+  - `speech / citizen` — **EN:** Name? The Clock gate remembers visitors until tomorrow. — **RU:** Имя? Часовые ворота помнят гостей до завтра.
+  - `speech / dan` — **EN:** Dan. Just Dan. — **RU:** Дэн. Просто Дэн.
+  - `speech / mira` — **EN:** The fifth is shy. She does not talk. — **RU:** Пятая стесняется. Она не говорит.
+
+#### Панель 04
+
+- **bg:** `street` | **mood:** `action` | **sfx:** `CREAK`
+- **cast:** pip (left), dan (center), soup (right)
+- **art:** Dynamic wide action shot from below, a long rope-and-plank bridge between two clock towers, speed lines, giant clock face in the background, tilted horizon. A plank bridge rocks between two towers above a deep drop. Pip at the LEFT is already sprinting across far ahead with his arms out like wings. Dan at the CENTRE runs mid-bridge with both hands on the rope rails. Soup at the RIGHT, huge and slow, has just stepped onto the first plank, the pot on his back, calm as ever.
+- **Реплики:**
+  - `speech / dan` — **EN:** The bridge opens at ten. Be ready! — **RU:** Мост открывается в десять. Будьте готовы!
+  - `speech / pip` — **EN:** The clock says ten. I am early! Very early! — **RU:** Часы показывают десять. Я рано! Очень рано!
+  - `speech / soup` — **EN:** I am... a little late. — **RU:** Я... немного опаздываю.
+
+#### Панель 05
+
+- **bg:** `street` | **mood:** `action` | **sfx:** `CLANG`
+- **cast:** dan (left), soup (center), mira (right)
+- **art:** Extreme dynamic shot, bridge halves rising like jaws, speed blur, strong diagonals, vermilion flare from Mira's word. The two halves of the plank bridge tilt upward like a drawbridge closing, a gap widening in the middle. Dan at the LEFT clings to a rope rail with both hands, shouting. Soup at the CENTRE is stuck on the slope with the pot on his back, one hand on the plank. Mira at the RIGHT holds a rope with her LEFT hand (red cord) and her RIGHT hand raised, a vermilion flare glowing around the rope as it stops the bridge from rising further.
+- **Реплики:**
+  - `narration-ru` — **RU:** Мост закрывается строго по часам — ни на секунду позже. Команда уже на середине.
+  - `system / system` — **EN:** Warning. The bridge closes in one minute. — **RU:** Внимание. Мост закроется через минуту.
+  - `shout / dan` — **EN:** Soup! Run! Now! — **RU:** Суп! Беги! Сейчас!
+  - `shout / mira` — **EN:** HOLD! — **RU:** HOLD!
+
+#### Панель 06
+
+- **bg:** `street` | **mood:** `calm` | **sfx:** `—`
+- **cast:** thorn (center), dan (left)
+- **art:** Quiet comic medium shot, eye level, wide lens, Thorn small and precise. Dan at the LEFT sits soaked and dripping on a stone step, glasses fogged, a coil of rope around his shoulders. Thorn at the CENTRE stands in front of a huge clock face, pen raised like a pointer, perfectly dry and calm. At the far edge, Soup and Pip sit tangled in rope, Pip's cap on Soup's head.
+- **Реплики:**
+  - `speech / thorn` — **EN:** Time is a sentence, dear. At six, on Monday, in the morning. — **RU:** Время — это предложение, дорогой. В шесть, в понедельник, утром.
+  - `speech / dan` — **EN:** At six. On Monday. In the morning. I can do that. — **RU:** В шесть. В понедельник. Утром. Это я могу.
+  - `system / system` — **EN:** Count: 165. — **RU:** Счёт: 165.
+
+#### Панель 07
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (center), soup (right)
+- **art:** Comic medium shot around a small attic table with a clock ticking loudly, eye level. Dan at the LEFT leans over a table with a stub of pencil in his RIGHT hand, drawing a sketchy plan on blank paper. Mira at the CENTRE leans back with arms crossed, shaking her head. Soup at the RIGHT sits on an oversized crate with the pot in his lap, eyes half closed.
+- **Реплики:**
+  - `speech / dan` — **EN:** Tomorrow we begin at quarter to eight. We meet here. — **RU:** Завтра начинаем без четверти восемь. Встречаемся здесь.
+  - `speech / mira` — **EN:** Quarter to is late. We meet at half past seven. — **RU:** Без четверти — поздно. Встречаемся в половине восьмого.
+  - `speech / soup` — **EN:** I am ready at six. Soup is always ready. — **RU:** Я готов в шесть. Суп всегда готов.
+
+#### Панель 08
+
+- **bg:** `room` | **mood:** `calm` | **sfx:** `—`
+- **cast:** dan (left), mira (right)
+- **art:** Quiet dark shot, wide lens, a night attic with small sleeping shapes, a clock face glowing in the window. Night attic: Dan at the LEFT lies on a mattress staring at the ceiling, glasses on the floor beside him. Mira at the RIGHT sits against the wall with her knees up, one eye open, the small hooded shape of Lina asleep against her arm. Soup and Pip sleep in the background.
+- **Реплики:**
+  - `speech / mira` — **EN:** Sleep, Zero. Today is over. It is half past eleven. — **RU:** Спи, Зеро. Сегодня кончилось. Половина двенадцатого.
+  - `speech / dan` — **EN:** Tomorrow we are ready. Tomorrow. — **RU:** Завтра мы готовы. Завтра.
+
+#### Панель 09
+
+- **bg:** `night-city` | **mood:** `tense` | **sfx:** `CLICK`
+- **cast:** silent (center)
+- **art:** Eerie low-angle shot at night in a lamp-lit courtyard, giant dark clock face looming above, a heavy round vault door ahead, deep blacks and teal rim light. A tall gaunt Silent stands at the CENTRE before a huge round vault door with a brass ring. Nad: a tall gaunt Silent with a smooth matte white face, no eyes, nose or lips, two round dents where Dan's glasses would sit, a single vertical teal seam, a stub of a torn mustard lanyard on the neck. Its long fingers rest against the door. A thin stripe of light from the door slit falls on the floor; the Silent stays in the shadow beside it.
+- **Реплики:**
+  - `speech / silent` — **EN:** I am Dan. — **RU:** Я Дэн.
+  - `system / system` — **EN:** Name heard: Dan. The hour vault opens. — **RU:** Имя услышано: Дэн. Хранилище часов открыто.
+
+#### Панель 10
+
+- **bg:** `room` | **mood:** `tense` | **sfx:** `—`
+- **cast:** pip (left), dan (right)
+- **art:** Tight close two-shot in the dark attic, tilted frame, only a sliver of window light. Pip at the LEFT sits bolt upright on his mattress with his cap crooked and a finger pointing at the window. Dan at the RIGHT lies half under a blanket with one eye open, glasses missing. Outside in the window frame a distant tall silhouette on the roofs.
+- **Реплики:**
+  - `speech / pip` — **EN:** Three in the morning. I hear Dan in the street. — **RU:** Три ночи. Я слышу Дэна на улице.
+  - `speech / dan` — **EN:** I am here. I am sleeping. Mostly. — **RU:** Я здесь. Я сплю. Почти.
+  - `speech / pip` — **EN:** That is not Dan. That is Nad. — **RU:** Это не Дэн. Это Nad.
+
+#### Панель 11
+
+- **bg:** `night-city` | **mood:** `action` | **sfx:** `WHOOSH`
+- **cast:** dan (left), silent (right), mira (center)
+- **art:** Dynamic night chase shot across slanted rooftops, extreme perspective, speed lines, giant clock face behind, tilted horizon. On the slanted roofs a tall faceless Silent at the RIGHT sprints away with an armful of glowing amber jars. Nad: a tall gaunt Silent with a smooth matte white face, no eyes, nose or lips, two round dents where Dan's glasses would sit, a single vertical teal seam, a stub of a torn mustard lanyard on the neck. Mira at the CENTRE leaps a gap in mid-air, red cord on her LEFT wrist. Dan at the LEFT runs behind in his socks, glasses on, one arm out, panting.
+- **Реплики:**
+  - `speech / dan` — **EN:** Stop! That is my voice! — **RU:** Стой! Это мой голос!
+  - `speech / silent` — **EN:** I am Dan. I am not weak. I am tired. — **RU:** Я Дэн. Я не слабый. Я устал.
+  - `speech / mira` — **EN:** Fast, Zero. He has the hours. — **RU:** Быстро, Зеро. У него часы.
+
+#### Панель 12
+
+- **bg:** `night-city` | **mood:** `action` | **sfx:** `CRACK`
+- **cast:** dan (left), mira (right)
+- **art:** Dramatic freeze-frame shot from below, shattered amber glow, deep shadow under a bridge, shards of light. At the edge of a roof, Dan at the LEFT and Mira at the RIGHT stop short, staring into a black gap under a bridge where the tall Silent is melting into the shadow. One amber jar lies cracked on the roof between them, golden light spilling out as a glowing puddle. Mira's LEFT hand holds Dan's sleeve.
+- **Реплики:**
+  - `system / system` — **EN:** Seven hours are gone. — **RU:** Семь часов пропали.
+  - `speech / dan` — **EN:** He says my words. He wears my name. — **RU:** Он говорит мои слова. Он носит моё имя.
+  - `speech / mira` — **EN:** Friday is near. We are late again. — **RU:** Пятница близко. Мы снова опаздываем.
+
+#### Панель 13
+
+- **bg:** `street` | **mood:** `tense` | **sfx:** `—`
+- **cast:** citizen (left), dan (center), mira (right)
+- **art:** Wide tense shot at dawn in the courtyard before the open vault, a crowd gathering, eye level, long shadows. The round vault door stands open behind them. A watchman (citizen, cap and lantern) at the LEFT points a shaking finger straight at Dan at the CENTRE, who holds up both hands with his mouth open. Mira at the RIGHT steps half in front of him. A crowd of grey townspeople watches from behind.
+- **Реплики:**
+  - `speech / citizen` — **EN:** Seven hour jars are gone. The door heard a name. — **RU:** Семь банок часов пропали. Дверь слышала имя.
+  - `speech / dan` — **EN:** Today we begin at eight. I am here! — **RU:** Сегодня мы начинаем в восемь. Я здесь!
+  - `speech / citizen` — **EN:** It is him. He says his name every time. — **RU:** Это он. Он каждый раз называет своё имя.
+
+#### Панель 14
+
+- **bg:** `black` | **mood:** `tense` | **sfx:** `—`
+- **cast:** dan (center)
+- **art:** Very dark close shot, a lone red-bordered System window, Dan's face lit only by it. Black frame. A cream System window with a solid red inverted frame glows in the centre of the dark; Dan at the CENTRE in half-profile, lit only by it, glasses reflecting the window, mouth slightly open.
+- **Реплики:**
+  - `system / system` — **EN:** Warning. Dan is wanted. — **RU:** Внимание. Дэн в розыске.
+
+### Грамматика: at / on / in: время и расписание
+
+At — точное время: at six, at nine, at half past seven. On — день: on Monday, on Friday. In — часть суток или период: in the morning, in four days. Для расписаний английский использует простое настоящее: The Proof begins on Friday. The bridge opens at ten. Half past seven — половина восьмого, quarter to eight — без четверти восемь. Слова today (сегодня) и tomorrow (завтра) стоят без предлога.
+
+- The Proof begins on Friday at nine. — Proof начинается в пятницу в девять.
+- The bridge opens at ten. — Мост открывается в десять.
+- Tomorrow we begin at quarter to eight. — Завтра начинаем без четверти восемь.
+
+### Квиз
+
+1. Когда начинается the Proof?
+   - В понедельник в десять
+   - В пятницу в девять **(верно)**
+   - Завтра в шесть
+   - В четверг в восемь
+2. Почему команда провалила тренировку на мосту?
+   - Мост был сломан
+   - Суп опоздал: мост закрывается строго по часам **(верно)**
+   - Мира не умеет бегать
+   - Пип украл ключ
+3. Что сказал Пип ночью про голос на улице?
+   - Это Мира
+   - Это Дэн
+   - Это Nad, а не Дэн **(верно)**
+   - Это сторож
+4. Почему сторож обвиняет Дэна?
+   - Дэн оставил следы
+   - Дверь хранилища услышала его имя **(верно)**
+   - Дэна видели с банками
+   - Дэн сам признался
+
+---
+
 # 3. Статус эпизодов (картинки и видео)
 
 Данные из `art/manifest.json`, только чтение.
@@ -2691,6 +3856,12 @@ This — то, что рядом («это»), that — то, что подал�
 | s1e10 | The First Sentence / Первое предложение | 16 | 16 из 16 | 1 (панели 7) | да, 16 |
 | s1e11 | The Keeper's Door / Дверь Хранителя | 17 | 17 из 17 | 1 (панели 13) | да, 17 |
 | s1e12 | Sister / Сестра | 16 | 16 из 16 | 1 (панели 12) | да, 16 |
+| s2e01 | Margin / Поля | 16 | 16 из 16 | 1 (панели 8) | да, 16 |
+| s2e02 | The Auditor's Son / Сын аудитора | 16 | 16 из 16 | 1 (панели 11) | да, 16 |
+| s2e03 | Soup / Суп | 16 | 16 из 16 | 1 (панели 11) | да, 16 |
+| s2e04 | The Red Pen / Красная ручка | 16 | 16 из 16 | 1 (панели 13) | да, 16 |
+| s2e05 | I Would Like a Name / Мне, пожалуйста, имя | 14 | 14 из 14 | 1 (панели 7) | да, 14 |
+| s2e06 | The Clock District / Часовой квартал | 14 | 14 из 14 | 1 (панели 11) | да, 14 |
 
 ---
 

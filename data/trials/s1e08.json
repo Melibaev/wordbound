@@ -200,7 +200,7 @@
   },
   {
    "id": "s1e08-t2",
-   "title": "Mine, Not Yours",
+   "title": "His, Not Yours",
    "titleRu": "Моё, не твоё",
    "pass": 0.8,
    "lives": 3,
@@ -244,7 +244,7 @@
      "answer": 0,
      "success": {
       "who": "dan",
-      "en": "His word. Not mine.",
+      "en": "His word. Not for me.",
       "ru": "Его слово. Не моё."
      },
      "fail": {

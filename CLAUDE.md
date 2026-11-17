@@ -37,3 +37,14 @@ Free iPhone PWA that teaches English (A0→B2) to a Russian speaker through an o
 - Palette: cream, ink black, ash grey, ochre; teal only for the Silent; vermilion only for word power. No purple.
 - Trials: no speaking/pronunciation (owner studies at work) — read, tap, type, listen only; woven into the plot.
 - Season 2 art style = "v1": Korean action webtoon, high-contrast digital painting, hard cel shadows, rim light, deep blacks, sharp faces, dynamic perspective, glowing effects. Needs new clean character references first.
+
+## Как делать серию быстро (урок ночи 2026-11-17: перерисовка съела 2 ч из 4)
+1. **Сначала тест на референсах, потом серии.** До массовой генерации новой серии/сезона прогнать 6 тестовых кадров с каждым героем и проверить глазами руку шнурка Миры, карандаш Дэна, лица Безмолвных, окна Системы. Исправить промпт/референс, и только потом пускать все панели. Одна проверка за 10 минут экономит часы перерисовок.
+2. **Чек-лист брака уже в промпте** (`--hint` или COMMON_RULES): «Dan black hair, clean forehead, pencil behind ear only», «Mira: red cord on exactly ONE wrist (viewer's right when she faces us)», «Silent: smooth head, no eyes, no sockets, one teal seam», «no floating windows/cards, no letterbox bars, no signs or letter-like glyphs, full frame».
+3. **Подсказки (`--hint`) короткие.** Длинные перечисления и слова вроде injured/bandage/faceless-with-details повышают шанс «Something went wrong» / «violates our policies». Батчи перерисовки ≤ 4 панелей, подсказка в одну короткую фразу.
+4. **Все дефекты одной серии собрать в один список и перерисовать одним пакетом;** брак сверять сразу после контакт-листа (я смотрю лист сам), не ждать, пока субагент по пузырям найдёт его позже. Пузыри ставить только после того, как картинки приняты.
+5. **Что идёт параллельно, а что нет.** Flow — по одной задаче (очередь). Параллельно: озвучка (GPU), испытания, пузыри следующих серий, письмо следующих серий субагентами. Не ждать Flow без дела: ставить цепочку скриптов (.sh) и заниматься остальным.
+6. **Принять «достаточно хорошо».** Не гонять третий раунд ради косметики (пустая рамка на стене, чёрные полосы без текста); критичное — только правила из READER-TASTE (пластырь, глаза Безмолвного, текст в картинке, шнурок).
+7. **Лимит.** Субагенты упираются в 5-часовой лимит. Длинные ночные цепочки запускать скриптами, а не диалогом, и не плодить параллельных Sonnet-агентов без нужды.
+8. **Регистрация персонажей во Flow ненадёжна** (страница `/character`, Flow часто даёт `waitForURL`). Референсы S2 прикладываются файлами из `~/flow-mcp-out/_cast/<Name>V.jpeg` (`tools/art/flow_batch.py: _ref_image`), персонажи заводить не надо.
+9. **Видео:** все в одном вызове `tools/art/videos_batch.py`, перед ним проверить, что панель-кадр принята (иначе видео унаследует брак). Ролики > 4 МБ сжать.

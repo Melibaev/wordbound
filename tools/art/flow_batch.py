@@ -28,6 +28,11 @@ SHEET_DIR = os.path.join(ROOT, ".models", "sheets")
 CAST = {"dan": "Dan", "mira": "Mira", "keeper": "Keeper", "silent": "Silent", "pip": "Pip",
         "trader": "Trader", "lina_human": "Lina"}
 
+# Season 2 ("v1") references (new clean portraits, 2026-11-17)
+CAST_V = {"dan": "DanV", "mira": "MiraV", "keeper": "KeeperV", "silent": "SilentV", "nad": "SilentV",
+          "pip": "PipV", "lina": "LinaV", "lina_human": "LinaV", "rook": "RukV", "ruk": "RukV",
+          "soup": "SoupV", "thorne": "ThorneV", "thorn": "ThorneV", "odessa": "OdessaV"}
+
 # Rules shared by every style (kept short: the agent enriches prompts itself).
 COMMON_RULES = (
     "No text, letters, captions or speech bubbles anywhere; glowing words are abstract glyph light. "
@@ -102,7 +107,7 @@ def build_scenes(ep_id, panels=None, hint="", style="s1"):
         body = blk.split("\n", 1)[1].replace("\n", " ") if "\n" in blk else blk
         refs = []
         for c in p.get("cast", []):
-            nm = CAST.get(c["id"])
+            nm = (CAST_V if style == "v1" else CAST).get(c["id"])
             if nm and nm not in refs:
                 refs.append(nm)
         extra = (" Extra direction: %s." % hint.strip().rstrip(".")) if hint else ""
@@ -111,10 +116,16 @@ def build_scenes(ep_id, panels=None, hint="", style="s1"):
     return scenes
 
 
+def _ref_image(n):
+    """Season-2 V portraits are attached from local files (not registered as Flow characters)."""
+    f = os.path.join(FLOW_OUT, "_cast", n + ".jpeg")
+    return f if n.endswith("V") and os.path.isfile(f) else "asset:" + n
+
+
 def agent_body(project, scenes):
     names = sorted({r for s in scenes for r in s["refs"]})
     return {"project": project, "aspect_ratio": "3:4",
-            "references": [{"image": "asset:" + n, "name": n} for n in names],
+            "references": [{"image": _ref_image(n), "name": n} for n in names],
             "scene_references": [s["refs"] for s in scenes],
             "scenes": [s["prompt"] for s in scenes]}
 

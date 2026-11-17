@@ -1,0 +1,850 @@
+{
+ "id": "s2e05",
+ "title": "I Would Like a Name",
+ "titleRu": "Мне, пожалуйста, имя",
+ "level": "A1",
+ "newWords": [
+  "job",
+  "pay",
+  "lift",
+  "repair",
+  "polite",
+  "sign",
+  "would",
+  "could",
+  "team",
+  "pass"
+ ],
+ "panels": [
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "left"
+    },
+    {
+     "id": "soup",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Warm medium shot across the kitchen table, slight low angle, wide lens, hard cel shadows. Mira at the LEFT stands with her palms flat on the table, red cord on her LEFT wrist, scowling at the table. Soup at the CENTRE holds out a steaming bowl in both big hands. Dan at the RIGHT reaches for it eagerly with his RIGHT hand, hair a mess, glasses slipping.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "До аукциона семь дней. Войти туда можно за триста слов — или выиграть Proof, городское испытание. Но на Proof нужен пропуск Ledger."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Seven days. We need a pass. We need a team.",
+     "ru": "Семь дней. Нужен пропуск. Нужна команда.",
+     "delivery": "flat, low, counting under her breath",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.38,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "soup",
+     "en": "Would you like some soup, Dan?",
+     "ru": "Хочешь супа, Дэн?",
+     "delivery": "slow deep gentle voice, long calm pauses",
+     "place": {
+      "x": 0.42,
+      "y": 0.03,
+      "w": 0.45,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Yes, please. I would like a very big bowl.",
+     "ru": "Да, пожалуйста. Я бы хотел очень большую миску.",
+     "delivery": "hopeful and polite, a tired man asking for the smallest luxury",
+     "place": {
+      "x": 0.38,
+      "y": 0.88,
+      "w": 0.55,
+      "tail": "up-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "thorn",
+     "pos": "center"
+    },
+    {
+     "id": "pip",
+     "pos": "right"
+    }
+   ],
+   "art": "Comic medium shot, eye level, Thorn small but dominating the frame, wide lens. Thorn at the CENTRE holds her pen like a pointer and rests her LEFT hand on her cane. Dan at the LEFT copies her pose, trying to look polite and stiff. Pip at the RIGHT slouches on a bench with his cap over one eye, grinning.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Be polite, dear. Say, 'Could I have a pass, please?'",
+     "ru": "Будь вежлив, дорогой. Скажи: «Можно мне пропуск, пожалуйста?»",
+     "delivery": "crisp precise voice of a very old teacher, calm and dry, never raised",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.46,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Could I have a pass, please?",
+     "ru": "Можно мне пропуск, пожалуйста?",
+     "delivery": "stiff and over-polite, like a pupil at a recital",
+     "place": {
+      "x": 0.02,
+      "y": 0.9,
+      "w": 0.4,
+      "tail": "up-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "That sounds expensive. I love it.",
+     "ru": "Звучит дорого. Обожаю.",
+     "delivery": "fast cheeky, delighted, bouncing on his toes with glee",
+     "place": {
+      "x": 0.55,
+      "y": 0.88,
+      "w": 0.42,
+      "tail": "up-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "pip",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide shot of the Gutter market lane, slightly high angle, strings of lanterns, crowd of Unwritten in the background. A big wall of the lane is covered with paper slips pinned in rows, abstract blank slips only. Dan at the LEFT reads them with his head tilted, a finger at the slips; Pip at the RIGHT hops on a crate beside him pointing at one slip with both hands.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Jobs. Carry sacks: pay two. Repair the water lift: pay forty.",
+     "ru": "Работа. Таскать мешки: плата два. Починить водяной лифт: плата сорок.",
+     "delivery": "flat cold game-system announcement with a dry hint of mockery",
+     "place": {
+      "x": 0.3,
+      "y": 0.02,
+      "w": 0.66,
+      "tail": "none"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I hate carrying. I like repairing.",
+     "ru": "Ненавижу таскать. Люблю чинить.",
+     "delivery": "dry, tired, finally smiling",
+     "place": {
+      "x": 0.32,
+      "y": 0.2,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "I love money. Take the lift job!",
+     "ru": "Обожаю деньги. Берись за лифт!",
+     "delivery": "fast cheeky, grinning, rubbing his fingers together",
+     "place": {
+      "x": 0.6,
+      "y": 0.32,
+      "w": 0.38,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "gate",
+   "mood": "tense",
+   "sfx": "CLICK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "hob",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Dramatic low-angle shot at the iron gate of the lift station, strong rim light, hard shadows, dutch tilt. Hob at the CENTRE blocks the gate with a heavy wrench held across his chest in both hands. Dan at the LEFT leans forward politely, both hands open and empty. Mira at the RIGHT watches with arms crossed. The gate bars glow faintly vermilion where Dan speaks.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "hob",
+     "en": "No. Nobody touches my lift. Go away.",
+     "ru": "Нет. Никто не трогает мой лифт. Уходите.",
+     "delivery": "gruff old rope-and-gear voice, grumbling, a little warmer at the end",
+     "place": {
+      "x": 0.4,
+      "y": 0.02,
+      "w": 0.45,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Could I see the lift, please?",
+     "ru": "Можно мне посмотреть лифт, пожалуйста?",
+     "delivery": "calm, polite, a little too gentle on purpose",
+     "place": {
+      "x": 0.02,
+      "y": 0.17,
+      "w": 0.36,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "hob",
+     "en": "...Hm. A polite boy. Nobody says please here. Come.",
+     "ru": "...Хм. Вежливый мальчик. Здесь никто не говорит «пожалуйста». Заходи.",
+     "delivery": "gruff old rope-and-gear voice, grumbling, a little warmer at the end",
+     "place": {
+      "x": 0.45,
+      "y": 0.14,
+      "w": 0.52,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "PLEASE is yours now. Soft Key. Count: 131.",
+     "ru": "PLEASE теперь твой. Мягкий ключ. Счёт: 131.",
+     "delivery": "flat cold game-system announcement with a dry hint of mockery",
+     "place": {
+      "x": 0.3,
+      "y": 0.88,
+      "w": 0.6,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "action",
+   "sfx": "WHIRR",
+   "cast": [
+    {
+     "id": "hob",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Dynamic wide shot inside the lift station, deep perspective, giant spinning drums, speed blur, hard cel shadows. A huge cable drum spins in the middle of the stone hall, a wooden car flashes up the shaft in the background. Hob at the LEFT points at it, shouting over the noise, his RIGHT hand on a lever. Dan at the RIGHT watches with wide eyes, pencil behind his RIGHT ear, rolling up his sleeves.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "hob",
+     "en": "The lift cannot stop! No lift, no water, no Gutter!",
+     "ru": "Лифт не может остановиться! Нет лифта — нет воды — нет Gutter!",
+     "delivery": "gruff old rope-and-gear voice, grumbling, a little warmer at the end",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.5,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "So I repair it while it moves. Of course.",
+     "ru": "Значит, я чиню его на ходу. Конечно.",
+     "delivery": "dry, resigned, already rolling up sleeves",
+     "place": {
+      "x": 0.5,
+      "y": 0.14,
+      "w": 0.46,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "action",
+   "sfx": "WHOOSH",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Vertigo shot from above and beside, extreme depth of the dark inner wall of the Tower, wind lines, cable crossing the frame diagonally. A wooden lift car hangs from a thick cable above a huge drop. Dan at the CENTRE kneels on the car roof, both hands on a pulley with a wrench, glasses crooked, hair blown. Mira at the RIGHT hangs from the side rail with her LEFT hand (red cord) and holds Dan's belt with her RIGHT hand.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am repairing a lift. The lift is moving. I hate this.",
+     "ru": "Я чиню лифт. Лифт едет. Я это ненавижу.",
+     "delivery": "shouting over the wind, panicked and self-mocking",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.5,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I am holding your belt. Do not look down.",
+     "ru": "Я держу твой ремень. Не смотри вниз.",
+     "delivery": "deadpan, low, completely calm in a gale",
+     "place": {
+      "x": 0.05,
+      "y": 0.8,
+      "w": 0.5,
+      "tail": "up-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "action",
+   "sfx": "BANG",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Dynamic close action shot, tilted horizon, speed lines, glowing vermilion burst. A rusty iron gate on the platform edge is jammed shut in front of the car. Dan at the LEFT still crouched on the roof with both hands full of the pulley, shouting. Mira at the RIGHT, one boot on the rail, snarls at the gate; the gate bars buckle and light up vermilion, the whole gate panel popping out of its frame in a burst of sparks.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "The gate is stuck! Say please, Mira!",
+     "ru": "Ворота застряли! Скажи «пожалуйста», Мира!",
+     "delivery": "urgent, hoarse, shouting over wind",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.52,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I hate saying please. ...Please. Open.",
+     "ru": "Ненавижу говорить «пожалуйста». ...Пожалуйста. Откройся.",
+     "delivery": "low, tight, forcing the word between her teeth",
+     "place": {
+      "x": 0.56,
+      "y": 0.03,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Soft Key. The gate opens. Too much.",
+     "ru": "Мягкий ключ. Ворота открыты. Слишком.",
+     "delivery": "flat cold game-system announcement with a dry hint of mockery",
+     "place": {
+      "x": 0.02,
+      "y": 0.88,
+      "w": 0.55,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "left"
+    },
+    {
+     "id": "pip",
+     "pos": "center"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "Comic medium shot at the Gutter cistern as water pours into it, eye level, wide lens. Water pours from a pipe into a stone cistern behind them. Mira at the LEFT wipes her face with one hand, soaked, glaring. Pip at the CENTRE bounces on his toes, delighted. At the RIGHT the small scarf bundle of Lina sits on a barrel with only the tiny red cord showing, no face visible.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Never again.",
+     "ru": "Больше никогда.",
+     "delivery": "deadpan, wet and humiliated",
+     "place": {
+      "x": 0.03,
+      "y": 0.05,
+      "w": 0.3,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "Please is expensive. I love it.",
+     "ru": "«Пожалуйста» — дорого. Обожаю.",
+     "delivery": "fast cheeky, grinning, rubbing his fingers together",
+     "place": {
+      "x": 0.33,
+      "y": 0.3,
+      "w": 0.34,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "Please.",
+     "ru": "Пожалуйста.",
+     "delivery": "tiny soft echo voice, curious, trying out the new word",
+     "place": {
+      "x": 0.7,
+      "y": 0.82,
+      "w": 0.25,
+      "tail": "up-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "action",
+   "sfx": "CLANG",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "center"
+    }
+   ],
+   "art": "Montage split-panel feeling, four quick vignettes in one dynamic composition with diagonal dividers, bright dynamic angles. Dan at the CENTRE works at speed in four small inset scenes around him: tightening a pulley, hammering a rope-bridge plank, rewiring a pump, kicking a stove hatch shut. In each he holds a tool in both hands. Gold sparks and tiny vermilion glow-shapes rise from every fix.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Три дня Дэн чинит всё, что скрипит: лифт, мостик, насос, печь. Каждый ремонт — слово. Счёт растёт."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Count: 142.",
+     "ru": "Счёт: 142.",
+     "delivery": "flat cold game-system announcement with a dry hint of mockery",
+     "place": {
+      "x": 0.03,
+      "y": 0.5,
+      "w": 0.32,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "hob",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Warm medium shot, eye level, golden lamp light on the water running in the lane. Water runs freely through the Gutter lane behind them. Hob at the LEFT presses a small round token and a few coins into Dan's open RIGHT hand with his LEFT hand, gruff and almost smiling. Dan at the RIGHT bows a little.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "hob",
+     "en": "Good job! Here is your pay. And a pass for the counter.",
+     "ru": "Отличная работа! Вот плата. И пропуск к стойке.",
+     "delivery": "gruff old rope-and-gear voice, grumbling, a little warmer at the end",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.5,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Thank you, Hob. I enjoy a good lift.",
+     "ru": "Спасибо, Хоб. Мне нравится хороший лифт.",
+     "delivery": "warm, a bit tired, a real smile",
+     "place": {
+      "x": 0.55,
+      "y": 0.12,
+      "w": 0.42,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "clerk",
+     "pos": "center"
+    }
+   ],
+   "art": "Low wide shot of the Ledger counter hall, giant high desk towering over Dan, severe symmetry, hard shadows. The clerk at the CENTRE sits behind a very high desk, huge round spectacles, rubber-stamp ring on his finger, looking down. Dan at the LEFT stands on tiptoes holding the token up in his RIGHT hand. A queue of grey people behind him.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "clerk",
+     "en": "Name?",
+     "ru": "Имя?",
+     "delivery": "bored nasal clerk voice, flat politeness that has seen everything",
+     "place": {
+      "x": 0.4,
+      "y": 0.03,
+      "w": 0.2,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Dan. I would like to enter the Proof, please.",
+     "ru": "Дэн. Я бы хотел участвовать в Proof, пожалуйста.",
+     "delivery": "polite and tense",
+     "place": {
+      "x": 0.02,
+      "y": 0.1,
+      "w": 0.36,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "clerk",
+     "en": "Sign here. Minimum count: 150. You have it. Barely.",
+     "ru": "Подпиши здесь. Минимум: 150. У тебя есть. Едва.",
+     "delivery": "bored nasal clerk voice, flat politeness that has seen everything",
+     "place": {
+      "x": 0.5,
+      "y": 0.45,
+      "w": 0.48,
+      "tail": "up-left"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Count: 150.",
+     "ru": "Счёт: 150.",
+     "delivery": "flat cold game-system announcement with a dry hint of mockery",
+     "place": {
+      "x": 0.5,
+      "y": 0.8,
+      "w": 0.35,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": "THUD",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Tense shot from behind the desk looking at the heroes, tilted frame, glowing System window floating in the air. A cream System window with a vermilion double border floats in the air between Dan at the LEFT and Mira at the RIGHT; both stare at it. Behind them the clerk's wall shows two blank placards (abstract smudged shapes only). Dan's jaw drops; Mira's hand lands on his shoulder.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "За спиной клерка — прейскурант Ledger. «Callers» — голоса из-за пределов Башни. «Returns» — возвращения домой. Мамин голос — тоже товар."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Price list. Callers: 50 words. Returns: 600 words.",
+     "ru": "Прейскурант. Callers: 50 слов. Returns: 600 слов.",
+     "delivery": "flat cold game-system announcement with a dry hint of mockery",
+     "place": {
+      "x": 0.05,
+      "y": 0.02,
+      "w": 0.7,
+      "tail": "none"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Callers? Voices from outside? That is Mom!",
+     "ru": "Callers? Голоса снаружи? Это же мама!",
+     "delivery": "stunned, then rising anger, almost shouting",
+     "place": {
+      "x": 0.02,
+      "y": 0.72,
+      "w": 0.4,
+      "tail": "up-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "They sell your phone, Zero.",
+     "ru": "Они продают твой телефон, Зеро.",
+     "delivery": "deadpan, low, a hand on his shoulder",
+     "place": {
+      "x": 0.45,
+      "y": 0.74,
+      "w": 0.34,
+      "tail": "up-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "clerk",
+     "pos": "center"
+    }
+   ],
+   "art": "Quiet medium shot, eye level, the clerk leaning down slightly. Dan at the LEFT takes a long breath, shoulders down, and holds both hands open on the desk. The clerk at the CENTRE leans toward him, eyebrows slightly raised, slides a long blank scroll across the desk with one inky hand.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Could I see the list of teams, please?",
+     "ru": "Можно мне посмотреть список команд, пожалуйста?",
+     "delivery": "forcing calm, polite through gritted teeth",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.45,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "clerk",
+     "en": "Polite. Hm. Sign it, if you want.",
+     "ru": "Вежливый. Хм. Подпиши, если хочешь.",
+     "delivery": "bored nasal clerk voice, flat politeness that has seen everything",
+     "place": {
+      "x": 0.55,
+      "y": 0.03,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Entrants. Team: Marl, A. Sponsor: the Ledger.",
+     "ru": "Участники. Команда: Марл, А. Спонсор: Ledger.",
+     "delivery": "flat cold game-system announcement with a dry hint of mockery",
+     "place": {
+      "x": 0.4,
+      "y": 0.8,
+      "w": 0.55,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "clerk",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Very dark close shot, the clerk's big spectacles reflecting a single lamp, Dan half in shadow. The clerk at the LEFT, his spectacles reflecting the lamp, a stamp ring raised. Dan at the RIGHT, only half-lit, holds two fingers up in front of him, frozen. Behind them the silhouette of the queue.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "clerk",
+     "en": "Would you like to sign? You need a team of five.",
+     "ru": "Хотите записаться? Нужна команда из пяти.",
+     "delivery": "bored nasal clerk voice, flat politeness that has seen everything",
+     "place": {
+      "x": 0.03,
+      "y": 0.03,
+      "w": 0.5,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I have two.",
+     "ru": "У меня двое.",
+     "delivery": "small voice, flat, defeated",
+     "place": {
+      "x": 0.5,
+      "y": 0.15,
+      "w": 0.3,
+      "tail": "down-right"
+     }
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "would like, like/love/hate + -ing, could … please",
+  "body": "I would like … — вежливое «я бы хотел»: I would like some soup. Would you like some soup? — «Хотите супа?» Просьба: Could I see the lift, please? — «Можно мне посмотреть лифт?» (could звучит вежливее, чем can). После like, love, hate глагол получает -ing: I like repairing. I hate carrying. Слово please открывает людей — это сила Soft Key. Вежливость в Башне работает как ключ.",
+  "examples": [
+   {
+    "en": "I would like a very big bowl.",
+    "ru": "Я бы хотел очень большую миску."
+   },
+   {
+    "en": "I hate carrying. I like repairing.",
+    "ru": "Ненавижу таскать. Люблю чинить."
+   },
+   {
+    "en": "Could I see the lift, please?",
+    "ru": "Можно мне посмотреть лифт, пожалуйста?"
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Как Дэн убедил Хоба показать лифт?",
+   "options": [
+    "Заплатил словами",
+    "Вежливо попросил с «please»",
+    "Починил замок",
+    "Пригрозил"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Что сделала Мира, когда ворота застряли?",
+   "options": [
+    "Выбила их ногой",
+    "Сказала «Please», хотя ненавидит это слово",
+    "Позвала Хоба",
+    "Спрыгнула"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Что Дэн понял, увидев прейскурант Ledger?",
+   "options": [
+    "Что Callers — голоса из-за Башни, в том числе мамин",
+    "Что Returns бесплатны",
+    "Что пропуск стоит 600",
+    "Что клерк его знает"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Что нужно, чтобы записаться на Proof?",
+   "options": [
+    "Пропуск и 600 слов",
+    "Команда из пяти",
+    "Спонсор — Ruk",
+    "Победа в дуэли"
+   ],
+   "answer": 1
+  }
+ ]
+}

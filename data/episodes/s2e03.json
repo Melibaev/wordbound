@@ -1,0 +1,907 @@
+{
+ "id": "s2e03",
+ "title": "Soup",
+ "titleRu": "Суп",
+ "level": "A1",
+ "newWords": [
+  "soup",
+  "cook",
+  "hungry",
+  "hot",
+  "bowl",
+  "share",
+  "kitchen",
+  "warm",
+  "cut",
+  "taste"
+ ],
+ "panels": [
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "pip",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Low-angle shot in a narrow shelf-alley at dusk: Pip's head and shoulders pop out of a drain grate in the floor at the centre, cap askew, grinning. Dan at the left crouches over him with his mouth open; Mira at the right keeps the scarf bundle behind her leg and glares at Pip. Far above on the rooftop ledges two silhouettes with lantern beams sweep the alley.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "Psst! Hunters are on the roofs. I have a free way down.",
+     "ru": "Псст! Охотники на крышах. У меня есть бесплатный путь вниз.",
+     "delivery": "fast cheeky whisper, grinning, a salesman's wink in every word",
+     "place": {
+      "x": 0.05,
+      "y": 0.11,
+      "w": 0.6,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Pip. Nothing is free with you.",
+     "ru": "Пип. С тобой ничего не бывает бесплатно.",
+     "delivery": "deadpan, low and cold, remembering what he did",
+     "place": {
+      "x": 0.48,
+      "y": 0.22,
+      "w": 0.5,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "Today it is. Come. Fast.",
+     "ru": "Сегодня бывает. Идёмте. Быстро.",
+     "delivery": "quick, urgent, almost honest for once",
+     "place": {
+      "x": 0.02,
+      "y": 0.87,
+      "w": 0.42,
+      "tail": "up-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "pip",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Dynamic vertical shot straight down a narrow crack in the wall: iron rungs and rope ladders zig-zag down into the dark, a thieves' stair. Dan at the centre clings to a rung with both hands and one foot dangling, glasses crooked, eyes shut; Pip at the left below him scrambles down like a monkey; Mira at the right above him descends with calm professional speed, the scarf bundle tied on her back. Dust falls from the gap far overhead.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am climbing down. I hate climbing down.",
+     "ru": "Я лезу вниз. Я ненавижу лезть вниз.",
+     "delivery": "strained and whispering, small and honest through gritted teeth",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.45,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "pip",
+     "pos": "left"
+    },
+    {
+     "id": "hunter",
+     "pos": "right"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    }
+   ],
+   "art": "Tense shot looking up from the crack: at the top, two black-coated hunters lean over the gap with narrow lantern beams sweeping down the wall, one beam passing just beside Dan's cheek. In the foreground Dan, Pip and Mira press flat against the wall in the dark, Pip's lips pressed together, one finger at his mouth. A faint hum from the scarf bundle on Mira's back.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "hunter",
+     "en": "I hear a song down there.",
+     "ru": "Я слышу песню там внизу.",
+     "delivery": "gruff suspicious mutter, a man listening hard over a dark gap",
+     "place": {
+      "x": 0.02,
+      "y": 0.14,
+      "w": 0.34,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "QUIET. Free today.",
+     "ru": "QUIET. Сегодня бесплатно.",
+     "delivery": "tiny breath of a whisper, the word shimmering, a shopkeeper being generous against his nature",
+     "place": {
+      "x": 0.02,
+      "y": 0.3,
+      "w": 0.38,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "hunter",
+     "en": "Nothing. Only wind.",
+     "ru": "Ничего. Только ветер.",
+     "delivery": "bored gruff grunt, losing interest",
+     "place": {
+      "x": 0.66,
+      "y": 0.28,
+      "w": 0.32,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "pip",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Grand wide reveal from the bottom of the stair: a canyon-like crack, a few paces wide, between two colossal stone columns that rise out of sight, strung with hundreds of small warm lanterns on wires, patched cloth tents, steam from pots, rope walkways, quiet people sitting in doorways. Pip at the centre spreads both arms like a host; Dan at the left and Mira at the right step off the last rung in awe.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Gutter — щель под городом, между двумя колоннами. Здесь живут Unwritten: те, кого Index не записал ни на одну строку."
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "The Gutter. Nobody looks down here.",
+     "ru": "Gutter. Сюда никто не смотрит.",
+     "delivery": "proud and cheeky, a host showing off his kingdom of the unwanted",
+     "place": {
+      "x": 0.05,
+      "y": 0.02,
+      "w": 0.5,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "It is a city under the city.",
+     "ru": "Это город под городом.",
+     "delivery": "quiet wonder, a low half-laugh of disbelief",
+     "place": {
+      "x": 0.3,
+      "y": 0.55,
+      "w": 0.4,
+      "tail": "left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "soup",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Warm, cosy medium shot in a long low vaulted kitchen: Soup, a huge soft bald man with braided beard, an apron and a ladle through his belt, stands behind a big steaming pot, one ladle in his massive hand, ducking under a hanging lamp whose flame is vermilion. Dan at the left and Mira at the right stand awkwardly at the table, bowls waiting in front of them.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "We have no words to pay.",
+     "ru": "У нас нет слов, чтобы заплатить.",
+     "delivery": "tired and embarrassed, honest and low",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "soup",
+     "en": "Sit. Taste. There is some soup. I cook. You eat.",
+     "ru": "Садись. Попробуй. Есть немного супа. Я готовлю. Ты ешь.",
+     "delivery": "slow deep gentle voice of a very big man speaking softly, with long calm pauses",
+     "place": {
+      "x": 0.6,
+      "y": 0.05,
+      "w": 0.38,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "soup",
+     "pos": "center"
+    }
+   ],
+   "art": "Comic medium shot over the table: Dan at the left leans forward over an empty bowl with a pleading face, holding up two open fingers; Soup at the right of centre, vast and unhurried, points with his ladle to a shelf of bare hooks, an empty bread basket and an empty salt jar, and a small basket with three eggs. A steaming pot dominates the foreground.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Is there any bread? Is there any salt?",
+     "ru": "Есть хлеб? Есть соль?",
+     "delivery": "hopeful and polite, a tired man asking for the smallest luxury",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.45,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "soup",
+     "en": "There isn't any bread. There isn't any salt. There are some eggs.",
+     "ru": "Хлеба нет. Соли нет. Есть немного яиц.",
+     "delivery": "slow deep gentle voice of a very big man speaking softly, with long calm pauses",
+     "place": {
+      "x": 0.5,
+      "y": 0.03,
+      "w": 0.47,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "So there is a lot of soup. Of course.",
+     "ru": "Значит, супа очень много. Ну конечно.",
+     "delivery": "dry and amused, a joke at his own hunger",
+     "place": {
+      "x": 0.02,
+      "y": 0.88,
+      "w": 0.5,
+      "tail": "up-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "silent",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Quiet intimate shot at the table: Dan at the left lifts a steaming bowl in both hands, eyes closed, face soft in the warm steam. At the centre the small Silent Lina, her scarf pushed back, sits with a small bowl held in both of her white hands, her faceless head tilted toward it. Mira at the right watches them, a rare softening at the corner of her mouth, red cord on her left wrist.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "It is hot. This bowl tastes like home.",
+     "ru": "Горячий. Эта миска на вкус как дом.",
+     "delivery": "soft, wondering and slightly choked, the first real meal in days",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.4,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Share your bowl with her, Zero. She is hungry.",
+     "ru": "Поделись миской с ней, Зеро. Она голодна.",
+     "delivery": "dry low and gentle, an order with care hidden in it",
+     "place": {
+      "x": 0.58,
+      "y": 0.03,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "Warm.",
+     "ru": "Тепло.",
+     "delivery": "tiny breathy whisper, wondering, a child discovering a feeling",
+     "place": {
+      "x": 0.36,
+      "y": 0.33,
+      "w": 0.22,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "SHARE is yours now.",
+     "ru": "SHARE теперь твоё.",
+     "delivery": "flat cold game-system announcement with a hint of mockery",
+     "place": {
+      "x": 0.3,
+      "y": 0.88,
+      "w": 0.45,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "pip",
+     "pos": "left"
+    },
+    {
+     "id": "soup",
+     "pos": "right"
+    }
+   ],
+   "art": "Comic medium shot: Pip at the left stands on a stool holding up two chipped bowls with an eager greedy grin and a hand held out, ready to bargain; Soup at the right looks down at him from his great height with sleepy gentle eyes, the ladle hanging in his hand. Steam rises between them.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "He cooks all night in this kitchen. Two bowls. How many words?",
+     "ru": "Он готовит всю ночь на этой кухне. Две миски. Сколько слов?",
+     "delivery": "fast cheeky patter, a hustler automatically bargaining",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.55,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "soup",
+     "en": "None. Everyone shares here.",
+     "ru": "Нисколько. Здесь все делятся.",
+     "delivery": "slow deep gentle voice of a very big man speaking softly, with long calm pauses",
+     "place": {
+      "x": 0.38,
+      "y": 0.17,
+      "w": 0.26,
+      "tail": "right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "Share? That is a bad word.",
+     "ru": "Делиться? Это плохое слово.",
+     "delivery": "offended, horrified, like he was just told a curse word",
+     "place": {
+      "x": 0.4,
+      "y": 0.64,
+      "w": 0.25,
+      "tail": "left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "soup",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Dramatic medium shot: Dan at the left, one hand raised and glowing with faint vermilion, looks at Soup. Over Soup's chest a ghostly vermilion gauge ring shows a hollow empty circle where it should be full. Soup at the centre stares down at his own hands. Above his head the brass lamp burns with a strong vermilion flame. Mira at the right stands back, watching.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Над кухней горит лампа. Суп отдал ей своё слово «голод» — и теперь она горит за него, а он никогда не хочет есть."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "There is a lot of soup in this kitchen. There isn't any in you.",
+     "ru": "В этой кухне много супа. А в тебе его нет.",
+     "delivery": "careful and low, an engineer reading a gauge out loud and realising how sad it is",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "soup",
+     "en": "I cook. I am not hungry. I am never hungry.",
+     "ru": "Я готовлю. Я не голоден. Я никогда не голоден.",
+     "delivery": "slow deep gentle voice of a very big man speaking softly, with long calm pauses",
+     "place": {
+      "x": 0.6,
+      "y": 0.03,
+      "w": 0.38,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "True. Measure. Say how much. Say it true.",
+     "ru": "Правда. Measure. Говори, сколько. Говори правду.",
+     "delivery": "flat cold game-system announcement with a hint of mockery",
+     "place": {
+      "x": 0.3,
+      "y": 0.9,
+      "w": 0.4,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "soup",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    }
+   ],
+   "art": "Hard-lit shot of the kitchen choking with grey smoke: the fan above the stove has stopped turning, its dark mouth coughing smoke, and a row of the Unwritten at the long table are coughing with cloths over their mouths. Soup at the left stands helplessly under the smoke with his ladle drooping; Dan at the centre looks up at the dead fan with a sudden calm spark, pushing up his glasses.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "soup",
+     "en": "The fan is dead. The soup tastes of smoke.",
+     "ru": "Вытяжка мертва. Суп пахнет дымом.",
+     "delivery": "slow deep gentle voice of a very big man speaking softly, with long calm pauses",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.45,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I know fans. I can cut the old belt and fix it.",
+     "ru": "Я знаю вытяжки. Я могу срезать старый ремень и починить.",
+     "delivery": "calm and certain, the first confident voice in the whole episode, an engineer in his element",
+     "place": {
+      "x": 0.6,
+      "y": 0.02,
+      "w": 0.38,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "action",
+   "sfx": "CLANG",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "soup",
+     "pos": "left"
+    }
+   ],
+   "art": "Dynamic upside-down shot inside the fan shaft: Dan wedged head-up in the sooty duct, one foot braced on a pipe, one hand holding a small knife against a frayed leather belt, the other steadying a bolt, steam hissing past his face. Far below at the left, Soup's huge hand holds a lantern up toward him like a lighthouse. Sparks, soot, a fan blade half turning.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Hold the lamp, Soup. I am cutting the old belt. The pipe is hot!",
+     "ru": "Держи лампу, Суп. Я срезаю старый ремень. Труба горячая!",
+     "delivery": "strained, bright and fast, working with his tongue between his teeth",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.5,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "soup",
+     "en": "I am holding. You are cutting. We are cooking.",
+     "ru": "Я держу. Ты режешь. Мы готовим.",
+     "delivery": "slow deep gentle voice of a very big man speaking softly, with long calm pauses",
+     "place": {
+      "x": 0.4,
+      "y": 0.8,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "soup",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "left"
+    }
+   ],
+   "art": "Medium shot after the fix: the fan above turns lazily and the smoke drains upward into a clear shaft of lamp light. Dan at the left, covered in soot, holds the last screw between two fingers, shrugs and flicks it carelessly over his shoulder; it pings off the iron pot. Soup at the centre looks at him gently, ladle lowered, with a long thoughtful gaze.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "soup",
+     "en": "The fan is turning. The kitchen is warm again. But you don't ... things, do you?",
+     "ru": "Вытяжка крутится. На кухне снова тепло. Но ты ведь не ... вещи, да?",
+     "delivery": "slow deep gentle voice of a very big man speaking softly, with long calm pauses",
+     "place": {
+      "x": 0.5,
+      "y": 0.02,
+      "w": 0.48,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Одно слово Супа прошуршало, как мятая бумага. Дэн услышал только пустоту. Последний винт так и остался валяться на полу."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Almost.",
+     "ru": "Почти.",
+     "delivery": "flat cold game-system announcement with a hint of mockery",
+     "place": {
+      "x": 0.02,
+      "y": 0.9,
+      "w": 0.4,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "pip",
+     "pos": "right"
+    }
+   ],
+   "art": "Quiet night shot in the sleeping kitchen: only the vermilion lamp burns. Dan at the left, sitting on the floor, writes with his yellow pencil on a patched stone wall covered with other people's old scratched thank-yous. Pip at the right crouches in the dark with sly shining eyes, staring at the pencil with a hand almost reaching.",
+   "lines": [
+    {
+     "type": "thought",
+     "who": "dan",
+     "en": "Thank you for the soups, it are very hot and I eat many soup.",
+     "ru": "Спасибо за супы, он очень горячий, и я ем много супа.",
+     "delivery": "quiet tired murmur while writing, slow and careful, proud of every word",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.55,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "Nice pencil. How much?",
+     "ru": "Хороший карандаш. Сколько?",
+     "delivery": "silky whisper, greedy and casual at the same time",
+     "place": {
+      "x": 0.55,
+      "y": 0.28,
+      "w": 0.4,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Keep the pencil.",
+     "ru": "Оставь карандаш.",
+     "delivery": "flat cold game-system announcement with a hint of mockery",
+     "place": {
+      "x": 0.38,
+      "y": 0.9,
+      "w": 0.3,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Morning-light shot of the stone wall: Dan's pencil words are a messy scribble with three bright slashes and circles of fresh vermilion ink around three of the scribbles, the ink still glistening. Dan at the left stares at it with a toast in his hand; Mira at the right leans in beside him with a raised eyebrow, scarf over her shoulder.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Somebody is writing on my wall! In red!",
+     "ru": "Кто-то пишет на моей стене! Красным!",
+     "delivery": "outraged and confused, hoarse morning voice, mouth full",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.6,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Three red marks. Three mistakes.",
+     "ru": "Три красные пометки. Три ошибки.",
+     "delivery": "deadpan low, delighted in a very small way",
+     "place": {
+      "x": 0.45,
+      "y": 0.14,
+      "w": 0.52,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "center"
+    }
+   ],
+   "art": "Warm bright morning shot: Dan in the kitchen holds a bowl up in both hands, grinning in wonder, steam rising, a floating cream paper System window with a vermilion double border beside his head. Behind him the repaired fan turns in a sunbeam of lamp light and the Unwritten eat quietly at the long table.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Count: 112. Rank: PHRASE. The Index is slow.",
+     "ru": "Счёт: 112. Ранг: PHRASE. Индекс медленный.",
+     "delivery": "flat cold game-system announcement with a hint of mockery",
+     "place": {
+      "x": 0.05,
+      "y": 0.03,
+      "w": 0.65,
+      "tail": "none"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am warm, I am full, and I am a Phrase again.",
+     "ru": "Мне тепло, я сыт, и я снова Phrase.",
+     "delivery": "happy dazed laugh, light and fresh, relief after a very long bad day",
+     "place": {
+      "x": 0.66,
+      "y": 0.39,
+      "w": 0.32,
+      "tail": "left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "thorn",
+     "pos": "center"
+    }
+   ],
+   "art": "Very dark dramatic shot: a doorway at the end of the kitchen filled with pale morning light, and in it the small upright silhouette of Miss Thorn, a tight bun, a cane on her forearm, a slim pen held between two fingers like a baton with a single bead of vermilion ink glowing at its nib. Everything else is black; the shadow of the pen falls long across the floor toward the camera.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Three mistakes in one sentence, dear.",
+     "ru": "Три ошибки в одном предложении, дорогой.",
+     "delivery": "crisp precise voice of a very old teacher, calm and dry, not unkind",
+     "place": {
+      "x": 0.03,
+      "y": 0.04,
+      "w": 0.52,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Shall we begin?",
+     "ru": "Начнём?",
+     "delivery": "sweetly firm, a quiet command wrapped in politeness",
+     "place": {
+      "x": 0.55,
+      "y": 0.72,
+      "w": 0.42,
+      "tail": "up-left"
+     }
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "some / any / a lot of: сколько чего",
+  "body": "Some — «немного», в утверждениях: There is some soup. There are some eggs. Any — в вопросах и отрицаниях: Is there any bread? There isn't any salt. A lot of — «много» (и в утверждениях, и в вопросах): There is a lot of soup. Слова бывают исчисляемые (an egg, two eggs: there ARE some eggs) и неисчисляемые (soup, bread, salt: there IS some soup — множественного числа у них нет). Дэн использует это как силу: «There is a lot of soup in the pot. There isn't any in you» — и Measure показывает, сколько чего на самом деле.",
+  "examples": [
+   {
+    "en": "There is some soup.",
+    "ru": "Есть немного супа."
+   },
+   {
+    "en": "Is there any bread?",
+    "ru": "Есть хлеб?"
+   },
+   {
+    "en": "There isn't any salt.",
+    "ru": "Соли нет."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Куда Пип приводит героев, спасая от охотников?",
+   "options": [
+    "В Gutter, щель под городом",
+    "В контору Ledger",
+    "К двери Этажа",
+    "Назад в Зал Слов"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Что говорит Суп про хлеб и соль?",
+   "options": [
+    "Хлеба много",
+    "Хлеба и соли нет, есть яйца и суп",
+    "Хлеб и соль только за слова",
+    "Соль есть, хлеба нет"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Почему Суп никогда не голоден?",
+   "options": [
+    "Он ест ночью",
+    "Суп невкусный",
+    "Он отдал слово «голод» лампе над кухней",
+    "Он не любит есть"
+   ],
+   "answer": 2
+  },
+  {
+   "q": "Что происходит наутро со стеной, где Дэн написал благодарность?",
+   "options": [
+    "Стену стёрли",
+    "Её закрасили",
+    "Её забрал Пип",
+    "Три ошибки обведены красной ручкой"
+   ],
+   "answer": 3
+  }
+ ]
+}

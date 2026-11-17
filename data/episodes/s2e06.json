@@ -1,0 +1,854 @@
+{
+ "id": "s2e06",
+ "title": "The Clock District",
+ "titleRu": "Часовой квартал",
+ "level": "A1",
+ "newWords": [
+  "clock",
+  "hour",
+  "late",
+  "early",
+  "today",
+  "tomorrow",
+  "begin",
+  "ready",
+  "meet",
+  "friday"
+ ],
+ "panels": [
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "pip",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Warm wide shot of the kitchen at dawn, group portrait feeling, slight low angle, hard cel shadows and rim light from the door. Dan at the LEFT counts on his fingers with his RIGHT hand, glasses crooked, proud. Pip at the CENTRE stands on a stool with his chest out and his cap high. Mira at the RIGHT points flatly at Pip with her LEFT hand (red cord). Behind them Soup packs a huge pot onto his back, and a small hooded figure (Lina, hood up, no face visible) sits on the bench.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Пятёрка собрана: Дэн, Мира, Пип, Суп — он закрыл кухню и взял котёл с собой — и Лина в капюшоне. Остаётся научиться жить по часам."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Five people. A team! Mira, Pip, Soup, Lina, and me.",
+     "ru": "Пять человек. Команда! Мира, Пип, Суп, Лина и я.",
+     "delivery": "proud, almost cheerful, counting on his fingers",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "I am eighteen. Write it on the list.",
+     "ru": "Мне восемнадцать. Запиши в список.",
+     "delivery": "fast cheeky, chin high, lying with total confidence",
+     "place": {
+      "x": 0.6,
+      "y": 0.03,
+      "w": 0.38,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "You are eleven, Pip.",
+     "ru": "Тебе одиннадцать, Пип.",
+     "delivery": "deadpan, low, unimpressed",
+     "place": {
+      "x": 0.62,
+      "y": 0.19,
+      "w": 0.35,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": "TICK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "pip",
+     "pos": "right"
+    }
+   ],
+   "art": "Epic wide establishing shot, extreme depth, dutch angle, giant clock faces everywhere on tall stacked walls, hard cel shadows and vermilion-tinted dawn. The Clock District: stacked tower walls covered with enormous clock faces of brass and stone, no numerals, only abstract tick marks; gears turn in the walls, bridges swing on chains. Dan at the LEFT and Pip at the RIGHT stand tiny at the bottom, looking up with open mouths. A cream System window hovers beside them.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "The Proof begins on Friday at nine. Teams meet at eight.",
+     "ru": "Proof начинается в пятницу в девять. Команды собираются в восемь.",
+     "delivery": "flat cold game-system announcement with a dry hint of mockery",
+     "place": {
+      "x": 0.2,
+      "y": 0.02,
+      "w": 0.6,
+      "tail": "none"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Today is Monday. Friday is four days away. We are ready.",
+     "ru": "Сегодня понедельник. До пятницы четыре дня. Мы готовы.",
+     "delivery": "too optimistic, trying to believe it himself",
+     "place": {
+      "x": 0.02,
+      "y": 0.14,
+      "w": 0.4,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "The clock says nine. I am early. Early is when I sell.",
+     "ru": "Часы показывают девять. Я рано. Рано — это когда я продаю.",
+     "delivery": "fast cheeky, rubbing his hands at the thought of profit",
+     "place": {
+      "x": 0.45,
+      "y": 0.55,
+      "w": 0.5,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "citizen",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Frontal comic medium shot at the district gate, wide lens, symmetrical composition, slight low angle. A stern gate warden (a citizen in a brass-buttoned coat and tall cap, a pocket watch in his hand) stands at the CENTRE in front of a huge iron clock gate. Dan at the LEFT leans toward him politely, hands visible. Mira at the RIGHT hides the hooded small figure of Lina behind her with her LEFT arm.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "citizen",
+     "en": "Name? The Clock gate remembers visitors until tomorrow.",
+     "ru": "Имя? Часовые ворота помнят гостей до завтра.",
+     "delivery": "strict clipped official voice, bored but exact",
+     "place": {
+      "x": 0.1,
+      "y": 0.03,
+      "w": 0.5,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Dan. Just Dan.",
+     "ru": "Дэн. Просто Дэн.",
+     "delivery": "careful, a little puzzled by the gate",
+     "place": {
+      "x": 0.02,
+      "y": 0.4,
+      "w": 0.25,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "The fifth is shy. She does not talk.",
+     "ru": "Пятая стесняется. Она не говорит.",
+     "delivery": "deadpan, fast, daring him to ask more",
+     "place": {
+      "x": 0.62,
+      "y": 0.42,
+      "w": 0.36,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "action",
+   "sfx": "CREAK",
+   "cast": [
+    {
+     "id": "pip",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "soup",
+     "pos": "right"
+    }
+   ],
+   "art": "Dynamic wide action shot from below, a long rope-and-plank bridge between two clock towers, speed lines, giant clock face in the background, tilted horizon. A plank bridge rocks between two towers above a deep drop. Pip at the LEFT is already sprinting across far ahead with his arms out like wings. Dan at the CENTRE runs mid-bridge with both hands on the rope rails. Soup at the RIGHT, huge and slow, has just stepped onto the first plank, the pot on his back, calm as ever.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "The bridge opens at ten. Be ready!",
+     "ru": "Мост открывается в десять. Будьте готовы!",
+     "delivery": "urgent, bossy, out of breath",
+     "place": {
+      "x": 0.1,
+      "y": 0.03,
+      "w": 0.45,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "The clock says ten. I am early! Very early!",
+     "ru": "Часы показывают десять. Я рано! Очень рано!",
+     "delivery": "fast, gleeful, running with arms out",
+     "place": {
+      "x": 0.02,
+      "y": 0.25,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "soup",
+     "en": "I am... a little late.",
+     "ru": "Я... немного опаздываю.",
+     "delivery": "very slow deep gentle voice, not hurrying at all",
+     "place": {
+      "x": 0.62,
+      "y": 0.14,
+      "w": 0.35,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "action",
+   "sfx": "CLANG",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "soup",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Extreme dynamic shot, bridge halves rising like jaws, speed blur, strong diagonals, vermilion flare from Mira's word. The two halves of the plank bridge tilt upward like a drawbridge closing, a gap widening in the middle. Dan at the LEFT clings to a rope rail with both hands, shouting. Soup at the CENTRE is stuck on the slope with the pot on his back, one hand on the plank. Mira at the RIGHT holds a rope with her LEFT hand (red cord) and her RIGHT hand raised, a vermilion flare glowing around the rope as it stops the bridge from rising further.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Мост закрывается строго по часам — ни на секунду позже. Команда уже на середине."
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Warning. The bridge closes in one minute.",
+     "ru": "Внимание. Мост закроется через минуту.",
+     "delivery": "flat cold game-system announcement with a dry hint of mockery",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.5,
+      "tail": "none"
+     }
+    },
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "Soup! Run! Now!",
+     "ru": "Суп! Беги! Сейчас!",
+     "delivery": "desperate, hoarse, cracking",
+     "place": {
+      "x": 0.02,
+      "y": 0.13,
+      "w": 0.34,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "shout",
+     "who": "mira",
+     "en": "HOLD!",
+     "ru": "HOLD!",
+     "delivery": "a short hard shout, teeth gritted, breath spent",
+     "place": {
+      "x": 0.45,
+      "y": 0.13,
+      "w": 0.3,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "thorn",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "left"
+    }
+   ],
+   "art": "Quiet comic medium shot, eye level, wide lens, Thorn small and precise. Dan at the LEFT sits soaked and dripping on a stone step, glasses fogged, a coil of rope around his shoulders. Thorn at the CENTRE stands in front of a huge clock face, pen raised like a pointer, perfectly dry and calm. At the far edge, Soup and Pip sit tangled in rope, Pip's cap on Soup's head.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Time is a sentence, dear. At six, on Monday, in the morning.",
+     "ru": "Время — это предложение, дорогой. В шесть, в понедельник, утром.",
+     "delivery": "crisp precise voice of a very old teacher, calm and dry, never raised",
+     "place": {
+      "x": 0.5,
+      "y": 0.05,
+      "w": 0.48,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "At six. On Monday. In the morning. I can do that.",
+     "ru": "В шесть. В понедельник. Утром. Это я могу.",
+     "delivery": "tired, repeating like a pupil, dryly self-mocking",
+     "place": {
+      "x": 0.02,
+      "y": 0.3,
+      "w": 0.42,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Count: 165.",
+     "ru": "Счёт: 165.",
+     "delivery": "flat cold game-system announcement with a dry hint of mockery",
+     "place": {
+      "x": 0.45,
+      "y": 0.91,
+      "w": 0.3,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "soup",
+     "pos": "right"
+    }
+   ],
+   "art": "Comic medium shot around a small attic table with a clock ticking loudly, eye level. Dan at the LEFT leans over a table with a stub of pencil in his RIGHT hand, drawing a sketchy plan on blank paper. Mira at the CENTRE leans back with arms crossed, shaking her head. Soup at the RIGHT sits on an oversized crate with the pot in his lap, eyes half closed.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Tomorrow we begin at quarter to eight. We meet here.",
+     "ru": "Завтра начинаем без четверти восемь. Встречаемся здесь.",
+     "delivery": "energetic, bossy, planning aloud",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.45,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Quarter to is late. We meet at half past seven.",
+     "ru": "Без четверти — поздно. Встречаемся в половине восьмого.",
+     "delivery": "deadpan, definitive, arms crossed, no room for argument",
+     "place": {
+      "x": 0.5,
+      "y": 0.03,
+      "w": 0.47,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "soup",
+     "en": "I am ready at six. Soup is always ready.",
+     "ru": "Я готов в шесть. Суп всегда готов.",
+     "delivery": "slow deep gentle voice, half asleep",
+     "place": {
+      "x": 0.67,
+      "y": 0.19,
+      "w": 0.31,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Quiet dark shot, wide lens, a night attic with small sleeping shapes, a clock face glowing in the window. Night attic: Dan at the LEFT lies on a mattress staring at the ceiling, glasses on the floor beside him. Mira at the RIGHT sits against the wall with her knees up, one eye open, the small hooded shape of Lina asleep against her arm. Soup and Pip sleep in the background.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Sleep, Zero. Today is over. It is half past eleven.",
+     "ru": "Спи, Зеро. Сегодня кончилось. Половина двенадцатого.",
+     "delivery": "low, gentle for once, almost kind",
+     "place": {
+      "x": 0.45,
+      "y": 0.1,
+      "w": 0.52,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Tomorrow we are ready. Tomorrow.",
+     "ru": "Завтра мы готовы. Завтра.",
+     "delivery": "half asleep, hopeful and unconvinced",
+     "place": {
+      "x": 0.02,
+      "y": 0.38,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "night-city",
+   "mood": "tense",
+   "sfx": "CLICK",
+   "cast": [
+    {
+     "id": "silent",
+     "pos": "center"
+    }
+   ],
+   "art": "Eerie low-angle shot at night in a lamp-lit courtyard, giant dark clock face looming above, a heavy round vault door ahead, deep blacks and teal rim light. A tall gaunt Silent stands at the CENTRE before a huge round vault door with a brass ring. Nad: a tall gaunt Silent with a smooth matte white face, no eyes, nose or lips, two round dents where Dan's glasses would sit, a single vertical teal seam, a stub of a torn mustard lanyard on the neck. Its long fingers rest against the door. A thin stripe of light from the door slit falls on the floor; the Silent stays in the shadow beside it.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "I am Dan.",
+     "ru": "Я Дэн.",
+     "delivery": "hollow breathy whisper, imitating Dan's voice slightly wrong",
+     "place": {
+      "x": 0.02,
+      "y": 0.42,
+      "w": 0.3,
+      "tail": "up-right"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Name heard: Dan. The hour vault opens.",
+     "ru": "Имя услышано: Дэн. Хранилище часов открыто.",
+     "delivery": "flat cold game-system announcement with a dry hint of mockery",
+     "place": {
+      "x": 0.2,
+      "y": 0.9,
+      "w": 0.6,
+      "tail": "none"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "pip",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Tight close two-shot in the dark attic, tilted frame, only a sliver of window light. Pip at the LEFT sits bolt upright on his mattress with his cap crooked and a finger pointing at the window. Dan at the RIGHT lies half under a blanket with one eye open, glasses missing. Outside in the window frame a distant tall silhouette on the roofs.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "Three in the morning. I hear Dan in the street.",
+     "ru": "Три ночи. Я слышу Дэна на улице.",
+     "delivery": "fast, a nervous whisper",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.5,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am here. I am sleeping. Mostly.",
+     "ru": "Я здесь. Я сплю. Почти.",
+     "delivery": "groggy, confused, squinting without his glasses",
+     "place": {
+      "x": 0.45,
+      "y": 0.78,
+      "w": 0.5,
+      "tail": "up-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "That is not Dan. That is Nad.",
+     "ru": "Это не Дэн. Это Nad.",
+     "delivery": "low and certain, deadly serious for once",
+     "place": {
+      "x": 0.02,
+      "y": 0.88,
+      "w": 0.4,
+      "tail": "up-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "night-city",
+   "mood": "action",
+   "sfx": "WHOOSH",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    }
+   ],
+   "art": "Dynamic night chase shot across slanted rooftops, extreme perspective, speed lines, giant clock face behind, tilted horizon. On the slanted roofs a tall faceless Silent at the RIGHT sprints away with an armful of glowing amber jars. Nad: a tall gaunt Silent with a smooth matte white face, no eyes, nose or lips, two round dents where Dan's glasses would sit, a single vertical teal seam, a stub of a torn mustard lanyard on the neck. Mira at the CENTRE leaps a gap in mid-air, red cord on her LEFT wrist. Dan at the LEFT runs behind in his socks, glasses on, one arm out, panting.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Stop! That is my voice!",
+     "ru": "Стой! Это мой голос!",
+     "delivery": "breathless and outraged, running",
+     "place": {
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.27,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "I am Dan. I am not weak. I am tired.",
+     "ru": "Я Дэн. Я не слабый. Я устал.",
+     "delivery": "hollow breathy whisper, imitating Dan's voice slightly wrong",
+     "place": {
+      "x": 0.55,
+      "y": 0.01,
+      "w": 0.43,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Fast, Zero. He has the hours.",
+     "ru": "Быстро, Зеро. У него часы.",
+     "delivery": "low, urgent, running",
+     "place": {
+      "x": 0.02,
+      "y": 0.19,
+      "w": 0.3,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "night-city",
+   "mood": "action",
+   "sfx": "CRACK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Dramatic freeze-frame shot from below, shattered amber glow, deep shadow under a bridge, shards of light. At the edge of a roof, Dan at the LEFT and Mira at the RIGHT stop short, staring into a black gap under a bridge where the tall Silent is melting into the shadow. One amber jar lies cracked on the roof between them, golden light spilling out as a glowing puddle. Mira's LEFT hand holds Dan's sleeve.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Seven hours are gone.",
+     "ru": "Семь часов пропали.",
+     "delivery": "flat cold game-system announcement with a dry hint of mockery",
+     "place": {
+      "x": 0.45,
+      "y": 0.02,
+      "w": 0.5,
+      "tail": "none"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "He says my words. He wears my name.",
+     "ru": "Он говорит мои слова. Он носит моё имя.",
+     "delivery": "low, shaken, realizing",
+     "place": {
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.4,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Friday is near. We are late again.",
+     "ru": "Пятница близко. Мы снова опаздываем.",
+     "delivery": "flat, tired, staring at the spilled golden light",
+     "place": {
+      "x": 0.72,
+      "y": 0.12,
+      "w": 0.26,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "citizen",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide tense shot at dawn in the courtyard before the open vault, a crowd gathering, eye level, long shadows. The round vault door stands open behind them. A watchman (citizen, cap and lantern) at the LEFT points a shaking finger straight at Dan at the CENTRE, who holds up both hands with his mouth open. Mira at the RIGHT steps half in front of him. A crowd of grey townspeople watches from behind.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "citizen",
+     "en": "Seven hour jars are gone. The door heard a name.",
+     "ru": "Семь банок часов пропали. Дверь слышала имя.",
+     "delivery": "shaky, loud, an honest man outraged",
+     "place": {
+      "x": 0.2,
+      "y": 0.03,
+      "w": 0.38,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Today we begin at eight. I am here!",
+     "ru": "Сегодня мы начинаем в восемь. Я здесь!",
+     "delivery": "urgent, hands up, desperate for sense",
+     "place": {
+      "x": 0.58,
+      "y": 0.03,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "citizen",
+     "en": "It is him. He says his name every time.",
+     "ru": "Это он. Он каждый раз называет своё имя.",
+     "delivery": "shaky, absolutely certain, his finger trembling at Dan",
+     "place": {
+      "x": 0.02,
+      "y": 0.3,
+      "w": 0.36,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "center"
+    }
+   ],
+   "art": "Very dark close shot, a lone red-bordered System window, Dan's face lit only by it. Black frame. A cream System window with a solid red inverted frame glows in the centre of the dark; Dan at the CENTRE in half-profile, lit only by it, glasses reflecting the window, mouth slightly open.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Warning. Dan is wanted.",
+     "ru": "Внимание. Дэн в розыске.",
+     "delivery": "flat cold warning voice, no emotion at all",
+     "place": {
+      "x": 0.1,
+      "y": 0.1,
+      "w": 0.7,
+      "tail": "none"
+     }
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "at / on / in: время и расписание",
+  "body": "At — точное время: at six, at nine, at half past seven. On — день: on Monday, on Friday. In — часть суток или период: in the morning, in four days. Для расписаний английский использует простое настоящее: The Proof begins on Friday. The bridge opens at ten. Half past seven — половина восьмого, quarter to eight — без четверти восемь. Слова today (сегодня) и tomorrow (завтра) стоят без предлога.",
+  "examples": [
+   {
+    "en": "The Proof begins on Friday at nine.",
+    "ru": "Proof начинается в пятницу в девять."
+   },
+   {
+    "en": "The bridge opens at ten.",
+    "ru": "Мост открывается в десять."
+   },
+   {
+    "en": "Tomorrow we begin at quarter to eight.",
+    "ru": "Завтра начинаем без четверти восемь."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Когда начинается the Proof?",
+   "options": [
+    "В понедельник в десять",
+    "В пятницу в девять",
+    "Завтра в шесть",
+    "В четверг в восемь"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Почему команда провалила тренировку на мосту?",
+   "options": [
+    "Мост был сломан",
+    "Суп опоздал: мост закрывается строго по часам",
+    "Мира не умеет бегать",
+    "Пип украл ключ"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Что сказал Пип ночью про голос на улице?",
+   "options": [
+    "Это Мира",
+    "Это Дэн",
+    "Это Nad, а не Дэн",
+    "Это сторож"
+   ],
+   "answer": 2
+  },
+  {
+   "q": "Почему сторож обвиняет Дэна?",
+   "options": [
+    "Дэн оставил следы",
+    "Дверь хранилища услышала его имя",
+    "Дэна видели с банками",
+    "Дэн сам признался"
+   ],
+   "answer": 1
+  }
+ ]
+}
