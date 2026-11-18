@@ -31,7 +31,8 @@ CAST = {"dan": "Dan", "mira": "Mira", "keeper": "Keeper", "silent": "Silent", "p
 # Season 2 ("v1") references (new clean portraits, 2026-11-17)
 CAST_V = {"dan": "DanV", "mira": "MiraV", "keeper": "KeeperV", "silent": "SilentV", "nad": "SilentV",
           "pip": "PipV", "lina": "LinaV", "lina_human": "LinaV", "rook": "RukV", "ruk": "RukV",
-          "soup": "SoupV", "thorne": "ThorneV", "thorn": "ThorneV", "odessa": "OdessaV"}
+          "soup": "SoupV", "thorne": "ThorneV", "thorn": "ThorneV", "odessa": "OdessaV",
+          "dash": "DashV", "period": "PeriodV", "tally": "TallyV", "bell": "BellV", "hob": "HobV"}
 
 # Rules shared by every style (kept short: the agent enriches prompts itself).
 COMMON_RULES = (
@@ -45,9 +46,7 @@ STYLES = {
     # current look (episodes 1-12)
     "s1": "Korean webtoon style, full colour, soft cel shading, vertical 3:4.",
     # sharper action-webtoon look
-    "v1": ("Korean action webtoon art, high-contrast digital painting, sharp cel shading with hard-edged shadows, "
-           "dramatic rim lighting, deep blacks, glossy detailed hair strands, sharp angular faces and jawlines, "
-           "intense eyes, cinematic dynamic perspective, glowing particle effects, crisp thin lineart, vertical 3:4."),
+    "v1": "Digital painting, almost no outline on skin or cloth, thin hair lines only, blended fills, cinematic rim light, deep blacks, cream-ink-ash-ochre, sharp painted faces, vertical 3:4.",
 }
 
 
@@ -110,23 +109,37 @@ def build_scenes(ep_id, panels=None, hint="", style="s1"):
             nm = (CAST_V if style == "v1" else CAST).get(c["id"])
             if nm and nm not in refs:
                 refs.append(nm)
-        extra = (" Extra direction: %s." % hint.strip().rstrip(".")) if hint else ""
-        scenes.append({"panel": n, "refs": refs[:3],
-                       "prompt": "Panel %02d. %s%s %s %s" % (n, body, extra, STYLES[style], COMMON_RULES)})
+        # Agent mode stalls on long prompts. Drop the least visual lines, then keep 75% of what remains.
+        for label in ("Avoid:", "Light:", "Faces:"):
+            body = re.sub(r"\s*%s\s*" % label, " ", body)
+        body = re.sub(r"\s+", " ", body).strip()
+        extra = (" Extra: %s." % hint.strip().rstrip(".")) if hint else ""
+        prompt = "Panel %02d. %s%s %s %s" % (n, body, extra, STYLES[style], COMMON_RULES)
+        limit = int(len(prompt) * 0.75) if len(prompt) > 900 else len(prompt)
+        if len(prompt) > limit:
+            cut = prompt[:limit]
+            dot = cut.rfind(". ")
+            prompt = (cut[:dot + 1] if dot > int(limit * 0.55) else cut.rsplit(" ", 1)[0]).strip()
+        scenes.append({"panel": n, "refs": refs[:3], "prompt": prompt})
     return scenes
 
 
 def _ref_image(n):
-    """Season-2 V portraits are attached from local files (not registered as Flow characters)."""
-    f = os.path.join(FLOW_OUT, "_cast", n + ".jpeg")
-    return f if n.endswith("V") and os.path.isfile(f) else "asset:" + n
+    """Use a Flow character. Uploading a portrait file on every batch makes the agent hang."""
+    return "asset:" + n
 
 
 def agent_body(project, scenes):
-    names = sorted({r for s in scenes for r in s["refs"]})
+    # One batch used to attach every person in the eight panels. Flow's picker then
+    # hung looking for the fourth name. Three characters is the picker's own limit.
+    wanted = {r for s in scenes for r in s["refs"]}
+    first = [n for n in ("DanV", "MiraV", "SilentV", "KeeperV") if n in wanted]
+    rest = sorted(wanted - set(first))
+    names = (first + rest)[:3]
+    keep = set(names)
     return {"project": project, "aspect_ratio": "3:4",
             "references": [{"image": _ref_image(n), "name": n} for n in names],
-            "scene_references": [s["refs"] for s in scenes],
+            "scene_references": [[r for r in s["refs"] if r in keep] for s in scenes],
             "scenes": [s["prompt"] for s in scenes]}
 
 
@@ -200,7 +213,11 @@ def load_state(ep_id):
 
 
 def contact_sheet(files, labels, out_path, cols=6, w=260, h=347):
-    from PIL import Image, ImageDraw
+    try:
+        from PIL import Image, ImageDraw
+    except ImportError:
+        print("contact sheet skipped: no PIL")
+        return ""
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     rows = (len(files) + cols - 1) // cols
     sh = Image.new("RGB", (cols * w, max(rows, 1) * h), "white")

@@ -1,0 +1,686 @@
+{
+ "episode": "s2e11",
+ "unlocks": "s2e12",
+ "title": "The Calls",
+ "titleRu": "Звонки",
+ "trials": [
+  {
+   "id": "s2e11-t1",
+   "title": "The Empty Lot",
+   "titleRu": "Пустой лот",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "warning",
+     "title": "WARNING",
+     "lines": [
+      {
+       "en": "The auction is a trap.",
+       "ru": "Аукцион — ловушка."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "odessa",
+      "en": "Lot seven is not here.",
+      "ru": "Лота номер семь здесь нет."
+     },
+     {
+      "who": "mira",
+      "en": "The lot was the trap.",
+      "ru": "Лот и был ловушкой."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "choose",
+     "story": {
+      "who": "citizen",
+      "en": "The hall laughs.",
+      "ru": "Зал смеётся."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "No lot. The auction watched you.",
+      "The phone is yours.",
+      "I did not leave.",
+      "Sit."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "No lot. They watched me.",
+      "ru": "Лота нет. Они смотрели на меня."
+     },
+     "fail": {
+      "who": "odessa",
+      "en": "The offer is a contract.",
+      "ru": "Предложение — это контракт."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "odessa",
+      "en": "Hear the pay.",
+      "ru": "Слушай плату."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "The phone is the pay. A return is a promise.",
+     "voice": "narration",
+     "delivery": "sweet, even, a contract read like tea",
+     "options": [
+      "The phone is the pay. A return is a promise.",
+      "You teach my people. You own nothing.",
+      "Dan. Eat."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Pay. Promise. I hear them.",
+      "ru": "Плата. Обещание. Я слышу."
+     },
+     "fail": {
+      "who": "thorn",
+      "en": "A promise is not a door, dear.",
+      "ru": "Обещание — не дверь, дорогой."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "His answer for the hall.",
+      "ru": "Его ответ для зала."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "I ___ the offer.",
+     "options": [
+      "refuse",
+      "refused",
+      "agree",
+      "pay"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "I refuse the offer.",
+      "ru": "Я отказываюсь."
+     },
+     "fail": {
+      "who": "odessa",
+      "en": "Refuse is a loud word.",
+      "ru": "Отказ — громкое слово."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "Say the no.",
+      "ru": "Скажи «нет»."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Собери фразу."
+     },
+     "answer": "I do not agree",
+     "accept": [
+      "I do not agree"
+     ],
+     "success": {
+      "who": "dan",
+      "en": "I do not agree.",
+      "ru": "Я не согласен."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Agree is the trap.",
+      "ru": "Согласие — это ловушка."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "mira",
+      "en": "Name the room.",
+      "ru": "Назови комнату."
+     },
+     "prompt": {
+      "en": "In English.",
+      "ru": "Напиши по-английски."
+     },
+     "answer": "auction",
+     "accept": [
+      "auction"
+     ],
+     "success": {
+      "who": "system",
+      "en": "The auction is a trap.",
+      "ru": "Аукцион — ловушка."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Auction. Say it.",
+      "ru": "Аукцион. Скажи."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "tally",
+      "en": "She loves the word lot.",
+      "ru": "Ей нравится слово lot."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "A lot of jars. Not your lot.",
+      "I did not leave.",
+      "Sit.",
+      "Dan. Eat."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "A lot of jars. Not a child's name.",
+      "ru": "Много банок. Не имя ребёнка."
+     },
+     "fail": {
+      "who": "tally",
+      "en": "Lot seven is empty.",
+      "ru": "Лот семь пуст."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "The offer is closed.",
+       "ru": "Предложение закрыто."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "I refuse. The offer is closed.",
+      "ru": "Я отказываюсь. Предложение закрыто."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2e11-t2",
+   "title": "Ansel",
+   "titleRu": "Ансель",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Answer with did.",
+       "ru": "ЗАДАНИЕ: Ответь через did."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "odessa",
+      "en": "Dan. Eat.",
+      "ru": "Дэн. Ешь."
+     },
+     {
+      "who": "dan",
+      "en": "That is not Mom.",
+      "ru": "Это не мама."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "The worst sentence in the tower.",
+      "ru": "Худшая фраза в башне."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Dan. Eat.",
+     "voice": "narration",
+     "delivery": "a stranger's mother-voice forced through a polite mouth",
+     "options": [
+      "Dan. Eat.",
+      "You are a number, Ansel. Sit.",
+      "Mother."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "ruk",
+      "en": "Mother.",
+      "ru": "Мать."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Not Mom. Stop.",
+      "ru": "Не мама. Стоп."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "odessa",
+      "en": "She uses his other name.",
+      "ru": "Она использует другое его имя."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "You are a number, Ansel. Sit.",
+      "I do not sit.",
+      "I refused her.",
+      "The phone is yours."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "ruk",
+      "en": "I do not sit.",
+      "ru": "Я не сяду."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "She said sit. He did not.",
+      "ru": "Она сказала сесть. Он не сел."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "thorn",
+      "en": "The question, dear.",
+      "ru": "Вопрос, дорогой."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "___ we refuse the contract?",
+     "options": [
+      "Did",
+      "Do",
+      "Was",
+      "Were"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "thorn",
+      "en": "We did.",
+      "ru": "Отказались."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Did. Then the answer.",
+      "ru": "Did. Потом ответ."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "Say the answer.",
+      "ru": "Скажи ответ."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Собери фразу."
+     },
+     "answer": "I did not steal",
+     "accept": [
+      "I did not steal"
+     ],
+     "success": {
+      "who": "dan",
+      "en": "I did not steal.",
+      "ru": "Я не крал."
+     },
+     "fail": {
+      "who": "odessa",
+      "en": "The market did.",
+      "ru": "Платил рынок."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "ruk",
+      "en": "The name she used. One word.",
+      "ru": "Имя, которое она использовала. Одно слово."
+     },
+     "prompt": {
+      "en": "In English.",
+      "ru": "Напиши по-английски."
+     },
+     "answer": "Ansel",
+     "accept": [
+      "Ansel"
+     ],
+     "success": {
+      "who": "ruk",
+      "en": "I do not sit.",
+      "ru": "Я не сяду."
+     },
+     "fail": {
+      "who": "odessa",
+      "en": "Ansel. Sit.",
+      "ru": "Ансель. Сядь."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "Did Ruk agree?",
+      "ru": "Рук согласился?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "I do not agree.",
+      "I agree.",
+      "Sit.",
+      "The offer is open."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "ruk",
+      "en": "I refused her.",
+      "ru": "Я отказал ей."
+     },
+     "fail": {
+      "who": "odessa",
+      "en": "You are a number.",
+      "ru": "Ты номер."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "The offer is closed. The return is not yours.",
+       "ru": "Предложение закрыто. Возвращение не твоё."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "thorn",
+      "en": "Did we refuse the contract, dear? We did.",
+      "ru": "Мы отказались от контракта, дорогой? Отказались."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2e11-t3",
+   "title": "The Phone",
+   "titleRu": "Телефон",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "status",
+     "title": "STATUS",
+     "lines": [
+      {
+       "en": "The phone is yours. Missed calls: 31.",
+       "ru": "Телефон твой. Пропущенных: 31."
+      },
+      {
+       "en": "Count: 262.",
+       "ru": "Счёт: 262."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Mom did call. I did not answer.",
+      "ru": "Мама звонила. Я не ответил."
+     },
+     {
+      "who": "tally",
+      "en": "A lot of jars.",
+      "ru": "Много банок."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "The calls.",
+      "ru": "Звонки."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "Mom ___ call.",
+     "options": [
+      "did",
+      "didn't",
+      "was",
+      "does"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "She did call.",
+      "ru": "Она звонила."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Did. Not didn't.",
+      "ru": "Did. Не didn't."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "silent",
+      "en": "Hear the sentence he never lived.",
+      "ru": "Слушай фразу, которой он не жил."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "I did not leave.",
+     "voice": "silent",
+     "delivery": "three voices in one, soft, Dan's among them",
+     "options": [
+      "I did not leave.",
+      "I did not steal.",
+      "I did not sell."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "I didn't. I do not say leave.",
+      "ru": "Я не говорил. Я не говорю «уходить»."
+     },
+     "fail": {
+      "who": "system",
+      "en": "Not true. He did not say it.",
+      "ru": "Неправда. Он этого не говорил."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "system",
+      "en": "The window agrees with Dan.",
+      "ru": "Окно соглашается с Дэном."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "Not true. He did not say it.",
+      "The phone is yours.",
+      "Count: 262.",
+      "I did not leave."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "He lies with his mouth.",
+      "ru": "Он лжёт его ртом."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Leave is not my word.",
+      "ru": "Уходить — не моё слово."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "The calls, in his mouth.",
+      "ru": "Звонки, его словами."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Собери фразу."
+     },
+     "answer": "I did not answer",
+     "accept": [
+      "I did not answer"
+     ],
+     "success": {
+      "who": "dan",
+      "en": "I did not answer.",
+      "ru": "Я не ответил."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "31 calls. You can read them later.",
+      "ru": "31 звонок. Прочтёшь потом."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "mira",
+      "en": "Name the closed thing.",
+      "ru": "Назови то, что закрыто."
+     },
+     "prompt": {
+      "en": "In English.",
+      "ru": "Напиши по-английски."
+     },
+     "answer": "offer",
+     "accept": [
+      "offer"
+     ],
+     "success": {
+      "who": "system",
+      "en": "The offer is closed.",
+      "ru": "Предложение закрыто."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Offer. Closed.",
+      "ru": "Предложение. Закрыто."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "ruk",
+      "en": "A hard sentence.",
+      "ru": "Тяжёлая фраза."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "I do not own you.",
+      "Sit.",
+      "Dan. Eat.",
+      "I did not steal."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "You didn't sit.",
+      "ru": "Ты не сел."
+     },
+     "fail": {
+      "who": "ruk",
+      "en": "I own nothing of you.",
+      "ru": "Ты мне не принадлежишь."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Count: 262. Missed calls: 31.",
+       "ru": "Счёт: 262. Пропущенных: 31."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "The phone is in your hand. The door is still up.",
+      "ru": "Телефон у тебя в руке. Дверь ещё стоит."
+     },
+     {
+      "who": "dan",
+      "en": "I did not leave. And I did not say it.",
+      "ru": "Я не уходил. И я этого не говорил."
+     }
+    ]
+   }
+  }
+ ]
+}

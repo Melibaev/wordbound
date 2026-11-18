@@ -1,0 +1,869 @@
+{
+ "id": "s2e10",
+ "title": "Yesterday",
+ "titleRu": "Вчера",
+ "level": "A1",
+ "newWords": [
+  "yesterday",
+  "touch",
+  "carry",
+  "show",
+  "happen",
+  "own",
+  "visit",
+  "drop",
+  "pick",
+  "return"
+ ],
+ "panels": [
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "thorn",
+     "pos": "right"
+    }
+   ],
+   "art": "Same vault, one second after the shelf closed. Dan at the LEFT has one hand flat on a cracked amber jar on the floor, the other hand braced on his knee. Mira at the CENTRE watches his hand, both of hers kept back, red cord on the left wrist. Thorn at the RIGHT nods once, pen lifted, cane in the other hand. No letters on the jar. Ochre lamp.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "У лестницы наверх вчера становится вещью. Коснёшься и скажешь, что сделали — и комната покажет. Цена — дыхание и то, что ты это видишь."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I touch the jar. Someone opened it.",
+     "ru": "Я касаюсь банки. Кто-то её открыл.",
+     "delivery": "careful, the past arriving under his palm",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Say what happened, dear. Yesterday listens.",
+     "ru": "Скажи, что случилось, дорогой. Вчера слушает.",
+     "delivery": "quiet instruction, the new grammar as a procedure",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "white",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "silent",
+     "pos": "left"
+    },
+    {
+     "id": "keeper",
+     "pos": "right"
+    }
+   ],
+   "art": "Memory in warm sepia paper tones, soft paper-grain edges. A tall smooth-faced Silent at the LEFT carries an amber jar in both long hands, one teal seam, no eyes, no nose, no lips. The Keeper at the RIGHT is hooded, eyes never visible, only the calm mouth and ink-stained fingers, one hand extended, the other at his side. No child in this frame. No labels.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Someone carried the jar. Someone visited him.",
+     "ru": "Кто-то нёс банку. Кто-то навестил его.",
+     "delivery": "voice-over, hushed, naming the sepia as it forms",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "She visited the Keeper, dear. She asked.",
+     "ru": "Она навестила Хранителя, дорогой. Она спросила.",
+     "delivery": "the model sentence, precise, from outside the memory",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "white",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "odessa",
+     "pos": "left"
+    },
+    {
+     "id": "keeper",
+     "pos": "right"
+    }
+   ],
+   "art": "Sepia memory, still no child. Odessa at the LEFT, younger only by the softer paper light, black coat, scale brooch with no letters, hands folded, ice-calm smile. The Keeper at the RIGHT, hood low, eyes not visible, offers an empty glass jar with both hands. Warm paper tones. No text on the jar.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "He wanted words. She wanted a name.",
+     "ru": "Ему были нужны слова. Ей было нужно имя.",
+     "delivery": "continuing the record, no drama, which is worse",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "odessa",
+     "en": "I visited. I asked. I carried nothing yet.",
+     "ru": "Я навестила. Я спросила. Я ещё ничего не унесла.",
+     "delivery": "memory-voice, polite, perfectly even, a contract already",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "white",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "odessa",
+     "pos": "center"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "Sepia. Odessa at the CENTRE picks a small glow out of the air with two fingers, like lifting a bead, her other hand at her waist. The Silent at the RIGHT has turned away, jar empty, both arms low, smooth head, one seam. The glow is vermilion and has no letters. No child. Paper grain.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "She picked the name up. She owned it.",
+     "ru": "Она подобрала имя. Оно стало её.",
+     "delivery": "sick, understanding the trade too late",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "She carried it out. She showed him the door.",
+     "ru": "Она унесла его. Она показала ему дверь.",
+     "delivery": "flat fury, short, from outside the paper",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "white",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "odessa",
+     "pos": "left"
+    },
+    {
+     "id": "bell",
+     "pos": "right"
+    }
+   ],
+   "art": "Sepia memory, gentle, not violent. Odessa at the LEFT kneels to a child's height, fully clothed, both hands offering nothing but an open palm with a tiny vermilion spark, no letters. Bell at the RIGHT is eight, straw-blonde bob, ink-black little coat, brass bell on the collar, fully clothed, ordinary proportions, both hands at her sides, curious not afraid. Warm paper light. No one unconscious. No appeal pose.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "It happened yesterday. A child lived there.",
+     "ru": "Это случилось вчера. Там жил ребёнок.",
+     "delivery": "the word yesterday sticking, voice gone thin",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "She carried the name to the child, dear.",
+     "ru": "Она отнесла имя ребёнку, дорогой.",
+     "delivery": "very quiet, the price named at last",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "period",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "dash",
+     "pos": "right"
+    }
+   ],
+   "art": "Back in the ash court, the sepia memory playing small and pale above Dan's open hand, no letters in it. Period at the LEFT watches, stamp lowered. Dan at the CENTRE holds the pose, pale from the touch, other hand on the bench. Dash at the RIGHT stands at attention, both arms down. Gallery silent. No child in the court frame.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "period",
+     "en": "The court watched it. Not guilty. Period.",
+     "ru": "Суд это видел. Не виновен. Точка.",
+     "delivery": "grudging, the stamp staying down, justice as an inconvenience",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dash",
+     "en": "The gates know the name Dan again.",
+     "ru": "Ворота снова знают имя Дэн.",
+     "delivery": "relieved, still clipped, a runner delivering good news badly",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "You showed them yesterday. I only touched it.",
+     "ru": "Ты показал им вчера. Я только коснулся.",
+     "delivery": "to Thorn off-screen, not celebrating, already afraid of the cost",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "ruk",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Quiet poisonous two-shot at the side of the court. Ruk at the LEFT looks at the floor, ledger closed under his arm, both gloved hands still, the contempt gone and something worse in its place. Dan at the RIGHT faces him, one hand still faintly sepia-lit, the other a fist that does not rise. They do not touch. Ash light.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "You watched. You showed me nothing.",
+     "ru": "Ты смотрел. Ты мне ничего не показал.",
+     "delivery": "low, not shouting, which is the insult",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "I owned no word for it. I dropped my eyes.",
+     "ru": "У меня не было на это слова. Я опустил глаза.",
+     "delivery": "the first time he is not performing, almost ashamed, still proud",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "thorn",
+     "pos": "right"
+    }
+   ],
+   "art": "A Margin balcony street, laundry lines, ochre lamps, the Gutter a warm crack far below. Mira at the LEFT walks fast, scarf tight, both hands in fists, red cord on the left wrist. Dan at the CENTRE is pale from the touch, one hand on the rail, the other empty. Thorn at the RIGHT keeps up with the cane, pen tucked away. No child yet. Evening.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "A return of the name leaves her zero.",
+     "ru": "Возврат имени оставляет её нулём.",
+     "delivery": "flat, the worst sentence she has said, no drama added",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "The name is not in a jar. A girl owned it.",
+     "ru": "Имени нет в банке. Им владела девочка.",
+     "delivery": "working it out aloud, hating the answer",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "She picked up a life, dear. Not a thing.",
+     "ru": "Она подобрала жизнь, дорогой. Не вещь.",
+     "delivery": "correcting the noun, gentle and ruthless",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "pip",
+     "pos": "left"
+    },
+    {
+     "id": "soup",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Same balcony, comic only in the bodies, not the news. Pip at the LEFT sits on the rail, both hands counting on his fingers, boots safe on a lower rung. Soup at the CENTRE holds his pot in both hands like a shield. Dan at the RIGHT leans on the rail, tired. Laundry behind them. No fall.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Суд уже сказал «не виновен». Цена правды стоит на балконе выше: живой ребёнок в чужом имени."
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "A return is not free. I do not touch that.",
+     "ru": "Возврат стоит дорого. Я такого не касаюсь.",
+     "delivery": "fast, serious for once, a dealer refusing a bad lot",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "soup",
+     "en": "Yesterday happened. The soup is still hot.",
+     "ru": "Вчера случилось. Суп всё ещё горячий.",
+     "delivery": "slow comfort, the only medicine he has",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I touched yesterday. I do not drop it.",
+     "ru": "Я коснулся вчера. Я это не бросаю.",
+     "delivery": "a weak joke that dies, honest",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Dan at the CENTRE under a blank cream System window, double vermilion frame, the balcony behind him. He is paler, one hand still on the rail. Mira at the RIGHT watches the window, not him, arms folded, red cord visible. Ochre lamps coming on. No text in the window.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "You touched yesterday. Count: 235.",
+     "ru": "Ты коснулся вчера. Счёт: 235.",
+     "delivery": "flat, the reward stated like a bill"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "The name is not a return. It lives.",
+     "ru": "Имя — не возврат. Оно живёт.",
+     "delivery": "colder, the penalty with no number, a fact"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Count up. A child down. Nice.",
+     "ru": "Счёт вверх. Ребёнок вниз. Мило.",
+     "delivery": "deadpan, the sarcasm thin as a knife",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "night-city",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "ruk",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Evening balcony, lamps lit. Ruk at the CENTRE has followed, coat black against the ochre, both hands empty for once, the ledger under his arm still. Dan at the LEFT does not offer a hand this time. Mira at the RIGHT watches the street above, not Ruk. They stand apart. No contact.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "I visited her street. I carried the quiet.",
+     "ru": "Я бывал на её улице. Я носил тайну.",
+     "delivery": "quiet, each past a confession he will not call a confession",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "You dropped nothing. You showed no one.",
+     "ru": "Ты ничего не уронил. Ты никому не показал.",
+     "delivery": "tired of him, still not cruel",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "He owned the quiet. Remember it.",
+     "ru": "Ему принадлежало молчание. Запомни.",
+     "delivery": "to Dan, low, storing the fact",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "night-city",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "thorn",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Quiet two-shot under a laundry line. Thorn at the LEFT, small against the tower dark, both hands on the cane now, pen put away. Dan at the RIGHT looks up toward a higher balcony, one hand shading his eyes, the other at his side. A tiny brass sound is only in the body language, nothing drawn as a letter. Warm lamps.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Имя не лежит в банке. Оно живёт на ребёнке. Забрать его — снова оставить девочку никем."
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Someone called her by that name, dear.",
+     "ru": "Кто-то звал её этим именем, дорогой.",
+     "delivery": "almost sad, the grammar still perfect",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Then the name happened to her. Not to us.",
+     "ru": "Значит, имя случилось с ней. Не с нами.",
+     "delivery": "soft, the engineer meeting a problem he cannot fix cleanly",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "night-city",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "silent",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "They stop. At the LEFT the hooded Silent, hood fully up, face not shown, scrap of red cord on the left wrist, both hands tight on the scarf, a flinch in the shoulders. Mira at the CENTRE has gone still, one hand half raised. Dan at the RIGHT looks where the hood looks: up. No girl in this frame yet. Night, lamps.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "She touched the name. The scarf moved.",
+     "ru": "Она коснулась имени. Капюшон дрогнул.",
+     "delivery": "barely sound, afraid to finish",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Do not pick it up. Not like that.",
+     "ru": "Не подбирай это. Не так.",
+     "delivery": "urgent whisper, to Mira and to himself",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "night-city",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "They stop under the balcony, looking up. Dan at the LEFT, both hands on the rail, pale from the touch. Mira at the RIGHT, scarf tight, red cord on the left wrist, both hands clenched and not touching him. The higher balcony is still empty. Ochre lamps. No child in frame yet.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "We do not pick the name up now.",
+     "ru": "Мы не подбираем имя сейчас.",
+     "delivery": "quiet, deciding not to be a thief of a child",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Then we only watch. We do not own her.",
+     "ru": "Тогда мы только смотрим. Она не наша.",
+     "delivery": "hard, agreeing with the cost",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "night-city",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "bell",
+     "pos": "center"
+    }
+   ],
+   "art": "A higher balcony, fully safe, no violence. Bell stands at the CENTRE, eight years old, fully clothed in the ink-black coat, brass buttons, tiny brass bell on the collar, straw-blonde bob, both hands on the rail, ordinary child proportions, curious serious face, not posed for appeal. Ochre lamps below. Laundry. No adult hands on her. No unconscious figure.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "bell",
+     "en": "Hello. I am Lina.",
+     "ru": "Здравствуй. Я Лина.",
+     "delivery": "a child's clear polite voice, no fear, the wrong name worn easily",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "bell",
+     "en": "Who are you?",
+     "ru": "Кто вы?",
+     "delivery": "simple, curious, the question landing like a bell",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "silent",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Black frame. The hooded figure at the LEFT flinches, hood still up, no face, red cord scrap visible, both hands clutched. Mira at the RIGHT stares, eyes wet, mouth open, both hands at her sides, red cord on the left wrist. They do not touch. A faint brass highlight and no lettering.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "bell",
+     "en": "I am Lina. Who are you?",
+     "ru": "Я Лина. Кто вы?",
+     "delivery": "the same polite child voice, closer, unbearable",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "She owned it. She called it.",
+     "ru": "Оно её. Она его назвала.",
+     "delivery": "wrecked, four words, no plan left",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "Вчера: правильное -ed",
+  "body": "Memory-touch включается прошедшим правильных глаголов: opened, carried, visited, asked, wanted, picked, showed, watched, touched, happened, lived, called, owned, dropped. Окончание -ed значит «это уже сделали». Неправильных форм вроде went или sold здесь нет — комната их не принимает. Сказал правду о вчера — увидел сцену. Цена не в счёте, а в том, чья это жизнь.",
+  "examples": [
+   {
+    "en": "I touch the jar. Someone opened it.",
+    "ru": "Я касаюсь банки. Кто-то её открыл."
+   },
+   {
+    "en": "She visited the Keeper, dear. She asked.",
+    "ru": "Она навестила Хранителя, дорогой. Она спросила."
+   },
+   {
+    "en": "The court watched it. Not guilty. Period.",
+    "ru": "Суд это видел. Не виновен. Точка."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Как Дэн видит вчера?",
+   "options": [
+    "Читает вывеску",
+    "Касается банки и говорит, что сделали",
+    "Спрашивает Nad",
+    "Покупает имя"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Что решает суд, увидев память?",
+   "options": [
+    "Not guilty. Period.",
+    "Виновен",
+    "Ещё один день",
+    "Стереть счёт"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Где на самом деле имя LINA?",
+   "options": [
+    "В банке у Хранителя",
+    "На восьмилетней девочке, которую растит Одесса",
+    "У Рука в пальто",
+    "На доске Index"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Что говорит девочка в конце?",
+   "options": [
+    "Я Белл",
+    "Отдайте имя",
+    "Я хочу домой",
+    "Hello. I am Lina. Who are you?"
+   ],
+   "answer": 3
+  }
+ ]
+}

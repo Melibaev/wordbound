@@ -1,0 +1,678 @@
+{
+ "episode": "s2e08",
+ "unlocks": "s2e09",
+ "title": "One Day",
+ "titleRu": "Один день",
+ "trials": [
+  {
+   "id": "s2e08-t1",
+   "title": "Two Lights",
+   "titleRu": "Два света",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "status",
+     "title": "STATUS",
+     "lines": [
+      {
+       "en": "True. A witness.",
+       "ru": "Правда. Свидетель."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "I was in the kitchen. I was not there.",
+      "ru": "Я был на кухне. Меня там не было."
+     },
+     {
+      "who": "mira",
+      "en": "Two lights. They are true.",
+      "ru": "Два света. Они правдивы."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "Where was I?",
+      "ru": "Где я был?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "I ___ in the kitchen.",
+     "options": [
+      "was",
+      "were",
+      "am",
+      "are"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "True. A witness.",
+      "ru": "Правда. Свидетель."
+     },
+     "fail": {
+      "who": "thorn",
+      "en": "Was, dear. One man.",
+      "ru": "Was, дорогой. Один человек."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "soup",
+      "en": "We were not at the vault.",
+      "ru": "Нас не было у хранилища."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "We ___ asleep.",
+     "options": [
+      "were",
+      "was",
+      "are",
+      "is"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "soup",
+      "en": "We were asleep.",
+      "ru": "Мы спали."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Were. We. Not was.",
+      "ru": "Were. Мы. Не was."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "mira",
+      "en": "Hear the teacher. She was there.",
+      "ru": "Слушай учительницу. Она там была."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "I was with him, dear. He was not alone.",
+     "voice": "narration",
+     "delivery": "polite, steel under the dear, each word placed",
+     "options": [
+      "I was with him, dear. He was not alone.",
+      "He was wanted. He is guilty.",
+      "The name was Dan. The voice was Dan."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Not alone. That light is true.",
+      "ru": "Не один. Этот свет правдив."
+     },
+     "fail": {
+      "who": "ruk",
+      "en": "The voice was Dan.",
+      "ru": "Голос был Дэн."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "period",
+      "en": "The court wants one name.",
+      "ru": "Суд хочет одно имя."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "Two lights. The two are true.",
+      "He is guilty.",
+      "A voice is not a proof.",
+      "The Index has no Dan."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "thorn",
+      "en": "True is not guilty, dear.",
+      "ru": "Правда — не вина, дорогой."
+     },
+     "fail": {
+      "who": "period",
+      "en": "One guilty name. Period.",
+      "ru": "Одно виновное имя. Точка."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "system",
+      "en": "Name the new word.",
+      "ru": "Назови новое слово."
+     },
+     "prompt": {
+      "en": "In English.",
+      "ru": "Напиши по-английски."
+     },
+     "answer": "witness",
+     "accept": [
+      "witness"
+     ],
+     "success": {
+      "who": "system",
+      "en": "WITNESS is yours now.",
+      "ru": "WITNESS теперь твоё."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Witness. Say the word.",
+      "ru": "Свидетель. Скажи слово."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "Say the kitchen. Not the vault.",
+      "ru": "Скажи кухню. Не хранилище."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Собери фразу."
+     },
+     "answer": "We were not at the vault",
+     "accept": [
+      "We were not at the vault"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "Not at the vault.",
+      "ru": "Не у хранилища."
+     },
+     "fail": {
+      "who": "dash",
+      "en": "The vault was open.",
+      "ru": "Хранилище было открыто."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "WITNESS is yours now. Count: 195.",
+       "ru": "WITNESS теперь твоё. Счёт: 195."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "I was wanted. The lights say I was asleep.",
+      "ru": "Я был в розыске. Свет говорит, что я спал."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2e08-t2",
+   "title": "Not Guilty",
+   "titleRu": "Не виновен",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "warning",
+     "title": "WARNING",
+     "lines": [
+      {
+       "en": "The gates do not know that name.",
+       "ru": "Ворота не знают этого имени."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "period",
+      "en": "The Index has no Dan. Period.",
+      "ru": "В Индексе нет Дэна. Точка."
+     },
+     {
+      "who": "dan",
+      "en": "I was on the board. I am not.",
+      "ru": "Я был на доске. Меня нет."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "choose",
+     "story": {
+      "who": "ruk",
+      "en": "He likes the two lights.",
+      "ru": "Ему нравятся два света."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "The name was Dan. The voice was Dan.",
+      "I was with him. He was not alone.",
+      "I was in the kitchen.",
+      "We were asleep."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "A voice is not a man.",
+      "ru": "Голос — не человек."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "The voice was not me.",
+      "ru": "Голос был не я."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "thorn",
+      "en": "Say it, dear.",
+      "ru": "Скажи, дорогой."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "He was not ___.",
+     "options": [
+      "alone",
+      "guilty",
+      "night",
+      "proof"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "thorn",
+      "en": "He was not alone, dear.",
+      "ru": "Он был не один, дорогой."
+     },
+     "fail": {
+      "who": "period",
+      "en": "Alone is not the truth. Period.",
+      "ru": "Один — не правда. Точка."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "citizen",
+      "en": "The second light.",
+      "ru": "Второй свет."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "The voice was at the vault. I was there.",
+     "voice": "narration",
+     "delivery": "shaky, honest, hating his own truth",
+     "options": [
+      "The voice was at the vault. I was there.",
+      "I was in the kitchen. Mira was with me.",
+      "Last night I was asleep."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "He was there. I was not.",
+      "ru": "Он там был. Я — нет."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Two places. Two true lines.",
+      "ru": "Два места. Две правдивые строки."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "mira",
+      "en": "Say it to the judge.",
+      "ru": "Скажи это судье."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Собери фразу."
+     },
+     "answer": "It was not Dan",
+     "accept": [
+      "It was not Dan"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "It was not Dan.",
+      "ru": "Это был не Дэн."
+     },
+     "fail": {
+      "who": "period",
+      "en": "Bring the voice. Period.",
+      "ru": "Приведите голос. Точка."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "dan",
+      "en": "The word he wants. You do not give it.",
+      "ru": "Слово, которого он хочет. Ты его не даёшь."
+     },
+     "prompt": {
+      "en": "In English.",
+      "ru": "Напиши по-английски."
+     },
+     "answer": "guilty",
+     "accept": [
+      "guilty"
+     ],
+     "success": {
+      "who": "thorn",
+      "en": "Guilty is his word. Not yours.",
+      "ru": "Виновен — его слово. Не твоё."
+     },
+     "fail": {
+      "who": "period",
+      "en": "Guilty. Period.",
+      "ru": "Виновен. Точка."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dash",
+      "en": "What does the board do?",
+      "ru": "Что делает доска?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "The gates do not know that name.",
+      "Count: 195.",
+      "I am the judge.",
+      "We were a team."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "The gates do not know me.",
+      "ru": "Ворота меня не знают."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "The name is gone.",
+      "ru": "Имени нет."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Count: 195.",
+       "ru": "Счёт: 195."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "It was Nad. I was there.",
+      "ru": "Это был Nad. Я там была."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2e08-t3",
+   "title": "Bring the Voice",
+   "titleRu": "Приведите голос",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: One day.",
+       "ru": "ЗАДАНИЕ: Один день."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "period",
+      "en": "Bring Nad. One day. Period.",
+      "ru": "Приведите Nad. Один день. Точка."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "The night, in one true line.",
+      "ru": "Ночь одной правдивой строкой."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "Last night I ___ asleep.",
+     "options": [
+      "was",
+      "were",
+      "am",
+      "is"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "thorn",
+      "en": "The truth was in the kitchen, dear.",
+      "ru": "Правда была на кухне, дорогой."
+     },
+     "fail": {
+      "who": "dash",
+      "en": "Last night the vault was open.",
+      "ru": "Прошлой ночью хранилище было открыто."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "period",
+      "en": "Hear the judge.",
+      "ru": "Слушай судью."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Bring Nad. One day. Period.",
+     "voice": "narration",
+     "delivery": "quiet, finished, the last word like a nail",
+     "options": [
+      "Bring Nad. One day. Period.",
+      "I am the judge. Period.",
+      "The Index has no Dan. Period."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "One day. Nad.",
+      "ru": "Один день. Nad."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "He said Nad. Walk.",
+      "ru": "Он сказал Nad. Иди."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "What is still true?",
+      "ru": "Что всё ещё правда?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "I do not steal. I was not alone.",
+      "He is guilty.",
+      "The voice was Dan.",
+      "I was at the vault."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "soup",
+      "en": "I was in the kitchen.",
+      "ru": "Я был на кухне."
+     },
+     "fail": {
+      "who": "ruk",
+      "en": "He was wanted.",
+      "ru": "Он был в розыске."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "thorn",
+      "en": "Say it again, dear.",
+      "ru": "Скажи ещё раз, дорогой."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Собери фразу."
+     },
+     "answer": "He was not alone",
+     "accept": [
+      "He was not alone"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "Not alone.",
+      "ru": "Не один."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Alone is a lie.",
+      "ru": "Один — это ложь."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "mira",
+      "en": "Name the place we were not.",
+      "ru": "Назови место, где нас не было."
+     },
+     "prompt": {
+      "en": "In English.",
+      "ru": "Напиши по-английски."
+     },
+     "answer": "vault",
+     "accept": [
+      "vault"
+     ],
+     "success": {
+      "who": "dash",
+      "en": "The vault. One day.",
+      "ru": "Хранилище. Один день."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Vault. Not kitchen.",
+      "ru": "Хранилище. Не кухня."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dash",
+      "en": "The doors are open. Not the answer.",
+      "ru": "Двери открыты. Не ответ."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "One day. The gates do not know you.",
+      "I was in the kitchen.",
+      "He was not alone.",
+      "Bring the voice."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "One day. We walk.",
+      "ru": "Один день. Мы идём."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Not yet. We are still in the street.",
+      "ru": "Ещё нет. Мы ещё на улице."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Count: 195. The night is not over.",
+       "ru": "Счёт: 195. Ночь не кончена."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dash",
+      "en": "One day. Walk.",
+      "ru": "Один день. Иди."
+     },
+     {
+      "who": "dan",
+      "en": "The gates do not know my name.",
+      "ru": "Ворота не знают моего имени."
+     }
+    ]
+   }
+  }
+ ]
+}

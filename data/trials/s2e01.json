@@ -48,7 +48,7 @@
      },
      "prompt": {
       "en": "What is he doing?",
-      "ru": "Что он делает сейчас?"
+      "ru": "Человек на верёвке. Что он делает прямо сейчас?"
      },
      "options": [
       "He is pulling the rope.",
@@ -64,7 +64,7 @@
      "fail": {
       "who": "dan",
       "en": "He is pulling. Not 'he pull'.",
-      "ru": "Он тянет. is + -ing."
+      "ru": "He is pulling. Сейчас. Не he pull — нить не зажжётся."
      }
     },
     {
@@ -76,7 +76,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Дом едет по полке. Какой -ing в пропуске?"
      },
      "sentence": "A man is ___ a house!",
      "options": [
@@ -105,7 +105,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Улица смотрит. Что ты услышал?"
      },
      "audio_text": "People are watching us.",
      "voice": "mira",
@@ -132,11 +132,11 @@
      "story": {
       "who": "mira",
       "en": "Words of this street. Know them.",
-      "ru": "Слова этой улицы. Знай их."
+      "ru": "Город, улица, лавка, доска. Шляпа не должна запомнить лишнего."
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Четыре метки. Сопоставь."
+      "ru": "Город, улица, лавка, доска. Сверь, пока шляпа на месте."
      },
      "pairs": [
       [
@@ -176,7 +176,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Дэн говорит. Собери: «Я смотрю на того человека»."
+      "ru": "Тот человек бежит. Собери: «Я смотрю на того человека»."
      },
      "answer": "I am watching that man",
      "distractors": [
@@ -191,7 +191,7 @@
      "fail": {
       "who": "system",
       "en": "True. Now-sight.",
-      "ru": "I am watching. am + -ing."
+      "ru": "I am watching. Am + -ing. Иначе Now-sight слепой."
      }
     },
     {
@@ -203,7 +203,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Сейчас. Напиши про Лину: «Она стоит»."
+      "ru": "Лина под шарфом. Напиши, что она делает: стоит."
      },
      "answer": "She is standing",
      "success": {
@@ -281,7 +281,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Доска. На низ никто не смотрит. Что сказано?"
      },
      "audio_text": "Nobody is looking at the bottom.",
      "voice": "mira",
@@ -312,7 +312,7 @@
      },
      "prompt": {
       "en": "What is the answer?",
-      "ru": "Ход Дэна. Что он скажет?"
+      "ru": "Где ты стоишь на этой доске?"
      },
      "options": [
       "I am standing at the bottom.",
@@ -340,7 +340,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Все смотрят вверх. Are или is в пропуске?"
      },
      "sentence": "The people ___ looking at the board.",
      "options": [
@@ -357,7 +357,7 @@
      "fail": {
       "who": "system",
       "en": "People are looking.",
-      "ru": "People are looking. Все смотрят."
+      "ru": "People are looking. Все смотрят — не is."
      }
     },
     {
@@ -369,7 +369,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Фраза на кону. Собери фразу: «Лифт несёт сорок человек»."
+      "ru": "Лифт над площадью. Собери: «Лифт несёт сорок человек»."
      },
      "answer": "The lift is carrying forty people",
      "distractors": [
@@ -384,7 +384,7 @@
      "fail": {
       "who": "system",
       "en": "The lift is carrying. Not 'is carry'.",
-      "ru": "The lift is carrying. is + -ing."
+      "ru": "The lift is carrying. Иначе он падает."
      }
     },
     {
@@ -396,7 +396,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши слово-силу, которым Мира держит лифт: «держи»."
+      "ru": "Три дыхания. Напиши её слово-силу: держи."
      },
      "answer": "hold",
      "success": {
@@ -475,7 +475,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Глашатай орёт цену. Сколько слов за тебя?"
      },
      "audio_text": "The Ledger is paying five hundred words for Zero!",
      "voice": "narration",
@@ -506,7 +506,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Не дёргайся. Am или is в «I ___ standing»?"
      },
      "sentence": "I ___ standing very still.",
      "options": [
@@ -535,7 +535,7 @@
      },
      "prompt": {
       "en": "What is she doing?",
-      "ru": "Что делает Лина?"
+      "ru": "Шляпа не должна шевелиться. Что делает Лина?"
      },
      "options": [
       "She is standing very still.",
@@ -563,7 +563,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Фраза на кону. Собери фразу: «Все смотрят на меня»."
+      "ru": "Толпа уже смотрит. Собери: «Все смотрят на меня»."
      },
      "answer": "Everyone is looking at me",
      "distractors": [
@@ -578,7 +578,7 @@
      "fail": {
       "who": "system",
       "en": "Everyone is looking. Not 'everyone look'.",
-      "ru": "Everyone is looking. is + -ing."
+      "ru": "Everyone is looking. Толпа уже видит тебя."
      }
     },
     {
@@ -590,7 +590,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши ответ Дэна: «Я иду»."
+      "ru": "Не беги. Напиши, что ты делаешь: иду."
      },
      "answer": "I am walking",
      "success": {

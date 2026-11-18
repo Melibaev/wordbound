@@ -1,0 +1,898 @@
+{
+ "id": "s2e11",
+ "title": "The Auction",
+ "titleRu": "Аукцион",
+ "level": "A1",
+ "newWords": [
+  "auction",
+  "offer",
+  "lot",
+  "contract",
+  "agree",
+  "refuse",
+  "pay",
+  "own",
+  "promise",
+  "trap"
+ ],
+ "panels": [
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "bell",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "odessa",
+     "pos": "right"
+    }
+   ],
+   "art": "One second later on the balcony. Bell at the LEFT, eight, fully clothed, black coat, tiny brass bell on the collar, both hands on the rail, curious, not afraid, ordinary proportions. Dan at the CENTRE has both hands up, empty, not touching her. Odessa at the RIGHT stands a step behind the child, hands folded, scale brooch with no letters, smile that does not reach the eyes. Night lamps. No one hurt.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Девочка ещё не договорила. На балконе над ней — женщина, которая это имя купила. Аукцион был не за именем. Он был за учителем."
+    },
+    {
+     "type": "speech",
+     "who": "bell",
+     "en": "I am Lina. Who are you?",
+     "ru": "Я Лина. Кто вы?",
+     "delivery": "the same polite child voice, unfinished from last night",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "odessa",
+     "en": "The auction is open. Come in.",
+     "ru": "Аукцион открыт. Входите.",
+     "delivery": "soft, gracious, never louder than a contract",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "odessa",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "The auction hall: dark wood, tiered seats full of grey coats, a central pedestal with nothing on it. Odessa at the LEFT, hands still folded. Dan at the CENTRE stares at the empty stand, both hands open. Mira at the RIGHT, arms folded, red cord on the left wrist. Blank cream sheets with brass seals and no letters. Deep blacks.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "odessa",
+     "en": "Lot seven is not here.",
+     "ru": "Лота номер семь здесь нет.",
+     "delivery": "pleasant, as if announcing tea",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Where is the lot? You called us.",
+     "ru": "Где лот? Вы нас звали.",
+     "delivery": "public, angry, the galleries listening",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "The lot was the trap. Look.",
+     "ru": "Лот и был ловушкой. Смотри.",
+     "delivery": "deadpan, already done with the room",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "citizen",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "odessa",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide humiliation shot. A citizen at the LEFT laughs behind a hand, the other hand pointing at the empty pedestal. Dan at the CENTRE stands small in the middle of the floor, pale, both fists closed. Odessa at the RIGHT does not laugh, hands folded, the stillest person in the hall. Tiered crowd. No child in this frame.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "citizen",
+     "en": "No lot. The auction watched you.",
+     "ru": "Лота нет. Аукцион смотрел на тебя.",
+     "delivery": "a laugh in the throat, cruel and ordinary",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "odessa",
+     "en": "The offer is a contract. Listen.",
+     "ru": "Предложение — это контракт. Слушай.",
+     "delivery": "sweet, the trap closing without a sound",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "The auction is a trap.",
+     "ru": "Аукцион — ловушка.",
+     "delivery": "flat, late on purpose, no help in it"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "odessa",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Two-shot across the empty pedestal. Odessa at the LEFT, half-moon glasses on a chain, one hand open in a polite offer, the other at her waist. Dan at the RIGHT does not take it, both hands at his sides, the gap between them clear. Brass lamp, no text on the blank contract sheets.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "odessa",
+     "en": "You teach my people. You own nothing.",
+     "ru": "Ты учишь моих людей. Тебе ничего не принадлежит.",
+     "delivery": "each clause a term, voice even",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "odessa",
+     "en": "The phone is the pay. A return is a promise.",
+     "ru": "Телефон — плата. Возвращение — обещание.",
+     "delivery": "the sweet part, still not a smile that reaches the eyes",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I do not agree. I refuse the offer.",
+     "ru": "Я не согласен. Я отказываюсь.",
+     "delivery": "public, shaking, the two words chosen",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "thorn",
+     "pos": "left"
+    },
+    {
+     "id": "odessa",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Thorn at the LEFT, small, pen out, nothing red but the nib, cane in the other hand. Odessa at the CENTRE turns her head only, body still. Dan at the RIGHT watches the pen, hopeful. The crowd is a dark ring. No contact between the women.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "A promise is not a door, dear.",
+     "ru": "Обещание — не дверь, дорогой.",
+     "delivery": "the correction aimed at Odessa, dear kept for Dan",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "odessa",
+     "en": "Did you teach the girl her name?",
+     "ru": "Ты учил девочку её имени?",
+     "delivery": "polite cross-examination, did you almost swallowed",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "odessa",
+     "en": "Did someone pay you? The market did.",
+     "ru": "Кто-то тебе платил? Рынок платил.",
+     "delivery": "answering her own question, a smile at last",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Dan at the LEFT in the middle of the floor, both hands open to the crowd, glasses flashing. Mira at the RIGHT stands at his shoulder, not touching, red cord visible, chin up. The empty pedestal between them and Odessa, who is out of frame. Hard rim light.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I did not teach her. I did not sell.",
+     "ru": "Я её не учил. Я не продавал.",
+     "delivery": "loud enough for the back row, honest",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "odessa",
+     "en": "Did you steal from the market?",
+     "ru": "Ты украл у рынка?",
+     "delivery": "from off-frame, silk over a knife",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Closer on Dan at the CENTRE, the crowd a blur, both hands open and empty. Mira at the RIGHT is at the edge of frame, red cord on the left wrist, watching him not the gallery. Hard light on his face. No child.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Пустой постамент — это унижение. Контракт — цена выхода. Телефон мамы лежит в этой цене, и Дэн его не берёт."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I did not steal.",
+     "ru": "Я не крал.",
+     "delivery": "the refusal already said, this one is only the truth",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "odessa",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Close horror. Odessa at the LEFT holds Dan's old phone in one hand, the other hand at her collar, mouth open, eyes wrong for a second, the gracious mask slipped. Dan at the RIGHT recoils, both hands up, not touching her. The phone is dark, no screen text, no icons. Vermilion rim on her glasses.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "odessa",
+     "en": "Dan. Eat.",
+     "ru": "Дэн. Ешь.",
+     "delivery": "a stranger's mother-voice forced through her mouth, she does not notice",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "That is not Mom. Stop.",
+     "ru": "Это не мама. Стоп.",
+     "delivery": "cracked, the worst sound in the tower",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "Mother.",
+     "ru": "Мать.",
+     "delivery": "from the gallery, one word, the boy under the coat",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "odessa",
+     "pos": "left"
+    },
+    {
+     "id": "ruk",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Ruk at the CENTRE has stepped onto the floor between his mother and Dan, tall, coat open, both gloved hands empty, ledger still under his arm, he does not sit. Odessa at the LEFT looks at him as a number, hands folded again, the voice-slip gone. Dan at the RIGHT watches Ruk, stunned. No child.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "odessa",
+     "en": "You are a number, Ansel. Sit.",
+     "ru": "Ты номер, Ансель. Сядь.",
+     "delivery": "ice, the name used as a leash, still not loud",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "I do not sit. I do not agree.",
+     "ru": "Я не сяду. Я не согласен.",
+     "delivery": "quiet, the first no she has had from him",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Did you agree to the contract?",
+     "ru": "Ты согласился на контракт?",
+     "delivery": "to Ruk, almost kind, a real question",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "thorn",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Thorn at the LEFT raises the pen like a bar, both feet planted, cane hooked on her arm. Dan at the CENTRE nods. Mira at the RIGHT is already turning toward a side door, one hand out. A blank System window, solid red frame, hangs over the pedestal. Crowd uneasy.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Did we refuse the contract, dear? We did.",
+     "ru": "Мы отказались от контракта, дорогой? Отказались.",
+     "delivery": "the model question and answer, crisp, for the whole hall",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "We did. I refuse. I own my no.",
+     "ru": "Отказались. Я отказываюсь. Моё «нет» — моё.",
+     "delivery": "steadier, the engineer signing with his voice",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "The offer is closed. The return is not yours.",
+     "ru": "Предложение закрыто. Возвращение не твоё.",
+     "delivery": "flat penalty, the door home shut in one line"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "action",
+   "sfx": "CRACK",
+   "cast": [
+    {
+     "id": "tally",
+     "pos": "left"
+    },
+    {
+     "id": "silent",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Action, no children. Tally at the LEFT, patched black-and-white cloak sewn with keys and spoons, no letters, white streak in her hair, dumps a sack of amber jars with both hands. Nad at the CENTRE, smooth head, one teal seam, no eyes, no nose, no lips, arms open, jars breaking into vermilion motes around him, not blood. Dan at the RIGHT ducks, both arms over his head, not touching them. Deep blacks.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "tally",
+     "en": "A lot of jars. Not your lot.",
+     "ru": "Много банок. Не твой лот.",
+     "delivery": "amused, counting, the two meanings of lot in one breath",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Did you open the vault? Did he?",
+     "ru": "Ты открыла хранилище? Он?",
+     "delivery": "shouting over the crack of glass",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "A dark phone has slid to Dan's boot. He crouches at the LEFT, both hands around the phone, no screen text, the glass black. Mira at the RIGHT kneels beside him but her hands stay on her own knees, red cord visible. Amber shards around them, no one unconscious. A blank System window glows.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "The phone is yours. Missed calls: 31.",
+     "ru": "Телефон твой. Пропущенных: 31.",
+     "delivery": "flat, the number heavier than the reward"
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Mom did call. I did not answer.",
+     "ru": "Мама звонила. Я не ответил.",
+     "delivery": "wrecked whisper, seventeen missed days in one line",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Count: 262.",
+     "ru": "Счёт: 262.",
+     "delivery": "a second stamp, no comfort beside the thirty-one"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "ruk",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "The hall starting to groan, beams not yet falling. Ruk at the LEFT stands where his mother stood, both hands empty, coat dusty with amber light. Dan at the CENTRE holds the phone to his chest with both hands. Mira at the RIGHT looks up at the ceiling, one hand on a pillar. No child.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "The promise is a trap. We refused.",
+     "ru": "Обещание — ловушка. Мы отказались.",
+     "delivery": "pulling him, no time for the phone",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "I refused her. I do not own you.",
+     "ru": "Я отказал ей. Ты мне не принадлежишь.",
+     "delivery": "awkward, the nearest thing he has to a hand offered",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Did she pay you to sit? You didn't.",
+     "ru": "Она платила тебе, чтобы ты сел? Ты не сел.",
+     "delivery": "a rough thanks, almost a joke",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "silent",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Nad rises at the CENTRE from the broken light, still one seam, smooth head, no eyes, no hair, no nose, no lips, jars orbiting as sparks. Dan at the RIGHT holds the phone down, both hands tight, unable to look away. Teal only on the seam. No child. No blood.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "I did not sell.",
+     "ru": "Я не продавал.",
+     "delivery": "Dan's voice, exact, thrown back at him",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "I did not steal.",
+     "ru": "Я не крал.",
+     "delivery": "same voice, a second denial, emptier",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "silent",
+     "pos": "left"
+    },
+    {
+     "id": "thorn",
+     "pos": "right"
+    }
+   ],
+   "art": "The second and third seams split the smooth head, still no eyes, no nose, no lips, no hair, three thin vertical teal lines only. Nad at the LEFT, shoulders a little narrower, exactly two arms. Thorn at the RIGHT has the pen half raised and stops, both hands still, face tight. Black hall, vermilion motes.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Третий шов открывается без глаз и без рта. Фраза, которой Дэн не жил, звучит его голосом."
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "I did not leave.",
+     "ru": "Я не уходил.",
+     "delivery": "three voices, one of them Dan's, the sentence he never lived",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I do not say leave. I didn't.",
+     "ru": "Я не говорю «уходить». Я не говорил.",
+     "delivery": "desperate, the new word already in the air",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "silent",
+     "pos": "center"
+    }
+   ],
+   "art": "Black. Only Nad, Chorus, three teal seams on a smooth head, no eyes, no sockets, no nose, no lips, no hair, mustard scrap at the throat, phone-light on Dan's fingers at the very edge and no readable screen. The figure is too close. Two arms, hands open.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "I did not leave.",
+     "ru": "Я не уходил.",
+     "delivery": "the three seams together, soft, the cliff in Dan's own voice",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Not true. He did not say it.",
+     "ru": "Неправда. Он этого не говорил.",
+     "delivery": "flat, agreeing with Dan and accusing the Chorus in one line"
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "Did you...? / didn't",
+  "body": "Did ставит вопрос к прошлому: Did you teach her? Did someone pay you? Ответ короткий: I did или I did not / I didn't. Отрицание — did not перед обычным глаголом: I did not sell. I did not steal. Did не меняет глагол, окончание -ed сюда не добавляют. Lot на аукционе — не «много», а вещь, которую продают. A lot of по-прежнему значит «много».",
+  "examples": [
+   {
+    "en": "Did you teach the girl her name?",
+    "ru": "Ты учил девочку её имени?"
+   },
+   {
+    "en": "Did we refuse the contract, dear? We did.",
+    "ru": "Мы отказались от контракта, дорогой? Отказались."
+   },
+   {
+    "en": "I did not teach her. I did not sell.",
+    "ru": "Я её не учил. Я не продавал."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Почему зал пуст, хотя все ждали лот «имя ребёнка»?",
+   "options": [
+    "Лот уже продали Лине",
+    "Лота нет: Одессе нужен был Дэн",
+    "Рук купил его ночью",
+    "Банки пустые"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Что в контракте и что делает Дэн?",
+   "options": [
+    "Учить людей Ledger, ничего не иметь, телефон в уплату — и он отказывается",
+    "Отдать имя",
+    "Сесть рядом с Анселем",
+    "Подписать и уйти домой"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Что случается с голосом Одессы у телефона?",
+   "options": [
+    "Она поёт",
+    "Она молчит",
+    "На одну фразу говорит чужим голосом: Dan. Eat.",
+    "Она зовёт судью"
+   ],
+   "answer": 2
+  },
+  {
+   "q": "Какую фразу Chorus говорит такой, какой Дэн не жил?",
+   "options": [
+    "I am tired",
+    "I know doors",
+    "I did not sell",
+    "I did not leave"
+   ],
+   "answer": 3
+  }
+ ]
+}

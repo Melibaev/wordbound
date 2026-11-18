@@ -48,7 +48,7 @@
      },
      "prompt": {
       "en": "Find the word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Лина и Мира. Чья семья в пропуске?"
      },
      "sentence": "Mira says: Lina is ___ family.",
      "options": [
@@ -77,7 +77,7 @@
      },
      "prompt": {
       "en": "Mira says...",
-      "ru": "Мира про семью. Как она это сказала?"
+      "ru": "Про мать. Как она это сказала?"
      },
      "options": [
       "Our mother is gone.",
@@ -105,7 +105,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Цена карты. Что сказал Хранитель?"
      },
      "audio_text": "One word, whole. I give you the map.",
      "voice": "keeper",
@@ -136,7 +136,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Долг или дружба. Собери: «Друг не использует друга»."
+      "ru": "Она тебя использовала. Собери: «Друг не использует друга»."
      },
      "answer": "A friend does not use a friend",
      "distractors": [
@@ -163,7 +163,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Миры нет. Одно слово — один."
+      "ru": "Её рядом нет. Напиши, кто ты теперь: один."
      },
      "answer": "alone",
      "success": {
@@ -233,7 +233,7 @@
      },
      "prompt": {
       "en": "Find the word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "OPEN у него. His или her в пропуске?"
      },
      "sentence": "He has my OPEN. It is ___ word now.",
      "options": [
@@ -262,7 +262,7 @@
      },
      "prompt": {
       "en": "Find the word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "У ребёнка забрали всё. All ___ words — какое слово?"
      },
      "sentence": "They take the child. They take all ___ words.",
      "options": [
@@ -287,11 +287,11 @@
      "story": {
       "who": "dan",
       "en": "Me, him, us, them. Small. Big lies.",
-      "ru": "Меня, его, нас, их. Короткие. Крупная ложь."
+      "ru": "Меня, его, нас, их. Короткие. Ими врут чаще всего."
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Четыре метки. Сопоставь."
+      "ru": "Me, him, us, them. Сверь, пока в голове крутится ссора."
      },
      "pairs": [
       [
@@ -331,7 +331,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Её голос в голове. Что она кричала?"
      },
      "audio_text": "He is bad for us!",
      "voice": "mira",
@@ -390,7 +390,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Телефон далеко. Что сказала мама?"
      },
      "audio_text": "Mom. I love you.",
      "voice": "dan",
@@ -473,7 +473,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Маленькая тянет за рукав. Что она сказала?"
      },
      "audio_text": "Come. You.",
      "voice": "silent",
@@ -504,7 +504,7 @@
      },
      "prompt": {
       "en": "Which voice is the Silent?",
-      "ru": "Один голос — ловушка. Какой — Безмолвный?"
+      "ru": "Голос за спиной. Мира или ловушка?"
      },
      "clips": [
       {
@@ -543,7 +543,7 @@
      },
      "prompt": {
       "en": "Find the word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Идёшь с ней. Me, her, them — какое?"
      },
      "sentence": "I go with ___. She knows the way.",
      "options": [
@@ -572,7 +572,7 @@
      },
      "prompt": {
       "en": "What is it?",
-      "ru": "Карта врёт. Что ты знаешь точно?"
+      "ru": "Карта Миры здесь врёт. Куда она тебя НЕ ведёт?"
      },
      "options": [
       "She does not go to Mira.",

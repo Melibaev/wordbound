@@ -11,7 +11,11 @@
   "s1e09": true,
   "s1e10": true,
   "s2e07": true,
-  "s2e08": true
+  "s2e08": true,
+  "s2e09": true,
+  "s2e10": true,
+  "s2e11": true,
+  "s2e12": true
  },
  "placement": true,
  "trials": {
@@ -32,8 +36,14 @@
   "s2e03": true,
   "s2e04": true,
   "s2e05": true,
-  "s2e06": true
+  "s2e06": true,
+  "s2e07": true,
+  "s2e08": true,
+  "s2e09": true,
+  "s2e10": true,
+  "s2e11": true,
+  "s2e12": true
  },
- "version": 56,
+ "version": 66,
  "words": true
 }

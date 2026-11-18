@@ -44,7 +44,7 @@
      },
      "prompt": {
       "en": "Find the word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Яблоки. How much или how many?"
      },
      "sentence": "How ___ apples for one word?",
      "options": [
@@ -61,7 +61,7 @@
      "fail": {
       "who": "pip",
       "en": "Apples: how many. Money: how much.",
-      "ru": "Яблоки — how many. Деньги — how much."
+      "ru": "Яблоки считают many. Иначе цена вдвое."
      }
     },
     {
@@ -73,7 +73,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Цена Пипа. Сколько яблок? Числом или словом."
+      "ru": "Он орёт цену. Сколько яблок? Числом или словом."
      },
      "audio_text": "Four words? Eight apples!",
      "voice": "pip",
@@ -92,7 +92,7 @@
      "fail": {
       "who": "pip",
       "en": "Eight! Four words, eight apples!",
-      "ru": "Восемь! Четыре слова — восемь яблок!"
+      "ru": "Восемь. Четыре слова — восемь яблок. Цифру, не слово."
      }
     },
     {
@@ -104,7 +104,7 @@
      },
      "prompt": {
       "en": "Find the word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Хлеб. How much или how many?"
      },
      "sentence": "How ___ is the bread?",
      "options": [
@@ -133,7 +133,7 @@
      },
      "prompt": {
       "en": "Dan says...",
-      "ru": "Пип ждёт. Цена: одно слово — два яблока. Что скажет Дэн?"
+      "ru": "Десять яблок. Он ждёт цену. Что скажешь?"
      },
      "options": [
       "Ten apples? Five words.",
@@ -184,11 +184,11 @@
      "story": {
       "who": "dan",
       "en": "Buy, sell, money, cheap. Market words.",
-      "ru": "Купить, продать, деньги, дёшево. Рыночные слова."
+      "ru": "Купить, продать, деньги, дёшево. Рынок не прощает путаницы."
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Четыре метки. Сопоставь."
+      "ru": "Buy, sell, money, cheap. Сверь, пока он не накрутил цену."
      },
      "pairs": [
       [
@@ -288,7 +288,7 @@
      },
      "prompt": {
       "en": "Find the numbers.",
-      "ru": "Числа на прилавке. Сопоставь."
+      "ru": "Цифры на прилавке. Сверь, пока он считает деньги."
      },
      "pairs": [
       [
@@ -328,7 +328,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Он орёт, сколько банок. Сколько?"
      },
      "audio_text": "Twenty jars! Too many!",
      "voice": "trader",
@@ -359,7 +359,7 @@
      },
      "prompt": {
       "en": "Find the word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Десять дыханий — два… Какое слово в пропуске?"
      },
      "sentence": "Ten breaths, two ___.",
      "options": [
@@ -388,7 +388,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Банка или банки. Слушай окончание."
      },
      "audio_text": "Three apples, one jar.",
      "voice": "trader",
@@ -434,7 +434,7 @@
      "fail": {
       "who": "trader",
       "en": "'How many jars do you have.' Many, not much.",
-      "ru": "«How many jars do you have». Many, не much."
+      "ru": "Банки — how many. Не much. Он это слышит."
      }
     },
     {
@@ -446,7 +446,7 @@
      },
      "prompt": {
       "en": "What is it?",
-      "ru": "Окно Системы. Что оно говорит?"
+      "ru": "Окно Системы. Что там про звонки?"
      },
      "options": [
       "Mom calls. Ten times.",
@@ -534,7 +534,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Кто продал телефон. Что сказал торговец?"
      },
      "audio_text": "A little girl sells it to me. She does not talk. She sings.",
      "voice": "trader",
@@ -565,7 +565,7 @@
      },
      "prompt": {
       "en": "The trader says...",
-      "ru": "Торговец. Что он ответит?"
+      "ru": "Он видел продавца. Кто это?"
      },
      "options": [
       "A little girl.",
@@ -593,7 +593,7 @@
      },
      "prompt": {
       "en": "Find the word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Каждую ночь. Какой глагол: Lina ___ it?"
      },
      "sentence": "Lina ___ it every night.",
      "options": [
@@ -610,7 +610,7 @@
      "fail": {
       "who": "mira",
       "en": "Lina sings. Not 'Lina sing'.",
-      "ru": "Lina sings. Каждую ночь."
+      "ru": "Lina sings. Каждую ночь. Не sing."
      }
     },
     {
@@ -652,7 +652,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Голос без слов. Одно слово — песня."
+      "ru": "Голос без слов. Напиши, что это: песня."
      },
      "answer": "song",
      "accept": [
@@ -679,7 +679,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Песня оборвалась. Что сказала Система?"
      },
      "audio_text": "The song stops.",
      "voice": "system",

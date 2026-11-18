@@ -17,7 +17,7 @@
      "lines": [
       {
        "en": "QUEST: Say when.",
-       "ru": "ЗАДАНИЕ: Скажи, когда."
+       "ru": "ЗАДАНИЕ: Скажи, когда. Часы здесь закон."
       }
      ]
     },
@@ -44,7 +44,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Proof в пятницу. On, at или in?"
      },
      "sentence": "The Proof begins ___ Friday.",
      "options": [
@@ -61,7 +61,7 @@
      "fail": {
       "who": "system",
       "en": "ON Friday. A day.",
-      "ru": "ON Friday. День."
+      "ru": "On Friday. День — on. Иначе Proof тебя не ждёт."
      }
     },
     {
@@ -73,7 +73,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Встреча в восемь. On, at или in?"
      },
      "sentence": "We meet ___ eight.",
      "options": [
@@ -90,7 +90,7 @@
      "fail": {
       "who": "system",
       "en": "AT eight. A time.",
-      "ru": "AT eight. Время."
+      "ru": "At eight. Час — at. Мост не подождёт."
      }
     },
     {
@@ -102,7 +102,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Мост живёт по часам. Когда он открывается?"
      },
      "audio_text": "The bridge opens at ten.",
      "voice": "pip",
@@ -133,7 +133,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери фразу: «Мы встречаемся в половине восьмого»."
+      "ru": "Не позже. Собери: «Мы встречаемся в половине восьмого»."
      },
      "answer": "We meet at half past seven",
      "distractors": [
@@ -160,7 +160,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши: «Сегодня понедельник»."
+      "ru": "Часы не врут. Напиши, какой сегодня день."
      },
      "answer": "Today is Monday",
      "accept": [
@@ -234,11 +234,11 @@
      "story": {
       "who": "mira",
       "en": "Four words for the clock.",
-      "ru": "Четыре слова про часы."
+      "ru": "Рано, поздно, сегодня, завтра. Мост за это берёт цену."
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Соедини слово и перевод."
+      "ru": "Рано, поздно, сегодня, завтра. Сверь, пока мост не закрылся."
      },
      "pairs": [
       [
@@ -266,7 +266,7 @@
      "fail": {
       "who": "mira",
       "en": "Slow, Zero. Again.",
-      "ru": "Медленно, Зеро. Ещё раз."
+      "ru": "Мост не ждёт. Рано дёшево. Поздно — цена."
      }
     },
     {
@@ -278,7 +278,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Мост в десять. Opens или open?"
      },
      "sentence": "The bridge ___ at ten.",
      "options": [
@@ -295,7 +295,7 @@
      "fail": {
       "who": "system",
       "en": "The bridge OPENS. Not 'bridge open'.",
-      "ru": "The bridge OPENS. Не «bridge open»."
+      "ru": "The bridge opens. С -s. В десять он уже другой."
      }
     },
     {
@@ -307,7 +307,7 @@
      },
      "prompt": {
       "en": "What is the answer?",
-      "ru": "Что правда?"
+      "ru": "Суп всегда опаздывает. Что правда?"
      },
      "options": [
       "Soup is late.",
@@ -335,7 +335,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Система про Proof. День и час — какие?"
      },
      "audio_text": "The Proof begins on Friday at nine.",
      "voice": "system",
@@ -366,7 +366,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери фразу: «Завтра мы начинаем в восемь»."
+      "ru": "Завтра рано. Собери: «Завтра мы начинаем в восемь»."
      },
      "answer": "Tomorrow we begin at eight",
      "distractors": [
@@ -381,7 +381,7 @@
      "fail": {
       "who": "system",
       "en": "Tomorrow we begin at eight.",
-      "ru": "Tomorrow we begin at eight."
+      "ru": "Tomorrow we begin at eight. В восемь мост уже другой."
      }
     },
     {
@@ -393,7 +393,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши: «Суп готов в шесть»."
+      "ru": "Он готов в шесть. Напиши, когда Суп готов."
      },
      "answer": "Soup is ready at six",
      "success": {
@@ -468,7 +468,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Три часа ночи. At, on или in?"
      },
      "sentence": "Pip hears a voice ___ three in the morning.",
      "options": [
@@ -485,7 +485,7 @@
      "fail": {
       "who": "system",
       "en": "AT three. A time.",
-      "ru": "AT three. Время."
+      "ru": "At three. Ночь. Час — at."
      }
     },
     {
@@ -497,7 +497,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Голос у хранилища. Это ты или нет? Что сказано?"
      },
      "audio_text": "I am Dan. I am not weak.",
      "voice": "silent",
@@ -528,7 +528,7 @@
      },
      "prompt": {
       "en": "What is the answer?",
-      "ru": "Что правда?"
+      "ru": "Ты в это время спишь. Что правда?"
      },
      "options": [
       "Dan is sleeping at three.",
@@ -552,11 +552,11 @@
      "story": {
       "who": "mira",
       "en": "Four words for the night.",
-      "ru": "Четыре слова про ночь."
+      "ru": "Часы, час, начать, встретиться. Ночью имена слишком громкие."
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Соедини слово и перевод."
+      "ru": "Clock, hour, begin, meet. Сверь, пока город ещё спит."
      },
      "pairs": [
       [
@@ -584,7 +584,7 @@
      "fail": {
       "who": "mira",
       "en": "Slow, Zero. Again.",
-      "ru": "Медленно, Зеро. Ещё раз."
+      "ru": "Ночью имена слишком громкие. Не перепутай час и часы."
      }
     },
     {
@@ -596,7 +596,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши: «Это мой голос»."
+      "ru": "У твари твои слова. Напиши: это мой голос."
      },
      "answer": "That is my voice",
      "accept": [

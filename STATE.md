@@ -1,6 +1,15 @@
 # STATE — where WORDBOUND stands (update at the end of every work block)
 
-_Last update: 2026-11-17 (night, S2 first half)_
+_Last update: 2026-11-18. Правило: готовая глава (полный набор кадров в `art/<ep>/`) сразу коммитится и пушится в `main`. В этом файле писать, что сделано и что осталось._
+
+## Сейчас (2026-11-18)
+- **На сайте:** всё до s2e06 включительно, главный экран, режим чтения, живые диалоги первой половины. Последний осознанный пуш первой половины: `1b794c5`.
+- **s2e07 готова к выкладке:** 16 jpg, озвучка, пузыри в углах кадра. Картинки ещё в старом жёстком контуре.
+- **s2e08–s2e12:** текст, испытания и озвучка есть. Кадров в `art/` нет. Flow то рисует пачку, то не может её сохранить.
+- **Стиль следующих кадров:** v1 = живопись, тонкие линии только на волосах, без толстой обводки (`tools/art/flow_batch.py`).
+- **Персонажи Flow:** `DanV`…`HobV`. Мира заново загружена с `images/refs/mira-body.jpg`.
+- **Словарь:** Chatterbox с проверкой Whisper идёт в фоне, около 180 из 1042 новых файлов.
+- **Не трогать:** Лина 14 и Белл 8, без взрослой фигуры. Пузырь не растягивать, RU на верхнем крае, звук кружком.
 
 ## Done
 - **Season 1 complete:** s1e01–s1e12 written (story by Fable foundation → Sonnet writers), illustrated in Google Flow (old soft style, Nano Banana 2.1), expressive Chatterbox voice-over for all dialogue (Whisper-checked), 1–3 looping videos per episode, published.
@@ -31,12 +40,22 @@ _Last update: 2026-11-17 (night, S2 first half)_
 - **Old trial text fixed** because S2 introduces words: stand/poor/yours/mine/job/pay/today replaced in s1e01–s1e08 trials (audio of changed lines regenerated).
 - **flow-mcp patches:** waitForURL `commit` + direct `/character` fallback in character creation (src/flow.ts). Core restarted with `bash tools/start_flow_core.sh`.
 - **Process lessons** are in CLAUDE.md ("Как делать серию быстро"). Defects list: `story/audit/s2-defects.md`.
-- **Known leftovers:** some art defects may remain (see reader reviews `story/reviews/s2e0*.md`); s2e06 trials `unlocks` = 's3e01' until s2e07 exists (change it when s2e07 is added); s2e06 p14 may still have black bars; Flow agent batches fail ~35% on first try.
+- **Known leftovers:** some art defects may remain (see reader reviews `story/reviews/s2e0*.md`); s2e06 `unlocks` is now `s2e07`; s2e06 p14 may still have black bars; Flow agent batches fail ~35% on first try.
+
+## Block 5 (2026-11-17) — Season 2 second half, text only
+- **s2e07–s2e12** are written (16 panels each): episodes, `story.json`, synopses, shots, checks, words. s2e06 `unlocks` is `s2e07`. No art and no voice-over yet.
+- **Trials** for s2e07–s2e12: 3×6 steps (18). `pick_voice` removed (no `audio/trials/s2e07+`, so it would be unsolvable). Match pairs cut to 4, same as every earlier episode. A few prompts that hid the expected sentence were made explicit.
+- **Validators:** `validate_content.py` and `validate_trials.py` — 0 errors, 0 warnings.
+- **Reader check (390×844, s2e01):** dark and light. Tap on a word and on RU. All 39 bubbles stayed put (≤1 px). Translation stays on screen. No horizontal scroll. Shell files were not changed.
+
+## Block 6 (2026-11-18) — seasons 3–4 plan, no episodes
+- Rewrote S3–S4 in `story/seasons-2-4.md` as a hunter / system manhwa (public hit, price, cliff). Grammar, focus words, Counts, Kostya, Lina, the vow and the Return stay on the curriculum rails. S2 text in that file was not rewritten; S3 now enters from `story/audit/s2-back-half.md`.
+- Tone paragraph in `story/series-bible.md` §0. Owner synopsis: `story/audit/plot-seasons.md`. No episode JSON.
 
 ## Next (updated)
-1. Apply reader fixes for s2e01–06 (scores in story/reviews), then write s2e07–s2e12 (midpoint = s2e07 "The Proof"), same pipeline; fix s2e06 `unlocks`.
-2. Fix list from the s1 reviews (still open): s1e06, s1e12 items; reader pass on the other s1 episodes.
-3. Trials: "watch & understand" task type.
+1. Reviews done 2026-11-17. Plaster on Dan is not a critical fail (owner). Still critical if art is checked: Silent eyes, text in the picture, Mira's cord on exactly one wrist. Design-reviewer would keep the reader on the phone; top UI nits: lesson-like title card, word card covering the bubble, tiny speaker. Beta-reader scores s2e07–12: 7, 7, 6, 8, 8, 8. Text bugs to fix only if the owner asks: "I am white" / "The vault is not" (s2e07), `lot` still means "a lot of", `let go` gloss, unfair steps s2e08-t2 fill and s2e11-t2 listen. No art yet.
+2. Art for s2e07–s2e12 only after that review, and only if the owner asks. Test references first.
+3. Still open from earlier: s1 review fixes that need redraws; "watch & understand" trial type.
 
 ## Old Next (before block 4)
 1. **Fix list from the two reviews** (cheap first): s1e06 p14 pencil behind LEFT ear + diagonal stripes on lenses, p2 red-cream triangle under the System window, p4 shout text sizes; Mira's cord on RIGHT wrist in s1e12 p4,7,11 (+extra in p3) — the image model confuses left/right; s1e12 p11/p16 letter-like glyphs, p10/p15 too teal; s1e12 p2–8 static talking heads; Keeper's fate after p8; trial hint "18 words" vs 9-word answer (s1e12 t3); System line s1e12 13-02 too long for A1.

@@ -1,0 +1,698 @@
+{
+ "episode": "s2e10",
+ "unlocks": "s2e11",
+ "title": "The Name Lives",
+ "titleRu": "Имя живёт",
+ "trials": [
+  {
+   "id": "s2e10-t1",
+   "title": "The Jar",
+   "titleRu": "Банка",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Say what happened.",
+       "ru": "ЗАДАНИЕ: Скажи, что случилось."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "thorn",
+      "en": "Say what happened, dear. Yesterday listens.",
+      "ru": "Скажи, что случилось, дорогой. Вчера слушает."
+     },
+     {
+      "who": "dan",
+      "en": "I touched the jar. The room opened.",
+      "ru": "Я коснулся банки. Комната открылась."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "The jar.",
+      "ru": "Банка."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "Someone ___ it.",
+     "options": [
+      "opened",
+      "open",
+      "opens",
+      "opening"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Someone opened it.",
+      "ru": "Кто-то её открыл."
+     },
+     "fail": {
+      "who": "thorn",
+      "en": "Opened, dear. It happened.",
+      "ru": "Opened, дорогой. Это случилось."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "thorn",
+      "en": "Hear yesterday.",
+      "ru": "Слушай вчера."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "She visited the Keeper, dear. She asked.",
+     "voice": "narration",
+     "delivery": "precise, no drama, which is worse",
+     "options": [
+      "She visited the Keeper, dear. She asked.",
+      "He wanted words. She wanted a name.",
+      "I visited. I asked."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Visited. Asked.",
+      "ru": "Навестила. Спросила."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Say the whole thing.",
+      "ru": "Скажи всё целиком."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "What does she want in the paper?",
+      "ru": "Чего она хочет на бумаге?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "He wanted words. She wanted a name.",
+      "The court watched it.",
+      "Not guilty.",
+      "Hello. I am Lina."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "A name. Not a jar.",
+      "ru": "Имя. Не банку."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Words. That was his side.",
+      "ru": "Слова. Это была его сторона."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "mira",
+      "en": "Say the carrying.",
+      "ru": "Скажи, как унесли."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Собери фразу."
+     },
+     "answer": "She carried the name",
+     "accept": [
+      "She carried the name"
+     ],
+     "success": {
+      "who": "thorn",
+      "en": "She carried the name to the child, dear.",
+      "ru": "Она отнесла имя ребёнку, дорогой."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Carried. Not dropped.",
+      "ru": "Унесла. Не уронила."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "dan",
+      "en": "The day the room shows.",
+      "ru": "День, который показывает комната."
+     },
+     "prompt": {
+      "en": "In English.",
+      "ru": "Напиши по-английски."
+     },
+     "answer": "yesterday",
+     "accept": [
+      "yesterday"
+     ],
+     "success": {
+      "who": "system",
+      "en": "You touched yesterday.",
+      "ru": "Ты коснулся вчера."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Yesterday. Say it.",
+      "ru": "Вчера. Скажи."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "period",
+      "en": "The court.",
+      "ru": "Суд."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "The court ___ it.",
+     "options": [
+      "watched",
+      "watch",
+      "watches",
+      "watching"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "period",
+      "en": "Not guilty. Period.",
+      "ru": "Не виновен. Точка."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Watched. Then the court.",
+      "ru": "Смотрел. Потом суд."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "You touched yesterday. Count: 235.",
+       "ru": "Ты коснулся вчера. Счёт: 235."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dash",
+      "en": "The gates know the name Dan again.",
+      "ru": "Ворота снова знают имя Дэн."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2e10-t2",
+   "title": "Not Free",
+   "titleRu": "Не даром",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "warning",
+     "title": "WARNING",
+     "lines": [
+      {
+       "en": "The name is not a return. It lives.",
+       "ru": "Имя — не возврат. Оно живёт."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "A return of the name leaves her zero.",
+      "ru": "Возврат имени оставляет её нулём."
+     },
+     {
+      "who": "dan",
+      "en": "I do not drop it.",
+      "ru": "Я это не бросаю."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "choose",
+     "story": {
+      "who": "pip",
+      "en": "Pip looks at the price.",
+      "ru": "Пип смотрит на цену."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "A return is not free.",
+      "Count: 235.",
+      "Not guilty.",
+      "She opened the jar."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "pip",
+      "en": "I do not touch that.",
+      "ru": "Я такого не касаюсь."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Free is a lie.",
+      "ru": "Даром — ложь."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "ruk",
+      "en": "He finally says a true past.",
+      "ru": "Он наконец говорит правдивое прошлое."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "I visited her street. I carried the quiet.",
+     "voice": "narration",
+     "delivery": "quiet, each past a confession he will not name",
+     "options": [
+      "I visited her street. I carried the quiet.",
+      "I owned no word for it.",
+      "You showed me nothing."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "He carried the quiet.",
+      "ru": "Он носил молчание."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Visited is not showed.",
+      "ru": "Навещал — не показывал."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "His eyes.",
+      "ru": "Его глаза."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "I ___ my eyes.",
+     "options": [
+      "dropped",
+      "drop",
+      "drops",
+      "moved"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "ruk",
+      "en": "I dropped my eyes.",
+      "ru": "Я опустил глаза."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Dropped. Remember the word.",
+      "ru": "Опустил. Запомни слово."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "mira",
+      "en": "Say what he owned.",
+      "ru": "Скажи, чем он владел."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Собери фразу."
+     },
+     "answer": "He owned the quiet",
+     "accept": [
+      "He owned the quiet"
+     ],
+     "success": {
+      "who": "dan",
+      "en": "The quiet. Not a word.",
+      "ru": "Молчание. Не слово."
+     },
+     "fail": {
+      "who": "ruk",
+      "en": "I owned no word for it.",
+      "ru": "У меня не было на это слова."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "thorn",
+      "en": "What she did with the name, dear.",
+      "ru": "Что она сделала с именем, дорогой."
+     },
+     "prompt": {
+      "en": "In English.",
+      "ru": "Напиши по-английски."
+     },
+     "answer": "picked",
+     "accept": [
+      "picked"
+     ],
+     "success": {
+      "who": "thorn",
+      "en": "She picked up a life, dear.",
+      "ru": "Она подобрала жизнь, дорогой."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Picked. Not a thing.",
+      "ru": "Подобрала. Не вещь."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "What do they do in the street?",
+      "ru": "Что они делают на улице?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "We do not pick the name up now.",
+      "A return is not free.",
+      "Not guilty.",
+      "Count: 235."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "We only watch. We do not own her.",
+      "ru": "Мы только смотрим. Она не наша."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Not now. We watch.",
+      "ru": "Не сейчас. Мы смотрим."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Count: 235.",
+       "ru": "Счёт: 235."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "soup",
+      "en": "Yesterday happened. The soup is still hot.",
+      "ru": "Вчера случилось. Суп всё ещё горячий."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2e10-t3",
+   "title": "In the Street",
+   "titleRu": "На улице",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "status",
+     "title": "STATUS",
+     "lines": [
+      {
+       "en": "Count: 235. Missed calls: 14.",
+       "ru": "Счёт: 235. Пропущенных: 14."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "bell",
+      "en": "Hello. I am Lina.",
+      "ru": "Здравствуй. Я Лина."
+     },
+     {
+      "who": "dan",
+      "en": "We do not pick it up.",
+      "ru": "Мы это не подбираем."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "match",
+     "story": {
+      "who": "mira",
+      "en": "Four things yesterday did.",
+      "ru": "Четыре вещи, которые сделало вчера."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Соедини слово и смысл."
+     },
+     "pairs": [
+      [
+       "touch",
+       "касаться"
+      ],
+      [
+       "carry",
+       "нести"
+      ],
+      [
+       "drop",
+       "уронить"
+      ],
+      [
+       "return",
+       "возврат"
+      ]
+     ],
+     "success": {
+      "who": "dan",
+      "en": "The name is a return. A bad one.",
+      "ru": "Имя — это возврат. Плохой."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "A return is not free.",
+      "ru": "Возврат не даром."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "bell",
+      "en": "Hear the child. Do not correct her.",
+      "ru": "Слушай ребёнка. Не поправляй её."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Hello. I am Lina.",
+     "voice": "narration",
+     "delivery": "a clear polite child voice, no fear, ordinary",
+     "options": [
+      "Hello. I am Lina.",
+      "Who are you?",
+      "I am Dan."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "She called it. We do not take it.",
+      "ru": "Она его назвала. Мы не забираем."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Not our line to correct.",
+      "ru": "Не нам её поправлять."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "mira",
+      "en": "The scarf.",
+      "ru": "Шарф."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "The scarf ___.",
+     "options": [
+      "moved",
+      "move",
+      "moves",
+      "moving"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "The scarf moved.",
+      "ru": "Капюшон дрогнул."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Moved. I saw it.",
+      "ru": "Дрогнул. Я видел."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "What is the price?",
+      "ru": "Какова цена?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "A return of the name leaves her zero.",
+      "Not guilty. Period.",
+      "Count: 235.",
+      "The phone is yours."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "thorn",
+      "en": "A life, dear. Not a thing.",
+      "ru": "Жизнь, дорогой. Не вещь."
+     },
+     "fail": {
+      "who": "ruk",
+      "en": "I carried the quiet.",
+      "ru": "Я носил молчание."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "dan",
+      "en": "The word for what she did at the door.",
+      "ru": "Слово для того, что она сделала у двери."
+     },
+     "prompt": {
+      "en": "In English.",
+      "ru": "Напиши по-английски."
+     },
+     "answer": "showed",
+     "accept": [
+      "showed"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "She showed him the door.",
+      "ru": "Она показала ему дверь."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Showed. Not visited.",
+      "ru": "Показала. Не навестила."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "Say the line on the stair.",
+      "ru": "Скажи строку на лестнице."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Собери фразу."
+     },
+     "answer": "We do not own her",
+     "accept": [
+      "We do not own her"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "We do not own her.",
+      "ru": "Она не наша."
+     },
+     "fail": {
+      "who": "bell",
+      "en": "Hello. I am Lina.",
+      "ru": "Здравствуй. Я Лина."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "The name is not a return. It lives.",
+       "ru": "Имя — не возврат. Оно живёт."
+      },
+      {
+       "en": "Count: 235. Missed calls: 14.",
+       "ru": "Счёт: 235. Пропущенных: 14."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "She is up there. We are still in the street.",
+      "ru": "Она там, наверху. Мы всё ещё на улице."
+     },
+     {
+      "who": "mira",
+      "en": "No hall yet. We are in the street.",
+      "ru": "Зала ещё нет. Мы на улице."
+     }
+    ]
+   }
+  }
+ ]
+}

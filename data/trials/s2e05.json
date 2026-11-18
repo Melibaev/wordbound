@@ -17,7 +17,7 @@
      "lines": [
       {
        "en": "QUEST: Ask. Be polite.",
-       "ru": "ЗАДАНИЕ: Проси. Будь вежлив."
+       "ru": "ЗАДАНИЕ: Проси. Без please тут никто не двигается."
       }
      ]
     },
@@ -44,7 +44,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Он предлагает миску. Что он спросил?"
      },
      "audio_text": "Would you like some soup?",
      "voice": "narration",
@@ -75,7 +75,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Вежливое слово в начале. Would или could?"
      },
      "sentence": "___ you like some soup?",
      "options": [
@@ -92,7 +92,7 @@
      "fail": {
       "who": "system",
       "en": "Would you LIKE. Polite.",
-      "ru": "Would you LIKE. Вежливо."
+      "ru": "Would you like. Без would Хоб даже не обернётся."
      }
     },
     {
@@ -100,11 +100,11 @@
      "story": {
       "who": "thorn",
       "en": "Which one is polite?",
-      "ru": "Какое вежливое?"
+      "ru": "Какая просьба откроет пропуск. «Дай» — нет."
      },
      "prompt": {
       "en": "What is the right sentence?",
-      "ru": "Какая фраза сработает?"
+      "ru": "Пропуск не дадут за «дай». Какая фраза сработает?"
      },
      "options": [
       "Could I have a pass, please?",
@@ -120,7 +120,7 @@
      "fail": {
       "who": "thorn",
       "en": "'Could' and 'please', dear.",
-      "ru": "«Could» и «please», дорогой."
+      "ru": "Could и please, дорогой. Без этого пропуск мёртвый."
      }
     },
     {
@@ -132,7 +132,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Фраза на кону. Собери фразу: «Я бы хотел большую миску»."
+      "ru": "Большая миска. Собери: «Я бы хотел большую миску»."
      },
      "answer": "I would like a big bowl",
      "distractors": [
@@ -159,7 +159,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши: «Можно мне пропуск, пожалуйста?»"
+      "ru": "Без please дверь глухая. Напиши просьбу про пропуск."
      },
      "answer": "Could I have a pass, please",
      "accept": [
@@ -210,7 +210,7 @@
      "lines": [
       {
        "en": "QUEST: Choose a job.",
-       "ru": "ЗАДАНИЕ: Выбери работу."
+       "ru": "ЗАДАНИЕ: Работа. Лифт или таскать — выбери."
       }
      ]
     },
@@ -237,7 +237,7 @@
      },
      "prompt": {
       "en": "What is the answer?",
-      "ru": "Что любит Дэн?"
+      "ru": "Таскать или чинить. Что ты любишь?"
      },
      "options": [
       "He likes repairing.",
@@ -265,7 +265,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Пип любит одно. Какой глагол?"
      },
      "sentence": "Pip ___ money.",
      "options": [
@@ -294,7 +294,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Доска работ. Сколько платят за лифт?"
      },
      "audio_text": "Repair the water lift. Pay forty.",
      "voice": "system",
@@ -321,11 +321,11 @@
      "story": {
       "who": "mira",
       "en": "Words of the lift. Know them.",
-      "ru": "Слова лифта. Знай их."
+      "ru": "Лифт, починка, работа, подпись. Хоб слушает каждое."
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Четыре метки. Сопоставь."
+      "ru": "Lift, repair, job, sign. Сверь, пока Хоб ещё слушает."
      },
      "pairs": [
       [
@@ -353,7 +353,7 @@
      "fail": {
       "who": "mira",
       "en": "Slow, Zero. Again.",
-      "ru": "Медленно, Зеро. Ещё раз."
+      "ru": "Хоб уже теряет интерес. Сверь слова лифта."
      }
     },
     {
@@ -365,7 +365,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Фраза на кону. Собери фразу: «Можно мне посмотреть на лифт, пожалуйста?»"
+      "ru": "Хоб не любит грубых. Собери: «Можно мне посмотреть на лифт, пожалуйста?»"
      },
      "answer": "Could I see the lift please",
      "distractors": [
@@ -392,7 +392,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "На кону фраза. Напиши: «Я люблю чинить»."
+      "ru": "Напиши, что ты любишь делать: чинить."
      },
      "answer": "I like repairing",
      "accept": [
@@ -470,7 +470,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Ручка, бумага, имя. Would you like ___ sign?"
      },
      "sentence": "Would you like ___ sign?",
      "options": [
@@ -487,7 +487,7 @@
      "fail": {
       "who": "system",
       "en": "Would you like TO sign.",
-      "ru": "Would you like TO sign."
+      "ru": "Would you like to sign. To. Клерк не ждёт."
      }
     },
     {
@@ -499,7 +499,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Клерк торопит. Что он сказал?"
      },
      "audio_text": "Sign here, please.",
      "voice": "narration",
@@ -530,7 +530,7 @@
      },
      "prompt": {
       "en": "What is the right sentence?",
-      "ru": "Какая фраза сработает?"
+      "ru": "Список за стеклом. Какая фраза его откроет?"
      },
      "options": [
       "Could I see the list, please?",
@@ -546,7 +546,7 @@
      "fail": {
       "who": "thorn",
       "en": "'Could' and 'please', dear.",
-      "ru": "«Could» и «please», дорогой."
+      "ru": "Could и please, дорогой. Клерк даже не поднимет глаз."
      }
     },
     {
@@ -558,7 +558,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Фраза на кону. Собери фразу: «Я хотел бы войти, пожалуйста»."
+      "ru": "Proof не пускает без команды. Собери: «Я хотел бы войти, пожалуйста»."
      },
      "answer": "I would like to enter please",
      "distractors": [
@@ -585,7 +585,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "На кону фраза. Напиши: «Я ненавижу таскать»."
+      "ru": "Напиши, что ты ненавидишь: таскать."
      },
      "answer": "I hate carrying",
      "success": {

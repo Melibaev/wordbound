@@ -48,7 +48,7 @@
      },
      "prompt": {
       "en": "Find the word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "На запястье красная нить. Has или have?"
      },
      "sentence": "It ___ a red cord.",
      "options": [
@@ -65,7 +65,7 @@
      "fail": {
       "who": "dan",
       "en": "It has. She has. He has.",
-      "ru": "У него — has. У неё — has."
+      "ru": "У него нить. Has. Как у неё."
      }
     },
     {
@@ -77,7 +77,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Тонкий голос зовёт её. Что он сказал?"
      },
      "audio_text": "Mira. Why do you run?",
      "voice": "silent",
@@ -108,7 +108,7 @@
      },
      "prompt": {
       "en": "Mira says...",
-      "ru": "Мира. Два-три слова. Что она скажет?"
+      "ru": "Она не может назвать. Что она скажет?"
      },
      "options": [
       "She is my... I don't have the word.",
@@ -136,7 +136,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Красная нить. Мира замерла. Собери: «Мира не двигается»."
+      "ru": "Она замерла. Собери: «Мира не двигается»."
      },
      "answer": "Mira does not move",
      "distractors": [
@@ -163,7 +163,7 @@
      },
      "prompt": {
       "en": "In English.",
-      "ru": "Маленький Безмолвный. Дэн спрашивает. Напиши вопрос."
+      "ru": "Маленький Безмолвный. Напиши вопрос: кто она."
      },
      "answer": "Who is she",
      "accept": [
@@ -177,7 +177,7 @@
      "fail": {
       "who": "dan",
       "en": "'Who is she.' Three words.",
-      "ru": "«Who is she». Три слова."
+      "ru": "Три слова: who is she. Пока она ещё здесь."
      }
     }
    ],
@@ -236,7 +236,7 @@
      },
      "prompt": {
       "en": "Find the word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Он не видит. Как он тогда слышит? Does или do?"
      },
      "sentence": "How ___ it hear us?",
      "options": [
@@ -253,7 +253,7 @@
      "fail": {
       "who": "mira",
       "en": "How does it. Does.",
-      "ru": "How does it. Does."
+      "ru": "How does it hear. Иначе он слышит тебя первым."
      }
     },
     {
@@ -265,7 +265,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Правило твари. Что она сказала?"
      },
      "audio_text": "It does not see. It hears.",
      "voice": "mira",
@@ -296,7 +296,7 @@
      },
      "prompt": {
       "en": "Mira says...",
-      "ru": "Мира. Два-три слова. Что она скажет?"
+      "ru": "Где живёт Хранитель. Какая фраза без ошибки?"
      },
      "options": [
       "He lives in the Hall.",
@@ -312,7 +312,7 @@
      "fail": {
       "who": "mira",
       "en": "He lives in the Hall.",
-      "ru": "He lives in the Hall. Там его место."
+      "ru": "He lives. С -s. Зал — его."
      }
     },
     {
@@ -324,7 +324,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Три года у двери. Собери: «Почему она ждёт здесь?»"
+      "ru": "Три года у этой двери. Собери: «Почему она ждёт здесь?»"
      },
      "answer": "Why does she wait here",
      "distractors": [
@@ -347,11 +347,11 @@
      "story": {
       "who": "dan",
       "en": "Push. Read. Wait. Ask. My life now.",
-      "ru": "Толкать. Читать. Ждать. Спрашивать. Моя новая жизнь."
+      "ru": "Толкать. Читать. Ждать. Спрашивать. Другой жизни нет."
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Четыре метки. Сопоставь."
+      "ru": "Push, read, wait, ask. Сверь, пока он слушает дыхание."
      },
      "pairs": [
       [
@@ -391,7 +391,7 @@
      },
      "prompt": {
       "en": "In English.",
-      "ru": "Тяжёлая дверь. Слово-сила. Напиши его."
+      "ru": "Дверь тяжёлая. Слово-сила. Напиши его."
      },
      "answer": "push",
      "success": {
@@ -466,7 +466,7 @@
      },
      "prompt": {
       "en": "Find the word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Три года здесь. Какой глагол в «Mira ___ here»?"
      },
      "sentence": "Mira ___ here. Three years.",
      "options": [
@@ -483,7 +483,7 @@
      "fail": {
       "who": "dan",
       "en": "She waits. Always.",
-      "ru": "She waits. Три года. Ждёт."
+      "ru": "She waits. Три года. Не she wait."
      }
     },
     {
@@ -495,7 +495,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Система знает, чего у неё нет. Что в окне?"
      },
      "audio_text": "She does not have that word.",
      "voice": "system",
@@ -526,7 +526,7 @@
      },
      "prompt": {
       "en": "What is it?",
-      "ru": "Дэн спрашивает. Что правда?"
+      "ru": "Она смотрит не на дверь. Чего она хочет?"
      },
      "options": [
       "She wants the small Silent.",
@@ -554,7 +554,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Голос знает имя. Собери: «Она знает Миру»."
+      "ru": "Голос знает её имя. Собери: «Она знает Миру»."
      },
      "answer": "She knows Mira",
      "distractors": [
@@ -581,7 +581,7 @@
      },
      "prompt": {
       "en": "In English.",
-      "ru": "Дэн давит на вопрос. Одно слово — почему."
+      "ru": "Она не может сказать слово. Напиши вопрос: почему."
      },
      "answer": "why",
      "success": {

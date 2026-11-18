@@ -25,7 +25,7 @@
      {
       "who": "thorn",
       "en": "Lesson one, dear. Whose, mine, yours.",
-      "ru": "Урок первый, дорогой. Whose, mine, yours."
+      "ru": "Первое, дорогой. Whose. Mine. Yours. Без этого нить слепая."
      },
      {
       "who": "dan",
@@ -44,7 +44,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Красная ручка на столе. Whose или who?"
      },
      "sentence": "___ pen is this?",
      "options": [
@@ -61,7 +61,7 @@
      "fail": {
       "who": "system",
       "en": "Whose pen. Not 'who pen'.",
-      "ru": "Whose pen. Не «who pen»."
+      "ru": "Whose pen. Не who. Нить не пойдёт."
      }
     },
     {
@@ -73,7 +73,7 @@
      },
      "prompt": {
       "en": "What is the answer?",
-      "ru": "Чья ручка?"
+      "ru": "Она не продаёт ручку. Чья она?"
      },
      "options": [
       "The pen belongs to Miss Thorn.",
@@ -97,11 +97,11 @@
      "story": {
       "who": "mira",
       "en": "Quiet. Listen to the teacher.",
-      "ru": "Тихо. Слушай учителя."
+      "ru": "Тихо. Она спрашивает про шарф."
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Теперь шарф. Что она спросила?"
      },
      "audio_text": "Whose scarf is that?",
      "voice": "mira",
@@ -132,7 +132,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши: «Это моё»."
+      "ru": "Шарф у Миры. Напиши: это моё."
      },
      "answer": "It is mine",
      "accept": [
@@ -159,7 +159,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери фразу: «Карандаш твой»."
+      "ru": "Жёлтый карандаш. Собери: «Карандаш твой»."
      },
      "answer": "The pencil is yours",
      "distractors": [
@@ -238,7 +238,7 @@
      },
      "prompt": {
       "en": "What is the answer?",
-      "ru": "Чей щит на самом деле?"
+      "ru": "Щит на пальто. Чей он на самом деле?"
      },
      "options": [
       "The shield belongs to the old man.",
@@ -266,7 +266,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Нить уходит в Канаву. Belongs ___ — какой предлог?"
      },
      "sentence": "The shield belongs ___ the old man.",
      "options": [
@@ -283,7 +283,7 @@
      "fail": {
       "who": "system",
       "en": "Belongs TO. Not 'belongs of'.",
-      "ru": "Belongs TO. Не «belongs of»."
+      "ru": "Belongs to. To. Иначе нить рвётся."
      }
     },
     {
@@ -295,7 +295,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Система режет ложь. Что она сказала про щит?"
      },
      "audio_text": "That shield is not yours.",
      "voice": "system",
@@ -322,11 +322,11 @@
      "story": {
       "who": "mira",
       "en": "Four words for the thread.",
-      "ru": "Четыре слова про нить."
+      "ru": "Моё, твоё, чьё, принадлежит. Нить врёт, если перепутать."
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Соедини слово и перевод."
+      "ru": "Mine, yours, whose, belong. Сверь, пока нить не остыла."
      },
      "pairs": [
       [
@@ -354,7 +354,7 @@
      "fail": {
       "who": "mira",
       "en": "Slow, Zero. Again.",
-      "ru": "Медленно, Зеро. Ещё раз."
+      "ru": "Нить врёт, если whose и belong путаются."
      }
     },
     {
@@ -366,7 +366,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери фразу: «Пальто принадлежит Руку»."
+      "ru": "Пальто полное чужих слов. Собери: «Пальто принадлежит Руку»."
      },
      "answer": "The coat belongs to Ruk",
      "distractors": [
@@ -393,7 +393,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши: «Это не твоё»."
+      "ru": "Он орёт «всё моё». Напиши: это не твоё."
      },
      "answer": "It is not yours",
      "accept": [
@@ -472,7 +472,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Доска аукциона. Сколько дней?"
      },
      "audio_text": "Lot seven. Seven days.",
      "voice": "system",
@@ -503,7 +503,7 @@
      },
      "prompt": {
       "en": "What is the answer?",
-      "ru": "Чьё имя на лоте?"
+      "ru": "Нить кончается у шарфа. Чьё имя на лоте?"
      },
      "options": [
       "It is Lina's name.",
@@ -531,7 +531,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Не твоё и не её. Mine или yours в пропуске?"
      },
      "sentence": "The name is not ___. It is Lina's.",
      "options": [
@@ -548,7 +548,7 @@
      "fail": {
       "who": "system",
       "en": "It is not MINE.",
-      "ru": "It is not MINE."
+      "ru": "Not mine. Не yours. Имя — Лины."
      }
     },
     {
@@ -560,7 +560,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери фразу: «Это имя не принадлежит им»."
+      "ru": "Имя не на продажу. Собери: «Это имя не принадлежит им»."
      },
      "answer": "That name does not belong to them",
      "distractors": [
@@ -587,7 +587,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши: «Семь дней»."
+      "ru": "Семь дней. Напиши срок."
      },
      "answer": "Seven days",
      "accept": [

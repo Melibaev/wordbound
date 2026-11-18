@@ -1,0 +1,906 @@
+{
+ "id": "s2e08",
+ "title": "Where Were You?",
+ "titleRu": "Где ты был?",
+ "level": "A1",
+ "newWords": [
+  "judge",
+  "guilty",
+  "night",
+  "vault",
+  "alone",
+  "witness",
+  "truth",
+  "steal",
+  "proof",
+  "want"
+ ],
+ "panels": [
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dash",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Severe ash-grey court, thin ruled lines on the stone, hard cel shadows, the Proof crowd packed in the gallery as silhouettes. Dash at the LEFT still holds Dan's iron cuffs, her other hand pointing at the floor. Dan at the CENTRE, pale, cuffs on, both hands in front. Mira at the RIGHT, red cord on the left wrist, her right hand lifted, not touching him. A blank cream window with a red frame hangs over the bench.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Скобы ещё холодные, а толпа с Proof уже в зале. Победу даже не успели досмотреть."
+    },
+    {
+     "type": "speech",
+     "who": "dash",
+     "en": "You were at the vault last night.",
+     "ru": "Ты был у хранилища прошлой ночью.",
+     "delivery": "chopped, official, still out of breath from the run",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I was in the kitchen. I was not there.",
+     "ru": "Я был на кухне. Меня там не было.",
+     "delivery": "fast, honest, scared the past tense will break",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "period",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "thorn",
+     "pos": "right"
+    }
+   ],
+   "art": "Low angle on the bench. Judge Period at the LEFT, short and square, bald, grey robe, one black button, a round black stamp raised in his right fist, left hand flat on the bench. Dan at the CENTRE looks up. Thorn at the RIGHT stands as counsel, pen between two fingers, cane in the other hand, nothing red but the ink. No letters on the robe or the stamp.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "period",
+     "en": "I am the judge. Period.",
+     "ru": "Я судья. Точка.",
+     "delivery": "final, the last word already a stamp",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "period",
+     "en": "One guilty name. Not two. Period.",
+     "ru": "Одно виновное имя. Не два. Точка.",
+     "delivery": "same gavel voice, no interest in a puzzle",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "I was with him, dear. He was not alone.",
+     "ru": "Я была с ним, дорогой. Он был не один.",
+     "delivery": "the model sentence, polite, steel under the dear",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Medium shot. Dan at the LEFT speaks and a pale ochre print of a kitchen hangs in the air beside him, soft and blank of objects with letters, a lamp and a table only. His cuffed hands are still. Mira at the RIGHT stands inside the edge of that light, arms at her sides, red cord visible. The print has no faces, no text. Deep blacks around it.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I was in the kitchen. Mira was with me.",
+     "ru": "Я был на кухне. Мира была со мной.",
+     "delivery": "slower now, watching the light appear, almost wondering",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "We were asleep. We were not at the vault.",
+     "ru": "Мы спали. Нас не было у хранилища.",
+     "delivery": "firm, the second sentence pushed out like a brace",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "True. A witness.",
+     "ru": "Правда. Свидетель.",
+     "delivery": "flat, naming the power without praise"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "citizen",
+     "pos": "left"
+    },
+    {
+     "id": "dash",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "The watchman from dawn at the LEFT, cap in both hands, honest and afraid. A second pale print opens beside him: a round vault door and a tall smooth shadow, no eyes on the shadow, no text. Dash at the CENTRE watches both prints. Dan at the RIGHT sees the second light and goes paler. Galleries lean in.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "citizen",
+     "en": "The voice was at the vault. I was there.",
+     "ru": "Голос был у хранилища. Я там был.",
+     "delivery": "shaky, honest, hating that his truth hurts a man",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "citizen",
+     "en": "He was not asleep. He was wanted.",
+     "ru": "Он не спал. Он был в розыске.",
+     "delivery": "quieter, the second fact worse than the first",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "True. A second witness.",
+     "ru": "Правда. Второй свидетель.",
+     "delivery": "same cold voice, stacking the truths with no verdict"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "period",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide shot of the bench with two pale prints hanging, kitchen and vault, both untitled and letterless. Period at the LEFT looks from one light to the other, stamp still raised. Dan at the RIGHT stands small under them, cuffs heavy. The gallery is a dark band of faces. No child in the foreground.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "period",
+     "en": "Two lights. The two are true. Period.",
+     "ru": "Два света. Оба правдивы. Точка.",
+     "delivery": "irritated that the law has been handed a knot",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "ruk",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Ruk at the LEFT in the gallery front, coat and badges, ledger open on his forearm, one gloved finger on a blank page, the other hand at his side. He speaks down at Dan. Dan at the CENTRE does not look up. Mira at the RIGHT stares at Ruk, jaw set, hands in fists at her sides, not touching anyone.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "The name was Dan. The voice was Dan.",
+     "ru": "Имя было Дэн. Голос был Дэн.",
+     "delivery": "polite, public, enjoying the symmetry",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "He was wanted. He is guilty.",
+     "ru": "Он был в розыске. Он виновен.",
+     "delivery": "softer, for the judge, a smile that is not a smile",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "soup",
+     "pos": "left"
+    },
+    {
+     "id": "pip",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "A lower, warmer pocket of the court. Soup at the LEFT, huge, ladle in his belt, both hands open and harmless. Pip at the CENTRE stands on a bench to be seen, cap in one hand, the other hand on his own chest. Dan at the RIGHT almost smiles. Ochre light on them, grey court behind. Comic, nobody hurt.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "soup",
+     "en": "I was in the kitchen. The soup was hot.",
+     "ru": "Я был на кухне. Суп был горячий.",
+     "delivery": "slow, sincere, as if the soup is the whole law",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "He was asleep. I was not. I do not steal.",
+     "ru": "Он спал. Я нет. Я не краду.",
+     "delivery": "fast, cheeky, selling an alibi like a price",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I do not steal. I was with Soup.",
+     "ru": "Я не краду. Я был с Супом.",
+     "delivery": "grateful, a small real smile at the giant",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dash",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "thorn",
+     "pos": "right"
+    }
+   ],
+   "art": "Three-shot under the two pale lights. Dash at the LEFT, arms at her sides now, the cuffs still on Dan. Dan at the CENTRE speaks to the lights, not the crowd. Thorn at the RIGHT inclines her head, pen still. Hard side light, paper-cream and ash.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dash",
+     "en": "Last night the vault was open.",
+     "ru": "Прошлой ночью хранилище было открыто.",
+     "delivery": "short bursts, factual, no malice",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Last night I was asleep. That is the truth.",
+     "ru": "Прошлой ночью я спал. Это правда.",
+     "delivery": "quiet, the word truth placed carefully",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "The truth was in the kitchen, dear.",
+     "ru": "Правда была на кухне, дорогой.",
+     "delivery": "soft correction aimed at the whole hall",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "period",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Period at the LEFT leans on the bench, stamp hovering. Mira at the CENTRE has stepped in front of Dan. Dan at the RIGHT is half hidden by her shoulder. The Proof title-light is gone. Only the two pale prints remain.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "period",
+     "en": "A voice is not a proof. Period.",
+     "ru": "Голос — не доказательство. Точка.",
+     "delivery": "bored of clever men, ending it",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "The Proof was today. I was not the voice.",
+     "ru": "Proof был сегодня. Голос был не я.",
+     "delivery": "pushing the two days apart with his hands, still cuffed",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "This court is not the Proof.",
+     "ru": "Этот суд — не Proof.",
+     "delivery": "dry, almost a spit, controlled",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "action",
+   "sfx": "CLACK",
+   "cast": [
+    {
+     "id": "period",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "The stamp comes down. Period at the LEFT drives the round black stamp onto the bench with his right hand, left hand bracing, no letters on the stamp, a shock of ash dust. Dan at the RIGHT flinches, cuffs clinking, both hands up. Behind them the Index idea is a tall dark board with one row of light winking out, abstract, no readable name. No child. Galleries loud in the body language, mouths open.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "period",
+     "en": "The Index has no Dan. Period.",
+     "ru": "В Индексе нет Дэна. Точка.",
+     "delivery": "the sentence is the blow, Period at the end like a nail",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "The gates do not know that name.",
+     "ru": "Ворота не знают этого имени.",
+     "delivery": "flat, colder than the judge, a door forgetting"
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I was on the board. I am not.",
+     "ru": "Я был на доске. Меня нет.",
+     "delivery": "small, the public wound landing, no joke yet",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "period",
+     "pos": "right"
+    }
+   ],
+   "art": "Mira at the LEFT stands on the bench step, chin up, both hands open toward the judge, red cord bright. Dan at the CENTRE watches her, startled. Period at the RIGHT does not sit, stamp still in his fist. The gallery holds its breath.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "It was not Dan. It was Nad.",
+     "ru": "Это был не Дэн. Это был Nad.",
+     "delivery": "loud for her, four words that cost, no softness",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I do not steal. I was not alone.",
+     "ru": "Я не краду. Я был не один.",
+     "delivery": "catching her courage, voice low and steady",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "period",
+     "en": "Bring the voice. Period.",
+     "ru": "Приведите голос. Точка.",
+     "delivery": "unmoved, already spending their day",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "thorn",
+     "pos": "right"
+    }
+   ],
+   "art": "Quiet two-shot away from the bench, a pillar between them and the crowd. Dan at the LEFT leans his forehead near the stone, not touching Thorn, cuffs between his knees, both hands together. Thorn at the RIGHT stands close but her hands stay on the cane and the pen. Ochre slit of light. No text.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Две метки правды висят над залом, и городу всё равно. Ему нужно одно имя, чтобы закрыть ночь."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I was guilty for the city. I was not guilty.",
+     "ru": "Для города я был виновен. Я не был виновен.",
+     "delivery": "tired, the joke and the wound in one breath",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Truth and guilty are not the same, dear.",
+     "ru": "Правда и вина — не одно и то же, дорогой.",
+     "delivery": "the lesson said once, kindly, then done",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "center"
+    }
+   ],
+   "art": "Dan alone in the centre under a blank cream System window with a double vermilion frame, slightly tilted. The two pale prints fade behind him. Iron cuffs still link his wrists, both hands low. He looks at the window, not smiling. Deep blacks. No child.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "New word: WITNESS.",
+     "ru": "Новое слово: WITNESS.",
+     "delivery": "flat announcement, a tool issued, not a gift"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "WITNESS is yours now. Count: 195.",
+     "ru": "WITNESS теперь твоё. Счёт: 195.",
+     "delivery": "same voice, the number placed with no comfort"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dash",
+     "pos": "left"
+    },
+    {
+     "id": "period",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Dash at the LEFT has the cuffs open in one hand, the other hand pointing at the tall doors. Period at the CENTRE is already turning away, stamp lowered. Dan at the RIGHT rubs one wrist with the other hand. The dark board behind them stays dark. No child.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dash",
+     "en": "The judge is cold. The night is not over.",
+     "ru": "Судья холоден. Ночь не кончена.",
+     "delivery": "aside, almost kind, still in fragments",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "period",
+     "en": "I am the judge. The vault was open. Period.",
+     "ru": "Я судья. Хранилище было открыто. Точка.",
+     "delivery": "repeating himself because the law likes echoes",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I was wanted. Now the board is empty.",
+     "ru": "Я был в розыске. Теперь доска пуста.",
+     "delivery": "flat, counting the losses like screws",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dash",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Near the court doors. Dash at the LEFT holds them open with one arm, the other at her side. Dan at the CENTRE looks back at the dead row of the board. Mira at the RIGHT is already facing the night beyond the door, scarf tight, red cord on the left wrist. A blank warning window glows, solid red frame.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Имя стёрли при всех. Ворота больше не слышат DAN. Метка правды при этом горит — обе сразу, и суду этого мало."
+    },
+    {
+     "type": "speech",
+     "who": "dash",
+     "en": "One day. The gates do not know you.",
+     "ru": "Один день. Ворота тебя не знают.",
+     "delivery": "warning without cruelty, a runner stating the road",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "We were a team. He is alone on the board.",
+     "ru": "Мы были командой. На доске он один.",
+     "delivery": "low, angry at the board, not at him",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "left"
+    },
+    {
+     "id": "period",
+     "pos": "right"
+    }
+   ],
+   "art": "Black frame. Mira at the LEFT, face lit by the last pale print, mouth open. Period at the RIGHT is only a square silhouette and the round stamp, eyes in shadow under heavy brows, not hidden by a hood. No text. The two of them do not touch.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "It was Nad. I was there.",
+     "ru": "Это был Nad. Я там была.",
+     "delivery": "the loudest she gets, thrown at the dark",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "period",
+     "en": "Bring Nad. One day. Period.",
+     "ru": "Приведите Nad. Один день. Точка.",
+     "delivery": "quiet, finished, the period audible",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "was / were: где ты был",
+  "body": "Was и were говорят о вчера и оставляют метку, если фраза правдива. С I, he, she, it — was. С you, we, they — were. Отрицание простое: was not, were not. Вопрос с was суд ещё не отдаёт героям — они пока только свидетельствуют. Две правды могут гореть сразу, и закон всё равно выберет одну.",
+  "examples": [
+   {
+    "en": "I was in the kitchen. I was not there.",
+    "ru": "Я был на кухне. Меня там не было."
+   },
+   {
+    "en": "We were asleep. We were not at the vault.",
+    "ru": "Мы спали. Нас не было у хранилища."
+   },
+   {
+    "en": "I was with him, dear. He was not alone.",
+    "ru": "Я была с ним, дорогой. Он был не один."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Где Дэн был ночью кражи, по его словам?",
+   "options": [
+    "В хранилище",
+    "На бегущей странице",
+    "На кухне, с Мирой, он спал",
+    "У Одессы"
+   ],
+   "answer": 2
+  },
+  {
+   "q": "Почему судья не отпускает его, хотя метки две и обе правдивы?",
+   "options": [
+    "Закону нужно одно виновное имя",
+    "Метка кухни ложная",
+    "Мира молчит",
+    "Счёт упал до нуля"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Что происходит с именем DAN на Индексе?",
+   "options": [
+    "Его поднимают на первую строку",
+    "Его вычёркивают, ворота его не знают",
+    "Его покупает Рук",
+    "Оно остаётся как было"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Что Период требует в последней реплике?",
+   "options": [
+    "Извинение Рука",
+    "Телефон",
+    "Новый ранг",
+    "Привести Nad за один день"
+   ],
+   "answer": 3
+  }
+ ]
+}

@@ -1,0 +1,853 @@
+{
+ "id": "s2e07",
+ "title": "The Proof",
+ "titleRu": "Корректура",
+ "level": "A1",
+ "newWords": [
+  "jump",
+  "turn",
+  "left",
+  "right",
+  "pull",
+  "carefully",
+  "quickly",
+  "together",
+  "team",
+  "step"
+ ],
+ "panels": [
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "citizen",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide dawn shot in the Clock District courtyard, hard cel shadows, the round vault door still open behind the crowd. A watchman at the LEFT points at Dan in the CENTRE, both of Dan's hands up, pencil behind his right ear. Mira at the RIGHT steps in front of him, red cord on her left wrist only, her right hand flat against his chest, not tangled. A blank cream System window with a solid red frame hangs over the crowd. No numerals on the giant clock faces.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Та же секунда. Сторож ещё тычет в Дэна, а город уже смеётся: вора вытащили на Proof и не стали ждать пятницы."
+    },
+    {
+     "type": "speech",
+     "who": "citizen",
+     "en": "It is him. The city watches.",
+     "ru": "Это он. Город смотрит.",
+     "delivery": "shaky, loud, certain, pointing at Dan in front of the whole courtyard",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "The Proof is on Friday. We are not ready.",
+     "ru": "Proof в пятницу. Мы не готовы.",
+     "delivery": "urgent, hands still up, trying to sound reasonable and failing",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Warning. The Proof begins now.",
+     "ru": "Внимание. Proof начинается сейчас.",
+     "delivery": "flat cold warning, no pity, a door slamming in the voice"
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "thorn",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Low angle over a black drop. Moving plank-lines hang on chains like sentences, no letters on them. Miss Thorn at the LEFT, small and straight, pen raised, nothing red but the ink at the nib, her other hand on her cane. Dan at the CENTRE stares at the moving planks, both hands empty. Mira at the RIGHT watches the city galleries, arms at her sides, red cord on the left wrist.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "First, you listen, dear. Then you step.",
+     "ru": "Сначала слушай, дорогой. Потом шагай.",
+     "delivery": "dry, precise, a teacher who will not repeat herself twice",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "We are the lowest team. And the city laughs.",
+     "ru": "Мы самая нижняя команда. И город смеётся.",
+     "delivery": "bitter half-joke, not quite smiling, looking at the galleries",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "action",
+   "sfx": "CRACK",
+   "cast": [
+    {
+     "id": "pip",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "soup",
+     "pos": "right"
+    }
+   ],
+   "art": "Tilted comic shot on the planks, nobody falling into the drop. Pip at the LEFT has jumped too soon onto the next board, both feet on wood, arms out, cap askew, unhurt and grinning. Dan at the CENTRE reaches with his right hand and misses, left hand on a rope. Soup at the RIGHT has both feet planted, both hands on a thick rope, pot on his back, one step behind. A plank ahead is cracked. No blood. No hooded child in frame.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "pip",
+     "en": "I jump first! Quickly!",
+     "ru": "Я прыгаю первым! Быстро!",
+     "delivery": "delighted shout, too early, already falling and still proud",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "soup",
+     "en": "I step carefully. Not together.",
+     "ru": "Я шагаю осторожно. Не вместе.",
+     "delivery": "slow, guilty, a big man stuck while a child jumps",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Not true. Price: 15 words. Count: 150.",
+     "ru": "Неправда. Цена: 15 слов. Счёт: 150.",
+     "delivery": "flat cold cashier voice, taking the words in public"
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "ruk",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "High plank against a low one. Ruk at the LEFT, chin up, black coat, brass badges, ledger under his left arm, right gloved hand pointing down. Five rich men in black bump behind him, not touching Ruk. Dan and Mira stand small on a lower plank, Dan's hands open, Mira's arms folded, red cord visible. Galleries full of laughing faces. Deep blacks.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "My team does not jump. We pull. We win.",
+     "ru": "Моя команда не прыгает. Мы тянем. Мы побеждаем.",
+     "delivery": "bored contempt, loud enough for the galleries, almost a yawn",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Your team does not pull together.",
+     "ru": "Вы не тянете вместе. Смотри.",
+     "delivery": "deadpan, low, one flick of her chin at his men",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "thorn",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "soup",
+     "pos": "right"
+    }
+   ],
+   "art": "Medium three-shot on a still plank. Thorn at the LEFT taps the air with her pen, nothing red but the nib. Dan at the CENTRE pulls the yellow pencil from behind his ear with his right hand, left hand open. Soup at the RIGHT holds the rope in both hands and ducks his head to listen. A blank cream System window tilts beside Thorn.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "First, Soup holds the rope. Then Mira jumps.",
+     "ru": "Сначала Суп держит канат. Потом Мира прыгает.",
+     "delivery": "clear model sentence, each word set down like a stone",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Next, Pip turns left. Finally, pull together.",
+     "ru": "Дальше Пип поворачивает налево. Наконец тянете вместе.",
+     "delivery": "same dry classroom voice, finishing the order without a smile",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "soup",
+     "pos": "right"
+    }
+   ],
+   "art": "Dynamic wide shot, the money panel. A vermilion thread with no letters stitches three adults over the black drop. Soup at the RIGHT braces, both hands locked on the rope. Mira at the CENTRE is mid-jump, both arms tight to her sides, red cord on the left wrist, landing plank ahead. Dan at the LEFT speaks, pencil back behind his right ear, both hands open as if holding the sentence. No child anywhere in the frame.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "First, hold. Then jump. Next, turn left. Finally, pull.",
+     "ru": "Сначала держи. Потом прыгай. Дальше налево. Наконец тяни.",
+     "delivery": "shouting the order like a build plan, voice cracking and sure",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Sentence: 9 words. True.",
+     "ru": "Предложение: 9 слов. Правда.",
+     "delivery": "flat stamp, the mockery gone for one beat"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Carefully. The thread is on us.",
+     "ru": "Осторожно. Нить на нас.",
+     "delivery": "tight, breathless, almost impressed and hiding it",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "soup",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Tracking shot along a moving plank. Soup at the LEFT walks one heavy step, both hands on the rope, eyes on his feet. Mira at the CENTRE has landed in a crouch, one hand on the plank, the other reaching back not quite touching Soup. Dan at the RIGHT keeps pace, right hand pointing at the rope, left arm out for balance. Vermilion thread still ties them. No child.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "soup",
+     "en": "I hold the rope. I do not jump.",
+     "ru": "Я держу канат. Я не прыгаю.",
+     "delivery": "slow, proud of doing exactly one job",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I jump. Step carefully. Pull quickly.",
+     "ru": "Я прыгаю. Шагай осторожно. Тяни быстро.",
+     "delivery": "clipped orders, already looking at the next gap",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "pip",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "Medium shot on a swinging plank, no drop violence. Pip at the LEFT spins the wrong way, both arms windmilling, grin huge, feet still on wood. Dan at the CENTRE catches only air, both hands up and not touching the boy. At the RIGHT a small hooded figure, hood fully up so no face shows, a scrap of red cord on the left wrist, both hands on Mira's scarf; Mira herself is out of frame except the scarf. Safe, comic, nobody falling.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "pip",
+     "en": "I turn left. I turn right. I turn left!",
+     "ru": "Я поворачиваю налево. Направо. Налево!",
+     "delivery": "fast, gleeful, spinning, selling the mistake as a trick",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "One turn. Left. Right is not the step.",
+     "ru": "Один поворот. Налево. Направо — не этот шаг.",
+     "delivery": "exasperated engineer, almost laughing, pointing left with one finger",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "action",
+   "sfx": "CRACK",
+   "cast": [
+    {
+     "id": "ruk",
+     "pos": "left"
+    },
+    {
+     "id": "citizen",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Harsh low angle. A rich man in a black coat at the CENTRE slips on a breaking plank, both hands grabbing empty air, mouth open, no blood, no child near him. Ruk at the LEFT does not reach; both gloved hands stay on his ledger. Dan at the RIGHT is far below on a steady plank, small, watching. Vermilion sparks fall off the coat like heavy coins. Deep black drop.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "ruk",
+     "en": "Pull! All of you! Quickly!",
+     "ru": "Тяните! Все! Быстро!",
+     "delivery": "the boredom gone, a crack of panic he hates hearing",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "You have no line. We do.",
+     "ru": "У вас нет строки. У нас есть.",
+     "delivery": "quiet, not gloating, surprised it works",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "ruk",
+     "pos": "right"
+    }
+   ],
+   "art": "Quiet two-shot at the end of the planks, the drop still behind them. Dan at the LEFT extends his right hand, palm up, empty, left arm at his side. Ruk at the RIGHT stands alone on the last shaking plank, both gloved hands tight on the ledger, not taking the hand, the gap between their fingers clear. No contact. Galleries silent.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Take my right hand.",
+     "ru": "Возьми мою руку.",
+     "delivery": "plain, no triumph, the offer costing him",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "Cheap. I do not take it.",
+     "ru": "Дёшево. Я это не беру.",
+     "delivery": "soft, vicious, the old word, eyes on the hand not the face",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Wide shot back in the courtyard under the immense dark Index board, rows of abstract light and no readable text. Dan at the CENTRE looks up, pale, glasses crooked, both hands at his sides. Mira at the RIGHT stands half a step behind, arms folded, red cord on the left wrist. A blank cream System window with a double vermilion frame tilts in front of the board. The crowd is a ring of faces, no child in the foreground.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Count: 180. Rank: PHRASE.",
+     "ru": "Счёт: 180. Ранг: PHRASE.",
+     "delivery": "flat stamp, the rank returned without applause"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Title: First on the page.",
+     "ru": "Титул: первый на странице.",
+     "delivery": "same cold voice, naming the title like a line item"
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Доска наконец ползёт вверх. Город видел и цену, и ранг. Пятнадцать слов он забрал при всех — и не вернёт."
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "thorn",
+     "pos": "right"
+    }
+   ],
+   "art": "Quiet close two-shot at the edge of the noise. Dan at the LEFT is pale, one hand on his own chest, the other hanging, pencil still behind the right ear. Thorn at the RIGHT looks at him over her half-moon glasses, pen lowered, cane in the other hand. Ochre dawn, the crowd soft and out of focus. No text.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "15 words for one line. I am pale.",
+     "ru": "Пятнадцать слов за одну строку. Я бледный.",
+     "delivery": "tired joke at himself, breath short, almost a laugh",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "A true line has a price, dear.",
+     "ru": "У правдивой строки есть цена, дорогой.",
+     "delivery": "gentle and exact, no comfort past the fact",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dash",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "citizen",
+     "pos": "right"
+    }
+   ],
+   "art": "The cheer breaks. Dash at the LEFT is mid-stride, copper braid flying, one hand up in a stop, the other already holding iron bracket-cuffs with no letters. Dan at the CENTRE still has the title-light on his face, both hands half raised. A citizen at the RIGHT has his mouth open, both hands clapping and stopping. Hard rim light.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "dash",
+     "en": "Dan. Stop.",
+     "ru": "Дэн. Стоп.",
+     "delivery": "breathless, a runner who arrived one second too late for the cheer",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "We win. Look at the board.",
+     "ru": "Мы победили. Посмотри на доску.",
+     "delivery": "still smiling, not understanding the cuffs yet",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": "CLACK",
+   "cast": [
+    {
+     "id": "dash",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Tight three-shot. Dash at the LEFT closes iron brackets around Dan's wrists; her two hands on the cuffs, his two hands in front, no extra fingers, no blood. Dan at the CENTRE looks down at the iron. Mira at the RIGHT grabs Dash's sleeve with her right hand only, red cord on the left wrist, not a tangle of fingers. The Index board glows behind them, blank of letters.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dash",
+     "en": "I am Dash. Hands. Now.",
+     "ru": "Я Дэш. Руки. Сейчас.",
+     "delivery": "chopped, between breaths, no speech longer than a stride",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "He is first. Do not take him.",
+     "ru": "Он первый. Не забирай его.",
+     "delivery": "low, dangerous, two words from a shout",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "street",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "thorn",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "ruk",
+     "pos": "right"
+    }
+   ],
+   "art": "The crowd has gone quiet. Thorn at the LEFT watches, pen still, both hands on the cane. Dan at the CENTRE stands in the cuffs, pale, chin up, a bitter almost-smile. Ruk at the RIGHT is back on solid stone, ledger under his arm, both hands full, watching Dan the way a man watches a bill. Ochre light, deep shadow on the faces.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Победа ещё висит в воздухе, а на запястьях уже железо. Город смотрит и не спорит."
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "They hear the win. Then they take the man.",
+     "ru": "Они слышат победу. Потом забирают человека.",
+     "delivery": "quiet, furious, each clause a separate cut",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "The page is mine. My hands are not.",
+     "ru": "Страница моя. Руки — нет.",
+     "delivery": "small, to himself, the joke turned inward",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dash",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Almost black. Dash at the LEFT, face lit from below by a blank cream warning window with a solid red frame, mouth open on the last word. Dan at the RIGHT in half-profile, cuffs catching a rim of vermilion, eyes wide, pencil still behind the right ear. No letters in the window. No child.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dash",
+     "en": "You were at the vault.",
+     "ru": "Ты был у хранилища.",
+     "delivery": "the first past tense, slow, almost gentle, worse than a shout",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dash",
+     "en": "Last night.",
+     "ru": "Прошлой ночью.",
+     "delivery": "softer, the two words dropped like a lock",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "Сначала, потом, дальше, наконец",
+  "body": "Порядок действий — это сила. First, then, next, finally ставят шаги в очередь, и правда в этом порядке держит всю команду. Наречие на -ly настраивает шаг: carefully — осторожно, quickly — быстро. Без порядка фраза трескается, и Система берёт цену при всех. Повелительное здесь короткое: Hold. Jump. Pull.",
+  "examples": [
+   {
+    "en": "First, you listen, dear. Then you step.",
+    "ru": "Сначала слушай, дорогой. Потом шагай."
+   },
+   {
+    "en": "Next, Pip turns left. Finally, pull together.",
+    "ru": "Дальше Пип поворачивает налево. Наконец тянете вместе."
+   },
+   {
+    "en": "I jump. Step carefully. Pull quickly.",
+    "ru": "Я прыгаю. Шагай осторожно. Тяни быстро."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Что Система забирает, когда команда срывается с первого шага?",
+   "options": [
+    "Телефон мамы",
+    "15 слов, счёт падает до 150",
+    "Имя Дэна",
+    "Канат Супа"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Чем Дэн проводит пятёрку по бегущей странице?",
+   "options": [
+    "Купленным щитом Рука",
+    "Криком «быстро»",
+    "Одной фразой по порядку: first, then, next, finally",
+    "Прыжком Пипа"
+   ],
+   "answer": 2
+  },
+  {
+   "q": "Берёт ли Рук протянутую руку?",
+   "options": [
+    "Нет. «Cheap.»",
+    "Берёт и благодарит",
+    "Падает сам",
+    "Отдаёт телефон"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Чем кончается серия, пока титул ещё горит?",
+   "options": [
+    "Пятница всё-таки наступает",
+    "Рук извиняется",
+    "Мира забирает канат",
+    "Дэш застёгивает скобы: ты был у хранилища прошлой ночью"
+   ],
+   "answer": 3
+  }
+ ]
+}

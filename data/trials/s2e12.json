@@ -1,0 +1,690 @@
+{
+ "episode": "s2e12",
+ "unlocks": "s3e01",
+ "title": "Up",
+ "titleRu": "Наверх",
+ "trials": [
+  {
+   "id": "s2e12-t1",
+   "title": "The Door",
+   "titleRu": "Дверь",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Keep the sentence true.",
+       "ru": "ЗАДАНИЕ: Держи фразу правдой."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "I am holding the door.",
+      "ru": "Я держу дверь."
+     },
+     {
+      "who": "ruk",
+      "en": "I am holding too.",
+      "ru": "Я тоже держу."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "thorn",
+      "en": "Hear the line, dear.",
+      "ru": "Слушай строку, дорогой."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "You are holding it, dear. Keep holding.",
+     "voice": "narration",
+     "delivery": "calm in the noise, a conductor, precise",
+     "options": [
+      "You are holding it, dear. Keep holding.",
+      "I am holding the door.",
+      "Shield. I am holding too."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Keep holding.",
+      "ru": "Продолжай держать."
+     },
+     "fail": {
+      "who": "ruk",
+      "en": "I am holding too.",
+      "ru": "Я тоже держу."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "mira",
+      "en": "The child.",
+      "ru": "Ребёнок."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "I am ___ her.",
+     "options": [
+      "carrying",
+      "carry",
+      "carried",
+      "holds"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "I am carrying her.",
+      "ru": "Я её несу."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Carrying. Now. Not yesterday.",
+      "ru": "Несу. Сейчас. Не вчера."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "thorn",
+      "en": "When does the door hold?",
+      "ru": "Когда дверь держит?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "While he holds, the door holds.",
+      "Count: 300.",
+      "He does not hear that word.",
+      "You were nineteen."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "While the sentence is true.",
+      "ru": "Пока фраза правда."
+     },
+     "fail": {
+      "who": "silent",
+      "en": "I did not leave.",
+      "ru": "Я не уходил."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "Say the door.",
+      "ru": "Скажи про дверь."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Собери фразу."
+     },
+     "answer": "I am holding the door",
+     "accept": [
+      "I am holding the door"
+     ],
+     "success": {
+      "who": "system",
+      "en": "True.",
+      "ru": "Правда."
+     },
+     "fail": {
+      "who": "ruk",
+      "en": "Holding. Not letting go.",
+      "ru": "Держу. Не отпускаю."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "mira",
+      "en": "The word for do not drop her.",
+      "ru": "Слово «не урони её»."
+     },
+     "prompt": {
+      "en": "In English.",
+      "ru": "Напиши по-английски."
+     },
+     "answer": "safe",
+     "accept": [
+      "safe"
+     ],
+     "success": {
+      "who": "bell",
+      "en": "Are you keeping us safe?",
+      "ru": "Вы держите нас в безопасности?"
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Safe. Say it.",
+      "ru": "В безопасности. Скажи."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "What does he let go?",
+      "ru": "Что он отпускает?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "I let go of the door.",
+      "We did not let go of the child.",
+      "I am Bell.",
+      "From Dan."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "The door. Not the child.",
+      "ru": "Дверь. Не ребёнка."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Two things. That is the mistake.",
+      "ru": "Две вещи. В этом ошибка."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "True. While he holds, the door holds.",
+       "ru": "Правда. Пока он держит, дверь держит."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "ruk",
+      "en": "I am keeping the shield.",
+      "ru": "Я держу щит."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2e12-t2",
+   "title": "A Real Name",
+   "titleRu": "Настоящее имя",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "status",
+     "title": "STATUS",
+     "lines": [
+      {
+       "en": "True. No one owns the name.",
+       "ru": "Правда. Именем никто не владеет."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "What do you like?",
+      "ru": "Что тебе нравится?"
+     },
+     {
+      "who": "bell",
+      "en": "I like bells.",
+      "ru": "Мне нравятся колокольчики."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "choose",
+     "story": {
+      "who": "bell",
+      "en": "She answers.",
+      "ru": "Она отвечает."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "I like bells. I choose. I am Bell.",
+      "I am Lina. The name is mine.",
+      "I am holding the door.",
+      "You were nineteen."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "thorn",
+      "en": "The name is real, dear.",
+      "ru": "Имя настоящее, дорогой."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Lina is the other name.",
+      "ru": "Лина — другое имя."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "silent",
+      "en": "The scarf. Still no face.",
+      "ru": "Шарф. Лица всё ещё нет."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "I am Lina.",
+     "voice": "silent",
+     "delivery": "a real girl's small voice from under a hood, the first time it is hers",
+     "options": [
+      "I am Lina.",
+      "I am Bell.",
+      "I am Dan."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Keep the name.",
+      "ru": "Держи имя."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "We do not own it.",
+      "ru": "Мы им не владеем."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "The line at the light door.",
+      "ru": "Строка у светлой двери."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "I am ___ up.",
+     "options": [
+      "going",
+      "go",
+      "went",
+      "gone"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "I am going up.",
+      "ru": "Я иду наверх."
+     },
+     "fail": {
+      "who": "thorn",
+      "en": "Going, dear. Now.",
+      "ru": "Going, дорогой. Сейчас."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "The family, now.",
+      "ru": "Семья, сейчас."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Собери фразу."
+     },
+     "answer": "I am taking my family",
+     "accept": [
+      "I am taking my family"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "I am keeping Lina.",
+      "ru": "Я держу Лину."
+     },
+     "fail": {
+      "who": "ruk",
+      "en": "I own nothing.",
+      "ru": "Мне ничего не принадлежит."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "bell",
+      "en": "The word she uses.",
+      "ru": "Слово, которое она говорит."
+     },
+     "prompt": {
+      "en": "In English.",
+      "ru": "Напиши по-английски."
+     },
+     "answer": "choose",
+     "accept": [
+      "choose"
+     ],
+     "success": {
+      "who": "bell",
+      "en": "I choose.",
+      "ru": "Я выбираю."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Choose. Not take.",
+      "ru": "Выбери. Не забери."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "pip",
+      "en": "The pot gets a sentence.",
+      "ru": "Котёл получает фразу."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "I am carrying the soup. It is real.",
+      "I own nothing.",
+      "You were nineteen.",
+      "Ask me when you have 600 words."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "soup",
+      "en": "It is real.",
+      "ru": "Он настоящий."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "I am keeping the words.",
+      "ru": "Я держу слова."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "True. No one owns the name.",
+       "ru": "Правда. Именем никто не владеет."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "silent",
+      "en": "I am Lina. The name is mine.",
+      "ru": "Я Лина. Имя моё."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2e12-t3",
+   "title": "600",
+   "titleRu": "Шестьсот",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "status",
+     "title": "STATUS",
+     "lines": [
+      {
+       "en": "True. Count: 300. Rank up: CLAUSE.",
+       "ru": "Правда. Счёт: 300. Новый ранг: CLAUSE."
+      },
+      {
+       "en": "Missed calls: 31.",
+       "ru": "Пропущенных: 31."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Again? I was here.",
+      "ru": "Снова? Я здесь был."
+     },
+     {
+      "who": "system",
+      "en": "You were nineteen.",
+      "ru": "Тебе было девятнадцать."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "Hear the long answer start.",
+      "ru": "Слушай, как начинается длинный ответ."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "You were here. Five years ago.",
+     "voice": "system",
+     "delivery": "flat, a file opening, no drama",
+     "options": [
+      "You were here. Five years ago.",
+      "You were nineteen.",
+      "Ask me when you have 600 words."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Five years ago.",
+      "ru": "Пять лет назад."
+     },
+     "fail": {
+      "who": "thorn",
+      "en": "Were, dear. Not now.",
+      "ru": "Were, дорогой. Не сейчас."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "What does he ask?",
+      "ru": "Что он спрашивает?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "What did I do here?",
+      "I am going up.",
+      "I am Bell.",
+      "He does not hear that word."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "Ask me when you have 600 words.",
+      "ru": "Спроси, когда будет 600 слов."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "It needs the past.",
+      "ru": "Ему нужно прошлое."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "thorn",
+      "en": "The number.",
+      "ru": "Число."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "You were ___.",
+     "options": [
+      "nineteen",
+      "tired",
+      "alone",
+      "slow"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Nineteen.",
+      "ru": "Девятнадцать."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Nineteen. Not a child.",
+      "ru": "Девятнадцать. Не ребёнок."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "thorn",
+      "en": "The closed line.",
+      "ru": "Закрытая строка."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Собери фразу."
+     },
+     "answer": "It needs the past",
+     "accept": [
+      "It needs the past"
+     ],
+     "success": {
+      "who": "system",
+      "en": "It needs the past.",
+      "ru": "Ему нужно прошлое."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Past. Not half past.",
+      "ru": "Прошлое. Не «половина»."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "dan",
+      "en": "The rank, one word.",
+      "ru": "Ранг, одно слово."
+     },
+     "prompt": {
+      "en": "In English.",
+      "ru": "Напиши по-английски."
+     },
+     "answer": "clause",
+     "accept": [
+      "clause"
+     ],
+     "success": {
+      "who": "system",
+      "en": "Rank up: CLAUSE.",
+      "ru": "Новый ранг: CLAUSE."
+     },
+     "fail": {
+      "who": "thorn",
+      "en": "Clause, dear.",
+      "ru": "Clause, дорогой."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "mira",
+      "en": "The jar. Do not write the word.",
+      "ru": "Банка. Не пиши слово."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "He does not hear that word.",
+      "From Dan. And a word.",
+      "I am holding the door.",
+      "Count: 300."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "I do not hear it.",
+      "ru": "Я не слышу."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "The word stays in the jar.",
+      "ru": "Слово остаётся в банке."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Count: 300. Rank up: CLAUSE.",
+       "ru": "Счёт: 300. Новый ранг: CLAUSE."
+      },
+      {
+       "en": "Missed calls: 31.",
+       "ru": "Пропущенных: 31."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "From Dan. And a word. He does not hear it.",
+      "ru": "От Дэна. И слово. Он его не слышит."
+     },
+     {
+      "who": "dan",
+      "en": "We are going up.",
+      "ru": "Мы идём наверх."
+     }
+    ]
+   }
+  }
+ ]
+}

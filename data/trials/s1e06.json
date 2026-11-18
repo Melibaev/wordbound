@@ -48,7 +48,7 @@
      },
      "prompt": {
       "en": "Find the word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Ступеней слишком много. Is или are?"
      },
      "sentence": "There ___ many stairs.",
      "options": [
@@ -65,7 +65,7 @@
      "fail": {
       "who": "system",
       "en": "One stair: there is. Many stairs: there are.",
-      "ru": "Одна ступенька — there is. Много — there are."
+      "ru": "Ступеней много — there are. Иначе эхо врёт."
      }
     },
     {
@@ -77,7 +77,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Система считает ступени. Сколько?"
      },
      "audio_text": "There are 300 stairs. You are slow.",
      "voice": "system",
@@ -108,7 +108,7 @@
      },
      "prompt": {
       "en": "Pip says...",
-      "ru": "Пип считает цену. Что он скажет?"
+      "ru": "Рынок где-то выше. Что скажет Пип?"
      },
      "options": [
       "It is up there.",
@@ -159,11 +159,11 @@
      "story": {
       "who": "pip",
       "en": "Up, down, under, behind. Four words. Four apples.",
-      "ru": "Вверх, вниз, под, за. Четыре слова — четыре яблока."
+      "ru": "Вверх, вниз, под, за. Четыре яблока, если путаю."
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Четыре метки. Сопоставь."
+      "ru": "Вверх, вниз, под, за. Сверь, пока эхо не поймало слово."
      },
      "pairs": [
       [
@@ -203,7 +203,7 @@
      },
      "prompt": {
       "en": "Find the word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "За спиной снова кто-то. Is или are?"
      },
      "sentence": "There ___ a Silent behind us.",
      "options": [
@@ -220,7 +220,7 @@
      "fail": {
       "who": "pip",
       "en": "One Silent. There is.",
-      "ru": "Один Безмолвный. There is."
+      "ru": "Один за спиной — there is. Тише."
      }
     }
    ],
@@ -292,7 +292,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Он целится в карандаш. Что он сказал?"
      },
      "audio_text": "Give me the yellow pencil.",
      "voice": "pip",
@@ -323,7 +323,7 @@
      },
      "prompt": {
       "en": "Dan says...",
-      "ru": "Ход Дэна. Что он скажет?"
+      "ru": "Карандаш не на продажу. Что ты ответишь?"
      },
      "options": [
       "No. Not the pencil.",
@@ -351,7 +351,7 @@
      },
      "prompt": {
       "en": "Find the word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Секрет вместо карандаша. Какой предлог: комната ___ лестницы?"
      },
      "sentence": "There is a room ___ the stairs.",
      "options": [
@@ -380,7 +380,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Пип торгуется. Собери: «Там, наверху, есть помощь?»"
+      "ru": "Он торгуется. Собери: «Там, наверху, есть помощь?»"
      },
      "answer": "Is there help up there",
      "distractors": [
@@ -407,7 +407,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Пип продаёт тишину. Напиши товар."
+      "ru": "Он продаёт одно. Напиши товар."
      },
      "answer": "quiet",
      "success": {
@@ -482,7 +482,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Система считает её дыхание. Сколько осталось?"
      },
      "audio_text": "Mira has two breaths.",
      "voice": "system",
@@ -513,7 +513,7 @@
      },
      "prompt": {
       "en": "What is it?",
-      "ru": "Два дыхания. Что это значит?"
+      "ru": "Два дыхания. Что это значит для неё?"
      },
      "options": [
       "Mira can be a Silent.",
@@ -541,7 +541,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Слово-сила. Напиши его."
+      "ru": "Он за спиной. Слово-сила. Напиши его."
      },
      "answer": "stop",
      "success": {
@@ -564,7 +564,7 @@
      },
      "prompt": {
       "en": "Find the word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Она не хочет садиться. Какое слово: Sit ___, Mira."
      },
      "sentence": "Sit ___, Mira. Stop.",
      "options": [
@@ -581,7 +581,7 @@
      "fail": {
       "who": "dan",
       "en": "Sit down. Down.",
-      "ru": "Сядь. Вниз."
+      "ru": "Sit down. Пока ещё два дыхания."
      }
     },
     {
@@ -593,7 +593,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Пип указывает вверх. Собери: «Там, наверху, рынок»."
+      "ru": "Он показывает вверх. Собери: «Там, наверху, рынок»."
      },
      "answer": "There is a market up there",
      "distractors": [

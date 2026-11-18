@@ -17,7 +17,7 @@
      "lines": [
       {
        "en": "QUEST: Share the soup.",
-       "ru": "ЗАДАНИЕ: Раздели суп."
+       "ru": "ЗАДАНИЕ: Дели суп. Здесь за миску не берут слов."
       }
      ]
     },
@@ -44,7 +44,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "В кастрюле не пусто. Some или any?"
      },
      "sentence": "There is ___ soup in the pot.",
      "options": [
@@ -61,7 +61,7 @@
      "fail": {
       "who": "system",
       "en": "There is SOME soup. Yes.",
-      "ru": "There is SOME soup. Да."
+      "ru": "Some soup. В кастрюле есть. Не any."
      }
     },
     {
@@ -73,7 +73,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Хлеба нет. Some или any в отрицании?"
      },
      "sentence": "There isn't ___ bread.",
      "options": [
@@ -90,7 +90,7 @@
      "fail": {
       "who": "system",
       "en": "Isn't ANY. Not 'isn't some'.",
-      "ru": "Isn't ANY. Не «isn't some»."
+      "ru": "Isn't any bread. Any в «нет». Иначе пометка."
      }
     },
     {
@@ -102,7 +102,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Во второй кастрюле. Что он сказал?"
      },
      "audio_text": "There are some eggs.",
      "voice": "narration",
@@ -129,11 +129,11 @@
      "story": {
       "who": "mira",
       "en": "Four words for this kitchen.",
-      "ru": "Четыре слова про эту кухню."
+      "ru": "Кухня. Миска. Суп. Голод. Здесь это не слова из учебника."
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Соедини слово и перевод."
+      "ru": "Кухня, миска, суп, голод. Сверь, пока миска ещё тёплая."
      },
      "pairs": [
       [
@@ -161,7 +161,7 @@
      "fail": {
       "who": "mira",
       "en": "Slow, Zero. Again.",
-      "ru": "Медленно, Зеро. Ещё раз."
+      "ru": "Кухня. Перепутал слово — миска остынет."
      }
     },
     {
@@ -173,7 +173,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши: «Здесь много супа»."
+      "ru": "Не мало. Напиши: здесь много супа."
      },
      "answer": "There is a lot of soup",
      "success": {
@@ -251,7 +251,7 @@
      },
      "prompt": {
       "en": "What is the answer?",
-      "ru": "Что правда?"
+      "ru": "Кастрюля полная. Что правда?"
      },
      "options": [
       "There is a lot of soup.",
@@ -279,7 +279,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "A lot ___ soup. Какой предлог?"
      },
      "sentence": "There is a lot ___ soup.",
      "options": [
@@ -296,7 +296,7 @@
      "fail": {
       "who": "system",
       "en": "A lot OF soup.",
-      "ru": "A lot OF soup."
+      "ru": "A lot of soup. Of. Кастрюля это знает."
      }
     },
     {
@@ -308,7 +308,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери вопрос Дэна: «Есть ли тут хлеб?»"
+      "ru": "Хлеба нет, но спросить надо. Собери: «Есть ли тут хлеб?»"
      },
      "answer": "Is there any bread",
      "distractors": [
@@ -323,7 +323,7 @@
      "fail": {
       "who": "system",
       "en": "Is there any. Any in a question.",
-      "ru": "Is there any. Any — в вопросе."
+      "ru": "Is there any. Any в вопросе. Хлеба всё равно нет."
      }
     },
     {
@@ -335,7 +335,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши: «немного соли»."
+      "ru": "Соли почти нет. Напиши: немного соли."
      },
      "answer": "some salt",
      "success": {
@@ -358,7 +358,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Система требует правду про меру. Что она сказала?"
      },
      "audio_text": "Say how much. Say it true.",
      "voice": "system",
@@ -377,7 +377,7 @@
      "fail": {
       "who": "system",
       "en": "How much. True.",
-      "ru": "How much. Правда."
+      "ru": "How much. Правда. Про суп many не пройдёт."
      }
     }
    ],
@@ -422,7 +422,7 @@
      {
       "who": "mira",
       "en": "Three marks. Three mistakes. Read them, Zero.",
-      "ru": "Три пометки. Три ошибки. Прочти их, Зеро."
+      "ru": "Три пометки. Три промаха. Читай, Зеро. Она уже близко."
      },
      {
       "who": "dan",
@@ -437,11 +437,11 @@
      "story": {
       "who": "mira",
       "en": "Say it right. Listen first.",
-      "ru": "Скажи правильно. Сначала послушай."
+      "ru": "Три пометки. Если снова мимо — она уже в дверях."
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Три красные пометки. Какая фраза без ошибки?"
      },
      "audio_text": "There is a lot of warm soup in the pot.",
      "voice": "mira",
@@ -472,7 +472,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Соли нет. Any или some в вопросе?"
      },
      "sentence": "Is there ___ salt? No, there isn't.",
      "options": [
@@ -489,7 +489,7 @@
      "fail": {
       "who": "system",
       "en": "Is there ANY. In a question.",
-      "ru": "Is there ANY. В вопросе."
+      "ru": "Is there any salt. Any. Красная ручка уже в воздухе."
      }
     },
     {
@@ -497,11 +497,11 @@
      "story": {
       "who": "mira",
       "en": "Which is right?",
-      "ru": "Какое верное?"
+      "ru": "Миски на столе. Какая фраза не врёт."
      },
      "prompt": {
       "en": "What is the right sentence?",
-      "ru": "Какая фраза верная?"
+      "ru": "Миски на столе. Какая фраза не врёт?"
      },
      "options": [
       "There are some bowls.",
@@ -517,7 +517,7 @@
      "fail": {
       "who": "mira",
       "en": "Many bowls. There are.",
-      "ru": "Миски. Множественное. There are."
+      "ru": "There are some bowls. Are. Миски — не суп."
      }
     },
     {
@@ -529,7 +529,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери фразу: «Он варит много супа»."
+      "ru": "Он у плиты. Собери: «Он варит много супа»."
      },
      "answer": "He is cooking a lot of soup",
      "distractors": [
@@ -556,7 +556,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши: «Здесь нет соли»."
+      "ru": "Красная ручка ждёт. Напиши: здесь нет соли."
      },
      "answer": "There isn't any salt",
      "success": {
@@ -567,7 +567,7 @@
      "fail": {
       "who": "mira",
       "en": "There isn't any salt. Any.",
-      "ru": "There isn't any salt. Any."
+      "ru": "There isn't any salt. Any. Иначе третья пометка."
      },
      "accept": [
       "there is not any salt"

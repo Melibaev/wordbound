@@ -48,7 +48,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Он рассказывает, кем пришёл. Что ты услышал?"
      },
      "audio_text": "I come here a young man. No words. No friend.",
      "voice": "keeper",
@@ -79,7 +79,7 @@
      },
      "prompt": {
       "en": "How many years?",
-      "ru": "Сколько лет Хранитель в этом зале?"
+      "ru": "Сколько лет он в этом зале?"
      },
      "options": [
       "forty",
@@ -107,7 +107,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Каждый год одно и то же. Want ___ go — какое слово?"
      },
      "sentence": "Every year I want ___ go home.",
      "options": [
@@ -124,7 +124,7 @@
      "fail": {
       "who": "keeper",
       "en": "I want to go. Want to.",
-      "ru": "I want to go. Want to."
+      "ru": "Want to go. Без to дверь его не слышит."
      }
     },
     {
@@ -136,7 +136,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Двери нужны двое. Один помнит. Второй — что?"
      },
      "sentence": "One remembers. One ___.",
      "options": [
@@ -161,11 +161,11 @@
      "story": {
       "who": "dan",
       "en": "Remember, forget, stay, leave. His whole life.",
-      "ru": "Помнить, забыть, остаться, уйти. Вся его жизнь."
+      "ru": "Помнить, забыть, остаться, уйти. Вся его жизнь в четырёх словах."
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Соедини слово и перевод."
+      "ru": "Помнить, забыть, остаться, уйти. Вся его жизнь. Сверь."
      },
      "pairs": [
       [
@@ -205,7 +205,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери, чего хочет Хранитель: «Мне нужно твоё имя»."
+      "ru": "Мама звонит каждый час. Собери, чего он хочет: «Мне нужно твоё имя»."
      },
      "answer": "I need your name",
      "distractors": [
@@ -287,7 +287,7 @@
      },
      "prompt": {
       "en": "Way one...",
-      "ru": "Путь первый: что будет?"
+      "ru": "Путь первый: имя целиком. Что будет?"
      },
      "options": [
       "Mira has her name. Dan stays.",
@@ -315,7 +315,7 @@
      },
      "prompt": {
       "en": "Way two...",
-      "ru": "Путь второй: что будет?"
+      "ru": "Путь второй: дверь домой. Что будет?"
      },
      "options": [
       "Dan goes home and forgets Mira.",
@@ -343,7 +343,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Система не поможет. Have или need в «You ___ to choose»?"
      },
      "sentence": "You ___ to choose.",
      "options": [
@@ -360,7 +360,7 @@
      "fail": {
       "who": "system",
       "en": "You have to choose. Have to.",
-      "ru": "Ты должен выбрать. Have to."
+      "ru": "Have to choose. Система не поможет."
      }
     },
     {
@@ -372,7 +372,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери слова Дэна: «Я не хочу оставлять её»."
+      "ru": "Она без имени из-за тебя. Собери: «Я не хочу оставлять её»."
      },
      "answer": "I don't want to leave her",
      "distractors": [
@@ -399,7 +399,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Система повторяет закон. Что в окне?"
      },
      "audio_text": "You have to choose. This voice can't help.",
      "voice": "system",
@@ -430,7 +430,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Одно слово: «выбирать»."
+      "ru": "Он ждёт. Напиши слово: выбирать."
      },
      "answer": "choose",
      "success": {
@@ -500,7 +500,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай. Что просит мама? Напиши."
+      "ru": "Мама на линии. Что она просит? Напиши."
      },
      "audio_text": "Dan, call me. Please.",
      "voice": "narration",
@@ -531,7 +531,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Ты хочешь домой. Need ___ call — какое слово?"
      },
      "sentence": "I need ___ call her.",
      "options": [
@@ -548,7 +548,7 @@
      "fail": {
       "who": "system",
       "en": "Need to. Need to call.",
-      "ru": "Need to. Нужно позвонить."
+      "ru": "Need to call. Она на линии."
      }
     },
     {
@@ -560,7 +560,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери правду Дэна: «Я хочу помнить её голос»."
+      "ru": "Её голос. Собери правду: «Я хочу помнить её голос»."
      },
      "answer": "I want to remember her voice",
      "distractors": [
@@ -587,7 +587,7 @@
      },
      "prompt": {
       "en": "What is it?",
-      "ru": "Чего хочет Мира?"
+      "ru": "Она три года здесь. Чего она хочет для тебя?"
      },
      "options": [
       "She wants Dan to go home.",
@@ -615,7 +615,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Дверь открыта. Have to — какое слово в пропуске?"
      },
      "sentence": "The door is open. You ___ to choose now.",
      "options": [

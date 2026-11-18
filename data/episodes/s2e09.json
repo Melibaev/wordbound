@@ -1,0 +1,914 @@
+{
+ "id": "s2e09",
+ "title": "There Was a Boy",
+ "titleRu": "Там был мальчик",
+ "level": "A1",
+ "newWords": [
+  "clue",
+  "floor",
+  "mark",
+  "wet",
+  "footprint",
+  "empty",
+  "line",
+  "shelf",
+  "list",
+  "strange"
+ ],
+ "panels": [
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dash",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "thorn",
+     "pos": "right"
+    }
+   ],
+   "art": "The hour vault: a round brass-dark room, walls of locked drawers with no labels, one ochre lamp, wet stone. Dash at the LEFT holds the lamp up in her right hand, left hand on the door ring. Dan at the CENTRE steps in, both hands free of cuffs now, pencil behind his ear. Thorn at the RIGHT is already looking at the floor, pen ready, cane in the other hand. No letters on the drawers.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "День, который дал судья, уже горит. Хранилище пахнет мокрым камнем, и Дэн должен прочитать комнату, пока она не забудет."
+    },
+    {
+     "type": "speech",
+     "who": "dash",
+     "en": "One day. This is the vault.",
+     "ru": "Один день. Это хранилище.",
+     "delivery": "clipped, holding the door, already counting the hours",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Ask the room, dear. Was there a light?",
+     "ru": "Спроси комнату, дорогой. Был ли здесь свет?",
+     "delivery": "calm teacher in a crime scene, the question is a tool",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Was there a light here? There was not.",
+     "ru": "Был ли здесь свет? Не было.",
+     "delivery": "trying the new question, surprised when the lamp answers by staying dim",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "thorn",
+     "pos": "right"
+    }
+   ],
+   "art": "Close on the floor. Dan at the LEFT crouches, one hand hovering over a wet streak, the other on his knee, not touching the water. Thorn at the RIGHT points with the pen, not the finger, her other hand on the cane. A faint pale print of a darker room tries to form and fails. No text.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "The floor is wet. There was a mark.",
+     "ru": "Пол мокрый. Здесь была метка.",
+     "delivery": "engineer on a site, naming what he sees",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Were there clues on the floor, dear?",
+     "ru": "Были ли на полу улики, дорогой?",
+     "delivery": "prompting, patient, the dear not sweet",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "dash",
+     "pos": "right"
+    }
+   ],
+   "art": "Three sets of wet footprints glow pale on the stone as Dan speaks, no letters in them. Mira at the LEFT looks down, both hands behind her back, red cord on the left wrist. Dan at the CENTRE points with two fingers, not touching the prints. Dash at the RIGHT counts on her fingers, lamp in the other hand. Teal only in one strange smear at the edge.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "There was a wet mark. A clue.",
+     "ru": "Была мокрая метка. Улика.",
+     "delivery": "short, agreeing only with the floor",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "There were three footprints. Not mine.",
+     "ru": "Было три следа. Не мои.",
+     "delivery": "counting, relieved and then not",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dash",
+     "en": "Were there three? There were.",
+     "ru": "Было три? Было.",
+     "delivery": "surprised the question works, repeating it like a report",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "pip",
+     "pos": "left"
+    },
+    {
+     "id": "soup",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Comic beat among the drawers. Pip at the LEFT puts his own small boot next to a big pale footprint, both hands on his hips, the prints not the same. Soup at the CENTRE bends under a beam, ladle tapping his leg, both hands on his knees. Dan at the RIGHT shakes his head, one palm out. Warm lamp, no danger, no blood.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "There was a small footprint. Strange. Not mine.",
+     "ru": "Был маленький след. Странный. Не мой.",
+     "delivery": "offended, fast, as if the floor accused him",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Three footprints. One clue. A strange floor.",
+     "ru": "Три следа. Одна улика. Странный пол.",
+     "delivery": "muttering a list, half a smile",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "thorn",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "An empty brass shelf at chest height, one round dust-ring where a jar sat, no label. Thorn at the LEFT touches the shelf with the pen nib only. Dan at the CENTRE stares at the ring, both hands empty. Mira at the RIGHT looks along the row of empty shelves. Ochre lamp, teal shadow in the back.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Was there a jar on this shelf, dear?",
+     "ru": "Была ли банка на этой полке, дорогой?",
+     "delivery": "the question placed on the dust ring",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "There was a jar. The shelf is empty.",
+     "ru": "Банка была. Полка пустая.",
+     "delivery": "the pale print of a jar flickers and dies as he finishes",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "There were seven jars. The shelf is empty.",
+     "ru": "Было семь банок. Полка пустая.",
+     "delivery": "flat inventory, no outrage"
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Close-up of a strange teal smear on the brass, not a letter, not an eye. Dan at the LEFT leans in, glasses reflecting teal, both hands kept back so he does not touch it. Mira at the RIGHT watches his face, not the mark, one hand on her scarf. The rest of the room falls dark.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "There was a strange mark. Not a footprint.",
+     "ru": "Была странная метка. Не след.",
+     "delivery": "uneasy, the engineer who does not like a material he cannot name",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "Was the mark wet? Was it on the floor?",
+     "ru": "Метка была мокрой? Она была на полу?",
+     "delivery": "from just out of frame, two quick questions, still the teacher",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dash",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "thorn",
+     "pos": "right"
+    }
+   ],
+   "art": "Dash at the LEFT holds up a blank cream sheet with a brass seal and no writing, both hands on the edges. Dan at the CENTRE squints at it. Thorn at the RIGHT already sees more than he does. Drawers behind them. No readable list, only abstract ticks of light.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dash",
+     "en": "There was a list on the door.",
+     "ru": "На двери был список.",
+     "delivery": "report voice, the paper shaking once",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Was there a name on the list?",
+     "ru": "Было ли в списке имя?",
+     "delivery": "afraid of the answer, asking anyway",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "There was a list. Your line was not alone.",
+     "ru": "Список был. Твоя строка была не одна.",
+     "delivery": "careful, leaving the worst line for later",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "thorn",
+     "pos": "right"
+    }
+   ],
+   "art": "A heavy ledger lies open on a stand, pages blank to the eye, one line flickering vermilion for Mira only, shown as a glow with no letters. Mira at the LEFT can see it, finger hovering, not touching. Dan at the CENTRE sees an empty gap and hates it, both hands gripping the stand. Thorn at the RIGHT watches his face, pen down. Public shame with only the three of them, Dash's lamp behind.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "В книге вкладов строка есть. Мира её видит. Дэн — учитель слов — видит пустое место и ничего не может прочитать."
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "There was a line here. I see it.",
+     "ru": "Здесь была строка. Я её вижу.",
+     "delivery": "quiet, not unkind, which makes it worse",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "The line is empty. There was nothing.",
+     "ru": "Строка пустая. Там ничего не было.",
+     "delivery": "stubborn, ashamed, too loud for the vault",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "thorn",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Thorn at the LEFT puts one gloved finger on the glowing gap, Dan at the RIGHT leans in and still sees nothing. A blank System window snaps open between their faces, solid red frame, inverted, no text. Their hands do not touch.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "It is not empty, dear.",
+     "ru": "Она не пустая, дорогой.",
+     "delivery": "almost a whisper, the correction she does not want to make",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Was there a word on that line?",
+     "ru": "Было ли на той строке слово?",
+     "delivery": "pleading at the window, not at her",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Mira. Not now.",
+     "ru": "Мира. Не сейчас.",
+     "delivery": "flat, cutting the page, the old refusal"
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "silent",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Between two shelves, Nad: very tall, smooth white head, no eyes, no sockets, no nose, no lips, one thin vertical teal seam, two round dents where glasses would sit, a scrap of mustard lanyard at the throat. He stands at the LEFT, long hands loose, exactly two arms. Dan at the RIGHT stops, both hands up, not attacking. Teal shadow, ochre lamp. No child.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "I know walls. I know doors.",
+     "ru": "Я знаю стены. Я знаю двери.",
+     "delivery": "Dan's old voice, a little late, hollow, from a seam that is not a mouth",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "I am Dan. I am tired.",
+     "ru": "Я Дэн. Я устал.",
+     "delivery": "the same stolen voice, flatter, exact and wrong",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "I am not weak.",
+     "ru": "Я не слабый.",
+     "delivery": "Dan's old shout emptied out, almost polite",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "silent",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "The seam does not open into a mouth. Nad at the LEFT tilts his smooth head. Dan at the CENTRE goes still, colour leaving his face, both hands dropped. Mira at the RIGHT steps between them but does not touch Nad, one arm out as a bar, red cord on the left wrist. The lamp flickers.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "Dan is slow.",
+     "ru": "Дэн медленный.",
+     "delivery": "new, the words rearranged, Dan's voice used for a sentence he never lived",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "That is not my line. I am not slow.",
+     "ru": "Это не моя строка. Я не медленный.",
+     "delivery": "shaken, angry at a mirror that learned to lie",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "He is not you. He is new.",
+     "ru": "Он не ты. Он новый.",
+     "delivery": "low, the fear said in four words",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dash",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "ruk",
+     "pos": "right"
+    }
+   ],
+   "art": "Chase between shelves, adults only. Dash at the LEFT runs with the lamp, braid back, both arms pumping, not touching anyone. Dan at the CENTRE skids, one hand on a shelf edge. Ruk at the RIGHT has appeared in the doorway, coat dark, both hands on the ledger, blocking the light. No child. No blood.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dash",
+     "en": "Was there a boy in this vault?",
+     "ru": "Был ли в этом хранилище мальчик?",
+     "delivery": "shouted over the shelves, a real question",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "There was a Silent. There was not a boy.",
+     "ru": "Был Безмолвный. Мальчика не было.",
+     "delivery": "running, refusing the word boy",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "silent",
+     "pos": "center"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Tight on Nad's smooth head. A second thin teal seam opens beside the first, still no eyes, no nose, no lips, no hair, no sockets. Exactly two seams, vertical. Dan at the RIGHT is small in the edge of frame, mouth open, both hands frozen. Teal light only on the seams. Black around.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "There was a boy.",
+     "ru": "Был мальчик.",
+     "delivery": "two voices now, one of them Dan's, the other thinner",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "What boy?",
+     "ru": "Какой мальчик?",
+     "delivery": "hoarse, one step from the answer he does not want",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "There were two boys.",
+     "ru": "Было два мальчика.",
+     "delivery": "the two seams sharing the sentence, almost gentle",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "right"
+    }
+   ],
+   "art": "Nad is gone. The shelf where he stood is empty, a teal smear fading. Dan at the LEFT stares at the empty brass, both hands open. Mira at the RIGHT holds his sleeve with two fingers, not a tangle, red cord on her other wrist. The lamp is steady. Quiet after the horror.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Two boys. What two boys?",
+     "ru": "Два мальчика. Какие два?",
+     "delivery": "lost, the question eating the joke he would usually make",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Count: 210.",
+     "ru": "Счёт: 210.",
+     "delivery": "flat, a number in the middle of a wound"
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "The shelf is empty. He is not.",
+     "ru": "Полка пустая. Он — нет.",
+     "delivery": "deadpan, pulling Dan's attention back",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "thorn",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Thorn at the LEFT closes the blank ledger with one hand, pen in the other. Dan at the RIGHT sits on the stone, back to a drawer, pencil in his right hand, left hand in his hair. The wet floor reflects the lamp. No second figure. Ochre, quiet.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Комната ответила. Дэн — нет. Вторая строка про двух мальчиков не складывается ни в одно лицо, которое он помнит."
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "There were two boys, dear. Not now.",
+     "ru": "Было два мальчика, дорогой. Не сейчас.",
+     "delivery": "the only kindness she allows, and it still sounds like a correction",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "silent",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Black. Nad at the LEFT is already half inside a shelf, smooth head, two teal seams, no eyes, no mouth, mustard scrap at the throat, one hand vanishing into brass. Dan at the RIGHT reaches and does not touch him, both feet planted. A blank red-framed window between them. No child.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "There was a boy. There were two boys.",
+     "ru": "Был мальчик. Было два мальчика.",
+     "delivery": "two voices, fading into the shelf, Dan's among them",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "What two boys?",
+     "ru": "Какие два мальчика?",
+     "delivery": "the last three words, small, no answer coming",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "Was there...? / There was",
+  "body": "Вопрос к комнате строится так: Was there a light? Were there footprints? Ответ — There was или There was not, а для многих — There were. Если вопрос правдив, место показывает, что в нём было. Was there — про одно. Were there — про несколько. Это не рассказ о себе, а протокол: пол, след, полка, строка.",
+  "examples": [
+   {
+    "en": "Was there a light here? There was not.",
+    "ru": "Был ли здесь свет? Не было."
+   },
+   {
+    "en": "Were there clues on the floor, dear?",
+    "ru": "Были ли на полу улики, дорогой?"
+   },
+   {
+    "en": "There were seven jars. The shelf is empty.",
+    "ru": "Было семь банок. Полка пустая."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Что команда читает на полу хранилища?",
+   "options": [
+    "Имя Лины",
+    "Три следа и мокрую метку",
+    "Телефон",
+    "Контракт Одессы"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Почему Дэн не может прочитать строку в книге вкладов?",
+   "options": [
+    "Строка для него пустая, Мира её видит, Система обрывает",
+    "Книга сгорела",
+    "Рук закрыл её",
+    "Там нет страниц"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Какую фразу Nad говорит впервые не цитатой Дэна?",
+   "options": [
+    "I am tired",
+    "I know doors",
+    "Dan is slow",
+    "I am not weak"
+   ],
+   "answer": 2
+  },
+  {
+   "q": "Чем он обрывает серию?",
+   "options": [
+    "Отдаёт банки",
+    "Просит прощения",
+    "Садится",
+    "Вторым швом: было два мальчика — и уходит в полку"
+   ],
+   "answer": 3
+  }
+ ]
+}

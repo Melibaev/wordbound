@@ -1,0 +1,683 @@
+{
+ "episode": "s2e09",
+ "unlocks": "s2e10",
+ "title": "The Empty Shelf",
+ "titleRu": "Пустая полка",
+ "trials": [
+  {
+   "id": "s2e09-t1",
+   "title": "Ask the Room",
+   "titleRu": "Спроси комнату",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Ask the room.",
+       "ru": "ЗАДАНИЕ: Спроси комнату."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "thorn",
+      "en": "Ask the room, dear.",
+      "ru": "Спроси комнату, дорогой."
+     },
+     {
+      "who": "dan",
+      "en": "Was there a light here? There was not.",
+      "ru": "Был ли здесь свет? Не было."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "The light.",
+      "ru": "Свет."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "___ there a light here?",
+     "options": [
+      "Was",
+      "Were",
+      "Is",
+      "Are"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "There was not.",
+      "ru": "Не было."
+     },
+     "fail": {
+      "who": "thorn",
+      "en": "Was, dear. One light.",
+      "ru": "Was, дорогой. Один свет."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dash",
+      "en": "The footprints.",
+      "ru": "Следы."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "___ there three footprints?",
+     "options": [
+      "Were",
+      "Was",
+      "Are",
+      "Is"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dash",
+      "en": "There were.",
+      "ru": "Было."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Were. Three. Not one.",
+      "ru": "Were. Три. Не один."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "mira",
+      "en": "Hear the floor.",
+      "ru": "Слушай пол."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "There was a wet mark. A clue.",
+     "voice": "mira",
+     "delivery": "quiet, dry, almost no air between the words",
+     "options": [
+      "There was a wet mark. A clue.",
+      "There were three footprints. Not mine.",
+      "The shelf is empty."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "A wet mark. A clue.",
+      "ru": "Мокрая метка. Улика."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "Not my footprint.",
+      "ru": "Не мой след."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "pip",
+      "en": "The small one.",
+      "ru": "Маленький."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "There was a small footprint. Strange.",
+      "There was a boy.",
+      "Dan is slow.",
+      "I am not weak."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Strange. Not yours.",
+      "ru": "Странный. Не твой."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "Not mine. I said it.",
+      "ru": "Не мой. Я сказал."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "system",
+      "en": "Say the shelf.",
+      "ru": "Скажи про полку."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Собери фразу."
+     },
+     "answer": "The shelf is empty",
+     "accept": [
+      "The shelf is empty"
+     ],
+     "success": {
+      "who": "system",
+      "en": "The shelf is empty.",
+      "ru": "Полка пустая."
+     },
+     "fail": {
+      "who": "thorn",
+      "en": "Empty, dear. Say it whole.",
+      "ru": "Пустая, дорогой. Скажи целиком."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "mira",
+      "en": "One word for the wet light on the floor.",
+      "ru": "Одно слово для мокрого света на полу."
+     },
+     "prompt": {
+      "en": "In English.",
+      "ru": "Напиши по-английски."
+     },
+     "answer": "clue",
+     "accept": [
+      "clue"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "A clue.",
+      "ru": "Улика."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Clue. Not a mark.",
+      "ru": "Улика. Не метка."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "There were seven jars. The shelf is empty.",
+       "ru": "Было семь банок. Полка пустая."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Seven jars. None on the shelf.",
+      "ru": "Семь банок. На полке нет ни одной."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2e09-t2",
+   "title": "The Line",
+   "titleRu": "Строка",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "warning",
+     "title": "WARNING",
+     "lines": [
+      {
+       "en": "Mira. Not now.",
+       "ru": "Мира. Не сейчас."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "There was a line here. I see it.",
+      "ru": "Здесь была строка. Я её вижу."
+     },
+     {
+      "who": "dan",
+      "en": "The line is empty.",
+      "ru": "Строка пустая."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "What does he see?",
+      "ru": "Что видит он?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "The line is empty. There was nothing.",
+      "There was a line here. I see it.",
+      "It is not empty.",
+      "Mira. Not now."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "thorn",
+      "en": "It is not empty, dear.",
+      "ru": "Она не пустая, дорогой."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "I see nothing. The line is empty.",
+      "ru": "Я ничего не вижу. Строка пустая."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "Hear the window. It is cold.",
+      "ru": "Слушай окно. Оно холодное."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Mira. Not now.",
+     "voice": "system",
+     "delivery": "flat, cutting the page, no warmth",
+     "options": [
+      "Mira. Not now.",
+      "Count: 210.",
+      "The shelf is empty."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Not now. I heard.",
+      "ru": "Не сейчас. Я слышала."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "She sees it. I do not.",
+      "ru": "Она видит. Я нет."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "thorn",
+      "en": "The mark.",
+      "ru": "Метка."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "There was a strange ___.",
+     "options": [
+      "mark",
+      "line",
+      "list",
+      "shelf"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Not a footprint.",
+      "ru": "Не след."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "A mark. Strange.",
+      "ru": "Метка. Странная."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dash",
+      "en": "The paper on the door.",
+      "ru": "Бумага на двери."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Собери фразу."
+     },
+     "answer": "There was a list",
+     "accept": [
+      "There was a list"
+     ],
+     "success": {
+      "who": "dash",
+      "en": "There was a list.",
+      "ru": "Был список."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "A list. Say it.",
+      "ru": "Список. Скажи."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "dan",
+      "en": "The floor is this.",
+      "ru": "Пол вот такой."
+     },
+     "prompt": {
+      "en": "In English.",
+      "ru": "Напиши по-английски."
+     },
+     "answer": "wet",
+     "accept": [
+      "wet"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "Wet. Yes.",
+      "ru": "Мокрый. Да."
+     },
+     "fail": {
+      "who": "thorn",
+      "en": "Wet, dear.",
+      "ru": "Мокрый, дорогой."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "silent",
+      "en": "The old lines.",
+      "ru": "Старые строки."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "I know walls. I know doors.",
+      "Dan is slow.",
+      "There were two boys.",
+      "I touch the jar."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "That one is mine. The old one.",
+      "ru": "Эта моя. Старая."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "He is not you.",
+      "ru": "Он не ты."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Count: 210.",
+       "ru": "Счёт: 210."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "My line is empty. Hers is not.",
+      "ru": "Моя строка пустая. Её — нет."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2e09-t3",
+   "title": "Not My Line",
+   "titleRu": "Не моя строка",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "status",
+     "title": "STATUS",
+     "lines": [
+      {
+       "en": "Count: 210.",
+       "ru": "Счёт: 210."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "silent",
+      "en": "Dan is slow.",
+      "ru": "Дэн медленный."
+     },
+     {
+      "who": "dan",
+      "en": "That is not my line.",
+      "ru": "Это не моя строка."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "mira",
+      "en": "Hear the new one. He did not live it.",
+      "ru": "Слушай новую. Он её не проживал."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Dan is slow.",
+     "voice": "silent",
+     "delivery": "Dan's voice used for a sentence he never said, hollow",
+     "options": [
+      "Dan is slow.",
+      "I am Dan. I am tired.",
+      "I am not weak."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Not my line.",
+      "ru": "Не моя строка."
+     },
+     "fail": {
+      "who": "silent",
+      "en": "I am Dan. I am tired.",
+      "ru": "Я Дэн. Я устал."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "Which line is new?",
+      "ru": "Какая строка новая?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "Dan is slow.",
+      "I know walls. I know doors.",
+      "I am not weak.",
+      "I am tired."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "He is new.",
+      "ru": "Он новый."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "The old lines are still old.",
+      "ru": "Старые строки всё ещё старые."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "silent",
+      "en": "The last thing in the shelf.",
+      "ru": "Последнее, что в полке."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "There ___ two boys.",
+     "options": [
+      "were",
+      "was",
+      "are",
+      "is"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Two. I heard two.",
+      "ru": "Два. Я слышал два."
+     },
+     "fail": {
+      "who": "thorn",
+      "en": "Were, dear. Two.",
+      "ru": "Were, дорогой. Два."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "Ask it. Do not answer it.",
+      "ru": "Спроси. Не отвечай."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Собери фразу."
+     },
+     "answer": "What two boys",
+     "accept": [
+      "What two boys"
+     ],
+     "success": {
+      "who": "dan",
+      "en": "What two boys?",
+      "ru": "Какие два мальчика?"
+     },
+     "fail": {
+      "who": "mira",
+      "en": "The shelf is empty. He is not.",
+      "ru": "Полка пустая. Он — нет."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "pip",
+      "en": "The floor word you do not like.",
+      "ru": "Слово про пол, которое тебе не нравится."
+     },
+     "prompt": {
+      "en": "In English.",
+      "ru": "Напиши по-английски."
+     },
+     "answer": "strange",
+     "accept": [
+      "strange"
+     ],
+     "success": {
+      "who": "pip",
+      "en": "Strange. Not mine.",
+      "ru": "Странный. Не мой."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Strange. Say it.",
+      "ru": "Странный. Скажи."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "thorn",
+      "en": "She stops the answer.",
+      "ru": "Она останавливает ответ."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "Not now.",
+      "The shelf is empty.",
+      "He is not you.",
+      "Count: 210."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "thorn",
+      "en": "Not now, dear.",
+      "ru": "Не сейчас, дорогой."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "There is a jar on the floor. I do not touch it.",
+      "ru": "На полу банка. Я её не касаюсь."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Count: 210. The shelf is empty.",
+       "ru": "Счёт: 210. Полка пустая."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "He is not in the shelf. The jar is still here.",
+      "ru": "Его нет в полке. Банка всё ещё здесь."
+     },
+     {
+      "who": "dan",
+      "en": "I see it. I do not touch it yet.",
+      "ru": "Я её вижу. Я ещё не касаюсь."
+     }
+    ]
+   }
+  }
+ ]
+}

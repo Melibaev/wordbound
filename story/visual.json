@@ -18,7 +18,11 @@
   "citizen": "an ordinary resident of Margin (any age or build, varied faces) in patched ash-grey, ochre and cream clothes with many pockets and rope-soled shoes; in crowds draw a mixed busy crowd, a few with ink-stained fingers, nobody in red",
   "hunter": "a Ledger bounty hunter, 30-year-old, broad and wiry, black leather coat with a hooded cowl, a coil of weighted rope over one shoulder, a brass hand-lantern with a narrow beam in one hand and a hooked pole in the other, lower face covered by a grey cloth mask, hard dark eyes",
   "clerk": "a Ledger clerk, 45-year-old thin man, 175 cm, hunched at a high desk, greyish skin, shaven head with a few ink stains, enormous round brass-rimmed spectacles that magnify his eyes, black sleeve-guards over a grey waistcoat, inky fingers, a rubber-stamp ring on his index finger. Default expression: bored politeness",
-  "odessa": "Odessa Marl (REFERENCE ONLY, first appears s2e11, do not draw earlier), 50-year-old woman, 172 cm, impeccably composed, high-collared black silk gown with a single small brass brooch shaped like balance scales, silver-streaked black hair swept into a smooth coil, ice-pale eyes, a thin gracious smile; perfectly still, hands folded, never raises her voice",
+  "odessa": "Odessa Marl, 50-year-old woman, 172 cm, impeccably composed, high-collared black coat-dress, thin brass-rimmed half-moon glasses on a chain, a single small brass brooch shaped like balance scales (no letters), silver-streaked black hair swept into a smooth coil, ice-pale eyes, a thin gracious smile that does not reach the eyes; perfectly still, hands folded, never raises her voice. Sepia memory in s2e10, in person from s2e11",
+  "dash": "Dash, sergeant of the Line, 28-year-old woman, long-legged runner's build, freckles, wind-blown copper-brown hair in a long braid, ash-grey short uniform jacket with one white horizontal stripe across the chest, a satchel, iron bracket-cuffs with no letters, always mid-stride. Default expression: breathless, alert",
+  "period": "Judge Period, 60-year-old man, short and square, bald, heavy brows, small round black glasses, ash-grey judge robe with a single large black round button at the collar, a black round stamp in his fist. Default expression: final. No letters on the robe or the stamp",
+  "tally": "Tally, 30-year-old woman, 170 cm, wiry, tan skin, black hair with one white streak, quick black eyes, a black-and-white patched cloak sewn with dozens of small stolen shiny objects (keys, buttons, spoons, no letters), fingerless white gloves, counting beads wound around her left hand, a sack of amber jars. Default expression: amused, calculating",
+  "bell": "Bell, an 8-year-old girl, small, fair skin, round face, straw-blonde hair in a neat bob, an expensive little ink-black coat with brass buttons, a tiny brass bell sewn to her collar. Fully clothed, ordinary child proportions, never posed for appeal. Default expression: curious, polite, a child's seriousness",
   "hob": "Hob, 62-year-old lift-keeper of the Gutter, 180 cm, broad and stooped, shaggy iron-grey hair and a short grey beard, oil-black hands, deep-set tired eyes under heavy brows. Patched dark-brown leather apron over a faded grey work shirt, rolled sleeves, a heavy iron wrench in one hand, a grease rag in his belt, a thick coil of cable over one shoulder. Default expression: grumpy, guarded, secretly kind"
  },
  "locations": {
@@ -70,6 +74,29 @@
   "s2e06:black": "pure near-black darkness with only the single described light source; no readable text",
   "s2e04:room": "Soup's kitchen in the Gutter in cold morning light: long low vaulted stone kitchen, scrubbed table, huge pot, brass lamp with a vermilion flame, three red circles on the plaster wall; no readable text",
   "s2e04:dungeon": "the Gutter canyon: a slot a few paces wide between two colossal stone columns, hundreds of lanterns on wires, patched tents, rope walkways and plank bridges high above, hollows under the columns with cold kettles; ochre and ash grey; no readable text",
-  "s2e04:black": "pure near-black darkness with only the single described light source; no readable text"
+  "s2e04:black": "pure near-black darkness with only the single described light source; no readable text",
+  "s2e07:street": "Clock District courtyard at dawn: giant clock faces of brass and stone with blank tick marks and no numerals, an open round vault door, hard cel shadows, cream and ochre; no readable text",
+  "s2e07:sky": "the Running Page: moving plank-lines hung on chains over a black vertical drop inside the Tower, rope rails, vermilion thread-light with no letters, deep blacks, city lamps far below",
+  "s2e07:black": "pure near-black darkness with only the single described light source; no readable text",
+  "s2e08:hall": "the Line court: a severe ash-grey hall ruled with thin straight lines, a high bench, hard cel shadows, deep blacks in the gallery; no letters anywhere",
+  "s2e08:black": "pure near-black darkness with only the single described light source; no readable text",
+  "s2e09:hall": "the Line court one second after the stamp, same ash-grey ruled hall, cuffs off, the door already in mind; no letters",
+  "s2e09:night-city": "Clock District at night outside the hour vault: a heavy round door with a brass ring under a giant dark clock face with no numerals; teal shadow in the cracks; no readable text",
+  "s2e09:dungeon": "the hour vault: a round brass-dark room, walls of locked drawers with no labels, wet stone floor, one ochre lamp, teal marks that are not letters, deep blacks",
+  "s2e09:black": "pure near-black darkness with only the single described light source; no readable text",
+  "s2e10:dungeon": "the hour vault a second after a Silent has stepped through a shelf: wet floor, brass drawers, one lamp; no readable text",
+  "s2e10:sky": "a narrow stone stair under an open drop near the top of Margin; the air shivers, sepia at the edges, real ochre light fighting the memory; no readable text",
+  "s2e10:white": "a memory in warm sepia paper tones with soft paper-grain edges: a hooded Keeper, a tall smooth-faced Silent, a still woman in black, a small child half-hidden; no labels, no letters",
+  "s2e10:hall": "the Line court the same day, ash-grey, a pale sepia memory playing small above an open hand; no letters",
+  "s2e10:street": "a Margin balcony street: laundry lines, ochre lamps, the Gutter a warm crack far below; no readable signs",
+  "s2e10:night-city": "the same balcony at evening, lamps coming on, a small figure in a black coat above; no readable text",
+  "s2e10:black": "pure near-black darkness with only the single described light source; no readable text",
+  "s2e11:street": "the balcony street at night, one second later: lamps, a small girl in a black coat, two adults frozen; no readable text",
+  "s2e11:hall": "the auction hall: round brass and dark wood, tiered seats, a central pedestal with nothing on it, blank cream sheets with brass seals and no letters, deep blacks",
+  "s2e11:black": "pure near-black darkness with only the single described light source; no readable text",
+  "s2e12:hall": "the auction hall collapsing: cracking beams, swinging brass lamps, vermilion sparks, a door-frame still straight, deep blacks; no readable text",
+  "s2e12:sky": "a door of warm light hanging in the shaft above the ruin, the first steps of a light stair, ochre rim light; no letters on the door",
+  "s2e12:dungeon": "rubble of the vault corner under the light stair: broken brass, one old glass jar with a blank label and no letters, teal and vermilion catching the glass",
+  "s2e12:black": "pure near-black darkness with only the single described light source; no readable text"
  }
 }

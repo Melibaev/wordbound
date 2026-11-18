@@ -1,0 +1,693 @@
+{
+ "episode": "s2e07",
+ "unlocks": "s2e08",
+ "title": "After the Page",
+ "titleRu": "После страницы",
+ "trials": [
+  {
+   "id": "s2e07-t1",
+   "title": "The Price",
+   "titleRu": "Цена",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "warning",
+     "title": "WARNING",
+     "lines": [
+      {
+       "en": "Warning. A true line has a price.",
+       "ru": "Предупреждение. У правдивой строки есть цена."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "mira",
+      "en": "The city laughs. We are the lowest team.",
+      "ru": "Город смеётся. Мы самая нижняя команда."
+     },
+     {
+      "who": "dan",
+      "en": "One bad step. Then the window.",
+      "ru": "Один плохой шаг. Потом окно."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "fill",
+     "story": {
+      "who": "thorn",
+      "en": "Say the first step, dear.",
+      "ru": "Скажи первый шаг, дорогой."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "First, Soup ___ the rope.",
+     "options": [
+      "holds",
+      "jumps",
+      "turns",
+      "left"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "soup",
+      "en": "I hold the rope.",
+      "ru": "Я держу канат."
+     },
+     "fail": {
+      "who": "thorn",
+      "en": "Holds, dear. First.",
+      "ru": "Держит, дорогой. Сначала."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dan",
+      "en": "What does the window take?",
+      "ru": "Что забирает окно?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "Not true. Price: 15 words.",
+      "Take my right hand.",
+      "I am Dash. Hands.",
+      "Title: First on the page."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "system",
+      "en": "Not true. Price: 15 words.",
+      "ru": "Неправда. Цена: 15 слов."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Not the hand. The words.",
+      "ru": "Не руку. Слова."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "pip",
+      "en": "Hear the early jump.",
+      "ru": "Слушай ранний прыжок."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "I jump first. Quickly.",
+     "voice": "pip",
+     "delivery": "fast, cheeky, a little loud, still grinning",
+     "options": [
+      "I jump first. Quickly.",
+      "I step carefully. Not together.",
+      "Your team does not pull together."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "Too fast. Not the step.",
+      "ru": "Слишком быстро. Не тот шаг."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "I jump. I do not listen.",
+      "ru": "Я прыгаю. Я не слушаю."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "mira",
+      "en": "One word for the team.",
+      "ru": "Одно слово для команды."
+     },
+     "prompt": {
+      "en": "In English.",
+      "ru": "Напиши по-английски."
+     },
+     "answer": "together",
+     "accept": [
+      "together"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "Together. Good.",
+      "ru": "Вместе. Хорошо."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "Together. Say it.",
+      "ru": "Вместе. Скажи."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "thorn",
+      "en": "The last step, dear.",
+      "ru": "Последний шаг, дорогой."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Собери фразу."
+     },
+     "answer": "Finally pull together",
+     "accept": [
+      "Finally pull together"
+     ],
+     "success": {
+      "who": "dan",
+      "en": "Finally. Together.",
+      "ru": "Наконец. Вместе."
+     },
+     "fail": {
+      "who": "thorn",
+      "en": "Finally, dear. Not first.",
+      "ru": "Наконец, дорогой. Не сначала."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "How do we pull?",
+      "ru": "Как мы тянем?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "Finally, pull ___.",
+     "options": [
+      "quickly",
+      "carefully",
+      "left",
+      "first"
+     ],
+     "answer": 1,
+     "success": {
+      "who": "mira",
+      "en": "Carefully. Then the thread.",
+      "ru": "Осторожно. Потом нить."
+     },
+     "fail": {
+      "who": "soup",
+      "en": "Carefully. I step carefully.",
+      "ru": "Осторожно. Я шагаю осторожно."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Sentence: 9 words. True.",
+       "ru": "Предложение: 9 слов. Правда."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "First, hold. Then jump. Next, turn left. Finally, pull.",
+      "ru": "Сначала держи. Потом прыжок. Дальше налево. Наконец тяни."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2e07-t2",
+   "title": "The Thread",
+   "titleRu": "Нить",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "quest",
+     "title": "QUEST",
+     "lines": [
+      {
+       "en": "QUEST: Say the steps.",
+       "ru": "ЗАДАНИЕ: Скажи шаги."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "thorn",
+      "en": "First, you listen, dear. Then you step.",
+      "ru": "Сначала слушай, дорогой. Потом шагай."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "Hear the teacher.",
+      "ru": "Слушай учительницу."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Next, Pip turns left. Finally, pull together.",
+     "voice": "narration",
+     "delivery": "quiet, precise, a teacher placing each word",
+     "options": [
+      "Next, Pip turns left. Finally, pull together.",
+      "First, Soup holds the rope. Then Mira jumps.",
+      "I turn left. I turn right."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "pip",
+      "en": "Left. I can do left.",
+      "ru": "Налево. Налево я могу."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "That is the next step. Listen.",
+      "ru": "Это следующий шаг. Слушай."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "pip",
+      "en": "Left or right?",
+      "ru": "Налево или направо?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "Right is not the step.",
+      "I jump first.",
+      "The city laughs.",
+      "Take my right hand."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dan",
+      "en": "One turn. Left.",
+      "ru": "Один поворот. Налево."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "Right is not the step.",
+      "ru": "Направо — не тот шаг."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "mira",
+      "en": "My step.",
+      "ru": "Мой шаг."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "Then Mira ___.",
+     "options": [
+      "jumps",
+      "holds",
+      "turns",
+      "left"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "I jump.",
+      "ru": "Я прыгаю."
+     },
+     "fail": {
+      "who": "thorn",
+      "en": "Jumps, dear. Then.",
+      "ru": "Прыгает, дорогой. Потом."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "Nine words. Say the short one.",
+      "ru": "Девять слов. Скажи короткую."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Собери фразу."
+     },
+     "answer": "First hold then jump",
+     "accept": [
+      "First hold then jump"
+     ],
+     "success": {
+      "who": "system",
+      "en": "Sentence: 9 words. True.",
+      "ru": "Предложение: 9 слов. Правда."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "First. Then. Not together.",
+      "ru": "Сначала. Потом. Не вместе."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "soup",
+      "en": "I do not jump. I do this.",
+      "ru": "Я не прыгаю. Я делаю это."
+     },
+     "prompt": {
+      "en": "In English.",
+      "ru": "Напиши по-английски."
+     },
+     "answer": "carefully",
+     "accept": [
+      "carefully"
+     ],
+     "success": {
+      "who": "soup",
+      "en": "Carefully. Yes.",
+      "ru": "Осторожно. Да."
+     },
+     "fail": {
+      "who": "thorn",
+      "en": "Carefully, dear.",
+      "ru": "Осторожно, дорогой."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "ruk",
+      "en": "My team does not jump.",
+      "ru": "Моя команда не прыгает."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "Your team does not pull together.",
+      "I am Dash.",
+      "Hands. Now.",
+      "The page is mine."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Together. That is the word.",
+      "ru": "Вместе. Вот слово."
+     },
+     "fail": {
+      "who": "ruk",
+      "en": "We pull. We win.",
+      "ru": "Мы тянем. Мы побеждаем."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Count: 180. Rank: PHRASE.",
+       "ru": "Счёт: 180. Ранг: PHRASE."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "The thread is on us.",
+      "ru": "Нить на нас."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2e07-t3",
+   "title": "The Open Hand",
+   "titleRu": "Открытая ладонь",
+   "pass": 0.8,
+   "lives": 3,
+   "intro": {
+    "window": {
+     "kind": "status",
+     "title": "STATUS",
+     "lines": [
+      {
+       "en": "Title: First on the page.",
+       "ru": "Титул: первый на странице."
+      },
+      {
+       "en": "Count: 180.",
+       "ru": "Счёт: 180."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dan",
+      "en": "Take my right hand.",
+      "ru": "Возьми мою правую руку."
+     },
+     {
+      "who": "ruk",
+      "en": "Cheap.",
+      "ru": "Дёшево."
+     }
+    ]
+   },
+   "steps": [
+    {
+     "type": "match",
+     "story": {
+      "who": "mira",
+      "en": "The page used these.",
+      "ru": "Страница использовала эти слова."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Соедини слово и смысл."
+     },
+     "pairs": [
+      [
+       "jump",
+       "прыжок"
+      ],
+      [
+       "left",
+       "налево"
+      ],
+      [
+       "pull",
+       "тянуть"
+      ],
+      [
+       "team",
+       "команда"
+      ]
+     ],
+     "success": {
+      "who": "dan",
+      "en": "Four words. They worked.",
+      "ru": "Четыре слова. Они сработали."
+     },
+     "fail": {
+      "who": "pip",
+      "en": "Team. Not a rich team.",
+      "ru": "Команда. Не богатая."
+     }
+    },
+    {
+     "type": "listen",
+     "story": {
+      "who": "dan",
+      "en": "Hear what he does with the hand.",
+      "ru": "Слушай, что он делает с рукой."
+     },
+     "prompt": {
+      "en": "Listen.",
+      "ru": "Послушай и выбери."
+     },
+     "audio_text": "Cheap. I do not take it.",
+     "voice": "narration",
+     "delivery": "cold, polite, a young man refusing in public",
+     "options": [
+      "Cheap. I do not take it.",
+      "Take my right hand.",
+      "We win. Look at the board."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "ruk",
+      "en": "I do not take it.",
+      "ru": "Я её не беру."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "The hand stays open.",
+      "ru": "Ладонь остаётся открытой."
+     }
+    },
+    {
+     "type": "fill",
+     "story": {
+      "who": "dan",
+      "en": "Which hand?",
+      "ru": "Какая рука?"
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Найди верное слово."
+     },
+     "sentence": "Take my ___ hand.",
+     "options": [
+      "right",
+      "left",
+      "cheap",
+      "first"
+     ],
+     "answer": 0,
+     "success": {
+      "who": "mira",
+      "en": "Right. Open. Empty.",
+      "ru": "Правая. Открытая. Пустая."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "Right. Not left.",
+      "ru": "Правая. Не левая."
+     }
+    },
+    {
+     "type": "type",
+     "story": {
+      "who": "ruk",
+      "en": "One word for his help.",
+      "ru": "Одно слово на его помощь."
+     },
+     "prompt": {
+      "en": "In English.",
+      "ru": "Напиши по-английски."
+     },
+     "answer": "Cheap",
+     "accept": [
+      "Cheap"
+     ],
+     "success": {
+      "who": "mira",
+      "en": "Cheap. Remember it.",
+      "ru": "Дёшево. Запомни."
+     },
+     "fail": {
+      "who": "ruk",
+      "en": "Cheap. Say it right.",
+      "ru": "Дёшево. Скажи правильно."
+     }
+    },
+    {
+     "type": "choose",
+     "story": {
+      "who": "dash",
+      "en": "The city stops.",
+      "ru": "Город замирает."
+     },
+     "prompt": {
+      "en": "Find the right word.",
+      "ru": "Какой ответ верный?"
+     },
+     "options": [
+      "I am Dash. Hands. Now.",
+      "Finally, pull together.",
+      "I jump first.",
+      "The city laughs."
+     ],
+     "answer": 0,
+     "success": {
+      "who": "dash",
+      "en": "Hands. Now.",
+      "ru": "Руки. Сейчас."
+     },
+     "fail": {
+      "who": "dan",
+      "en": "We win. Look at the board.",
+      "ru": "Мы победили. Смотри на доску."
+     }
+    },
+    {
+     "type": "build",
+     "story": {
+      "who": "dan",
+      "en": "Say what the page is, and what it is not.",
+      "ru": "Скажи, что твоё на странице, а что нет."
+     },
+     "prompt": {
+      "en": "Find the words.",
+      "ru": "Собери фразу."
+     },
+     "answer": "The page is mine",
+     "accept": [
+      "The page is mine"
+     ],
+     "success": {
+      "who": "dan",
+      "en": "The page is mine.",
+      "ru": "Страница моя."
+     },
+     "fail": {
+      "who": "mira",
+      "en": "The page. Not the hands.",
+      "ru": "Страница. Не руки."
+     }
+    }
+   ],
+   "outro": {
+    "window": {
+     "kind": "reward",
+     "title": "REWARD",
+     "lines": [
+      {
+       "en": "Count: 180. Rank: PHRASE.",
+       "ru": "Счёт: 180. Ранг: PHRASE."
+      }
+     ]
+    },
+    "story": [
+     {
+      "who": "dash",
+      "en": "Walk. We are not done.",
+      "ru": "Иди. Мы не закончили."
+     },
+     {
+      "who": "dan",
+      "en": "My hands are not mine now.",
+      "ru": "Мои руки сейчас не мои."
+     }
+    ]
+   }
+  }
+ ]
+}

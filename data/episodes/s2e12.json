@@ -1,0 +1,872 @@
+{
+ "id": "s2e12",
+ "title": "What Are You Doing?",
+ "titleRu": "Что ты делаешь?",
+ "level": "A1",
+ "newWords": [
+  "hold",
+  "carry",
+  "keep",
+  "let",
+  "safe",
+  "name",
+  "own",
+  "choose",
+  "brave",
+  "real"
+ ],
+ "panels": [
+  {
+   "bg": "hall",
+   "mood": "action",
+   "sfx": "CRACK",
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "ruk",
+     "pos": "center"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "The auction hall coming apart, adults only, no child, no unconscious body. Dan at the LEFT braces a door-frame with both hands, feet planted, pencil behind his ear. Ruk at the CENTRE sets his shoulder beside the frame, both gloved hands on the wood, not on Dan, a vermilion shield-glow with no letters on his coat. Nad at the RIGHT, three teal seams, smooth head, no eyes, no nose, no lips, no hair, pushes air with open hands, not touching them. Beams crack. Deep blacks.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Зал складывается. Chorus глушит приказы его же голосом. Дверь держится только пока Дэн не замолкает."
+    },
+    {
+     "type": "shout",
+     "who": "silent",
+     "en": "I did not leave. I did not leave.",
+     "ru": "Я не уходил. Я не уходил.",
+     "delivery": "three voices hammering the sentence, blocking every order",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "ruk",
+     "pos": "right"
+    }
+   ],
+   "art": "The brace, adults only, no child. Dan at the LEFT locks both hands on the door-frame, feet planted, pencil behind his ear. Ruk at the RIGHT holds the other jamb, gloves on the wood, not on Dan, vermilion shield-glow with no letters. A crack in the beam above them. Deep blacks.",
+   "lines": [
+    {
+     "type": "shout",
+     "who": "dan",
+     "en": "I am holding the door.",
+     "ru": "Я держу дверь.",
+     "delivery": "strained, the sentence is the brace, he keeps it going",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "Shield. I am holding too.",
+     "ru": "Щит. Я тоже держу.",
+     "delivery": "grunted, unasked, surprised at his own sentence",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "left"
+    },
+    {
+     "id": "silent",
+     "pos": "center"
+    },
+    {
+     "id": "bell",
+     "pos": "right"
+    }
+   ],
+   "art": "A standing stone arch, stable, no falling beams, no blood. Mira at the LEFT carries a small hooded figure against her chest, both arms under the hood, red cord on her left wrist, the hood fully up so no face shows, a scrap of red cord on the small figure's left wrist. Bell at the RIGHT stands fully clothed in her black coat, both feet on solid floor, both hands in front of her, eight years old, ordinary, not afraid of a corpse because there is none. Nad is not in this frame. Warm lamp inside the arch.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Mira is carrying the child. We are not letting go.",
+     "ru": "Мира несёт ребёнка. Мы не отпускаем.",
+     "delivery": "from the door, loud, keeping the sentence true",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I am carrying her. Do not let go.",
+     "ru": "Я её несу. Не отпускай.",
+     "delivery": "tight, to herself as much as to him",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "bell",
+     "en": "Are you keeping us safe?",
+     "ru": "Вы держите нас в безопасности?",
+     "delivery": "a serious child, polite, the bell on her collar still",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "action",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "thorn",
+     "pos": "center"
+    },
+    {
+     "id": "ruk",
+     "pos": "right"
+    }
+   ],
+   "art": "Back at the cracking door, no children. Thorn at the CENTRE stands under Dan's arm without touching his hands, pen pointing at the frame, cane in the other hand. Dan at the LEFT still holds with both palms. Ruk at the RIGHT holds the other side, gloves white against black wood. Vermilion thread along the frame, no letters. Nad's teal light presses from the dark.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "You are holding it, dear. Keep holding.",
+     "ru": "Ты держишь, дорогой. Продолжай держать.",
+     "delivery": "the model sentence, calm in the noise, a conductor",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am keeping her safe. It is real.",
+     "ru": "Я держу её в безопасности. Это по-настоящему.",
+     "delivery": "teeth clenched, a joke he needs",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "I am keeping the shield. It is real.",
+     "ru": "Я держу щит. Он настоящий.",
+     "delivery": "echoing Dan, less mockery than he wants",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "silent",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Nad at the LEFT, three seams, smooth head, no eyes, steps back as the vermilion on the door brightens. His two hands drop. Dan at the RIGHT is shaking, still holding, sweat, both arms locked. No child. The door holds. Teal only on Nad.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "I am Dan. I am not weak.",
+     "ru": "Я Дэн. Я не слабый.",
+     "delivery": "the old quote, weaker, the chorus fraying",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "You are not holding the door. I am.",
+     "ru": "Дверь держишь не ты. Держу я.",
+     "delivery": "the difference, said like a measurement",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "True. While he holds, the door holds.",
+     "ru": "Правда. Пока он держит, дверь держит.",
+     "delivery": "flat rule, the Channel stated without a name"
+    }
+   ]
+  },
+  {
+   "bg": "hall",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "Nad turns away into a crack of dark above the ruin, three seams still, no eyes, one hand on the broken wall, the other empty. Dan at the LEFT lets his arms fall, pale, breath gone, both hands open and empty. The door-frame stands. No child. No body on the floor.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Пока фраза правда, дверь стоит. Дэн отпускает её — и Nad уже выше, в трещине. Победа стоит дыхания и не стоит поимки."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I let go of the door. He is going up.",
+     "ru": "Я отпускаю дверь. Он идёт наверх.",
+     "delivery": "spent, angry at the price, not at Ruk",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "We did not let go of the child.",
+     "ru": "Ребёнка мы не отпустили.",
+     "delivery": "from the arch, firm, the difference she will keep",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "bell",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "center"
+    },
+    {
+     "id": "thorn",
+     "pos": "right"
+    }
+   ],
+   "art": "A quiet intact corner, lamps steady, no wreckage in frame. Bell at the LEFT, fully clothed, coat buttoned, both hands holding her own collar bell, eight years old, serious, ordinary proportions, not posed. Dan at the CENTRE kneels so his eyes are level with hers, both hands on his own knees, not touching her. Thorn at the RIGHT stands back, pen down. Warm ochre. Safe.",
+   "lines": [
+    {
+     "type": "narration-ru",
+     "ru": "Имя не отнимают. Его спрашивают. Девочка в пальто стоит в целом углу, далеко от рухнувшего зала."
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "What do you like? Be brave. Choose.",
+     "ru": "Что тебе нравится? Будь храброй. Выбери.",
+     "delivery": "gentle, no pressure, an engineer asking a person",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "bell",
+     "en": "I like bells. I choose. I am Bell.",
+     "ru": "Мне нравятся колокольчики. Я выбираю. Я Белл.",
+     "delivery": "clear, a child deciding, proud and polite",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "She chooses. The name is real, dear.",
+     "ru": "Она выбирает. Имя настоящее, дорогой.",
+     "delivery": "soft approval, the grammar checked and true",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "silent",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "bell",
+     "pos": "right"
+    }
+   ],
+   "art": "The hooded figure at the LEFT, hood still fully up, face not shown, no human mouth, scrap of red cord on the left wrist, both hands at the sides, a small flinch becoming still. Mira at the CENTRE has tears and a helpless almost-smile, hands open, not grabbing. Bell at the RIGHT watches, fully clothed, curious, safe. Ochre room. No violence.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "True. No one owns the name.",
+     "ru": "Правда. Именем никто не владеет.",
+     "delivery": "flat, a lock opening somewhere offscreen"
+    },
+    {
+     "type": "speech",
+     "who": "bell",
+     "en": "I am Bell. I am brave. I am safe.",
+     "ru": "Я Белл. Я храбрая. Я в безопасности.",
+     "delivery": "trying the words, pleased they fit",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "I am Lina.",
+     "ru": "Я Лина.",
+     "delivery": "a real girl's voice from under the hood, small, the first time it is hers",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "room",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "left"
+    },
+    {
+     "id": "silent",
+     "pos": "right"
+    }
+   ],
+   "art": "Close two-shot. Mira at the LEFT cries without hiding it, one hand over her own mouth, the other at her side, red cord bright. The hood at the RIGHT stays up, no face, the red scrap on the left wrist lifted a little, both hands visible and separate, they do not clasp. Warm light. Quiet. No sexualization, no bare skin, a sister hearing a name.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "Say it. Keep the name.",
+     "ru": "Скажи. Держи имя.",
+     "delivery": "broken open, still not a soft speech, just the order she can manage",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "silent",
+     "en": "I am Lina. The name is mine.",
+     "ru": "Я Лина. Имя моё.",
+     "delivery": "stronger, still from the hood, a person arriving",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "She is real. We do not own her name.",
+     "ru": "Она настоящая. Мы не владеем её именем.",
+     "delivery": "off-frame, quiet, not taking the moment",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "mira",
+     "pos": "center"
+    },
+    {
+     "id": "ruk",
+     "pos": "right"
+    }
+   ],
+   "art": "A door of warm light hangs in the shaft above the ruin, no letters on it, the first steps of a light stair. Dan at the LEFT, Mira at the CENTRE, Ruk at the RIGHT, all standing, no children in this frame, each with hands at their sides, looking up. Ochre rim light, deep black drop behind. Wind in the coats.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "thorn",
+     "en": "What are you doing, dear?",
+     "ru": "Что ты делаешь, дорогой?",
+     "delivery": "the floor's question in her mouth, precise",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "I am going up. I am taking my family.",
+     "ru": "Я иду наверх. Я беру свою семью.",
+     "delivery": "the vow said as a present action, not a future tense",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "I am keeping Lina. I am carrying her.",
+     "ru": "Я держу Лину. Я её несу.",
+     "delivery": "short, the longest promise she will make tonight",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "soup",
+     "pos": "left"
+    },
+    {
+     "id": "pip",
+     "pos": "center"
+    },
+    {
+     "id": "ruk",
+     "pos": "right"
+    }
+   ],
+   "art": "The same light door, a lighter beat. Soup at the LEFT holds his pot in both hands like luggage. Pip at the CENTRE stands on a stone, chest out, cap on, both hands on his hips, unhurt. Ruk at the RIGHT looks offended to be in the line, arms folded, gloves clean. No danger in the pose. Warm stair light.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "soup",
+     "en": "I am carrying the soup. It is real.",
+     "ru": "Я несу суп. Он настоящий.",
+     "delivery": "slow, deeply serious about the pot",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "pip",
+     "en": "I am keeping the words. I am brave.",
+     "ru": "Я держу слова. Я храбрый.",
+     "delivery": "fast, grinning, the brave said to make Ruk scowl",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "ruk",
+     "en": "I own nothing. I am still here.",
+     "ru": "Мне ничего не принадлежит. Я всё ещё здесь.",
+     "delivery": "dry, the admission costing him, chin down",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "center"
+    }
+   ],
+   "art": "Dan alone under the light door, a blank cream System window with a double vermilion frame in front of him, slightly tilted. He is pale, both hands open, the stair reflected in his glasses. No text on the door. Deep black around the light.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "True. Count: 300. Rank up: CLAUSE.",
+     "ru": "Правда. Счёт: 300. Новый ранг: CLAUSE.",
+     "delivery": "flat promotion, the biggest number said like a receipt"
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "Again? I was here. Was I?",
+     "ru": "Снова? Я здесь был. Был?",
+     "delivery": "the old question, smaller, he is afraid of the answer",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "left"
+    },
+    {
+     "id": "thorn",
+     "pos": "right"
+    }
+   ],
+   "art": "The window stays. Dan at the LEFT reads it with his mouth parted. Thorn at the RIGHT has gone very still, pen forgotten in one hand, the other on the cane, eyes on him not the window. The light stair waits. No child.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "You were here. Five years ago.",
+     "ru": "Ты был здесь. Пять лет назад.",
+     "delivery": "flat, the long answer starting, no drama"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "You were nineteen.",
+     "ru": "Тебе было девятнадцать.",
+     "delivery": "the number alone, colder than a shout"
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "What did I do here?",
+     "ru": "Что я здесь сделал?",
+     "delivery": "whisper, the joke gone, a man meeting a hole",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "sky",
+   "mood": "calm",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "center"
+    }
+   ],
+   "art": "The System window fills the frame, cream paper, double vermilion border, blank inside, Dan's face small beneath it, glasses, no bandage, pencil behind the right ear. His hands hang. The stair glows behind the paper. Still. No text drawn.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "Ask me when you have 600 words.",
+     "ru": "Спроси, когда будет 600 слов.",
+     "delivery": "the old formula, patient, not kind"
+    },
+    {
+     "type": "system",
+     "who": "system",
+     "en": "It is a long answer. It needs the past.",
+     "ru": "Это длинный ответ. Ему нужно прошлое.",
+     "delivery": "flat, closing the file, past said as a place"
+    },
+    {
+     "type": "narration-ru",
+     "ru": "Past здесь — не «половина» как в half past. Это прошлое. Этаж его ещё не отдал. Счёт 300, а дыра в памяти уже открыта."
+    }
+   ]
+  },
+  {
+   "bg": "dungeon",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "mira",
+     "pos": "left"
+    },
+    {
+     "id": "dan",
+     "pos": "right"
+    }
+   ],
+   "art": "Rubble of a vault corner under the stair, quiet, no body. Mira at the LEFT lifts an old glass jar with both hands, blank label, no letters, a faint vermilion spark inside. Dan at the RIGHT leans in, one hand reaching and stopping, the other at his side. They do not touch the same jar at once. Teal and ochre in the glass.",
+   "lines": [
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "From Dan. And a word.",
+     "ru": "От Дэна. И слово.",
+     "delivery": "reading, then stopping, the next sound not a word",
+     "place": {
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "mira",
+     "en": "...",
+     "ru": "...",
+     "delivery": "the word becomes a rustle of paper, she hears it, he does not",
+     "place": {
+      "x": 0.56,
+      "y": 0.04,
+      "w": 0.4,
+      "tail": "down-left"
+     }
+    },
+    {
+     "type": "speech",
+     "who": "dan",
+     "en": "What name? I do not hear it.",
+     "ru": "Какое имя? Я не слышу.",
+     "delivery": "straining, only the rustle, angry at his own ears",
+     "place": {
+      "x": 0.02,
+      "y": 0.27999999999999997,
+      "w": 0.42,
+      "tail": "down-right"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "black",
+   "mood": "tense",
+   "sfx": null,
+   "cast": [
+    {
+     "id": "dan",
+     "pos": "center"
+    }
+   ],
+   "art": "Black. Dan's face lit only by the jar's vermilion spark and a blank warning window, solid red frame, no text. His mouth is open on nothing. Both hands empty. Pencil behind the right ear. No child. The spark does not form a letter.",
+   "lines": [
+    {
+     "type": "system",
+     "who": "system",
+     "en": "He does not hear that word.",
+     "ru": "Он не слышит этого слова.",
+     "delivery": "flat, final, the rustle left in the dark"
+    }
+   ]
+  }
+ ],
+ "grammarNote": {
+  "title": "I am holding: пока держишь",
+  "body": "Present continuous здесь не вспышка на секунду, а удержание. I am holding the door — дверь стоит, только пока фраза правда. I am carrying, I am keeping, we are not letting go работают так же. Was и were возвращаются в конце: You were here. You were nineteen. Слово past в окне — прошлое, не «половина» из half past. Let go значит «отпустить».",
+  "examples": [
+   {
+    "en": "I am holding the door.",
+    "ru": "Я держу дверь."
+   },
+   {
+    "en": "You are holding it, dear. Keep holding.",
+    "ru": "Ты держишь, дорогой. Продолжай держать."
+   },
+   {
+    "en": "You were here. Five years ago.",
+    "ru": "Ты был здесь. Пять лет назад."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Как Дэн удерживает дверь против Chorus?",
+   "options": [
+    "Ударом щита",
+    "Пока правда фраза I am holding the door",
+    "Словом STOP",
+    "Телефоном"
+   ],
+   "answer": 1
+  },
+  {
+   "q": "Как освобождается имя LINA?",
+   "options": [
+    "Его забирают силой",
+    "Одесса дарит его",
+    "Девочка сама выбирает: I am Bell",
+    "Суд приказывает"
+   ],
+   "answer": 2
+  },
+  {
+   "q": "Что Система говорит про «снова»?",
+   "options": [
+    "Ты был здесь пять лет назад, тебе было девятнадцать",
+    "Ты никогда здесь не был",
+    "Спроси маму",
+    "Nad — это ты"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Чем кончается сезон?",
+   "options": [
+    "Дэн идёт домой",
+    "Рук садится",
+    "Телефон молчит навсегда",
+    "На банке слово от Дэна, и он его не слышит"
+   ],
+   "answer": 3
+  }
+ ]
+}

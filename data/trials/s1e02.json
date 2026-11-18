@@ -17,7 +17,7 @@
      "lines": [
       {
        "en": "QUEST: Know this room.",
-       "ru": "ЗАДАНИЕ: Узнай эту комнату."
+       "ru": "ЗАДАНИЕ: Эта комната. Та дверь — нет."
       },
       {
        "en": "This room is safe. That door is not.",
@@ -43,7 +43,7 @@
      },
      "prompt": {
       "en": "Find the word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Лампа у тебя в руке. This или that?"
      },
      "sentence": "___ lamp is here, with me.",
      "options": [
@@ -60,7 +60,7 @@
      "fail": {
       "who": "mira",
       "en": "Here, with me: this.",
-      "ru": "Здесь, рядом, — this."
+      "ru": "Не та лампа. This — та, что в руке."
      }
     },
     {
@@ -72,7 +72,7 @@
      },
      "prompt": {
       "en": "Find the word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Имя на дальней стене. This или that?"
      },
      "sentence": "___ is a name. Far, on the wall.",
      "options": [
@@ -89,7 +89,7 @@
      "fail": {
       "who": "mira",
       "en": "Far is that. Here is this.",
-      "ru": "Далеко — that. Рядом — this."
+      "ru": "Не то имя. That — на дальней стене."
      }
     },
     {
@@ -97,11 +97,11 @@
      "story": {
       "who": "dan",
       "en": "A key, a lamp, a wall. Know them.",
-      "ru": "Ключ, лампа, стена. Знай их."
+      "ru": "Ключ. Лампа. Стена. Без них эта клетка — просто яма."
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Четыре метки. Сопоставь."
+      "ru": "Ключ, свет, стена, имя. Сверь метки, пока лампа жива."
      },
      "pairs": [
       [
@@ -141,7 +141,7 @@
      },
      "prompt": {
       "en": "Find the word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Свет — тоже слово. Какой артикль: «___ light is a word»?"
      },
      "sentence": "___ light is a word.",
      "options": [
@@ -158,7 +158,7 @@
      "fail": {
       "who": "mira",
       "en": "One lamp, one light. The light.",
-      "ru": "Одна лампа, один свет. The light."
+      "ru": "Свет один. The light. Иначе лампа тухнет."
      }
     },
     {
@@ -170,7 +170,7 @@
      },
      "prompt": {
       "en": "Mira says...",
-      "ru": "Мира. Два-три слова. Что она скажет?"
+      "ru": "Почему эта клетка безопасна? Что она ответит?"
      },
      "options": [
       "Silents stay out of the light.",
@@ -285,7 +285,7 @@
      },
      "prompt": {
       "en": "What is it?",
-      "ru": "Что несёт голос?"
+      "ru": "За дверью кто-то говорит твоим голосом. Что он сказал?"
      },
      "audio_text": "Open the door.",
      "voice": "silent",
@@ -316,7 +316,7 @@
      },
      "prompt": {
       "en": "Which voice is Dan?",
-      "ru": "Два голоса. Один — ловушка. Какой — Дэн?"
+      "ru": "Два голоса. Один — ты. Другой — ловушка. Какой Дэн?"
      },
      "clips": [
       {
@@ -355,7 +355,7 @@
      },
      "prompt": {
       "en": "Mira says...",
-      "ru": "Мира. Два-три слова. Что она скажет?"
+      "ru": "Он украл твой голос. Что она на это скажет?"
      },
      "options": [
       "That is not you.",
@@ -383,7 +383,7 @@
      },
      "prompt": {
       "en": "What is it?",
-      "ru": "Окно Системы. Что оно несёт?"
+      "ru": "Система про того, кто снаружи. Что в окне?"
      },
      "audio_text": "It is out there. It is never tired.",
      "voice": "system",
@@ -429,7 +429,7 @@
      "fail": {
       "who": "mira",
       "en": "'Stay in the light.' The light. Not a light.",
-      "ru": "«Stay in the light». The light, не a light."
+      "ru": "Не то. Свет — единственная стена. Stay in the light."
      }
     }
    ],
@@ -497,7 +497,7 @@
      },
      "prompt": {
       "en": "What is it?",
-      "ru": "Что несёт голос?"
+      "ru": "Детский голос за дверью. Что он сказал?"
      },
      "audio_text": "It is cold.",
      "voice": "silent",
@@ -528,7 +528,7 @@
      },
      "prompt": {
       "en": "What is it in English?",
-      "ru": "Мира белеет. Какая фраза: «Мира знает этот голос»?"
+      "ru": "Мира побелела. Какая фраза про этот голос?"
      },
      "options": [
       "Mira knows that voice.",
@@ -556,7 +556,7 @@
      },
      "prompt": {
       "en": "Find the word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Тонкий голос, но это не ребёнок. Какой артикль?"
      },
      "sentence": "That is ___ Silent with a little voice.",
      "options": [
@@ -585,7 +585,7 @@
      },
      "prompt": {
       "en": "In English.",
-      "ru": "Имени нет. Мира даёт новое. Напиши его."
+      "ru": "Имени нет. Она даёт новое. Напиши его."
      },
      "answer": "Zero",
      "accept": [

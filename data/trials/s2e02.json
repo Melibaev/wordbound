@@ -40,11 +40,11 @@
      "story": {
       "who": "mira",
       "en": "Ask it right, Zero.",
-      "ru": "Спрашивай правильно, Зеро."
+      "ru": "Спроси так, чтобы Линия услышала. Не как в школе — как сейчас."
      },
      "prompt": {
       "en": "What is the right sentence?",
-      "ru": "Какая фраза верная?"
+      "ru": "Спроси про него правильно. Какой вопрос?"
      },
      "options": [
       "Is he winning?",
@@ -60,7 +60,7 @@
      "fail": {
       "who": "mira",
       "en": "Is first. Is he winning?",
-      "ru": "Is — первым. Is he winning?"
+      "ru": "Is he winning? Is первым. Линия это слышит."
      }
     },
     {
@@ -72,7 +72,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Они ржут. What ___ you doing — какое слово?"
      },
      "sentence": "What ___ you doing, Zero?",
      "options": [
@@ -89,7 +89,7 @@
      "fail": {
       "who": "system",
       "en": "What are you doing. Are first.",
-      "ru": "What are you doing. Are — первым."
+      "ru": "What are you doing. Are на месте. Они ржут."
      }
     },
     {
@@ -101,7 +101,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Улица спрашивает про него. Now или always?"
      },
      "audio_text": "What is he doing now?",
      "voice": "mira",
@@ -132,7 +132,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери вопрос Дэна: «Вы смеётесь надо мной?»"
+      "ru": "Они ржут над тобой. Собери вопрос: «Вы смеётесь надо мной?»"
      },
      "answer": "Are you laughing at me",
      "distractors": [
@@ -147,7 +147,7 @@
      "fail": {
       "who": "system",
       "en": "Are you laughing. Are first.",
-      "ru": "Are you laughing. Are — первым."
+      "ru": "Are you laughing. Are первым. Не дай им дешёвый вопрос."
      }
     },
     {
@@ -159,7 +159,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши: «Я не проигрываю»."
+      "ru": "Линия давит. Напиши: я не проигрываю."
      },
      "answer": "I am not losing",
      "success": {
@@ -170,7 +170,7 @@
      "fail": {
       "who": "mira",
       "en": "I am not losing. Am not.",
-      "ru": "I am not losing. Am not."
+      "ru": "I am not losing. Am not. Пока ты это говоришь — ты ещё в игре."
      },
      "accept": [
       "i'm not losing"
@@ -181,11 +181,11 @@
      "story": {
       "who": "mira",
       "en": "Four words from the Line.",
-      "ru": "Четыре слова от Линии."
+      "ru": "Выигрыш, богатый, бедный, смех. Линия это любит."
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Соедини слово и перевод."
+      "ru": "Win, rich, poor, laugh. Сверь, пока пальто ещё близко."
      },
      "pairs": [
       [
@@ -277,7 +277,7 @@
      },
      "prompt": {
       "en": "What is the answer?",
-      "ru": "Что правда сейчас?"
+      "ru": "Он смотрит не на тебя. Что правда сейчас?"
      },
      "options": [
       "He is looking at the crowd now.",
@@ -305,7 +305,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Его правило. Always или never в пропуске?"
      },
      "sentence": "Ruk ___ waits. He attacks first.",
      "options": [
@@ -334,7 +334,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "Не на тебя. Какое слово в конце: now?"
      },
      "sentence": "He is not looking at me ___.",
      "options": [
@@ -363,7 +363,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "Система про его взгляд. Что сказано?"
      },
      "audio_text": "He is not looking at me now.",
      "voice": "system",
@@ -394,7 +394,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери фразу: «Он всегда атакует первым»."
+      "ru": "Старое правило про Рука. Собери: «Он всегда атакует первым»."
      },
      "answer": "He always attacks first",
      "distractors": [
@@ -421,7 +421,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши слово: «никогда»."
+      "ru": "Он не ждёт. Напиши слово: никогда."
      },
      "answer": "never",
      "success": {
@@ -496,7 +496,7 @@
      },
      "prompt": {
       "en": "What is he wearing?",
-      "ru": "Что он носит?"
+      "ru": "Сорок купленных слов на нём. Что он носит?"
      },
      "options": [
       "He is wearing a coat of words.",
@@ -524,7 +524,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Выбери нужное слово."
+      "ru": "У тебя шнурок, не пальто. Какое слово в пропуске?"
      },
      "sentence": "I am ___ wearing a coat. I am wearing a lanyard.",
      "options": [
@@ -553,7 +553,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Послушай и выбери."
+      "ru": "В его руке треснувший телефон. Что он сказал?"
      },
      "audio_text": "Is this your phone? Cheap.",
      "voice": "narration",
@@ -584,7 +584,7 @@
      },
      "prompt": {
       "en": "Put the words in place.",
-      "ru": "Собери вопрос Дэна: «Что ты делаешь?»"
+      "ru": "Это мамин телефон. Собери вопрос: «Что ты делаешь?»"
      },
      "answer": "What are you doing",
      "distractors": [
@@ -599,7 +599,7 @@
      "fail": {
       "who": "system",
       "en": "What are you doing. Are after what.",
-      "ru": "What are you doing. Are — после what."
+      "ru": "What are you doing. Are после what. Телефон у него в руке."
      }
     },
     {
@@ -611,7 +611,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Напиши: «Это мой телефон»."
+      "ru": "Не орёт — говори. Напиши: это мой телефон."
      },
      "answer": "That is my phone",
      "success": {

@@ -298,6 +298,33 @@
    "file": "episodes/s2e06.json"
   },
   {
+   "id": "s2e07",
+   "season": 2,
+   "n": 7,
+   "title": "The Proof",
+   "titleRu": "Корректура",
+   "level": "A1",
+   "file": "episodes/s2e07.json"
+  },
+  {
+   "id": "s2e08",
+   "season": 2,
+   "n": 8,
+   "title": "Where Were You?",
+   "titleRu": "Где ты был?",
+   "level": "A1",
+   "file": "episodes/s2e08.json"
+  },
+  {
+   "id": "s2e09",
+   "season": 2,
+   "n": 9,
+   "title": "There Was a Boy",
+   "titleRu": "Там был мальчик",
+   "level": "A1",
+   "file": "episodes/s2e09.json"
+  },
+  {
    "id": "s2e10",
    "season": 2,
    "n": 10,

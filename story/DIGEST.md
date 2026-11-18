@@ -170,3 +170,37 @@ Rank scale: Blank 0 (Br10) / Letter 1 (Br10) / Word 25 (Br15) / Phrase 100 (Br25
 - The Clock gate "remembers visitors until tomorrow": Dan said his name there. At 3 a.m. NAD (tall Silent, Dan's voice) stands at the hour vault door: "I am Dan." -> "Name heard: Dan. The hour vault opens." He steals seven amber hour jars. Pip: "That is not Dan. That is Nad." Rooftop chase; Nad slips into a bridge shadow, one jar cracks (golden light). Nad lines: "I am Dan. I am not weak. I am tired."
 - Cliffhanger: dawn, watchman: "It is him. He says his name every time." System: "Warning. Dan is wanted."
 - Missed calls stays 14. New chars: none (citizen = gate warden/watchman).
+## s2e07 The Proof (16p, A1, Count 180, MC 14)
+- Same dawn as s2e06. Watchman still pointing, city laughs. System pulls the Proof off Friday: "Warning. The Proof begins now."
+- Public fail: Pip jumps first, Soup will not match him. System: "Not true. Price: 15 words. Count: 150."
+- Thorn, two lines: "First, Soup holds the rope. Then Mira jumps." / "Next, Pip turns left. Finally, pull together." Dan's stitch is exactly 9 words: "First, hold. Then jump. Next, turn left. Finally, pull." System: "Sentence: 9 words. True." Vermilion thread, no letters. They pass Ruk. Dan: "Take my right hand." Ruk: "Cheap. I do not take it."
+- System: "Count: 180. Rank: PHRASE." "Title: First on the page."
+- Cliff, first was/were of the season, two short lines, Dash: "You were at the vault." / "Last night." Iron cuffs. "I am Dash. Hands. Now." MC 14.
+## s2e08 Where Were You? (16p, A1, Count 195, MC 14)
+- Opens on Dash's line, Proof crowd already in the Line court. Judge Period ends every sentence with "Period." Witness: a true was/were leaves a pale print. Two prints, both true: Dan was asleep in the kitchen; the voice was at the vault. Only -ed is "wanted" ("He was wanted"), not a narrative past. No was-questions (those are s2e09).
+- Thorn: "I was with him, dear. He was not alone." Period strikes the name: "The Index has no Dan. Period." System: "The gates do not know that name."
+- Mira: "It was not Dan. It was Nad." Later, louder: "It was Nad. I was there."
+- System: "New word: WITNESS." "WITNESS is yours now. Count: 195."
+- Cliff: "Bring Nad. One day. Period." MC 14. New on-screen: period.
+## s2e09 There Was a Boy (16p, A1, Count 210, MC 14)
+- Before the day ends. Dash: "One day. This is the vault." Was/were questions light the room: wet floor, three footprints, empty shelf, strange teal mark, a list. No did, no narrative -ed.
+- Keeper ledger: a line Mira sees and Dan cannot. He sees an empty gap in public. System: "Mira. Not now."
+- Nad quotes only real old lines ("I know walls. I know doors." / "I am Dan. I am tired." / "I am not weak.") then the first rearrangement: "Dan is slow."
+- Cliff: a second teal seam, still no eyes, no nose, no lips. "There was a boy. There were two boys." He goes into the shelf. Dan: "What two boys?" Count: 210. MC 14.
+## s2e10 Yesterday (16p, A1, Count 235, MC 14)
+- Dan touches a jar; a true regular -ed opens sepia. Theft frames have no child. Thorn: "She visited the Keeper, dear. She asked." "He wanted words. She wanted a name." Odessa picked the name up and carried it to the 8-year-old she is raising.
+- Court watches. Period: "The court watched it. Not guilty. Period." Dash: the gates know Dan again.
+- Cost, said without kill/knew/didn't: "A return of the name leaves her zero." Ruk: "I visited her street. I carried the quiet." Mira: "He owned the quiet."
+- System: "You touched yesterday. Count: 235." "The name is not a return. It lives."
+- Cliff: the girl, fully clothed, not called Bell: "Hello. I am Lina. Who are you?" The hood flinches. MC 14. On-screen: odessa (memory), bell (cast; she still says she is Lina).
+## s2e11 The Auction (16p, A1, Count 262, MC 31)
+- The auction is a trap: empty pedestal, no child's-name lot. Odessa, no if/will: "You teach my people. You own nothing." "The phone is the pay. A return is a promise." Dan: "I do not agree. I refuse the offer." System: "The offer is closed. The return is not yours."
+- She slips into a stranger's voice: "Dan. Eat." Ruk: "Mother." Odessa: "You are a number, Ansel. Sit." Ruk: "I do not sit. I do not agree."
+- Tally dumps the hour-jars into Nad. Phone returns. System: "The phone is yours. Missed calls: 31." "Count: 262." Thorn: "Did we refuse the contract, dear? We did."
+- Nad becomes Chorus: three teal seams, smooth head, no eyes, no hair, no nose, no lips. Cliff, a sentence Dan never lived: "I did not leave." System: "Not true. He did not say it."
+## s2e12 What Are You Doing? (16p, A1, Count 300, MC 31)
+- The hall comes apart. Channel: while the sentence is true, the door holds. Dan: "I am holding the door." Ruk, unasked: "Shield. I am holding too." "Mira is carrying the child. We are not letting go." Child panels are a standing arch and a quiet intact room, separate from the collapse. Dan lets the door go; Nad goes up. Mira: "We did not let go of the child."
+- The girl chooses, fully clothed, safe: "I like bells. I choose. I am Bell." System: "True. No one owns the name." (active; not a passive). Hood stays up, still drawn as Silent, no human face: "I am Lina."
+- Thorn, not the System, asks for the floor door: "What are you doing, dear?" Dan: "I am going up. I am taking my family." Present continuous, not going-to. No will, no if.
+- System: "True. Count: 300. Rank up: CLAUSE." Then: "You were here. Five years ago." "You were nineteen." Dan: "What did I do here?" "Ask me when you have 600 words." "It is a long answer. It needs the past." (past = the past, not half past.) MC stays 31.
+- Cliff: Mira, jar, "From Dan. And a word." then "..." Dan cannot hear it. System: "He does not hear that word." The word is never printed. Bell is the name the child chose. No new cast id.

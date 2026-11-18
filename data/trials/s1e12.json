@@ -48,7 +48,7 @@
      },
      "prompt": {
       "en": "What does it mean?",
-      "ru": "Define. Какое слово он держит?"
+      "ru": "Одна мать, один отец. Какое слово он держит?"
      },
      "options": [
       "sister",
@@ -77,7 +77,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Лина — чья сестра? Mira's или Dan's?"
      },
      "sentence": "Lina is ___ sister.",
      "options": [
@@ -106,7 +106,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Она говорит это не тебе. Что она сказала Лине?"
      },
      "audio_text": "Lina. I am your sister. I am here.",
      "voice": "mira",
@@ -133,11 +133,11 @@
      "story": {
       "who": "mira",
       "en": "More words. Sister words.",
-      "ru": "Ещё слова. Сестринские слова."
+      "ru": "Сестра. Вместе. То же. Учить. Пока слово ещё держится."
      },
      "prompt": {
       "en": "Find the words.",
-      "ru": "Четыре метки. Сопоставь."
+      "ru": "Together, same, teach, answer. Сверь, пока слово ещё держится."
      },
      "pairs": [
       [
@@ -177,7 +177,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Одна семья. Means или mean?"
      },
      "sentence": "It ___ we are together.",
      "options": [
@@ -194,7 +194,7 @@
      "fail": {
       "who": "system",
       "en": "It means we are together.",
-      "ru": "It means. -s на месте."
+      "ru": "It means. С -s. Иначе слово не вернётся."
      }
     },
     {
@@ -206,7 +206,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Мира ждёт это слово. Напиши его."
+      "ru": "Она ждёт это слово вслух. Напиши его."
      },
      "answer": "sister",
      "accept": [
@@ -285,7 +285,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Он понял про банки. Что он сказал?"
      },
      "audio_text": "You give, and you still have it.",
      "voice": "keeper",
@@ -316,7 +316,7 @@
      },
      "prompt": {
       "en": "What does it mean?",
-      "ru": "Какое значение верное?"
+      "ru": "Together. Какое значение здесь правда?"
      },
      "options": [
       "Two or more people, one way.",
@@ -344,7 +344,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Ты учишь — она… Какой глагол?"
      },
      "sentence": "I teach. She ___. Nobody loses.",
      "options": [
@@ -361,7 +361,7 @@
      "fail": {
       "who": "system",
       "en": "She learns. From you.",
-      "ru": "She learns. Учится — с -s."
+      "ru": "She learns. С -s. Банки это ненавидят."
      }
     },
     {
@@ -373,7 +373,7 @@
      },
      "prompt": {
       "en": "What does it mean?",
-      "ru": "Какое значение верное?"
+      "ru": "Hundred. Какое значение не врёт?"
      },
      "options": [
       "Ten and ten and ten... ten times ten.",
@@ -428,7 +428,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Титул на кону. Одно слово — учить."
+      "ru": "Титул на кону. Напиши глагол: учить."
      },
      "answer": "teach",
      "success": {
@@ -511,7 +511,7 @@
      },
      "prompt": {
       "en": "Which voice is Dan?",
-      "ru": "Два «I am Dan». Какой — настоящий?"
+      "ru": "Два «I am Dan». Какой — ты?"
      },
      "clips": [
       {
@@ -550,7 +550,7 @@
      },
      "prompt": {
       "en": "Listen.",
-      "ru": "Голос. Что он сказал?"
+      "ru": "Голос сверху. Это мама или Башня? Что сказано?"
      },
      "audio_text": "Come up, Dan. Mom waits, because you learn.",
      "voice": "narration",
@@ -581,7 +581,7 @@
      },
      "prompt": {
       "en": "Find the right word.",
-      "ru": "Пропуск. Закрой его."
+      "ru": "Голос мамин. Чей он на самом деле? Mother's или Mira's?"
      },
      "sentence": "The Tower has your ___ voice.",
      "options": [
@@ -637,7 +637,7 @@
      },
      "prompt": {
       "en": "What is the answer?",
-      "ru": "Система отвечает. Что она сказала?"
+      "ru": "Ты спросил «почему я». Что ответила Система?"
      },
      "options": [
       "Because you learn every word.",
@@ -665,7 +665,7 @@
      },
      "prompt": {
       "en": "Write it in English.",
-      "ru": "Свет сверху. Напиши путь."
+      "ru": "Свет сверху. Напиши путь: мы идём вверх."
      },
      "answer": "We go up",
      "accept": [
